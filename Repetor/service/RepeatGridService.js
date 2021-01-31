@@ -1,1 +1,0 @@
-function RepeatGrid(t){t&&(this._rg=t,this.rows=t.numRows,this.cols=t.numColumns,this.cellContent={},this._data={})}module.exports=RepeatGrid;

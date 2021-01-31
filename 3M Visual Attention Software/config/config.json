@@ -1,6 +1,0 @@
-{
-    "baseApiUrl": "https://vasapi.3m.com",
-    "baseIdentityUrl": "https://auth.cbg.3m.com",
-    "baseUiUrl": "https://vas.3m.com",
-    "buildNumber": 20201214.2
-}

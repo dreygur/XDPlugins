@@ -1,1 +1,0 @@
-const Helpers=require("../util/helpers");function GenerateService(){this.View="partial/generate/view"}GenerateService.prototype.GetView=function(){return Helpers.GetHtmlTemplate(this.View)},module.exports=new GenerateService;
