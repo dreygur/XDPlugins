@@ -1,0 +1,29 @@
+{
+  "id" : "6875f347",
+  "author": "Marcus Wingate",
+  "name": "Spec Notes 1",
+  "version": "1.0.0",
+  "host": {
+      "app": "XD",
+      "minVersion": "21.0"
+  },
+  "icons": [
+      {
+          "width": 24,
+          "height": 24,
+          "path": "images/icon@1x.png"
+      },
+      {
+          "width": 48,
+          "height": 48,
+          "path": "images/icon@2x.png"
+      }
+  ],
+  "uiEntryPoints": [
+      {
+          "type": "panel",
+          "label": "Spec Notes 1",
+          "panelId": "specNotes"
+      }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "summary" : "On screen Panel of Colors",
+  "languages" : [ "en" ],
+  "author" : "Hossein Sedighian",
+  "name" : "My Color Panel",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "description" : 
+  " With this plugin you have access to some color libraries.\n\t- material design colors \n\t- flat colors \n\t- Css Colors \n\t- white and black color range \n Use Eye Droper (i) to pick your Colors Quickly ",
+  "website": "http://savedata.xyz/?from=adobe-xd-cc&ref=xd-my-color-panel",
+  "helpUrl" : "xyz.savedata@gmail.com",
+  "keywords": [
+    "panel",
+    "color",
+    "picker",
+    "library",
+    "material",
+    "flat",
+    "css",
+    "html",
+    "gray",
+    "shade"
+  ],
+  "id" : "cea5be9c",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon@3x.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon@4x.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon@5x.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "My Color Panel",
+    "type" : "panel",
+    "panelId" : "MyColorPanel"
+  } ],
+  "version" : "1.0.2"
+}

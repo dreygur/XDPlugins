@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>text-justify</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M44,16a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2H4a2,2,0,0,1,2-2H42a2,2,0,0,1,2,2Z"/>
+      <path d="M44,8a2,2,0,0,1-2,2H6A2,2,0,0,1,4,8H4A2,2,0,0,1,6,6H42a2,2,0,0,1,2,2Z"/>
+      <path d="M44,32a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2H4a2,2,0,0,1,2-2H42a2,2,0,0,1,2,2Z"/>
+      <path d="M44,24a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2H4a2,2,0,0,1,2-2H42a2,2,0,0,1,2,2Z"/>
+      <path d="M44,40a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2H4a2,2,0,0,1,2-2H42a2,2,0,0,1,2,2Z"/>
+    </g>
+  </g>
+</svg>

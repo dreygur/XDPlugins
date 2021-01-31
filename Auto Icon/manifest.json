@@ -1,0 +1,62 @@
+{
+  "id": "39889b82",
+  "author": "UX Plugins",
+  "name": "Auto Icon",
+  "version": "1.1.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "26.0"
+  },
+  "description": "Auto Icon is the largest Icon Library for Professionals. Search 17000 FREE SVG Icons between 8 Popular Icon Libraries like: -FontAwesome -Bootstrap Icon -Material UI Icon -Feather Icon -Ionic -Simple Icon -Weather icon Search by Icon name, and Just Drag & Drop to your design :) These FREE vector Icons are Simple, high-quality designs & Customizable.  You can easily change the size, color, etc",
+  "summary": "17000+ FREE SVG Icons",
+  "website": "https://uxplugins.com/auto-icon",
+  "languages": [
+    "en"
+  ],
+  "keywords": [
+    "icon",
+    "svg",
+    ""
+  ],
+  "helpUrl": "uxplugins@gmail.com",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon0x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon1x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon2x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon3x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon4x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Auto Icon",
+      "panelId": "autoicon"
+    },
+    {
+      "type": "menu",
+      "label": "Register",
+      "commandId": "register"
+    }
+  ],
+  "releaseNotes": "- Initial release with +17000 SVG Icons"
+}

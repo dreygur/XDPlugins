@@ -1,0 +1,46 @@
+{
+  "name": "Text to Clipbord",
+  "summary" : "Copy multiple texts",
+  "website" : "https://www.coffee-break-designs.com/production/text-to-clipbord/",
+  "keywords" : [ "text", "Clipboard", "copy", "multiple" ],
+  "languages" : [ "en", "ja"],
+  "author" : "Wada Minoru",
+  "description" : "Copy multiple texts to the clipboard.",
+  "helpUrl" : "https://www.coffee-break-designs.com/production/text-to-clipbord/",
+  "main" : "main.js",
+  "icons" : [ {
+    "path" : "images/icon48x48.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon96x96.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon144x144.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon192x192.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "version" : "1.0.2",
+  "releaseNotes" : "SHOW DIALOG",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "id" : "daa6643c",
+  "uiEntryPoints" : [
+    {
+      "label" : "Text to Clipbord",
+      "type" : "menu",
+      "commandId" : "normalCopy",
+      "shortcut": {
+        "mac": "Cmd+Alt+C",
+        "win": "Ctrl+Alt+C"
+      }
+    }
+  ]
+}

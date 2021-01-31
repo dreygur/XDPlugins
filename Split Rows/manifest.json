@@ -1,0 +1,33 @@
+{
+  "id": "276c46a9",
+  "name": "Split Rows",
+  "author": "sttk3.com",
+  "version":"2.0.3",
+  "icons": [
+    { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+    { "width": 96, "height": 96, "path": "images/icon@2x.png" }
+  ],
+  "host":{
+    "app":"XD",
+    "minVersion":"17.0"
+  },
+  "uiEntryPoints":[
+    {
+      "type":"menu",
+      "label":"Split Rows",
+      "menuItems":[
+        {
+          "type":"menu",
+          "label":"Split Simple",
+          "commandId":"splitRowsSimple"
+        }, 
+        {
+          "type":"menu",
+          "label":"Split Preserve Appearance",
+          "commandId":"splitRowsPreserveAppearance"
+        }
+        
+      ]
+    }
+  ]
+}

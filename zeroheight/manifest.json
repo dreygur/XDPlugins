@@ -1,0 +1,61 @@
+{
+  "id": "be8a1b2e",
+  "author": "zeroheight team",
+  "name": "zeroheight",
+  "version": "1.1.4",
+  "host": {
+    "app": "XD",
+    "minVersion": "22.0"
+  },
+  "description": "Create an awesome design system site using your XD components and styles",
+  "summary": "Create a design system site",
+  "releaseNotes": "Add the ability to switch login types",
+  "keywords": [
+    "design system",
+    "styleguide",
+    "tokens",
+    "components",
+    "library",
+    "documentation",
+    "guidelines",
+    "pattern",
+    "design language"
+  ],
+  "languages": ["en"],
+  "website": "https://www.zeroheight.com",
+  "helpUrl": "https://help.zeroheight.com/share/Eh0d6pGfMIV2vwA_ozzLBQ/101/p/61810b",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon@3x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon@4x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon@5x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "zeroheight",
+      "panelId": "zeroheight"
+    }
+  ]
+}

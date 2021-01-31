@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1413" viewBox="0 0 1920 1413">
+  <defs>
+    <filter id="background" x="1342" y="40" width="548" height="1008" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Whiteboard_Exercise_Canvas_Template">
+      <rect width="1920" height="1413"/>
+    </clipPath>
+  </defs>
+  <g id="Whiteboard_Exercise_Canvas_Template" data-name="Whiteboard Exercise Canvas Template" clip-path="url(#clip-Whiteboard_Exercise_Canvas_Template)">
+    <rect width="1920" height="1413" fill="#f8f8f8"/>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">次の構造をベースとして使用すれば、</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">UX</tspan><tspan y="0">デザインのホワイトボードエクササイズをスムーズに実行できます。</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">ホワイトボードエクササイズのキャンバス</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-111.536" y="0">2020</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">年</tspan><tspan y="0">3</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">月</tspan><tspan y="0">24</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">日</tspan></text>
+      <text id="プロジェクト名" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-111.52" y="0">プロジェクト名</tspan></text>
+    </g>
+    <rect id="Rectangle_147640" data-name="Rectangle 147640" width="1800" height="120" transform="translate(60 180)" fill="none" stroke="#101010" stroke-width="4"/>
+    <path id="Path_60859" data-name="Path 60859" d="M0,0H900V500H0Z" transform="translate(60 300)" fill="#fff" stroke="#101010" stroke-width="4"/>
+    <path id="Path_60860" data-name="Path 60860" d="M0,0H900V500H0Z" transform="translate(60 800)" fill="#fff" stroke="#101010" stroke-width="4"/>
+    <rect id="Rectangle_147648" data-name="Rectangle 147648" width="900" height="1000" transform="translate(960 300)" fill="#fff" stroke="#101010" stroke-width="4"/>
+    <g id="Step_Label_Element" data-name="Step Label Element" transform="translate(100 220)">
+      <g id="step">
+        <rect id="background_color_fill_" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#ffd86f"/>
+        <text id="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-8.813" y="0">01</tspan></text>
+      </g>
+      <text id="label-2" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">エクササイズの目標</tspan></text>
+    </g>
+    <g id="Step_Label_Element-2" data-name="Step Label Element" transform="translate(100 340)">
+      <g id="step-2" data-name="step">
+        <rect id="background_color_fill_2" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#ffac80"/>
+        <text id="label-3" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-8.813" y="0">02</tspan></text>
+      </g>
+      <text id="label-4" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">ユーザーペルソナ</tspan></text>
+    </g>
+    <g id="Step_Label_Element-3" data-name="Step Label Element" transform="translate(100 840)">
+      <g id="step-3" data-name="step">
+        <rect id="background_color_fill_3" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#7ee1ff"/>
+        <text id="label-5" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-8.813" y="0">03</tspan></text>
+      </g>
+      <text id="label-6" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">問題スペース</tspan></text>
+    </g>
+    <g id="Step_Label_Element-4" data-name="Step Label Element" transform="translate(1000 840)">
+      <g id="step-4" data-name="step">
+        <rect id="background_color_fill_4" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#26cc2c"/>
+        <text id="label-7" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-8.813" y="0">05</tspan></text>
+      </g>
+      <text id="label-8" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">課題解決スペース</tspan></text>
+    </g>
+    <text id="_エクササイズの最終的な目的は何ですか_セッションが成功に終了したとして_それは_なぜ成功したのですか_" data-name="・エクササイズの最終的な目的は何ですか？
+・セッションが成功に終了したとして、それは、なぜ成功したのですか？" transform="translate(480.001 236)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Regular, Source Han Sans JP"><tspan x="0" y="0">・エクササイズの最終的な目的は何ですか？</tspan><tspan y="0" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="28">・セッションが成功に終了したとして、それは、なぜ成功したのですか？</tspan></text>
+    <text id="_どのユーザーグループを検討していますか_主なペルソナはどんなユーザーですか_このペルソナのユーザーが現在行っている行動は何ですか_どうして_" data-name="・どのユーザーグループを検討していますか？
+・主なペルソナはどんなユーザーですか？
+・このペルソナのユーザーが現在行っている行動は何ですか？どうして？" transform="translate(100.001 400)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Regular, Source Han Sans JP"><tspan x="0" y="16">・どのユーザーグループを検討していますか？</tspan><tspan y="16" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="44">・主なペルソナはどんなユーザーですか？</tspan><tspan y="44" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="72">・このペルソナのユーザーが現在行っている行動は何ですか？どうして？</tspan></text>
+    <text id="_仮説を検証するために_何を_どのように作成しますか_課題解決に伴い_ユーザーが体験する最適な旅程は何ですか_ユーザーが目標を達成するためにたどる幸せな道筋は何ですか_" data-name="・仮説を検証するために、何を、どのように作成しますか？
+・課題解決に伴い、ユーザーが体験する最適な旅程は何ですか？
+・ユーザーが目標を達成するためにたどる幸せな道筋は何ですか？
+" transform="translate(1000.001 900)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Regular, Source Han Sans JP"><tspan x="0" y="16">・仮説を検証するために、何を、どのように作成しますか？</tspan><tspan y="16" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="44">・課題解決に伴い、ユーザーが体験する最適な旅程は何ですか？</tspan><tspan y="44" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="72">・ユーザーが目標を達成するためにたどる幸せな道筋は何ですか？</tspan><tspan y="72" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan></text>
+    <text id="_使用状況は_物理的な空間_提供された情報_制約など_何がデバイスや技術的な制約となりそうですか_課題解決の背後にあるビジネス目標は何ですか_" data-name="・使用状況は？ （物理的な空間、提供された情報、制約など）
+・何がデバイスや技術的な制約となりそうですか？
+・課題解決の背後にあるビジネス目標は何ですか？
+" transform="translate(100.001 900)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Regular, Source Han Sans JP"><tspan x="0" y="16">・使用状況は？</tspan><tspan y="16" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> </tspan><tspan y="16">（物理的な空間、提供された情報、制約など）</tspan><tspan y="16" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="44">・何がデバイスや技術的な制約となりそうですか？</tspan><tspan y="44" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="72">・課題解決の背後にあるビジネス目標は何ですか？</tspan><tspan y="72" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan></text>
+    <text id="_どうやって_これが正しい会話であると判断しますか_どのように成功を測定しますか_" data-name="・どうやって、これが正しい会話であると判断しますか？
+・どのように成功を測定しますか？" transform="translate(1140.001 236)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Regular, Source Han Sans JP"><tspan x="0" y="0">・どうやって、これが正しい会話であると判断しますか？</tspan><tspan y="0" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="28">・どのように成功を測定しますか？</tspan></text>
+    <line id="Line_28" data-name="Line 28" x2="820" transform="translate(100 518)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <line id="Line_31" data-name="Line 31" x2="820" transform="translate(1000 1018)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <line id="Line_29" data-name="Line 29" x2="820" transform="translate(100 1021)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <g id="Post-It_Element" data-name="Post-It Element" transform="translate(100 558)">
+      <rect id="background_color_fill_5" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-9" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-2" data-name="Post-It Element" transform="translate(1000 1058)">
+      <rect id="background_color_fill_6" data-name="background [color_fill]" width="180" height="140" fill="#26cc2c"/>
+      <text id="label-10" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-2" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-3" data-name="Post-It Element" transform="translate(100 1061)">
+      <rect id="background_color_fill_7" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-11" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="15">Write a note here..</tspan></text>
+      <rect id="sticker-3" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-4" data-name="Post-It Element" transform="translate(100 1061)">
+      <rect id="background_color_fill_8" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-12" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-4" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-5" data-name="Post-It Element" transform="translate(300 558)">
+      <rect id="background_color_fill_9" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-13" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-5" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-6" data-name="Post-It Element" transform="translate(1200 1058)">
+      <rect id="background_color_fill_10" data-name="background [color_fill]" width="180" height="140" fill="#26cc2c"/>
+      <text id="label-14" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-6" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-7" data-name="Post-It Element" transform="translate(1400 1058)">
+      <rect id="background_color_fill_11" data-name="background [color_fill]" width="180" height="140" fill="#26cc2c"/>
+      <text id="label-15" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-7" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-8" data-name="Post-It Element" transform="translate(300 1061)">
+      <rect id="background_color_fill_12" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-16" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-8" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-9" data-name="Post-It Element" transform="translate(500 1061)">
+      <rect id="background_color_fill_13" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-17" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-9" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-10" data-name="Post-It Element" transform="translate(500 558)">
+      <rect id="background_color_fill_14" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-18" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-10" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Group_68091" data-name="Group 68091" transform="translate(-180 -560)">
+      <text id="Whiteboard_Exercise_Canvas" data-name="Whiteboard Exercise Canvas" transform="translate(239.999 1908)" fill="#101010" font-size="11" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="0">Whiteboard Exercise Canvas</tspan></text>
+      <text id="https:_uxdesign.cc_practical-whiteboarding-for-ux-designers-2329d6e7d254" data-name="https://uxdesign.cc/practical-whiteboarding-for-ux-designers-2329d6e7d254" transform="translate(239.999 1927)" fill="#101010" font-size="11" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700" opacity="0.345"><tspan x="0" y="0">https://uxdesign.cc/practical-whiteboarding-for-ux-designers-2329d6e7d254</tspan></text>
+      <text id="Designed_by_Christian_Silva" data-name="Designed by Christian Silva" transform="translate(699.999 1908)" fill="#101010" font-size="11" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="0">Designed by Christian Silva</tspan></text>
+      <text id="https:_www.linkedin.com_in_christiansilvaluna_" data-name="https://www.linkedin.com/in/christiansilvaluna/" transform="translate(699.999 1927)" fill="#101010" font-size="11" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700" opacity="0.345"><tspan x="0" y="0">https://www.linkedin.com/in/christiansilvaluna/</tspan></text>
+    </g>
+    <path id="Path_60939" data-name="Path 60939" d="M0,0H900V500H0Z" transform="translate(960 300)" fill="#fff" stroke="#101010" stroke-width="4"/>
+    <g id="Step_Label_Element-5" data-name="Step Label Element" transform="translate(1000 340)">
+      <g id="step-5" data-name="step">
+        <rect id="background_color_fill_15" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#ff80ac"/>
+        <text id="label-19" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-8.813" y="0">04</tspan></text>
+      </g>
+      <text id="label-20" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">仮説</tspan></text>
+    </g>
+    <text id="_ユーザー_ビジネス_テクノロジーについて_どのような仮説をたてていますか_検証する仮説を1つ_または2つ選択するとしたら_どの仮説が妥当でしょうか_どうやって仮説を検証しますか_" data-name="・ユーザー、ビジネス、テクノロジーについて、どのような仮説をたてていますか？
+・検証する仮説を1つ、または2つ選択するとしたら、どの仮説が妥当でしょうか。
+・どうやって仮説を検証しますか？
+" transform="translate(1000.001 400)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Regular, Source Han Sans JP"><tspan x="0" y="16">・ユーザー、ビジネス、テクノロジーについて、どのような仮説をたてていますか？</tspan><tspan y="16" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="44">・検証する仮説を</tspan><tspan y="44" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">1</tspan><tspan y="44">つ、または</tspan><tspan y="44" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">2</tspan><tspan y="44">つ選択するとしたら、どの仮説が妥当でしょうか。</tspan><tspan y="44" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="72">・どうやって仮説を検証しますか？</tspan><tspan y="72" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan></text>
+    <line id="Line_145" data-name="Line 145" x2="820" transform="translate(1000 523)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <g id="Post-It_Element-11" data-name="Post-It Element" transform="translate(1000 563)">
+      <rect id="background_color_fill_16" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-21" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-11" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-12" data-name="Post-It Element" transform="translate(1200 563)">
+      <rect id="background_color_fill_17" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-22" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-12" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-13" data-name="Post-It Element" transform="translate(1400 563)">
+      <rect id="background_color_fill_18" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-23" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-13" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1342 40)">
+      <g transform="matrix(1, 0, 0, 1, -1342, -40)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="540" height="1000" transform="translate(1342 40)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="26">What is this?</tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="50"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="74">デザインや設計をする前にホワイトボードエクササイズを行</tspan><tspan x="0" y="98">い、最初に何を追求していくのか、をチームで共通認識を持つ</tspan><tspan x="0" y="122">ことに時間を費やすことが、プロダクトを正しい方向にスケー</tspan><tspan x="0" y="146">ルアップさせるための鍵となります。以下の構造をベースとす</tspan><tspan x="0" y="170">ることで、ホワイトボードエクササイズをスムーズに実行でき</tspan><tspan x="0" y="194">ます。</tspan><tspan y="194" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"></tspan></tspan><tspan x="0" y="218"></tspan><tspan x="0" y="242">How to use</tspan><tspan font-size="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="800"><tspan x="0" y="266"></tspan><tspan x="0" y="290" xml:space="preserve">01.  </tspan><tspan y="290" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">目標</tspan><tspan y="290" xml:space="preserve" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> - </tspan><tspan y="290" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">一番上に、セッションの最終目標、つまり達成しよ</tspan><tspan x="0" y="314" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">うとしている目標を書き留めて、チームが常に目に見えるよう</tspan><tspan x="0" y="338" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">にします。</tspan><tspan y="338" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> </tspan><tspan y="338" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">「このエクササイズを行う最終的な目的は何なの</tspan><tspan x="0" y="362" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">か？」</tspan><tspan y="362" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">と自問してください。</tspan><tspan y="362" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="386"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="800"><tspan x="0" y="410">02. </tspan><tspan y="410" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">ユーザーペルソナ</tspan><tspan y="410" xml:space="preserve" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> - </tspan><tspan y="410" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">次のステップのベストは、ユーザーを</tspan><tspan x="0" y="434" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">会話に参加させることです。ターゲットユーザーの周りでどの</tspan><tspan x="0" y="458" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ような想定が行われているかを参加者に尋ね、焦点を当てるペ</tspan><tspan x="0" y="482" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ルソナを決定します。</tspan><tspan y="482" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="506"></tspan><tspan x="0" y="530">03. </tspan><tspan y="530" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">問題スペース</tspan><tspan y="530" xml:space="preserve" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> - </tspan><tspan y="530" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">問題スペースでは、技術的な制約だけでは</tspan><tspan x="0" y="554" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">なく、その行動が実行される文脈、プロダクトを構築する中で</tspan><tspan x="0" y="578" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">組織が達成しようとしているビジネス目標を調査する必要があ</tspan><tspan x="0" y="602" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ります。</tspan><tspan y="602" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="626"></tspan><tspan x="0" y="650">04. - </tspan><tspan y="650" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">仮説</tspan><tspan y="650" xml:space="preserve" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> - </tspan><tspan y="650" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">知っている事実と、重要な決定を下す前に調査すべ</tspan><tspan x="0" y="674" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">きことを参加者が区別するために、インサイトを仮説セクショ</tspan><tspan x="0" y="698" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ンに書き込みます。</tspan><tspan y="698" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="722"></tspan><tspan x="0" y="746">5. </tspan><tspan y="746" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">課題解決スペース</tspan><tspan y="746" xml:space="preserve" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> - </tspan><tspan y="746" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ユーザーの主な目標をどのように達成す</tspan><tspan x="0" y="770" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">るかについて話し合い、その目標に到達するために必要な最小</tspan><tspan x="0" y="794" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">限の手順について話し合います。シナリオに十分に自信がある</tspan><tspan x="0" y="818" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">場合は、ユーザーエクスペリエンスを促進するために、課題解</tspan><tspan x="0" y="842" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">決の一部であるインターフェイスのコンポーネント、レイアウ</tspan><tspan x="0" y="866" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ト、およびインタラクションの調査を開始しましょう。</tspan><tspan y="866" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan></tspan></text>
+    </g>
+  </g>
+</svg>

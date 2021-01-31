@@ -1,0 +1,40 @@
+.Profile {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Profile__Top_Section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Avatar_Account .Avatar_Account__avatar {
+    margin-right: 10px;
+}
+
+.Profile_LogoutButton {
+    text-align: center;
+    width: 73px;
+    height: 29px;
+    background: white;
+    font-size: 12px;
+}
+
+.Profile__UserDetails {
+    display: flex;
+    margin-top: 40px;
+}
+
+.Profile__UserDetails .Profile__UserDetails__Details li {
+    padding: 20px;
+    font-size: 12px;
+}
+
+.back {
+    cursor: pointer;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}

@@ -1,0 +1,238 @@
+:local(.form) {
+    width: 600px;
+}
+
+:local(.header) {
+    flex-direction: row;  
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 680px; 
+    height: 120px; 
+    background-image: url("../img/header-copy.png");
+}
+
+:local(.logo) {
+    margin: 30px auto auto 40px;
+}
+
+:local(.mainDiv) {
+    flex-direction: row; 
+    justify-content: flex-end; 
+    margin: 33px 40px auto auto;
+}
+
+:local(.translateLabel) {
+    color: #FFFFFF; 
+    font-size: 11px; 
+    font-family: 'SF Pro Text'; 
+    font-weight: normal; 
+    margin: auto 0px; 
+}
+
+:local(.translateDropdown) {
+    justify-content: flex-end;
+}
+
+:local(.hookKeyDiv) {
+    height: 65px; 
+    margin-top: 80px;
+}
+
+:local(.noteLabelDiv) {
+    flex-direction: row; 
+    background: #EAEAEA; 
+    border-radius: 4px; 
+    height: 38px; 
+    margin-top: 10px;
+}
+
+:local(.adobeImage) {
+    margin: auto 5px ;
+}
+
+:local(.keyInput) {
+    display: none;
+    margin-top: 10px;
+}
+
+:local(.hookLogo) {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto 0 0 0;
+}
+
+:local(.googleLogo) {
+    display: none;
+    margin: auto 0 4 0;
+}
+
+:local(.apiKeyLabel) {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-family: SF Pro Text;
+    font-weight: normal;
+    margin: auto 0 5 5;
+    align-items: flex-start;
+}
+
+:local(.apiKeyDiv) {
+    flex-direction: row;
+}
+
+:local(.apiKeyInput) {
+    border-radius: 4px;
+    margin: auto 0 0 0;
+}
+
+:local(.apiLink) {
+    margin: auto 0 auto 5;
+}
+
+:local(.noteLabelLine) {
+    color: #8E8E8E; 
+    font-size: 12px; 
+    font-family: "SF Pro Text"; 
+    font-weight: normal;
+    margin: auto 5px auto 10px; 
+}
+
+:local(.modeMainDiv) {
+    margin-top: 10px;
+}
+
+:local(.modeLabel) {
+    color: #8E8E8E; 
+    font-size: 12px;  
+    font-family: "SF Pro Text"; 
+    font-weight: normal ;
+    align-items: flex-start
+}
+
+:local(.modeDiv) {
+    flex-direction: row; 
+    margin-top: 6px;
+}
+
+:local(.highlightModeDiv) {
+    width: 50%; 
+    border: 1px solid #DDDDDD; 
+    border-radius: 4px; 
+    margin-right: 10px; 
+    padding: 5px; 
+    padding-top: 8px; 
+    margin-left: 1px;
+    background: #FFFFFF ;
+    height: 195px;
+}
+
+:local(.translateModeDiv) {
+    width: 50%; 
+    border: 2px solid #378EF0; 
+    border-radius: 4px; 
+    margin-right: 1px; 
+    padding: 5px; 
+    padding-top: 8px; 
+    background: #FFFFFF;
+    height: 195px;
+}
+
+:local(.modeHeader) {
+    font-family:Arial;
+}
+
+:local(.paraTag) {
+    font-size: 14px; 
+    font-family:Arial;
+    height: 60px;
+    position: relative;
+}
+
+:local(.center) {
+    margin: 0 auto !important;
+    bottom: -75px;
+    position: absolute;
+    /* left: 8%; */
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+:local(.langLabel) {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #8E8E8E; 
+    font-size: 12px;  
+    font-family: "SF Pro Text"; 
+    font-weight: normal ;
+    align-items: flex-start;
+}
+
+:local(.sourceLangDropDown) {
+    margin: 0px;
+    margin-top: 5px;
+}
+
+:local(.langSetDiv) {
+    flex-direction: row
+}
+:local(.langSetCol) {
+    width: 33%;
+}
+
+:local(.langInput) {
+    margin: auto 3px auto 2px ;
+}
+
+:local(.langSetLabel) {
+    margin: auto 0px; 
+    margin-bottom: 1px;
+}
+
+:local(.textAlignLeft) {
+    align-items: flex-start;
+}
+
+:local(.footerMainDiv) {
+    margin-top: 10px ;
+}
+
+:local(.footerDiv) {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end ;
+}
+
+:local(.undo) {
+    display:none;
+}
+
+:local(.transButton) {
+    width: auto;
+}
+
+
+:local(.loader) {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:local(.change) {
+    opacity: 0.5;
+}
+
+:local(.roller) {
+    margin: auto;
+    vertical-align: middle;
+}
+:local(.aboutDiv) {
+    overflow: auto;
+    padding: 0px 10px 0px 10px;
+}
+

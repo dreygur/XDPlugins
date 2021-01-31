@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>location-point-of-interest-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,2C14.1,2,7,10.1,7,20S18.5,41.3,22.6,45.4a1.9,1.9,0,0,0,2.8,0C29.5,41.3,41,30.1,41,20S33.9,2,24,2Zm5.7,16.7-2.1,2,.5,3.1a1.1,1.1,0,0,1-1.5,1.1L24,23l-2.6,1.9a1.1,1.1,0,0,1-1.5-1.1l.5-3.1-2.1-2a1.1,1.1,0,0,1,.6-1.8l2.9-.4,1.3-2.9a1,1,0,0,1,1.8,0l1.3,2.9,2.9.4A1.1,1.1,0,0,1,29.7,18.7Z"/>
+    </g>
+  </g>
+</svg>

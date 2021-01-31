@@ -1,0 +1,38 @@
+/* container */
+#custom-exporter {
+    width: 300px;
+}
+
+#custom-exporter .link {
+    float: right;
+    text-align:end;
+    display: flex; 
+    padding: 0 10px 0 0;
+    justify-content: flex-end;
+}
+
+#custom-exporter .title {
+    padding:20px 0 0 0;
+    text-align:start;
+}
+
+#custom-exporter .title h1 {
+    color:#1e1e1e;
+}
+#custom-exporter .title p {
+    color:#999999;
+    font-size:13px;    
+}
+
+/* contains UI controls */
+#custom-exporter .controls {
+    padding:10px 0 5px 0;
+}
+#custom-exporter .controls label {
+    padding:5px;
+}
+
+/* buttons area */
+footer {
+    margin:0 auto;
+}

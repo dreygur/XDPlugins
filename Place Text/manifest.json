@@ -1,0 +1,24 @@
+{
+  "id": "ea12ff15",
+  "name": "Place Text",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "description": "Quickly create text placeholders, or customize the look you need.",
+  "icons": [
+    {
+      "path": "images/icon.png",
+      "width": 96,
+      "height": 96
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Place Text",
+      "commandId": "main"
+    }
+  ]
+}

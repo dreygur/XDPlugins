@@ -1,0 +1,66 @@
+{
+  "author": "Uri Peleg & Alon Gruss",
+  "name": "RTL Text (Mac) by Uri Peleg and Alon Gruss",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "id": "6359fc42",
+  "languages": [
+    "en"
+  ],
+  "keywords": [
+    "RTL",
+    "Mac",
+    "text",
+    "hebrew",
+    "he",
+    "heb",
+    "Uri",
+    "Peleg",
+    "Alon",
+    "Gruss"
+  ],
+  "description": "The plugin allows editing an existing text box or creating a new one while retaining the original design + basic ability to emphasize bold words and italics.\nHow It Works?\nOpening the plugin (Command + T) on an existing box allows editing of the text in the pop-up that opens (Enter or Escape closes the pop-up and approves the editing - UNDO needs to cancel the editing)\nOpening the plug-in (Command + T) 'On Empty' creates a text box and pops up a popup where you can easily type text and see the product at the same time.\nAdd an asterisk with * asterisk before and after a word * (like Whatsapp) and italics with a lowercase before and after a word_\n\nCurrently not supported at:\n\nText inside Repeat Grid ...\nControls the color of a specific word in the text.",
+  "helpUrl": "alon.gruss+xdplug@gmail.com",
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "images/icon@3x.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "images/icon@4x.png",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "images/icon@5x.png",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "Bypass Text Input",
+      "type": "panel",
+      "panelId": "main",
+      "shortcut": {
+        "mac": "Cmd+t",
+        "win": "Ctrl+t"
+      }
+    }
+  ],
+  "version": "1.0.8",
+  "releaseNotes": "20200803 - Revamp"
+}

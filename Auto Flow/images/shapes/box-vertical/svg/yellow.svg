@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="73" viewBox="0 0 134 73">
+  <g id="Group_89" data-name="Group 89" transform="translate(-36 -501)">
+    <g id="Group_83" data-name="Group 83" transform="translate(36 501)">
+      <g id="Rectangle_58" data-name="Rectangle 58" fill="#fff" stroke="#ffd16d" stroke-width="1">
+        <rect width="134" height="73" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="133" height="72" rx="4.5" fill="none"/>
+      </g>
+      <text id="Double_click_to_Active_editing_mode" data-name="Double click to Active
+ editing mode" transform="translate(67 46)" fill="#575757" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="-52.92" y="0">Double click to Active</tspan><tspan x="-34.63" y="16" xml:space="preserve"> editing mode</tspan></text>
+    </g>
+    <g id="Group_82" data-name="Group 82" transform="translate(36.957 501)">
+      <path id="Rectangle_57" data-name="Rectangle 57" d="M5,0H128a5,5,0,0,1,5,5V29a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(0.043)" fill="#ffd16d" opacity="0.796"/>
+      <text id="Edit_text" data-name="Edit text" transform="translate(67.043 19)" fill="#fff" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-25.428" y="0">Edit text</tspan></text>
+    </g>
+  </g>
+</svg>

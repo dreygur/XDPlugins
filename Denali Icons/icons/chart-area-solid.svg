@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-area-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M41.9,33.3,36,18.4a1.9,1.9,0,0,0-2.7-1.1l-7.7,4.1a.9.9,0,0,1-1.1-.1L15.4,10.6A2,2,0,0,0,12,12V36H40A2.1,2.1,0,0,0,41.9,33.3Z"/>
+      <path d="M42,40H8V6A2,2,0,0,0,4,6V44H42a2,2,0,0,0,0-4Z"/>
+    </g>
+  </g>
+</svg>

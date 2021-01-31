@@ -1,0 +1,36 @@
+{
+  "name" : "Keyboard Shortcuts",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "description" : "Quickly search any XD keyboard shortcut with this plugin.",
+  "summary": "find keyboard shortcuts",
+  "id" : "bc286477",
+  "keywords": [
+      "keyboard shortcut",
+      "tool shortcut",
+      "keyboard shortcuts"
+  ],
+  "languages": [
+      "en"
+  ],
+  "website": "https://kennykrosky.com",
+  "author": "Kenny Krosky & Raghu Thricovil",
+  "helpUrl": "https://twitter.com/ispykenny",
+  "icons": [
+      { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+      { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+      { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+      { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+      { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Plugin UI Builder",
+      "panelId": "fetchShortCuts"
+    }
+  ],
+  "version" : "2.1.2"
+}

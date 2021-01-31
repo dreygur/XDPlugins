@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="33" viewBox="0 0 122 33">
+  <g id="Category_Label_Element" data-name="Category Label Element" transform="translate(0 4)">
+    <rect id="dot_color_fill_" data-name="dot [color_fill]" width="40" height="20" rx="10" transform="translate(0 2)" fill="#ffd86f"/>
+    <text id="label" transform="translate(50 21)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">ラベル</tspan></text>
+  </g>
+</svg>

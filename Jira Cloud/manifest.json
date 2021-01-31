@@ -1,0 +1,36 @@
+{
+  "id": "28192327",
+  "name": "Jira Cloud",
+  "version": "1.0.5",
+  "description": "Directly export artboards, layers, slices, and XD links to Jira issues without leaving Adobe XD. Seamless discover the Jira issues that you have been assigned to or have recently viewed directly in Adobe XD. If you also have XD for Jira Cloud app deployed in your organization, you can attach links to XD documents directly from the plugin.",
+  "summary": "Send XD assets to Jira",
+  "releaseNotes": "In this release, we have fixed bugs and made improvements to the performance of the plugin.",
+  "keywords": [
+      "productivity",
+      "design"
+  ],
+  "languages": [
+      "en"
+  ],
+  "website": "https://helpx.adobe.com/xd/help/plugins.html",
+  "author": "Adobe Inc",
+  "helpUrl": "https://forms.gle/xJTbPnC65fGkS4B19",
+  "icons": [
+      { "width": 24, "height": 24, "path": "assets/Jira@1X.png" },
+      { "width": 48, "height": 48, "path": "assets/Jira@2X.png" },
+      { "width": 96, "height": 96, "path": "assets/Jira@3X.png" },
+      { "width": 144, "height": 144, "path": "assets/Jira@4X.png" },
+      { "width": 192, "height": 192, "path": "assets/Jira@5X.png" }
+  ],
+  "host": {
+      "app": "XD",
+      "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+      {
+        "type": "panel",
+        "label": "Jira Cloud",
+        "panelId": "JiraCloudPanel"
+      }
+  ]
+}

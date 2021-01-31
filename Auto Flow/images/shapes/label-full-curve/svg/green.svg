@@ -1,0 +1,7 @@
+<svg id="label_-_full_curve" data-name="label - full curve" xmlns="http://www.w3.org/2000/svg" width="74" height="29" viewBox="0 0 74 29">
+  <g id="Rectangle_8" data-name="Rectangle 8" fill="#4dc470" stroke="#4dc470" stroke-width="1">
+    <rect width="74" height="29" rx="14.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="73" height="28" rx="14" fill="none"/>
+  </g>
+  <text id="Label" transform="translate(20 19)" fill="#fff" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Label</tspan></text>
+</svg>

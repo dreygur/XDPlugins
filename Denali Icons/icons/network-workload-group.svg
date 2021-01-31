@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>network-workload-group</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M12,18,3,32l9,14H27l9-14L27,18ZM24.8,42H14.2L9,34H30ZM9,30l5.2-8H24.8L30,30Z"/>
+        <polygon points="17 10 14.4 14 29.8 14 38.7 27.6 41 24 32 10 17 10"/>
+        <polygon points="36 2 21 2 18.4 6 33.8 6 42.7 19.6 45 16 36 2"/>
+      </g>
+    </g>
+  </g>
+</svg>

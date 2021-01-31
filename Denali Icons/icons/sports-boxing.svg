@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>sports-boxing</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M36,2H19a6,6,0,0,0-6,6v3H12a6,6,0,0,0-6,6V27a8,8,0,0,0,7,7.9V43a2.9,2.9,0,0,0,3,3H32a2.9,2.9,0,0,0,3-3V34.9A8,8,0,0,0,42,27V8A6,6,0,0,0,36,2ZM17,42V35H31v7ZM38,27a4,4,0,0,1-4,4H14a4,4,0,0,1-4-4V17a2,2,0,0,1,2-2h1v7a2,2,0,0,0,4,0V8a2,2,0,0,1,2-2H36a2,2,0,0,1,2,2Z"/>
+        <path d="M27,37H21a1.5,1.5,0,0,0,0,3h6a1.5,1.5,0,0,0,0-3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Minimal",
+    "__name": "Base",
+    "description": "Bright theme",
+    "description_ja": "明るいテーマ",
+    "url": "plugin:/assets/kits/Minimal/index.json",
+    "image": "plugin:/assets/kits/Minimal/preview.png"
+  },
+  {
+    "name": "Foundation",
+    "__name": "Foundation",
+    "description": "Bright theme",
+    "description_ja": "明るいテーマ",
+    "url": "plugin:/assets/kits/Foundation/index.json",
+    "image": "plugin:/assets/kits/Foundation/preview.png"
+  },
+  {
+    "name": "Fluo",
+    "__name": "Fluo",
+    "description": "Dark theme",
+    "description_ja": "暗いテーマ",
+    "url": "plugin:/assets/kits/Fluo/index.json",
+    "image": "plugin:/assets/kits/Fluo/preview.png"
+  },
+  {
+    "name": "Kyoto",
+    "__name": "Kyoto",
+    "description": "Dark theme",
+    "description_ja": "暗いテーマ",
+    "url": "plugin:/assets/kits/Kyoto/index.json",
+    "image": "plugin:/assets/kits/Kyoto/preview.png"
+  },
+  {
+    "name": "Malibu",
+    "__name": "Malibu",
+    "description": "Bright theme",
+    "description_ja": "明るいテーマ",
+    "url": "plugin:/assets/kits/Malibu/index.json",
+    "image": "plugin:/assets/kits/Malibu/preview.png"
+  },
+  {
+    "name": "Monumental",
+    "__name": "Monumental",
+    "description": "Bright theme",
+    "description_ja": "明るいテーマ",
+    "url": "plugin:/assets/kits/Monumental/index.json",
+    "image": "plugin:/assets/kits/Monumental/preview.png"
+  },
+  {
+    "name": "Pink Elegant",
+    "__name": "PinkElegant",
+    "description": "Bright theme",
+    "description_ja": "明るいテーマ",
+    "url": "plugin:/assets/kits/PinkElegant/index.json",
+    "image": "plugin:/assets/kits/PinkElegant/preview.png"
+  },
+  {
+    "name": "Radiance",
+    "__name": "Radiance",
+    "description": "Dark theme",
+    "description_ja": "暗いテーマ",
+    "url": "plugin:/assets/kits/Radiance/index.json",
+    "image": "plugin:/assets/kits/Radiance/preview.png"
+  }
+]

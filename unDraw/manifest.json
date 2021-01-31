@@ -1,0 +1,24 @@
+{
+  "id": "2d1bea48",
+  "name": "unDraw",
+  "version": "0.8.3",
+  "icons": [
+    { "width": 24, "height": 24, "path": "images/undraw_plugin_icon@1x.png" },
+    { "width": 48, "height": 48, "path": "images/undraw_plugin_icon@2x.png" },
+    { "width": 96, "height": 96, "path": "images/undraw_plugin_icon@3x.png" },
+    { "width": 144, "height": 144, "path": "images/undraw_plugin_icon@4x.png" },
+    { "width": 192, "height": 192, "path": "images/undraw_plugin_icon@5x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "16.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "unDraw",
+      "commandId": "unDraw",
+      "shortcut": { "mac": "Ctrl+Opt+U", "win": "Ctrl+Shift+U" }
+    }
+  ]
+}

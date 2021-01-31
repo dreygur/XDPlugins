@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>openstack</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M45,6.8v8.9H34.9v-2a1.6,1.6,0,0,0-1.6-1.6H14.7a1.6,1.6,0,0,0-1.6,1.6v2H3V6.8a4,4,0,0,1,4-4H41A4,4,0,0,1,45,6.8Z"/>
+        <rect x="3" y="18.2" width="10.1" height="9.69"/>
+        <rect x="34.9" y="18.2" width="10.1" height="9.69"/>
+        <path d="M45,30.3v8.9a4,4,0,0,1-4,4H7a4,4,0,0,1-4-4V30.3H13.1v2a1.6,1.6,0,0,0,1.6,1.6H33.3a1.6,1.6,0,0,0,1.6-1.6v-2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

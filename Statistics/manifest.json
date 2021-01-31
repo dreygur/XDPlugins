@@ -1,0 +1,56 @@
+{
+    "id": "5bfa9021",
+    "name": "Statistics",
+    "version": "1.1.0",
+    "description": "Show the total number of rectangles, ellipses, polygons and text fields you are using in your artboards!",
+    "summary": "Show number of graphics",
+    "author": "Velara 3",
+    "publisher": "Velara 3",
+    "website": "https://www.velara3.com",
+    "helpUrl": "https://discuss.velara3.com/",
+    "releaseNotes": "Updated layout for UXP changes\nAdded support for Polygons",
+    
+    "keywords": [
+        "tools",
+        "reports",
+        "artboard",
+        "total",
+        "scenegraph",
+        "node",
+        "statistics",
+        "web app",
+        "elements"
+    ],
+
+    "languages": [
+        "en",
+        "fr",
+        "de",
+        "ja",
+        "ko",
+        "zh",
+        "es",
+        "pt"
+    ],
+
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+        { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Statistics",
+            "commandId": "showMainDialog"
+        }
+    ]
+}

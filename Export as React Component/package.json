@@ -1,0 +1,48 @@
+{
+  "name": "export-react",
+  "version": "1.0.7",
+  "description": "Export UI Elements as React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -w src -e js,jsx,css -w webpack.config.js -x yarn build",
+    "build": "webpack --mode development",
+    "package": "xdpm pakage"
+  },
+  "author": "Johannes Pichler <j.pichler@webpixels.at>",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "file-loader": "^1.1.11",
+    "flow-bin": "^0.86.0",
+    "nodemon": "^1.18.4",
+    "rollup": "^0.67.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "resolutions": {
+    "**/event-stream": "^4.0.1"
+  },
+  "dependencies": {
+    "@adobe/xd-plugin-toolkit": "^0.0.1",
+    "@adobe/xdpm": "^2.0.0",
+    "@svgr/core": "^4.0.3",
+    "@svgr/plugin-jsx": "^4.0.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "brace": "^0.11.1",
+    "css-loader": "^1.0.0",
+    "lodash": "^4.17.11",
+    "rc-switch": "^1.8.0",
+    "react": "^16.8.4",
+    "react-ace": "^6.2.0",
+    "react-dom": "^16.8.4",
+    "react-switch": "^3.0.4",
+    "style-loader": "^0.22.0"
+  }
+}

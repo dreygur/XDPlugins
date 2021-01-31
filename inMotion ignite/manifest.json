@@ -1,0 +1,43 @@
+{
+  "id": "14efb4b8",
+  "name": "inMotion ignite",
+  "version": "1.1.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "inMotion ignite",
+      "commandId": "menuCommand"
+    }
+  ],
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon96.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon144.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon192.png"
+    }
+  ]
+}

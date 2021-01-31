@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>open-caption-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M44,9H4a2,2,0,0,0-2,2V37a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V11A2,2,0,0,0,44,9ZM22,28a3,3,0,0,1-3,3H13a3,3,0,0,1-3-3V20a2.9,2.9,0,0,1,3-3h6a2.9,2.9,0,0,1,3,3Zm16-6H34V21H30v6h4V26h4v2a3,3,0,0,1-3,3H29a3,3,0,0,1-3-3V20a2.9,2.9,0,0,1,3-3h6a2.9,2.9,0,0,1,3,3ZM14,27h4V21H14Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>data-storage-multiple</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <circle cx="38" cy="24" r="2"/>
+        <circle cx="32" cy="24" r="2"/>
+        <circle cx="38" cy="36" r="2"/>
+        <circle cx="32" cy="36" r="2"/>
+        <path d="M44,4H4A2,2,0,0,0,2,6V42a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V6A2,2,0,0,0,44,4ZM6,20H42v8H6ZM6,8H42v8H6ZM42,40H6V32H42Z"/>
+        <circle cx="38" cy="12" r="2"/>
+        <circle cx="32" cy="12" r="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

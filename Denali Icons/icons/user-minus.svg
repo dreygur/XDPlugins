@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>user-minus</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M2,16H2a2,2,0,0,1,2-2H16a2,2,0,0,1,2,2h0a2,2,0,0,1-2,2H4A2,2,0,0,1,2,16ZM46,40V32.1l-1-.6a25.9,25.9,0,0,0-26,0l-1,.6V40a2,2,0,0,0,2,2H44A2,2,0,0,0,46,40ZM22,34.4a22,22,0,0,1,20,0V38H22ZM32,10a5,5,0,1,0,5,5,5,5,0,0,0-5-5m0-4a9,9,0,1,1-9,9,9,9,0,0,1,9-9Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>text-size</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <g>
+        <polygon points="2 23 9 23 9 43 15 43 15 23 22 23 22 17 2 17 2 23"/>
+        <polygon points="46 5 14 5 14 11 27 11 27 43 33 43 33 11 46 11 46 5"/>
+      </g>
+    </g>
+  </g>
+</svg>

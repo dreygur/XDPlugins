@@ -1,0 +1,108 @@
+{
+    "id": "0d1338e0",
+    "name": "Tool Kit",
+    "version": "2.0.3",
+
+    "description": "Handy tools to improve your workflow\n\n- Find and Replace: Ability to find text and replace with new text\n- Swap any 2 Items: Can swap the postion of 2 items, that are been selected anywhere in the document\n- Group cleaner: Cleanup all your Redundent Groups used in your entire canvas\n- Swap Fill and Border: Swaps fill and border colors of Selected shape Layer(s) and also Text Layers, if both fill and border are available\n- UnSplash it - Download and Mask beautiful unSplash images, right from the plugin\nand many more to come....\nReach out to manoharmanu4444@gmail.com for any concerns or any bugs",
+    "summary": "Tools to improve your workflow",
+    "releaseNotes": "Added New Features - UnSplash it, Checkout Description to know about how they work",
+    "keywords": [
+        "utility",
+        "productivity",
+        "automation",
+        "unsplash",
+        "Photo",
+        "image",
+        "Swap",
+        "clearner",
+        "ToolKit",
+        "Find",
+        "Replace",
+        "Tool Kit"
+    ],
+    "languages": [
+        "en"
+    ],
+    "author": "Manohar Rapeti",
+    "helpUrl": "manoharmanu4444@gmail.com",
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "images/Group 24.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/Group 25.png"
+        },
+        {
+            "width": 96,
+            "height": 96,
+            "path": "images/Group 26.png"
+        },
+        {
+            "width": 144,
+            "height": 144,
+            "path": "images/Group 27.png"
+        },
+        {
+            "width": 192,
+            "height": 192,
+            "path": "images/Group 28.png"
+        }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Find and Replace",
+            "panelId": "finderId"
+        },
+        {
+            "type": "menu",
+            "label": "Swap any 2 Items",
+            "commandId": "swapId",
+            "shortcut": {
+                "mac": "Cmd+Alt+2",
+                "win": "Ctrl+Alt+2"
+            }
+        },
+        {
+            "type": "menu",
+            "label": "Group cleaner",
+            "commandId": "groupId",
+            "shortcut": {
+                "mac": "Cmd+Alt+3",
+                "win": "Cmd+Alt+3"
+            }
+        }  ,
+        {
+            "type": "menu",
+            "label": "Swap Fill and Border",
+            "commandId": "swapFillBorderId",
+            "shortcut": {
+                "mac": "Cmd+Alt+4",
+                "win": "Cmd+Alt+4"
+            }
+         },
+              {
+            "type": "panel",
+            "label": "UnSplash it",
+            "panelId": "unSplashId"
+        },
+        {
+            "type": "menu",
+            "label": "Quick Lorem ipsum",
+            "commandId": "loremipsumId",
+            "shortcut": {
+                "mac": "Cmd+Alt+l",
+                "win": "Cmd+Alt+l"
+            }
+         }
+    ]
+}

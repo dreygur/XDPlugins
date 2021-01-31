@@ -1,0 +1,23 @@
+{
+  "name": "Tab Item",
+  "name_ja": "タブアイテム",
+  "allowedProps": ["STATE", "LABEL"],
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    },
+    {
+      "uiType": "input",
+      "type": "text",
+      "compLabel": "LABEL"
+    }
+  ]
+}

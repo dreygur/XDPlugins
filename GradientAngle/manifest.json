@@ -1,0 +1,21 @@
+{
+  "id": "085acc09",
+  "name": "GradientAngle",
+  "author": "sttk3.com",
+  "version":"1.0.1",
+  "icons": [
+    { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+    { "width": 96, "height": 96, "path": "images/icon@2x.png" }
+  ],
+  "host":{
+    "app":"XD",
+    "minVersion":"21.0"
+  },
+  "uiEntryPoints":[
+    {
+      "type":"panel",
+      "label":"GradientAngle",
+      "panelId": "gradientAngle"
+    }
+  ]
+}

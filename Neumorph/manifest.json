@@ -1,0 +1,21 @@
+{
+    "id": "22e2456a",
+    "name": "Neumorph",
+    "version": "0.0.1",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "uiEntryPoints": [
+          {
+            "type": "panel",
+            "label": "Create Rectangle",
+            "panelId": "createRectangle"
+          }
+    ]
+}

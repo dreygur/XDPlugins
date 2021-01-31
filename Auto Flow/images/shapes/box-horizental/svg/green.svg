@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="53" viewBox="0 0 224 53">
+  <g id="Group_87" data-name="Group 87" transform="translate(-195 -471)">
+    <rect id="Rectangle_61" data-name="Rectangle 61" width="157" height="47" transform="translate(259 476)" fill="#fff"/>
+    <g id="Path_9" data-name="Path 9" transform="translate(195 471)" fill="#fff">
+      <path d="M 219 52.5 L 5 52.5 C 2.518694400787354 52.5 0.5 50.48130416870117 0.5 48 L 0.5 5 C 0.5 2.518694400787354 2.518694400787354 0.5 5 0.5 L 180.6072845458984 0.5 L 203.2737426757812 0.5 L 206.3939514160156 0.5 L 219 0.5 C 221.4813079833984 0.5 223.5 2.518694400787354 223.5 5 L 223.5 48 C 223.5 50.48130416870117 221.4813079833984 52.5 219 52.5 Z" stroke="none"/>
+      <path d="M 5 1 C 2.794387817382812 1 1 2.794384002685547 1 5 L 1 48 C 1 50.20561599731445 2.794387817382812 52 5 52 L 219 52 C 221.2056121826172 52 223 50.20561599731445 223 48 L 223 5 C 223 2.794384002685547 221.2056121826172 1 219 1 L 206.3939361572266 1 L 203.2737731933594 1 L 180.6072692871094 1 L 5 1 M 5 0 L 180.6072692871094 0 L 203.2737731933594 0 L 206.3939361572266 0 L 219 0 C 221.7614135742188 0 224 2.23858642578125 224 5 L 224 48 C 224 50.76141357421875 221.7614135742188 53 219 53 L 5 53 C 2.238555908203125 53 0 50.76141357421875 0 48 L 0 5 C 0 2.23858642578125 2.238555908203125 0 5 0 Z" stroke="none" fill="#4dc470"/>
+    </g>
+    <g id="Group_86" data-name="Group 86">
+      <text id="Edit_text" data-name="Edit text" transform="translate(259 488)" fill="#4dc470" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Edit text</tspan></text>
+      <text id="Double_click_to_Active_editing_mode" data-name="Double click to Active editing
+mode" transform="translate(259 503)" fill="#575757" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Double click to Active editing</tspan><tspan x="0" y="14">mode</tspan></text>
+    </g>
+    <path id="Rectangle_38" data-name="Rectangle 38" d="M5,0H58a0,0,0,0,1,0,0V52a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(195 471)" fill="#4dc470" opacity="0.801"/>
+    <g id="Group_8" data-name="Group 8" transform="translate(214 487)">
+      <path id="Path_6" data-name="Path 6" d="M19.467,3.248,16.74.518a1.859,1.859,0,0,0-2.572,0L1.95,12.858a.457.457,0,0,0-.115.2L.017,19.422a.455.455,0,0,0,.562.562l6.364-1.82a.457.457,0,0,0,.2-.115L19.467,5.821a1.82,1.82,0,0,0,0-2.573Zm-7.28.578L13.86,5.5,5.124,14.235,4.5,12.98a.455.455,0,0,0-.407-.251H3.363ZM1.116,18.886l.592-2.073,1.48,1.48Zm5.247-1.5-2.175.621L1.994,15.813l.621-2.175H3.81l.783,1.567a.455.455,0,0,0,.2.2l1.567.783v1.195Zm.909-.748v-.728a.455.455,0,0,0-.251-.407l-1.254-.627L14.5,6.142l1.673,1.673ZM18.826,5.189l-2,1.986L12.826,3.18l1.985-2a.93.93,0,0,1,1.286,0L18.824,3.9a.909.909,0,0,1,0,1.284Z" transform="translate(0 -0.002)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

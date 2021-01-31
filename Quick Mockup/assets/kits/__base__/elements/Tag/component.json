@@ -1,0 +1,17 @@
+{
+  "name": "Tag",
+  "name_ja": "タグ",
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    }
+  ]
+}

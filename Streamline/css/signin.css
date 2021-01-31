@@ -1,0 +1,98 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+    align-content: center;
+}
+
+.signin__logo {
+    margin-bottom: 38px;
+}
+
+.signin__message {
+    line-height: 10px;
+    text-align: center;
+    padding: 0;
+    color: var(--textSuperDark);
+    font-size: 16px;
+}
+
+.signin__message--bold {
+    font-weight: bold;
+}
+
+.signin__message--highlight {
+    color: var(--accentStrong);
+}
+
+.signin__form {
+    margin-top: 30px;
+    width: 70vw;
+    max-width: 600px;
+}
+
+.signin__form__input {
+    margin: 20px 0;
+    border: 1px solid #B6B6B6;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.signin__form__input img {
+    margin-left: 20px;
+}
+
+
+.signin__form__input input {
+    height: 50px;
+    min-width: 80%;
+    max-width: 100%;
+    border: none;
+    margin: 0 2.5px 0 16px;
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    color: var(--textSuperDark);
+    background: white;
+
+}
+
+.signin__forgot-password__text{
+    margin-top: 60px!important;
+    color: var(--textMedium)!important;
+    text-decoration: underline;
+}
+
+
+
+button:focus {
+    outline: none
+}
+
+input:focus {
+    outline: none
+}
+
+.signin__form__button{
+    width: 100%;
+    height: 30px!important;
+}
+.signin__form__button[disabled] {
+    background-color: var(--accentLight);
+    color: var(--textLightGrey);
+    cursor: not-allowed;
+}
+
+.signin__guest_text {
+    text-align: center;
+    font-size: 16px;
+    color: var(--textGrey);
+    cursor: pointer;
+}

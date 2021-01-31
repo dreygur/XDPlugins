@@ -1,0 +1,41 @@
+{
+  "summary" : "Find and replace text.",
+  "website" : "http://mj.mk",
+  "keywords" : [ "text", "find", "replace" ],
+  "languages" : [ "en" ],
+  "author" : "Milan Jakovcevski",
+  "description" : "A simple case-sensitive find and replace text plugin for Adobe XD.",
+  "helpUrl" : "jakovcevski@gmail.com",
+  "main" : "main.js",
+  "icons" : [ {
+    "path" : "images/pluginIcon1.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/pluginIcon2.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/pluginIcon3.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/pluginIcon4.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "version" : "0.1.0",
+  "releaseNotes" : "The beta. A simple case-sensitive find and replace text plugin for Adobe XD.",
+  "name" : "Simple Find and Replace",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "id" : "92c4a4c3",
+  "uiEntryPoints" : [ {
+    "label" : "Simple Find and Replace",
+    "type" : "menu",
+    "commandId" : "findAndReplace",
+    "shortcut": { "mac": "Cmd+Opt+L", "win": "Ctrl+Alt+L"}
+  } ]
+}

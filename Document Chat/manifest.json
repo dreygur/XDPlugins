@@ -1,0 +1,28 @@
+{
+	"id": "b60d0ee4",
+	"name": "Document Chat",
+	"version": "0.4.0",
+	"icons": [
+		{
+			"width": 24,
+			"height": 24,
+			"path": "icons/icon_24.png"
+		},
+		{
+			"width": 48,
+			"height": 48,
+			"path": "icons/icon_48.png"
+		}
+	],
+	"host": {
+		"app": "XD",
+		"minVersion": "25.0"
+	},
+	"uiEntryPoints": [
+		{
+			"type": "panel",
+			"label": "Document Chat",
+			"panelId": "chatPanel"
+		}
+	]
+}

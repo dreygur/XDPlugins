@@ -1,0 +1,30 @@
+{
+  "id": "0506566c",
+  "name": "Google Assistant Preview",
+  "author": "Adobe",
+  "version": "1.0.4",
+  "host" : {
+    "app" : "XD",
+    "minVersion": "21.0"
+  },
+  "description": "Adobe XD allows anyone to create a voice-powered prototype that you can interact with through Google Assistant. You can use Adobe XD to design, test, and iterate your way through creating a great user experience for your voice application, all without writing any code. This plugin is for exporting English-language voice prototypes created in Adobe XD to Google Assistant, and requires linking to a Google Assistant device.",
+  "summary" : "Preview on Google Assistant",
+  "languages" : ["en"],
+  "uiEntryPoints" : [
+    {
+      "type" : "menu",
+      "commandId" : "menuCommand"
+    }
+  ],
+  "entitlements": [
+    "_requires-ims-apis"
+  ],
+  "helpUrl": "https://helpx.adobe.com/xd/help/voice-prototypes-in-adobe-xd.html",
+  "icons": [
+    { "width": 24, "height": 24, "path": "assets/images/logo-24.png" },
+    { "width": 48, "height": 48, "path": "assets/images/logo-48.png" },
+    { "width": 96, "height": 96, "path": "assets/images/logo-96.png" },
+    { "width": 144, "height": 144, "path": "assets/images/logo-144.png" },
+    { "width": 192, "height": 192, "path": "assets/images/logo-192.png" }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>file-add</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M40,45H8a2,2,0,0,1-2-2V5A2,2,0,0,1,8,3H18a2,2,0,0,1,2,2h0a2,2,0,0,1-2,2H10V41H38V32.2a2,2,0,0,1,2-2h0a2,2,0,0,1,2,2V43A2,2,0,0,1,40,45Z"/>
+      <path d="M39,15a2.1,2.1,0,0,1-2,2H35v2a2,2,0,0,1-2,2,2.1,2.1,0,0,1-2-2V17H29a2,2,0,0,1-2-2,2.1,2.1,0,0,1,2-2h2V11a2,2,0,0,1,2-2,2.1,2.1,0,0,1,2,2v2h2A2,2,0,0,1,39,15Z"/>
+      <path d="M33,6a9,9,0,1,1-9,9,9,9,0,0,1,9-9m0-4A13,13,0,1,0,46,15,13,13,0,0,0,33,2Z"/>
+    </g>
+  </g>
+</svg>

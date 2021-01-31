@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>facial-recognition-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M42,14a2,2,0,0,1-2-2V8H36a2,2,0,0,1,0-4h6a2,2,0,0,1,2,2v6A2,2,0,0,1,42,14Z"/>
+      <path d="M42,32H36a2,2,0,0,1,0-4h4V24a2,2,0,0,1,4,0v6A2,2,0,0,1,42,32Z"/>
+      <path d="M6,14a2,2,0,0,1-2-2V6A2,2,0,0,1,6,4h6a2,2,0,0,1,0,4H8v4A2,2,0,0,1,6,14Z"/>
+      <path d="M12,32H6a2,2,0,0,1-2-2V24a2,2,0,0,1,4,0v4h4a2,2,0,0,1,0,4Z"/>
+      <g>
+        <path d="M36,46H12a2,2,0,0,1-2-2V36.1l1-.6a25.9,25.9,0,0,1,26,0l1,.6V44A2,2,0,0,1,36,46Z"/>
+        <path d="M24,10a9,9,0,1,0,9,9,9,9,0,0,0-9-9Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+{
+    "id": "570d8b62",
+    "name": "Iconscout",
+    "version": "2.2.4",
+    "description": "Iconscout is a design resources marketplace with 2 million+ design resources from 700+ contributors worldwide. Search and insert vector icons, illustration and stock photos with just one click. \n\nDownload and use of this plug-in is subject to Iconscout's Terms of Use and Privacy Policy. Go to https://iconscout.com/legal/terms-of-use for more info.",
+    "summary": "Download Icons & Stock Images",
+    "releaseNotes": "Bug with Search fixed & Minor UI Improvements",
+    "keywords": [
+        "icon",
+        "icons",
+        "illustrations",
+        "illustration",
+        "photos",
+        "photo",
+        "stock photo",
+        "iconscout",
+        "icondrop",
+        "stock photos",
+        "stock images",
+        "design assets",
+        "design resources"
+    ],
+    "languages": [
+        "en"
+    ],
+    "website": "https://iconscout.com",
+    "author": "Iconscout",
+    "helpUrl": "support@iconscout.com",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+        { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.2"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Iconscout",
+            "panelId": "panelCommand"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+/**
+ *  Experience Generator
+ * 
+ *  Generate entire groups of artboards for each experience and device selected with every artboard needed for that specific experience, and defined sizes for the device resolution. 
+ *  By combining several experience and device selections, it's able to create complex workflows in a matter of seconds.
+ *
+ *  LICENSE: These source files should not be copied, destributed, modified,
+ *  altered or used in any way, other than running the original install package,
+ *  and using the plugin on a licensed and updated copy of Adobe XD. The plugin
+ *  is provided as is and we take no responsibily for any malfunction on both
+ *  the plugin and the software itself, nor any loss of data that may follow.
+ *
+ *  @package    Experience Generator
+ *  @author     Unykvis <info@unykvis.com>
+ *  @copyright  Unykvis
+ *  @since      File available since Release 1.1.1
+ */
+ 
+ Vertion 7.0.1 | 2019-06-27
+
+ ! Major fix for compatibility with Adobe XD 21.
+
+
+ Vertion 6.0.1 | 2019-02-12
+
+ ! Minor text fixes
+
+ Vertion 6.0.0 | 2019-02-04
+
+ ! Added support for Adobe XD 16.0.0 and previous
+ ! Added X/Y limits of 23000px. After this value, Experience Generator cannot create more artboards
+
+ Version 2.2.0 | 2018-10-25
+
+ ! Minor adjustments to manifest
+

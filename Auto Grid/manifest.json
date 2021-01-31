@@ -1,0 +1,70 @@
+{
+  "id": "62c4c33c",
+  "author": "UX Plugins",
+  "name": "Auto Grid",
+  "version": "4.1.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "description": "Auto Grid is the Only Grid generator Plugin that you need to rapidly generate Pixel Perfects Grids (no decimal widths). Auto Grid helps you to generate accurate, work-ready and smart Grids Anywhere on Any Shapes and Artboards.\r\n\r\n Features: \r\n- Pixel Perfect Grids\r\n- Smart and accurate grid generator functionality\r\n - one click Grid generator for any shape, artboard, ... \r\n - Multiple Grids per Artboard \r\n - Nested Grids \r\n - Select and Generate approach \r\n - Fast and Easy!\r\n\r\nAuto grid is completely functional in trial mode. 10 free trials available to use and you need to buy the plugin when the free trials are exhausted. if you prefer to rapidly generate pixel perfects and accurate Grids, find more details on website and how to purchase it.",
+  "summary": "The Fastest Grid Generator",
+  "website": "https://uxplugins.com/auto-grid",
+  "languages": [
+    "en"
+  ],
+  "keywords": [
+    "grid",
+    "grids",
+    "guides",
+    "layout",
+    "measurement",
+    "generator",
+    "responsive",
+    "bootstrap",
+    "auto",
+    "grid maker",
+    "grid generator",
+    "grid plus"
+  ],
+  "helpUrl": "autogridforxd@gmail.com",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon0x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon1x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon2x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon3x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon4x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Auto Grid",
+      "panelId": "hello",
+      "shortcut": {
+        "mac": "Ctrl+G",
+        "win": "Ctrl+Alt+G"
+      }
+    }
+  ],
+  "releaseNotes": "- Updated purchase link"
+}

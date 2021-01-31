@@ -1,0 +1,60 @@
+{
+  "name": "Zoom for Adobe XD",
+  "host": {
+    "app": "XD",
+    "minVersion": "29.0"
+  },
+  "helpUrl": "https://forms.gle/AxT7xpd3fdxbYKGJ9",
+  "id": "eac33bcb",
+  "icons": [
+    {
+      "path": "assets/zoom-xd-logo@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "assets/zoom-xd-logo@2x.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "assets/zoom-xd-logo@3x.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/zoom-xd-logo@4x.png",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "assets/zoom-xd-logo@5x.png",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "Zoom for Adobe XD",
+      "type": "panel",
+      "panelId": "runZoomXd"
+    }
+  ],
+  "version": "1.0.3",
+  "entitlements": [
+    "_requires-ims-apis",
+    "_requires-cloud-internal"
+  ],
+  "keywords": [
+    "productivity",
+    "design"
+  ],
+  "description": "Connect your Zoom account to view and seamlessly join upcoming Zoom meetings in your Google or Outlook calendar without ever leaving Adobe XD. Save time and join your meeting with screen sharing enabled to present right away. Start an instant meeting with your coeditors with just a click of a button, and let the plugin take care of inviting the participants so you can maximize your meeting time.",
+  "summary": "Collaborate better and view, join and start Zoom meetings directly from Adobe XD.",
+  "website": "https://helpx.adobe.com/xd/help/plugins.html",
+  "author": "Adobe Inc",
+  "releaseNotes": "This is the first release of this plugin"
+}

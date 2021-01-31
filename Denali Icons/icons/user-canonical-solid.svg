@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>user-canonical-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M44,8H4a2,2,0,0,0-2,2V38a2.1,2.1,0,0,0,2.2,2H44a2,2,0,0,0,2-2V10A2,2,0,0,0,44,8ZM14,14a6,6,0,1,1-6,6A6,6,0,0,1,14,14Zm8,22H6V34.2a15.6,15.6,0,0,1,16,0Zm17.4-8.6A2,2,0,0,1,38,28H28a2,2,0,0,1-2-2,2.1,2.1,0,0,1,2-2H38a2,2,0,0,1,2,2A2,2,0,0,1,39.4,27.4Zm0-8A2,2,0,0,1,38,20H28a2,2,0,0,1-2-2,2.1,2.1,0,0,1,2-2H38a2,2,0,0,1,2,2A2,2,0,0,1,39.4,19.4Z"/>
+    </g>
+  </g>
+</svg>

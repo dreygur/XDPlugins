@@ -1,0 +1,35 @@
+{
+    "id": "e8c77592",
+    "name": "Scribble by CanvasFlip",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+    "version": "1.0.3",
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Scribble by CanvasFlip",
+            "menuItems": [
+                {
+                    "type": "menu",
+                    "label": "Sync Artboards To Scribble",
+                    "commandId": "syncArtboards",
+                    "shortcut": {
+                        "mac": "Ctrl+Alt+C",
+                        "win": "Ctrl+Alt+C"
+                    }
+                },
+                {
+                    "type": "menu",
+                    "label": "Sync Back Artboards From Scribble",
+                    "commandId": "syncBackArtboards",
+                    "shortcut": {
+                        "mac": "Ctrl+Alt+B",
+                        "win": "Ctrl+Alt+B"
+                    }
+                }
+            ]
+        }
+    ]
+}

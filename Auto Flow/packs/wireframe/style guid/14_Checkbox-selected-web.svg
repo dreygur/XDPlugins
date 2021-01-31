@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137" height="26" viewBox="0 0 137 26">
+  <g id="Group_346" data-name="Group 346" transform="translate(-132 -190)">
+    <text id="Title_6" data-name="Title 6" transform="translate(174 211)" fill="rgba(0,0,0,0.87)" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Check Box</tspan></text>
+    <g id="_14_checkbox-selected-web" data-name="14_checkbox-selected-web" transform="translate(132 190)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="25" height="25" rx="2" fill="#2e4cff"/>
+      <g id="done-24px" transform="translate(1 1)">
+        <path id="Path_10" data-name="Path 10" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_11" data-name="Path 11" d="M9,16.2,4.8,12,3.4,13.4,9,19,21,7,19.6,5.6Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

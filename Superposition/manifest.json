@@ -1,0 +1,36 @@
+{
+  "name": "Superposition",
+  "id": "db30d108",
+  "version": "1.0.0",
+  "description": "With Superposition you can extract all design tokens from websites and use them directly in your Adobe XD designs. The plugin works with the free Superposition desktop application available at https://superposition.design",
+  "summary": "Use site design tokens in XD",
+  "languages": ["en"],
+  "keywords": [
+    "utility",
+    "productivity",
+    "automation",
+    "design tokens",
+    "design systems"
+  ],
+  "website": "https://superposition.design",
+  "author": "Superposition",
+  "helpUrl": "https://superposition.design/support",
+  "icons": [
+    { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+    { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+    { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+    { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+    { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Superposition",
+      "panelId": "db30d108"
+    }
+  ]
+}

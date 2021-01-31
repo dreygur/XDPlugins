@@ -1,0 +1,71 @@
+<svg id="Group_48" data-name="Group 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="584" viewBox="0 0 1440 584">
+  <defs>
+    <filter id="Rectangle_2" x="96" y="63" width="457" height="473" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#aaa" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4" x="488" y="63" width="457" height="473" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-color="#aaa" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6" x="887" y="63" width="457" height="473" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-color="#aaa" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_1" data-name="Rectangle 1" width="1440" height="584" fill="#fff"/>
+  <g id="Group_3" data-name="Group 3" transform="translate(6 -4179)">
+    <g transform="matrix(1, 0, 0, 1, -6, 4179)" filter="url(#Rectangle_2)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="367" height="383" transform="translate(141 101)" fill="#fff"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(135 4280)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="367.809" height="259.809" fill="#f2f7fb"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(154.499 100.462)">
+        <path id="Path_1" data-name="Path 1" d="M0,0H59.023V59.023H0Z" fill="none"/>
+        <path id="Path_2" data-name="Path 2" d="M47.267,42.349V7.919A4.933,4.933,0,0,0,42.349,3H7.919A4.933,4.933,0,0,0,3,7.919v34.43a4.933,4.933,0,0,0,4.919,4.919h34.43a4.933,4.933,0,0,0,4.918-4.919ZM16.526,28.823l6.148,7.4,8.608-11.091L42.349,39.889H7.919Z" transform="translate(4.378 4.378)" fill="#dfe2f2"/>
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="3" cy="3.5" rx="3" ry="3.5" transform="translate(16.501 18.538)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Blog_Title_is_here" data-name="Blog Title is here" transform="translate(154 4593)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Blog Title is here</tspan></text>
+    <text id="Category_24_Nov_2019" data-name="Category      24 Nov 2019" transform="translate(154 4631)" fill="rgba(119,119,119,0.87)" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Category      24 Nov 2019</tspan></text>
+  </g>
+  <g id="Group_6" data-name="Group 6" transform="translate(398 -4179)">
+    <g transform="matrix(1, 0, 0, 1, -398, 4179)" filter="url(#Rectangle_4)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="367" height="383" transform="translate(533 101)" fill="#fff"/>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(135 4280)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="367.809" height="259.809" fill="#f2f7fb"/>
+      <g id="Group_4" data-name="Group 4" transform="translate(154.499 100.462)">
+        <path id="Path_3" data-name="Path 3" d="M0,0H59.023V59.023H0Z" fill="none"/>
+        <path id="Path_4" data-name="Path 4" d="M47.267,42.349V7.919A4.933,4.933,0,0,0,42.349,3H7.919A4.933,4.933,0,0,0,3,7.919v34.43a4.933,4.933,0,0,0,4.919,4.919h34.43a4.933,4.933,0,0,0,4.918-4.919ZM16.526,28.823l6.148,7.4,8.608-11.091L42.349,39.889H7.919Z" transform="translate(4.378 4.378)" fill="#dfe2f2"/>
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="3" cy="3.5" rx="3" ry="3.5" transform="translate(16.501 18.538)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Blog_Title_is_here-2" data-name="Blog Title is here" transform="translate(154 4593)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Blog Title is here</tspan></text>
+    <text id="Category_24_Nov_2019-2" data-name="Category      24 Nov 2019" transform="translate(154 4631)" fill="rgba(119,119,119,0.87)" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Category      24 Nov 2019</tspan></text>
+  </g>
+  <g id="Group_9" data-name="Group 9" transform="translate(797 -4179)">
+    <g transform="matrix(1, 0, 0, 1, -797, 4179)" filter="url(#Rectangle_6)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="367" height="383" transform="translate(932 101)" fill="#fff"/>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(135 4280)">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="367.809" height="259.809" fill="#f2f7fb"/>
+      <g id="Group_7" data-name="Group 7" transform="translate(154.499 100.462)">
+        <path id="Path_5" data-name="Path 5" d="M0,0H59.023V59.023H0Z" fill="none"/>
+        <path id="Path_6" data-name="Path 6" d="M47.267,42.349V7.919A4.933,4.933,0,0,0,42.349,3H7.919A4.933,4.933,0,0,0,3,7.919v34.43a4.933,4.933,0,0,0,4.919,4.919h34.43a4.933,4.933,0,0,0,4.918-4.919ZM16.526,28.823l6.148,7.4,8.608-11.091L42.349,39.889H7.919Z" transform="translate(4.378 4.378)" fill="#dfe2f2"/>
+        <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="3" cy="3.5" rx="3" ry="3.5" transform="translate(16.501 18.538)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Blog_Title_is_here-3" data-name="Blog Title is here" transform="translate(154 4593)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Blog Title is here</tspan></text>
+    <text id="Category_24_Nov_2019-3" data-name="Category      24 Nov 2019" transform="translate(154 4631)" fill="rgba(119,119,119,0.87)" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Category      24 Nov 2019</tspan></text>
+  </g>
+</svg>

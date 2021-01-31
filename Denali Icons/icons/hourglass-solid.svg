@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>hourglass-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M40,42H38V34.5a7.9,7.9,0,0,0-2.3-5.7L30.8,24l4.9-4.8A7.9,7.9,0,0,0,38,13.5V6h2a2,2,0,0,0,0-4H8A2,2,0,0,0,8,6h2v7.5a7.9,7.9,0,0,0,2.3,5.7L17.2,24l-4.9,4.8A7.9,7.9,0,0,0,10,34.5V42H8a2,2,0,0,0,0,4H40a2,2,0,0,0,0-4ZM29.6,42H18.4L24,36.3Z"/>
+    </g>
+  </g>
+</svg>

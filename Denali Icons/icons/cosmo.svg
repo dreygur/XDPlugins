@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>cosmo</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <polygon points="20.5 36.9 15.9 43.1 2 24 15.8 5.1 20.4 11.2 11.1 24 20.5 36.9"/>
+      <polygon points="36.2 37.3 31.8 43.6 18.7 43.6 23.4 37.3 36.2 37.3"/>
+      <polygon points="23.2 10.7 18.5 4.4 31.8 4.4 36.2 10.7 23.2 10.7"/>
+      <polygon points="30.1 24 23.8 32.4 17.7 24 23.8 15.6 30.1 24"/>
+      <polygon points="46 24 39.7 32.6 26.9 32.6 33.4 24 26.8 15.4 39.7 15.4 46 24"/>
+      <g opacity="0.5">
+        <polygon points="20.5 36.9 15.9 43.1 2 24 15.8 5.1 20.4 11.2 11.1 24 20.5 36.9"/>
+        <polygon points="30.1 24 23.8 32.4 17.7 24 23.8 15.6 30.1 24"/>
+      </g>
+    </g>
+  </g>
+</svg>

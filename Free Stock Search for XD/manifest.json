@@ -1,0 +1,49 @@
+{
+    "id": "71508a43",
+    "author": "Thomas Zagler",
+    "name": "Free Stock Search for XD",
+    "version": "1.2.4",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "description": "Free Stock Search allows you to search on unsplash.com, pixabay.com, and pexels.com for free Stock Files.\n\nDownload and place them directly with a click to your document. It is also possible to search Adobe Stock and Shutterstock.\n\nIn this free version, you will see some results from Adobe Stock and Shutterstock in the results even if they are not selected. If you decide to buy a picture from Adobe Stock/Shutterstock, I will receive a small commission. This means that this extension can remain free of charge and can be further developed.\n\nFeatures of the Pro Version:\n- Search for all results (millions of files).\n- Search, download, and place free real vector files.\n- Search, download, and place free icons (in vector format).\n- Place photos in the sizes Small, Medium, Large, and Original.\n- Download files directly to your computer.\n- No assets of Adobe Stock and Shutterstock appear in the results if they are not selected.\n\nGet it here: https://pixelsucht.net/free-stock-search-for-xd/",
+    "summary": "Search for free Stock Files.",
+    "languages": ["en", "de"],
+    "keywords": [
+        "unsplash",
+        "pixabay",
+        "pexels",
+        "stock",
+        "adobe stock",
+        "shutterstock",
+        "photo",
+        "image",
+        "vector",
+        "icon",
+        "free",
+        "vectors",
+        "icons"
+    ],
+    "website": "https://pixelsucht.net/free-stock-search-for-xd/",
+    "helpUrl": "thomas@pixelsucht.net",
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "images/icon@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@2x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Free Stock Search",
+            "panelId": "freeStockSearch"
+        }
+    ]
+}

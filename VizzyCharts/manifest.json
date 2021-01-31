@@ -1,0 +1,40 @@
+{
+  "id": "c4f56b2a",
+  "name": "VizzyCharts",
+  "version": "1.3.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "description": "The VizzyCharts plugin lets you quickly generate data visualizations, creating fully-editable, pixel-perfect charts and graphs using native XD objects such as rectangles, text fields, and lines. With the new Plugins Panel, you can create and configure these charts right alongside the design canvas.",
+  "summary": "Data Visualization plugin.",
+  "keywords": [
+    "data visualization",
+    "data visualizations",
+    "chart",
+    "charts",
+    "graph",
+    "data",
+    "visualization",
+    "ring",
+    "circle",
+    "bar chart"
+  ],
+  "languages": ["en"],
+  "author": "Hani Al-areqi",
+  "helpUrl": "https://www.vizzycharts.com",
+  "icons": [
+    { "width": 24, "height": 24, "path": "elements/VizzyIcon@1x.png" },
+    { "width": 48, "height": 48, "path": "elements/VizzyIcon@2x.png" },
+    { "width": 96, "height": 96, "path": "elements/VizzyIcon@3x.png" },
+    { "width": 144, "height": 144, "path": "elements/VizzyIcon@4x.png" },
+    { "width": 192, "height": 192, "path": "elements/VizzyIcon@5x.png" }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "VizzyCharts",
+      "panelId": "vizzy"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>slack_1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <g>
+          <path d="M11.2,29.8a4.6,4.6,0,0,1-4.6,4.6,4.6,4.6,0,0,1,0-9.2h4.6Z"/>
+          <path d="M13.6,29.8a4.6,4.6,0,0,1,9.2,0V41.4a4.6,4.6,0,0,1-9.2,0Z"/>
+        </g>
+        <g>
+          <path d="M18.2,11.2a4.6,4.6,0,0,1-4.6-4.6,4.6,4.6,0,0,1,9.2,0v4.6Z"/>
+          <path d="M18.2,13.6a4.6,4.6,0,1,1,0,9.2H6.6a4.6,4.6,0,0,1,0-9.2Z"/>
+        </g>
+        <g>
+          <path d="M36.8,18.2a4.6,4.6,0,0,1,4.6-4.6,4.6,4.6,0,1,1,0,9.2H36.8Z"/>
+          <path d="M34.4,18.2a4.6,4.6,0,1,1-9.2,0V6.6a4.6,4.6,0,1,1,9.2,0Z"/>
+        </g>
+        <g>
+          <path d="M29.8,36.8a4.6,4.6,0,0,1,4.6,4.6,4.6,4.6,0,1,1-9.2,0V36.8Z"/>
+          <path d="M29.8,34.4a4.6,4.6,0,0,1,0-9.2H41.4a4.6,4.6,0,1,1,0,9.2Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

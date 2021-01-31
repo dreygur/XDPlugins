@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>text-color</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <g>
+        <path d="M43,3H5A2,2,0,0,0,3,5V43a2,2,0,0,0,2,2H43a2,2,0,0,0,2-2V5A2,2,0,0,0,43,3ZM41,41H7V7H41Z"/>
+        <path d="M17.2,31H30.8l2.6,6h4.4L26.5,11h-5L10.2,37h4.4ZM24,14.9,29.1,27H18.9Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

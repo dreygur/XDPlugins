@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>folder-merge</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M36.5,25.7l-4.9-4.9a2,2,0,1,0-2.9,2.8l1.6,1.6H24l-8.5-8.6a2.1,2.1,0,0,0-2.7-.2,1.9,1.9,0,0,0-.2,3L20.2,27l-7.6,7.6a1.9,1.9,0,0,0,.2,3,2.1,2.1,0,0,0,2.7-.2l8.2-8.2h6.6l-1.6,1.6a1.9,1.9,0,0,0,.3,3,2,2,0,0,0,2.6-.3l4.9-4.9A2.1,2.1,0,0,0,36.5,25.7Z"/>
+      <path d="M46,14V40a2,2,0,0,1-2,2H24a2,2,0,0,1-2-2h0a2,2,0,0,1,2-2H42V16H25.3l-1.1-1.2L19.3,10H6V40a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V8A2,2,0,0,1,4,6H21l6,6H44A2,2,0,0,1,46,14Z"/>
+    </g>
+  </g>
+</svg>

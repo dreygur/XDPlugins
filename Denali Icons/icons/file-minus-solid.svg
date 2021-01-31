@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>file-minus-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M33,2a13.5,13.5,0,0,0-5,1H8A2,2,0,0,0,6,5V43a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V24.4A13,13,0,0,0,33,2ZM14.6,14.6A2,2,0,0,1,16,14h4v1a10.3,10.3,0,0,0,.4,3H16a2,2,0,0,1-2-2A2,2,0,0,1,14.6,14.6Zm0,8A2,2,0,0,1,16,22h6.1a12.7,12.7,0,0,0,4,4H16a2,2,0,0,1-2-2A2,2,0,0,1,14.6,22.6ZM32,34H16a2,2,0,0,1,0-4H32a2,2,0,0,1,0,4Zm1-10a9,9,0,1,1,9-9A9,9,0,0,1,33,24Z"/>
+        <path d="M37,13H29a2.1,2.1,0,0,0-2,2,2,2,0,0,0,2,2h8a2.1,2.1,0,0,0,2-2A2,2,0,0,0,37,13Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

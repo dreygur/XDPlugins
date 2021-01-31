@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>file-multiple-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M36,8H11a2,2,0,0,0,0,4H35V38a2,2,0,0,0,4,0V11A2.9,2.9,0,0,0,36,8Z"/>
+        <path d="M42,2H17a2,2,0,0,0,0,4H41V32a2,2,0,0,0,4,0V5A2.9,2.9,0,0,0,42,2Z"/>
+        <path d="M31,14H5a2,2,0,0,0-2,2V44a2,2,0,0,0,2,2H31a2,2,0,0,0,2-2V16A2,2,0,0,0,31,14ZM16,38H12a2,2,0,0,1,0-4h4a2,2,0,0,1,0,4Zm8-6H12a2,2,0,0,1,0-4H24a2,2,0,0,1,0,4Zm0-6H12a2,2,0,0,1,0-4H24a2,2,0,0,1,0,4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

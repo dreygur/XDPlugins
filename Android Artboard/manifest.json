@@ -1,0 +1,64 @@
+{
+    "id": "afd1867c",
+    "name": "Android Artboard",
+    "host": {
+        "app": "XD",
+        "minVersion": "19.0"
+    },
+    "version": "0.0.1",
+    "description": "This is an easy plugin to generate different android screen sized artboard. Now you don't need to remember the values",
+    "summary": "Android screensize artboards",
+    "releaseNotes": "Initial release",
+    "keywords": [
+        "android",
+        "productivity",
+        "automation",
+        "artboard",
+        "android screen",
+        "pixel",
+        "screen size"
+    ],
+    "languages": [
+        "en",
+        "de",
+        "fr"
+    ],
+    "author": "Rohith R",
+    "helpUrl": "https://www.rohitkrishna.com",
+    "icons": [{
+            "width": 24,
+            "height": 24,
+            "path": "images/icon@2x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@1x.png"
+        },
+        {
+            "width": 96,
+            "height": 96,
+            "path": "images/icon@3x.png"
+        },
+        {
+            "width": 144,
+            "height": 144,
+            "path": "images/icon@4x.png"
+        },
+        {
+            "width": 192,
+            "height": 192,
+            "path": "images/icon@5x.png"
+        }
+    ],
+
+    "uiEntryPoints": [{
+        "type": "menu",
+        "label": "Android Artboard",
+        "commandId": "createartboard",
+        "shortcut": {
+            "mac": "Cmd+Shift+W",
+            "win": "Ctrl+Shift+W"
+        }
+    }]
+}

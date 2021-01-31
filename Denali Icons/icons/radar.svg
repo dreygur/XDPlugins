@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>radar</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M39.6,8.4a3.2,3.2,0,0,0-4.3,0,3.2,3.2,0,0,0,0,4.3A16.1,16.1,0,1,1,21,8.3V12a12.4,12.4,0,0,0,6,24,12.2,12.2,0,0,0,9.3-12,3,3,0,1,0-5.9,0,6.4,6.4,0,0,1-12.8,0A6.3,6.3,0,0,1,21,18.4v5.5a3,3,0,0,0,6,0V5a2.6,2.6,0,0,0-.7-1.9A3,3,0,0,0,24,2,22,22,0,1,0,46,24,22.4,22.4,0,0,0,39.6,8.4Z" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

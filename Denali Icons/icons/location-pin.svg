@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>location-pin</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M36,16A12,12,0,1,0,22,27.8V42a2,2,0,0,0,4,0V27.8A11.9,11.9,0,0,0,36,16ZM24,24a8,8,0,1,1,8-8A8,8,0,0,1,24,24Z"/>
+        <circle cx="24" cy="16" r="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

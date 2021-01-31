@@ -1,0 +1,14 @@
+{
+  "en": {
+    "yay_title": "Yay!",
+    "yay_body": " text element(s) selected",
+    "whoops_title": "Whoops..",
+    "whoops_body": "No text element found..."
+  },
+  "ja": {
+    "yay_title": "やったね!",
+    "yay_body": "個のテキスト要素を選択しました",
+    "whoops_title": "おおっと。。",
+    "whoops_body": "テキスト要素がないみたいです。。"
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>calculator</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M42,4H6A2,2,0,0,0,4,6V42a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V6A2,2,0,0,0,42,4ZM40,22.5H25.5V8H40ZM22.5,8V22.5H8V8ZM8,25.5H22.5V40H8ZM25.5,40V25.5H40V40Z"/>
+        <polygon points="13.5 20 16.5 20 16.5 16.5 20 16.5 20 13.5 16.5 13.5 16.5 10 13.5 10 13.5 13.5 10 13.5 10 16.5 13.5 16.5 13.5 20"/>
+        <polygon points="19.6 30.5 17.5 28.4 15 30.9 12.5 28.4 10.4 30.5 12.9 33 10.4 35.5 12.5 37.6 15 35.1 17.5 37.6 19.6 35.5 17.1 33 19.6 30.5"/>
+        <rect x="28" y="13.5" width="10" height="3"/>
+        <rect x="28" y="34" width="10" height="3"/>
+        <rect x="28" y="29" width="10" height="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

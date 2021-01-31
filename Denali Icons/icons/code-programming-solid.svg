@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>code-programming-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M44,6H4A2,2,0,0,0,2,8V40a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V8A2,2,0,0,0,44,6ZM18.3,27.5A2,2,0,0,1,17,31a1.9,1.9,0,0,1-1.3-.5l-6-5a2,2,0,0,1,0-3l6-5a2,2,0,1,1,2.6,3L14,24Zm9.6-12-4,18A1.9,1.9,0,0,1,22,35h-.5a1.9,1.9,0,0,1-1.4-2.4l4-18a2,2,0,1,1,3.8,1Zm10.4,10-6,5A1.9,1.9,0,0,1,31,31a2,2,0,0,1-1.3-3.5L34,24l-4.3-3.5a2,2,0,0,1,2.6-3l6,5a2,2,0,0,1,0,3Z"/>
+    </g>
+  </g>
+</svg>

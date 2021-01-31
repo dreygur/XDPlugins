@@ -1,0 +1,43 @@
+{
+    "summary": "Get Wikipedia content",
+    "website": "https://ameyt.com/wikify",
+    "keywords": ["wikipedia", "encyclopedia", "dictionary", "search", "ux", "jumpstart", "lorem"],
+    "languages": ["en"],
+    "author": "Ameyt",
+    "description": "Wikify helps you insert Wikipedia content into elements in your design files. Select a text field or an image container or both, run the plugin and type in what content you want to insert. Wikify currently supports all kinds of text and image containers other than Repeat Grids and Artboards. Enjoy! (Please note that the licenses of the contents have to be acquired and used separately.)",
+    "helpUrl": "https://ameyt.com/wikify",
+    "main": "main.js",
+    "icons": [{
+        "path": "images/wikifyIcon1.png",
+        "width": 48,
+        "height": 48
+  }, {
+        "path": "images/wikifyIcon2.png",
+        "width": 96,
+        "height": 96
+  }, {
+        "path": "images/wikifyIcon3.png",
+        "width": 144,
+        "height": 144
+  }, {
+        "path": "images/wikifyIcon4.png",
+        "width": 192,
+        "height": 192
+  }],
+    "version": "1.0.3",
+    "releaseNotes": "Fresh look, bug fixes and performance improvements.",
+    "name": "Wikify",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "id": "65d562fe",
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Wikify",
+            "commandId": "wikifyBegin"
+    }
+  ]
+
+}

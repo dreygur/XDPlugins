@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>briefcase-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M26,31v3.5H22V31c-8-.4-15.1-2.9-20-6.6V42a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V24.4C41.1,28.1,34,30.6,26,31ZM44,12H33V6a2,2,0,0,0-2-2H17a2,2,0,0,0-2,2v6H4a2,2,0,0,0-2,2v5c4.3,4.7,12.6,8,22,8s17.7-3.3,22-8V14A2,2,0,0,0,44,12ZM29,12H19V8H29Z"/>
+    </g>
+  </g>
+</svg>

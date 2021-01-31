@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>keyboard-percent</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M14,20a8,8,0,1,1,8-8A8,8,0,0,1,14,20ZM14,8a4,4,0,1,0,4,4A4,4,0,0,0,14,8Z"/>
+      <path d="M34,44a8,8,0,1,1,8-8A8,8,0,0,1,34,44Zm0-12a4,4,0,1,0,4,4A4,4,0,0,0,34,32Z"/>
+      <path d="M14,46l-.9-.2a2,2,0,0,1-.9-2.7l20-40a2,2,0,0,1,3.6,1.8l-20,40A2.1,2.1,0,0,1,14,46Z"/>
+    </g>
+  </g>
+</svg>

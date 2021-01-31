@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Legends>
+  <legend>
+    <name>ActivityScenario</name>
+    <legend-item>
+      <name>Completed</name>
+      <color red="40" green="111" blue="65" />
+    </legend-item>
+    <legend-item>
+      <name>To change</name>
+      <color red="127" green="121" blue="34" />
+    </legend-item>
+    <legend-item>
+      <name>Discarded</name>
+      <color red="37" green="96" blue="115" />
+    </legend-item>
+  </legend>
+  <legend>
+    <name>PageAction</name>
+    <legend-item>
+      <name>Completed</name>
+      <color red="40" green="111" blue="65" />
+    </legend-item>
+    <legend-item>
+      <name>To change</name>
+      <color red="127" green="121" blue="34" />
+    </legend-item>
+    <legend-item>
+      <name>Discarded</name>
+      <color red="37" green="96" blue="115" />
+    </legend-item>
+  </legend>
+  <legend>
+    <name>CustomComponent</name>
+    <legend-item>
+      <name>Completed</name>
+      <color red="40" green="111" blue="65" />
+    </legend-item>
+    <legend-item>
+      <name>To change</name>
+      <color red="127" green="121" blue="34" />
+    </legend-item>
+    <legend-item>
+      <name>Discarded</name>
+      <color red="37" green="96" blue="115" />
+    </legend-item>
+  </legend>
+  <legend>
+    <name>RequirementModel</name>
+    <legend-item>
+      <name>Accepted</name>
+      <color red="40" green="111" blue="65" />
+    </legend-item>
+    <legend-item>
+      <name>Confirmation required</name>
+      <color red="127" green="121" blue="34" />
+    </legend-item>
+    <legend-item>
+      <name>Purposed</name>
+      <color red="172" green="100" blue="25" />
+    </legend-item>
+    <legend-item>
+      <name>Revised</name>
+      <color red="125" green="43" blue="100" />
+    </legend-item>
+    <legend-item>
+      <name>Discarded</name>
+      <color red="37" green="96" blue="115" />
+    </legend-item>
+  </legend>
+  <legend>
+    <name>CommentModel</name>
+    <legend-item>
+      <name>Developers</name>
+      <color red="40" green="111" blue="65" />
+    </legend-item>
+    <legend-item>
+      <name>Clients</name>
+      <color red="127" green="121" blue="34" />
+    </legend-item>
+    <legend-item>
+      <name>UX Team</name>
+      <color red="37" green="96" blue="115" />
+    </legend-item>
+  </legend>
+  <legend>
+    <name>BusinessObject</name>
+    <legend-item>
+      <name>Completed</name>
+      <color red="40" green="111" blue="65" />
+    </legend-item>
+    <legend-item>
+      <name>To change</name>
+      <color red="127" green="121" blue="34" />
+    </legend-item>
+    <legend-item>
+      <name>Discarded</name>
+      <color red="37" green="96" blue="115" />
+    </legend-item>
+  </legend>
+  <legend>
+    <name>Template</name>
+    <legend-item>
+      <name>Completed</name>
+      <color red="40" green="111" blue="65" />
+    </legend-item>
+    <legend-item>
+      <name>To change</name>
+      <color red="127" green="121" blue="34" />
+    </legend-item>
+    <legend-item>
+      <name>Discarded</name>
+      <color red="37" green="96" blue="115" />
+    </legend-item>
+  </legend>
+</Legends>
+

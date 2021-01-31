@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>memory-card</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M30.3,6,38,13.7V42H10V6H30.3M32,2H8A2,2,0,0,0,6,4V44a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V12L32,2Z"/>
+      <path d="M16,18a2,2,0,0,1-2-2V12a2,2,0,0,1,4,0v4A2,2,0,0,1,16,18Z"/>
+      <path d="M22,18a2,2,0,0,1-2-2V12a2,2,0,0,1,4,0v4A2,2,0,0,1,22,18Z"/>
+      <path d="M28,18a2,2,0,0,1-2-2V12a2,2,0,0,1,4,0v4A2,2,0,0,1,28,18Z"/>
+      <path d="M32,30H16a2,2,0,0,1,0-4H32a2,2,0,0,1,0,4Z"/>
+      <path d="M32,38H16a2,2,0,0,1,0-4H32a2,2,0,0,1,0,4Z"/>
+    </g>
+  </g>
+</svg>

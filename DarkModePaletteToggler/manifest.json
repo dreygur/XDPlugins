@@ -1,0 +1,48 @@
+{
+  "id" : "46bdae65",
+  "name" : "DarkModePaletteToggler",
+  "version" : "1.0.0",
+  "description": "Toggle easily between a light color palette and a dark one. This plugin is made to help you manage dark mode in your project without duplicating the project.\n\nTo use DarkModeToggler properly :\n 1. Use the \"Generate assets variants\" button to transform your normal color assets (which are named) in compatible ones OR for each color asset, create a name/light and name/dark version and then use the \"Reload colors\" button\n2. Switch between light-mode and dark-mode via the DarkModeToggler\n3. Edit colors via the Adobe XD assets panel\n\nBecause of software restrictions, this plugin is not able to edit : circular gradients, repeatGrids and objects into a shape mask. It can change in the futur if these restrictions are removed.\n\nThis plugin was designed and developed by Romain Penchenat [https://romainpenchenat.com]",
+  "summary": "Toggle easily between a light color palette and a dark one. This plugin is made to help you manage dark mode in your project without duplicating the project.",
+  "languages": ["en"],
+  "author": "Romain Penchenat",
+  "helpUrl": "https://romainpenchenat.com",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "icons" : [
+    {
+      "path" : "images/darkmodepalettetoggler_24.png",
+      "width" : 24,
+      "height" : 24
+    },
+    {
+      "path" : "images/darkmodepalettetoggler_48.png",
+      "width" : 48,
+      "height" : 48
+    },
+    {
+      "path" : "images/darkmodepalettetoggler_96.png",
+      "width" : 96,
+      "height" : 96
+    },
+    {
+      "path" : "images/darkmodepalettetoggler_144.png",
+      "width" : 144,
+      "height" : 144
+    },
+    {
+      "path" : "images/darkmodepalettetoggler_192.png",
+      "width" : 192,
+      "height" : 192
+    }
+  ],
+  "uiEntryPoints" : [
+    {
+      "type" : "panel",
+      "label" : "Show",
+      "panelId" : "darkModeToggler"
+    }
+  ]
+}

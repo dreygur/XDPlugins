@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202.475" height="71.368" viewBox="0 0 202.475 71.368">
+  <g id="Flowchart_Connector_-_Fork_-_Element" data-name="Flowchart Connector - Fork - Element" transform="translate(0 2.475)">
+    <path id="line_color_border_" data-name="line [color_border]" d="M300,440H200v60H100" transform="translate(-100 -432.857)" fill="none" stroke="#101010" stroke-width="3.5"/>
+    <g id="arrow_head" data-name="arrow head" transform="translate(192.929 0) rotate(45)">
+      <line id="line_color_border_2" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+      <line id="line_color_border_3" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+  </g>
+</svg>

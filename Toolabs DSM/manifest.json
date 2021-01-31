@@ -1,0 +1,60 @@
+{
+    "name": "Toolabs DSM",
+    "id": "09c56fd7",
+    "version": "1.0.51",
+    "summary": "Toolabs Design System Manager",
+    "description": "Toolabs DSM plugin is a stateful design system manager which lets you link design tokens to design elements in your Adobe XD documents and make them themeable by defining system state variations, with no need to copy and paste your artboards.",
+    "website": "https://www.toolabs.com/xdplugin",
+    "helpUrl": "https://www.toolabs.com/xdplugin",
+    "author": "Toolabs",
+    "languages": [
+        "en"
+    ],
+    "icon": "images/icon@5x.png",
+    "icons": [{
+            "path": "images/icon@1x.png",
+            "width": 24,
+            "height": 24
+        },
+        {
+            "path": "images/icon@2x.png",
+            "width": 48,
+            "height": 48
+        },
+        {
+            "path": "images/icon@3x.png",
+            "width": 96,
+            "height": 96
+        },
+        {
+            "path": "images/icon@4x.png",
+            "width": 144,
+            "height": 144
+        },
+        {
+            "path": "images/icon@5x.png",
+            "width": 192,
+            "height": 192
+        }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "keywords": [
+        "design system",
+        "theme",
+        "localization",
+        "state",
+        "assets",
+        "tokens",
+        "colors",
+        "typography"
+    ],
+    "uiEntryPoints": [{
+        "type": "panel",
+        "label": "Toolabs DSM",
+        "id": "toolabs_design_system",
+        "panelId": "toolabs_design_system"
+    }]
+}

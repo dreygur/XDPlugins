@@ -1,0 +1,81 @@
+{
+  "name" : "Bullet",
+ "author": "Hasan Kazmi",
+ "helpUrl": "hasankaz@hotmail.com",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+	"keywords": [
+        "Bullets",
+        "Numbering",
+        "Ul",
+		"Ol",
+		"Li",
+		"ordered list",
+		"un-ordered list",
+		"list",
+		"text formatting",
+		"Indent"
+    ],
+
+	"summary": "Bullets and Numbering plugin",
+ "languages": [
+        "en"
+    ],
+  "description" : "Bullets plugin as name suggests helps you to add round, square bullets as well as ordered list to your text layers. It is simple yet needed functionality in many projects. Simply select a text layer or multiple using Shift key and apply the plugin. Numbering or ordered list, your selection will define the sequence. So if you start selecting text layers from bottom up and apply order list command then bottom text element will have number 1 and so on. To fix this please make a selection from top down. If you have any issues or need more help, don't hesitate to contact me at Hasankaz@hotmail.com.",
+  "id" : "02b738ca",
+   "icons":
+    [
+        
+        {
+            "width": 48,
+            "height": 48,
+            "path":"images/icon_48.png"
+        },
+        {
+            "width":96,
+            "height":96,
+            "path":"images/icon_96.png"
+        },
+		 {
+            "width":144,
+            "height":144,
+            "path":"images/icon_144.png"
+        },
+		 {
+            "width":192,
+            "height":192,
+            "path":"images/icon_192.png"
+        }
+    ],
+  "uiEntryPoints":
+	[
+        {
+            "type": "menu",
+            "label": "Bullets",
+            "menuItems":
+			[
+                {
+                    "type": "menu",
+                    "label": "Round >",
+                    "commandId": "makeRoundBullets",
+					"shortcut": {"mac": "Cmd+Alt+Shift+K", "win": "Ctrl+Alt+Shift+K"}
+                },
+                {
+                    "type": "menu",
+                    "label": "Square >",
+                    "commandId": "makeSquareBullets",
+					"shortcut": {"mac": "Cmd+Alt+Shift+S", "win": "Ctrl+Alt+Shift+S"}
+                },
+                {
+                    "type": "menu",
+                    "label": "Numbers >",
+                    "commandId": "makeNumberBullets",
+					"shortcut": {"mac": "Cmd+Alt+Shift+O", "win": "Ctrl+Alt+Shift+O"}
+                }
+            ]
+        }
+    ],
+  "version" : "2.0.6"
+}

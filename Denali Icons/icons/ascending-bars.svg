@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Icons">
+      <g>
+        <rect x="33" y="4" width="10" height="40" rx="2"/>
+        <rect x="19" y="19" width="10" height="25" rx="2"/>
+        <rect x="5" y="33" width="10" height="11" rx="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "name": "Toggle",
+  "name_ja": "トグル",
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    },
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "Default" }, { "value": "Label" }],
+      "compLabel": "DISPLAY_ELEMENTS",
+      "defaultValue": "Default"
+    },
+    {
+      "uiType": "input",
+      "type": "text",
+      "uxp_quiet": "true",
+      "compLabel": "LABEL"
+    }
+  ]
+}

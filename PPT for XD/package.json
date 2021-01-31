@@ -1,0 +1,11 @@
+{
+  "name": "xdtoppt-plugin",
+  "version": "1.0.0",
+  "description": "Convert xd files to ppt as image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "deverma",
+  "license": "ISC"
+}

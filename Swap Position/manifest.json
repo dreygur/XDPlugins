@@ -1,0 +1,24 @@
+{
+  "name" : "Swap Position",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "An Adobe XD plugins that swaps the position of two selected nodes",
+  "id" : "ff17a692",
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Swap Position",
+    "type" : "menu",
+    "commandId" : "swapPosition",
+    "shortcut": {
+        "mac": "Cmd+Shift+X",
+        "win": "Ctrl+Shift+X"
+    }
+  } ],
+  "version" : "1.0.0"
+}

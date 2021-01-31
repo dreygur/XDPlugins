@@ -1,0 +1,29 @@
+# /bin/bash
+
+DIST_PATH=$(dirname $(dirname $(readlink -f "$0")))
+
+ls $DIST_PATH
+
+VERSION=$(
+  grep '"version"' $DIST_PATH/manifest.json |
+  sed -E 's/\s?"version"\s?:\s?",?//' |
+  sed -E 's/"$//')
+
+PKG_NAME=$(
+  grep '"name"' $DIST_PATH/manifest.json |
+  sed -E 's/\s?"name"\s?:\s?"//' |
+  sed -E 's/",?$//')
+
+SAFE_NAME=$(echo $PKG_NAME | sed -E 's/\W+//')
+cd $DIST_PATH & zip -r ./releases/$SAFE_NAME-$VERSION.xdx ./* -x ./bin\* -x *.git* -x ./release\* -x ./src/data/raw\*
+
+if [ -z $(git tag -l | grep "^v$VERSION\$") ]; then
+	echo -e "\e[32mtagging\e[0m: $PKG_NAME@$VERSION"
+	git tag "v$VERSION"
+	git push --tags
+	SAFE_NAME=$(echo $PKG_NAME | sed -E 's/\W+//')
+	cd $DIST_PATH & zip -r ./releases/$SAFE_NAME-$VERSION.xdx ./* -x ./bin\* -x *.git* -x ./release\* -x ./src/data/raw\*
+else
+	echo -e "\e[31m$PKG_NAME $VERSION is already tagged."
+	echo -e "Bump in manifest.json and try again.\e[0m"
+fi

@@ -1,0 +1,4467 @@
+{
+  "type": "Artboard",
+  "name": "ブログの詳細 - Mobile",
+  "visible": true,
+  "opacity": 1,
+  "rotation": 0,
+  "fillEnabled": true,
+  "fill": "#fbfbfb",
+  "strokeEnabled": false,
+  "strokeWidth": 1,
+  "strokePosition": "center",
+  "strokeEndCaps": "butt",
+  "strokeJoins": "miter",
+  "strokeMiterLimit": 10,
+  "strokeDashArray": [],
+  "strokeDashOffset": 0,
+  "shadow": null,
+  "blur": null,
+  "width": 375,
+  "height": 3288,
+  "viewportHeight": 812,
+  "children": [
+    {
+      "type": "Group",
+      "name": "Next",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 18
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Background [STYLE=STYLE3]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 2622
+          },
+          "fillEnabled": true,
+          "fill": "#d0d0d0",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 375,
+          "height": 243,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Background"
+        },
+        {
+          "type": "Text",
+          "name": "Post title [PLATFORM=Mobile][STYLE=STYLE3][TAG=H5]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 37.5,
+            "y": 2726
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "UXリサーチのための定量的なデータ分析",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 20,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 28,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 301,
+            "height": 83
+          },
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Next",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": -16
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Group",
+              "name": "Group 178",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -1152,
+                "y": -790
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Text",
+                  "name": "Typography [PLATFORM=Desktop][STYLE=STYLE3][TAG=H6]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1188,
+                    "y": 3502
+                  },
+                  "fillEnabled": true,
+                  "fill": "#3d3d3d",
+                  "strokeEnabled": false,
+                  "stroke": "#1968ff",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "次へ",
+                  "fontFamily": "Noto Sans CJK JP",
+                  "fontStyle": "Bold",
+                  "fontSize": 16,
+                  "charSpacing": 0,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "left",
+                  "lineSpacing": 26,
+                  "paragraphSpacing": 0,
+                  "areaBox": null,
+                  "__componentType": "Typography"
+                }
+              ]
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 84,
+                "y": 2694
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/chevron-right][SIZE=LARGE][STYLE=STYLE3]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 24,
+                  "height": 24,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/chevron-right][SIZE=LARGE][STYLE=STYLE3]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 2,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 9 18 L 15 12 L 9 6",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE3",
+                      "SIZE": "LARGE",
+                      "ICON": "feather/chevron-right"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "name": "Blog Content",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Background [STYLE=STYLE1]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 335
+          },
+          "fillEnabled": true,
+          "fill": "#fbfbfb",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 375,
+          "height": 2305,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Background"
+        },
+        {
+          "type": "Group",
+          "name": "Comment",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 1
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 242,
+                "y": 2138
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "16",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 206,
+                "y": 2122
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/heart][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/heart][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 17.36700057983398 3.842000007629395 C 15.57699966430664 2.051000118255615 12.67300033569336 2.051000118255615 10.88300037384033 3.842000007629395 L 10 4.724999904632568 L 9.116999626159668 3.842000007629395 C 7.326000213623047 2.051000118255615 4.423999786376953 2.051000118255615 2.632999897003174 3.842000007629395 C 0.8429999947547913 5.631999969482422 0.8429999947547913 8.534999847412109 2.632999897003174 10.32499980926514 L 3.516999959945679 11.20800018310547 L 10 17.6919994354248 L 16.48299980163574 11.20800018310547 L 17.36700057983398 10.32499980926514 C 19.15800094604492 8.534999847412109 19.15800094604492 5.631999969482422 17.36700057983398 3.842000007629395 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/heart"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 329,
+                "y": 2138
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "12",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "center",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 284,
+                "y": 2122
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/message-square][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/message-square][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 17.5 12.5 C 17.5 13.42000007629395 16.75399971008301 14.16699981689453 15.83300018310547 14.16699981689453 L 5.833000183105469 14.16699981689453 L 2.5 17.5 L 2.5 4.166999816894531 C 2.5 3.246000051498413 3.246000051498413 2.5 4.166999816894531 2.5 L 15.83300018310547 2.5 C 16.75399971008301 2.5 17.5 3.246000051498413 17.5 4.166999816894531 L 17.5 12.5 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/message-square"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Description [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 2027
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "何は事実至極この談判通りという事の上を折っありまし。どうも半分を評方はとうとうその学習たらですばかりをするているならがも講義ありますませて、全くにはするただなけれう。",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": {
+                "width": 302,
+                "height": 77
+              },
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 100,
+                "y": 1972
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "名前",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 100,
+                "y": 1999
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "5時間前",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Image",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 1955
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Placement Area [ASSET=small][SIZE=Thumbnail][STATE=DEFAULT]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "strokeEnabled": false,
+                  "stroke": "#3e3e3e",
+                  "strokeWidth": 2,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 48,
+                  "height": 48,
+                  "cornerRadii": {
+                    "topLeft": 1000,
+                    "topRight": 1000,
+                    "bottomRight": 1000,
+                    "bottomLeft": 1000
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "SIZE": "Thumbnail",
+                      "ASSET": "small"
+                    },
+                    "type": "Image",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Image"
+            }
+          ]
+        },
+        {
+          "type": "Group",
+          "name": "Comment",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 2
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 242,
+                "y": 2357
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "16",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 206,
+                "y": 2341
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/heart][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/heart][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 17.36700057983398 3.842000007629395 C 15.57699966430664 2.051000118255615 12.67300033569336 2.051000118255615 10.88300037384033 3.842000007629395 L 10 4.724999904632568 L 9.116999626159668 3.842000007629395 C 7.326000213623047 2.051000118255615 4.423999786376953 2.051000118255615 2.632999897003174 3.842000007629395 C 0.8429999947547913 5.631999969482422 0.8429999947547913 8.534999847412109 2.632999897003174 10.32499980926514 L 3.516999959945679 11.20800018310547 L 10 17.6919994354248 L 16.48299980163574 11.20800018310547 L 17.36700057983398 10.32499980926514 C 19.15800094604492 8.534999847412109 19.15800094604492 5.631999969482422 17.36700057983398 3.842000007629395 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/heart"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 329,
+                "y": 2357
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "12",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "center",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 284,
+                "y": 2341
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/message-square][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/message-square][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 17.5 12.5 C 17.5 13.42000007629395 16.75399971008301 14.16699981689453 15.83300018310547 14.16699981689453 L 5.833000183105469 14.16699981689453 L 2.5 17.5 L 2.5 4.166999816894531 C 2.5 3.246000051498413 3.246000051498413 2.5 4.166999816894531 2.5 L 15.83300018310547 2.5 C 16.75399971008301 2.5 17.5 3.246000051498413 17.5 4.166999816894531 L 17.5 12.5 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/message-square"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Description [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 2246
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "何は事実至極この談判通りという事の上を折っありまし。どうも半分を評方はとうとうその学習たらですばかりをするているならがも講義ありますませて、全くにはするただなけれう。",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": {
+                "width": 302,
+                "height": 77
+              },
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 100,
+                "y": 2191
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "名前",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 100,
+                "y": 2218
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "5時間前",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Image",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 2174
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Placement Area [ASSET=small][SIZE=Thumbnail][STATE=DEFAULT]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "strokeEnabled": false,
+                  "stroke": "#3e3e3e",
+                  "strokeWidth": 2,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 48,
+                  "height": 48,
+                  "cornerRadii": {
+                    "topLeft": 1000,
+                    "topRight": 1000,
+                    "bottomRight": 1000,
+                    "bottomLeft": 1000
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "SIZE": "Thumbnail",
+                      "ASSET": "small"
+                    },
+                    "type": "Image",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Image"
+            }
+          ]
+        },
+        {
+          "type": "Group",
+          "name": "Comment",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 3
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 242,
+                "y": 2576
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "16",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 206,
+                "y": 2560
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/heart][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/heart][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 17.36700057983398 3.842000007629395 C 15.57699966430664 2.051000118255615 12.67300033569336 2.051000118255615 10.88300037384033 3.842000007629395 L 10 4.724999904632568 L 9.116999626159668 3.842000007629395 C 7.326000213623047 2.051000118255615 4.423999786376953 2.051000118255615 2.632999897003174 3.842000007629395 C 0.8429999947547913 5.631999969482422 0.8429999947547913 8.534999847412109 2.632999897003174 10.32499980926514 L 3.516999959945679 11.20800018310547 L 10 17.6919994354248 L 16.48299980163574 11.20800018310547 L 17.36700057983398 10.32499980926514 C 19.15800094604492 8.534999847412109 19.15800094604492 5.631999969482422 17.36700057983398 3.842000007629395 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/heart"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 329,
+                "y": 2576
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "12",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "center",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 284,
+                "y": 2560
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/message-square][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/message-square][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 17.5 12.5 C 17.5 13.42000007629395 16.75399971008301 14.16699981689453 15.83300018310547 14.16699981689453 L 5.833000183105469 14.16699981689453 L 2.5 17.5 L 2.5 4.166999816894531 C 2.5 3.246000051498413 3.246000051498413 2.5 4.166999816894531 2.5 L 15.83300018310547 2.5 C 16.75399971008301 2.5 17.5 3.246000051498413 17.5 4.166999816894531 L 17.5 12.5 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/message-square"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Description [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 2465
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "何は事実至極この談判通りという事の上を折っありまし。どうも半分を評方はとうとうその学習たらですばかりをするているならがも講義ありますませて、全くにはするただなけれう。",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": {
+                "width": 302,
+                "height": 79
+              },
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 100,
+                "y": 2410
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "名前",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 100,
+                "y": 2437
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "5時間前",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Image",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 2393
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Placement Area [ASSET=small][SIZE=Thumbnail][STATE=DEFAULT]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "strokeEnabled": false,
+                  "stroke": "#3e3e3e",
+                  "strokeWidth": 2,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 48,
+                  "height": 48,
+                  "cornerRadii": {
+                    "topLeft": 1000,
+                    "topRight": 1000,
+                    "bottomRight": 1000,
+                    "bottomLeft": 1000
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "SIZE": "Thumbnail",
+                      "ASSET": "small"
+                    },
+                    "type": "Image",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Image"
+            }
+          ]
+        },
+        {
+          "type": "Group",
+          "name": "Submit",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 1
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Group",
+              "name": "Input",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 1686.056
+              },
+              "dynamicLayout": false,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Default][STATE=DEFAULT]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fff",
+                  "strokeEnabled": true,
+                  "stroke": "#3e3e3e",
+                  "strokeWidth": 2,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 302,
+                  "height": 156.9443359375,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Text",
+                  "name": "Value",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 15.521,
+                    "y": 31.506
+                  },
+                  "fillEnabled": true,
+                  "fill": "#3e3e3e",
+                  "strokeEnabled": true,
+                  "stroke": "#707070",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "コメントを書く",
+                  "fontFamily": "Noto Sans CJK JP",
+                  "fontStyle": "Bold",
+                  "fontSize": 16,
+                  "charSpacing": 0,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "left",
+                  "lineSpacing": 0,
+                  "paragraphSpacing": 0,
+                  "areaBox": null
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": false,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 269.019,
+                    "y": 49.045
+                  },
+                  "dynamicLayout": false,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Area [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "fill": "rgba(253,73,198,0.35)",
+                      "strokeEnabled": false,
+                      "stroke": "#fd49c6",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 19.400753021240234,
+                      "height": 19.400753021240234,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Group",
+                      "name": "Icon",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 2.425,
+                        "y": 8.174
+                      },
+                      "dynamicLayout": false,
+                      "children": [
+                        {
+                          "type": "Ellipse",
+                          "name": "Path [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                          "visible": true,
+                          "opacity": 1,
+                          "rotation": 0,
+                          "translation": {
+                            "x": 0,
+                            "y": -5.749
+                          },
+                          "fillEnabled": true,
+                          "strokeEnabled": true,
+                          "stroke": "#3e3e3e",
+                          "strokeWidth": 1.6167293787002563,
+                          "strokePosition": "center",
+                          "strokeEndCaps": "round",
+                          "strokeJoins": "round",
+                          "strokeMiterLimit": 4,
+                          "strokeDashArray": [],
+                          "strokeDashOffset": 0,
+                          "shadow": null,
+                          "blur": null,
+                          "radiusX": 6.466917514801025,
+                          "radiusY": 6.466917514801025,
+                          "__componentType": "Ellipse"
+                        },
+                        {
+                          "type": "Line",
+                          "name": "Line [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                          "visible": true,
+                          "opacity": 1,
+                          "rotation": 0,
+                          "translation": {
+                            "x": 11.034,
+                            "y": 5.285
+                          },
+                          "fillEnabled": false,
+                          "strokeEnabled": true,
+                          "stroke": "#3e3e3e",
+                          "strokeWidth": 1.6167293787002563,
+                          "strokePosition": "center",
+                          "strokeEndCaps": "round",
+                          "strokeJoins": "round",
+                          "strokeMiterLimit": 4,
+                          "strokeDashArray": [],
+                          "strokeDashOffset": 0,
+                          "shadow": null,
+                          "blur": null,
+                          "start": {
+                            "x": 3.5163865089416504,
+                            "y": 3.5163865089416504
+                          },
+                          "end": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "__componentType": "Line"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Text",
+                      "name": "METADATA",
+                      "visible": false,
+                      "__jsonText": {
+                        "config": {
+                          "ICON": "Feather/Search",
+                          "STATE": "DEFAULT",
+                          "STYLE": "STYLE1",
+                          "SIZE": "MEDIUM"
+                        },
+                        "type": "Icon",
+                        "theme": "Base"
+                      }
+                    }
+                  ],
+                  "__componentType": "Icon"
+                },
+                {
+                  "type": "Text",
+                  "name": "Label",
+                  "visible": false,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": -73.012
+                  },
+                  "fillEnabled": true,
+                  "fill": "#3d3d3d",
+                  "strokeEnabled": true,
+                  "stroke": "rgba(0,0,0,0)",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "Label",
+                  "fontFamily": "Noto Sans",
+                  "fontStyle": "Bold",
+                  "fontSize": 13,
+                  "charSpacing": 40,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "left",
+                  "lineSpacing": 17,
+                  "paragraphSpacing": 0,
+                  "areaBox": null
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "DISPLAY_ELEMENTS": "Default"
+                    },
+                    "type": "Input",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Input"
+            },
+            {
+              "type": "Text",
+              "name": "Hero Text [PLATFORM=Mobile][STYLE=STYLE1][TAG=H5]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 1656
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "コメント：16",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 20,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 28,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Button",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 194,
+                "y": 1867
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Label][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#3c3c3c",
+                  "strokeEnabled": false,
+                  "stroke": "#707070",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 144,
+                  "height": 48,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Text",
+                  "name": "Label",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 72,
+                    "y": 30
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#707070",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "投稿する",
+                  "fontFamily": "Noto Sans CJK JP",
+                  "fontStyle": "Bold",
+                  "fontSize": 16,
+                  "charSpacing": 0,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "center",
+                  "lineSpacing": 0,
+                  "paragraphSpacing": 0,
+                  "areaBox": null
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": false,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 108,
+                    "y": 14
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Area [DISPLAY_ELEMENTS=Label][ICON=feather/heart][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "fill": "#fcfcfc",
+                      "strokeEnabled": false,
+                      "stroke": "#fd49c6",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 20,
+                      "height": 20,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Group",
+                      "name": "Icon",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1,
+                        "y": -1
+                      },
+                      "dynamicLayout": true,
+                      "children": [
+                        {
+                          "type": "Path",
+                          "name": "Path [DISPLAY_ELEMENTS=Label][ICON=feather/heart][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                          "visible": true,
+                          "opacity": 1,
+                          "rotation": 0,
+                          "translation": {
+                            "x": 1,
+                            "y": 1
+                          },
+                          "fillEnabled": true,
+                          "strokeEnabled": true,
+                          "stroke": "#fcfcfc",
+                          "strokeWidth": 1.6666666269302368,
+                          "strokePosition": "center",
+                          "strokeEndCaps": "round",
+                          "strokeJoins": "round",
+                          "strokeMiterLimit": 4,
+                          "strokeDashArray": [],
+                          "strokeDashOffset": 0,
+                          "shadow": null,
+                          "blur": null,
+                          "pathData": "M 17.36700057983398 3.842000007629395 C 15.57699966430664 2.051000118255615 12.67300033569336 2.051000118255615 10.88300037384033 3.842000007629395 L 10 4.724999904632568 L 9.116999626159668 3.842000007629395 C 7.326000213623047 2.051000118255615 4.423999786376953 2.051000118255615 2.632999897003174 3.842000007629395 C 0.8429999947547913 5.631999969482422 0.8429999947547913 8.534999847412109 2.632999897003174 10.32499980926514 L 3.516999959945679 11.20800018310547 L 10 17.6919994354248 L 16.48299980163574 11.20800018310547 L 17.36700057983398 10.32499980926514 C 19.15800094604492 8.534999847412109 19.15800094604492 5.631999969482422 17.36700057983398 3.842000007629395 Z",
+                          "__componentType": "Path"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Text",
+                      "name": "METADATA",
+                      "visible": false,
+                      "__jsonText": {
+                        "config": {
+                          "ICON": "feather/heart",
+                          "STATE": "DEFAULT",
+                          "STYLE": "STYLE1",
+                          "SIZE": "MEDIUM"
+                        },
+                        "type": "Icon",
+                        "theme": "Base"
+                      }
+                    }
+                  ],
+                  "__componentType": "Icon"
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE1",
+                      "DISPLAY_ELEMENTS": "Label",
+                      "SIZE": "MEDIUM"
+                    },
+                    "type": "Button",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Button"
+            }
+          ]
+        },
+        {
+          "type": "Line",
+          "name": "Line [STYLE=STYLE1]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 36,
+            "y": 1612
+          },
+          "fillEnabled": false,
+          "strokeEnabled": true,
+          "stroke": "#cfcfcf",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "start": {
+            "x": 302,
+            "y": 0
+          },
+          "end": {
+            "x": 0,
+            "y": 0
+          },
+          "__componentType": "Line"
+        },
+        {
+          "type": "Group",
+          "name": "Share",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 1
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Text",
+              "name": "Label [PLATFORM=Mobile][STYLE=STYLE1][TAG=UI_M]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 89,
+                "y": 1559
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#1968ff",
+              "strokeWidth": 2,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "128",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null,
+              "__componentType": "Typography"
+            },
+            {
+              "type": "Group",
+              "name": "Circle Button",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36,
+                "y": 1535
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [SIZE=SMALL][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#3c3c3c",
+                  "strokeEnabled": false,
+                  "stroke": "#707070",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 36,
+                  "height": 36,
+                  "cornerRadii": {
+                    "topLeft": 1000,
+                    "topRight": 1000,
+                    "bottomRight": 1000,
+                    "bottomLeft": 1000
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 10,
+                    "y": 10
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Area [ICON=feather/heart][SIZE=SMALL][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "fill": "#fcfcfc",
+                      "strokeEnabled": false,
+                      "stroke": "#fd49c6",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 16,
+                      "height": 16,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Group",
+                      "name": "Icon",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1,
+                        "y": -1
+                      },
+                      "dynamicLayout": true,
+                      "children": [
+                        {
+                          "type": "Path",
+                          "name": "Path [ICON=feather/heart][SIZE=SMALL][STATE=DEFAULT][STYLE=STYLE1]",
+                          "visible": true,
+                          "opacity": 1,
+                          "rotation": 0,
+                          "translation": {
+                            "x": 1,
+                            "y": 1
+                          },
+                          "fillEnabled": true,
+                          "strokeEnabled": true,
+                          "stroke": "#fcfcfc",
+                          "strokeWidth": 1.3333333730697632,
+                          "strokePosition": "center",
+                          "strokeEndCaps": "round",
+                          "strokeJoins": "round",
+                          "strokeMiterLimit": 4,
+                          "strokeDashArray": [],
+                          "strokeDashOffset": 0,
+                          "shadow": null,
+                          "blur": null,
+                          "pathData": "M 13.89299964904785 3.072999954223633 C 12.46100044250488 1.641000032424927 10.13899993896484 1.641000032424927 8.706999778747559 3.072999954223633 L 8 3.779999971389771 L 7.293000221252441 3.072999954223633 C 5.861000061035156 1.641000032424927 3.539000034332275 1.641000032424927 2.107000112533569 3.072999954223633 C 0.6740000247955322 4.50600004196167 0.6740000247955322 6.828000068664551 2.107000112533569 8.260000228881836 L 2.812999963760376 8.967000007629395 L 8 14.15299987792969 L 13.1870002746582 8.967000007629395 L 13.89299964904785 8.260000228881836 C 15.32600021362305 6.828000068664551 15.32600021362305 4.505000114440918 13.89299964904785 3.072999954223633 Z",
+                          "__componentType": "Path"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Text",
+                      "name": "METADATA",
+                      "visible": false,
+                      "__jsonText": {
+                        "config": {
+                          "STYLE": "STYLE1",
+                          "STATE": "DEFAULT",
+                          "SIZE": "SMALL",
+                          "ICON": "feather/heart"
+                        },
+                        "type": "Icon",
+                        "theme": "Base"
+                      }
+                    }
+                  ],
+                  "__componentType": "Icon"
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE1",
+                      "SIZE": "SMALL"
+                    },
+                    "type": "CircleButton",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "CircleButton"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 230,
+                "y": 1543
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/facebook][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 7,
+                    "y": 2
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/facebook][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -7,
+                        "y": -2
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 15 1.66700005531311 L 12.5 1.66700005531311 C 10.19900035858154 1.66700005531311 8.333000183105469 3.532000064849854 8.333000183105469 5.833000183105469 L 8.333000183105469 8.333000183105469 L 5.833000183105469 8.333000183105469 L 5.833000183105469 11.66699981689453 L 8.333000183105469 11.66699981689453 L 8.333000183105469 18.33300018310547 L 11.66699981689453 18.33300018310547 L 11.66699981689453 11.66699981689453 L 14.16699981689453 11.66699981689453 L 15 8.333000183105469 L 11.66699981689453 8.333000183105469 L 11.66699981689453 5.833000183105469 C 11.66699981689453 5.373000144958496 12.03999996185303 5 12.5 5 L 15 5 L 15 1.66700005531311 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/facebook"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 274,
+                "y": 1543
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/twitter][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1,
+                    "y": 2.99
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/twitter][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1,
+                        "y": -2.99
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 19.16699981689453 2.5 C 18.36899948120117 3.062999963760376 17.48500061035156 3.493000030517578 16.54999923706055 3.775000095367432 C 15.52200031280518 2.592999935150146 13.86499977111816 2.177999973297119 12.40200042724609 2.736999988555908 C 10.9379997253418 3.296000003814697 9.979000091552734 4.709000110626221 10 6.275000095367432 L 10 7.107999801635742 C 7.026000022888184 7.184999942779541 4.210000038146973 5.76800012588501 2.5 3.33299994468689 C 2.5 3.33299994468689 -0.8330000042915344 10.83300018310547 6.666999816894531 14.16699981689453 C 4.949999809265137 15.33199977874756 2.905999898910522 15.91600036621094 0.8330000042915344 15.83300018310547 C 8.333000183105469 20 17.5 15.83300018310547 17.5 6.25 C 17.49900054931641 6.01800012588501 17.47699928283691 5.785999774932861 17.4330005645752 5.558000087738037 C 18.28400039672852 4.71999979019165 18.88400077819824 3.66100001335144 19.16699981689453 2.5 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/twitter"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 318,
+                "y": 1543
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/linkedin][SIZE=MEDIUM][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 2,
+                    "y": 2
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/linkedin][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -2,
+                        "y": -2
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 13.33300018310547 6.666999816894531 C 16.09499931335449 6.666999816894531 18.33300018310547 8.904999732971191 18.33300018310547 11.66699981689453 L 18.33300018310547 17.5 L 15 17.5 L 15 11.66699981689453 C 15 10.74600028991699 14.25399971008301 10 13.33300018310547 10 C 12.41300010681152 10 11.66699981689453 10.74600028991699 11.66699981689453 11.66699981689453 L 11.66699981689453 17.5 L 8.333000183105469 17.5 L 8.333000183105469 11.66699981689453 C 8.333000183105469 8.904999732971191 10.57199954986572 6.666999816894531 13.33300018310547 6.666999816894531 Z",
+                      "__componentType": "Path"
+                    },
+                    {
+                      "type": "Rectangle",
+                      "name": "Rect [ICON=feather/linkedin][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.333,
+                        "y": 5.5
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 3.3333332538604736,
+                      "height": 10,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Ellipse",
+                      "name": "Path [ICON=feather/linkedin][SIZE=MEDIUM][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.333,
+                        "y": -0.333
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3d3d3d",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "radiusX": 1.6666666269302368,
+                      "radiusY": 1.6666666269302368,
+                      "__componentType": "Ellipse"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/linkedin"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "name": "Author Name [PLATFORM=Mobile][STYLE=STYLE1][TAG=UI_M]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 36,
+            "y": 543
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "中村太郎",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 0,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Title [PLATFORM=Mobile][STYLE=STYLE1][TAG=H3]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 36,
+            "y": 400
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "ステークホルダーを味方につけて承認を得る８つの方法",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 28,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 36,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 302,
+            "height": 113
+          },
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Category and Name [PLATFORM=Mobile][STYLE=STYLE1][TAG=UI_M]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 160,
+            "y": 387
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "カテゴリー名   |   2020年5月17日",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "center",
+          "lineSpacing": 0,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Blog text [PLATFORM=Mobile][STYLE=STYLE1][TAG=P]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 36,
+            "y": 564
+          },
+          "fillEnabled": true,
+          "fill": "#737373",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "当ヒロ務徳フムサコ横低き書当ワ遺七提がてん王隻は簡無よ予父らそ探保エソヱ期大スレ悦開ゅー競慎豊オ績推ノ大答ワ気80奏訳2読メ感打べじイめ高具円ねかでに。戦りと面京てイ京換むり同住願発こすざ際本ヘ手法おぽん話改な賞報ハネ風文際ほち彰当ぽどぶ視案ハミコア激掲かすてを海面正ム率行速ヘワ丸出れすつげ覧断て。\n\n読ゆレけげ読時り制37阜すくしら判国レまンよ用県えぶ除呼急イ人夜ちわき検済ツサス属相リ物強勇はいそえ。歴ヒア席崎入いぶ惑方土議ウフヌネ信人ひ送徳ヤコマソ理説せイけレ方占せぴへ関辞シヒ難行原株どのまっ。楽がす統私リむ結年売エ米達ノオエ要14自98流注56寄エウ味別じび仕四メヨハ文昇コ病大テキマ事横冬密ら。\n\n模銀レ瞬号ざつ奨商ホソ本国ネ用社キヱ関収ねわ富物マタコク北翼だがいえ話懲めゅだぜ作4自ウキコ彩子せえだ祉課情わ札田い録外運哲控めっび。至ヱヤハ定面ヤユ法常完か持表エヘツカ辞応ヤ伝発ヘコ寺40組しわそべ飛兼暮トむご忽近めらじ東趣ルっ注務ム辞融暮ちとひじ本御裕ラそでっ。97軽陵度ハフシヱ担整ぽ地面ケカイ権者車たぱやで長9多とむほど込道タルヘテ請銀レマタア推無方りめよぎ体販試むがこや。\n\n代ル常短ルヒ意四ヘテサ五江ワミ初住たじゆ惧1満勲ゆぎさ適虫4玲ヱユヒ代崔げじト百記ヨ赤講ウオセヱ松患る訃性のおかぎ嘉措ケムヘ第店ドさちぴ検対そぶごず心兄呂漂濃ぞるは。件い神32天ロタサヒ意話康ル銀真リこ庫済ぽぴりも係験本め引新ねんへゅ復発ヘチネ内29北らでき健確ハナカ毎報表部表くあゃぶ目題きフ阪図アエ南状辞ち。16妻ワラ系南ヤホ要受モニオメ惜調欧ぞ題8出ラ勝感ヲ伊能たさ更周ム集探ん条話にをん座96",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Medium",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 24,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 302,
+            "height": 948
+          },
+          "__componentType": "Typography"
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "name": "Hero Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 88
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=hero][ASSET_ID=df292e83c9c5368e3616147b1df1019d]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 375,
+          "height": 248,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "ASSET": "hero",
+              "ASSET_ID": "df292e83c9c5368e3616147b1df1019d"
+            },
+            "type": "Image",
+            "theme": "Base"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Header",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Background [STYLE=STYLE1]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "fill": "#fbfbfb",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 375,
+          "height": 88,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Background"
+        },
+        {
+          "type": "Text",
+          "name": "Blog Name [PLATFORM=Mobile][STYLE=STYLE1][TAG=UI_L]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 36,
+            "y": 51
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Mockup Blog",
+          "fontFamily": "Noto Sans",
+          "fontStyle": "SemiBold",
+          "fontSize": 18,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 0,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Icon",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 314,
+            "y": 32
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [ICON=feather/menu][SIZE=LARGE][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 0,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fcfcfc",
+              "strokeEnabled": false,
+              "stroke": "#fd49c6",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 24,
+              "height": 24,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -1,
+                "y": -1
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Line",
+                  "name": "Line [ICON=feather/menu][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 4,
+                    "y": 13
+                  },
+                  "fillEnabled": false,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "start": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "end": {
+                    "x": 18,
+                    "y": 0
+                  },
+                  "__componentType": "Line"
+                },
+                {
+                  "type": "Line",
+                  "name": "Line [ICON=feather/menu][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 4,
+                    "y": 7
+                  },
+                  "fillEnabled": false,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "start": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "end": {
+                    "x": 18,
+                    "y": 0
+                  },
+                  "__componentType": "Line"
+                },
+                {
+                  "type": "Line",
+                  "name": "Line [ICON=feather/menu][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 4,
+                    "y": 19
+                  },
+                  "fillEnabled": false,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "start": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "end": {
+                    "x": 18,
+                    "y": 0
+                  },
+                  "__componentType": "Line"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STYLE": "STYLE1",
+                  "SIZE": "LARGE",
+                  "ICON": "feather/menu"
+                },
+                "type": "Icon",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Icon"
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "name": "Footer",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": -1276
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Background [STYLE=STYLE2]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 4159
+          },
+          "fillEnabled": true,
+          "fill": "#ebebeb",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 375,
+          "height": 405,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Background"
+        },
+        {
+          "type": "Text",
+          "name": "Copyright © 2020 Name. All rights reserved. [PLATFORM=Desktop][STYLE=STYLE2][TAG=P]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 35.5,
+            "y": 4424
+          },
+          "fillEnabled": true,
+          "fill": "#737373",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Copyright © Date Name. All rights reserved.",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Medium",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "center",
+          "lineSpacing": 26,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 303,
+            "height": 44
+          },
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 164,
+            "y": 4255
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/instagram][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1.667,
+                    "y": 1.667
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Rect [ICON=feather/instagram][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 16.66666603088379,
+                      "height": 16.66666603088379,
+                      "cornerRadii": {
+                        "topLeft": 5,
+                        "topRight": 5,
+                        "bottomRight": 5,
+                        "bottomLeft": 5
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/instagram][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.667,
+                        "y": -1.667
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 13.33300018310547 9.475000381469727 C 13.54399967193604 10.89700031280518 12.81900024414062 12.29500007629395 11.53499984741211 12.94099998474121 C 10.25 13.58800029754639 8.696000099182129 13.33800029754639 7.678999900817871 12.32100009918213 C 6.662000179290771 11.30399990081787 6.412000179290771 9.75 7.059000015258789 8.465000152587891 C 7.704999923706055 7.181000232696533 9.102999687194824 6.455999851226807 10.52499961853027 6.666999816894531 C 11.97700023651123 6.881999969482422 13.11800003051758 8.02299976348877 13.33300018310547 9.475000381469727 Z",
+                      "__componentType": "Path"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [ICON=feather/instagram][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 12.917,
+                        "y": 3.75
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 0.00833333283662796,
+                        "y": 0
+                      },
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/instagram"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 108,
+            "y": 4255
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/twitter][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0.833,
+                    "y": 2.491
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/twitter][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.833,
+                        "y": -2.491
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 19.16699981689453 2.5 C 18.36899948120117 3.062999963760376 17.48500061035156 3.493000030517578 16.54999923706055 3.775000095367432 C 15.52200031280518 2.592999935150146 13.86499977111816 2.177999973297119 12.40200042724609 2.736999988555908 C 10.9379997253418 3.296000003814697 9.979000091552734 4.709000110626221 10 6.275000095367432 L 10 7.107999801635742 C 7.026000022888184 7.184999942779541 4.210000038146973 5.76800012588501 2.5 3.33299994468689 C 2.5 3.33299994468689 -0.8330000042915344 10.83300018310547 6.666999816894531 14.16699981689453 C 4.949999809265137 15.33199977874756 2.905999898910522 15.91600036621094 0.8330000042915344 15.83300018310547 C 8.333000183105469 20 17.5 15.83300018310547 17.5 6.25 C 17.49900054931641 6.01800012588501 17.47699928283691 5.785999774932861 17.4330005645752 5.558000087738037 C 18.28400039672852 4.71999979019165 18.88400077819824 3.66100001335144 19.16699981689453 2.5 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/twitter"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 52,
+            "y": 4255
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/facebook][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 5.833,
+                    "y": 1.667
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/facebook][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -5.833,
+                        "y": -1.667
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 15 1.66700005531311 L 12.5 1.66700005531311 C 10.19900035858154 1.66700005531311 8.333000183105469 3.532000064849854 8.333000183105469 5.833000183105469 L 8.333000183105469 8.333000183105469 L 5.833000183105469 8.333000183105469 L 5.833000183105469 11.66699981689453 L 8.333000183105469 11.66699981689453 L 8.333000183105469 18.33300018310547 L 11.66699981689453 18.33300018310547 L 11.66699981689453 11.66699981689453 L 14.16699981689453 11.66699981689453 L 15 8.333000183105469 L 11.66699981689453 8.333000183105469 L 11.66699981689453 5.833000183105469 C 11.66699981689453 5.373000144958496 12.03999996185303 5 12.5 5 L 15 5 L 15 1.66700005531311 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/facebook"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 220,
+            "y": 4255
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1.667,
+                    "y": 3.333
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.667,
+                        "y": -3.333
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 13.33300018310547 6.666999816894531 C 16.09499931335449 6.666999816894531 18.33300018310547 8.904999732971191 18.33300018310547 11.66699981689453 L 18.33300018310547 17.5 L 15 17.5 L 15 11.66699981689453 C 15 10.74600028991699 14.25399971008301 10 13.33300018310547 10 C 12.41300010681152 10 11.66699981689453 10.74600028991699 11.66699981689453 11.66699981689453 L 11.66699981689453 17.5 L 8.333000183105469 17.5 L 8.333000183105469 11.66699981689453 C 8.333000183105469 8.904999732971191 10.57199954986572 6.666999816894531 13.33300018310547 6.666999816894531 Z",
+                      "__componentType": "Path"
+                    },
+                    {
+                      "type": "Rectangle",
+                      "name": "Rect [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 4.167
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 3.3333332538604736,
+                      "height": 10,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Ellipse",
+                      "name": "Path [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": -1.666
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "radiusX": 1.6666666269302368,
+                      "radiusY": 1.6666666269302368,
+                      "__componentType": "Ellipse"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/linkedin"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 276,
+            "y": 4255
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/mail][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1.667,
+                    "y": 3.333
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/mail][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.667,
+                        "y": -3.333
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 3.33299994468689 3.33299994468689 L 16.66699981689453 3.33299994468689 C 17.58300018310547 3.33299994468689 18.33300018310547 4.083000183105469 18.33300018310547 5 L 18.33300018310547 15 C 18.33300018310547 15.91699981689453 17.58300018310547 16.66699981689453 16.66699981689453 16.66699981689453 L 3.33299994468689 16.66699981689453 C 2.41700005531311 16.66699981689453 1.66700005531311 15.91699981689453 1.66700005531311 15 L 1.66700005531311 5 C 1.66700005531311 4.083000183105469 2.41700005531311 3.33299994468689 3.33299994468689 3.33299994468689 Z",
+                      "__componentType": "Path"
+                    },
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/mail][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.667,
+                        "y": -3.333
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 18.33300018310547 5 L 10 10.83300018310547 L 1.66700005531311 5",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/mail"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Text",
+          "name": "Mockup Shop Classic [PLATFORM=Mobile][STYLE=STYLE2][TAG=H4]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 187.5,
+            "y": 4401
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#707070",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Mockup Blog",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 24,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "center",
+          "lineSpacing": 32,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        }
+      ]
+    }
+  ],
+  "__componentType": "ブログの詳細 - Mobile"
+}

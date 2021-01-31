@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>hash-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M42,30H33.3l1.4-12H42a2,2,0,0,0,0-4H35.1L36,6a2,2,0,0,0-4,0l-.9,8h-12L20,6a2,2,0,0,0-4,0l-.9,8H6a2,2,0,0,0,0,4h8.7L13.3,30H6a2,2,0,0,0,0,4h6.9L12,42a2,2,0,0,0,4,0l.9-8h12L28,42a2,2,0,0,0,4,0l.9-8H42a2,2,0,0,0,0-4ZM17.3,30l1.4-12h12L29.3,30Z"/>
+    </g>
+  </g>
+</svg>

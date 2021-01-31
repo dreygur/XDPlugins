@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-no-group="true">
+  <desc>A Prioritization Workshop makes sure many voices are heard from within the team. These tools aid in getting everyone on the same page on what is important for users and the business.</desc>
+
+  <metadata>
+    <rdf:RDF>
+      <rdf:Description about="Templates">
+        <rdf:Bag>
+          <rdf:li rdf:value="Hopes &amp; Fears" />
+          <rdf:li rdf:value="Affinity Diagram" />
+          <rdf:li rdf:value="Impact and Effort Matrix" />
+          <rdf:li rdf:value="RICE Score" />
+          <rdf:li rdf:value="Stakeholder Map" />
+        </rdf:Bag>
+      </rdf:Description>
+      <rdf:Description about="Duration" rdf:value="3.5 Hours" />
+    </rdf:RDF>
+  </metadata>
+
+  <image xlink:href="/assets/en/templates/01. Brainstorming/Hopes and Fears Template.svg" />
+  <image xlink:href="/assets/en/templates/01. Brainstorming/Affinity Diagram - Template.svg" />
+  <image xlink:href="/assets/en/templates/01. Brainstorming/Impact and Effort Matrix Template.svg" />
+  <image xlink:href="/assets/en/templates/01. Brainstorming/RICE Score Template.svg" />
+  <image xlink:href="/assets/en/templates/01. Brainstorming/Stakeholder Map Template.svg" />
+</svg>

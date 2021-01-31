@@ -1,0 +1,72 @@
+{
+  "id": "e192279e",
+  "name": "Artboard Plus",
+  "version": "1.0.2",
+  "summary": "Orginize Artboards",
+  "description": "Artboard tools to speed up your Adobe XD workflow. Rearrange artboards into grid, sort them by name or create an artboard around selection.",
+  "author": "Rodrigo Soares",
+  "keywords": ["utility", "productivity", "artboard", "automation"],
+  "languages": ["en"],
+  "helpUrl": "https://github.com/rodi01/Artboard-Plus-XD/blob/master/README.md",
+  "icons": [
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/Icon@1x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/Icon@2x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/Icon@3x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/Icon@4x.png"
+    }
+  ],
+
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Artboard Plus",
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": "Rearrange Artboards into Grid",
+          "commandId": "rearrangeArtboards"
+        },
+        {
+          "type": "menu",
+          "label": "Create Artboard Around Selection",
+          "commandId": "wrapSelection"
+        },
+        {
+          "type": "menu",
+          "label": "Sort Artboards by Name A-Z",
+          "commandId": "sortAZ"
+        },
+        {
+          "type": "menu",
+          "label": "Sort Artboards by Name Z-A",
+          "commandId": "sortZA"
+        },
+        {
+          "type": "menu",
+          "label": "Settings",
+          "commandId": "settings"
+        }
+      ]
+    }
+  ]
+}

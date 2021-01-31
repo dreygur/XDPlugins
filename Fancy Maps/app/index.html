@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="ui/index.js"></script>
+    <script>
+        const ui = new UI({
+            state: {},
+            onChange: (...args) => console.log("Onchange: ", ...args),
+            onSubmit: () => onApplyChanges(...increaseRectangleSize())
+        });
+
+        document.body.appendChild(ui.panel);
+    </script>
+</body>
+</html>

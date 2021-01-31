@@ -1,0 +1,127 @@
+{
+  "name": "Nudge and Resize",
+  "id": "496c8ba7",
+  "author": "Craig Dennis",
+  "version":"1.1.4",
+  "description":"Add menu items for nudging and resizing objects (8px by default) so they can be controlled by keyboard shortcuts.",
+  "icons":[
+    {
+      "width":96,
+      "height":96,
+      "path":"images/nudge-and-resize-icon@2x.png"
+    }
+  ],
+  "host":{
+    "app":"XD",
+    "minVersion":"13.0.0"
+  },
+  "uiEntryPoints":[
+    {
+      "type":"menu",
+      "label":"Nudge and Resize",
+      "menuItems": [
+        {
+          "type":"menu",
+          "label":"Large Nudge Up",
+          "commandId": "LargeNudgeUp",
+          "shortcut": {
+            "win": "Shift+alt+8"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Large Nudge Right",
+          "commandId": "LargeNudgeRight",
+          "shortcut": {
+            "win": "Shift+alt+6"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Large Nudge Down",
+          "commandId": "LargeNudgeDown",
+          "shortcut": {
+            "win": "Shift+alt+2"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Large Nudge Left",
+          "commandId": "LargeNudgeLeft",
+          "shortcut": {
+            "win": "Shift+alt+4"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Shrink Width",
+          "commandId": "ShrinkWidth",
+          "shortcut": {
+            "win": "Ctrl+alt+4"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Shrink Height",
+          "commandId": "ShrinkHeight",
+          "shortcut": {
+            "win": "Ctrl+alt+8"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Extend Width",
+          "commandId": "ExtendWidth",
+          "shortcut": {
+            "win": "Ctrl+alt+6"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Extend Height",
+          "commandId": "ExtendHeight",
+          "shortcut": {
+            "win": "Ctrl+alt+2"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Large Shrink Width",
+          "commandId": "LargeShrinkWidth",
+          "shortcut": {
+            "win": "Ctrl+alt+Shift+4"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Large Shrink Height",
+          "commandId": "LargeShrinkHeight",
+          "shortcut": {
+            "win": "Ctrl+alt+Shift+8"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Large Extend Width",
+          "commandId": "LargeExtendWidth",
+          "shortcut": {
+            "win": "Ctrl+alt+Shift+6"
+          }
+        },
+        {
+          "type":"menu",
+          "label":"Large Extend Height",
+          "commandId": "LargeExtendHeight",
+          "shortcut": {
+            "win": "Ctrl+alt+Shift+2"
+          }
+        },
+        {
+          "type": "menu",
+          "label": "Settings…",
+          "commandId": "ShowNudgeSettingsDialog"
+        }
+      ]
+    }
+  ]
+}

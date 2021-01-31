@@ -1,0 +1,28 @@
+{
+  "summary" : "draws star-shaped figures.",
+  "website" : "http://romantist.jp/blog/",
+  "helpUrl": "http://romantist.jp/blog/star-shape",
+  "keywords" : [ "star", "jagged", "shape" ],
+  "languages" : [ "en", "de", "fr", "ja", "ko", "zh", "es", "pt" ],
+  "author" : "Yuji Arai",
+  "description" : "It is a plug-in that draws star-shaped figures.",
+  "main" : "main.js",
+  "icons": [
+    { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+    { "width": 96, "height": 96, "path": "images/icon@2x.png" },
+    { "width": 144, "height": 144, "path":"images/icon@3x.png"},
+    { "width": 192, "height": 192, "path": "images/icon@4x.png"}
+],
+  "version" : "1.0.0",
+  "name" : "star shape plugin",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "id" : "b6227d2e",
+  "uiEntryPoints" : [ {
+    "label" : "Star Shape",
+    "type" : "menu",
+    "commandId" : "starShapeCommand"
+  } ]
+}

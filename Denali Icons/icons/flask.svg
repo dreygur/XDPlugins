@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>flask</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <path d="M43.8,41.2,30,17V8h2a2,2,0,0,0,2-2,1.9,1.9,0,0,0-2-2H15.9a2,2,0,1,0,0,4H18v9L4.2,41.2A2,2,0,0,0,6,44H42A2,2,0,0,0,43.8,41.2ZM22,18.1V8h4V18.1L31.7,28H16.3ZM9.5,40,14,32H34l4.5,8Z"/>
+    </g>
+  </g>
+</svg>

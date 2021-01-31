@@ -1,0 +1,43 @@
+{
+   "name": "ColorList",
+   "id": "8bebdb43",
+   "version":"1.0.0",
+   "releaseNotes" : "First release. Please, report bugs and ideas @valentindb, thanks!",
+   "languages" : [ "en"],
+   "summary" : "Add &amp; Auto-name your color styles",
+   "author" : "Valentin de Bruyn & Alexandre Mosnier - Etamin Studio",
+   "description":"Auto-name your colors &amp; add them to your assets in one click.",
+   "icons":[
+      {
+         "width":24,
+         "height":24,
+         "path":"images/icon@1x.png"
+      },
+      {
+         "width":48,
+         "height":48,
+         "path":"images/icon@2x.png"
+      },
+      {
+         "width":96,
+         "height":96,
+         "path":"images/icon@4x.png"
+      },
+      {
+         "width":192,
+         "height":192,
+         "path":"images/icon@8x.png"
+      }
+   ],
+   "host":{
+      "app":"XD",
+      "minVersion":"13.0"
+   },
+   "uiEntryPoints":[
+      {
+         "type":"menu",
+         "label":"Add Color Style",
+         "commandId":"ColorName"
+      }
+   ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>trash-disable-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M41.4,42.6l-36-36a1.9,1.9,0,0,0-2.8,0A1.8,1.8,0,0,0,2.3,9l6.8,6.9,2.7,27.3a2,2,0,0,0,2,1.8H34.2a2,2,0,0,0,2-1.8V43l2.4,2.4a1.9,1.9,0,0,0,2.8,0A1.9,1.9,0,0,0,41.4,42.6Z"/>
+        <path d="M43,8.8a2.3,2.3,0,0,1-.6,1.6A2,2,0,0,1,41,11H15.8l-4-4H17V5a2,2,0,0,1,2-2H29a2,2,0,0,1,2,2V7h9.9A2.1,2.1,0,0,1,43,8.8Z"/>
+        <path d="M36.8,15H19.6L37.3,32.4l1.5-15.2A2,2,0,0,0,36.8,15Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="styles.css">
+
+<form method="dialog">
+	<h1>Complex Gradients: Random</h1>
+
+	<hr />
+
+	<label>
+		<div class="row spread">
+			<span>Number of colors</span>
+		</div>
+
+		<input type="number" id="cg_count" min=2 max=100 value=5 step=1 />
+	</label>
+
+	<label>
+		<span>Luminosity</span>
+
+		<select id="cg_luminosity">
+			<option value="random">random</option>
+			<option value="light">light</option>
+			<option value="bright">bright</option>
+			<option value="dark">dark</option>
+		</select>
+	</label>
+
+	<label>
+		<span>Hue</span>
+
+		<select id="cg_hue">
+			<option value="random">random</option>
+			<option value="red">red</option>
+			<option value="orange">orange</option>
+			<option value="yellow">yellow</option>
+			<option value="green">green</option>
+			<option value="blue">blue</option>
+			<option value="purple">purple</option>
+			<option value="pink">pink</option>
+			<option value="monochrome">monochrome</option>
+		</select>
+	</label>
+	
+	<label class="row">
+		<input type="checkbox" id="cg_alpha" />
+		<span>Randomize transparency</span>
+	</label>
+
+	<footer>
+		<button type="reset" uxp-variant="primary">Cancel</button>
+		<button type="submit" uxp-variant="cta">Apply</button>
+	</footer>
+</form>

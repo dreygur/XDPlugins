@@ -1,0 +1,309 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3080" height="1480" viewBox="0 0 3080 1480">
+  <defs>
+    <filter id="background" x="2500" y="40" width="548" height="1351" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Card_Sorting_-_Template">
+      <rect width="3080" height="1480"/>
+    </clipPath>
+  </defs>
+  <g id="Card_Sorting_-_Template" data-name="Card Sorting - Template" clip-path="url(#clip-Card_Sorting_-_Template)">
+    <rect width="3080" height="1480" fill="#f8f8f8"/>
+    <g id="Element_-_Step" data-name="Element - Step" transform="translate(1440 400)">
+      <rect id="background_color_fill_" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step-2" data-name="Element - Step" transform="translate(1833 400)">
+      <rect id="background_color_fill_2" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-2" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step-3" data-name="Element - Step" transform="translate(2226 400)">
+      <rect id="background_color_fill_3" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-3" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step-4" data-name="Element - Step" transform="translate(1440 760)">
+      <rect id="background_color_fill_4" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-4" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step-5" data-name="Element - Step" transform="translate(1440 1120)">
+      <rect id="background_color_fill_5" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-5" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step-6" data-name="Element - Step" transform="translate(1833 760)">
+      <rect id="background_color_fill_6" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-6" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step-7" data-name="Element - Step" transform="translate(1833 1120)">
+      <rect id="background_color_fill_7" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-7" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step-8" data-name="Element - Step" transform="translate(2226 760)">
+      <rect id="background_color_fill_8" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-8" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="label-9" data-name="label" transform="translate(-12 -60)">
+      <text id="Drag_cards_on_left_to_categories_On_right" data-name="Drag cards on
+left to categories
+On right" transform="translate(1199 838)" fill="#101010" font-size="24" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="-82.5" y="0">Drag cards on</tspan><tspan x="-100.788" y="34">left to categories</tspan><tspan x="-48.048" y="68">On right</tspan></text>
+      <path id="arrow" d="M4240,10216l12,12-12,12" transform="translate(-2880 -9361.5)" fill="none" stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity="0.249"/>
+    </g>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="3080" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Card sorting helps you find out how people think your content, functionality or concept should be organized and categorized, </tspan><tspan x="0" y="22">enabling you to make confident, informed decisions on information architecture based on your users’ mental models.</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Card Sorting</tspan></text>
+      <text id="Date" transform="translate(2879 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-109.456" y="0">24 March 2020</tspan></text>
+      <text id="Project_Name" data-name="Project Name" transform="translate(3020 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-101.056" y="0">Project Name</tspan></text>
+    </g>
+    <g id="Element_-_Step-9" data-name="Element - Step" transform="translate(2619 358)">
+      <rect id="background_color_fill_9" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-10" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_Step_Label" data-name="Element - Step Label" transform="translate(120 218)">
+      <g id="step">
+        <path id="background_color_fill_10" data-name="background [color_fill]" d="M12,0H28A12,12,0,0,1,40,12V28A12,12,0,0,1,28,40H12A12,12,0,0,1,0,28V12A12,12,0,0,1,12,0Z" fill="#ffd86f"/>
+        <text id="label-11" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-7.984" y="0">01</tspan></text>
+      </g>
+      <text id="label-12" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">PREPPING CARDS</tspan></text>
+    </g>
+    <g id="Element_-_Step_Label-2" data-name="Element - Step Label" transform="translate(1440 218)">
+      <g id="step-2" data-name="step">
+        <path id="background_color_fill_11" data-name="background [color_fill]" d="M12,0H28A12,12,0,0,1,40,12V28A12,12,0,0,1,28,40H12A12,12,0,0,1,0,28V12A12,12,0,0,1,12,0Z" fill="#7ee1ff"/>
+        <text id="label-13" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-9.192" y="0">02</tspan></text>
+      </g>
+      <text id="label-14" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">CARD SORTING</tspan></text>
+    </g>
+    <text id="_The_researcher_writes_one_concept_per_card_for_a_max_of_30-40_cards._For_the_sort_make_sure_the_cards_are_in_a_random_order_to_avoid_bias." data-name="・The researcher writes one concept per card, for a max of 30-40 cards.
+・For the sort make sure the cards are in a random order to avoid bias." transform="translate(120 280)" fill="#909090" font-size="18" font-family="HiraginoSans-W4, Hiragino Sans"><tspan x="0" y="16">・</tspan><tspan y="16" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">The researcher writes one concept per card, for a max of 30-40 cards. </tspan><tspan x="0" y="44">・</tspan><tspan y="44" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">For the sort make sure the cards are in a random order to avoid bias.</tspan></text>
+    <text id="_The_participant_sorts_the_cards_into_the_categories_that_make_the_most_sense_to_her_him._Card_sorting_results_end_up_with_a_two-levels:_a_category_and_the_cards_sorted_to_each." data-name="・The participant sorts the cards into the categories that make the most sense to her/him.
+・Card sorting results end up with a two-levels: a category and the cards sorted to each." transform="translate(1433 280)" fill="#909090" font-size="18" font-family="HiraginoSans-W4, Hiragino Sans"><tspan x="0" y="16">・</tspan><tspan y="16" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">The participant sorts the cards into the categories that make the most sense to her/him. </tspan><tspan x="0" y="44">・</tspan><tspan y="44" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Card sorting results end up with a two-levels: a category and the cards sorted to each.</tspan></text>
+    <g id="Element_-_Step-10" data-name="Element - Step" transform="translate(2619 718)">
+      <rect id="background_color_fill_12" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-15" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-102.76" y="0">WRITE CATEGORY NAME…</tspan></text>
+    </g>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(2500 40)">
+      <g transform="matrix(1, 0, 0, 1, -2500, -40)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="540" height="1343" transform="translate(2500 40)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="18">What is this?</tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="42"></tspan><tspan x="0" y="66" xml:space="preserve">Designers and researchers use card sorting as a tool used to  </tspan><tspan x="0" y="90">determine the way information is grouped, labeled, and </tspan><tspan x="0" y="114">organized within a site or app by allowing users to sort topics </tspan><tspan x="0" y="138">into categories that make sense to them. </tspan><tspan x="0" y="162"></tspan><tspan x="0" y="186" xml:space="preserve">There are two types of card sorts -  open and closed. Open </tspan><tspan x="0" y="210">card sorting means that the participant can create categories </tspan><tspan x="0" y="234">of her own, or add concepts that are missing. This approach </tspan><tspan x="0" y="258">works well for exploratory work and can allow for new terms to </tspan><tspan x="0" y="282">make their way into the project. Closed card sorting means </tspan><tspan x="0" y="306">that the participant is limited to using only the cards provided </tspan><tspan x="0" y="330">to her. This method is better for a more evaluative approach, </tspan><tspan x="0" y="354">where the terminology or concepts have been well established.</tspan></tspan><tspan x="0" y="378"></tspan><tspan x="0" y="402">How to use</tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="426"></tspan><tspan x="0" y="450">01. Prepping Cards - </tspan><tspan y="450" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">The researcher writes one concept per </tspan><tspan x="0" y="474" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">card, for a max of 40 cards. For the sort make sure the cards </tspan><tspan x="0" y="498" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">are in a random order to avoid bias.</tspan><tspan x="0" y="522"></tspan><tspan x="0" y="546">02. Card Sorting - </tspan><tspan y="546" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">The participant sorts the cards into the </tspan><tspan x="0" y="570" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">categories that make the most sense to her/him. Typically card </tspan><tspan x="0" y="594" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">sorting results end up with a two-levels: a category and the </tspan><tspan x="0" y="618" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">cards sorted to each category.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="642"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="666">03. Debrief Participant -</tspan><tspan y="666" xml:space="preserve" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"> Ask users to explain the rationale </tspan><tspan x="0" y="690" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">behind the groups they created. Ask: Were any items </tspan><tspan x="0" y="714" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">especially easy or difficult to place? Did any items seem to </tspan><tspan x="0" y="738" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">belong in two or more groups?</tspan><tspan x="0" y="762"></tspan><tspan x="0" y="786">Note on Moderated vs. Unmoderated - </tspan><tspan y="786" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">The advantages of </tspan><tspan x="0" y="810" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">moderated sessions is that those moments are discussed, </tspan><tspan x="0" y="834" xml:space="preserve" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">elaborated on, and documented. The advantage  of </tspan><tspan x="0" y="858" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">unmoderated is that the testing sessions can happen </tspan><tspan x="0" y="882" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">asynchronously and simultaneously.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="906"></tspan></tspan><tspan x="0" y="930">Steps for participant</tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="954"></tspan><tspan x="0" y="978">Step 1 - </tspan><tspan y="978" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Take a quick look at the list of items to the left. We’d </tspan><tspan x="0" y="1002" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">like you to sort them into groups that make sense to you.</tspan><tspan x="0" y="1026"></tspan><tspan x="0" y="1050">Step 2 - </tspan><tspan y="1050" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Drag items from the left into the right area.</tspan><tspan x="0" y="1074"></tspan><tspan x="0" y="1098">Step 3 (open card sort) - </tspan><tspan y="1098" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">As you drag more cards, group </tspan><tspan x="0" y="1122" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">them together that seems related to you. Write category names </tspan><tspan x="0" y="1146" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">above that seem to makes sense for that group.</tspan><tspan x="0" y="1170"></tspan><tspan x="0" y="1194">Step 3 - (closed card sort) </tspan><tspan y="1194" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">We’d like you to sort those items </tspan><tspan x="0" y="1218" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">into the groups provided on the right.</tspan></tspan></text>
+    </g>
+    <g id="Post-It_Element" data-name="Post-It Element" transform="translate(120 400)">
+      <rect id="background_color_fill_13" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-16" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-2" data-name="Post-It Element" transform="translate(120 400)">
+      <rect id="background_color_fill_14" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-17" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-2" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-3" data-name="Post-It Element" transform="translate(840 400)">
+      <rect id="background_color_fill_15" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-18" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-3" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-4" data-name="Post-It Element" transform="translate(120 540)">
+      <rect id="background_color_fill_16" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-19" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-4" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-5" data-name="Post-It Element" transform="translate(120 540)">
+      <rect id="background_color_fill_17" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-20" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-5" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-6" data-name="Post-It Element" transform="translate(840 540)">
+      <rect id="background_color_fill_18" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-21" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-6" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-7" data-name="Post-It Element" transform="translate(300 820)">
+      <rect id="background_color_fill_19" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-22" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-7" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-8" data-name="Post-It Element" transform="translate(300 1100)">
+      <rect id="background_color_fill_20" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-23" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-8" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-9" data-name="Post-It Element" transform="translate(300 960)">
+      <rect id="background_color_fill_21" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-24" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-9" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-10" data-name="Post-It Element" transform="translate(300 1240)">
+      <rect id="background_color_fill_22" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-25" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-10" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-11" data-name="Post-It Element" transform="translate(120 820)">
+      <rect id="background_color_fill_23" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-26" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-11" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-12" data-name="Post-It Element" transform="translate(120 1100)">
+      <rect id="background_color_fill_24" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-27" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-12" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-13" data-name="Post-It Element" transform="translate(840 820)">
+      <rect id="background_color_fill_25" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-28" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-13" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-14" data-name="Post-It Element" transform="translate(840 1100)">
+      <rect id="background_color_fill_26" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-29" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-14" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-15" data-name="Post-It Element" transform="translate(120 960)">
+      <rect id="background_color_fill_27" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-30" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-15" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-16" data-name="Post-It Element" transform="translate(120 1240)">
+      <rect id="background_color_fill_28" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-31" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-16" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-17" data-name="Post-It Element" transform="translate(840 960)">
+      <rect id="background_color_fill_29" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-32" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-17" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-18" data-name="Post-It Element" transform="translate(840 1240)">
+      <rect id="background_color_fill_30" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-33" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-18" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-19" data-name="Post-It Element" transform="translate(120 680)">
+      <rect id="background_color_fill_31" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-34" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-19" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-20" data-name="Post-It Element" transform="translate(840 680)">
+      <rect id="background_color_fill_32" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-35" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-20" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-21" data-name="Post-It Element" transform="translate(480 820)">
+      <rect id="background_color_fill_33" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-36" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-21" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-22" data-name="Post-It Element" transform="translate(480 1100)">
+      <rect id="background_color_fill_34" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-37" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-22" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-23" data-name="Post-It Element" transform="translate(480 960)">
+      <rect id="background_color_fill_35" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-38" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-23" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-24" data-name="Post-It Element" transform="translate(480 1240)">
+      <rect id="background_color_fill_36" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-39" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-24" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-25" data-name="Post-It Element" transform="translate(660 820)">
+      <rect id="background_color_fill_37" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-40" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-25" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-26" data-name="Post-It Element" transform="translate(660 1100)">
+      <rect id="background_color_fill_38" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-41" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-26" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-27" data-name="Post-It Element" transform="translate(660 960)">
+      <rect id="background_color_fill_39" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-42" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-27" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-28" data-name="Post-It Element" transform="translate(660 1240)">
+      <rect id="background_color_fill_40" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-43" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-28" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-29" data-name="Post-It Element" transform="translate(660 400)">
+      <rect id="background_color_fill_41" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-44" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-29" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-30" data-name="Post-It Element" transform="translate(660 400)">
+      <rect id="background_color_fill_42" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-45" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-30" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-31" data-name="Post-It Element" transform="translate(660 540)">
+      <rect id="background_color_fill_43" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-46" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-31" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-32" data-name="Post-It Element" transform="translate(660 540)">
+      <rect id="background_color_fill_44" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-47" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-32" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-33" data-name="Post-It Element" transform="translate(300 540)">
+      <rect id="background_color_fill_45" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-48" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-33" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-34" data-name="Post-It Element" transform="translate(300 540)">
+      <rect id="background_color_fill_46" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-49" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-34" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-35" data-name="Post-It Element" transform="translate(660 680)">
+      <rect id="background_color_fill_47" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-50" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-35" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-36" data-name="Post-It Element" transform="translate(300 400)">
+      <rect id="background_color_fill_48" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-51" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-36" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-37" data-name="Post-It Element" transform="translate(300 400)">
+      <rect id="background_color_fill_49" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-52" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-37" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-38" data-name="Post-It Element" transform="translate(300 680)">
+      <rect id="background_color_fill_50" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-53" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-38" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-39" data-name="Post-It Element" transform="translate(480 400)">
+      <rect id="background_color_fill_51" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-54" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-39" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-40" data-name="Post-It Element" transform="translate(480 400)">
+      <rect id="background_color_fill_52" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-55" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-40" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-41" data-name="Post-It Element" transform="translate(480 540)">
+      <rect id="background_color_fill_53" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-56" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-41" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-42" data-name="Post-It Element" transform="translate(480 540)">
+      <rect id="background_color_fill_54" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-57" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-42" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-43" data-name="Post-It Element" transform="translate(480 680)">
+      <rect id="background_color_fill_55" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text id="label-58" data-area="140 80" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-43" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

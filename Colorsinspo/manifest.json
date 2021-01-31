@@ -1,0 +1,71 @@
+{
+  "name": "Colorsinspo",
+  "author": "Hexorial Studio",
+  "host": {
+    "app": "XD",
+    "minVersion": "26.0"
+  },
+  "languages": ["en"],
+  "keywords": [
+    "color",
+    "blindness",
+    "palette",
+    "color palette",
+    "ai",
+    "gradient",
+    "random",
+    "solid",
+    "contrast",
+    "accessibility",
+    "assets",
+    "colorsinspo",
+    "collection"
+  ],
+  "helpUrl": "hello@hexorial.studio",
+  "website": "https://hexorial.studio",
+  "id": "23858593",
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "images/icon@3x.png",
+      "width": 72,
+      "height": 72
+    },
+    {
+      "path": "images/icon@4x.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "images/icon@5x.png",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "path": "images/icon@6x.png",
+      "width": 144,
+      "height": 144
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "Colorsinspo",
+      "type": "panel",
+      "panelId": "Colorsinspo",
+      "shortcut": {
+        "mac": "Ctrl+Shift+l",
+        "win": "Ctrl+Shift+l"
+      }
+    }
+  ],
+  "version": "2.0.0"
+}

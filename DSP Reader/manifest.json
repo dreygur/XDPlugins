@@ -1,0 +1,28 @@
+{
+  "name": "DSP Reader",
+  "host": {
+    "app": "XD",
+    "minVersion": "30.0"
+  },
+  "id": "5955aebf",
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "DSP Reader",
+      "panelId": "dspreader"
+    }
+  ],
+  "version": "1.4.7"
+}

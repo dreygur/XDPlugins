@@ -1,0 +1,43 @@
+{
+  "id": "036869b3",
+  "name": "Angle",
+  "version": "1.0.4",
+  "description": "Apply perspective transforms on screen mockups. Set screens by resolution and pixel density. Works on all shapes. Perfect for presenting your apps, websites, and cover images.",
+  "summary": "Apply perspective transforms",
+  "keywords": ["utility", "productivity", "transform", "mockup"],
+  "languages": ["en"],
+  "website": "https://designcode.io/angle-xd",
+  "author": "Design+Code",
+  "helpUrl": "https://intercom.help/designcode",
+  "icons": [
+    { "width": 48, "height": 48, "path": "./assets/icon@1x.jpg" },
+    { "width": 96, "height": 96, "path": "./assets/icon@2x.jpg" },
+    { "width": 144, "height": 144, "path": "./assets/icon@3x.jpg" },
+    { "width": 192, "height": 192, "path": "./assets/icon@4x.jpg" }
+  ],
+  "main": "main.js",
+  "host": {
+    "app": "XD",
+    "minVersion": "12.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Angle",
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": "Apply Mockup",
+          "commandId": "menuCommand",
+          "shortcut": { "mac": "Ctrl+A", "win": "Ctrl+A" }
+        },
+        {
+          "type": "menu",
+          "label": "Blank Mockup",
+          "commandId": "blank",
+          "shortcut": { "mac": "Ctrl+B", "win": "Ctrl+B" }
+        }
+      ]
+    }
+  ]
+}

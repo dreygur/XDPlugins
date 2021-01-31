@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="124" viewBox="0 0 204 124">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="139" height="74" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_66720" data-name="Group 66720" transform="translate(-7 -181)">
+    <rect id="Artboard_Preview" data-name="Artboard Preview" width="200" height="120" transform="translate(9 183)" fill="#fff"/>
+    <g id="Illustration" transform="translate(7 180.735)">
+      <g id="Rectangle_64" data-name="Rectangle 64" transform="translate(2 2.265)" fill="none" stroke="#4c94e8" stroke-width="1">
+        <rect width="200" height="120" stroke="none"/>
+        <rect x="0.5" y="0.5" width="199" height="119" fill="none"/>
+      </g>
+      <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(199 0.265)" fill="#fff" stroke="#4c94e8" stroke-width="1">
+        <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+        <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+      </g>
+      <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(199 119.265)" fill="#fff" stroke="#4c94e8" stroke-width="1">
+        <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+        <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+      </g>
+      <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(0 0.265)" fill="#fff" stroke="#4c94e8" stroke-width="1">
+        <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+        <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+      </g>
+      <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(0 119.265)" fill="#fff" stroke="#4c94e8" stroke-width="1">
+        <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+        <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+      </g>
+      <g id="Repeat_Grid_1750" data-name="Repeat Grid 1750" transform="translate(33 25.265)" clip-path="url(#clip-path)">
+        <g transform="translate(-515.5 -1392.5)">
+          <g id="Group_66719" data-name="Group 66719" transform="translate(0 2)">
+            <rect id="Rectangle_147659" data-name="Rectangle 147659" width="32" height="32" transform="translate(516 1432)" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
+          </g>
+          <line id="Line_77" data-name="Line 77" x2="16" transform="translate(516.5 1415.5)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+          <line id="Line_78" data-name="Line 78" x2="24" transform="translate(516.5 1419.5)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+          <circle id="Ellipse_20195" data-name="Ellipse 20195" cx="7.5" cy="7.5" r="7.5" transform="translate(516.5 1393)" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
+        </g>
+        <g transform="translate(-462.5 -1392.5)">
+          <g id="Group_66719-2" data-name="Group 66719" transform="translate(0 2)">
+            <rect id="Rectangle_147659-2" data-name="Rectangle 147659" width="32" height="32" transform="translate(516 1432)" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
+          </g>
+          <line id="Line_77-2" data-name="Line 77" x2="16" transform="translate(516.5 1415.5)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+          <line id="Line_78-2" data-name="Line 78" x2="24" transform="translate(516.5 1419.5)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+          <circle id="Ellipse_20195-2" data-name="Ellipse 20195" cx="7.5" cy="7.5" r="7.5" transform="translate(516.5 1393)" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
+        </g>
+        <g transform="translate(-409.5 -1392.5)">
+          <g id="Group_66719-3" data-name="Group 66719" transform="translate(0 2)">
+            <rect id="Rectangle_147659-3" data-name="Rectangle 147659" width="32" height="32" transform="translate(516 1432)" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
+          </g>
+          <line id="Line_77-3" data-name="Line 77" x2="16" transform="translate(516.5 1415.5)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+          <line id="Line_78-3" data-name="Line 78" x2="24" transform="translate(516.5 1419.5)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+          <circle id="Ellipse_20195-3" data-name="Ellipse 20195" cx="7.5" cy="7.5" r="7.5" transform="translate(516.5 1393)" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

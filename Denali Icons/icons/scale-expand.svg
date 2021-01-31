@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>scale-expand</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M13,23a2,2,0,0,0,2.3,2A2.1,2.1,0,0,0,17,22.9V19.8l6.5,6.6a2.1,2.1,0,0,0,2.8.1A1.8,1.8,0,0,0,27,25a2,2,0,0,0-.6-1.4L19.8,17h3.1A2.1,2.1,0,0,0,25,15.3,2,2,0,0,0,23,13H15a2,2,0,0,0-2,2Z"/>
+      <path d="M24,46A22,22,0,1,1,46,24a2,2,0,0,1-4,0A18,18,0,1,0,24,42a2,2,0,0,1,0,4Z"/>
+      <circle cx="36" cy="28" r="2"/>
+      <circle cx="30.3" cy="30.3" r="2"/>
+      <circle cx="28" cy="36" r="2"/>
+      <circle cx="30.3" cy="41.7" r="2"/>
+      <circle cx="36" cy="44" r="2"/>
+      <circle cx="41.7" cy="41.7" r="2"/>
+      <circle cx="44" cy="36" r="2"/>
+      <circle cx="41.7" cy="30.3" r="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>notification-disable</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M43.4,29.4l-3.2-3.2A4.7,4.7,0,0,1,39,23.3V17C39,8.9,33.6,2,24,2A14.7,14.7,0,0,0,13.1,6.2L44,37.2V30.8A2,2,0,0,0,43.4,29.4Z"/>
+        <path d="M5.2,4.4a1.9,1.9,0,0,0-2.8,0,1.9,1.9,0,0,0,0,2.8l6.8,6.9A26.4,26.4,0,0,0,9,17v7a2.3,2.3,0,0,1-.7,1.7L4.6,29.4A2,2,0,0,0,4,30.8V38a2,2,0,0,0,2,2H17.1a7,7,0,0,0,13.8,0h4.3l3.6,3.6a2,2,0,1,0,2.8-2.8Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+    "name": "@adobe/xd-plugin-toolkit",
+    "version": "0.0.1",
+    "description": "Adobe XD Plugin Helper Library",
+    "main": "lib/index.js",
+    "scripts": {
+        "publish": "echo use: yarn publish --access public"
+    },
+    "repository": "https://github.com/AdobeXD/plugin-toolkit.git",
+    "author": "Kerri Shotts",
+    "license": "Apache-2.0"
+}

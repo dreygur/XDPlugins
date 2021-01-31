@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Icon" transform="translate(0 -12)">
+    <rect id="icon_area" data-name="icon area" width="16" height="16" transform="translate(0 12)" fill="#707070" opacity="0"/>
+    <g id="Smock_Box_18_N" transform="translate(0 12)">
+      <rect id="Canvas" width="16" height="16" fill="#ff13dc" opacity="0"/>
+      <path id="Path_60909" data-name="Path 60909" d="M7.4,16.553,1.366,13.2A.711.711,0,0,1,1,12.578V6.6l6.4,3.556Z" transform="translate(-0.111 -0.733)" fill="#6e6e6e"/>
+      <path id="Path_60910" data-name="Path 60910" d="M15.834,13.2,9.8,16.553v-6.4L16.2,6.6v5.981a.711.711,0,0,1-.366.622Z" transform="translate(-1.089 -0.733)" fill="#6e6e6e"/>
+      <path id="Path_60911" data-name="Path 60911" d="M11.07,1.671,8.459.257a.711.711,0,0,0-.677,0L1.272,3.783a.367.367,0,0,0,0,.645L3.729,5.759Z" transform="translate(-0.12 -0.019)" fill="#6e6e6e"/>
+      <path id="Path_60912" data-name="Path 60912" d="M15.484,4.07,13.068,2.761,5.727,6.85,8.636,8.425l6.848-3.709a.367.367,0,0,0,0-.645Z" transform="translate(-0.636 -0.307)" fill="#6e6e6e"/>
+    </g>
+  </g>
+</svg>

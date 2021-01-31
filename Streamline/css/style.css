@@ -1,0 +1,145 @@
+:root {
+  --main-bg-color: coral;
+  --main-txt-color: blue;
+  --main-padding: 15px;
+
+  /* --- Borders --- */
+  --lightGrey: #F7F7F7;
+  --mediumGrey: #bfbfbf;
+  --darkGrey: #737373;
+  --strongGrey: #4F4F4F;
+
+
+
+  --borderLight: #D5D9DD;
+  --borderGreyLight: #E7ECF3;
+
+  /* --- Backgrounds --- */
+
+  --backgroundGrey: var(--lightGrey);
+  --backgroundWhite: #FFFFFF;
+  --backgroundDark: #333;
+
+
+  /* --- Accent colors --- */
+
+  --accentUltralight: #E4FDFD;
+  --accentLight: #6CF9F9;
+  --accentMedium: #3ec1c1;
+  --accentStrong: #009F9F;
+
+  --highlightGrey: #E9E9E9;
+
+
+  /* --- Text variations --- */
+
+  --textGreen: #009F9F;
+  --textSuperDark: #4E4D4D;
+  --textGrey: #737373;
+  --textLightGrey: #b5b5b5;
+  --textMedium: #999999;
+
+
+
+  /* --- Errors --- */
+
+  --errorStrong: #ED2A71;
+
+  --errorBackground: #FFE5EF;
+
+
+  --errorRed: #CA2331;
+
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Black.woff");
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+}
+
+body {
+  font-family: "Inter";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #F7F8FB;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+
+}
+
+.hide {
+  display: none !important;
+}
+
+.notification {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  top: -200px;
+  transition: 0.5s;
+  z-index: 999999;
+}
+
+.notification--success {
+  top: 30px;
+  background-color: rgb(0, 182, 121);
+  opacity: 1;
+}
+
+.notification--error {
+  top: 0px;
+  background-color: rgb(245, 97, 97);
+}
+
+.validation__message {
+  color: rgb(245, 97, 97);
+
+}
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+.loader {
+  margin: auto;
+  font-size: 5px;
+  position: relative;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

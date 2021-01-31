@@ -1,0 +1,26 @@
+{
+  "id": "016233de",
+  "name": "convert scss variables",
+  "description": "Xd plugin for frontend engineer, Xd object to scss color and fontsize and fontfamily variables.",
+  "version": "2.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "1.0.0"
+  },
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "convert scss variables",
+        "commandId": "myCommandId",
+        "shortcut": {
+          "mac": "Cmd+Shift+O",
+          "win": "Ctrl+Shift+O"
+        }
+      }
+   ]
+}

@@ -1,0 +1,24 @@
+{
+   "name": "RepeatGrid Fitter",
+   "id": "666dd52c",
+   "version":"1.0.0",
+   "description":"Fit the size of repeat grid to a specified number of row and items.",
+   "icons":[
+      {
+         "width":96,
+         "height":96,
+         "path":"images/icon.png"
+      }
+   ],
+   "host":{
+      "app":"XD",
+      "minVersion":"13.0.0"
+   },
+   "uiEntryPoints":[
+      {
+         "type":"menu",
+         "label": "Repeat grid fitter",
+         "commandId":"mainCommand"
+      }
+   ]
+}

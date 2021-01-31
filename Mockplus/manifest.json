@@ -1,0 +1,36 @@
+{
+  "name": "Mockplus",
+  "id": "48b438e5",
+  "version": "1.5.8",
+  "description": "Mockplus makes product design collaboration faster and easier. Its features include generating specs smartly, cutting Slices in one click, various note styles, fast interaction, full-view dashboard and team management. Connect entire product design workflow with only one document!  Chinese: 更快更简单的产品协作设计。智能标注、一键切图、多样批注、交互原型、全貌画板、团队管理。从产品到开发，只要一个文档。立即访问： https://idoc.mockplus.cn 。",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/logo/24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/logo/48.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": {
+        "default": "Mockplus",
+        "zh": "摹客"
+      },
+      "panelId": "enlargeRectangle",
+      "shortcut": {
+        "mac": "Cmd+p",
+        "win": "Ctrl+p"
+      }
+    }
+  ]
+}

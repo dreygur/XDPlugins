@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>time-alarm-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,8A19,19,0,1,0,43,27,19,19,0,0,0,24,8Zm9.7,24A2.1,2.1,0,0,1,32,33a1.9,1.9,0,0,1-1-.3l-9-4.6V19a2,2,0,0,1,4,0v6.9l7,3.4A1.9,1.9,0,0,1,33.7,32Z"/>
+      <path d="M6,12a2.1,2.1,0,0,1-1.6-.8,2,2,0,0,1,.4-2.8l8-6a2,2,0,0,1,2.8.4,2,2,0,0,1-.4,2.8l-8,6A1.9,1.9,0,0,1,6,12Z"/>
+      <path d="M42,12a1.9,1.9,0,0,1-1.2-.4l-8-6a2,2,0,0,1-.4-2.8,2,2,0,0,1,2.8-.4l8,6a2,2,0,0,1,.4,2.8A2.1,2.1,0,0,1,42,12Z"/>
+    </g>
+  </g>
+</svg>

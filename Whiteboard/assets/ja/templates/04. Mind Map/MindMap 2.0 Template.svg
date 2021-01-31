@@ -1,0 +1,294 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Template:_マインドマップ_2">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Template:_マインドマップ_2" data-name="Template: マインドマップ 2" clip-path="url(#clip-Template:_マインドマップ_2)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="Mindmap_Connector_-_Bottom_-_Element" data-name="Mindmap Connector - Bottom - Element" transform="translate(300 411)" opacity="0.498">
+      <path id="line_color_border_" data-name="line [color_border]" d="M6889-928s35.538-.741,70.232-29.988S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-2" data-name="Mindmap Connector - Bottom - Element" transform="translate(300 890)" opacity="0.498">
+      <path id="line_color_border_2" data-name="line [color_border]" d="M6889-958s35.538-.37,70.232-14.994S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#889fff" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element" data-name="Mindmap Connector - Top - Element" transform="translate(300 351)" opacity="0.498">
+      <path id="line_color_border_3" data-name="line [color_border]" d="M7029-928s-35.537-.741-70.232-29.988S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-2" data-name="Mindmap Connector - Top - Element" transform="translate(300 291)" opacity="0.498">
+      <path id="line_color_border_4" data-name="line [color_border]" d="M7029-868s-35.537-1.482-70.232-59.976S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-3" data-name="Mindmap Connector - Top - Element" transform="translate(300 411)" opacity="0.498">
+      <path id="line_color_border_5" data-name="line [color_border]" d="M7029-987.5s-35.537-.006-70.232-.25S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-3" data-name="Mindmap Connector - Bottom - Element" transform="translate(300 411)" opacity="0.498">
+      <path id="line_color_border_6" data-name="line [color_border]" d="M6889-868s35.538-1.482,70.232-59.976S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-4" data-name="Mindmap Connector - Bottom - Element" transform="translate(300 712)" opacity="0.498">
+      <path id="line_color_border_7" data-name="line [color_border]" d="M6889-958s35.538-.37,70.232-14.994S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-4" data-name="Mindmap Connector - Top - Element" transform="translate(300 677)" opacity="0.498">
+      <path id="line_color_border_8" data-name="line [color_border]" d="M7029-953s-35.537-.432-70.232-17.493S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-5" data-name="Mindmap Connector - Top - Element" transform="translate(300 623)" opacity="0.498">
+      <path id="line_color_border_9" data-name="line [color_border]" d="M7029-899s-35.537-1.1-70.232-44.482S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-5" data-name="Mindmap Connector - Bottom - Element" transform="translate(300 712)" opacity="0.498">
+      <path id="line_color_border_10" data-name="line [color_border]" d="M6889-899s35.538-1.1,70.232-44.482S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-6" data-name="Mindmap Connector - Top - Element" transform="translate(1480 858)" opacity="0.498">
+      <path id="line_color_border_11" data-name="line [color_border]" d="M6889-958s35.537-.37,70.232-14.994S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#8484f3" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-6" data-name="Mindmap Connector - Bottom - Element" transform="translate(1480 888)" opacity="0.498">
+      <path id="line_color_border_12" data-name="line [color_border]" d="M7029-953s-35.537-.432-70.232-17.493S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#8484f3" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-7" data-name="Mindmap Connector - Top - Element" transform="translate(1480 661)" opacity="0.498">
+      <path id="line_color_border_13" data-name="line [color_border]" d="M6889-958s35.537-.37,70.232-14.994S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-7" data-name="Mindmap Connector - Bottom - Element" transform="translate(1480 691)" opacity="0.498">
+      <path id="line_color_border_14" data-name="line [color_border]" d="M7029-953s-35.537-.432-70.232-17.493S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-8" data-name="Mindmap Connector - Bottom - Element" transform="translate(1480 691)" opacity="0.498">
+      <path id="line_color_border_15" data-name="line [color_border]" d="M7029-899s-35.537-1.1-70.232-44.482S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-8" data-name="Mindmap Connector - Top - Element" transform="translate(1480 602)" opacity="0.498">
+      <path id="line_color_border_16" data-name="line [color_border]" d="M6889-899s35.537-1.1,70.232-44.482S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-9" data-name="Mindmap Connector - Bottom - Element" transform="translate(1079 600)" opacity="0.5">
+      <path id="line_color_border_17" data-name="line [color_border]" d="M7029-698s-35.538-3.581-70.232-144.942S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#8484f3" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-9" data-name="Mindmap Connector - Top - Element" transform="translate(1079 409)" opacity="0.5">
+      <path id="line_color_border_18" data-name="line [color_border]" d="M6889-798s35.538-2.346,70.232-94.962S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-10" data-name="Mindmap Connector - Bottom - Element" transform="translate(1079 599)" opacity="0.5">
+      <path id="line_color_border_19" data-name="line [color_border]" d="M7029-897s-35.537-1.124-70.232-45.482S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#feac80" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-10" data-name="Mindmap Connector - Top - Element" transform="translate(700 413)" opacity="0.5">
+      <path id="line_color_border_20" data-name="line [color_border]" d="M7029-800s-35.537-2.321-70.232-93.963S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-11" data-name="Mindmap Connector - Bottom - Element" transform="translate(700 601)" opacity="0.5">
+      <path id="line_color_border_21" data-name="line [color_border]" d="M6889-878s35.538-1.358,70.232-54.978S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-12" data-name="Mindmap Connector - Bottom - Element" transform="translate(700 601)" opacity="0.5">
+      <path id="line_color_border_22" data-name="line [color_border]" d="M6889-695s35.538-3.618,70.232-146.442S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#889fff" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Block_Element" data-name="Mindmap Block Element" transform="translate(840 571)">
+      <g id="background_color_border_" data-name="background [color_border]" fill="#fff" stroke="#101010" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label" transform="translate(120 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-30" y="0">テーマ</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-2" data-name="Mindmap Block Element" transform="translate(1220 380)">
+      <g id="background_color_border_2" data-name="background [color_border]" fill="#fff" stroke="#26ccbf" stroke-width="3">
+        <rect width="260" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="257" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-2" data-name="label" transform="translate(130 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-70" y="0">ビジネスの条件</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-3" data-name="Mindmap Block Element" transform="translate(440 380)">
+      <g id="background_color_border_3" data-name="background [color_border]" fill="#fff" stroke="#fd88d1" stroke-width="3">
+        <rect width="260" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="257" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-3" data-name="label" transform="translate(130 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-79.3" y="0">プロダクトの機能</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-4" data-name="Mindmap Block Element" transform="translate(1220 660)">
+      <g id="background_color_border_4" data-name="background [color_border]" fill="#fff" stroke="#feac80" stroke-width="3">
+        <rect width="260" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="257" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-4" data-name="label" transform="translate(130 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-100" y="0">技術的に考慮すること</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-5" data-name="Mindmap Block Element" transform="translate(1220 860)">
+      <g id="background_color_border_5" data-name="background [color_border]" fill="#fff" stroke="#8484f3" stroke-width="3">
+        <rect width="260" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="257" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-5" data-name="label" transform="translate(130 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-30" y="0">その他</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-6" data-name="Mindmap Block Element" transform="translate(440 681)">
+      <g id="background_color_border_6" data-name="background [color_border]" fill="#fff" stroke="#ffd86f" stroke-width="3">
+        <rect width="260" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="257" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-6" data-name="label" transform="translate(130 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-70" y="0">ユーザーの悩み</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-7" data-name="Mindmap Block Element" transform="translate(440 863)">
+      <g id="background_color_border_7" data-name="background [color_border]" fill="#fff" stroke="#889fff" stroke-width="3">
+        <rect width="260" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="257" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-7" data-name="label" transform="translate(130 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-79.3" y="0">プロダクトの機能</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element" data-name="Mindmap Block - Ghost - Element" transform="translate(120 260)">
+      <g id="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">機能</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 01</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-2" data-name="Mindmap Block - Ghost - Element" transform="translate(120 320)">
+      <g id="background-2" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_2" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">機能</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 02</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-3" data-name="Mindmap Block - Ghost - Element" transform="translate(120 380)">
+      <g id="background-3" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_3" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">機能</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 03</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-4" data-name="Mindmap Block - Ghost - Element" transform="translate(120 440)">
+      <g id="background-4" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_4" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">機能</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 04</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-5" data-name="Mindmap Block - Ghost - Element" transform="translate(120 500)">
+      <g id="background-5" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_5" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">機能</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 05</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-6" data-name="Mindmap Block - Ghost - Element" transform="translate(120 588)">
+      <g id="background-6" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_6" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">悩み</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 01</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-7" data-name="Mindmap Block - Ghost - Element" transform="translate(120 648)">
+      <g id="background-7" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_7" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">悩み</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 02</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-8" data-name="Mindmap Block - Ghost - Element" transform="translate(120 708)">
+      <g id="background-8" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_8" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">悩み</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 03</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-9" data-name="Mindmap Block - Ghost - Element" transform="translate(120 768)">
+      <g id="background-9" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_9" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">悩み</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 04</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-10" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 574)">
+      <g id="background-10" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_10" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-63.613" y="0">考慮する点</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 01</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-11" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 634)">
+      <g id="background-11" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_11" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-63.613" y="0">考慮する点</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 02</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-12" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 694)">
+      <g id="background-12" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_12" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-63.613" y="0">考慮する点</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 03</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-13" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 754)">
+      <g id="background-13" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_13" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-63.613" y="0">考慮する点</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 04</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-14" data-name="Mindmap Block - Ghost - Element" transform="translate(120 886)">
+      <g id="background-14" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_14" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-60" y="0">その他の機能</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-15" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 260)">
+      <g id="background-15" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_15" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">条件</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 01</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-16" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 320)">
+      <g id="background-16" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_16" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">条件</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 02</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-17" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 380)">
+      <g id="background-17" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_17" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">条件</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 03</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-18" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 440)">
+      <g id="background-18" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_18" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">条件</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 04</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-19" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 500)">
+      <g id="background-19" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_19" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-33.613" y="0">条件</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 05</tspan></text>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-11" data-name="Mindmap Connector - Top - Element" transform="translate(1480 350)" opacity="0.498">
+      <path id="line_color_border_23" data-name="line [color_border]" d="M6889-928s35.538-.741,70.232-29.988S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-13" data-name="Mindmap Connector - Bottom - Element" transform="translate(1480 410)" opacity="0.498">
+      <path id="line_color_border_24" data-name="line [color_border]" d="M7029-928s-35.537-.741-70.232-29.988S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Bottom_-_Element-14" data-name="Mindmap Connector - Bottom - Element" transform="translate(1480 410)" opacity="0.498">
+      <path id="line_color_border_25" data-name="line [color_border]" d="M7029-868s-35.537-1.482-70.232-59.976S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-12" data-name="Mindmap Connector - Top - Element" transform="translate(1480 409.5)" opacity="0.498">
+      <path id="line_color_border_26" data-name="line [color_border]" d="M7029-987.5s-35.537-.006-70.232-.25S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-13" data-name="Mindmap Connector - Top - Element" transform="translate(1480 290)" opacity="0.498">
+      <path id="line_color_border_27" data-name="line [color_border]" d="M6889-868s35.538-1.482,70.232-59.976S7029-988,7029-988" transform="translate(-6889 988)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-20" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 834)">
+      <g id="background-20" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_20" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-53.313" y="0">トピック</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 01</tspan></text>
+    </g>
+    <g id="Mindmap_Block_-_Ghost_-_Element-21" data-name="Mindmap Block - Ghost - Element" transform="translate(1620 893)">
+      <g id="background-21" data-name="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+        <rect width="180" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+      </g>
+      <text id="label_color_fill_21" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-53.313" y="0">トピック</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> 02</tspan></text>
+    </g>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">マインドマップ</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> - </tspan><tspan y="0">ブロックとテキスト</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-112.192" y="0">2020</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">年</tspan><tspan y="0">3</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">月</tspan><tspan y="0">20</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">日</tspan></text>
+      <text id="プロジェクト名" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-111.52" y="0">プロジェクト名</tspan></text>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">マインドマップは</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">1974</tspan><tspan y="0">年にイギリスの</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">BBC</tspan><tspan y="0">局の</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">TV</tspan><tspan y="0">ホスト、トニー・ブザンの</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">”Use Your Head (</tspan><tspan y="0">頭がよくなる本</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">)”</tspan><tspan y="0">という著書で紹介されました。</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"></tspan><tspan x="0" y="27">以来マインドマップは１つの考えに対しての様々な事柄の関係性を表現するのによく用いられる手法です。</tspan></text>
+    </g>
+  </g>
+</svg>

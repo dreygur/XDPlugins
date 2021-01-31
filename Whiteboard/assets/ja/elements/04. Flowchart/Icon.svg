@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Icon" transform="translate(0 -12)">
+    <rect id="icon_area" data-name="icon area" width="16" height="16" transform="translate(0 12)" fill="#707070" opacity="0"/>
+    <g id="Smock_Workflow_18_N" transform="translate(0 12)">
+      <rect id="Canvas" width="16" height="16" fill="#707070" opacity="0"/>
+      <rect id="Rectangle_147662" data-name="Rectangle 147662" width="3.556" height="4.978" rx="0.5" transform="translate(0.889 5.333)" fill="#707070"/>
+      <rect id="Rectangle_147663" data-name="Rectangle 147663" width="2.667" height="2.667" rx="0.5" transform="translate(12.444 1.778)" fill="#707070"/>
+      <rect id="Rectangle_147664" data-name="Rectangle 147664" width="2.667" height="2.667" rx="0.5" transform="translate(12.444 6.222)" fill="#707070"/>
+      <rect id="Rectangle_147665" data-name="Rectangle 147665" width="2.667" height="2.667" rx="0.5" transform="translate(12.444 10.667)" fill="#707070"/>
+      <path id="Path_60891" data-name="Path 60891" d="M12.222,3.667V3.222A.222.222,0,0,0,12,3H8.889a.222.222,0,0,0-.222.222V7.444H6.222A.222.222,0,0,0,6,7.667v.444a.222.222,0,0,0,.222.222H8.667v4.222a.222.222,0,0,0,.222.222H12a.222.222,0,0,0,.222-.222v-.444A.222.222,0,0,0,12,11.889H9.556V8.333H12a.222.222,0,0,0,.222-.222V7.667A.222.222,0,0,0,12,7.444H9.556V3.889H12A.222.222,0,0,0,12.222,3.667Z" transform="translate(-0.667 -0.333)" fill="#707070"/>
+    </g>
+  </g>
+</svg>

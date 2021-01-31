@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="568" height="368" viewBox="0 0 568 368">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="521" height="321" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Notepad_-_Small_-_Element" data-name="Notepad - Small - Element" transform="translate(2 2)">
+    <rect id="shadow_color_fill_" data-name="shadow [color_fill]" width="560" height="360" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+    <rect id="paper_color_border_" data-name="paper [color_border]" width="560" height="360" fill="#fff" stroke="#101010" stroke-width="4"/>
+    <g id="grid" transform="translate(-160 -6780)">
+      <g id="hr" transform="translate(179.5 6799.5)" clip-path="url(#clip-path)">
+        <g transform="translate(-179.5 -6799.5)">
+          <line id="hr-2" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6759.5)">
+          <line id="hr-3" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6719.5)">
+          <line id="hr-4" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6679.5)">
+          <line id="hr-5" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6639.5)">
+          <line id="hr-6" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6599.5)">
+          <line id="hr-7" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6559.5)">
+          <line id="hr-8" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6519.5)">
+          <line id="hr-9" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-179.5 -6479.5)">
+          <line id="hr-10" data-name="hr" x1="520" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="vr" transform="translate(179.5 6799.5)" clip-path="url(#clip-path)">
+        <g transform="translate(-179.5 -6799.5)">
+          <line id="vr-2" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-139.5 -6799.5)">
+          <line id="vr-3" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-99.5 -6799.5)">
+          <line id="vr-4" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-59.5 -6799.5)">
+          <line id="vr-5" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(-19.5 -6799.5)">
+          <line id="vr-6" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(20.5 -6799.5)">
+          <line id="vr-7" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(60.5 -6799.5)">
+          <line id="vr-8" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(100.5 -6799.5)">
+          <line id="vr-9" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(140.5 -6799.5)">
+          <line id="vr-10" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(180.5 -6799.5)">
+          <line id="vr-11" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(220.5 -6799.5)">
+          <line id="vr-12" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(260.5 -6799.5)">
+          <line id="vr-13" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(300.5 -6799.5)">
+          <line id="vr-14" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g transform="translate(340.5 -6799.5)">
+          <line id="vr-15" data-name="vr" y2="320" transform="translate(180 6800)" fill="none" stroke="#c8e7f2" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,301 @@
+#dialog {
+    width: 320px;
+    height: 500px;
+    padding: 15px 25px;
+    position: relative;
+    font-size: 13px;
+    font-family: helvetica;
+    margin: 0 auto;
+    color: #474545;
+    overflow: hidden;
+    text-align: center;
+    background-color: #FFF;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    color: #00aeee;
+    cursor: pointer;
+}
+.page {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 3px;
+    display: none;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+.page.active {
+    z-index: 1;
+    display: block;
+    visibility: visible;
+}
+#close {
+    margin-top: 25px;
+}
+#loadSection > div,
+#updateSection > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#loadSection > div > div,
+#updateSection > div > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+#loadSection .btn-loader {
+    position: inherit;
+}
+.cf-header {
+    text-align: center;
+    color: #474545;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+    width: 100%;
+}
+.cf-header > img {
+    width: 140px;
+    margin: 0 auto;
+}
+.cf-body {
+
+}
+.cf-body > div {
+    display: none;
+}
+.cf-body > div.active {
+    display:block;
+}
+.cf-body-header {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 42px;
+    margin-bottom: 30px;
+}
+.cf-body-desc {
+    color: #767c84;
+    font-weight: 400;
+    font-size: 14px;
+}
+.cf-body-form {
+    position: relative;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.cf-body-form-body {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.cf-body-form-body-label {
+    margin-bottom: 6px;
+}
+.cf-body-form-select {
+    height: 58px;
+}
+.cf-body-form-select select {
+    display: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    height: 36px;
+    width: 100%;
+    color: #767c84;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #FAFBFC;
+}
+.cf-footer {
+
+}
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    color: #fff;
+    background-color: #00aeee;
+    margin-top: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.help-text {
+    margin: 0;
+    padding: 0;
+    color: #b5b3b3;
+    text-transform: initial;
+}
+#selectProjectLoading {
+    height: 36px;
+    border-radius: 2px;
+    color: #474545;
+    font-weight: 500;
+    background-color: #FAFBFC;
+    border: solid 1px #C2CBDB;
+    margin-top: 6px;
+    outline: 0;
+    text-align: left;
+    padding: 8px 14px;
+}
+.login-forgot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #7E7C7C;
+    font-weight: 400;
+    float: right;
+    text-decoration: none;
+}
+#error {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #f15d5d;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 5px;
+    opacity: 0;
+}
+#createNewAccount > a,
+#createNewAccount > div {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+#selectProjectLabel{
+
+}
+#createProject {
+    color: #0D8660;
+    font-weight: 400;
+    font-size: 13px;
+    float: right;
+    cursor: pointer;
+    float: left;
+    text-align: right;
+}
+#createProjectCancel {
+    color: #7E7C7C;
+    cursor: pointer;
+}
+#createProjectCancel span {
+    margin-left: 5px;
+}
+#createProjectError {
+    color: #f15d5d;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 5px 0;
+    visibility: hidden;
+    float: left;
+}
+#createProjectError.active {
+    visibility: visible;
+}
+.sync-complete {
+    margin-top: 49px;
+}
+#syncCompletedIMG{
+    margin-left: 115px;   
+    margin-top: 100px;
+}
+.sync-complete-text {
+    color: #0AAF7B;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.sync-complete-text-copy {
+    text-align: left;
+    font-weight: 300;
+    margin-top: 27px;
+    margin-bottom: 6px;
+    display: none;
+}
+#syncCompleteText {
+    width: 100%;
+    height: 66px;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: #FAFBFC;
+    border: solid 1px #C2CBDB;
+    outline: 0;
+    resize: none;
+    display: none;
+}
+#goToPreviewLink {
+    margin-top: 25px;
+}
+
+/*Loader CSS*/
+.loader-progress {
+    position: relative;
+    width: 240px;
+    margin: 10px auto;
+    display: none;
+}
+.loader-progress.active {
+    display: block;
+}
+#cfProgress {
+    background: #ccd0d3;
+    width: 100%;
+    position: relative;
+    height: 4px;
+    border-radius: 2px;
+}
+#cfProgressFilled {
+    background: #00AEEE;
+    -webkit-transition: width 1s linear;
+    transition: width 1s linear;
+    width: 0%;
+    position: relative;
+    height: 4px;
+    top: -4px;
+    border-radius: 2px;
+}
+#cfProgressPercentage{
+    text-align: center;
+    margin: 10px 0;
+}
+
+/************RADIO BUTTONS**************************************************/
+.cf-checkbox {
+    margin-top: 14px;
+    margin-bottom: 32px;
+    display: none;
+}
+.cf-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #474545;
+    font-weight: 400;
+    font-size: 13px;
+}
+.cf-checkbox-container input {
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+.cf-checkbox-container span {
+    position: absolute;
+    left: 48px;
+    top: 2px;
+}

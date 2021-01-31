@@ -1,0 +1,34 @@
+{
+  "id": "713b61ec",
+  "name": "UserTesting",
+  "version": "2.2",
+  "author": "UserTesting Inc.",
+  "keywords": [
+    "user testing",
+    "human insights",
+    "feedback",
+    "testing",
+    "research",
+    "user experience",
+    "user research",
+    "analytics"
+  ],
+  "icons": [
+    { "width": 24, "height": 24, "path": "public/assets/images/icon@1x.png" },
+    { "width": 48, "height": 48, "path": "public/assets/images/icon@2x.png" },
+    { "width": 96, "height": 96, "path": "public/assets/images/icon@3x.png" },
+    { "width": 144, "height": 144, "path": "public/assets/images/icon@4x.png" },
+    { "width": 192, "height": 192, "path": "public/assets/images/icon@5x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "14.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "UserTesting",
+      "commandId": "welcomeHandler"
+    }
+  ]
+}

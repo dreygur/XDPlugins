@@ -1,0 +1,22 @@
+{
+  "name": "adobe-xd-nudge-and-resize",
+  "version": "1.1.4",
+  "description": "Add menu items for nudging and resizing objects (8px by default) so they can be controlled by keyboard shortcuts.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigmdennis/adobe-xd-nudge-and-resize.git"
+  },
+  "author": "Craig Dennis <craig@simplebitdesign.com> (http://simplebitdesign.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigmdennis/adobe-xd-nudge-and-resize/issues"
+  },
+  "homepage": "https://github.com/craigmdennis/adobe-xd-nudge-and-resize#readme"
+}

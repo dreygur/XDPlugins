@@ -1,0 +1,7 @@
+<svg id="Mindmap_Block_-_Ghost_-_Element" data-name="Mindmap Block - Ghost - Element" xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60">
+  <g id="background" fill="#fff" stroke="#101010" stroke-width="3" opacity="0">
+    <rect width="180" height="60" stroke="none"/>
+    <rect x="1.5" y="1.5" width="177" height="57" fill="none"/>
+  </g>
+  <text id="label_color_fill_" data-name="label [color_fill]" transform="translate(90 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700" data-text-align="center"><tspan x="0" y="0">Label</tspan></text>
+</svg>

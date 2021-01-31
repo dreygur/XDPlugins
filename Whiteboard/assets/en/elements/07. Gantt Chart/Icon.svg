@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Icon" transform="translate(0 -12)">
+    <rect id="icon_area" data-name="icon area" width="16" height="16" transform="translate(0 12)" fill="#707070" opacity="0"/>
+    <g id="Smock_GraphGantt_18_N" transform="translate(0 12)">
+      <rect id="Canvas" width="16" height="16" fill="#707070" opacity="0"/>
+      <rect id="Rectangle_147666" data-name="Rectangle 147666" width="3.556" height="1.778" rx="0.5" fill="#707070"/>
+      <rect id="Rectangle_147667" data-name="Rectangle 147667" width="8" height="1.778" rx="0.5" transform="translate(2.667 2.667)" fill="#707070"/>
+      <rect id="Rectangle_147668" data-name="Rectangle 147668" width="3.556" height="1.778" rx="0.5" transform="translate(4.444 5.333)" fill="#707070"/>
+      <rect id="Rectangle_147669" data-name="Rectangle 147669" width="2.667" height="1.778" rx="0.5" transform="translate(6.222 8)" fill="#707070"/>
+      <rect id="Rectangle_147670" data-name="Rectangle 147670" width="7.111" height="1.778" rx="0.5" transform="translate(6.222 10.667)" fill="#707070"/>
+      <rect id="Rectangle_147671" data-name="Rectangle 147671" width="8" height="1.778" rx="0.5" transform="translate(8 13.333)" fill="#707070"/>
+    </g>
+  </g>
+</svg>

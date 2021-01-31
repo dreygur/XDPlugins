@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>ungroup</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M12,29.3V18.7A7.9,7.9,0,0,0,17.7,13H28.3a8,8,0,1,0,0-4H17.7A8,8,0,0,0,10,3,8,8,0,0,0,8,18.7V29.3a8,8,0,1,0,4,0ZM36,7a4,4,0,1,1-4,4A4,4,0,0,1,36,7ZM6,11a4,4,0,1,1,4,4A4,4,0,0,1,6,11Zm4,30a4,4,0,1,1,4-4A4,4,0,0,1,10,41Z"/>
+        <path d="M38,29.3V25a2,2,0,0,0-4,0v4.3A7.9,7.9,0,0,0,28.3,35H24a2,2,0,0,0,0,4h4.3A8,8,0,1,0,38,29.3ZM36,41a4,4,0,1,1,4-4A4,4,0,0,1,36,41Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

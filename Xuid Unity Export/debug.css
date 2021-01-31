@@ -1,0 +1,5 @@
+[tag-name$='-button'] {
+  match-log: '********* match *********';
+  check-log: true;
+  button: true;
+}

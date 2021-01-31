@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_7" data-name="Layer 7">
+      <g>
+        <circle cx="13" cy="13.3" r="4"/>
+        <path d="M43.9,16H20.1A2.1,2.1,0,0,0,18,18.1v5.3a2.1,2.1,0,0,0,.8,1.7l9,7.1v2.1l-4.9,4.9L6,22.3V6H22.2l6.1,6a1.9,1.9,0,0,0,2.8,0h0a1.9,1.9,0,0,0,0-2.8L23.9,2H4A2,2,0,0,0,2,4V23.9L21.5,43.4a1.9,1.9,0,0,0,2.8,0l3.5-3.5v4A2.2,2.2,0,0,0,29.9,46h.5l4.9-1a2.3,2.3,0,0,0,1.6-2.1V32.1l8.4-7.8a2,2,0,0,0,.7-1.6V18.1A2.1,2.1,0,0,0,43.9,16Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

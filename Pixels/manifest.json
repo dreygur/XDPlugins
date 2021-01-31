@@ -1,0 +1,48 @@
+{
+  "id": "de6be381",
+  "name": "Pixels",
+  "version": "1.0.0",
+  "description": "Get stunning images for your project",
+  "summary": "Bring beautiful and free images into your project",
+  "languages": ["en"],
+  "author": "Kenny Krosky",
+  "helpUrl": "https://twitter.com/ispykenny",
+  "icons": [
+    { 
+      "width": 24, 
+      "height": 24, 
+      "path": "icons/icon@1x.png" 
+    },
+    { 
+      "width": 48,
+      "height": 48,
+      "path": "icons/icon@2x.png" 
+    },
+    { 
+      "width": 96,
+      "height": 96,
+      "path": "icons/icon@3x.png" 
+    },
+    { 
+      "width": 144,
+      "height": 144,
+      "path": "icons/icon@4x.png" 
+    },
+    { 
+      "width": 192,
+      "height": 192,
+      "path": "icons/icon@5x.png"
+     }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Pixel",
+      "panelId": "runPlugin"
+    }
+  ]
+}

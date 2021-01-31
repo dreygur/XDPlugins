@@ -1,0 +1,10 @@
+<svg id="input_-_text_-_with_label" data-name="input - text - with label" xmlns="http://www.w3.org/2000/svg" width="365" height="97" viewBox="0 0 365 97">
+  <g id="Input_-_text" data-name="Input - text" transform="translate(0 39)">
+    <g id="Rectangle_60" data-name="Rectangle 60" fill="#fff" stroke="#ededed" stroke-width="2">
+      <rect width="365" height="58" rx="7" stroke="none"/>
+      <rect x="1" y="1" width="363" height="56" rx="6" fill="none"/>
+    </g>
+    <text id="Example_gmail.com" data-name="Example@gmail.com" transform="translate(23 37)" fill="#acacac" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="-0.015em"><tspan x="0" y="0">Example@gmail.com</tspan></text>
+  </g>
+  <text id="Email_Address" data-name="Email Address" transform="translate(1 21)" fill="#393939" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.015em"><tspan x="0" y="0">Email Address</tspan></text>
+</svg>

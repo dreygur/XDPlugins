@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1707" viewBox="0 0 1920 1707">
+  <defs>
+    <filter id="background" x="1340" y="40" width="548" height="950" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-SWOT_Analysis_Template">
+      <rect width="1920" height="1707"/>
+    </clipPath>
+  </defs>
+  <g id="SWOT_Analysis_Template" data-name="SWOT Analysis Template" clip-path="url(#clip-SWOT_Analysis_Template)">
+    <rect width="1920" height="1707" fill="#f8f8f8"/>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">A strategic planning technique analyzing strengths, weaknesses, opportunities, and threats faced by a product, project or organization.</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">SWOT Analysis</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-109.456" y="0">24 March 2020</tspan></text>
+      <text id="Project_Name" data-name="Project Name" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-101.056" y="0">Project Name</tspan></text>
+    </g>
+    <rect id="Rectangle_147640" data-name="Rectangle 147640" width="900" height="716" transform="translate(60 180)" fill="none" stroke="#101010" stroke-width="4"/>
+    <rect id="Rectangle_147663" data-name="Rectangle 147663" width="900" height="737" transform="translate(60 895)" fill="none" stroke="#101010" stroke-width="4"/>
+    <path id="Path_60859" data-name="Path 60859" d="M0,0H900V716H0Z" transform="translate(960 180)" fill="#fff" stroke="#101010" stroke-width="4"/>
+    <path id="Path_60867" data-name="Path 60867" d="M0,0H900V737H0Z" transform="translate(960 895)" fill="#fff" stroke="#101010" stroke-width="4"/>
+    <g id="Step_Label_Element" data-name="Step Label Element" transform="translate(108 220)">
+      <g id="step">
+        <rect id="background_color_fill_" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#ffd86f"/>
+        <text id="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-7.984" y="0">01</tspan></text>
+      </g>
+      <text id="label-2" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Strengths</tspan></text>
+    </g>
+    <g id="Step_Label_Element-2" data-name="Step Label Element" transform="translate(1000 220)">
+      <g id="step-2" data-name="step">
+        <rect id="background_color_fill_2" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#ffac80"/>
+        <text id="label-3" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-9.192" y="0">02</tspan></text>
+      </g>
+      <text id="label-4" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Weaknesses</tspan></text>
+    </g>
+    <g id="Step_Label_Element-3" data-name="Step Label Element" transform="translate(100 936)">
+      <g id="step-3" data-name="step">
+        <rect id="background_color_fill_3" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#7ee1ff"/>
+        <text id="label-5" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-9.248" y="0">03</tspan></text>
+      </g>
+      <text id="label-6" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Opportunities</tspan></text>
+    </g>
+    <g id="Step_Label_Element-4" data-name="Step Label Element" transform="translate(1000 936)">
+      <g id="step-4" data-name="step">
+        <rect id="background_color_fill_4" data-name="background [color_fill]" width="40" height="40" rx="12" fill="#ff80ac"/>
+        <text id="label-7" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-9.4" y="0">04</tspan></text>
+      </g>
+      <text id="label-8" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Threats</tspan></text>
+    </g>
+    <text id="_What_have_we_or_our_product_excelled_at_in_the_past_What_resources_technology_or_skills_do_we_have_that_others_don_t_" data-name="・What have we or our product excelled at in the past?
+・What resources, technology or skills do we have that others don’t?" transform="translate(100 277)" fill="#909090" font-size="18" font-family="HiraginoSans-W4, Hiragino Sans"><tspan x="0" y="16">・</tspan><tspan y="16" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">What have we or our product excelled at in the past?</tspan><tspan x="0" y="44">・</tspan><tspan y="44" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">What resources, technology or skills do we have that others don’t?</tspan></text>
+    <text id="_What_is_the_future_market_demand_for_the_product_or_service._What_technology_has_opened_new_doors_" data-name="・What is the future market demand for the product or service.
+・What technology has opened new doors?" transform="translate(100 995)" fill="#909090" font-size="18" font-family="HiraginoSans-W4, Hiragino Sans"><tspan x="0" y="16">・</tspan><tspan y="16" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">What is the future market demand for the product or service.</tspan><tspan x="0" y="44">・</tspan><tspan y="44" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">What technology has opened new doors?</tspan></text>
+    <text id="_What_was_the_principle_cause_for_past_failures_What_criticism_have_we_received_from_others_" data-name="・What was the principle cause for past failures?
+・What criticism have we received from others?" transform="translate(1000 277)" fill="#909090" font-size="18" font-family="HiraginoSans-W4, Hiragino Sans"><tspan x="0" y="16">・</tspan><tspan y="16" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">What was the principle cause for past failures?</tspan><tspan x="0" y="44">・</tspan><tspan y="44" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">What criticism have we received from others?</tspan></text>
+    <text id="_What_changes_have_occurred_in_your_industry_that_could_result_in_lost_business_Which_competitors_are_your_biggest_threat_" data-name="・What changes have occurred in your industry that could result in lost business?
+・Which competitors are your biggest threat?" transform="translate(1000 995)" fill="#909090" font-size="18" font-family="HiraginoSans-W4, Hiragino Sans"><tspan x="0" y="16">・</tspan><tspan y="16" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">What changes have occurred in your industry that could result in lost business?</tspan><tspan x="0" y="44">・</tspan><tspan y="44" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Which competitors are your biggest threat?</tspan></text>
+    <line id="Line_28" data-name="Line 28" x2="820" transform="translate(100 363)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <line id="Line_74" data-name="Line 74" x2="820" transform="translate(100 1081)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <line id="Line_31" data-name="Line 31" x2="820" transform="translate(1000 362)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <line id="Line_75" data-name="Line 75" x2="820" transform="translate(1000 1080)" fill="none" stroke="#b0b0b0" stroke-width="4" stroke-dasharray="4 6"/>
+    <g id="Post_It_Element" data-name="Post-It Element" transform="translate(100 400)">
+      <rect id="background_color_fill_5" data-name="background [color_fill]" width="180" height="140" fill="#ffd86f"/>
+      <text id="label-9" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-2" data-name="Post-It Element" transform="translate(100 560)">
+      <rect id="background_color_fill_6" data-name="background [color_fill]" width="180" height="140" fill="#ffd86f"/>
+      <text id="label-10" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-2" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-3" data-name="Post-It Element" transform="translate(300 400)">
+      <rect id="background_color_fill_7" data-name="background [color_fill]" width="180" height="140" fill="#ffd86f"/>
+      <text id="label-11" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-3" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-4" data-name="Post-It Element" transform="translate(100 720)">
+      <rect id="background_color_fill_8" data-name="background [color_fill]" width="180" height="140" fill="#ffd86f"/>
+      <text id="label-12" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-4" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-5" data-name="Post-It Element" transform="translate(500 400)">
+      <rect id="background_color_fill_9" data-name="background [color_fill]" width="180" height="140" fill="#ffd86f"/>
+      <text id="label-13" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-5" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-6" data-name="Post-It Element" transform="translate(700 400)">
+      <rect id="background_color_fill_10" data-name="background [color_fill]" width="180" height="140" fill="#ffd86f"/>
+      <text id="label-14" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-6" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-7" data-name="Post-It Element" transform="translate(100 1120)">
+      <rect id="background_color_fill_11" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-15" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-7" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-8" data-name="Post-It Element" transform="translate(1000 1120)">
+      <rect id="background_color_fill_12" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-16" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-8" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-9" data-name="Post-It Element" transform="translate(300 1120)">
+      <rect id="background_color_fill_13" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-17" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-9" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-10" data-name="Post-It Element" transform="translate(1200 1120)">
+      <rect id="background_color_fill_14" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-18" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-10" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-11" data-name="Post-It Element" transform="translate(500 1120)">
+      <rect id="background_color_fill_15" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-19" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-11" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-12" data-name="Post-It Element" transform="translate(1400 1120)">
+      <rect id="background_color_fill_16" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-20" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-12" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-13" data-name="Post-It Element" transform="translate(700 1120)">
+      <rect id="background_color_fill_17" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-21" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-13" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-14" data-name="Post-It Element" transform="translate(1600 1120)">
+      <rect id="background_color_fill_18" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-22" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-14" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-15" data-name="Post-It Element" transform="translate(100 1280)">
+      <rect id="background_color_fill_19" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-23" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-15" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-16" data-name="Post-It Element" transform="translate(1000 1280)">
+      <rect id="background_color_fill_20" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-24" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-16" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-17" data-name="Post-It Element" transform="translate(100 1440)">
+      <rect id="background_color_fill_21" data-name="background [color_fill]" width="180" height="140" fill="#7ee1ff"/>
+      <text id="label-25" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-17" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-18" data-name="Post-It Element" transform="translate(1000 1440)">
+      <rect id="background_color_fill_22" data-name="background [color_fill]" width="180" height="140" fill="#ff80ac"/>
+      <text id="label-26" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-18" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-19" data-name="Post-It Element" transform="translate(1000 400)">
+      <rect id="background_color_fill_23" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-27" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-19" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-20" data-name="Post-It Element" transform="translate(1200 400)">
+      <rect id="background_color_fill_24" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-28" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-20" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-21" data-name="Post-It Element" transform="translate(1400 400)">
+      <rect id="background_color_fill_25" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-29" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-21" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-22" data-name="Post-It Element" transform="translate(1600 400)">
+      <rect id="background_color_fill_26" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-30" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-22" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post_It_Element-23" data-name="Post-It Element" transform="translate(1000 560)">
+      <rect id="background_color_fill_27" data-name="background [color_fill]" width="180" height="140" fill="#ffac80"/>
+      <text id="label-31" data-area="160 100" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-23" data-name="sticker" width="180" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1340 40)">
+      <g transform="matrix(1, 0, 0, 1, -1340, -40)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="540" height="942" transform="translate(1340 40)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="18">What is this?</tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="42"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="66">A SWOT Analysis is a method to evaluate strengths (S), </tspan><tspan x="0" y="90">weaknesses (W), opportunities (O) and threats (T). A process </tspan><tspan x="0" y="114">first developed at Harvard Business School in the 1950s, it can </tspan><tspan x="0" y="138">also be used by designers, PMs and engineers to evaluate </tspan><tspan x="0" y="162">products, services and strategies. Those four factors evaluate </tspan><tspan x="0" y="186">both internal and external factors related to a specific project, </tspan><tspan x="0" y="210">service or strategy. Also, a great exercise is to run a SWOT </tspan><tspan x="0" y="234">Analysis of your competition.</tspan><tspan x="0" y="258"></tspan></tspan><tspan x="0" y="282">How to use</tspan><tspan x="0" y="306"></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="330" xml:space="preserve">01.  </tspan><tspan y="330" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Determine the objective. Decide on a key product, service </tspan><tspan x="0" y="354" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">or strategy to analyze.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="378"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="402" xml:space="preserve">02.  </tspan><tspan y="402" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">List up strengths. Strengths are internal, positive </tspan><tspan x="0" y="426" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">attributes. These are things that are within your control.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="450"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="474">03.</tspan><tspan y="474" xml:space="preserve" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"> List up weaknesses. These are negative factors that </tspan><tspan x="0" y="498" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">detract from your strengths. These are things that you might </tspan><tspan x="0" y="522" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">need to improve on to be competitive.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="546"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="570">04.</tspan><tspan y="570" xml:space="preserve" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"> List up opportunities. These are external factors in your </tspan><tspan x="0" y="594" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">business environment that are likely to contribute to your </tspan><tspan x="0" y="618" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">success.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="642"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="666">05.</tspan><tspan y="666" xml:space="preserve" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">  List up opportunities threats. These are external factors </tspan><tspan x="0" y="690" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">that you have no control over. You may want to consider </tspan><tspan x="0" y="714" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">putting in place contingency plans for dealing them if they </tspan><tspan x="0" y="738" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">occur.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="762"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="786">06. </tspan><tspan y="786" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">With your SWOT analysis complete, you’re ready to convert </tspan><tspan x="0" y="810" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">it into a real design strategy.</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>notebook</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M40,3H9A2,2,0,0,0,7,5v5H6a2,2,0,0,0,0,4H7v4H6a2,2,0,0,0,0,4H7v4H6a2,2,0,0,0,0,4H7v4H6a2,2,0,0,0,0,4H7v5a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V5A2,2,0,0,0,40,3ZM38,41H11V38h1a2,2,0,0,0,0-4H11V30h1a2,2,0,0,0,0-4H11V22h1a2,2,0,0,0,0-4H11V14h1a2,2,0,0,0,0-4H11V7H38Z"/>
+        <path d="M17.5,22h14A1.5,1.5,0,0,0,33,20.5v-9A1.5,1.5,0,0,0,31.5,10h-14A1.5,1.5,0,0,0,16,11.5v9A1.5,1.5,0,0,0,17.5,22ZM20,14h9v4H20Z"/>
+        <path d="M17.5,27h14a1.5,1.5,0,0,0,0-3h-14a1.5,1.5,0,0,0,0,3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

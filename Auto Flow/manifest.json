@@ -1,0 +1,67 @@
+{
+  "id": "11e6af0a",
+  "author": "UX Plugins",
+  "name": "Auto Flow",
+  "version": "3.1.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "26.0"
+  },
+  "description": "Auto Flow makes it easy to draw stunning flows for creating WireFrames, UserFlows, FlowCharts and Design guides.\r\nWith AutoFlow get closer to your users In the Easiest way. \r\n\r\nHow To Create User Flows?\r\nYou can search among elements including Flows, Blocks, Labels, Tooltips, Boxes and etc, simply Drag any element and drop! It is that Easy!  \r\n\r\nHow To Create FlowCharts?\r\n1. Auto Generate Mode:\r\n - Select the first element\r\n - Deselect the first element by clicking on the second element\r\n - It is Done!\r\n2. Custom Mode:\r\n - Make sure auto generate mode is off, then select two elements(multi select)\r\n - Click on Apply Button\r\n - Done! \r\n\r\n Features: \r\n- Generate Flows automatically\r\n- Smart and accurate flows\r\n - works on any shape, artboard, ... \r\n - Multiple Flows per element \r\n - Select and Generate approach \r\n - Fast and Easy!",
+  "summary": "User Flows right inside Adobe XD",
+  "website": "https://uxplugins.com/",
+  "languages": [
+    "en"
+  ],
+  "keywords": [
+    "flow",
+    "userflow",
+    "wireframe",
+    "guide",
+    "flowchart",
+    "arrow",
+    "autoflow",
+    "wireflow",
+    "chart"
+  ],
+  "helpUrl": "uxplugins@gmail.com",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon0x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon1x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon2x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon3x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon4x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Auto Flow",
+      "panelId": "hello",
+      "shortcut": {
+        "mac": "Ctrl+F",
+        "win": "Ctrl+Alt+F"
+      }
+    }
+  ],
+  "releaseNotes": "We just added UserFlow Tab. Start create User flows right inside Adobe XD Today!"
+}

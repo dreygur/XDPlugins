@@ -1,0 +1,59 @@
+{
+  "id": "28d56582",
+  "name": "UWP icons export",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "description": "Create assets / icons for UWP in the formats 100, 125, 150, 200, and 400.",
+  "summary": "Create assets / icons for UWP.",
+  "languages": [
+    "en"
+  ],
+  "keywords": [
+    "icon",
+    "icons",
+    "uwp",
+    "assets",
+    "export",
+    "asset",
+    "app",
+    "windows"
+  ],
+  "author": "Misja van Sitteren",
+  "helpUrl": "http://misjavansitteren.nl/",
+  "icons": [
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon@2x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon@3x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon@4x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "UWP icons export",
+      "commandId": "uwpIconsExport",
+      "shortcut": {
+        "mac": "Cmd+Shift+E",
+        "win": "Ctrl+Shift+E"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Image",
+  "name_ja": "画像",
+  "allowedProps": ["STATE", "SIZE"],
+  "assetsPlaceholder": "Placement Area",
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [{ "value": "DEFAULT" }, { "value": "ACTIVE" }],
+      "compLabel": "STATE"
+    },
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "Default" }, { "value": "Thumbnail" }],
+      "compLabel": "SIZE",
+      "defaultValue": "Default"
+    },
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": null, "label": "Placeholder" },
+        { "value": "small", "label": "Small" },
+        { "value": "hero", "label": "Hero" },
+        { "value": "panel", "label": "Panel" }
+      ],
+      "compLabel": "ASSET",
+      "label": "ASSET TYPE",
+      "defaultValue": null
+    }
+  ]
+}

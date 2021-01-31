@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-icon-tab-wave">
+      <rect width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="icon-tab-wave" clip-path="url(#clip-icon-tab-wave)">
+    <g id="circles" transform="translate(6 11.046)">
+      <g id="_1" data-name="1" transform="translate(-2.5 -3.618)" opacity="0.608">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#333"/>
+      </g>
+      <g id="_2" data-name="2" transform="translate(-1.5 -0.887)" opacity="0.608">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_3" data-name="3" transform="translate(-0.5 1.088)" opacity="0.608">
+        <circle id="Ellipse_1-3" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_4" data-name="4" transform="translate(0.5 1.385)" opacity="0.608">
+        <circle id="Ellipse_1-4" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_5" data-name="5" transform="translate(1.5 -0.136)" opacity="0.608">
+        <circle id="Ellipse_1-5" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_6" data-name="6" transform="translate(2.5 -2.763)" opacity="0.608">
+        <circle id="Ellipse_1-6" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_7" data-name="7" transform="translate(3.5 -5.267)" opacity="0.608">
+        <circle id="Ellipse_1-7" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_7-2" data-name="7" transform="translate(4.5 -6.476)" opacity="0.608">
+        <circle id="Ellipse_1-8" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_7-3" data-name="7" transform="translate(5.5 -5.825)" opacity="0.608">
+        <circle id="Ellipse_1-9" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_7-4" data-name="7" transform="translate(6.5 -3.618)" opacity="0.608">
+        <circle id="Ellipse_1-10" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_1-2" data-name="1" transform="translate(7.5 -0.887)" opacity="0.608">
+        <circle id="Ellipse_1-11" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_2-2" data-name="2" transform="translate(8.5 1.088)" opacity="0.608">
+        <circle id="Ellipse_1-12" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_3-2" data-name="3" transform="translate(9.5 1.385)" opacity="0.608">
+        <circle id="Ellipse_1-13" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_4-2" data-name="4" transform="translate(10.5 -0.136)" opacity="0.608">
+        <circle id="Ellipse_1-14" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_5-2" data-name="5" transform="translate(11.5 -2.763)" opacity="0.608">
+        <circle id="Ellipse_1-15" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_6-2" data-name="6" transform="translate(12.5 -5.267)" opacity="0.608">
+        <circle id="Ellipse_1-16" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+      <g id="_7-5" data-name="7" transform="translate(13.5 -6.476)" opacity="0.608">
+        <circle id="Ellipse_1-17" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(0 0)" fill="#666"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "id": "f681a81a",
+  "name": "Maze.design",
+  "version": "1.0.3",
+  "description": "Export your prototype to Maze.design.",
+  "summary": "Export your prototype to Maze.design.",
+  "languages": ["en"],
+  "author": "Maze.design",
+  "helpUrl": "https://help.maze.design/hc/en-us",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/maze-logo.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/maze-logo@2x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Maze.design",
+      "panelId": "exportProtoType"
+    }
+  ]
+}

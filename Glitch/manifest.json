@@ -1,0 +1,60 @@
+{
+  "name" : "Glitch",
+  "id": "0437b6c4",
+  "version": "0.4.0",
+  "description": "Generate glitch effects in your design by easy pressing a button.",
+  "summary": "Glitch effect with 1 click",
+  "keywords": [
+    "glitch",
+    "glitching",
+    "error",
+    "dimensional",
+    "generator",
+    "flaw",
+    "defect",
+    "crack",
+    "shapes",
+    "text"
+  ],
+  "languages": ["en"],
+  "author": "Yummygum",
+  "helpUrl": "info@yummygum.com",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon-24x24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon-48x48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon-96x96.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon-144x144.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon-192x192.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Glitch",
+      "panelId": "glitchPanel"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<svg id="Component_4_15" data-name="Component 4 – 15" xmlns="http://www.w3.org/2000/svg" width="244" height="68" viewBox="0 0 244 68">
+  <g id="left">
+    <g id="Rectangle_18" data-name="Rectangle 18" fill="#fff" stroke="#e1e1e1" stroke-width="1">
+      <rect width="118" height="68" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="117" height="67" rx="2.5" fill="none"/>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(25.35 15.21)">
+      <g id="Rectangle_20" data-name="Rectangle 20" transform="translate(-0.35 -0.21)" fill="none" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="32" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="31.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(35.65 -0.21)" fill="#e1f1fa" stroke="#3496ef" stroke-width="0.5">
+        <rect width="32" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="31.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(35.65 19.79)" fill="none" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="32" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="31.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_23" data-name="Rectangle 23" transform="translate(-0.35 19.79)" fill="none" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="32" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="31.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="connectors" transform="translate(87.882 18.59)">
+    <g id="Group_81" data-name="Group 81">
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(0.118 0.41)" fill="#3496ef"/>
+      <path id="np_plus_1735320_000000" d="M4.965,3.784V1.6a.591.591,0,0,0-1.181,0V3.784H1.6a.591.591,0,1,0,0,1.181H3.784V7.149a.591.591,0,1,0,1.181,0V4.965H7.149a.591.591,0,1,0,0-1.181Z" transform="translate(0.681 0.681)" fill="#fff"/>
+    </g>
+    <g id="Group_82" data-name="Group 82" transform="translate(28.731 10.14)">
+      <path id="Rectangle_47" data-name="Rectangle 47" d="M6.126,0H9.8a0,0,0,0,1,0,0V12.253a0,0,0,0,1,0,0H6.126A6.126,6.126,0,0,1,0,6.126v0A6.126,6.126,0,0,1,6.126,0Z" fill="#3496ef"/>
+      <path id="np_dropdown_1420263_000000" d="M4.958,0,2.479,2.478,0,0" transform="translate(4.225 7.493) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+    <path id="Path_33" data-name="Path 33" d="M57.558,14.025s2.361-1.252,9.338,5.3S77.8,24.44,77.8,24.44" transform="translate(-48.165 -8.979)" fill="none" stroke="#3496ef" stroke-width="1"/>
+  </g>
+  <g id="right" transform="translate(125.062)">
+    <g id="Rectangle_18-2" data-name="Rectangle 18" transform="translate(-0.062)" fill="#fff" stroke="#e1e1e1" stroke-width="1">
+      <rect width="118" height="68" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="117" height="67" rx="2.5" fill="none"/>
+    </g>
+    <g id="Group_25-2" data-name="Group 25" transform="translate(25.35 15.21)">
+      <g id="Rectangle_20-2" data-name="Rectangle 20" transform="translate(-0.413 -0.21)" fill="none" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="33" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="32.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_21-2" data-name="Rectangle 21" transform="translate(35.587 -0.21)" fill="#e1e1e1" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="32" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="31.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_22-2" data-name="Rectangle 22" transform="translate(35.587 19.79)" fill="none" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="32" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="31.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_23-2" data-name="Rectangle 23" transform="translate(-0.413 19.79)" fill="none" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="33" height="17" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="32.5" height="16.5" rx="2.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

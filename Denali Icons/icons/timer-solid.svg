@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>timer-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,19a3.7,3.7,0,0,0-1.8.4l-6.8-6.8a2,2,0,0,0-2.8,2.8l6.8,6.8A3.7,3.7,0,0,0,19,24a5,5,0,1,0,5-5Z"/>
+      <path d="M24,46A22.1,22.1,0,0,1,2,24a2,2,0,0,1,4,0A18,18,0,1,0,26,6.1V10a2,2,0,0,1-4,0V2h2a22,22,0,0,1,0,44Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109.475" height="104.225" viewBox="0 0 109.475 104.225">
+  <g id="Flowchart_Connector_-_Turn_-_Element" data-name="Flowchart Connector - Turn - Element" transform="translate(0 1.75)">
+    <path id="line_color_border_" data-name="line [color_border]" d="M389,100H489V200" transform="translate(-389 -100)" fill="none" stroke="#101010" stroke-width="3.5"/>
+    <g id="arrow_head" data-name="arrow head" transform="translate(99.929 85.858) rotate(45)">
+      <line id="line_color_border_2" data-name="line [color_border]" x2="10" transform="translate(0 10)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+      <line id="line_color_border_3" data-name="line [color_border]" y1="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+  </g>
+</svg>

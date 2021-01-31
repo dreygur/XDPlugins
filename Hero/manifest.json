@@ -1,0 +1,30 @@
+{
+  "id": "725d8849",
+  "name": "Hero",
+  "summary": "Animate, Script, Export (Web)",
+  "description": "Bring your content and prototypes to life. Animated. Interactive. Production-Ready. Hero enables you to create living prototypes with dynamic data and custom scripts or you can go all the way and create production-ready, engaging and animated rich content for the web - right in XD.\nHighlights:\n* Animation Timeline\n* Effect System\n* Web Export (production-ready)\n* Scripting\n* Non-Linear Story Telling\n\nForever free version 1.\nCheck out our showroom at xdhero.com/showroom to see and feel what is possible.",
+  "keywords": [
+    "animation", "animate", "timeline", "script", "video", "export", "code", "web", "html", "css", "data", "input"
+  ],
+  "releaseNotes": "Forever free version",
+  "website": "https://xdhero.com",
+  "author": "XD Hero",
+  "helpUrl": "https://xdhero.com/learn",
+  "version": "0.9.9",
+  "languages": ["en"],
+  "icons": [
+    { "width": 24, "height": 24, "path": "assets/icon_24.png" },
+    { "width": 48, "height": 48, "path": "assets/icon_48.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "30.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Hero",
+      "panelId": "default"
+    }
+  ]
+}

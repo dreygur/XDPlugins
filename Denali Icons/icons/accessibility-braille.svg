@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>accessibility-braille</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M33,14a6,6,0,1,0-6-6A6,6,0,0,0,33,14Zm0-9a2.9,2.9,0,0,1,3,3,3,3,0,0,1-6,0A2.9,2.9,0,0,1,33,5Z"/>
+        <path d="M33,18a6,6,0,1,0,6,6A6,6,0,0,0,33,18Zm0,9a3,3,0,1,1,3-3A2.9,2.9,0,0,1,33,27Z"/>
+        <path d="M33,34a6,6,0,1,0,6,6A6,6,0,0,0,33,34Zm0,9a3,3,0,1,1,3-3A2.9,2.9,0,0,1,33,43Z"/>
+        <circle cx="15" cy="8" r="6"/>
+        <circle cx="15" cy="24" r="6"/>
+        <path d="M15,34a6,6,0,1,0,6,6A6,6,0,0,0,15,34Zm0,9a3,3,0,1,1,3-3A2.9,2.9,0,0,1,15,43Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

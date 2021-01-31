@@ -1,0 +1,61 @@
+<main class="main-1 material-panel-main mx-300">
+
+    <div class="selection-area">
+
+        <div class="flex space-between">
+            <div id="mcp-item-selector" class="item-selector">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 0,0 L 12,0 6,12 z" fill="#707070" />
+                </svg>
+                
+            </div>
+            <p id="mcp-collection-title" class="p-6 line-text f-22"> Material Colors</p>
+        </div>
+
+
+        <div class="library-select-box">
+            No Library Found
+        </div>
+
+        <div id="material-panel-colors" class="div-9">
+        </div>
+    </div>
+
+
+    <div class="preview-area">
+
+
+        <div id="material-background-handler" class="handler-box selected ">
+            <div>
+                <p class="title">
+                    <span class="label-text">fill: </span>
+                    <span id="material-background-name" class="color-name-title">green 100</span>
+                </p>
+            </div>
+            <div class="flex div-box-input ">
+                <div id="material-background-box" class="color-box ">
+                    <div class="black-item"> </div>
+                    <div class="white-item"> </div>
+                </div>
+                <input id="material-background-color-text" class="input-1">
+                <p id="material-background-color-setter" class="p-action">Change</p>
+            </div>
+        </div>
+        <div id="material-foreground-handler" class="handler-box">
+            <div>
+                <p class="title">
+                    <span class="label-text">Border: </span>
+                    <span id="material-foreground-name">Green 100</span>
+                </p>
+            </div>
+            <div class="flex div-box-input">
+                <div id="material-foreground-box" class="color-box">
+                    <div class="black-item"> </div>
+                    <div class="white-item"> </div>
+                </div>
+                <input id="material-foreground-color-text" class="input-2">
+                <p id="material-foreground-color-setter" class="p-action">Change</p>
+            </div>
+        </div>
+    </div>
+</main>

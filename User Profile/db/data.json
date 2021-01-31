@@ -1,0 +1,101 @@
+{
+  "message": "Fetched photos successfully.",
+  "data": [
+    {
+      "id": "JSUKPN2-2k4",
+      "userName": "Tomáš Gal",
+      "userLink": "https://unsplash.com/@oldmanesteban?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1547411503-e43f5f718cd5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/0y7_9bRUoz0",
+      "download_location": "https://api.unsplash.com/photos/0y7_9bRUoz0/download"
+    },
+    {
+      "id": "w3LLaCrZbKk",
+      "userName": "Taylor",
+      "userLink": "https://unsplash.com/@xoutcastx?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/8Vt2haq8NSQ",
+      "download_location": "https://api.unsplash.com/photos/8Vt2haq8NSQ/download"
+    },
+    {
+      "id": "sklg_dJCQfI",
+      "userName": "Scorpio Creative",
+      "userLink": "https://unsplash.com/@scorpiocreative?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1541003891139-6ae5c918c4b2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/XO-7luYyLHA",
+      "download_location": "https://api.unsplash.com/photos/XO-7luYyLHA/download"
+    },
+    {
+      "id": "FL9M4lvfXN4",
+      "userName": "Etty Fidele",
+      "userLink": "https://unsplash.com/@fideletty?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1563132337-f159f484226c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/AzVexpHvuKY",
+      "download_location": "https://api.unsplash.com/photos/AzVexpHvuKY/download"
+    },
+    {
+      "id": "SjiBw4JoYV0",
+      "userName": "Garin Chadwick",
+      "userLink": "https://unsplash.com/@garinchadwick?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/flagged/photo-1556151994-b611e5ab3675?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/1SKjtoZqwBo",
+      "download_location": "https://api.unsplash.com/photos/1SKjtoZqwBo/download"
+    },
+    {
+      "id": "oyo06Q5B6pA",
+      "userName": "Dion Almuena",
+      "userLink": "https://unsplash.com/@dionalmuena_?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1552586301-fa5565be0abf?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/UPNVQ9GqGv8",
+      "download_location": "https://api.unsplash.com/photos/UPNVQ9GqGv8/download"
+    },
+    {
+      "id": "LBouqlMY-pQ",
+      "userName": "Rodolfo Sanches Carvalho",
+      "userLink": "https://unsplash.com/@rsanchescarvalho?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1508978644997-53cc5bfb8a03?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/CsNacHXW6RU",
+      "download_location": "https://api.unsplash.com/photos/CsNacHXW6RU/download"
+    },
+    {
+      "id": "UjzQ1CESy6k",
+      "userName": "Sirio",
+      "userLink": "https://unsplash.com/@sirioberati?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1559697242-07e90b48b9fe?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/D9_0p0Nb8WU",
+      "download_location": "https://api.unsplash.com/photos/D9_0p0Nb8WU/download"
+    },
+    {
+      "id": "WKl8UYjoSi4",
+      "userName": "Matheus Ferrero",
+      "userLink": "https://unsplash.com/@matheusferrero?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1531681919706-90c96de21bed?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/umX9cqwPi_I",
+      "download_location": "https://api.unsplash.com/photos/umX9cqwPi_I/download"
+    },
+    {
+      "id": "UjzQ1CESy6k",
+      "userName": "Sirio",
+      "userLink": "https://unsplash.com/@sirioberati?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1559696381-6d777c0c29d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/-Ztp6mQWNMg",
+      "download_location": "https://api.unsplash.com/photos/-Ztp6mQWNMg/download"
+    },
+    {
+      "id": "T4DODJswRyo",
+      "userName": "Marius Ciocirlan",
+      "userLink": "https://unsplash.com/@madebymarius?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/vMV6r4VRhJ8",
+      "download_location": "https://api.unsplash.com/photos/vMV6r4VRhJ8/download"
+    },
+    {
+      "id": "83BadwuAncw",
+      "userName": "Rafaella Mendes Diniz",
+      "userLink": "https://unsplash.com/@rafaelladiniz?utm_source=user_profile_plugin&utm_medium=referral",
+      "url": "https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjQ1NjcxfQ",
+      "link": "https://unsplash.com/photos/AoL-mVxprmk",
+      "download_location": "https://api.unsplash.com/photos/AoL-mVxprmk/download"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>device-tablet-graph</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M24,36a2,2,0,0,0-2,2h0a2,2,0,0,0,4,0h0A2,2,0,0,0,24,36Z"/>
+        <path d="M40,2H8A2,2,0,0,0,6,4V44a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V4A2,2,0,0,0,40,2ZM38,42H10V27.8l5-5,4.1,4.1L28,17.1v4.8A2.1,2.1,0,0,0,29.7,24,2,2,0,0,0,32,22V12a2,2,0,0,0-2-2H20a2,2,0,0,0-2,2.3A2.1,2.1,0,0,0,20.1,14h5.2l-6.4,7L15,17.2l-5,5V6H38Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

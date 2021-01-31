@@ -1,0 +1,64 @@
+.icon-list {
+    flex: 1;
+    display: flex;
+    color: var(--textGrey);
+    max-height: 100vh;
+    overflow-y: scroll;
+    background-color: var(--backgroundGrey);
+    border-right: 2px solid var(--lightGrey);
+}
+
+
+.icon-list__display__container {
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 0px 10px;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+
+
+
+.icon-list__icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-list__icons__icon {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+}
+
+
+.icon-list__icons__icon img {
+    margin: 0.5vmax;
+    padding: 2px;
+}
+
+.Icons__LazyLoader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 4em auto;
+}
+
+.IconSubcategory {
+    padding-bottom: 5px;
+    margin-left: 5px;
+    font-size: 12px
+}
+
+
+.IconSubcategory_SubCategory {
+    text-transform: capitalize;
+    color: var(--textGrey);
+}

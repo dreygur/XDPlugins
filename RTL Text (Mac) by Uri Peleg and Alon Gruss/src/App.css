@@ -1,0 +1,129 @@
+panel form {
+  width: 100%;
+}
+
+panel form textarea {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  direction: rtl;
+  text-align: start;
+}
+
+panel form .button-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+panel form .button-container .number-input {
+  position: relative;
+  width: 68px;
+  height: 32px;
+  margin: 2px;
+  padding: 0px;
+  z-index: 2;
+  text-align: end;
+  background-color: white;
+}
+
+panel form .button-container .button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin: 2px;
+  z-index: 2;
+  border: 1px solid #888888;
+  border-radius: 4px;
+  text-align: center;
+  background-color: white;
+}
+
+panel form .button-container .button-block:before {
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+panel form .button-container .selected {
+  border: 3px solid #ff66ff;
+}
+
+panel form .color-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+panel form .color-container .color-block {
+  width: 32px;
+  height: 32px;
+  margin: 2px;
+  border: 1px solid #888888;
+  border-radius: 4px;
+}
+
+panel form .color-container .selected {
+  border: 3px solid #ff66ff;
+}
+
+panel form h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+panel form h4 .icon {
+  font-size: 16px;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+panel form p {
+  padding: 0;
+  padding-right: 8px;
+  padding-top: 8px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+panel form p .bold {
+  font-weight: bold;
+}
+
+panel form p .italic {
+  font-style: italic;
+}
+
+panel form p .underline {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=App.css.map */

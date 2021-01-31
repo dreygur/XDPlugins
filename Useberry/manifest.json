@@ -1,0 +1,50 @@
+{
+  "summary" : "User testing feedback.",
+  "languages" : [ "en" ],
+  "website": "https://www.useberry.com",
+  "keywords": [
+    "user testing",
+    "analytics",
+    "user experience",
+    "feedback",
+    "testing",
+    "research",
+    "data analytics"
+  ],
+  "author" : "Useberry Inc.",
+  "name" : "Useberry",
+  "id": "15bdcf64",
+  "description" : "Useberry plugin allows Adobe XD users to get rich user feedback right from prototype and optimize their digital products. Now imagine this user testing process natively integrated into one of the most popular design platforms: Adobe XD. Without your workflow being interrupted, you can now create a test and share it with testers, or even your teammates, managers, or collaborators.\nFor test results such as Heatmaps, the plugin generates Heatmaps that graphically represent right on the design, so that you can promptly get feedback and swiftly optimize the product by adjusting colors, typography, and other elements based on the project’s style guides.\nFor test results such as User Flows, the plugin creates a graphical representation of the testers’ journey while they're interacting with the prototype, Additionally, the plugin optionally enables all Heatmaps collected on each screen right on the User Flow.\nVisit https://www.useberry.com/ to learn more.",
+  "releaseNotes": "Compatible with the new useberry version.",
+  "helpUrl" : "https://www.useberry.com",
+  "version": "3.0.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Upload new prototype",
+      "panelId": "uploadController"
+    },
+    {
+      "type": "panel",
+      "label": "Sync prototype / View results",
+      "panelId": "syncController"
+    }
+    
+  ]
+}

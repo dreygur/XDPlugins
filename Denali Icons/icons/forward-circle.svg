@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>forward-circle</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,2A22,22,0,1,0,46,24,21.9,21.9,0,0,0,24,2Zm0,40A18,18,0,1,1,42,24,18.1,18.1,0,0,1,24,42Z"/>
+      <path d="M14,19.1v9.8a1.1,1.1,0,0,0,1.7.9L23.5,25a1.2,1.2,0,0,0,0-2l-7.8-4.8A1.1,1.1,0,0,0,14,19.1Z"/>
+      <path d="M26,19.1v9.8a1.1,1.1,0,0,0,1.7.9L35.5,25a1.2,1.2,0,0,0,0-2l-7.8-4.8A1.1,1.1,0,0,0,26,19.1Z"/>
+    </g>
+  </g>
+</svg>

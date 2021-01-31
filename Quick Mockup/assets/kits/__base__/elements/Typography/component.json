@@ -1,0 +1,40 @@
+{
+  "name": "Typography",
+  "name_ja": "タイポグラフィ",
+  "order": "001",
+  "allowedProps": ["STYLE", "TAG", "PLATFORM"],
+  "UI": [
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "STYLE1" }, { "value": "STYLE2" }, { "value": "STYLE3" }],
+      "compLabel": "STYLE",
+      "defaultValue": "STYLE1"
+    },
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": "P", "label": "Paragraph" },
+        { "value": "A", "label": "Link" },
+        { "value": "H1" },
+        { "value": "H2" },
+        { "value": "H3" },
+        { "value": "H4" },
+        { "value": "H5" },
+        { "value": "H6" },
+        { "value": "UI_XXS", "label": "UI - XXS" },
+        { "value": "UI_XS", "label": "UI - XS" },
+        { "value": "UI_S", "label": "UI - S" },
+        { "value": "UI_M", "label": "UI - M" },
+        { "value": "UI_L", "label": "UI - L" }
+      ],
+      "compLabel": "TAG",
+      "defaultValue": "UI_M"
+    },
+    {
+      "uiType": "platform",
+      "optionList": [{ "value": "Mobile" }, { "value": "Desktop" }],
+      "compLabel": "PLATFORM",
+      "defaultValue": "Desktop"
+    }
+  ]
+}

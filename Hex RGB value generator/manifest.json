@@ -1,0 +1,22 @@
+{
+  "id": "07afaf57",
+  "name": "Hex RGB value generator",
+  "version": "0.0.1",
+  "icons": [
+      { "width": 24, "height": 24, "path": "images/index2.png" },
+      { "width": 48, "height": 48, "path": "images/index.png" }
+  ],
+  "host": {
+      "app": "XD",
+      "minVersion": "21.0"
+  },
+
+  "uiEntryPoints": [
+      {
+          "type": "menu",
+          "label": "Show color details",
+          "commandId": "colordetails",
+          "shortcut": {"mac": "Cmd+Alt+L", "win": "Ctrl+Alt+L"}
+      }
+  ]
+}

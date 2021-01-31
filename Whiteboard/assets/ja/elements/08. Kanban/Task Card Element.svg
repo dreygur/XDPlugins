@@ -1,0 +1,13 @@
+<svg id="Task_Card_Element" data-name="Task Card Element" xmlns="http://www.w3.org/2000/svg" width="366" height="106" viewBox="0 0 366 106">
+  <rect id="shadow" width="360" height="100" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+  <g id="Card" transform="translate(-780 -2340)">
+    <g id="background">
+      <g id="background-2" data-name="background" transform="translate(780 2340)" fill="#fff" stroke="#d8d8d8" stroke-width="1">
+        <rect width="360" height="100" stroke="none"/>
+        <rect x="0.5" y="0.5" width="359" height="99" fill="none"/>
+      </g>
+      <rect id="tag_color_fill_" data-name="tag [color_fill]" width="20" height="100" transform="translate(780 2340)" fill="#ffd86f"/>
+    </g>
+    <text id="label" transform="translate(820 2360)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="16">タスク...</tspan></text>
+  </g>
+</svg>

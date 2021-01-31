@@ -1,0 +1,25 @@
+{
+  "id": "0b16264b",
+  "name": "TryMyUI Usability Testing",
+  "version": "1.0.0",
+  "description": "Usability Testing",
+  "summary": "Usability Testing XD plugin by TryMyUI",
+  "languages": ["en"],
+  "author": "TryMyUI",
+  "helpUrl": "https://www.trymyui.com",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "icons": [
+      { "width": 24, "height": 24, "path": "trymyui-app@1x.png" },
+      { "width": 48, "height": 48, "path": "trymyui-app@2x.png" }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Customize Banner",
+            "commandId": "myPluginCommand"
+        }
+    ]
+}

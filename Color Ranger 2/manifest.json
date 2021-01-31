@@ -1,0 +1,43 @@
+{
+	"id"             : "85d9f1b3",
+	"name"           : "Color Ranger 2",
+	"version"        : "2.0.12",
+	"author"         : "QooQee.com",
+	"website"        : "https://qooqee.com",
+	"helpUrl"        : "https://support.qooqee.com",
+	"description"    : "All-new design! Version 2 allows you to apply adjustments live at any stage of your design. Now you can adjust brightness, contrast, hue and alpha channel on shapes, strokes, and texts.\n\n\nNew features:\n\n𝟭. 𝗙𝗶𝗹𝘁𝗲𝗿𝘀: Filtering colors for better targeting.\n𝟮. 𝗚𝗿𝗼𝘂𝗽𝘀 & 𝗥𝗲𝗽𝗲𝗮𝘁 𝗴𝗿𝗶𝗱𝘀: Advanced targetting the elements within groups and nested groups.\n𝟯. 𝗟𝗶𝘃𝗲 𝘂𝗽𝗱𝗮𝘁𝗲𝘀: The new panel design allows you to apply changes live as you make the adjustments.",
+	"summary"        : "Advanced color adjustment tool.",
+	"main"           : "main.js",
+	"host": {
+        "app"           : "XD",
+        "minVersion"    : "23.0"
+	},
+    "uiEntryPoints": [
+        {
+            "type"    : "panel",
+            "label"   : "Color Ranger",
+            "panelId" : "ColorRangerRun2"
+        }
+	],
+	"languages": [
+        "en"
+	],
+	"keywords": [
+        "utility",
+        "productivity",
+		"automation",
+		"color",
+		"brightness",
+		"artboard",
+		"qooqee",
+		"design",
+		"filter"
+    ],
+    "icons": [
+        { "width": 24, "height": 24, "path": "src/media/icon/24.png" },
+        { "width": 48, "height": 48, "path": "src/media/icon/48.png" },
+        { "width": 96, "height": 96, "path": "src/media/icon/96.png" },
+        { "width": 144, "height": 144, "path": "src/media/icon/144.png" },
+        { "width": 192, "height": 192, "path": "src/media/icon/192.png" }
+	]
+}

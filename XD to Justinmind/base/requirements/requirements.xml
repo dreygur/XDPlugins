@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requirements>
+  <fieldsDef>
+    <field name="Author" visible="true" custom="false" />
+    <field name="Name" visible="true" custom="false" />
+    <field name="Type" visible="true" custom="false" />
+    <field name="Source" visible="true" custom="false" />
+    <field name="Comments" visible="true" custom="false" />
+    <field name="Description" visible="true" custom="false" />
+    <field name="Justification" visible="true" custom="false" />
+    <field name="Fit criteria" visible="true" custom="false" />
+    <field name="Test" visible="true" custom="false" />
+  </fieldsDef>
+  <listRequirements />
+</Requirements>
+

@@ -1,0 +1,14 @@
+{
+  "name": "Line",
+  "name_ja": "ライン",
+  "hidden": true,
+  "allowedProps": ["STYLE"],
+  "UI": [
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "STYLE1" }, { "value": "STYLE2" }, { "value": "STYLE3" }],
+      "compLabel": "STYLE",
+      "defaultValue": "STYLE1"
+    }
+  ]
+}

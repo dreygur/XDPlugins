@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>audio-description-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M13,21v2h5V21Zm0,0v2h5V21Zm0,0v2h5V21Zm20,0H30v6h3a2,2,0,0,0,2-2V23A2,2,0,0,0,33,21Zm0,0H30v6h3a2,2,0,0,0,2-2V23A2,2,0,0,0,33,21ZM13,21v2h5V21ZM44,9H4a2,2,0,0,0-2,2V37a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V11A2,2,0,0,0,44,9ZM22,31H18V27H13v4H9V21a4,4,0,0,1,4-4h5a4,4,0,0,1,4,4Zm17-6a6,6,0,0,1-6,6H26V17h7a6,6,0,0,1,6,6Zm-6-4H30v6h3a2,2,0,0,0,2-2V23A2,2,0,0,0,33,21ZM13,23h5V21H13Zm0-2v2h5V21Zm20,0H30v6h3a2,2,0,0,0,2-2V23A2,2,0,0,0,33,21Zm0,0H30v6h3a2,2,0,0,0,2-2V23A2,2,0,0,0,33,21ZM13,21v2h5V21Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "name": "Card",
+  "name_ja": "カード",
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [{ "value": "Default" }, { "value": "Flat" }],
+      "defaultValue": "DEFAULT",
+      "compLabel": "DISPLAY_ELEMENTS"
+    }
+  ]
+}

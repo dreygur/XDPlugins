@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>nodes-group-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M31,14.7,23.1,9.4a2.1,2.1,0,0,0-2.8.5,2.1,2.1,0,0,0,.6,2.8L27,16.8v8.7l7,4.7v5.7a2,2,0,1,0,4,0V28.1l-7-4.7Z"/>
+        <path d="M38,19.3V10.6L30.1,5.3a2.1,2.1,0,0,0-2.8.6,2.1,2.1,0,0,0,.6,2.8l6.1,4v8.8l7,4.6v4.7a2,2,0,1,0,4,0V24Z"/>
+        <polygon points="23 18 17 14 11 18 11 25 17 29 23 25 23 18"/>
+        <polygon points="19 32 19 39 25 43 31 39 31 32 25 28 19 32"/>
+        <polygon points="3 32 3 39 9 43 15 39 15 32 9 28 3 32"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+{
+    "id": "67947cc8",
+    "name": "Simple but Handy Export",
+    "version": "1.0.1",
+    "description": "First thought for game engines.\nThis plugin allows for export folder structure by using slashes in name of items.\nYou can also export by batch with a restricted scope.",
+    "summary": "Convenient export options",
+    "languages": ["en"],
+    "author": "MadStark",
+    "helpUrl": "https://twitter.com/MadreDeDios77",
+    "releaseNotes": "Allows to select PDF, SVG, JPG or PNG as export format.\nNow shows an error popup if there's no candidate for export.",
+    "keywords": [
+        "Unity",
+        "Unreal Engine",
+        "UE4",
+        "game engine",
+        "game",
+        "slash",
+        "slashes",
+        "hierarchy",
+        "folder"
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "17.0"
+    },
+    "icons": [
+        {
+            "path" : "images/icon_24.png",
+            "width" : 24,
+            "height" : 24
+        },
+        {
+            "path" : "images/icon_48.png",
+            "width" : 48,
+            "height" : 48
+        },
+        {
+            "path" : "images/icon_96.png",
+            "width" : 96,
+            "height" : 96
+        },
+        {
+            "path" : "images/icon_144.png",
+            "width" : 144,
+            "height" : 144
+        },
+        {
+            "path" : "images/icon_192.png",
+            "width" : 192,
+            "height" : 192
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Simple Export",
+            "menuItems": [
+                {
+                    "label": "Export",
+                    "commandId": "exportSelection",
+                    "shortcut": {
+                        "mac": "Cmd+Shift+F",
+                        "win": "Ctrl+Shift+F"
+                    }
+                },
+                {
+                    "label": "Export with last settings",
+                    "commandId": "exportWithLastSettings",
+                    "shortcut": {
+                        "mac": "Cmd+F",
+                        "win": "Ctrl+F"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "3a010606",
+    "name": "TrimIt",
+    "version": "1.0.0",
+
+    "description": "Quickly trim Artboards and Area Text to perfectly fit their content; and snap Repeat Grid size to the closest whole grid cell.\n\nThis plugin is open source and only about 150 lines of code!",
+    "icons": [
+        { "width": 96, "height": 96, "path": "icon96@2x.png" }
+    ],
+
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "TrimIt",
+            "commandId": "trimSelection",
+            "shortcut": { "mac": "Cmd+Alt+T", "win": "Ctrl+Alt+T" }
+        }
+    ]
+}

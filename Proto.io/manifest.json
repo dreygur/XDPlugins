@@ -1,0 +1,44 @@
+{
+    "id": "81facf1f",
+    "name": "Proto.io",
+    "version": "1.0.1",
+    "description": "The Proto.io plugin for Adobe XD syncs your designs to Proto.io enabling you to create and share playable prototypes.",
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "assets/images/icon@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "assets/images/icon@2x.png"
+        },
+        {
+            "width": 96,
+            "height": 96,
+            "path": "assets/images/icon@3x.png"
+        },
+        {
+            "width": 144,
+            "height": 144,
+            "path": "assets/images/icon@4x.png"
+        },
+        {
+            "width": 192,
+            "height": 192,
+            "path": "assets/images/icon@5x.png"
+        }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Our Panel",
+            "panelId": "ourPanels"
+        }
+    ]
+}

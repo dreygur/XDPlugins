@@ -1,0 +1,61 @@
+{
+  "id": "6440ed65",
+  "author": "Em Software",
+  "name": "Layers 4 Developers",
+  "version": "1.2.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "description": "A scenegraph exploration panel for developers.\n\nShows the current scenegraph selection, or the whole document, as a dynamically updated, explorable set of nested objects, displaying the API-level properties belonging to the selected items.",
+  "summary": "Scenegraph exploration panel",
+  "keywords": [
+    "layer",
+    "developer",
+    "scenegraph",
+    "explore",
+    "internal",
+    "artboard",
+    "tree",
+    "scenenode",
+    "document",
+    "root"
+  ],
+  "languages": ["en"],
+  "helpUrl": "http://emsoftware.com/xdplugins/layers-4-developers/",
+  "website": "http://emsoftware.com/xdplugins/layers-4-developers/",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icons/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icons/icon@2x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icons/icon@3x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icons/icon@4x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icons/icon@5x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Layers for Developers",
+      "panelId": "layersPanel"
+    }
+  ]
+}

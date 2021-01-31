@@ -1,0 +1,21 @@
+{
+  "id": "374d0dbd",
+  "name": "GIF Maker",
+  "version": "1.0.4",
+  "icons": [
+    { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+    { "width": 48, "height": 48, "path": "images/icon@2x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "GIF Maker",
+      "panelId": "makeGIF",
+      "shortcut": { "mac": "Cmd+Shift+G", "win": "Ctrl+Shift+G" }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "d61baa33",
+  "name": "regular polygon",
+  "description": "It is a plugin that draws a regular polygon",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "icons": [
+    { "width": 96, "height": 96, "path": "images/icon@2x.png" }
+  ],
+  "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Regular Polygon",
+        "commandId": "regularPolygonCommand",
+        "shortcut": {
+          "mac": "Cmd+Shift+P",
+          "win": "Ctrl+Shift+P"
+        }
+      }
+   ]
+}

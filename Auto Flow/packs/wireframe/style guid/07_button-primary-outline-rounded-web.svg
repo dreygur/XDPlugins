@@ -1,0 +1,7 @@
+<svg id="button_primary_-_outline" data-name="button primary - outline" xmlns="http://www.w3.org/2000/svg" width="171" height="56" viewBox="0 0 171 56">
+  <g id="Rectangle_48" data-name="Rectangle 48" fill="#fff" stroke="#2e4cff" stroke-width="2">
+    <rect width="171" height="56" rx="27" stroke="none"/>
+    <rect x="1" y="1" width="169" height="54" rx="26" fill="none"/>
+  </g>
+  <text id="Click_Here" data-name="Click Here" transform="translate(40 36)" fill="#2e4cff" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Click Here</tspan></text>
+</svg>

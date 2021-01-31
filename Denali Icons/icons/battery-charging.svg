@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Icons">
+      <g>
+        <rect width="48" height="48" fill="none"/>
+        <path d="M45,19H42V15a4,4,0,0,0-4-4H6a4,4,0,0,0-4,4V33a4,4,0,0,0,4,4H38a4,4,0,0,0,4-4V29h3a.9.9,0,0,0,1-1V20A.9.9,0,0,0,45,19ZM6,33V15H38V33Zm27.8-5.8c.5.4,0,1.2-.5.9L24,25v4a1,1,0,0,1-1.7.7L10.2,20.8c-.5-.4,0-1.2.5-.9L20,23V19a1,1,0,0,1,1.7-.7Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

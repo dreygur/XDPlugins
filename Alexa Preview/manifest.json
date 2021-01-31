@@ -1,0 +1,40 @@
+{
+  "id": "284e9eb0",
+  "name": "Alexa Preview",
+  "author": "Adobe",
+  "version": "1.0.7",
+  "host" : {
+    "app" : "XD",
+    "minVersion": "21.0"
+  },
+  "description": "Adobe XD allows anyone to create a voice-powered prototype that you can interact with through Amazon Alexa. You can use Adobe XD to design, test, and iterate your way through the planning and mapping out of a great user experience for your voice application, all without writing any code. This plugin is for exporting voice prototypes created in Adobe XD to Alexa, and requires linking to an Amazon Alexa device.",
+  "summary" : "Preview on any Alexa device",
+  "languages" : ["en", "es", "pt", "fr", "de", "ja", "ko", "zh"],
+  "uiEntryPoints" : [
+    {
+      "type" : "menu",
+      "label" : {
+        "default" : "Export to Alexa",
+        "es" : "Exportar a Alexa",
+        "pt" : "Exportar para o Alexa",
+        "fr" : "Exporter vers Alexa",
+        "de" : "In Alexa exportieren",
+        "ja" : "Alexaにエクスポート",
+        "ko" : "Alexa로 내보내기",
+        "zh" : "导出到Alexa"
+      },
+      "commandId" : "menuCommand"
+    }
+  ],
+  "entitlements": [
+    "_requires-ims-apis"
+  ],
+  "helpUrl": "https://helpx.adobe.com/xd/help/voice-prototypes-in-adobe-xd.html",
+  "icons": [
+    { "width": 24, "height": 24, "path": "assets/images/alexa-logo-24.png" },
+    { "width": 48, "height": 48, "path": "assets/images/alexa-logo-48.png" },
+    { "width": 96, "height": 96, "path": "assets/images/alexa-logo-96.png" },
+    { "width": 144, "height": 144, "path": "assets/images/alexa-logo-144.png" },
+    { "width": 192, "height": 192, "path": "assets/images/alexa-logo-192.png" }
+  ]
+}

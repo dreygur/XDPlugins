@@ -1,0 +1,23 @@
+{
+    "id": "53faa943",
+    "name": "Custom Export",
+    "description": "Export selected Layers and Artboards to any custom scale.",
+    "version": "1.0.6",
+    "icons": [{
+        "path": "images/icon_96.png",
+        "width": 96,
+        "height": 96
+    }],
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Custom Export",
+            "commandId": "menuCommand",
+            "shortcut": { "mac": "Cmd+Alt+E", "win": "Ctrl+Alt+E" }
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+  "summary": "Randomly color objects!",
+  "website": "http://alongruss.com",
+  "keywords": [
+    "random",
+    "fill",
+    "color",
+    "group",
+    "objects"
+  ],
+  "languages": [
+    "en"
+  ],
+  "author": "Alon Gruss",
+  "description": "Randomly color objects!",
+  "helpUrl": "alon.gruss+xdplug@gmail.com",
+  "main": "main.js",
+  "icons": [
+    {
+      "path": "images/pluginIcon0.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/pluginIcon1.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "images/pluginIcon2.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "images/pluginIcon3.png",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "images/pluginIcon4.png",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "version": "1.0.3",
+  "releaseNotes": "Fixed link bugs",
+  "name": "Random Colors by Alon Gruss",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "id": "62176fc8",
+  "uiEntryPoints": [
+    {
+      "label": "Random Colors by Alon Gruss",
+      "type": "menu",
+      "menuItems": [
+        {
+          "label": "Quick random color selection",
+          "type": "menu",
+          "commandId": "randomColorsCommand",
+          "shortcut": { "mac": "Cmd+Shift+1", "win": "Ctrl+Shift+1" }
+        },{
+          "label": "Random color selection",
+          "type": "menu",
+          "commandId": "randomColorsOptionsCommand",
+          "shortcut": { "mac": "Cmd+Shift+2", "win": "Ctrl+Shift+2" }
+        },
+        {
+          "label": "About Random Colors",
+          "type": "menu",
+          "commandId": "showAbout",
+          "shortcut": { "mac": "Cmd+Shift+3", "win": "Ctrl+Shift+3" }
+        }
+      ]
+    }
+  ]
+}

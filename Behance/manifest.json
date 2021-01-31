@@ -1,0 +1,59 @@
+{
+  "entitlements": ["_requires-ims-apis"],
+  "version": "1.0.9",
+  "releaseNotes": "Initial release!",
+  "name": "Behance",
+  "summary": "Post a Work In Progress",
+  "description": "Showcase your creative work with millions of creatives around the world on Behance.\n\nThe Behance plugin for Adobe XD allows you to select artboards from XD and share them to your profile on Behance as a Work in Progress.\n\nOther Behance users can see your work, add reactions, send replies, and share your work on other social networks like Facebook and Twitter.",
+  "website": "https://www.behance.net/",
+  "helpUrl": "https://help.behance.net/hc/en-us",
+  "keywords": [
+    "Behance",
+    "work in progress",
+    "online portfolio",
+    "creative platform",
+    "creative network",
+    "creative community"
+  ],
+  "languages": ["en"],
+  "author": "Behance",
+  "main": "main.js",
+  "icons": [
+    {
+      "path": "images/icons/icon-24.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icons/icon-48.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "images/icons/icon-96.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "images/icons/icon-144.png",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "images/icons/icon-192.png",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "22.0"
+  },
+  "id": "38aad21d",
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "commandId": "main"
+    }
+  ]
+}

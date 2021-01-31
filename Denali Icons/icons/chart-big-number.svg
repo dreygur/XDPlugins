@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-big-number</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <path d="M44,4H6A2,2,0,0,0,4,6V44a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V6A2,2,0,0,0,44,4ZM42,42H8V8H42Z"/>
+      <rect x="12" y="12" width="4" height="26"/>
+      <path d="M29,16c3.4,0,6,3.9,6,9s-2.6,9-6,9-6-3.9-6-9,2.6-9,6-9m0-4c-5.5,0-10,5.3-10,13s4.5,13,10,13,10-5.3,10-13S34.5,12,29,12Z"/>
+    </g>
+  </g>
+</svg>

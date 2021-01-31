@@ -1,0 +1,34 @@
+{
+  "name": "Ellipse",
+  "name_ja": "楕円",
+  "hidden": true,
+  "primitive": true,
+  "allowedProps": ["FILL", "STROKE"],
+  "UI": [
+    {
+      "uiType": "swatch",
+      "optionList": [
+        { "value": "STYLE1/BACKGROUND" },
+        { "value": "STYLE2/BACKGROUND" },
+        { "value": "STYLE3/BACKGROUND" }
+      ],
+      "compLabel": "FILL",
+      "defaultValue": null,
+      "hidden": true
+    },
+    {
+      "uiType": "swatch",
+      "optionList": [
+        { "value": "STYLE1/BRAND" },
+        { "value": "STYLE2/BRAND" },
+        { "value": "STYLE3/BRAND" },
+        { "value": "STYLE1/FOREGROUND" },
+        { "value": "STYLE2/FOREGROUND" },
+        { "value": "STYLE3/FOREGROUND" }
+      ],
+      "compLabel": "STROKE",
+      "defaultValue": null,
+      "hidden": true
+    }
+  ]
+}

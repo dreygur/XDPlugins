@@ -1,0 +1,22 @@
+{
+  "name" : "Color Assets from layer",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "id" : "ecb3c6ad",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  } ],
+  "uiEntryPoints" : [ {
+    "type" : "menu",
+    "commandId" : "addColors"
+  }],
+  "version" : "0.6.0"
+}

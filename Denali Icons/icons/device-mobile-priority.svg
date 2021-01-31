@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>device-mobile-priority</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M35,6V42H13V6H35m2-4H11A2,2,0,0,0,9,4V44a2,2,0,0,0,2,2H37a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2Z"/>
+      <path d="M25,36H23a2,2,0,0,0,0,4h2a2,2,0,0,0,0-4Z"/>
+      <path d="M24,23a2,2,0,0,0,2-2V11a2,2,0,0,0-4,0V21A2,2,0,0,0,24,23Z"/>
+      <circle cx="24" cy="27" r="2"/>
+    </g>
+  </g>
+</svg>

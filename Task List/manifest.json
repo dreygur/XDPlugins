@@ -1,0 +1,25 @@
+{
+  "id": "4e1ee53d",
+  "name": "Task List",
+  "version": "0.0.4",
+  "icons": [
+    { "width": 24, "height": 24, "path": "images/icon@48.png" },
+    { "width": 48, "height": 48, "path": "images/icon@96.png" }
+  ],
+  "description": "Manage your tasks in the app",
+  "summary": "Write down your tasks in the plugin panel",
+  "languages": ["en"],
+  "author": "Kenny Krosky",
+  "helpUrl": "https://twitter.com/ispykenny",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Task List",
+      "panelId": "runPlugin"
+    }
+  ]
+}

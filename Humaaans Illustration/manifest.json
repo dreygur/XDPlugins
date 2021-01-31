@@ -1,0 +1,25 @@
+{
+    "id": "29dd6272",
+    "name": "Humaaans Illustration",
+    "version": "1.0.0",
+    "description": "Description of your plugin.",
+    "summary": "With Humaaans you can either use the already premade people illustrations or mix-&-match illustrations to create your own unique work.",
+    "languages": ["en"],
+    "author": "Tekeste Kidanu",
+    "helpUrl": "https://twitter.com/tkmadeit",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    "icons": [
+      { "width": 48, "height": 48, "path": "src/images/48.png" },
+      { "width": 96, "height": 96, "path": "src/images/96.png" }
+    ],
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Humaaans",
+        "commandId": "main"
+      }
+    ]
+  }

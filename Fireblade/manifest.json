@@ -1,0 +1,32 @@
+{
+    "id": "4e1eb924",
+    "name": "Fireblade",
+    "version": "1.32.20",
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "images/icon@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@2x.png"
+        }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "24.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Fireblade Panel",
+            "panelId": "fireblade",
+            "shortcut": {
+                "mac": "Cmd+Shift+F",
+                "win": "Ctrl+Shift+F"
+            }
+        }
+    ]
+}

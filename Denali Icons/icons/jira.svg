@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>jira</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M44.2,2H23a9.6,9.6,0,0,0,9.5,9.6h3.9v3.7A9.6,9.6,0,0,0,46,24.9V3.8A1.8,1.8,0,0,0,44.2,2Z"/>
+        <path d="M33.7,12.6H12.5A9.6,9.6,0,0,0,22,22.1h4v3.8a9.4,9.4,0,0,0,9.5,9.5v-21A1.8,1.8,0,0,0,33.7,12.6Z"/>
+        <path d="M23.2,23.1H2a9.6,9.6,0,0,0,9.6,9.6h3.9v3.7A9.6,9.6,0,0,0,25,46V24.9A1.8,1.8,0,0,0,23.2,23.1Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

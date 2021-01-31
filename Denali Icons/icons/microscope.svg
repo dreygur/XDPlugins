@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Medical">
+      <path d="M43,42H38.7A16.9,16.9,0,0,0,26,15.1V7H23V5a2.9,2.9,0,0,0-3-3H14a2.9,2.9,0,0,0-3,3V7H8V30h3v5a2.9,2.9,0,0,0,3,3h6a2.9,2.9,0,0,0,3-3V30h3V19.1A13,13,0,0,1,33.3,42H5a2,2,0,0,0,0,4H43a2,2,0,0,0,0-4ZM12,11h3V6h4v5h3V26H12Zm7,23H15V30h4Z"/>
+    </g>
+  </g>
+</svg>

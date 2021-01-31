@@ -1,0 +1,40 @@
+{
+  "summary" : "Generate 600+ colors instantly",
+  "languages" : [ "en" ],
+  "author" : "Abdullah Al Nahid",
+  "name" : "Instant Color",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "description" : "Generate 470+ colors of Ant Design, Tailwind and Flutter in your artboard! \n\n1. Create a big artboard and select it. \n2. Then click on the Instant Color Plugin from the plugin panel. \n3. Choose and generate color palettes!\n\nPlugin icon credit: Freepik from flaticon.com",
+  "helpUrl" : "https://abdnahid.com",
+  "id" : "b9c12c85",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon@3x.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon@4x.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon@5x.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Create Color Palettes",
+    "type" : "menu",
+    "commandId" : "createColorPalette"
+  } ],
+  "version" : "0.0.6"
+}

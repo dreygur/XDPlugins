@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Icon" transform="translate(0 -12)">
+    <rect id="icon_area" data-name="icon area" width="16" height="16" transform="translate(0 12)" fill="#707070" opacity="0"/>
+    <g id="Smock_ViewColumn_18_N" transform="translate(0 12)">
+      <rect id="Canvas" width="16" height="16" fill="#707070" opacity="0"/>
+      <path id="Path_60886" data-name="Path 60886" d="M4.556,15.222H1.444A.444.444,0,0,1,1,14.778V1.444A.444.444,0,0,1,1.444,1H4.556Z" transform="translate(-0.111 -0.111)" fill="#707070"/>
+      <rect id="Rectangle_147655" data-name="Rectangle 147655" width="3.556" height="14.222" transform="translate(6.222 0.889)" fill="#707070"/>
+      <path id="Path_60887" data-name="Path 60887" d="M16.111,15.222H13V1h3.111a.444.444,0,0,1,.444.444V14.778A.444.444,0,0,1,16.111,15.222Z" transform="translate(-1.444 -0.111)" fill="#707070"/>
+    </g>
+  </g>
+</svg>

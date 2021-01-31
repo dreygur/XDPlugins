@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>invoice</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <g>
+        <path d="M16,14h8a2,2,0,0,0,0-4H16a2,2,0,0,0,0,4Z"/>
+        <path d="M16,22h8a2,2,0,0,0,0-4H16a2,2,0,0,0,0,4Z"/>
+        <path d="M16,30h8a2,2,0,0,0,0-4H16a2,2,0,0,0,0,4Z"/>
+        <path d="M30,14h2a2,2,0,0,0,0-4H30a2,2,0,0,0,0,4Z"/>
+        <path d="M30,22h2a2,2,0,0,0,0-4H30a2,2,0,0,0,0,4Z"/>
+        <path d="M30,30h2a2,2,0,0,0,0-4H30a2,2,0,0,0,0,4Z"/>
+        <path d="M41,2H7A2,2,0,0,0,5,4V43a1,1,0,0,0,1,1,1.1,1.1,0,0,0,.7-.3L13,39.1l4.3,4.6a1,1,0,0,0,1.4,0L24,39.1l5.3,4.6a1,1,0,0,0,1.4,0L35,39.1l6.3,4.6a1.1,1.1,0,0,0,.7.3,1,1,0,0,0,1-1V4A2,2,0,0,0,41,2ZM39,37.1l-1.6-1.2-2.9-2.1-2.4,2.6-2.3,2.4-3.2-2.7L24,33.8l-2.6,2.3-3.2,2.7-2.3-2.4-2.4-2.6-2.9,2.1L9,37.1V6H39Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

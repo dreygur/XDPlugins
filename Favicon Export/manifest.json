@@ -1,0 +1,28 @@
+{
+  "id": "b591bce5",
+  "name": "Favicon Export",
+  "host": {
+    "app": "XD",
+    "minVersion": "28.0"
+  },
+  "version": "1.0.0",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icons/icon-24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icons/icon-48.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Favicon Export",
+      "panelId": "faviconExport"
+    }
+  ]
+}

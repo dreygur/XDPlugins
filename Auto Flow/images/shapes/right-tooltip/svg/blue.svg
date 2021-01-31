@@ -1,0 +1,12 @@
+<svg id="right_-_tooltip" data-name="right - tooltip" xmlns="http://www.w3.org/2000/svg" width="190.5" height="83" viewBox="0 0 190.5 83">
+  <path id="Polygon_1" data-name="Polygon 1" d="M8,0l8,8H0Z" transform="translate(0 49.5) rotate(-90)" fill="#33b5e5"/>
+  <g id="Group_81" data-name="Group 81" transform="translate(-24.5 -32)">
+    <g id="Rectangle_47" data-name="Rectangle 47" transform="translate(32 32)" fill="#33b5e5" stroke="#33b5e5" stroke-width="1">
+      <rect width="183" height="83" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="182" height="82" rx="4.5" fill="none"/>
+    </g>
+    <text id="Write_your_description_Here_Tooltip" data-name="Write your description 
+Here
+Tooltip" transform="translate(51 58)" fill="#fff" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Write your description </tspan><tspan x="0" y="20">Here</tspan><tspan x="0" y="40">Tooltip</tspan></text>
+  </g>
+</svg>

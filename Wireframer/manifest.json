@@ -1,0 +1,47 @@
+{
+  "id": "6ff1515b",
+  "name": "Wireframer",
+  "summary": "Lots of wireframe templates",
+  "description": "Huge searchable set of beautifully crafted wireframe templates. Based on popular wireframe set https://www.behance.net/gallery/55462459/Wires-free-wireframe-kits-for-Adobe-XD.",
+  "keywords": [
+    "wireframes",
+    "templates",
+    "views",
+    "screens",
+    "mockups",
+    "kit",
+    "ui",
+    "checkout",
+    "components",
+    "widgets",
+    "footer",
+    "header",
+    "cards",
+    "icons",
+    "journey"
+  ],
+  "releaseNotes": "Initial version",
+  "website": "https://xdhero.com",
+  "author": "XD Hero",
+  "helpUrl": "https://xdhero.com/plugins/wireframer/",
+  "version": "1.0.3",
+  "languages": ["en"],
+  "icons": [
+    { "width": 24, "height": 24, "path": "assets/icon_24.png" },
+    { "width": 48, "height": 48, "path": "assets/icon_48.png" },
+    { "width": 96, "height": 96, "path": "assets/icon_96.png" },
+    { "width": 144, "height": 144, "path": "assets/icon_144.png" },
+    { "width": 192, "height": 192, "path": "assets/icon_192.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Wireframer",
+      "panelId": "default"
+    }
+  ]
+}

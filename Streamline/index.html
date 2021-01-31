@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Streamline icons</title> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Footer.css" />
+    <link rel="stylesheet" href="css/top-nav.css" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <link rel="stylesheet" href="css/signin.css" />
+    <link rel="stylesheet" href="css/account.css" />
+  </head>
+  <body id="body">
+
+    <div id="notification" class="notification">
+   
+    </div>
+    <div id="icons-page" class="container">
+      <!--Top Nav-->
+
+
+      <div class="top-nav" id="nav">
+        <div id="family-dropdown"  class="top-nav__select">
+          <p id="family"></p>
+          <img  src="./assets/img/arrow_down.svg">
+        </div>
+        <div id="category-dropdown"  class="top-nav__select">
+          <p id="category"> </p>
+          <img src="./assets/img/arrow_down.svg">
+        </div>
+        <div class="top-nav__sizeInput">
+          <input id="size"  uxp-quiet="true"  value=24 ></input>
+          <p>px</p>
+        </div>
+      </div>
+
+
+      <!--List of families-->
+      <div id="families-menu-list" class="menu-list hide"></div>
+
+      <!--Category list of  current family-->
+      <div id="categories-menu-list" class="menu-list hide"></div>
+
+    
+      <!--List of icons-->
+      <div id="iconlist" class="icon-list">
+        <!--loader-->
+        <img id="loader" src="./assets//img/loader.gif" height=100 width=100 class="loader hide"></img>
+        <div id="icon-list-display" class="icon-list__display">
+          <!--Icons gets append here -->
+        </div>
+      </div>
+
+    
+
+  
+
+          <!--Footer-->
+          <div id="footer" class="Footer">
+
+            <div id="infoBox" class="UpgradeInfoBox">
+              <a href='https://upgrade.streamlineicons.com/' class="UpgradeInfoBox__text--underline">Upgrade to add assets as SVG</a>
+              </div>
+
+            <!--Search bar-->
+            <div class="Footer__Search">
+              <img width="16px" src="./assets/icons/Search.svg">
+              <input id="search" type="text" uxp-quiet="true" value=""  placeholder="Search..." />
+            </div>
+    
+            <!--Menu-->
+            <div id="menu" class="Footer__HarmBurger_Menu">
+              <img id="menu-img"  src="./assets/icons/person.svg">
+            </div>
+    
+            <div id="menu-container" class="Footer__Menu_Container">
+              <div class="Footer__Menu">
+                <p class="Footer__menu__option Footer__menu__option--bottom-border" id="myaccount"> <a id="myaccount-link" class="Footer__menu__option--link" href="https://app.streamlineicons.com/login">logged in as</a></p>
+                <p class="Footer__menu__option Footer__menu__option--bottom-border" id="upgrade"> <a class="Footer__menu__option--link" target="_black" href="https://upgrade.streamlineicons.com/">Upgrade</a></p>
+                <p  class="Footer__menu__option" id="logout">Logout</p>
+                <p  class="Footer__menu__option" id="menu-login">Login</p>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+    <div id="signin-page" class="container hide">
+      <div class="signin">
+        <img class="signin__logo" src="./assets/img/streamline_logo.svg">
+            
+    
+        <strong class="signin__message">Sign in to your Streamline account</strong>
+        
+          <p class="signin__message">or Create a new account, it's free !</p>
+       
+
+        <div class="signin__form">
+         
+                <div class="signin__form__input">
+                    <img src="./assets/icons/email.svg"></img>
+                    <input id="email" type="text" uxp-quiet="true"  placeholder="Email"> </input>
+                </div>
+  
+                <div class="signin__form__input">
+                    <img src="./assets/icons/password.svg"></img>
+                    <input type="password"  uxp-quiet="true" id="password" placeholder="Password"> </input>          
+                </div>
+            
+                <button id="signin" class="signin__form__button" uxp-variant="cta" >Sign in </button>
+        </div>
+    
+
+        <a target="_black" href="https://app.streamline.to/request-password" class="signin__forgot-password__text">Forgot your password?</a>
+  </div>
+    </div>
+
+  </body>
+</html>

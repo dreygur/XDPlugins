@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>user-admin-network</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <circle cx="24" cy="7" r="5"/>
+        <path d="M44,32H42V26a2,2,0,0,0-2-2H26V21h7V17c-2.7-1.4-5.8-3-9-3s-6.3,1.6-9,3v4h7v3H8a2,2,0,0,0-2,2v6H4a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V34a2,2,0,0,0-2-2H10V28H22v4H20a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V34a2,2,0,0,0-2-2H26V28H38v4H36a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V34A2,2,0,0,0,44,32ZM10,40H6V36h4Zm16,0H22V36h4Zm16,0H38V36h4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+{
+  "id": "22abf3b1",
+  "name": "ColorSpark",
+  "version": "1.0.2",
+  "summary": "Discover colors & gradients",
+  "description": "ColorSpark for Adobe XD is a handy tool to generate random colors and gradients, helping designers discover unique color palettes and spark creativity.",
+  "keywords": [
+    "color",
+    "gradient",
+    "palette",
+    "inspiration",
+    "generate",
+    "random"
+  ],
+  "languages": ["en"],
+  "author": "Luke Johnson",
+  "website": "https://colorspark.app",
+  "helpUrl": "https://github.com/lukecjohnson/colorspark-xd",
+  "icons": [
+    { "width": 48, "height": 48, "path": "assets/icons/icon@1x.png" },
+    { "width": 96, "height": 96, "path": "assets/icons/icon@2x.png" },
+    { "width": 144, "height": 144, "path": "assets/icons/icon@3x.png" },
+    { "width": 192, "height": 192, "path": "assets/icons/icon@4x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [{
+    "type": "menu",
+    "label": "ColorSpark",
+    "menuItems": [
+      {
+        "type": "menu",
+        "label": "Generate Color",
+        "commandId": "color",
+        "shortcut": {
+          "mac": "Ctrl+Shift+c",
+          "win": "Ctrl+Shift+c"
+        }
+      },
+      {
+        "type": "menu",
+        "label": "Generate Gradient",
+        "commandId": "gradient",
+        "shortcut": {
+          "mac": "Ctrl+Shift+g",
+          "win": "Ctrl+Shift+g"
+        }
+      }
+    ]
+  }]
+}

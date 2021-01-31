@@ -1,0 +1,31 @@
+{
+  "name" : "Faker for XD",
+  "summary" : "An Adobe XD plugin wrapper for Marak/faker.js",
+  "version" : "1.2.0",
+  "author" : "Ryan Arrindell",
+  "languages" : [ "en" ],
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "description" : "Populate your designs with realistic data provided by Faker",
+  "helpUrl" : "https://github.com/rarrindell/faker-xd",
+  "id" : "632aeb77",
+  "keywords": [
+    "utility",
+    "productivity",
+    "automation"
+  ],
+  "icons" : [ 
+    { "path" : "images/icon@1x.png", "width" : 24, "height" : 24 },
+    { "path" : "images/icon@2x.png", "width" : 48, "height" : 48 },
+    { "path" : "images/icon@3x.png", "width" : 96, "height" : 96 }, 
+    { "path" : "images/icon@4x.png", "width" : 144, "height" : 144 }, 
+    { "path" : "images/icon@5x.png", "width" : 192, "height" : 192 } 
+  ],
+  "uiEntryPoints" : [ {
+    "label" : "Faker",
+    "type" : "panel",
+    "panelId" : "fakerPanel"
+  } ]
+}

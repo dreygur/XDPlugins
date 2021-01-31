@@ -1,0 +1,7 @@
+<svg id="button_primary_-_text" data-name="button primary - text" xmlns="http://www.w3.org/2000/svg" width="125.441" height="27.441" viewBox="0 0 125.441 27.441">
+  <text id="Click_Here" data-name="Click Here" transform="translate(0 21)" fill="#2e4cff" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Click Here</tspan></text>
+  <g id="arrow_right_alt-24px" transform="translate(100.505 2.505)">
+    <path id="Path_4" data-name="Path 4" d="M0,0H24.936V24.936H0Z" fill="none"/>
+    <path id="Path_5" data-name="Path 5" d="M16.478,11.117H4V13.2H16.478v3.117l4.146-4.156L16.478,8Z" transform="translate(0.156 0.312)" fill="#2e4cff"/>
+  </g>
+</svg>

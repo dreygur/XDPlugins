@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-はじめに_-_使い方">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Template_はじめに_-_使い方" data-name="Template: はじめに - 使い方" clip-path="url(#clip-はじめに_-_使い方)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="How_to_Use" data-name="How to Use">
+      <rect id="Overlay" width="1920" height="1080" fill="#fff" opacity="0.597"/>
+      <g id="How_to_Use-2" data-name="How to Use" transform="translate(3840 2607)">
+        <path id="background" d="M0,0H1680V1080H0Z" transform="translate(-3600 -2607)" fill="#ffd86f"/>
+        <g id="Illustration" transform="translate(0 -25)">
+          <rect id="Rectangle_147700" data-name="Rectangle 147700" width="360" height="220" transform="translate(-2538 -2015)" fill="#fff"/>
+          <path id="Rectangle_147701" data-name="Rectangle 147701" d="M0,0H360a0,0,0,0,1,0,0V68a12,12,0,0,1-12,12H12A12,12,0,0,1,0,68V0A0,0,0,0,1,0,0Z" transform="translate(-2538 -1795)" fill="#fff"/>
+          <path id="Rectangle_147702" data-name="Rectangle 147702" d="M12,0H348a12,12,0,0,1,12,12V210a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12A12,12,0,0,1,12,0Z" transform="translate(-2538 -2225)" fill="#fff"/>
+          <rect id="Header_Bar" data-name="Header Bar" width="519.957" height="50" rx="11" transform="translate(-2697.957 -2305)" fill="#f5f5f5"/>
+          <path id="Union_8" data-name="Union 8" d="M179.971,0l16.971,16.971L179.971,33.941,163,16.971Z" transform="translate(-2538 -2240.971)" fill="#fff"/>
+          <rect id="Rectangle_147703" data-name="Rectangle 147703" width="220" height="40" rx="20" transform="translate(-2468 -1775)" fill="#ffd86f"/>
+          <rect id="Rectangle_147706" data-name="Rectangle 147706" width="60" height="20" rx="10" transform="translate(-2268 -2075)" fill="#efefef"/>
+          <text id="共同編集を有効にする_β版_" data-name="共同編集を有効にする (β版)" transform="translate(-2358 -1751)" fill="#222" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-88.186" y="0">共同編集を有効にする</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> (β</tspan><tspan y="0">版</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">)</tspan></text>
+          <text id="ドキュメントに招待する" transform="translate(-2508 -2185)" fill="#222" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">ドキュメントに招待する</tspan></text>
+          <rect id="Header_Bar-2" data-name="Header Bar" width="300" height="40" rx="11" transform="translate(-2508 -2125)" fill="#efefef"/>
+          <rect id="Rectangle_147704" data-name="Rectangle 147704" width="40" height="8" rx="4" transform="translate(-2507.957 -2145)" fill="#efefef"/>
+          <g id="Group_68141" data-name="Group 68141" transform="translate(-3798 -2545)">
+            <rect id="Rectangle_147689" data-name="Rectangle 147689" width="30" height="30" rx="15" transform="translate(1290 600)" fill="#efefef"/>
+            <g id="Group_68122" data-name="Group 68122">
+              <g id="Setting" transform="translate(1330 604.275)">
+                <rect id="Rectangle_142861" data-name="Rectangle 142861" width="40" height="8" rx="4" transform="translate(0 -0.275)" fill="#efefef"/>
+              </g>
+              <g id="Setting-2" data-name="Setting" transform="translate(1330 616.413)">
+                <rect id="Rectangle_142861-2" data-name="Rectangle 142861" width="99.479" height="8" rx="4" transform="translate(0 1.587)" fill="#efefef"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_68142" data-name="Group 68142" transform="translate(-3798 -2495)">
+            <rect id="Rectangle_147689-2" data-name="Rectangle 147689" width="30" height="30" rx="15" transform="translate(1290 600)" fill="#efefef"/>
+            <g id="Group_68122-2" data-name="Group 68122">
+              <g id="Setting-3" data-name="Setting" transform="translate(1330 604.275)">
+                <rect id="Rectangle_142861-3" data-name="Rectangle 142861" width="40" height="8" rx="4" transform="translate(0 -0.275)" fill="#efefef"/>
+              </g>
+              <g id="Setting-4" data-name="Setting" transform="translate(1330 616.413)">
+                <rect id="Rectangle_142861-4" data-name="Rectangle 142861" width="99.479" height="8" rx="4" transform="translate(0 1.587)" fill="#efefef"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_68123" data-name="Group 68123" transform="translate(-3813 -2545)">
+            <text id="ドキュメント名" transform="translate(1135 270)" fill="#222" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">ドキュメント名</tspan></text>
+            <g id="Group_68118" data-name="Group 68118" transform="translate(1250.485 263.242) rotate(135)">
+              <line id="Line_81" data-name="Line 81" x2="6" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+              <line id="Line_82" data-name="Line 82" x2="6" transform="translate(6 0) rotate(90)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+            </g>
+          </g>
+          <line id="Line_92" data-name="Line 92" x2="360" transform="translate(-2538 -1795)" fill="none" stroke="#ffd86f" stroke-width="2"/>
+          <line id="Line_93" data-name="Line 93" x2="360" transform="translate(-2538 -2015)" fill="none" stroke="#ffd86f" stroke-width="2"/>
+          <g id="Ellipse_78" data-name="Ellipse 78" transform="translate(-2370 -2292)" fill="none" stroke="#101010" stroke-width="2">
+            <circle cx="12" cy="12" r="12" stroke="none"/>
+            <circle cx="12" cy="12" r="11" fill="none"/>
+          </g>
+          <g id="Ellipse_80" data-name="Ellipse 80" transform="translate(-2323 -2295)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+            <circle cx="15" cy="15" r="15" stroke="none"/>
+            <circle cx="15" cy="15" r="14.5" fill="none"/>
+          </g>
+          <g id="Ellipse_81" data-name="Ellipse 81" transform="translate(-2273 -2295)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+            <circle cx="15" cy="15" r="15" stroke="none"/>
+            <circle cx="15" cy="15" r="14.5" fill="none"/>
+          </g>
+          <g id="Group_68125" data-name="Group 68125" transform="translate(-3461.043 -2437)">
+            <g id="Rectangle_147694" data-name="Rectangle 147694" transform="translate(1145.043 144)" fill="none" stroke="#c1c1c1" stroke-width="2">
+              <rect width="16" height="26" rx="4" stroke="none"/>
+              <rect x="1" y="1" width="14" height="24" rx="3" fill="none"/>
+            </g>
+            <line id="Line_83" data-name="Line 83" x2="14" transform="translate(1146 150)" fill="none" stroke="#c1c1c1" stroke-width="2"/>
+            <line id="Line_84" data-name="Line 84" x2="14" transform="translate(1146 163)" fill="none" stroke="#c1c1c1" stroke-width="2"/>
+            <g id="Ellipse_73" data-name="Ellipse 73" transform="translate(1152.043 165)" fill="none" stroke="#c1c1c1" stroke-width="2">
+              <circle cx="1" cy="1" r="1" stroke="none"/>
+              <circle cx="1" cy="1" fill="none"/>
+            </g>
+          </g>
+          <g id="Polygon_7" data-name="Polygon 7" transform="translate(-2248 -2291) rotate(90)" fill="none">
+            <path d="M10.124,1.593a1,1,0,0,1,1.752,0l9.309,16.925A1,1,0,0,1,20.309,20H1.691a1,1,0,0,1-.876-1.482Z" stroke="none"/>
+            <path d="M 10.99999904632568 4.150074005126953 L 3.382543563842773 18.00000381469727 L 18.61745452880859 18.00000381469727 L 10.99999904632568 4.150074005126953 M 10.99999904632568 1.075037002563477 C 11.34312629699707 1.075037002563477 11.68625450134277 1.247732162475586 11.87621879577637 1.593122482299805 L 21.18493843078613 18.5180835723877 C 21.55148887634277 19.18453216552734 21.06932830810547 20.00000190734863 20.30872917175293 20.00000190734863 L 1.691268920898438 20.00000190734863 C 0.9306697845458984 20.00000190734863 0.4485092163085938 19.18453216552734 0.8150596618652344 18.5180835723877 L 10.123779296875 1.593122482299805 C 10.31374359130859 1.247732162475586 10.6568717956543 1.075037002563477 10.99999904632568 1.075037002563477 Z" stroke="none" fill="#c1c1c1"/>
+          </g>
+          <line id="Line_94" data-name="Line 94" x2="19" transform="translate(-2366.5 -2274)" fill="none" stroke="#101010" stroke-width="2"/>
+          <g id="Group_68124" data-name="Group 68124" transform="translate(-3767.043 -2486)">
+            <circle id="Ellipse_72" data-name="Ellipse 72" cx="7" cy="7" r="7" transform="translate(1413.043 205)" fill="#f5f5f5"/>
+            <line id="Line_76" data-name="Line 76" y2="8" transform="translate(1420.043 208)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+            <path id="Path_60928" data-name="Path 60928" d="M0,0H8" transform="translate(1416.043 212)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+          </g>
+          <g id="Ellipse_79" data-name="Ellipse 79" transform="translate(-2363 -2287)" fill="none" stroke="#101010" stroke-width="2">
+            <circle cx="5" cy="5" r="5" stroke="none"/>
+            <circle cx="5" cy="5" r="4" fill="none"/>
+          </g>
+          <text id="メンバー_2_" data-name="メンバー (2)" transform="translate(-2508 -1975)" fill="#222" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">メンバー</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> (2)</tspan></text>
+          <line id="Line_95" data-name="Line 95" x2="357" transform="translate(-2357 -2315)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2" opacity="0.204"/>
+          <line id="Line_97" data-name="Line 97" x2="247" transform="translate(-2247 -2105)" fill="none" stroke="#101010" stroke-width="2" opacity="0.204"/>
+          <line id="Line_98" data-name="Line 98" x2="217" transform="translate(-2217 -1755)" fill="none" stroke="#101010" stroke-width="2" opacity="0.204"/>
+          <text id="A._ドキュメントに招待" data-name="A.
+ドキュメントに招待" transform="translate(-2000 -2359)" fill="#fff" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-13.65" y="0">A.</tspan><tspan fill="#222" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-126" y="20">ドキュメントに招待</tspan></tspan></text>
+          <text id="B._メンバーをメールで招待" data-name="B.
+メンバーをメールで招待" transform="translate(-2000 -2149)" fill="#fff" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-16.898" y="0">B. </tspan><tspan fill="#222" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-154" y="20">メンバーをメールで招待</tspan></tspan></text>
+          <text id="C._共同編集を有効にする" data-name="C.
+共同編集を有効にする" transform="translate(-2000 -1799)" fill="#fff" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-16.548" y="0">C. </tspan><tspan fill="#222" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-140" y="20">共同編集を有効にする</tspan></tspan></text>
+          <line id="Line_96" data-name="Line 96" y2="20" transform="translate(-2357 -2315)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2" opacity="0.204"/>
+        </g>
+        <text id="Instructions" transform="translate(-3520 -2409)" fill="#222" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="17" xml:space="preserve">01.  XD</tspan><tspan y="17" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">を最新版にアップデート</tspan><tspan y="17"></tspan><tspan font-family="SourceHanSansJP, Source Han Sans JP" font-weight="400"><tspan x="0" y="43">XD</tspan><tspan y="43" font-family="SourceHanSansJP-Regular, Source Han Sans JP">の共同編集はまだベータ版なので、共同作業に参加してもらう全員の</tspan><tspan y="43">XD</tspan><tspan y="43" font-family="SourceHanSansJP-Regular, Source Han Sans JP">が同じバージョンでな</tspan><tspan x="0" y="69" font-family="SourceHanSansJP-Regular, Source Han Sans JP">いといけません。数分で終わるので、最新版の</tspan><tspan y="69">XD</tspan><tspan y="69" font-family="SourceHanSansJP-Regular, Source Han Sans JP">へアップデートして、共同作業の準備を整える</tspan><tspan x="0" y="95" font-family="SourceHanSansJP-Regular, Source Han Sans JP">ことをお勧めします。</tspan><tspan y="95"></tspan></tspan><tspan x="0" y="121"></tspan><tspan x="0" y="147">02. </tspan><tspan y="147" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">クラウドドキュメントとしてファイルを保存</tspan><tspan y="147"></tspan><tspan font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="173">この共同編集機能を使用するには、</tspan><tspan y="173" font-family="SourceHanSansJP, Source Han Sans JP">XD</tspan><tspan y="173">をクラウドファイルとして保存します。</tspan><tspan y="173" font-family="SourceHanSansJP, Source Han Sans JP"></tspan></tspan><tspan x="0" y="199"></tspan><tspan x="0" y="225" xml:space="preserve">03.  </tspan><tspan y="225" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">共同編集を有効にする</tspan><tspan y="225"></tspan><tspan font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="251">共同編集</tspan><tspan y="251" font-family="SourceHanSansJP, Source Han Sans JP">(</tspan><tspan y="251">ベータ版</tspan><tspan y="251" font-family="SourceHanSansJP, Source Han Sans JP">)</tspan><tspan y="251">は複数人のデザイナーが同時に</tspan><tspan y="251" font-family="SourceHanSansJP, Source Han Sans JP">XD</tspan><tspan y="251">内で作業することが可能です。右の図にあ</tspan><tspan x="0" y="277">るようにチームメンバーをあなたの作成した</tspan><tspan y="277" font-family="SourceHanSansJP, Source Han Sans JP">XD</tspan><tspan y="277">ファイルに招待することでホワイトボードを活用</tspan><tspan x="0" y="303">したアイデア出しのセッションやブレインストーミングをバーチャルに行うことができます。</tspan><tspan y="303" font-family="SourceHanSansJP, Source Han Sans JP"></tspan></tspan><tspan font-family="SourceHanSansJP, Source Han Sans JP" font-weight="400"><tspan x="0" y="329"></tspan></tspan><tspan x="0" y="355">04. </tspan><tspan y="355" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">テンプレート、オブジェクト、スケッチを活用する</tspan><tspan y="355"></tspan><tspan font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="381">このプラグインはデザイナー以外の人も含めた全てのチームメンバーがリモートでホワイトボー</tspan><tspan x="0" y="407">ディングやブレインストーミングを行えるように開発されました。アイデア出しの会議をより効</tspan><tspan x="0" y="433">果的に行えるように、便利なアセットをご用意いたしました。まさにホワイトボードを使ってい</tspan><tspan x="0" y="459">るように自由にスケッチできますし、シェイプもあるのでデザインのアイデア出しにぜひお役立</tspan><tspan x="0" y="485">てください。</tspan><tspan y="485" font-family="SourceHanSansJP, Source Han Sans JP"></tspan></tspan><tspan font-family="SourceHanSansJP, Source Han Sans JP" font-weight="400"><tspan x="0" y="511"></tspan></tspan><tspan x="0" y="537">05. </tspan><tspan y="537" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">リモートのコラボレーション作業はビデオ会議も活用する</tspan><tspan y="537"></tspan><tspan font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="563">リモートで共同作業をする際は、ビデオ会議</tspan><tspan y="563" font-family="SourceHanSansJP, Source Han Sans JP">(Zoom, Bluejeans, or Google Hangouts)</tspan><tspan y="563">などを活用</tspan><tspan x="0" y="589">し、ディスカッションを含めながら行うことをお勧めします。複数人で共同作業をする場合、一</tspan><tspan x="0" y="615">人ファシリテーター</tspan><tspan y="615" font-family="SourceHanSansJP, Source Han Sans JP"> </tspan><tspan y="615">を設けるとより効率的にディスカッションを進めることができます。</tspan><tspan y="615" font-family="SourceHanSansJP, Source Han Sans JP"></tspan></tspan><tspan font-family="SourceHanSansJP, Source Han Sans JP" font-weight="400"><tspan x="0" y="641"></tspan></tspan><tspan font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="667">フィードバックをお待ちしております！</tspan><tspan y="667" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"></tspan></tspan><tspan font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="693">プラグインの機能やテンプレート、シェイプなどに気になる点や改善点があればぜひ皆様の声を</tspan><tspan x="0" y="719">おきかせてください。また皆様が個別にカスタマイズしたブレインストーミング用のテンプレー</tspan><tspan x="0" y="745">トがあればぜひ共有してください。</tspan><tspan y="745" font-family="SourceHanSansJP, Source Han Sans JP">XD</tspan><tspan y="745">や</tspan><tspan y="745" font-family="SourceHanSansJP, Source Han Sans JP">SVG</tspan><tspan y="745">ファイルをご共有いただければ、チームでの議論</tspan><tspan x="0" y="771">後、プラグインのテンプレートとして追加することも可能です。ご興味あればこちらまでご連絡</tspan><tspan x="0" y="797">ください</tspan><tspan y="797" font-family="SourceHanSansJP, Source Han Sans JP">: </tspan><tspan y="797" font-family="SourceHanSansJP, Source Han Sans JP" text-decoration="underline">xd-whiteboard@adobe.com</tspan></tspan></text>
+        <text id="コラボレーション作業を行うにあたってのこのプラグインとXDの使い方" transform="translate(-3520 -2445)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">コラボレーション作業を行うにあたってのこのプラグインと</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">XD</tspan><tspan y="0">の使い方</tspan></text>
+        <text id="How_to_Use-3" data-name="How to Use" transform="translate(-3520 -2495)" fill="#101010" font-size="44" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="0">How to Use</tspan></text>
+      </g>
+      <g id="Delete_to_Continue" data-name="Delete to Continue">
+        <text id="Label" transform="translate(60 1000)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="0">Delete this</tspan><tspan x="0" y="18">Layer to continue</tspan></text>
+        <g id="Close_Button" data-name="Close Button" transform="translate(10)">
+          <g id="Circle" transform="translate(50 940)" fill="#fff" stroke="#000" stroke-width="2">
+            <circle cx="15" cy="15" r="15" stroke="none"/>
+            <circle cx="15" cy="15" r="14" fill="none"/>
+          </g>
+          <g id="Cross_Icon" data-name="Cross Icon">
+            <line id="Line_126" data-name="Line 126" x2="7" y2="7" transform="translate(61.5 951.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+            <line id="Line_127" data-name="Line 127" x1="7" y2="7" transform="translate(61.5 951.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

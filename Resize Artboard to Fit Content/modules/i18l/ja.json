@@ -1,0 +1,15 @@
+{
+  "SETTING_TITLE": "リサイズ時の設定",
+  "SETTING_LABEL_FIXED_SIZE": "サイズ固定",
+  "SETTING_LABEL_SIZE_WIDTH": "幅",
+  "SETTING_LABEL_SIZE_HEIGHT": "高さ",
+  "SETTING_LABEL_OFFSET": "オフセット",
+  "SETTING_LABEL_OFFSET_BOTTOM": "下辺",
+  "SETTING_NOTE": "0を入力すると、コンテンツに合わせます。",
+  "SETTING_KEEP_CURRENT_ARTBOARD_WIDTH_TITLE": "サイズ維持",
+  "SETTING_KEEP_CURRENT_ARTBOARD_WIDTH": "現在のアートボード幅を維持する",
+  "ALERT_NO_ARTBOARD_TITLE": "選択範囲にアートボードがありません",
+  "ALERT_NO_ARTBOARD_BODY": "アートボードを選択してください。（複数可）",
+  "ALERT_NO_SELECTION_ARTBOARD_TITLE": "アートボードが選択されていません",
+  "ALERT_NO_SELECTION_ARTBOARD_BODY": "アートボードを選択してください。（複数可）"
+}

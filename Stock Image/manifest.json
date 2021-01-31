@@ -1,0 +1,44 @@
+{
+	"id"             : "d01e5cc5",
+	"name"           : "Stock Image",
+	"version"        : "1.0.23",
+	"author"         : "QooQee.com",
+	"website"        : "https://qooqee.com",
+	"helpUrl"        : "https://support.qooqee.com",
+	"description"    : "Stock Image plugin is a powerful tool for searching, saving and licencing images from Adobe Stock, directly in XD.\n\nFeatures:\n\n1. Using Adobe Stock advanced searching features directly in XD.\n2. Similar and direct image-search.\n3. Advanced filtering.\n4. Licensing images directly in XD.\n5. Saving images for using in the design or for licensing later.\n\n© QooQee.com",
+	"summary"        : "Advanced image search for Adobe Stock",
+	"main"           : "main.js",
+	"host": {
+        "app"           : "XD",
+        "minVersion"    : "21.0"
+	},
+    "uiEntryPoints": [
+        {
+            "type"    : "panel",
+            "label"   : "Adobe Stock Images",
+            "panelId" : "adobeStockImages"
+        }
+	],
+	"languages": [
+        "en"
+	],
+	"keywords": [
+        "utility",
+        "productivity",
+		"automation",
+		"photo",
+		"images",
+		"artboard",
+		"qooqee",
+		"unsplash",
+		"design",
+		"adobestock"
+    ],
+    "icons": [
+        { "width": 24, "height": 24, "path": "src/media/icon/24.png" },
+        { "width": 48, "height": 48, "path": "src/media/icon/48.png" },
+        { "width": 96, "height": 96, "path": "src/media/icon/96.png" },
+        { "width": 144, "height": 144, "path": "src/media/icon/144.png" },
+        { "width": 192, "height": 192, "path": "src/media/icon/192.png" }
+	]
+}

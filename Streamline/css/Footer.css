@@ -1,0 +1,151 @@
+.Footer {
+    position: relative;
+    display: flex;
+    background: white;
+    height: 60px;
+    color: var(--textSuperDark);
+    border-top: 1px solid var(--mediumGrey);
+}
+
+.Footer__Search {
+    flex: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.Footer__Search img {
+    margin-left: 20px;
+}
+
+.Footer__Search input[type=text] {
+    border: none;
+    flex: 1;
+    font-size: 0.8rem;
+    min-height: 1em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    color: var(--textSuperDark);
+    background: white;
+}
+
+.Footer__Search input[type=search]::placeholder {
+    font-weight: 300;
+    color: var(--textSuperDark);
+    font-size: 0.8rem;
+}
+
+.Footer__Search input[type=search]:focus {
+    outline: none;
+}
+
+.Footer__Search input[type=search]:focus.disabled {
+    background-color: #dedede;
+    background-color: #dedede;
+}
+
+.Footer__Search input[type=search]:focus.disabled::placeholder {
+    color: #737373;
+}
+
+.Footer__HarmBurger_Menu {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-left: 1px solid #D5D9DD;
+}
+
+.Footer__Menu_Container {
+    float: right;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 0em;
+    bottom: 0px;
+    right: 0;
+    display: none;
+    z-index: 9999999;
+}
+
+.Footer__Menu--Show {
+    height: 7em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Footer__Menu {
+    width: 100%;
+    background: black;
+    list-style: none;
+    width: 14em;
+    transition: .5s;
+    top: 0px;
+    bottom: 0px;
+    border: 1px solid var(--borderLight);
+    border-radius: 3px;
+    box-shadow: 0px -2px 5px rgba(88, 44, 44, 0.1);
+
+}
+
+.Footer__menu__option {
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    padding: 14px;
+    color: white;
+}
+
+
+
+.Footer__menu__option--link {
+    color: white!important;
+}
+
+
+
+.Footer__menu__option--bottom-border {
+    border-bottom: 1px solid var(--borderLight);
+}
+
+.Footer__menu__option:hover{
+    background-color: var(--accentLight);
+    color: black;
+}
+
+.Footer__Menu a {
+    text-decoration: none;
+    color: var(--textBlack);
+}
+
+
+.UpgradeInfoBox{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    bottom: 53px;
+    background: #FFFFFF;
+    color: var(--accentStrong);
+    border-top: 1px solid var(--accentLight);
+    width: 100%;
+    height: 40px;
+}
+
+.UpgradeInfoBox a{
+    text-decoration: underline;
+    color: var(--accentStrong);
+    font-weight: bold;
+}
+
+
+.UpgradeInfoBox__text--underline{
+    color: var(--accentStrong);
+    text-decoration: underline;
+}

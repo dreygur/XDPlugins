@@ -1,0 +1,72 @@
+{
+    "id": "700b7996",
+    "name": "Lorem Ipsum",
+    "description": "A small plugin to insert placeholder text that fits your needs: As simple as you want it to be, yet as advanced as you need it to be…\n\nIt is as easy as selecting one or more text layer(s) and running the plugin from the plugin's menu. Alternatively, you can also use the keyboard shortcut \"Ctrl+Alt+L\" on Windows or \"Cmd+Option+L\" on macOS to run the plugin.\n\nLast but not least: I’m always happy to listen to feedback. Therefore, if you have any (may it be feature requests, bug reports or something else), please let me know via the support website, and I'll see how I can accommodate your wishes.",
+    "version": "1.3.0",
+    "host": {
+        "app": "XD",
+        "minVersion": "24.0"
+    },
+    "icons": [
+        { "width": 24, "height": 24, "path": "icons/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "icons/icon@2x.png" }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Lorem Ipsum...",
+            "menuItems": [
+                {
+                    "type": "menu",
+                    "label": {
+                        "default": "Fill with placeholder text…",
+                        "de": "Mit Platzhaltertext füllen…"
+                    },
+                    "commandId": "lorem",
+                    "shortcut": {
+                        "mac": "Cmd+Alt+L",
+                        "win": "Ctrl+Alt+L"
+                    }
+                },
+                {
+                    "type": "menu",
+                    "label": {
+                        "default": "Fill with placeholder text (last settings)",
+                        "de": "Mit Platzhaltertext füllen (wie letztes mal)"
+                    },
+                    "commandId": "quickLorem"
+                },
+                {
+                    "type": "menu",
+                    "label": {
+                        "default": "Quick Lorem Ipsum",
+                        "de": "Schnelles Lorem Ipsum"
+                    },
+                    "commandId": "loremPreconfigured"
+                },
+                {
+                    "type": "menu",
+                    "label": {
+                        "default": "Quick Lorem Ipsum (trim height)",
+                        "de": "Schnelles Lorem Ipsum (Höhe anpassen)"
+                    },
+                    "commandId": "loremPreconfiguredTrim"
+                }
+            ]
+        }
+    ],
+    "author": "Pablo Klaschka",
+    "summary": "Insert placeholder text",
+    "website": "https://xdplugins.pabloklaschka.de/plugins/lorem-ipsum",
+    "helpUrl": "https://xdplugins.pabloklaschka.de/plugins/lorem-ipsum#support",
+    "keywords": [
+        "Text",
+        "Placeholder text",
+        "Lorem Ipsum",
+        "Fill"
+    ],
+    "languages": [
+        "de",
+        "en"
+    ]
+}

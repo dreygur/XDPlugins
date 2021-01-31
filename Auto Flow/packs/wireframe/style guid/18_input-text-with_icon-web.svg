@@ -1,0 +1,12 @@
+<svg id="input_-_text_-_with_icon" data-name="input - text - with icon" xmlns="http://www.w3.org/2000/svg" width="365" height="58" viewBox="0 0 365 58">
+  <g id="Input_-_text" data-name="Input - text">
+    <g id="Rectangle_60" data-name="Rectangle 60" fill="#fff" stroke="#ededed" stroke-width="2">
+      <rect width="365" height="58" rx="7" stroke="none"/>
+      <rect x="1" y="1" width="363" height="56" rx="6" fill="none"/>
+    </g>
+  </g>
+  <g id="remove_red_eye-24px" transform="translate(327 17)">
+    <path id="Path_16" data-name="Path 16" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Path_17" data-name="Path 17" d="M12,4.5A11.827,11.827,0,0,0,1,12a11.817,11.817,0,0,0,22,0A11.827,11.827,0,0,0,12,4.5ZM12,17a5,5,0,1,1,5-5A5,5,0,0,1,12,17Zm0-8a3,3,0,1,0,3,3A3,3,0,0,0,12,9Z" fill="#b1b1b1"/>
+  </g>
+</svg>

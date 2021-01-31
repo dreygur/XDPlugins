@@ -1,0 +1,8 @@
+<svg id="__Panel_UI_-_list_tile_add_icon" data-name="__Panel UI - list tile add icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Ellipse_76" data-name="Ellipse 76" fill="#fff" stroke="#a2a2a2" stroke-width="1">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9.5" fill="none"/>
+  </g>
+  <line id="Line_66" data-name="Line 66" y2="6" transform="translate(10 7)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+  <line id="Line_67" data-name="Line 67" y2="6" transform="translate(13 10) rotate(90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "name": "React Native Generator",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "id": "ecd83aaa",
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "Entire Document",
+      "type": "menu",
+      "commandId": "generateCodeForEntireDocument"
+    },
+    {
+      "label": "Selected Component",
+      "type": "menu",
+      "commandId": "generateCodeForSelectedComponent"
+    }
+  ],
+  "version": "0.0.1"
+}

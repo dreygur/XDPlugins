@@ -1,0 +1,137 @@
+body {
+  font: 12px sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.all-humaaans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 33px;
+}
+
+.svgInline.svgInline--loaded {
+  height: 200px;
+  width: calc(25%);
+  transition: border 300ms ease-in-out;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.svgInline {
+  border-right: 1px solid #efe5e5;
+}
+
+.credits {
+  position: fixed;
+  bottom: -1px;
+  border-top: 1px solid #e5e5e5;
+  background: #fff;
+  z-index: 1;
+  width: 100%;
+  padding: 10px 0px;
+  color: #333;
+  text-align: center;
+}
+
+.credits a {
+  color: #18A0FB;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#create {
+  box-shadow: none;
+  background: #18A0FB;
+  color: white;
+}
+/* 
+.InputAddOn {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.InputAddOn-field {
+  flex: 1;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  font-size: 14px;
+  padding: 10px 10px;
+  padding-left: 40px;
+  margin-left: -33px;
+  margin-right: -9px;
+}
+
+.InputAddOn-field:hover,
+.InputAddOn-field:focus {
+  border-color: #18A0FB;
+} */
+/* 
+.InputAddOn-item {
+  z-index: 2;
+  color: #afaaaa;
+} */
+
+.no-result {
+  flex: 1;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* input:hover {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+} */
+
+button:focus {
+  box-shadow: inset 0 0 0 2px #18A0FB;
+}
+
+#create:focus {
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.pablo {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+.pablo,.tkmadeit {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pablo a {
+  margin-left: 5px;
+}
+.header-item {
+  display: flex;
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+}
+.close-button {
+  margin-right: auto;
+}
+.success-screen {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.success-actions {
+  display: flex;
+}

@@ -1,0 +1,102 @@
+{
+   "name": "Adjust Size by Shortcut",
+   "id": "669f929b",
+   "version":"2.0.0",
+   "description":"Adjust object size by Keyboard Shortcut.",
+   "icons":[
+      {
+         "width":96,
+         "height":96,
+         "path":"images/adjust-size-by-shortcut-icon.png"
+      }
+   ],
+   "host":{
+      "app":"XD",
+      "minVersion":"13.0.0"
+   },
+   "uiEntryPoints":[
+      {
+         "type":"menu",
+         "label":"Adjust Size by Shortcut",
+         "menuItems": [
+            {
+               "type":"menu",
+               "label":"Shrink Width",
+               "commandId": "ShrinkW",
+               "shortcut": {
+                  "mac": "Ctrl+4",
+                  "win": "Ctrl+alt+4"
+               }
+            },
+            {
+               "type":"menu",
+               "label":"Shrink Height",
+               "commandId": "ShrinkH",
+               "shortcut": {
+                  "mac": "Ctrl+8",
+                  "win": "Ctrl+alt+8"
+               }
+            },
+            {
+               "type":"menu",
+               "label":"Extend Width",
+               "commandId": "ExtendW",
+               "shortcut": {
+                  "mac": "Ctrl+6",
+                  "win": "Ctrl+alt+6"
+               }
+            },
+            {
+               "type":"menu",
+               "label":"Extend Height",
+               "commandId": "ExtendH",
+               "shortcut": {
+                  "mac": "Ctrl+5",
+                  "win": "Ctrl+alt+5"
+               }
+            },
+            {
+               "type":"menu",
+               "label":"Shrink Greatly Width",
+               "commandId": "ShrinkGW",
+               "shortcut": {
+                  "mac": "Ctrl+Shift+4",
+                  "win": "Ctrl+alt+Shift+4"
+               }
+            },
+            {
+               "type":"menu",
+               "label":"Shrink Greatly Height",
+               "commandId": "ShrinkGH",
+               "shortcut": {
+                  "mac": "Ctrl+Shift+8",
+                  "win": "Ctrl+alt+Shift+8"
+               }
+            },
+            {
+               "type":"menu",
+               "label":"Extend Greatly Width",
+               "commandId": "ExtendGW",
+               "shortcut": {
+                  "mac": "Ctrl+Shift+6",
+                  "win": "Ctrl+alt+Shift+6"
+               }
+            },
+            {
+               "type":"menu",
+               "label":"Extend Greatly Height",
+               "commandId": "ExtendGH",
+               "shortcut": {
+                  "mac": "Ctrl+Shift+5",
+                  "win": "Ctrl+alt+Shift+5"
+               }
+            },
+            {
+               "type":"menu",
+               "label": "Nudge Size Setting...",
+               "commandId": "Settings"
+            }
+         ]
+      }
+   ]
+}

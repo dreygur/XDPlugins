@@ -1,0 +1,38 @@
+{
+    "id": "224144f6",
+    "name": "Streamline",
+    "version": "0.0.2",
+    "description": "The world’s largest icon set since 2012. 30,000 vector icons for designers, developers, and makers.",
+    "summary": "Have access to the world’s largest icon set since 2012. 30,000 vector icons for designers, developers, and makers.",
+    "languages": ["en"],
+    "author": "Streamline",
+    "helpUrl": "https://streamlineicons.com",
+    "host": {
+      "app": "XD",
+      "minVersion": "21.0"
+    },
+    "uiEntryPoints": [
+      {
+        "type": "panel",
+        "label": "Streamline icons",
+        "panelId": "showIcons"
+      }
+    ],
+    "icons": [
+      {
+          "width": 24,
+          "height": 24,
+          "path": "assets/icons/icon24.png"
+      },
+      {
+        "width": 48,
+        "height": 48,
+        "path": "assets/icons/icon48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "assets/icons/icon96.png"
+  }
+  ]
+  }

@@ -1,0 +1,64 @@
+{
+  "id": "6df8ae59",
+  "name": "Chart",
+  "version": "0.0.4",
+  "description": "Chart is a plugin for Adobe XD that uses real or random data to create the most popular charts. Chart supports copy-paste from editors like Excel, Numbers, Google Sheets, live connection with Google Sheets and remote JSON (REST API), local CSV and JSON files.",
+  "summary": "Create charts with random, tabular or JSON data.",
+  "languages": ["en"],
+  "author": "Pavel Kuligin",
+  "helpUrl": "https://chartplugin.com/",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "img/chart24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "img/chart48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "img/chart96.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "img/chart144.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "img/chart192.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "28.0"
+  },
+  "uiEntryPoints": [
+    {
+        "type": "menu",
+        "label": "Create chart",
+        "commandId": "createChart",
+        "shortcut": { "mac": "Ctrl+Opt+C", "win": "Ctrl+Alt+C" }
+    },
+    {
+        "type": "menu",
+        "label": "Templates",
+        "commandId": "manageTemplates"
+    },
+    {
+        "type": "menu",
+        "label": "My account",
+        "commandId": "manageAccount"
+    },
+    {
+        "type": "menu",
+        "label": "Support in Slack",
+        "commandId": "supportCommand"
+    }
+  ]
+}

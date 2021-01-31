@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>copy-file-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M44,44V10a2,2,0,0,0-2-2H40V42H10v2a2,2,0,0,0,2,2H42A2,2,0,0,0,44,44Zm-8-8V4a2,2,0,0,0-2-2H6A2,2,0,0,0,4,4V36a2,2,0,0,0,2,2H34A2,2,0,0,0,36,36ZM18,30H14a2,2,0,0,1,0-4h4a2,2,0,0,1,0,4Zm8-8H14a2,2,0,0,1,0-4H26a2,2,0,0,1,0,4Zm0-8H14a2,2,0,0,1,0-4H26a2,2,0,0,1,0,4Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>audio-description</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M44,9H4a2,2,0,0,0-2,2V37a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V11A2,2,0,0,0,44,9ZM42,35H6V13H42Z"/>
+        <path d="M38,25V23a6,6,0,0,0-6-6H25V31h7A6,6,0,0,0,38,25Zm-9-4h3a2,2,0,0,1,2,2v2a2,2,0,0,1-2,2H29Z"/>
+        <path d="M14,27h5v4h4V21a4,4,0,0,0-4-4H14a4,4,0,0,0-4,4V31h4Zm5-6v2H14V21Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

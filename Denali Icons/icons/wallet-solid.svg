@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>wallet-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M43,14H41V8a2,2,0,0,0-2-2H10a6,6,0,0,0-6,6V36a6,6,0,0,0,6,6H43a2,2,0,0,0,2-2V16A2,2,0,0,0,43,14ZM8,12.3A2,2,0,0,1,10,10H37v4H10.1A2.1,2.1,0,0,1,8,12.3ZM41,34H29a2,2,0,0,1-2-2V24a2,2,0,0,1,2-2H41Z"/>
+      <circle cx="33" cy="28" r="2"/>
+    </g>
+  </g>
+</svg>

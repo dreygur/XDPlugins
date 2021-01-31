@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XD-plugin" transform="translate(-87.000000, -519.000000)">
+            <g id="scale" transform="translate(55.000000, 517.000000)">
+                <g id="Group-3" transform="translate(33.000000, 3.000000)">
+                    <circle id="Oval" stroke="#979797" stroke-width="0.8" cx="4" cy="4" r="4"></circle>
+                    <path d="M4.46289062,2.37792969 L4.46289062,1.48925781 L3.50244141,1.48925781 L3.50244141,2.37792969 L4.46289062,2.37792969 Z M4.46289062,6.5 L4.46289062,2.87011719 L3.50244141,2.87011719 L3.50244141,6.5 L4.46289062,6.5 Z" id="i" fill="#8E8E8E" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

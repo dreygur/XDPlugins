@@ -1,0 +1,20 @@
+{
+  "name" : "NIBM Icon Hamburger",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "Plugin to add hamburger icon to your artboard.",
+  "id" : "c91a5b5d",
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Add Hamburger Icon",
+    "type" : "menu",
+    "commandId" : "drawHamburger"
+  } ],
+  "version" : "1.0.1"
+}

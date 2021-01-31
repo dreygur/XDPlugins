@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-data-sets</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <circle cx="14" cy="12" r="2"/>
+      <circle cx="14" cy="22" r="2"/>
+      <circle cx="19" cy="17" r="2"/>
+      <circle cx="36" cy="34" r="2"/>
+      <circle cx="36" cy="24" r="2"/>
+      <circle cx="31" cy="29" r="2"/>
+      <path d="M41.7,20A2,2,0,0,0,44,18V6a2,2,0,0,0-2-2H30a2,2,0,0,0-2,2.3A2.1,2.1,0,0,0,30.1,8h7.1L8,37.2V6A2,2,0,0,0,4,6V44H42a2,2,0,0,0,0-4H10.8L40,10.8v7.1A2.1,2.1,0,0,0,41.7,20Z"/>
+    </g>
+  </g>
+</svg>

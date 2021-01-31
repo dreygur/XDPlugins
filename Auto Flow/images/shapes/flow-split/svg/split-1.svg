@@ -1,0 +1,8 @@
+<svg id="arrows_dark_arrow_4" data-name="arrows dark/arrow 4" xmlns="http://www.w3.org/2000/svg" width="129.068" height="85.746" viewBox="0 0 129.068 85.746">
+  <g id="arrow_4" data-name="arrow 4">
+    <path id="Path_4" data-name="Path 4" d="M64.064,0H10.858C4.861,0,0,2.91,0,6.5v65C0,75.09,4.861,78,10.858,78H64.064" transform="translate(60.004 3.746)" fill="none" stroke="#454d58" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_5" data-name="Path 5" d="M60.523,1H0" transform="translate(0 41.787)" fill="none" stroke="#454d58" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Triangle_R" data-name="Triangle R" d="M5,4,0,8V.254Z" transform="translate(124.068 -0.254)" fill="#454d58"/>
+    <path id="Triangle_R-2" data-name="Triangle R" d="M5,4,0,8V0Z" transform="translate(124.068 77.746)" fill="#454d58"/>
+  </g>
+</svg>

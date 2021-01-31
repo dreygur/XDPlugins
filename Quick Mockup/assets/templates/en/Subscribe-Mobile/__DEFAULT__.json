@@ -1,0 +1,1360 @@
+{
+  "type": "Artboard",
+  "name": "Subscribe - Mobile",
+  "visible": true,
+  "opacity": 1,
+  "rotation": 0,
+  "fillEnabled": true,
+  "fill": "#fbfbfb",
+  "strokeEnabled": false,
+  "strokeWidth": 1,
+  "strokePosition": "center",
+  "strokeEndCaps": "butt",
+  "strokeJoins": "miter",
+  "strokeMiterLimit": 10,
+  "strokeDashArray": [],
+  "strokeDashOffset": 0,
+  "shadow": null,
+  "blur": null,
+  "width": 375,
+  "height": 812,
+  "viewportHeight": 812,
+  "children": [
+    {
+      "type": "Rectangle",
+      "name": "Background [STYLE=STYLE2]",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "fillEnabled": true,
+      "fill": "#ebebeb",
+      "strokeEnabled": false,
+      "stroke": "#707070",
+      "strokeWidth": 1,
+      "strokePosition": "inside",
+      "strokeEndCaps": "butt",
+      "strokeJoins": "miter",
+      "strokeMiterLimit": 4,
+      "strokeDashArray": [],
+      "strokeDashOffset": 0,
+      "shadow": null,
+      "blur": null,
+      "width": 375,
+      "height": 812,
+      "cornerRadii": {
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomRight": 0,
+        "bottomLeft": 0
+      },
+      "__isComponent": true,
+      "__componentType": "Background"
+    },
+    {
+      "type": "Group",
+      "name": "Subscribe",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": -5,
+        "y": 22
+      },
+      "children": [
+        {
+          "type": "Group",
+          "name": "Card [DISPLAY_ELEMENTS=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 216.8603515625,
+            "y": 109.99609375
+          },
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=DEFAULT]",
+              "visible": true,
+              "opacity": 0.999970018863678,
+              "rotation": 0,
+              "translation": {
+                "x": -187.8603515625,
+                "y": 0.00390625
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": {
+                "x": 8,
+                "y": 8,
+                "blur": 0,
+                "color": {
+                  "value": 436207616
+                },
+                "visible": true
+              },
+              "blur": null,
+              "width": 328,
+              "height": 524,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__isComponent": true,
+              "__componentType": "Rectangle"
+            },
+            {
+              "name": "METADATA",
+              "visible": false,
+              "text": "{\"config\":{\"DISPLAY_ELEMENTS\":\"DEFAULT\"},\"type\":\"Card\",\"theme\":\"Base\",\"__plugin\":\"Mockup\",\"__version\":\"1.0.39\",\"__lastUpdate\":\"2020-06-09T11:28:51.768Z\"}",
+              "type": "Text"
+            }
+          ],
+          "__isComponent": true,
+          "__componentType": "Card"
+        },
+        {
+          "type": "Group",
+          "name": "Button [DISPLAY_ELEMENTS=Icon][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 277,
+            "y": 554
+          },
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Icon][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__isComponent": true,
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 17.454544067382812,
+                "y": 30
+              },
+              "fillEnabled": true,
+              "fill": "#fcfcfc",
+              "strokeEnabled": false,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Label",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "SemiBold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Group",
+              "name": "Icon [DISPLAY_ELEMENTS=Icon][ICON=feather/send][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Icon][ICON=feather/send][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__isComponent": true,
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -0.9998779296875,
+                    "y": -1.0003662109375
+                  },
+                  "children": [
+                    {
+                      "type": "Line",
+                      "name": "Line [DISPLAY_ELEMENTS=Icon][ICON=feather/send][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 10.166544914245605,
+                        "y": 2.6670329570770264
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#fcfcfc",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 9.166666984558105,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 9.166666984558105
+                      },
+                      "__isComponent": true,
+                      "__componentType": "Line"
+                    },
+                    {
+                      "type": "Path",
+                      "name": "Path [DISPLAY_ELEMENTS=Icon][ICON=feather/send][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0.9998779296875,
+                        "y": 1.0003662109375
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#fcfcfc",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 18.33300018310547 1.66700005531311 L 12.5 18.33300018310547 L 9.166999816894531 10.83300018310547 L 1.66700005531311 7.5 L 18.33300018310547 1.66700005531311 Z",
+                      "__isComponent": true,
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "name": "METADATA",
+                  "visible": false,
+                  "text": "{\"config\":{\"STATE\":\"DEFAULT\",\"STYLE\":\"STYLE1\",\"SIZE\":\"MEDIUM\",\"ICON\":\"feather/send\"},\"type\":\"Icon\",\"theme\":\"Base\",\"__plugin\":\"Mockup\",\"__version\":\"1.0.39\",\"__lastUpdate\":\"2020-06-09T11:28:51.792Z\"}",
+                  "type": "Text"
+                }
+              ],
+              "__isComponent": true,
+              "__componentType": "Icon"
+            },
+            {
+              "name": "METADATA",
+              "visible": false,
+              "text": "{\"config\":{\"STATE\":\"DEFAULT\",\"STYLE\":\"STYLE1\",\"DISPLAY_ELEMENTS\":\"Icon\",\"SIZE\":\"MEDIUM\"},\"type\":\"Button\",\"theme\":\"Base\",\"__plugin\":\"Mockup\",\"__version\":\"1.0.39\",\"__lastUpdate\":\"2020-06-09T11:28:51.794Z\"}",
+              "type": "Text"
+            }
+          ],
+          "__isComponent": true,
+          "__componentType": "Button"
+        },
+        {
+          "type": "Group",
+          "name": "Input [DISPLAY_ELEMENTS=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 61,
+            "y": 554
+          },
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Default][STATE=DEFAULT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 208,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__isComponent": true,
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Value",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 16,
+                "y": 30
+              },
+              "fillEnabled": true,
+              "fill": "#3e3e3e",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Your email",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "SemiBold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Group",
+              "name": "Icon [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 174,
+                "y": 15
+              },
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__isComponent": true,
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 2.54345703125,
+                    "y": 2.5
+                  },
+                  "children": [
+                    {
+                      "type": "Ellipse",
+                      "name": "Path [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.04345703125,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "radiusX": 6.666666507720947,
+                      "radiusY": 6.666666507720947,
+                      "__isComponent": true,
+                      "__componentType": "Ellipse"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 11.33154296875,
+                        "y": 11.375
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 3.625,
+                        "y": 3.625
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "__isComponent": true,
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "name": "METADATA",
+                  "visible": false,
+                  "text": "{\"config\":{\"STATE\":\"DEFAULT\",\"STYLE\":\"STYLE1\",\"SIZE\":\"MEDIUM\",\"ICON\":\"Feather/Search\"},\"type\":\"Icon\",\"theme\":\"Base\",\"__plugin\":\"Mockup\",\"__version\":\"1.0.39\",\"__lastUpdate\":\"2020-06-09T11:28:51.797Z\"}",
+                  "type": "Text"
+                }
+              ],
+              "__isComponent": true,
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": -12
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Label",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "Bold",
+              "fontSize": 13,
+              "charSpacing": 40,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 19,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "name": "METADATA",
+              "visible": false,
+              "text": "{\"config\":{\"STATE\":\"DEFAULT\",\"DISPLAY_ELEMENTS\":\"Default\"},\"type\":\"Input\",\"theme\":\"Base\",\"__plugin\":\"Mockup\",\"__version\":\"1.0.39\",\"__lastUpdate\":\"2020-06-09T11:28:51.799Z\"}",
+              "type": "Text"
+            }
+          ],
+          "__isComponent": true,
+          "__componentType": "Input"
+        },
+        {
+          "type": "Text",
+          "name": "Description [PLATFORM=MOBILE][STYLE=STYLE1][TAG=P]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 61,
+            "y": 427.96966552734375
+          },
+          "fillEnabled": true,
+          "fill": "#737373",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+          "fontFamily": "Noto Sans",
+          "fontStyle": "Medium",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "center",
+          "lineSpacing": 24,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 264,
+            "height": 94
+          },
+          "__isComponent": true,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Title [PLATFORM=MOBILE][STYLE=STYLE1][TAG=H4]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 135,
+            "y": 405
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Subscribe",
+          "fontFamily": "Noto Sans",
+          "fontStyle": "Bold",
+          "fontSize": 24,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 32,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__isComponent": true,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 293,
+            "y": 126
+          },
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__isComponent": true,
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__isComponent": true,
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -0.9998779296875,
+                    "y": -1.0003662109375
+                  },
+                  "children": [
+                    {
+                      "type": "Line",
+                      "name": "Line [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 5.9998779296875,
+                        "y": 6.0003662109375
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 10,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 10
+                      },
+                      "__isComponent": true,
+                      "__componentType": "Line"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 5.9998779296875,
+                        "y": 6.0003662109375
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 10,
+                        "y": 10
+                      },
+                      "__isComponent": true,
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "name": "METADATA",
+                  "visible": false,
+                  "text": "{\"config\":{\"STATE\":\"DEFAULT\",\"STYLE\":\"STYLE2\",\"SIZE\":\"MEDIUM\",\"ICON\":\"feather/x\"},\"type\":\"Icon\",\"theme\":\"Base\",\"__plugin\":\"Mockup\",\"__version\":\"1.0.39\",\"__lastUpdate\":\"2020-06-09T11:28:51.787Z\"}",
+                  "type": "Text"
+                }
+              ],
+              "__isComponent": true,
+              "__componentType": "Icon"
+            },
+            {
+              "name": "METADATA",
+              "visible": false,
+              "text": "{\"config\":{\"STATE\":\"DEFAULT\",\"STYLE\":\"STYLE2\",\"SIZE\":\"MEDIUM\"},\"type\":\"CircleButton\",\"theme\":\"Base\",\"__plugin\":\"Mockup\",\"__version\":\"1.0.39\",\"__lastUpdate\":\"2020-06-09T11:28:51.788Z\"}",
+              "type": "Text"
+            }
+          ],
+          "__isComponent": true,
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Illustration",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": -237.3079833984375,
+            "y": 179
+          },
+          "children": [
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -211.38858032226562,
+                "y": -188.7745819091797
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 636.2034301757812 214.6812438964844 C 637.9849243164062 214.8675842285156 639.7728271484375 214.3932189941406 641.2276611328125 213.3482055664062 C 642.6666870117188 212.3043518066406 643.8901977539062 210.991943359375 644.8307495117188 209.4833221435547 C 646.4869995117188 206.9851531982422 647.6813354492188 204.2099304199219 648.35693359375 201.2897338867188 C 649.494873046875 202.6574554443359 651.2957763671875 203.2840118408203 653.0369262695312 202.9180297851562 C 655.82470703125 202.2921600341797 657.4965209960938 199.0395202636719 656.9527587890625 196.2345581054688 C 656.4090576171875 193.4296264648438 654.10791015625 191.205810546875 651.4818115234375 190.0800628662109 C 648.8558349609375 188.9543151855469 645.92919921875 188.7683563232422 643.072021484375 188.7746887207031 C 641.18798828125 188.7788848876953 639.2679443359375 188.8667449951172 637.498291015625 189.5129089355469 C 635.7286376953125 190.1590728759766 634.1072998046875 191.4468994140625 633.4786376953125 193.222900390625 C 633.08447265625 194.3363647460938 633.0972900390625 195.5687713623047 632.649169921875 196.6615905761719 C 631.83544921875 198.6455688476562 629.7252197265625 199.7289733886719 627.7447509765625 200.551025390625 C 625.7642211914062 201.373046875 623.6112060546875 202.2078399658203 622.4432373046875 204.0061950683594 C 621.1243896484375 206.0369567871094 621.5050048828125 208.8712158203125 622.9583740234375 210.8079833984375 C 624.4118041992188 212.7447509765625 626.74609375 213.8677673339844 629.1215209960938 214.3373870849609 C 631.4970092773438 214.8070068359375 633.9443359375 214.6908721923828 636.3629150390625 214.5728149414062",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -18.36757469177246,
+                "y": -258.306884765625
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 421.5604248046875 411.2859497070312 L 413.7550048828125 407.9010925292969 L 417.9902648925781 399.1839904785156 L 424.293701171875 402.8728637695312 L 421.5604248046875 411.2859497070312 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -22.23320198059082,
+                "y": -166.12579345703125
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 454.3003540039062 274.4089050292969 L 446.76171875 289.74267578125 L 433.458251953125 316.8052978515625 L 419.7419738769531 310.214111328125 L 434.8833312988281 274.7650146484375 L 434.9262084960938 270.3026123046875 L 435.0615844726562 256.4169921875 L 454.3003540039062 274.4089050292969 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -104.35989379882812,
+                "y": -253.12213134765625
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 557.803466796875 399.1698913574219 L 549.7872314453125 402.0200805664062 L 546.93701171875 392.7569580078125 L 554.0625 391.1539916992188 L 557.803466796875 399.1698913574219 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -242.7129669189453,
+                "y": -287.6671142578125
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 694.3751220703125 353.3826904296875 L 670.1485595703125 346.4353637695312 L 677.2739868164062 341.6257019042969 L 695.978271484375 347.5041809082031 L 704.4359130859375 349.5339965820312 C 705.645751953125 349.8243408203125 706.663330078125 350.6386108398438 707.2119140625 351.7553100585938 C 707.760498046875 352.8720092773438 707.7830810546875 354.1751098632812 707.2734375 355.3101196289062 L 707.2734375 355.3101196289062 C 706.7957763671875 356.3740844726562 705.895263671875 357.1900329589844 704.78955078125 357.5608520507812 C 703.6837768554688 357.9317016601562 702.473388671875 357.8236999511719 701.4508056640625 357.262939453125 L 694.3751220703125 353.3826904296875 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/BACKGROUND]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -240.5613250732422,
+                "y": -236.9375
+              },
+              "fillEnabled": true,
+              "fill": "#fbfbfb",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 676.7255249023438 291.1643676757812 L 666.9281005859375 296.86474609375 C 666.0634765625 289.7359313964844 670.3257446289062 277.0460510253906 675.65673828125 263.1969909667969 L 675.65673828125 263.1969909667969 C 678.83740234375 265.5002746582031 680.4930419921875 269.3666687011719 679.9649047851562 273.258056640625 L 676.7255249023438 291.1643676757812 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -165.94500732421875,
+                "y": -275.9781494140625
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 559.8909912109375 344.36865234375 L 559.68505859375 351.6806945800781 C 559.648681640625 352.9702758789062 559.0240478515625 354.1722412109375 557.9896850585938 354.943115234375 C 556.9552612304688 355.7140197753906 555.6248779296875 355.968994140625 554.3787841796875 355.6352233886719 L 554.3787841796875 355.63525390625 C 553.1797485351562 355.3140869140625 552.18310546875 354.48095703125 551.6544799804688 353.35791015625 C 551.1258544921875 352.23486328125 551.1188354492188 350.9359130859375 551.6353759765625 349.8072204589844 L 554.3687744140625 343.834228515625 L 562.9193115234375 323.5267028808594 L 568.7977905273438 325.6643371582031 L 559.8909912109375 344.36865234375 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Ellipse",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 426.09954833984375,
+                "y": 3.8354551792144775
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "radiusX": 7.659853935241699,
+              "radiusY": 7.659853935241699,
+              "__isComponent": true,
+              "__componentType": "Ellipse"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -71.5744400024414,
+                "y": -24.35618782043457
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 505.066650390625 51.97294235229492 L 496.1600036621094 47.69766235351562 L 500.6131591796875 37.72200012207031 L 508.0950927734375 39.1470947265625 L 505.066650390625 51.97294235229492 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/BACKGROUND]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -210.251708984375,
+                "y": -226.37457275390625
+              },
+              "fillEnabled": true,
+              "fill": "#fbfbfb",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 638.0435791015625 290.15283203125 L 619.8736572265625 285.6994018554688 L 623.5222778320312 252.2538452148438 C 623.8701782226562 249.0647277832031 626.7088012695312 246.7421875 629.9036865234375 247.0326385498047 L 635.9059448242188 247.5782928466797 L 644.1002197265625 251.3191528320312 L 647.1284790039062 254.5255889892578 L 646.2044677734375 258.4772033691406 C 647.0658569335938 266.6162109375 646.40185546875 273.6786193847656 641.669921875 277.8697204589844 L 638.0435791015625 290.15283203125 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/BACKGROUND]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -183.9581756591797,
+                "y": -227.2803497314453
+              },
+              "fillEnabled": true,
+              "fill": "#fbfbfb",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 588.5923461914062 278.4109497070312 L 579.151123046875 275.9170532226562 L 591.8087768554688 254.9528045654297 C 594.5208129882812 250.4609680175781 599.5838623046875 247.9404449462891 604.802734375 248.4840698242188 L 604.802734375 248.4840850830078 L 599.9930419921875 264.3381958007812 C 595.5460815429688 267.6938171386719 591.81005859375 272.5172119140625 588.5923461914062 278.4109497070312 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -200.42636108398438,
+                "y": -290.62738037109375
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 654.22607421875 429.5498046875 L 639.7970581054688 433.8250732421875 C 622.22705078125 405.3009338378906 597.068115234375 374.5611572265625 606.8418579101562 354.0201110839844 L 610.404541015625 345.647705078125 L 628.9307861328125 351.3480834960938 L 629.9995727539062 373.4369506835938 L 641.4002685546875 391.2505493164062 L 654.22607421875 429.5498046875 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -271.9279479980469,
+                "y": -453.1041259765625
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 732.8076171875 611.42138671875 L 719.984375 611.2952880859375 C 717.4453735351562 611.2786865234375 715.3958129882812 609.2156982421875 715.3958129882812 606.676513671875 L 715.395751953125 600.2840576171875 C 715.3939208984375 599.8148193359375 715.6156005859375 599.372802734375 715.99267578125 599.0936279296875 C 716.369873046875 598.814453125 716.857421875 598.7316284179688 717.3055419921875 598.8704833984375 C 719.621826171875 599.6130981445312 721.5181884765625 599.3659057617188 722.9482421875 598.019775390625 C 723.8055419921875 597.212890625 723.9056396484375 597.05078125 724.9260864257812 597.6378784179688 L 730.7154541015625 603.961669921875 L 733.0634155273438 604.1131591796875 C 734.8836669921875 604.2305908203125 736.3392333984375 605.6710205078125 736.4755859375 607.4898681640625 L 736.4755859375 607.4899291992188 C 736.552001953125 608.5082397460938 736.19921875 609.51220703125 735.5025634765625 610.2589111328125 C 734.805908203125 611.005615234375 733.8287963867188 611.4270629882812 732.8076171875 611.42138671875 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -174.22764587402344,
+                "y": -456.94708251953125
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 574.3905639648438 623.8612060546875 L 565.412353515625 614.7047729492188 C 563.628662109375 612.8975830078125 563.63818359375 609.9895629882812 565.4336547851562 608.194091796875 L 569.953857421875 603.6739501953125 C 570.2843017578125 603.3408203125 570.7536010742188 603.1849975585938 571.2176513671875 603.2542724609375 C 571.6817626953125 603.3236083984375 572.0850830078125 603.6097412109375 572.3037109375 604.02490234375 C 573.41650390625 606.187744140625 574.9322509765625 607.3539428710938 576.895263671875 607.413330078125 C 578.072021484375 607.4489135742188 578.2574462890625 607.405029296875 578.5639038085938 608.541748046875 L 578.18603515625 617.1070556640625 L 579.7391357421875 618.87451171875 C 580.9431762695312 620.2445678710938 580.953857421875 622.2923583984375 579.7642211914062 623.6749267578125 L 579.7642211914062 623.6749267578125 C 579.09814453125 624.4490966796875 578.1387939453125 624.909423828125 577.1181640625 624.94482421875 C 576.0975952148438 624.980224609375 575.108642578125 624.5873413085938 574.3905639648438 623.8612060546875 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -222.91734313964844,
+                "y": -193.0820770263672
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 656.3677368164062 202.7900695800781 C 657.4166870117188 204.4587097167969 658.9752807617188 205.7450103759766 660.8126220703125 206.4583435058594 C 662.1139526367188 206.95947265625 663.76513671875 207.083984375 664.7418212890625 206.0887145996094 C 665.4494018554688 205.3677520751953 665.5903930664062 204.2581634521484 665.489990234375 203.2530517578125 C 665.1766357421875 200.1157073974609 662.8186645507812 197.3836975097656 659.89306640625 196.2081604003906 C 656.9674072265625 195.0326385498047 653.5899658203125 195.2896118164062 650.6702880859375 196.479736328125 C 647.9154663085938 197.6026153564453 645.2991943359375 199.9030456542969 645.1510620117188 202.8741760253906 C 645.0750732421875 204.3967895507812 645.62646484375 206.0733947753906 644.80908203125 207.3602752685547 C 644.1934814453125 208.3294982910156 643.0045166015625 208.7233276367188 641.9395751953125 209.1525268554688 C 640.8745727539062 209.5817260742188 639.7315673828125 210.2590179443359 639.5130004882812 211.3861999511719 C 639.4052124023438 212.1725769042969 639.6773681640625 212.96337890625 640.2462158203125 213.5168609619141 C 640.8125 214.0575866699219 641.482666015625 214.4777221679688 642.216064453125 214.7518463134766 C 643.9527587890625 215.4913635253906 645.8646240234375 215.952392578125 647.73046875 215.66650390625 C 649.5963134765625 215.3805847167969 651.4005126953125 214.2443542480469 652.1307373046875 212.503662109375 C 652.6930541992188 211.1632080078125 652.577880859375 209.6505737304688 652.512939453125 208.1983947753906 C 652.4480590820312 206.7462158203125 652.4677734375 205.1996002197266 653.2431030273438 203.9700164794922 C 654.0184326171875 202.7404479980469 655.818603515625 202.0520935058594 656.9773559570312 202.9297790527344",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": -16.000000242857922,
+              "translation": {
+                "x": 456.053955078125,
+                "y": 45.891597747802734
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 24.36907386779785 1.354850798473408e-15 L 0.8345233798027039 8.03431079261438e-15 C 0.01035888586193323 8.268221482097497e-15 -0.3134258091449738 1.069455623626709 0.3727226853370667 1.52668821811676 L 12.13936710357666 9.371309280395508 C 12.41931819915771 9.558401107788086 12.78430271148682 9.558401107788086 13.06425380706787 9.371309280395508 L 24.83090019226074 1.52668821811676 C 25.51703643798828 1.069455623626709 25.19325065612793 1.120937144374976e-15 24.36907386779785 1.354850798473408e-15 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": -16.000000242857922,
+              "translation": {
+                "x": 453.4930725097656,
+                "y": 48.18134307861328
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 30.10114479064941 0.141180232167244 L 16.16089057922363 9.435294151306152 C 15.88093948364258 9.621736526489258 15.51595497131348 9.621736526489258 15.23600387573242 9.435294151306152 L 1.295762896537781 0.141180232167244 C 0.7417517900466919 -0.2277236580848694 6.856890526701171e-15 0.1693251132965088 6.534738485871943e-15 0.8345427513122559 L -2.063644157087544e-15 18.5894832611084 C -2.286645062210026e-15 19.04996109008789 0.3728479146957397 19.42279624938965 0.8333380818367004 19.42279624938965 L 30.56356811523438 19.42279624938965 C 31.02407073974609 19.42279624938965 31.39688110351562 19.04996109008789 31.39688110351562 18.5894832611084 L 31.39688110351562 0.8345427513122559 C 31.39688110351562 0.1693251132965088 30.65515518188477 -0.2277236580848694 30.10114479064941 0.141180232167244 Z",
+              "__isComponent": true,
+              "__componentType": "Path"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "__isComponent": true,
+  "__componentType": "Subscribe - Mobile"
+}

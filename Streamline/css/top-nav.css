@@ -1,0 +1,76 @@
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: none;
+    background-color: white;
+    width: 100%;
+    max-height: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 10px;
+    border-bottom: 1px solid var(--borderGreyLight);
+    float: none;
+}
+
+.top-nav__select {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    text-transform: capitalize;
+    align-items: center;
+    width: 40%;
+    border-right: 1px solid var(--borderGreyLight)
+}
+
+.top-nav__sizeInput {
+    flex: 1;
+    display: flex;
+    place-items: center;
+}
+
+.top-nav__sizeInput p {
+    padding: 5px 6px 4px 0px;
+    color: var(--textSuperDark);
+}
+
+.top-nav__sizeInput input {
+    width: 95%;
+    border: none;
+    text-align: center;
+    outline: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.menu-list {
+    overflow: scroll;
+    height: 100%;
+    z-index: 99999;
+}
+
+.menu-list div {
+    background: black;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    border-bottom: 1px solid var(--borderLight);
+    text-decoration: none;
+    padding: 13px;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 99999;
+}
+
+.menu-list--active {
+    display: block !important;
+}
+
+.menu-list div:hover {
+    background: var(--accentLight);
+    color: black
+}

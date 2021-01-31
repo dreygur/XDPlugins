@@ -1,0 +1,38 @@
+{
+    "id": "ead5a3a9",
+    "author": "Devender, Jose, Muthukumar, Amit",
+    "name": "PPT for XD",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+        { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+    "keywords": [
+        "xd",
+        "ppt",
+        "pptx",
+        "powerpoint",
+        "power",
+        "point",
+        "image"
+    ],
+    "version": "1.0.1",
+    "description": "Converts XD files to PPT file with images.",
+    "summary": "XD files to PPT images.",
+    "languages": [
+        "en"
+    ],
+    "helpUrl": "https://twitter.com/dvrvrm",
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "commandId": "exportPPTAsImage"
+        }
+    ]
+}

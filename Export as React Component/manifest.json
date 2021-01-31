@@ -1,0 +1,63 @@
+{
+    "id": "72da1205",
+    "name": "Export as React Component",
+    "version": "1.0.7",
+    "description": "Select elements and or groups in your artboard, and export them as react functional components. Name of Group / Element ist the Component Name. (AppIcon => AppIconComponent.js)",
+    "summary": "Export layers as ReactJS",
+    "releaseNotes": "v1.0.7: Added custom message, in case nothing is selected.",
+    "keywords": [
+        "react",
+        "react native",
+        "native",
+        "export",
+        "js",
+        "javascript",
+        "automation",
+        "developer",
+        "designer"
+    ],
+    "languages": [
+        "en"
+    ],
+    "website": "https://webpixels.at",
+    "author": "Johannes Pichler",
+    "email": "j.pichler@webpixels.at",
+    "helpUrl": "https://bitbucket.org/joeherold/export-react/issues",
+    "icons": [
+        {
+            "path": "images/icon@1x.png",
+            "width": 48,
+            "height": 48
+        },
+        {
+            "path": "images/icon@2x.png",
+            "width": 96,
+            "height": 96
+        },
+        {
+            "path": "images/icon@3x.png",
+            "width": 144,
+            "height": 144
+        },
+        {
+            "path": "images/icon@4x.png",
+            "width": 192,
+            "height": 192
+        }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Export for React",
+            "commandId": "menuCommand",
+            "shortcut": {
+                "mac": "Cmd+Alt+R",
+                "win": "Ctrl+Alt+R"
+            }
+        }
+    ]
+}

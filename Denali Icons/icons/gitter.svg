@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>gitter</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icon">
+    	<rect x="8.875" y="3" width="4" height="26.25"/>
+    	<rect x="17.625" y="10" width="4" height="35"/>
+    	<rect x="26.375" y="10" width="4" height="35"/>
+    	<rect x="35.125" y="10" width="4" height="19.25"/>
+    </g> 
+  </g>
+</svg>

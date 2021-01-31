@@ -1,0 +1,54 @@
+{
+  "_from": "xd-json-wrapper",
+  "_id": "xd-json-wrapper@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-HFqw9f8IrPYaz4FJOJapRSrCmyGfGES73AtwdF+00Okjb00khC4tz/eDGBxhN+limTVkO9pj+UxLPvgtUYsHzA==",
+  "_location": "/xd-json-wrapper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "xd-json-wrapper",
+    "name": "xd-json-wrapper",
+    "escapedName": "xd-json-wrapper",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/xd-json-wrapper/-/xd-json-wrapper-1.0.0.tgz",
+  "_shasum": "9adb605947f5f192423fb9651b5a8ff7c820a6af",
+  "_spec": "xd-json-wrapper",
+  "_where": "C:\\Users\\alberto.moreira\\AppData\\Local\\Packages\\Adobe.CC.XD_adky2gkssdxte\\LocalState\\develop\\56a33ad2\\lib",
+  "author": {
+    "name": "Sven Schannak"
+  },
+  "bugs": {
+    "url": "https://github.com/svschannak/xd-json-wrapper/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Wrapper for XD Elements, Artboard and document to convert to json",
+  "homepage": "https://github.com/svschannak/xd-json-wrapper#readme",
+  "keywords": [
+    "adobe",
+    "xd",
+    "json",
+    "helper",
+    "wrapper"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "xd-json-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svschannak/xd-json-wrapper.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

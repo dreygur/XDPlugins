@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="161" height="28" viewBox="0 0 161 28">
+  <g id="Group_346" data-name="Group 346" transform="translate(-131 -184)">
+    <text id="Title_6" data-name="Title 6" transform="translate(174 206)" fill="rgba(0,0,0,0.87)" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Radio Button</tspan></text>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(131 184)" fill="#fff" stroke="#666" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+  </g>
+</svg>

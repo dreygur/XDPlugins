@@ -1,0 +1,17 @@
+{
+  "SETTING_TITLE": "Print Artboard Settings",
+  "SETTING_LABEL_RESOLUTION": "Resolution & Unite",
+  "SETTING_LABEL_OFFSET_RESOLUTION": "Enter Resolution value : ",
+  "SETTING_LABEL_OFFSET_UNITE": "Select size unite : ",
+  "SETTING_LABEL_SIZE_TITLE": "Dosument size",
+  "SETTING_LABEL_SIZE": "Select size : ",
+  "SETTING_LABEL_SIZE_WIDTH": "Width : ",
+  "SETTING_LABEL_SIZE_HEIGHT": "Height : ",
+  "SETTING_NOTE": "Or enter the custom size values.",
+  "SETTING_LABEL_OFFSET": "Offset Bounding",
+  "SETTING_LABEL_OFFSET_BOTTOM": "Bottom",
+  "ALERT_NO_ARTBOARD_TITLE": "Not Artboards",
+  "ALERT_NO_ARTBOARD_BODY": "No Artboard in selection. Please select Artboards.",
+  "ALERT_NO_SELECTION_ARTBOARD_TITLE": "Artboard not selected",
+  "ALERT_NO_SELECTION_ARTBOARD_BODY": "Artboard is not selected. Please select Artboards."
+}

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="background" x="1339" y="23" width="562" height="852" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Template:_成果_労力マトリックス">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Template:_成果_労力マトリックス" data-name="Template: 成果・労力マトリックス" clip-path="url(#clip-Template:_成果_労力マトリックス)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="frame">
+      <rect id="Rectangle_147669" data-name="Rectangle 147669" width="820" height="360" transform="translate(180 200)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <rect id="Rectangle_147672" data-name="Rectangle 147672" width="820" height="360" transform="translate(180 560)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <rect id="Rectangle_147670" data-name="Rectangle 147670" width="820" height="360" transform="translate(1000 200)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <rect id="Rectangle_147671" data-name="Rectangle 147671" width="820" height="360" transform="translate(1000 560)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+    </g>
+    <g id="matrix">
+      <text id="label" transform="translate(118 300) rotate(-90)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">成果</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> +</tspan></text>
+      <text id="label-2" data-name="label" transform="translate(118 958) rotate(-90)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">成果</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> -</tspan></text>
+      <text id="label-3" data-name="label" transform="translate(1749 998)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">労力</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> +</tspan></text>
+      <text id="label-4" data-name="label" transform="translate(140 998)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">労力</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> -</tspan></text>
+      <g id="Element_-_Flowchart_connector_Straight_b_" data-name="Element - Flowchart connector [Straight b]" transform="translate(147 960) rotate(180)">
+        <path id="line_color_border_" data-name="line [color_border]" d="M389,100V860" transform="translate(-382 -100)" fill="none" stroke="#101010" stroke-width="4"/>
+        <g id="arrow_head" data-name="arrow head" transform="translate(14.143 752.929) rotate(135)">
+          <line id="line_color_border_2" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+          <line id="line_color_border_3" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+        </g>
+      </g>
+      <g id="Element_-_Flowchart_connector_Straight_b_2" data-name="Element - Flowchart connector [Straight b]" transform="translate(140.001 965) rotate(-90)">
+        <path id="line_color_border_4" data-name="line [color_border]" d="M389,100V1780" transform="translate(-382 -100)" fill="none" stroke="#101010" stroke-width="4"/>
+        <g id="arrow_head-2" data-name="arrow head" transform="translate(14.143 1672.929) rotate(135)">
+          <line id="line_color_border_5" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+          <line id="line_color_border_6" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">アイデアを成果と労力のマトリックスで整理することで効果的に優先順位付・意思決定を進めるテクニックです。</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">成果・労力マトリックス</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-112.192" y="0">2020</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">年</tspan><tspan y="0">3</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">月</tspan><tspan y="0">20</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">日</tspan></text>
+      <text id="プロジェクト名" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-112" y="0">プロジェクト名</tspan></text>
+    </g>
+    <text id="成果大_労力小" data-name="成果大、労力小" transform="translate(260 245)" fill="#101010" font-size="18" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">成果大、労力小</tspan></text>
+    <text id="成果小_労力小" data-name="成果小、労力小" transform="translate(260 607)" fill="#101010" font-size="18" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">成果小、労力小</tspan></text>
+    <text id="成果大_労力大" data-name="成果大、労力大" transform="translate(1080 243)" fill="#101010" font-size="18" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">成果大、労力大</tspan></text>
+    <text id="成果小_労力大" data-name="成果小、労力大" transform="translate(1080 603)" fill="#101010" font-size="18" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">成果小、労力大</tspan></text>
+    <g id="Emotion_-_Love_-_Element" data-name="Emotion - Love - Element" transform="translate(200 220)">
+      <circle id="ellipse_color_border_" data-name="ellipse [color_border]" cx="20" cy="20" r="20" stroke-width="3.5" stroke="#26cc2c" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+      <path id="line_color_border_7" data-name="line [color_border]" d="M328.594,484.948a10,10,0,0,1-17.322,0" transform="translate(-299.933 -459.946)" fill="none" stroke="#26cc2c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <path id="line_color_border_8" data-name="line [color_border]" d="M5.75,0A2.24,2.24,0,0,0,4,.838,2.249,2.249,0,0,0,0,2.25C0,4.912,3.739,7.842,3.9,7.965a.166.166,0,0,0,.2,0C4.261,7.842,8,4.912,8,2.25A2.253,2.253,0,0,0,5.75,0Z" transform="translate(9 11)" fill="none" stroke="#26cc2c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <path id="line_color_border_9" data-name="line [color_border]" d="M5.75,0A2.24,2.24,0,0,0,4,.838,2.249,2.249,0,0,0,0,2.25C0,4.912,3.739,7.842,3.9,7.965a.166.166,0,0,0,.2,0C4.261,7.842,8,4.912,8,2.25A2.253,2.253,0,0,0,5.75,0Z" transform="translate(23 11)" fill="none" stroke="#26cc2c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+    </g>
+    <g id="Emotion_-_Sad_-_Element" data-name="Emotion - Sad - Element" transform="translate(1020 580)">
+      <circle id="ellipse_color_border_2" data-name="ellipse [color_border]" cx="20" cy="20" r="20" stroke-width="3.5" stroke="#fd80ac" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+      <path id="line_color_border_10" data-name="line [color_border]" d="M328.594,489.946a10,10,0,0,0-17.322,0" transform="translate(-299.933 -459.946)" fill="none" stroke="#fd80ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="line_color_border_11" data-name="line [color_border]" y2="4" transform="translate(13 13.998)" fill="none" stroke="#fd80ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="line_color_border_12" data-name="line [color_border]" y2="4" transform="translate(27 13.998)" fill="none" stroke="#fd80ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+    </g>
+    <g id="Emotion_-_Uninterested_-_Element" data-name="Emotion - Uninterested - Element" transform="translate(1020 220)">
+      <circle id="ellipse_color_border_3" data-name="ellipse [color_border]" cx="20" cy="20" r="20" stroke-width="3.5" stroke="#feac80" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+      <line id="line_color_border_13" data-name="line [color_border]" y2="4" transform="translate(13 13.998)" fill="none" stroke="#feac80" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="line_color_border_14" data-name="line [color_border]" y2="4" transform="translate(27 13.998)" fill="none" stroke="#feac80" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="line_color_border_15" data-name="line [color_border]" x2="14" transform="translate(13.5 26.5)" fill="none" stroke="#feac80" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+    </g>
+    <g id="Emotion_-_Uninterested_-_Element-2" data-name="Emotion - Uninterested - Element" transform="translate(200 580)">
+      <circle id="ellipse_color_border_4" data-name="ellipse [color_border]" cx="20" cy="20" r="20" stroke-width="3.5" stroke="#7ee1ff" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+      <line id="line_color_border_16" data-name="line [color_border]" y2="4" transform="translate(13 13.998)" fill="none" stroke="#7ee1ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="line_color_border_17" data-name="line [color_border]" y2="4" transform="translate(27 13.998)" fill="none" stroke="#7ee1ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="line_color_border_18" data-name="line [color_border]" x2="14" transform="translate(13.5 26.5)" fill="none" stroke="#7ee1ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+    </g>
+    <g id="Post-It_Element" data-name="Post-It Element" transform="translate(200 318)">
+      <rect id="background_color_fill_" data-name="background [color_fill]" width="160" height="120" fill="#26cc2c"/>
+      <text id="label-5" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-2" data-name="Post-It Element" transform="translate(1020 318)">
+      <rect id="background_color_fill_2" data-name="background [color_fill]" width="160" height="120" fill="#ffac80"/>
+      <text id="label-6" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-2" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-3" data-name="Post-It Element" transform="translate(200 698)">
+      <rect id="background_color_fill_3" data-name="background [color_fill]" width="160" height="120" fill="#7ee1ff"/>
+      <text id="label-7" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-3" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-4" data-name="Post-It Element" transform="translate(1020 698)">
+      <rect id="background_color_fill_4" data-name="background [color_fill]" width="160" height="120" fill="#ff80ac"/>
+      <text id="label-8" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-4" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-5" data-name="Post-It Element" transform="translate(380 360)">
+      <rect id="background_color_fill_5" data-name="background [color_fill]" width="160" height="120" fill="#26cc2c"/>
+      <text id="label-9" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-5" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-6" data-name="Post-It Element" transform="translate(1200 360)">
+      <rect id="background_color_fill_6" data-name="background [color_fill]" width="160" height="120" fill="#ffac80"/>
+      <text id="label-10" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-6" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-7" data-name="Post-It Element" transform="translate(380 740)">
+      <rect id="background_color_fill_7" data-name="background [color_fill]" width="160" height="120" fill="#7ee1ff"/>
+      <text id="label-11" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-7" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-8" data-name="Post-It Element" transform="translate(1200 740)">
+      <rect id="background_color_fill_8" data-name="background [color_fill]" width="160" height="120" fill="#ff80ac"/>
+      <text id="label-12" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-8" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-9" data-name="Post-It Element" transform="translate(560 300)">
+      <rect id="background_color_fill_9" data-name="background [color_fill]" width="160" height="120" fill="#26cc2c"/>
+      <text id="label-13" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-9" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-10" data-name="Post-It Element" transform="translate(1380 300)">
+      <rect id="background_color_fill_10" data-name="background [color_fill]" width="160" height="120" fill="#ffac80"/>
+      <text id="label-14" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-10" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-11" data-name="Post-It Element" transform="translate(560 680)">
+      <rect id="background_color_fill_11" data-name="background [color_fill]" width="160" height="120" fill="#7ee1ff"/>
+      <text id="label-15" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-11" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-12" data-name="Post-It Element" transform="translate(1380 680)">
+      <rect id="background_color_fill_12" data-name="background [color_fill]" width="160" height="120" fill="#ff80ac"/>
+      <text id="label-16" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-12" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-13" data-name="Post-It Element" transform="translate(760 320)">
+      <rect id="background_color_fill_13" data-name="background [color_fill]" width="160" height="120" fill="#26cc2c"/>
+      <text id="label-17" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-13" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-14" data-name="Post-It Element" transform="translate(760 700)">
+      <rect id="background_color_fill_14" data-name="background [color_fill]" width="160" height="120" fill="#7ee1ff"/>
+      <text id="label-18" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-14" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1339 23)">
+      <g transform="matrix(1, 0, 0, 1, -1339, -23)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="554" height="844" transform="translate(1339 23)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="26">What is this?</tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="50"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="74">意思決定のプロセスにおいて、次にとるべきアクション・</tspan><tspan y="74" font-family="SourceHanSansJP-Medium, Source Han Sans JP">To-</tspan><tspan x="0" y="98" font-family="SourceHanSansJP-Medium, Source Han Sans JP">Dos</tspan><tspan y="98">は二つの要素に従ってマッピングすることができます。一つ</tspan><tspan x="0" y="122">は労力、二つ目はそれに伴う成果です。アイデアの中にもコス</tspan><tspan x="0" y="146">トはかかるが、長い目で見ればそれを超える成果が出せるもの</tspan><tspan x="0" y="170">と、簡単に施行できるがあまり効果が無いものとあります。こ</tspan><tspan x="0" y="194">れらの要素を見極めるためにこの成果・労力マトリックスを使</tspan><tspan x="0" y="218">用し、物事の優先順位をつけていきます。</tspan><tspan y="218" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="242"></tspan></tspan><tspan x="0" y="266">How to use</tspan><tspan x="0" y="290"></tspan><tspan font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="314">01. </tspan><tspan y="314" font-family="SourceHanSansJP-Regular, Source Han Sans JP">まずは期待値を揃える</tspan><tspan y="314"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="338">設定されたゴールによって、様々なアイデアがグループから出</tspan><tspan x="0" y="362">てくるでしょう。まずは「何をすべきか」「何が必要か」を中</tspan><tspan x="0" y="386">心にこの演習のゴールを設定します。単純に「私たちの目的を</tspan><tspan x="0" y="410">達成するには何が必要か？」というゴール設定でも良いでしょ</tspan><tspan x="0" y="434">う。</tspan><tspan y="434" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="458"></tspan><tspan x="0" y="482"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="506">02. </tspan><tspan y="506" font-family="SourceHanSansJP-Regular, Source Han Sans JP">アイデア出しを始める</tspan><tspan y="506"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="530">まずはチームメンバーに個人個人で付箋にアイデアを書いても</tspan><tspan x="0" y="554">らいます。次に、チームメンバー全員に対して自分のアイデア</tspan><tspan x="0" y="578">を一つずつ発表してもらい、マトリックス内に付箋を貼っても</tspan><tspan x="0" y="602">らいます。</tspan><tspan y="602" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="626"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="650">03. </tspan><tspan y="650" font-family="SourceHanSansJP-Regular, Source Han Sans JP">ディスカッション</tspan><tspan y="650"> </tspan><tspan y="650" font-family="SourceHanSansJP-Regular, Source Han Sans JP">、そして調整</tspan><tspan y="650"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="674">参加者が付箋をマトリックス内に貼っていくうちに、チーム内</tspan><tspan x="0" y="698">で自然にディスカッションが始まるでしょう。話し合っていく</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

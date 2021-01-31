@@ -1,0 +1,41 @@
+{
+  "summary" : "Generate movie posters.",
+  "website" : "http://mj.mk",
+  "keywords" : [ "movies", "posters", "design" ],
+  "languages" : [ "en" ],
+  "author" : "Milan Jakovcevski",
+  "description" : "Import movie posters in your designs with a click.",
+  "helpUrl" : "jakovcevski@gmail.com",
+  "main" : "main.js",
+  "icons" : [ {
+    "path" : "images/pluginIcon1.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/pluginIcon2.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/pluginIcon3.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/pluginIcon4.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "version" : "0.1.0",
+  "releaseNotes" : "Import movie posters in your designs with a click. The beta.",
+  "name" : "Movie Posters",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "id" : "934844b1",
+  "uiEntryPoints" : [ {
+    "label" : "Generate Movie Posters",
+    "type" : "menu",
+    "commandId" : "generatePosters",
+    "shortcut": { "mac": "Cmd+Shift+P", "win": "Ctrl+Shift+P" }
+  } ]
+}

@@ -1,0 +1,10 @@
+<svg id="list" xmlns="http://www.w3.org/2000/svg" width="141" height="173" viewBox="0 0 141 173">
+  <circle id="Ellipse_26" data-name="Ellipse 26" cx="6" cy="6" r="6" transform="translate(1 7)" fill="#18c5bf"/>
+  <circle id="Ellipse_27" data-name="Ellipse 27" cx="6" cy="6" r="6" transform="translate(0 56)" fill="#18c5bf"/>
+  <circle id="Ellipse_28" data-name="Ellipse 28" cx="6" cy="6" r="6" transform="translate(0 105)" fill="#18c5bf"/>
+  <circle id="Ellipse_29" data-name="Ellipse 29" cx="6" cy="6" r="6" transform="translate(0 154)" fill="#18c5bf"/>
+  <text id="First_Item" data-name="First Item" transform="translate(28 21)" fill="rgba(0,0,0,0.87)" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">First Item</tspan></text>
+  <text id="Second_Item" data-name="Second Item" transform="translate(27 70)" fill="rgba(0,0,0,0.87)" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Second Item</tspan></text>
+  <text id="Third_Item" data-name="Third Item" transform="translate(27 119)" fill="rgba(0,0,0,0.87)" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Third Item</tspan></text>
+  <text id="Fourth_Item" data-name="Fourth Item" transform="translate(27 168)" fill="rgba(0,0,0,0.87)" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Fourth Item</tspan></text>
+</svg>

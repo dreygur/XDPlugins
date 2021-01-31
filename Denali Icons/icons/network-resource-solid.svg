@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>network-resource-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M8,10H26.2l1.4,1.4L25,14h8V6L30.4,8.6,27.8,6H8a2,2,0,0,0,0,4Z"/>
+        <path d="M27.6,36.6,26.2,38H8a2,2,0,0,0,0,4H27.8l2.6-2.6L33,42V34H25Z"/>
+        <path d="M8,26H20v4l6-6-6-6v4H8a2,2,0,0,0,0,4Z"/>
+        <circle cx="36" cy="24" r="8"/>
+      </g>
+    </g>
+  </g>
+</svg>

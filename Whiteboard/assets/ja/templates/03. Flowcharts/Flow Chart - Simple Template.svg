@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="background" x="1317" y="21" width="581" height="527" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Template:_フローチャート_-_Simple">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Template:_フローチャート_-_Simple" data-name="Template: フローチャート - Simple" clip-path="url(#clip-Template:_フローチャート_-_Simple)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="Flowchart_Connector_-_Straight_-_Element" data-name="Flowchart Connector - Straight - Element" transform="translate(670 584)">
+      <g id="Element_-_Flowchart_connector_Straight_r_" data-name="Element - Flowchart connector [Straight r]" transform="translate(0 0)" opacity="0.996">
+        <line id="line_color_border_" data-name="line [color_border]" x2="100" transform="translate(0 7)" fill="none" stroke="#101010" stroke-width="3.5"/>
+        <g id="arrow_head" data-name="arrow head" transform="translate(92.929 0) rotate(45)">
+          <line id="line_color_border_2" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+          <line id="line_color_border_3" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Flowchart_Connector_-_Straight_-_Element-2" data-name="Flowchart Connector - Straight - Element" transform="translate(970 584)">
+      <g id="Element_-_Flowchart_connector_Straight_r_2" data-name="Element - Flowchart connector [Straight r]" transform="translate(0 0)" opacity="0.996">
+        <line id="line_color_border_4" data-name="line [color_border]" x2="100" transform="translate(0 7)" fill="none" stroke="#101010" stroke-width="3.5"/>
+        <g id="arrow_head-2" data-name="arrow head" transform="translate(92.929 0) rotate(45)">
+          <line id="line_color_border_5" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+          <line id="line_color_border_6" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Flowchart_Connector_-_Turn_-_Element" data-name="Flowchart Connector - Turn - Element" transform="translate(969.521 409.79)">
+      <path id="line_color_border_7" data-name="line [color_border]" d="M489,100H389s-.21,155.479-.21,180.479" transform="translate(280.479 -388.79) rotate(90)" fill="none" stroke="#f88" stroke-width="3.5"/>
+    </g>
+    <g id="Flowchart_Connector_-_Turn_-_Element-2" data-name="Flowchart Connector - Turn - Element" transform="translate(870 410)">
+      <path id="line_color_border_8" data-name="line [color_border]" d="M482,100H389V250" transform="translate(-382 -100)" fill="none" stroke="#f88" stroke-width="3.5"/>
+      <g id="arrow_head-3" data-name="arrow head" transform="translate(14.143 142.929) rotate(135)">
+        <line id="line_color_border_9" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#f88" stroke-linecap="round" stroke-width="3.5"/>
+        <line id="line_color_border_10" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#f88" stroke-linecap="round" stroke-width="3.5"/>
+      </g>
+    </g>
+    <g id="Flowchart_Connector_-_Turn_-_Element-3" data-name="Flowchart Connector - Turn - Element" transform="translate(1150 670)">
+      <path id="line_color_border_11" data-name="line [color_border]" d="M100,0H0V100" transform="translate(0 100) rotate(-90)" fill="none" stroke="#38db6a" stroke-width="3.5"/>
+      <g id="arrow_head-4" data-name="arrow head" transform="translate(92.929 92.858) rotate(45)">
+        <line id="line_color_border_12" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#38db6a" stroke-linecap="round" stroke-width="3.5"/>
+        <line id="line_color_border_13" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#38db6a" stroke-linecap="round" stroke-width="3.5"/>
+      </g>
+    </g>
+    <g id="Flowchart_Block_-_Status_-_Element" data-name="Flowchart Block - Status - Element" transform="translate(470 560)">
+      <g id="background_color_border_" data-name="background [color_border]" fill="#fff" stroke="#101010" stroke-width="3">
+        <rect width="200" height="60" rx="30" stroke="none"/>
+        <rect x="1.5" y="1.5" width="197" height="57" rx="28.5" fill="none"/>
+      </g>
+      <text id="Start" transform="translate(100 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-40" y="0">スタート</tspan></text>
+    </g>
+    <g id="Flowchart_Block_-_Status_-_Element-2" data-name="Flowchart Block - Status - Element" transform="translate(1250 740)">
+      <g id="background_color_border_2" data-name="background [color_border]" fill="#fff" stroke="#38db6a" stroke-width="3">
+        <rect width="200" height="60" rx="30" stroke="none"/>
+        <rect x="1.5" y="1.5" width="197" height="57" rx="28.5" fill="none"/>
+      </g>
+      <text id="Get_out" data-name="Get out" transform="translate(100 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-29.7" y="0">ゴール</tspan></text>
+    </g>
+    <g id="Flowchart_Block_-_Decision_-_Element" data-name="Flowchart Block - Decision - Element" transform="translate(1070 511)">
+      <g id="background_color_border_3" data-name="background [color_border]" transform="translate(79.903 0) rotate(45)" fill="#fff" stroke="#ffd86f" stroke-width="3">
+        <rect width="113" height="113" stroke="none"/>
+        <rect x="1.5" y="1.5" width="110" height="110" fill="none"/>
+      </g>
+      <text id="label" transform="translate(80 76)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-20" y="0">鍵は</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"></tspan><tspan x="-40" y="25">あった？</tspan></text>
+    </g>
+    <g id="Flowchart_Block_-_Action_-_Element" data-name="Flowchart Block - Action - Element" transform="translate(770 560)">
+      <g id="background_color_border_4" data-name="background [color_border]" fill="#fff" stroke="#101010" stroke-width="3">
+        <rect width="200" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="197" height="57" fill="none"/>
+      </g>
+      <text id="label-2" data-name="label" transform="translate(100 38)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-40" y="0">鍵を探す</tspan></text>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(959 228)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate">
+      <rect width="160" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="159" height="19" fill="none"/>
+    </g>
+    <text id="Label-3" data-name="Label" transform="translate(930 268)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">キャプションをここに記入</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+    <g id="Group_68145" data-name="Group 68145">
+      <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+        <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+        <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">一般的に</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">UX</tspan><tspan y="0">デザインでは標準化されたシンボルを用いて、矢印で繋がりを示し、ユーザーのタスクやフローを</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"></tspan><tspan x="0" y="27">可視化するためにフローチャートを作成します。</tspan><tspan y="27" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"></tspan><tspan font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="54"></tspan></tspan></text>
+        <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">フローチャート</tspan><tspan y="0" xml:space="preserve" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"> - Simple</tspan></text>
+        <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-112.192" y="0">2020</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">年</tspan><tspan y="0">3</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">月</tspan><tspan y="0">20</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">日</tspan></text>
+        <text id="プロジェクト名" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-111.52" y="0">プロジェクト名</tspan></text>
+      </g>
+    </g>
+    <text id="label-4" data-name="label" transform="translate(1196 503)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-30" y="0">いいえ</tspan></text>
+    <text id="label-5" data-name="label" transform="translate(1191 684)" fill="#101010" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-20" y="0">はい</tspan></text>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1317 21)">
+      <g transform="matrix(1, 0, 0, 1, -1317, -21)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="573" height="519" transform="translate(1317 21)" fill="#ffd86f"/>
+      </g>
+      <g id="Flowchart_Block_-_Status_-_Element-3" data-name="Flowchart Block - Status - Element" transform="translate(60 60)">
+        <g id="background_color_border_5" data-name="background [color_border]" fill="#fff" stroke="#000" stroke-width="3">
+          <rect width="88" height="40" rx="20" stroke="none"/>
+          <rect x="1.5" y="1.5" width="85" height="37" rx="18.5" fill="none"/>
+        </g>
+        <text id="Start-2" data-name="Start" transform="translate(44 24)" fill="#101010" font-size="13" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-19.5" y="0">始まり</tspan></text>
+      </g>
+      <g id="Flowchart_Block_-_Action_-_Element-2" data-name="Flowchart Block - Action - Element" transform="translate(60 125)">
+        <g id="background_color_border_6" data-name="background [color_border]" fill="#fff" stroke="#101010" stroke-width="3">
+          <rect width="88" height="39" stroke="none"/>
+          <rect x="1.5" y="1.5" width="85" height="36" fill="none"/>
+        </g>
+        <text id="label-6" data-name="label" transform="translate(44 26.455)" fill="#101010" font-size="13" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-26" y="0">プロセス</tspan></text>
+      </g>
+      <g id="Flowchart_Block_-_Decision_-_Element-2" data-name="Flowchart Block - Decision - Element" transform="translate(67.193 187.193)">
+        <g id="background_color_border_7" data-name="background [color_border]" transform="translate(36.903) rotate(45)" fill="#fff" stroke="#101010" stroke-width="3">
+          <rect width="52.189" height="52.189" stroke="none"/>
+          <rect x="1.5" y="1.5" width="49.189" height="49.189" fill="none"/>
+        </g>
+        <text id="label-7" data-name="label" transform="translate(35.554 41.863)" fill="#101010" font-size="13" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-13" y="0">判断</tspan></text>
+      </g>
+      <text id="楕円形はフローの始まりと終わりに使います_長方形は個々のプロセス_アクション_タスクに使います_ひし形は判断を迫るアクションに使います_こ_の後の判断によってプロセスが分岐する時に使用します_Notes:_-_フローチャートは必ず楕円で始まり_楕円で終わります_-_プロセス_アクション_タスクは一言でまとめます_-_左から始まり_右に終わるのが一般的です_" data-name="楕円形はフローの始まりと終わりに使います。
+
+長方形は個々のプロセス、アクション、タスクに使います。
+
+ひし形は判断を迫るアクションに使います。こ
+の後の判断によってプロセスが分岐する時に使用します。
+
+Notes: 
+- フローチャートは必ず楕円で始まり、楕円で終わります。
+- プロセス、アクション、タスクは一言でまとめます。
+- 左から始まり、右に終わるのが一般的です。" transform="translate(174 69)" font-size="16" font-family="SourceHanSansJP-Regular, Source Han Sans JP"><tspan x="0" y="17">楕円形はフローの始まりと終わりに使います。</tspan><tspan y="17" font-family="SourceHanSansJP, Source Han Sans JP"></tspan><tspan font-family="SourceHanSansJP, Source Han Sans JP"><tspan x="0" y="47"></tspan></tspan><tspan x="0" y="66">長方形は個々のプロセス、アクション、タスク</tspan><tspan x="0" y="96">に使います。</tspan><tspan y="96" font-family="SourceHanSansJP, Source Han Sans JP"></tspan><tspan font-family="SourceHanSansJP, Source Han Sans JP"><tspan x="0" y="126"></tspan></tspan><tspan x="0" y="148">ひし形は判断を迫るアクションに使います。こ</tspan><tspan y="148" font-family="SourceHanSansJP, Source Han Sans JP"></tspan><tspan x="0" y="175">の後の判断によってプロセスが分岐する時に使</tspan><tspan x="0" y="205">用します。</tspan><tspan y="205" font-family="SourceHanSansJP, Source Han Sans JP"></tspan><tspan font-family="SourceHanSansJP, Source Han Sans JP"><tspan x="0" y="235"></tspan><tspan x="0" y="257">Notes: </tspan><tspan x="0" y="279">- </tspan><tspan y="279" font-family="SourceHanSansJP-Regular, Source Han Sans JP">フローチャートは必ず楕円で始まり、楕円で</tspan><tspan x="0" y="309" font-family="SourceHanSansJP-Regular, Source Han Sans JP">終わります。</tspan><tspan y="309"></tspan><tspan x="0" y="339">- </tspan><tspan y="339" font-family="SourceHanSansJP-Regular, Source Han Sans JP">プロセス、アクション、タスクは一言でまと</tspan><tspan x="0" y="369" font-family="SourceHanSansJP-Regular, Source Han Sans JP">めます。</tspan><tspan y="369"></tspan></tspan></text>
+    </g>
+  </g>
+</svg>

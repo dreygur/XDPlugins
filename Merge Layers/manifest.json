@@ -1,0 +1,70 @@
+{
+    "id": "cb82ec33",
+    "name": "Merge Layers",
+    "version": "1.0.1",
+    "description": "Merges multiple layers into one layer",
+    "summary": "Convert multiple layers to single layer",
+    "releaseNotes": "",
+    
+    "keywords": [
+        "vector",
+        "raster",
+        "bitmap",
+        "image",
+        "photo",
+        "path"
+    ],
+
+    "languages": [
+        "en"
+    ],
+
+    "author": "Velara 3",
+    "publisher": "Velara 3",
+    "website": "https://www.velara3.com",
+    "helpUrl": "https://discuss.velara3.com/",
+
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+        { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Merge Layers",
+            "menuItems": [
+                {
+                    "type": "menu",
+                    "commandId": "merge",
+                    "label": {
+                        "default": "Merge Layers"
+                    },
+                    "shortcut": { "mac": "Ctrl+Shift+M", "win": "Ctrl+Shift+M" }
+                },
+                {
+                    "type": "menu",
+                    "commandId": "openSupportDialog",
+                    "label": {
+                        "default": "Support forums",
+                        "fr": "Forums de support",
+                        "de": "Support-Foren",
+                        "ja": "サポートフォーラム",
+                        "ko": "지원 포럼",
+                        "zh": "支持论坛",
+                        "es": "Foros de soporte",
+                        "pt": "Fóruns de suporte"
+                    }
+                }
+            ]
+        }
+    ]
+}

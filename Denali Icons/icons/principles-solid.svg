@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>principles-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <circle cx="10" cy="12" r="8"/>
+        <circle cx="38" cy="12" r="8"/>
+        <circle cx="32" cy="25" r="4"/>
+        <circle cx="16" cy="25" r="4"/>
+        <circle cx="24" cy="12" r="4"/>
+        <circle cx="24" cy="37" r="8"/>
+      </g>
+    </g>
+  </g>
+</svg>

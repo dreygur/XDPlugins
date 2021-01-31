@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Health_Icons" data-name="Health Icons">
+      <g>
+        <path d="M4,22H22V4H4ZM8,8H18V18H8Z"/>
+        <path d="M4,44H22V26H4ZM8,30H18V40H8Z"/>
+        <path d="M26,4V22H44V4ZM40,18H30V8H40Z"/>
+        <rect x="11" y="11" width="4" height="4"/>
+        <polygon points="30 33 26 33 26 44 44 44 44 40 30 40 30 33"/>
+        <polygon points="40 33 33 33 33 37 44 37 44 26 40 26 40 33"/>
+        <rect x="26" y="26" width="11" height="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

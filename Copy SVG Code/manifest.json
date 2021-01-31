@@ -1,0 +1,54 @@
+{
+  "name": "Copy SVG Code",
+  "id": "fc1f2874",
+  "version": "1.0.3",
+  "author": "Charlie Hield",
+  "description": "Plugin to generate SVG code from selection.",
+  "summary": "Generate SVG code.",
+  "helpUrl": "https://github.com/stursby/xd-copy-svg-code-plugin/issues",
+  "keywords": ["svg", "copy", "code"],
+  "releaseNotes": "Fix copy to clipboard issue for Windows",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon-24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon-48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon-96.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon-144.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon-192.png"
+    }
+  ],
+  "languages": ["en"],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Copy SVG Code",
+      "commandId": "copySvgCode",
+      "shortcut": {
+        "mac": "Ctrl+Option+C",
+        "win": "Ctrl+Alt+C"
+      }
+    }
+  ]
+}

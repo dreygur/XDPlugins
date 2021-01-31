@@ -1,0 +1,28 @@
+{
+    "id": "1f410050",
+    "name": "Fancy Maps",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "version": "1.0.5",
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "images/icon@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@2x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Set Map As Fill",
+            "panelId": "setMapAsFill"
+        }
+    ]
+}

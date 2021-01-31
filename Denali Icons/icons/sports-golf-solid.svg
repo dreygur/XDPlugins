@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>sports-golf-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M39,18A15,15,0,0,0,9,18a15.1,15.1,0,0,0,7,12.7V31a8,8,0,0,0,6,7.7V43a2,2,0,0,0,4,0V38.7A8,8,0,0,0,32,31v-.3A15.1,15.1,0,0,0,39,18ZM24,29A11,11,0,1,1,35,18,11,11,0,0,1,24,29Z"/>
+        <circle cx="31.5" cy="18" r="1.5"/>
+        <path d="M31.2,20.5a1.4,1.4,0,0,0-2,.5,1.5,1.5,0,0,0,2.6,1.5A1.4,1.4,0,0,0,31.2,20.5Z"/>
+        <path d="M27,23.2a1.4,1.4,0,0,0-.5,2,1.4,1.4,0,0,0,2,.6A1.5,1.5,0,0,0,27,23.2Z"/>
+        <circle cx="24" cy="25.5" r="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "summary" : "Sync content to spreadsheets - Google Spreadsheets or Microsoft Excel 365",
+  "website" : "https://www.contentsync.com",
+  "keywords" : [ "content", "copy", "text", "copywriting", "version", "translate", "google", "spreadsheet", "spreadsheets", "excel" ],
+  "languages" : [ "en" ],
+  "author" : "ContentSync",
+  "description" : "Version, translate and iterate your design content using Google Spreadsheets, Microsoft 365 Excel and more. ContentSync supports syncing content both directions, private spreadsheets and more.",
+  "helpUrl" : "https://www.contentsync.com/site/help",
+  "main" : "main.js",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon@3x.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon@4x.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon@5x.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "version" : "0.7.1",
+  "releaseNotes" : "ContentSync UI enhancements.",
+  "name" : "ContentSync for XD",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "30.0"
+  },
+  "id" : "87caed95",
+  "uiEntryPoints" : [ {
+    "type": "panel",
+    "label": "ContentSync",
+    "panelId": "contentSyncPanel"
+  }]
+}

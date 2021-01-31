@@ -1,0 +1,23 @@
+{
+    "id": "e05e39ac",
+    "name": "Tags Manager",
+    "version": "1.0.1",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "icons": [
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@1x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Manage Tags",
+            "panelId": "tagsManager"
+        }
+    ]
+}
