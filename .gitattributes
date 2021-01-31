@@ -297,5 +297,3 @@ Behance filter=lfs diff=lfs merge=lfs -text
 DSP[[:space:]]Reader filter=lfs diff=lfs merge=lfs -text
 Selection filter=lfs diff=lfs merge=lfs -text
 Text[[:space:]]Toolbox filter=lfs diff=lfs merge=lfs -text
-README.md filter=lfs diff=lfs merge=lfs -text
-src filter=lfs diff=lfs merge=lfs -text
