@@ -4,6 +4,8 @@
 I somehow managed to collect a lot of XD Plugins
 So, I'm here to share them with all you guys.
 
+Plugins were downloaded by [@khanjanny](https://twitter.com/reboot_ex)
+
 Here is the list of plugins I currently have:
 
 - [LTR to RTL by Alon Gruss](LTR%20to%20RTL%20by%20Alon%20Gruss)
