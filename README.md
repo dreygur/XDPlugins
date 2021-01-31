@@ -1,3 +1,11 @@
+
+# Adobe XD Plugins
+
+I somehow managed to collect a lot of XD Plugins
+So, I'm here to share them with all you guys.
+
+Here is the list of plugins I currently have:
+
 - [LTR to RTL by Alon Gruss](LTR%20to%20RTL%20by%20Alon%20Gruss)
 - [Rotate Copy](Rotate%20Copy)
 - [Statistics](Statistics)
@@ -296,3 +304,6 @@
 - [Niice](Niice)
 - [regular polygon](regular%20polygon)
 - [Bookmarks](Bookmarks)
+
+
+Feel free to use them and don't blame me for copyright issues!
