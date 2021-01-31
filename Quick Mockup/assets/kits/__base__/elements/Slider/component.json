@@ -1,0 +1,17 @@
+{
+  "name": "Slider",
+  "name_ja": "スライダー",
+  "UI": [
+    {
+      "uiType": "Select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    }
+  ]
+}

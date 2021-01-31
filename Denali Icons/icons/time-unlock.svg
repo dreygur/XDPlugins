@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>time-unlock</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M46,22.6A22,22,0,0,0,2.1,22h4A18,18,0,1,1,26,41.9v4A22,22,0,0,0,46,22.6Z"/>
+        <path d="M24,12a2,2,0,0,0-2,2V25.1l11,6.6a1.7,1.7,0,0,0,1,.3,1.9,1.9,0,0,0,1.7-1,1.9,1.9,0,0,0-.7-2.7l-9-5.4V14A2,2,0,0,0,24,12Z"/>
+        <path d="M22,32H14V30A6,6,0,0,0,2,30H6a2,2,0,0,1,4,0v2H8a2,2,0,0,0-2,2V44a2,2,0,0,0,2,2H22a2,2,0,0,0,2-2V34A2,2,0,0,0,22,32ZM20,42H10V36H20Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

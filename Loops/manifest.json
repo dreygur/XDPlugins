@@ -1,0 +1,20 @@
+{
+    "id": "2140326a",
+    "name": "Loops",
+    "version": "0.0.3",
+    "icons": [
+        { "width": 24, "height": 24, "path": "icons/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "icons/icon@2x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "28.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Loops",
+            "panelId": "app"
+        }
+    ]
+}

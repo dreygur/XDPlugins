@@ -1,0 +1,20 @@
+{
+  "id": "5ad09683",
+  "name": "Blobular",
+  "version": "0.0.1",
+  "icons": [
+    { "width": 24, "height": 24, "path": "icon@1x.png" },
+    { "width": 48, "height": 48, "path": "icon@2x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Blobular",
+      "panelId": "settings"
+    }
+  ]
+}

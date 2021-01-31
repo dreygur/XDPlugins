@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-multi-metric</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g id="Q3_icons-2" data-name="Q3 icons">
+        <path d="M42,4H6A2,2,0,0,0,4,6V42a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V6A2,2,0,0,0,42,4ZM40,40H12.3l6.2-6.2L23,38.3,36.4,24.9a2,2,0,0,0-.4-2.8,2.1,2.1,0,0,0-2.4,0L23,32.7l-4.5-4.5L8,38.7V34.3l9.5-9.5L22,29.3,36.4,14.9a2,2,0,0,0-.4-2.8,2.1,2.1,0,0,0-2.4,0L22,23.7l-4.5-4.5L8,28.7V24.3l8.5-8.5L21,20.3l7.4-7.4a2,2,0,0,0-.4-2.8,2.1,2.1,0,0,0-2.4,0L21,14.7l-4.5-4.5L8,18.7V8H40Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

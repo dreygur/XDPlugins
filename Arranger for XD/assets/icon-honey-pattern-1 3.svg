@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-icon-honey-pattern-1">
+      <rect width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="icon-honey-pattern-1" clip-path="url(#clip-icon-honey-pattern-1)">
+    <rect id="Rechteck_59" data-name="Rechteck 59" width="20" height="2" transform="translate(4 2)" fill="#666"/>
+    <rect id="Rechteck_60" data-name="Rechteck 60" width="11" height="2" transform="translate(9 6)" fill="#666"/>
+    <rect id="Rechteck_61" data-name="Rechteck 61" width="20" height="2" transform="translate(4 10)" fill="#666"/>
+    <rect id="Rechteck_62" data-name="Rechteck 62" width="11" height="2" transform="translate(9 14)" fill="#666"/>
+    <rect id="Rechteck_64" data-name="Rechteck 64" width="20" height="2" transform="translate(4 18)" fill="#666"/>
+    <rect id="Rechteck_65" data-name="Rechteck 65" width="11" height="2" transform="translate(9 22)" fill="#666"/>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+{
+  "id": "3ea4cdc9",
+  "name": "Print Artboard",
+  "version": "1.0.3",
+  "description":"Create or resize artboard using common or documents sizes (A3, A4, A5, legal, letter, custom ...), unite (mm, in...) and resolution you need.",
+  "summary": "Create or resize artboard",
+  "releaseNotes": "Release note",
+  "keywords": [
+    "print",
+    "artboard",
+    "a4",
+    "A3",
+    "legal",
+    "letter",
+    "resolution"
+  ],
+
+  "languages": ["en"],
+  "author": "Adil Addiya",
+  "helpUrl": "https://bitbucket.org/adiladdiya/print-artboard",
+  "icons": [
+      { "width": 48, "height": 48, "path": "images/icon48.png" },
+      { "width": 96, "height": 96, "path": "images/icon96.png" },
+      { "width": 144, "height": 144, "path": "images/icon144.png" },
+      { "width": 192, "height": 192, "path": "images/icon.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints":[
+       {
+          "type": "menu",
+          "label": {
+             "default": "Print Artboard"
+           },
+          "menuItems": [
+             {
+                "type": "menu",
+                "label": {
+                   "default": "Make print Artboard"
+                },
+                "commandId": "makePrintArtboard",
+                "shortcut": {
+                  "mac": "Ctrl+F",
+                  "win": "Ctrl+F"
+                }
+             },
+             {
+                "type": "menu",
+                "label": {
+                   "default": "Settings..."
+                },
+                "commandId": "printArtboardSettings",
+                "shortcut": {
+                  "mac": "Ctrl+Shift+F",
+                  "win": "Ctrl+Shift+F"
+                }
+             }
+          ]
+       }
+    ]
+}

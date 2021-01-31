@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>jive</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M42,4H6A2,2,0,0,0,4,6V42a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V6A2,2,0,0,0,42,4ZM21.2,8.5H28v3.9H21.2Zm5.9,26.8a7.7,7.7,0,0,1-3.8,3.3,17.2,17.2,0,0,1-2.8.9L18,34.1a4.3,4.3,0,0,0,2.5-1.4,3.5,3.5,0,0,0,.7-2.3V15H28V31.9A7.8,7.8,0,0,1,27.1,35.3Z"/>
+    </g>
+  </g>
+</svg>

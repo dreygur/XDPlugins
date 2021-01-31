@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="90" viewBox="0 0 164 90">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:#fff}.cls-2{fill:none}.cls-3{clip-path:url(#clip-path)}.cls-4{stroke:#e1e1e1}.cls-5{fill:#3496ef}.cls-6{stroke:none}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_46" d="M0 0h40v90H0z" class="cls-1" data-name="Rectangle 46" transform="translate(.347 -.041)"/>
+        </clipPath>
+    </defs>
+    <g id="example-step3" transform="translate(46.922 .041)">
+        <path id="Rectangle_48" d="M0 0h164v90H0z" class="cls-2" data-name="Rectangle 48" transform="translate(-46.922 -.041)"/>
+        <g id="Mask_Group_3" class="cls-3" data-name="Mask Group 3" transform="translate(14.731)">
+            <g id="Component_4_13" data-name="Component 4 – 13">
+                <g id="Group_27" data-name="Group 27">
+                    <g id="Rectangle_18" class="cls-4" data-name="Rectangle 18">
+                        <path d="M0 0h180.834v136.597H0z" class="cls-6"/>
+                        <path d="M.5.5h179.834v135.597H.5z" class="cls-2"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Group_80" data-name="Group 80" transform="translate(-14 1.69)">
+            <path id="Rectangle_35" d="M0 0h29v49H10A10 10 0 0 1 0 39V0z" class="cls-5" data-name="Rectangle 35" transform="translate(.078 .269)"/>
+            <path id="np_home_3038413_000000" d="M6.536 12.668h1.251v4.613a.293.293 0 0 0 .292.292h2.756a.293.293 0 0 0 .292-.292V12.8h2.5v4.478a.293.293 0 0 0 .292.292h2.756a.293.293 0 0 0 .292-.292v-4.61h1.251a.289.289 0 0 0 .269-.181.294.294 0 0 0-.064-.318l-5.841-5.841a.291.291 0 0 0-.412 0l-5.841 5.841a.292.292 0 0 0 .207.5z" class="cls-1" transform="translate(1.817 10.473)"/>
+        </g>
+    </g>
+</svg>

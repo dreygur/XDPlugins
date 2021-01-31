@@ -1,0 +1,1388 @@
+{
+  "type": "Artboard",
+  "name": "購読 - Desktop",
+  "visible": true,
+  "opacity": 1,
+  "rotation": 0,
+  "fillEnabled": true,
+  "fill": "#fbfbfb",
+  "strokeEnabled": false,
+  "strokeWidth": 1,
+  "strokePosition": "center",
+  "strokeEndCaps": "butt",
+  "strokeJoins": "miter",
+  "strokeMiterLimit": 10,
+  "strokeDashArray": [],
+  "strokeDashOffset": 0,
+  "shadow": null,
+  "blur": null,
+  "width": 1366,
+  "height": 768,
+  "viewportHeight": 768,
+  "children": [
+    {
+      "type": "Rectangle",
+      "name": "Background [STYLE=STYLE2]",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "fillEnabled": true,
+      "fill": "#ebebeb",
+      "strokeEnabled": false,
+      "stroke": "#707070",
+      "strokeWidth": 1,
+      "strokePosition": "inside",
+      "strokeEndCaps": "butt",
+      "strokeJoins": "miter",
+      "strokeMiterLimit": 4,
+      "strokeDashArray": [],
+      "strokeDashOffset": 0,
+      "shadow": null,
+      "blur": null,
+      "width": 1366,
+      "height": 768,
+      "cornerRadii": {
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomRight": 0,
+        "bottomLeft": 0
+      },
+      "__componentType": "Background"
+    },
+    {
+      "type": "Group",
+      "name": "Subscribe",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 184,
+        "y": 0
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Group",
+          "name": "Card",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 235,
+            "y": 134
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=DEFAULT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -184,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": {
+                "x": 8,
+                "y": 8,
+                "blur": 0,
+                "color": {
+                  "value": 436207616
+                },
+                "visible": true
+              },
+              "blur": null,
+              "width": 896,
+              "height": 500,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "DISPLAY_ELEMENTS": "DEFAULT"
+                },
+                "type": "Card",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Card"
+        },
+        {
+          "type": "Group",
+          "name": "Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 807,
+            "y": 506
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Icon][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 17.455,
+                "y": 30
+              },
+              "fillEnabled": true,
+              "fill": "#fcfcfc",
+              "strokeEnabled": false,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Label",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "SemiBold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Icon][ICON=feather/send][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Line",
+                      "name": "Line [DISPLAY_ELEMENTS=Icon][ICON=feather/send][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 10.167,
+                        "y": 2.667
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#fcfcfc",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 9.166666984558105,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 9.166666984558105
+                      },
+                      "__componentType": "Line"
+                    },
+                    {
+                      "type": "Path",
+                      "name": "Path [DISPLAY_ELEMENTS=Icon][ICON=feather/send][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 1,
+                        "y": 1
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#fcfcfc",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 18.33300018310547 1.66700005531311 L 12.5 18.33300018310547 L 9.166999816894531 10.83300018310547 L 1.66700005531311 7.5 L 18.33300018310547 1.66700005531311 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/send"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE1",
+                  "DISPLAY_ELEMENTS": "Icon",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "Button",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Button"
+        },
+        {
+          "type": "Group",
+          "name": "Input",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 511,
+            "y": 506
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Default][STATE=DEFAULT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 280,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Value",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 16,
+                "y": 30
+              },
+              "fillEnabled": true,
+              "fill": "#3e3e3e",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Eメール",
+              "fontFamily": "Noto Sans CJK JP",
+              "fontStyle": "Bold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 246.043,
+                "y": 15
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -0.043,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 2.694,
+                    "y": 2.5
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Ellipse",
+                      "name": "Path [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.194,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "radiusX": 6.666666507720947,
+                      "radiusY": 6.666666507720947,
+                      "__componentType": "Ellipse"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 11.181,
+                        "y": 11.375
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 3.625,
+                        "y": 3.625
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "Feather/Search"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": -12
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Label",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "Bold",
+              "fontSize": 13,
+              "charSpacing": 40,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 19,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "DISPLAY_ELEMENTS": "Default"
+                },
+                "type": "Input",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Input"
+        },
+        {
+          "type": "Text",
+          "name": "Description [PLATFORM=Desktop][STYLE=STYLE1][TAG=P]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 511,
+            "y": 384.97
+          },
+          "fillEnabled": true,
+          "fill": "#737373",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "何は事実至極この談判通りという事の上を折っありまし。どうも半分を評方はとうとうその学習たらですばかりをするているならがも講義ありますませて、全くにはするただなけれう。",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Medium",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 26,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 344,
+            "height": 81
+          },
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Title [PLATFORM=Desktop][STYLE=STYLE1][TAG=H4]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 511,
+            "y": 359
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "ニュースレターの購読",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 32,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 42,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 867,
+            "y": 166
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Line",
+                      "name": "Line [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 6,
+                        "y": 6
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 10,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 10
+                      },
+                      "__componentType": "Line"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 6,
+                        "y": 6
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 10,
+                        "y": 10
+                      },
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE2",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/x"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Illustration",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": -228.308,
+            "y": 178
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -175.351,
+                "y": -188.775
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 657.2572021484375 252.1190795898438 C 661.6131591796875 252.57470703125 665.9848022460938 251.4148406982422 669.5419311523438 248.8596954345703 C 673.060546875 246.3073577880859 676.0521850585938 243.0983734130859 678.3519287109375 239.4096527099609 C 682.401611328125 233.3013610839844 685.3218383789062 226.5156860351562 686.9736938476562 219.3755035400391 C 689.7562255859375 222.7196960449219 694.1594848632812 224.2516937255859 698.4168090820312 223.3568420410156 C 705.2332153320312 221.8265228271484 709.321044921875 213.8734588623047 707.9915161132812 207.0150756835938 C 706.6619873046875 200.1567077636719 701.035400390625 194.7192535400391 694.6144409179688 191.9666748046875 C 688.1935424804688 189.2140960693359 681.0377197265625 188.7594146728516 674.0516357421875 188.7749176025391 C 669.445068359375 188.7851715087891 664.7503662109375 188.9999847412109 660.4232788085938 190.5799255371094 C 656.09619140625 192.1598663330078 652.1319580078125 195.3087463378906 650.5947265625 199.6512603759766 C 649.6309814453125 202.3737640380859 649.6624145507812 205.3871307373047 648.5665893554688 208.0592041015625 C 646.5771484375 212.9102020263672 641.4172973632812 215.5592803955078 636.5747680664062 217.5692443847656 C 631.7322998046875 219.5792083740234 626.4678344726562 221.6203460693359 623.6121215820312 226.0175018310547 C 620.3873291015625 230.9829406738281 621.3179931640625 237.9129638671875 624.8717041015625 242.6485748291016 C 628.4254760742188 247.3842010498047 634.1329345703125 250.1300811767578 639.9412231445312 251.2783355712891 C 645.74951171875 252.4265899658203 651.7334594726562 252.1426544189453 657.6470947265625 251.8539733886719",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -3.802,
+                "y": -53.502
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 432.8400573730469 428.7745361328125 L 413.7550048828125 420.4981994628906 L 424.1106262207031 399.1839904785156 L 439.5231628417969 408.2036743164062 L 432.8400573730469 428.7745361328125 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -4.602,
+                "y": -34.423
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 504.2407531738281 300.4090576171875 L 485.8080444335938 337.9016723632812 L 453.2796630859375 404.0725708007812 L 419.7419738769531 387.95654296875 L 456.76416015625 301.2797546386719 L 456.8690185546875 290.3687744140625 L 457.199951171875 256.4169921875 L 504.2407531738281 300.4090576171875 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -21.6,
+                "y": -52.429
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 573.5065307617188 410.753662109375 L 553.906005859375 417.7226867675781 L 546.93701171875 395.0734252929688 L 564.3594970703125 391.1539916992188 L 573.5065307617188 410.753662109375 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -181.834,
+                "y": -209.257
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 729.3848876953125 370.3727111816406 L 670.1485595703125 353.3858337402344 L 687.5709838867188 341.6257019042969 L 733.3048706054688 355.9992065429688 L 753.9846801757812 360.9623413085938 C 756.9428100585938 361.6722717285156 759.430908203125 363.6631774902344 760.7722778320312 366.3936767578125 C 762.1135864257812 369.1241455078125 762.1687622070312 372.3102722167969 760.9226684570312 375.0855102539062 L 760.9226684570312 375.0855102539062 C 759.7546997070312 377.6869812011719 757.5529174804688 379.6820983886719 754.8493041992188 380.5888366699219 C 752.1456298828125 381.49560546875 749.1861572265625 381.2314758300781 746.685791015625 379.8603210449219 L 729.3848876953125 370.3727111816406 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/BACKGROUND]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -181.389,
+                "y": -198.751
+              },
+              "fillEnabled": true,
+              "fill": "#fbfbfb",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 691.0455932617188 331.580078125 L 667.0897827148438 345.51806640625 C 664.9757690429688 328.0874328613281 675.3974609375 297.0593872070312 688.4322509765625 263.1969909667969 L 688.4322509765625 263.1969909667969 C 696.2093505859375 268.8287658691406 700.2574462890625 278.282470703125 698.9661865234375 287.7973327636719 L 691.0455932617188 331.580078125 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -165.945,
+                "y": -206.837
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 572.3739013671875 374.4873962402344 L 571.8703002929688 392.3661193847656 C 571.7814331054688 395.5192260742188 570.254150390625 398.4581909179688 567.7249755859375 400.3431091308594 C 565.1957397460938 402.22802734375 561.9428100585938 402.8514709472656 558.8959350585938 402.0353393554688 L 558.8959350585938 402.0353698730469 C 555.9642333984375 401.2500915527344 553.5274047851562 399.2131042480469 552.2348022460938 396.4671020507812 C 550.9421997070312 393.7210998535156 550.925048828125 390.5450744628906 552.18798828125 387.7852783203125 L 558.8714599609375 373.1806945800781 L 579.7783813476562 323.5267028808594 L 594.1519165039062 328.7534484863281 L 572.3739013671875 374.4873962402344 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Ellipse",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 485.048,
+                "y": 9.378
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "radiusX": 18.72913360595703,
+              "radiusY": 18.72913360595703,
+              "__componentType": "Ellipse"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/TEXT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -14.814,
+                "y": -5.041
+              },
+              "fillEnabled": true,
+              "fill": "#737373",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 517.9376831054688 72.56702423095703 L 496.1600036621094 62.11352157592773 L 507.0484008789062 37.72200012207031 L 525.3424682617188 41.20650482177734 L 517.9376831054688 72.56702423095703 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/BACKGROUND]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -175.115,
+                "y": -196.557
+              },
+              "fillEnabled": true,
+              "fill": "#fbfbfb",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 664.3009643554688 352.5013427734375 L 619.8736572265625 341.6123352050781 L 628.794921875 259.83447265625 C 629.6455688476562 252.0367279052734 636.5863037109375 246.3578643798828 644.3980712890625 247.0680541992188 L 659.07421875 248.4022369384766 L 679.1100463867188 257.5490112304688 L 686.5145263671875 265.3890991210938 L 684.2552490234375 275.0511779785156 C 686.3613891601562 294.951904296875 684.7379150390625 312.22021484375 673.167724609375 322.4678955078125 L 664.3009643554688 352.5013427734375 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/BACKGROUND]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -169.673,
+                "y": -196.744
+              },
+              "fillEnabled": true,
+              "fill": "#fbfbfb",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 602.23583984375 321.7640075683594 L 579.151123046875 315.6661682128906 L 610.1004028320312 264.4064331054688 C 616.7316284179688 253.4234313964844 629.1113891601562 247.260498046875 641.8720092773438 248.5897216796875 L 641.8719482421875 248.5897521972656 L 630.11181640625 287.3547058105469 C 619.238525390625 295.5595092773438 610.1034545898438 307.3532409667969 602.23583984375 321.7640075683594 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -173.082,
+                "y": -209.895
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 725.8592529296875 550.7969970703125 L 690.5787963867188 561.2504272460938 C 647.618408203125 491.5060119628906 586.1022338867188 416.3440551757812 609.9999389648438 366.1190795898438 L 618.711181640625 345.647705078125 L 664.0095825195312 359.5856628417969 L 666.6229858398438 413.5952453613281 L 694.4989013671875 457.1513671875 L 725.8592529296875 550.7969970703125 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -187.881,
+                "y": -243.523
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 757.969482421875 631.8480224609375 L 726.615478515625 631.5398559570312 C 720.4072265625 631.4991455078125 715.3958740234375 626.454833984375 715.3958740234375 620.246337890625 L 715.395751953125 604.6161499023438 C 715.3912353515625 603.4688720703125 715.9332275390625 602.3880004882812 716.8553466796875 601.7054443359375 C 717.777587890625 601.0228881835938 718.9696044921875 600.8203125 720.0654296875 601.159912109375 C 725.7288818359375 602.9755859375 730.3656005859375 602.3712158203125 733.8624267578125 599.079833984375 C 735.95849609375 597.1068725585938 736.2032470703125 596.7103881835938 738.6983642578125 598.1459350585938 L 752.85400390625 613.6083374023438 L 758.594970703125 613.9786987304688 C 763.045654296875 614.2658081054688 766.6046142578125 617.787841796875 766.9381103515625 622.2351684570312 L 766.9381103515625 622.2352294921875 C 767.125 624.7251586914062 766.2623291015625 627.1798706054688 764.5589599609375 629.005615234375 C 762.85546875 630.8314208984375 760.4664306640625 631.8619384765625 757.969482421875 631.8480224609375 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -167.659,
+                "y": -244.319
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 589.2891845703125 653.6637573242188 L 567.3365478515625 631.2752685546875 C 562.9752807617188 626.8566284179688 562.9985961914062 619.74609375 567.388671875 615.3560180664062 L 578.44091796875 604.3037719726562 C 579.2489013671875 603.4893188476562 580.396484375 603.1082763671875 581.5311279296875 603.2776489257812 C 582.6658325195312 603.4471435546875 583.6519775390625 604.1468505859375 584.1867065429688 605.161865234375 C 586.9075317382812 610.4503784179688 590.6135864257812 613.3017578125 595.4134521484375 613.4469604492188 C 598.290771484375 613.5339965820312 598.7442016601562 613.4266357421875 599.493408203125 616.2060546875 L 598.5694580078125 637.1492309570312 L 602.3670654296875 641.4706420898438 C 605.31103515625 644.8206787109375 605.337158203125 649.82763671875 602.4283447265625 653.208251953125 L 602.4282836914062 653.2083129882812 C 600.7996215820312 655.10107421875 598.4539184570312 656.226806640625 595.9584350585938 656.3132934570312 C 593.4630126953125 656.3997802734375 591.0449829101562 655.439208984375 589.2891845703125 653.6637573242188 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/brand]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -177.737,
+                "y": -189.666
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 680.758056640625 213.4032287597656 C 683.3228149414062 217.4832153320312 687.1337890625 220.6283721923828 691.6262817382812 222.37255859375 C 694.80810546875 223.5978393554688 698.8455200195312 223.9022827148438 701.233642578125 221.46875 C 702.963623046875 219.7059326171875 703.3084106445312 216.9928741455078 703.06298828125 214.5352630615234 C 702.2967529296875 206.8641357421875 696.53125 200.1840667724609 689.3778076171875 197.3097839355469 C 682.224365234375 194.4355163574219 673.9661254882812 195.0638275146484 666.8270874023438 197.9738159179688 C 660.0913696289062 200.7193756103516 653.6943969726562 206.3441314697266 653.3320922851562 213.6088562011719 C 653.1464233398438 217.3318481445312 654.4945068359375 221.4313049316406 652.4959106445312 224.5778503417969 C 650.99072265625 226.9477081298828 648.0835571289062 227.91064453125 645.4796142578125 228.9600982666016 C 642.8756713867188 230.0095520019531 640.0809936523438 231.6655731201172 639.5464477539062 234.4216766357422 C 639.282958984375 236.3444213867188 639.9484252929688 238.2780151367188 641.33935546875 239.63134765625 C 642.7239379882812 240.9534454345703 644.3624267578125 241.9807281494141 646.1556396484375 242.6510009765625 C 650.4021606445312 244.4592132568359 655.0767822265625 245.5864868164062 659.6389770507812 244.8874206542969 C 664.201171875 244.1883544921875 668.6127319335938 241.4101257324219 670.398193359375 237.1539916992188 C 671.7730712890625 233.8764038085938 671.491455078125 230.1778717041016 671.3327026367188 226.6271362304688 C 671.1740112304688 223.0764007568359 671.22216796875 219.2947845458984 673.1179809570312 216.288330078125 C 675.0138549804688 213.2818908691406 679.4154052734375 211.5987854003906 682.2486572265625 213.7448577880859",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": -16.000000242857922,
+              "translation": {
+                "x": 558.289,
+                "y": 112.523
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 59.58489990234375 0 L 2.040496826171875 0 C 0.02532958984375 0 -0.766357421875 2.61492919921875 0.911346435546875 3.73291015625 L 29.6820068359375 22.913818359375 C 30.36651611328125 23.37127685546875 31.25894165039062 23.37127685546875 31.94345092773438 22.913818359375 L 60.714111328125 3.73291015625 C 62.39178466796875 2.61492919921875 61.60009765625 0 59.58489990234375 0 Z",
+              "__componentType": "Path"
+            },
+            {
+              "type": "Path",
+              "name": "Path [FILL=STYLE1/foreground]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": -16.000000242857922,
+              "translation": {
+                "x": 552.028,
+                "y": 118.152
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "pathData": "M 73.60040283203125 0.34521484375 L 39.51504516601562 23.07028198242188 C 38.83053588867188 23.52615356445312 37.9381103515625 23.52615356445312 37.25360107421875 23.07028198242188 L 3.16827392578125 0.34521484375 C 1.81365966796875 -0.556793212890625 0 0.414031982421875 0 2.040557861328125 L 0 45.45321655273438 C 0 46.57913208007812 0.911651611328125 47.49075317382812 2.03759765625 47.49075317382812 L 74.7310791015625 47.49075317382812 C 75.8570556640625 47.49075317382812 76.76861572265625 46.57913208007812 76.76861572265625 45.45321655273438 L 76.76861572265625 2.040557861328125 C 76.76861572265625 0.414031982421875 74.95501708984375 -0.556793212890625 73.60040283203125 0.34521484375 Z",
+              "__componentType": "Path"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "__componentType": "購読 - Desktop"
+}

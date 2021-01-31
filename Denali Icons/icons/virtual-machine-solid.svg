@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>virtual-machine-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <rect x="4" y="2" width="10" height="7"/>
+        <path d="M3.5,14h11a1.5,1.5,0,0,0,0-3H3.5a1.5,1.5,0,0,0,0,3Z"/>
+        <rect x="19" y="2" width="10" height="7"/>
+        <path d="M18.5,14h11a1.5,1.5,0,0,0,0-3h-11a1.5,1.5,0,0,0,0,3Z"/>
+        <rect x="34" y="2" width="10" height="7"/>
+        <path d="M33.5,14h11a1.5,1.5,0,0,0,0-3h-11a1.5,1.5,0,0,0,0,3Z"/>
+        <path d="M44,30H26V25.5H39a2,2,0,0,0,2-2V18a2,2,0,0,0-4,0v3.5H26V18a2,2,0,0,0-4,0v3.5H11V18a2,2,0,0,0-4,0v5.5a2,2,0,0,0,2,2H22V30H4a2,2,0,0,0-2,2V44a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V32A2,2,0,0,0,44,30ZM16,40H10a2,2,0,0,1,0-4h6a2,2,0,0,1,0,4Zm22,0H32a2,2,0,0,1,0-4h6a2,2,0,0,1,0,4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

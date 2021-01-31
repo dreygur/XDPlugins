@@ -1,0 +1,45 @@
+{
+  "id": "88412c37",
+  "name": "GuideGuide",
+  "summary": "Easy grids and guides",
+  "description":
+    "GuideGuide is an extension that lets you quickly and easily create grids and manipulate guides with a consistent UI in your favorite design applications.",
+  "keywords": ["grid", "guides", "layout", "measurement"],
+  "languages": ["en"],
+  "author": "Cameron McEfee",
+  "website": "https://guideguide.me",
+  "helpUrl": "https://guideguide.me/support/",
+  "version": "5.0.23",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.1"
+  },
+  "icons": [
+    { "width": 24, "height": 24, "path": "icon-24.png" },
+    { "width": 48, "height": 48, "path": "icon-48.png" },
+    { "width": 96, "height": 96, "path": "icon-96.png" },
+    { "width": 144, "height": 144, "path": "icon-144.png" },
+    { "width": 192, "height": 192, "path": "icon-192.png" }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Open GuideGuide",
+      "panelId": "guideguide",
+      "shortcut": { "mac": "Cmd+Shift+Opt+G", "win": "Ctrl+Shift+Alt+G" }
+    },
+    {
+      "type": "menu",
+      "label": "GuideGuide",
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": "Read the Documentation…",
+          "commandId": "goToDocs"
+        }
+      ]
+    }
+  ],
+  "releaseNotes":
+    "- Feature: Rebuilt GuideGuide to take advantage of the new Plugin Panel\n- Feature: Added a button to clear the grid form."
+}

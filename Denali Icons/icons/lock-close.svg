@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>lock-close</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M40,18H36V13A11,11,0,0,0,25,2H23A11,11,0,0,0,12,13v5H8a2,2,0,0,0-2,2V44a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V20A2,2,0,0,0,40,18ZM16,13a7,7,0,0,1,7-7h2a7,7,0,0,1,7,7v5H16ZM38,42H10V22H38Z"/>
+        <path d="M27.9,29.9a4,4,0,1,0-6,3.5v2.5a2,2,0,0,0,4,0V33.4A4,4,0,0,0,27.9,29.9Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

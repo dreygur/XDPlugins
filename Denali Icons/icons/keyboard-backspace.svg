@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>keyboard-backspace</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M15.9,13H42V35H15.9L6.6,24l9.3-11M14.5,9a.9.9,0,0,0-.8.4L2.4,22.8a2.1,2.1,0,0,0,0,2.4L13.7,38.6a.9.9,0,0,0,.8.4H44a2,2,0,0,0,2-2V11a2,2,0,0,0-2-2Z"/>
+        <path d="M29.8,24l3.6-3.5a2.1,2.1,0,0,0,.2-2.7,1.9,1.9,0,0,0-3-.2L27,21.2l-3.6-3.6a1.9,1.9,0,0,0-3,.2,2.1,2.1,0,0,0,.2,2.7L24.2,24l-3.6,3.5a2.1,2.1,0,0,0-.2,2.7,1.9,1.9,0,0,0,3,.2L27,26.8l3.6,3.6a1.9,1.9,0,0,0,3-.2,2.1,2.1,0,0,0-.2-2.7Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

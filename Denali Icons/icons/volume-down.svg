@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>volume-down</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M26,11.9V36.1l-6.6-6L18.2,29H10V19h8.2l1.2-1.1,6.6-6M29,4a.9.9,0,0,0-.7.3L16.7,15H8a2,2,0,0,0-2,2V31a2,2,0,0,0,2,2h8.7L28.3,43.7a.9.9,0,0,0,.7.3,1,1,0,0,0,1-1V5a1,1,0,0,0-1-1Z"/>
+      <path d="M34,15.5v17a.5.5,0,0,0,.9.3,14,14,0,0,0,0-17.6A.5.5,0,0,0,34,15.5Z"/>
+    </g>
+  </g>
+</svg>

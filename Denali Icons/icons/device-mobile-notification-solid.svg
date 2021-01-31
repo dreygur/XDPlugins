@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>device-mobile-notification-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M37,2H11A2,2,0,0,0,9,4V44a2,2,0,0,0,2,2H37a2,2,0,0,0,2-2V4A2,2,0,0,0,37,2ZM25,40H23a2,2,0,0,1,0-4h2a2,2,0,0,1,0,4Zm6-14H26a2,2,0,0,1-4,0H17V22.9a1.2,1.2,0,0,1,.4-.8l.8-.5a2.1,2.1,0,0,0,.8-1.7V17a5,5,0,0,1,10,0v2.9a2.1,2.1,0,0,0,.8,1.7l.8.5a1.2,1.2,0,0,1,.4.8Z"/>
+    </g>
+  </g>
+</svg>

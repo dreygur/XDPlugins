@@ -1,0 +1,39 @@
+{
+  "name" : "Invisible Space",
+  "id" : "b911ff6b",
+  "version" : "1.2.0",
+  "description" : "Add invisible space for isolation area around logo, hit area wider than icon button looks, padding/margin of web component.You can create a gap around the selected objects by entering a padding value or separate value Top/Left/Bottom/Right.",
+  "summary" : "Add a gap around objects",
+  "keywords" : [ "margin", "padding", "space", "isolation" ],
+  "website" : "https://twitter.com/kenji_clown5",
+  "helpUrl": "https://note.mu/kenji_clown5/n/n036dfb2fc5d9",
+  "languages" : [ "en", "ja" ],
+  "author" : "Kenji Ikehara",
+  "main" : "main.js",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "icons" : [ {
+    "path" : "images/icon_48.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon_96.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon_144.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon_192.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Invisible Space",
+    "type" : "panel",
+    "panelId" : "InvidibleSpace"
+  } ]
+}

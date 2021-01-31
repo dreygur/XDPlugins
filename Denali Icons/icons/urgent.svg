@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>urgent</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M24,46A22,22,0,1,0,2,24,21.9,21.9,0,0,0,24,46ZM24,6A18,18,0,1,1,6,24,18.1,18.1,0,0,1,24,6Z"/>
+        <path d="M24,28a2,2,0,0,0,2-2V14a2,2,0,0,0-4,0V26A2,2,0,0,0,24,28Z"/>
+        <circle cx="24" cy="34" r="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

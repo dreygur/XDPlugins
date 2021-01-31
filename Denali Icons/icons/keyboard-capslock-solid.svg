@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>keyboard-capslock-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect width="48" height="48" fill="none"/>
+        <path d="M45.4,22.6l-20-20a1.9,1.9,0,0,0-2.7-.1h-.1l-20,20a1.9,1.9,0,0,0,0,2.8A2,2,0,0,0,4,26h7v4a2,2,0,0,0,2,2H35a2,2,0,0,0,2-2V26h7a2,2,0,0,0,2-2A2,2,0,0,0,45.4,22.6ZM13,36H35a2,2,0,0,1,2,2v6a2,2,0,0,1-2,2H13a2,2,0,0,1-2-2V38A2,2,0,0,1,13,36Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

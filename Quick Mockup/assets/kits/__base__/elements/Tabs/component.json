@@ -1,0 +1,22 @@
+{
+  "name": "Tabs",
+  "name_ja": "タブ",
+  "allowedProps": [],
+  "isContainer": true,
+  "UI": [
+    {
+      "uiType": "childState",
+      "compLabel": "ACTIVE_CHILD",
+      "propName": "STATE",
+      "selectedPropValue": "ACTIVE",
+      "resetPropValue": "DEFAULT",
+      "componentTypes": ["TabItem"]
+    },
+    {
+      "uiType": "addChild",
+      "compLabel": "ADD_CHILD",
+      "componentType": "Tab Item",
+      "padding": 24
+    }
+  ]
+}

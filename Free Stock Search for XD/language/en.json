@@ -1,0 +1,118 @@
+{
+    "en": {
+        "buttonOk": "OK",
+        "serverError": "Server responded: Error",
+        "buyLicense": "Buy a license for this file",
+        "search": "Search",
+        "searchPlaceholder": "Search for Stock Files",
+        "downloadAndApply": "Download and Apply File/s",
+        "downloadVector": "Download Vector File",
+        "noMoreResults": "No (more) results",
+        "register": {
+            "title": "PLUGIN ACTIVATION",
+            "mail": "Your email adress",
+            "key": "Your Licence Key",
+            "buyLicense": "Buy License",
+            "questions": "Questions or Issues?",
+            "error": "Your email and license key do not match.",
+            "errorFreeVersion": "No valid mail adress.",
+            "pleaseRegister": "Please register Free Stock Search with your email address.",
+            "inform": "You will be informed about updates via this address. No spam.",
+            "registerButton": "Register"
+        },
+        "help": {
+            "resizeWindow": "Resize the plugin window to show more results →",
+            "dontShowAgain": "Don't show this message again",
+            "photos": {
+                "title1": "Place a single Photo",
+                "content1": [
+                    "Click on a thumbnail to place the photo in the default size. The default size can be changed in the Photos Settings.",
+                    "Select a supported element (Rectangle, Ellipse, Polygon, Path, Group containing supported element, Repeat Grid) in the document before clicking on the thumbnail to place the photo in that element.",
+                    "Select multiple elements in the document to place the photo in all selected elements.",
+                    "Hover the mouse over the arrow icon in the upper right corner of a thumbnail to select a custom download size.",
+                    "If no (supported) element in the document is selected, the photo will be placed freely in the document."
+                ],
+                "title2": "Place multiple Photos",
+                "content2": [
+                    "Select multiple supported elements in the document.",
+                    "Mark the photos to be placed by checking the appropriate thumbnails.",
+                    "Click on 'Apply selected files'."
+                ]
+            },
+            "vectors": {
+                "title": "How to place Vectors",
+                "content": [
+                    "Click on a thumbnail to download the vector file.",
+                    "Use <b>Cmd/Ctrl + V</b> to paste it in your document.",
+                    "<b>Why do you have to do this?</b> It's currently not possible to place a vector file by script. It will be implemented as soon as it's possible."
+                ]
+            },
+            "icons": {
+                "title": "How to place Icons",
+                "content": [
+                    "Click on a thumbnail to download the icon file.",
+                    "Use <b>Cmd/Ctrl + V</b> to paste it in your document.",
+                    "<b>Why do you have to do this?</b> It's currently not possible to place a vector file by script. It will be implemented as soon as it's possible."
+                ]
+            }
+        },
+        "results": {
+            "buttonNextResults": "Load next results",
+            "from": "From",
+            "on": "on",
+            "saveToComputer": "Save to Computer",
+            "buyLicense": "Buy License"
+        },
+        "assets": {
+            "photos": "Photos",
+            "vectors": "Vectors",
+            "icons": "Icons"
+        },
+        "photosSettings": {
+            "searchPhotosOn": "SEARCH PHOTOS ON",
+            "defaultDownloadSize": "DEFAULT DOWNLOAD SIZE",
+            "small": "Small",
+            "medium": "Medium",
+            "large": "Large",
+            "original": "Original",
+            "willBeUsedOn": "This size will be used on a thumbnail click, on placing multiple files at once ('Apply selected files'), and on 'Save to Computer'."
+        },
+        "vectorsSettings": {
+            "searchVectorsOn": "SEARCH VECTORS ON"
+        },
+        "iconsSettings": {
+            "searchIconsOn": "SEARCH ICONS ON"
+        },
+        "update": {
+            "updateAvailable": "An update is available.",
+            "downloadHere": "Download it here."
+        },
+        "applyMultiple": {
+            "apply": "Apply selected files",
+            "filesSelected": "files slected",
+            "fileSelected": "file selected"
+        },
+        "hintBottom": {
+            "vectorDownloaded": "The Vector/Icon was downloaded and copied to the clipboard. Use <b>Cmd/Ctrl + V</b> to paste it in your document.",
+            "selectElements": "Select supported elements in the document. If you only want to place one file, click directly on the thumbnail or choose a size using the arrow symbol."
+        },
+        "proVersionFeatures": {
+            "onlyAvailable": "is only available in the Pro version.",
+            "title": "Features of the Pro Version",
+            "content": [
+                "<b>Search for all results</b> (Search not limited to 30 results. Millions of files available).",
+                "Place photos in the sizes <b>Small, Medium, Large and Original.</b>",
+                "Search and place <b>FREE vector files.</b>",
+                "Search and place <b>FREE icons (in vector format).</b>",
+                "<b>Save files to your computer.</b>",
+                "<b>No assets from Adobe Stock and Shutterstock appear in the results</b> (if these agencies are not selected)."
+            ],
+            "button": "Get Free Stock Search Pro",
+            "largeAndOriginal": "Large and Original",
+            "freeIcons": "Searching and placing free icons on Pixabay",
+            "freeVectors": "Searching and placing free vectors on Pixabay",
+            "allResults": "Searching for all results",
+            "realVectors": "You can download and place real vector files."
+        }
+    }
+}

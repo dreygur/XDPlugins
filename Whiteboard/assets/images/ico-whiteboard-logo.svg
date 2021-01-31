@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55.729" height="32.051" viewBox="0 0 55.729 32.051">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.696" y1="0.5" x2="0.272" y2="0.822" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.502"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.242" y1="0.5" x2="0.724" y2="0.832" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="icon_presentation_prod_48" transform="translate(-8 -16)">
+    <g id="W" transform="translate(8 16)">
+      <path id="Polygon_8" data-name="Polygon 8" d="M17.833,1.481a1,1,0,0,1,1.728,0L36.515,30.547a1,1,0,0,1-.864,1.5H1.741a1,1,0,0,1-.864-1.5Z" transform="translate(37.393 32.051) rotate(180)" opacity="0.803" fill="url(#linear-gradient)"/>
+      <path id="Polygon_9" data-name="Polygon 9" d="M17.833,1.481a1,1,0,0,1,1.728,0L36.515,30.547a1,1,0,0,1-.864,1.5H1.741a1,1,0,0,1-.864-1.5Z" transform="translate(55.729 32.051) rotate(180)" opacity="0.499" fill="url(#linear-gradient-2)"/>
+      <path id="Intersection_2" data-name="Intersection 2" d="M.237,1.5A1,1,0,0,1,1.1,0H16.674a1,1,0,0,1,.864,1.5L8.887,16.334Z" transform="translate(18.977 0)" fill="#fff" opacity="0.498"/>
+    </g>
+  </g>
+</svg>

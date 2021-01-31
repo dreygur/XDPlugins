@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>container-optimize</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M42.9,12.2l-18-9L24,3l-.9.2-18,9A1.9,1.9,0,0,0,4,14V33.8a1.9,1.9,0,0,0,1.1,1.8l18,9.2.9.2.9-.2,18-9.2A1.9,1.9,0,0,0,44,33.8V14A1.9,1.9,0,0,0,42.9,12.2ZM24,7.2l14.6,7.3L24,21.9,9.4,14.5ZM8,18.3l14,7.1V39.7L8,32.6ZM26,39.7V25.4l14-7.1V32.6Z"/>
+    </g>
+  </g>
+</svg>

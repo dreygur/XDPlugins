@@ -1,0 +1,65 @@
+{
+  "releaseNotes": "There was a bug that caused the plugin to only export at 3x scale. That's bad.\n\nNow the plugin actually does what you want!",
+  "id": "ad4d7bf5",
+  "version": "1.0.2",
+  "name": "Export only one size",
+  "summary": "Only export the scale you need",
+  "description": "Do you ever need to export something at 3x scale and then find yourself deleting all the 1x and 2x versions?\n\nThis plugin lets you choose a scale to export at and then only exports at that scale.\n",
+  "author": "Nikola Pilipovic",
+  "helpUrl": "https://github.com/nikoladev/xd-export/",
+  "keywords": [
+    "export",
+    "scale",
+    "size",
+    "png",
+    "render",
+    "3x",
+    "2x",
+    "1x",
+    "Export for",
+    "Design",
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "icons": [
+    {
+      "width": 48,
+      "height": 48,
+      "path": "icon.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "icon@2x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "icon@3x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "icon@4x.png"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Export only one size",
+      "commandId": "exportAtX",
+      "shortcut": {
+        "mac": "Cmd+Alt+E",
+        "win": "Ctrl+Alt+E"
+      }
+    }
+  ]
+}

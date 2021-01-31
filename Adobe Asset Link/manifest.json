@@ -1,0 +1,56 @@
+{
+  "name": "Adobe Asset Link",
+  "host": {
+    "app": "XD",
+    "minVersion": "29.0"
+  },
+  "helpUrl": "https://forms.gle/AxT7xpd3fdxbYKGJ9",
+  "id": "61d229b9",
+  "icons": [
+    {
+      "path": "assets/aem-logo@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "assets/aem-logo@2x.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "assets/aem-logo@3x.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/aem-logo@4x.png",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "assets/aem-logo@5x.png",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "languages": [
+    "en",
+    "ja",
+    "fr"
+  ],
+  "uiEntryPoints": [
+    {
+      "label": {
+        "default": "Adobe Asset Link",
+        "ja": "Adobe Asset Link",
+        "fr": "Adobe Asset Link"
+      },
+      "type": "panel",
+      "panelId": "runAEMForXd"
+    }
+  ],
+  "version": "1.0.3",
+  "entitlements": [
+    "_requires-ims-apis"
+  ]
+}

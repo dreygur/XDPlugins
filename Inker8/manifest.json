@@ -1,0 +1,54 @@
+{
+  "name": "Inker8",
+  "id": "c0e74810",
+  "version": "1.0.3",
+  "description": "Export design spec to measure positions, copy css and copy icons.",
+  "icons": [
+    {
+      "width": 96,
+      "height": 96,
+      "path": "assets/logo.png"
+    },
+    {
+      "width": 128,
+      "height": 128,
+      "path": "assets/logo_128.png"
+    },
+    {
+      "width": 512,
+      "height": 512,
+      "path": "assets/logo_512.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": {
+        "default": "Inker8",
+        "zh": "Inker8"
+      },
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": {
+            "default": "Export current artboard (local)",
+            "zh": "导出当前画板到本地"
+          },
+          "commandId": "exportCurrentArtboard"
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Export all artboards (local)",
+            "zh": "导出所有画板到本地"
+          },
+          "commandId": "exportAllArtboards"
+        }
+      ]
+    }
+  ]
+}

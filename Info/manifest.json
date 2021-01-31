@@ -1,0 +1,50 @@
+{
+    "name": "Info",
+	"id": "2fd017f9",
+	"version": "1.0.8",
+
+    "host":
+	{
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "icons":
+    [
+        {
+            "width": 24,
+            "height": 24,
+            "path":"img/icon_24.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path":"img/icon_48.png"
+        },
+        {
+            "width": 96,
+            "height": 96,
+            "path":"img/icon_96.png"
+        },
+        {
+            "width": 144,
+            "height": 144,
+            "path":"img/icon_144.png"
+        },
+        {
+            "width": 192,
+            "height": 192,
+            "path":"img/icon_192.png"
+        }
+    ],
+		
+    "uiEntryPoints":
+	[
+        {
+            "type": "panel",
+            "label": "Info",
+            "panelId": "Info",
+            "shortcut": {"mac": "Cmd+Alt+Shift+I", "win": "Ctrl+Alt+Shift+I"}
+        }
+    ]
+}

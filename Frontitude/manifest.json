@@ -1,0 +1,23 @@
+{
+  "id": "deb02346",
+  "name": "Frontitude",
+  "version": "1.0.14",
+  "languages": ["en"],
+  "author": "Frontitude",
+  "helpUrl": "https://www.frontitude.com",
+  "icons": [
+    { "width": 24, "height": 24, "path": "frontitude-square-logo24.jpg" },
+    { "width": 48, "height": 48, "path": "frontitude-square-logo48.jpg" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "28.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Frontitude",
+      "panelId": "pluginPanelController"
+    }
+  ]
+}

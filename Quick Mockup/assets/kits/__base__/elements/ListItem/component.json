@@ -1,0 +1,23 @@
+{
+  "name": "List Item",
+  "name_ja": "リストアイテム",
+  "allowedProps": ["STATE"],
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    },
+    {
+      "uiType": "input",
+      "type": "text",
+      "compLabel": "LABEL"
+    }
+  ]
+}

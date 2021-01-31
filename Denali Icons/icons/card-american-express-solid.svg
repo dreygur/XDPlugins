@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_7" data-name="Layer 7">
+      <path d="M11.4,21.7l-1.1,2.8h2.2Zm0,0-1.1,2.8h2.2ZM43,8H5a2.9,2.9,0,0,0-3,3V37a3,3,0,0,0,3,3H43a3,3,0,0,0,3-3V11A2.9,2.9,0,0,0,43,8ZM25.9,28H24.1V22.2L21.6,28H20l-2.5-5.9V28H13.9l-.7-1.8H9.6L8.9,28H7l3.2-8h2.4l3.1,7.7V20h2.9l2.2,5.3L23,20h2.9ZM41,28H38.7l-2.1-2.7L34.4,28H27.5V20h7.1l2,2.5L38.7,20H41l-3.2,3.9ZM29.3,21.7v1.5h4v1.5h-4v1.6h4.2l2-2.4-1.8-2.2Zm-19,2.8h2.2l-1.1-2.8Z" fill="#030104"/>
+    </g>
+  </g>
+</svg>

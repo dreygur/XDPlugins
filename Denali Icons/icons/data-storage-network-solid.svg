@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>data-storage-network-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M2,20V30a2,2,0,0,0,2,2H22v4.4A4.7,4.7,0,0,0,19.4,39H7.2a2,2,0,0,0,0,4H19.4a5,5,0,0,0,9.2,0H41a2,2,0,0,0,0-4H28.6A5.1,5.1,0,0,0,26,36.4V32H44a2,2,0,0,0,2-2V20Zm30,6a2,2,0,1,1,2-2A2,2,0,0,1,32,26Zm6,0a2,2,0,1,1,2-2A2,2,0,0,1,38,26ZM44,4H4A2,2,0,0,0,2,6V16H46V6A2,2,0,0,0,44,4ZM32,14a2,2,0,1,1,2-2A2,2,0,0,1,32,14Zm6,0a2,2,0,1,1,2-2A2,2,0,0,1,38,14Z"/>
+    </g>
+  </g>
+</svg>

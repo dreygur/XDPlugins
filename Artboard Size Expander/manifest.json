@@ -1,0 +1,125 @@
+{
+  "name": "Artboard Size Expander",
+  "description": "Artboard Size Expander allow you to change artboard size by 10px or 100px unit. You prefer to set a keyboard shortcut with another utility application.",
+  "version": "1.0.0",
+  "id": "340ff013",
+  "icons": [
+    {
+      "width": 96,
+      "height": 96,
+      "path": "img/icon.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": {
+        "default": "Artboard Size Expander",
+        "ja": "アートボードサイズの伸縮"
+      },
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": {
+            "default": "Expand down 10px",
+            "ja": "下に広げる（10px）"
+          },
+          "commandId": "ExpandD_ab",
+          "shortcut": {
+            "mac": "Cmd+Ctrl+4",
+            "win": "Ctrl+alt+4"
+          }
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Expand down 100px",
+            "ja": "下に広げる（100px）"
+          },
+          "commandId": "ExpandD_ab100",
+          "shortcut": {
+            "mac": "Cmd+Shift+Ctrl+4",
+            "win": "Ctrl+Shift+alt+4"
+          }
+        },
+
+        {
+          "type": "menu",
+          "label": {
+            "default": "Shrink up",
+            "ja": "上に縮める（10px）"
+          },
+          "commandId": "ShrinkU_ab",
+          "shortcut": {
+            "mac": "Cmd+Ctrl+8",
+            "win": "Ctrl+alt+8"
+          }
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Shrink up",
+            "ja": "上に縮める（100px）"
+          },
+          "commandId": "ShrinkU_ab100",
+          "shortcut": {
+            "mac": "Cmd+Shift+Ctrl+8",
+            "win": "Ctrl+Shift+alt+8"
+          }
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Expand right",
+            "ja": "右に広げる（10px）"
+          },
+          "commandId": "ExpandR_ab",
+          "shortcut": {
+            "mac": "Cmd+Ctrl+6",
+            "win": "Ctrl+alt+6"
+          }
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Expand right",
+            "ja": "右に広げる（100px）"
+          },
+          "commandId": "ExpandR_ab100",
+          "shortcut": {
+            "mac": "Cmd+Shift+Ctrl+6",
+            "win": "Ctrl+Shift+alt+6"
+          }
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Shrink left",
+            "ja": "左に縮める（10px）"
+          },
+          "commandId": "ShrinkL_ab",
+          "shortcut": {
+            "mac": "Cmd+Ctrl+5",
+            "win": "Ctrl+alt+5"
+          }
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Shrink left",
+            "ja": "左に縮める（100px）"
+          },
+          "commandId": "ShrinkL_ab100",
+          "shortcut": {
+            "mac": "Cmd+Shift+Ctrl+5",
+            "win": "Ctrl+Shift+alt+5"
+          }
+        }
+      ]
+    }
+  ]
+}

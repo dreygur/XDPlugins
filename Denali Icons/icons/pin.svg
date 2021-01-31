@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>pin</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M38,29h-.3L33,20.5V8h1a2,2,0,0,0,0-4H14a2,2,0,0,0,0,4h1V20.5L10.3,29H10a2,2,0,0,0,0,4H22V44a2,2,0,0,0,4,0V33H38a2,2,0,0,0,0-4ZM29,8v9H19V8ZM19,21H29l4.2,8H14.8Z"/>
+    </g>
+  </g>
+</svg>

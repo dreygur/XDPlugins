@@ -1,0 +1,1878 @@
+{
+  "type": "Artboard",
+  "name": "お問い合わせ - Mobile",
+  "visible": true,
+  "opacity": 1,
+  "rotation": 0,
+  "fillEnabled": true,
+  "fill": "#fbfbfb",
+  "strokeEnabled": false,
+  "strokeWidth": 1,
+  "strokePosition": "center",
+  "strokeEndCaps": "butt",
+  "strokeJoins": "miter",
+  "strokeMiterLimit": 10,
+  "strokeDashArray": [],
+  "strokeDashOffset": 0,
+  "shadow": null,
+  "blur": null,
+  "width": 375,
+  "height": 1017,
+  "viewportHeight": 812,
+  "children": [
+    {
+      "type": "Rectangle",
+      "name": "Background [STYLE=STYLE2]",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "fillEnabled": true,
+      "fill": "#ebebeb",
+      "strokeEnabled": false,
+      "stroke": "#707070",
+      "strokeWidth": 1,
+      "strokePosition": "inside",
+      "strokeEndCaps": "butt",
+      "strokeJoins": "miter",
+      "strokeMiterLimit": 4,
+      "strokeDashArray": [],
+      "strokeDashOffset": 0,
+      "shadow": null,
+      "blur": null,
+      "width": 375,
+      "height": 1017,
+      "cornerRadii": {
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomRight": 0,
+        "bottomLeft": 0
+      },
+      "__componentType": "Background"
+    },
+    {
+      "type": "Group",
+      "name": "Sign Up",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": -5.5,
+        "y": -17
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Group",
+          "name": "Card",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 216.86,
+            "y": 134.066
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=DEFAULT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -188.36,
+                "y": -61.066
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": {
+                "x": 8,
+                "y": 8,
+                "blur": 0,
+                "color": {
+                  "value": 436207616
+                },
+                "visible": true
+              },
+              "blur": null,
+              "width": 328,
+              "height": 905,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "DISPLAY_ELEMENTS": "DEFAULT"
+                },
+                "type": "Card",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Card"
+        },
+        {
+          "type": "Group",
+          "name": "Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 60.5,
+            "y": 898
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Label][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#3c3c3c",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 264,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 132.485,
+                "y": 30
+              },
+              "fillEnabled": true,
+              "fill": "#fcfcfc",
+              "strokeEnabled": false,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "送信する",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "SemiBold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "center",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 228,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Label][ICON=feather/heart][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "#fcfcfc",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1.375,
+                    "y": 2.499
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [DISPLAY_ELEMENTS=Label][ICON=feather/heart][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.375,
+                        "y": -2.499
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#fcfcfc",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 17.36700057983398 3.842000007629395 C 15.57699966430664 2.051000118255615 12.67300033569336 2.051000118255615 10.88300037384033 3.842000007629395 L 10 4.724999904632568 L 9.116999626159668 3.842000007629395 C 7.326000213623047 2.051000118255615 4.423999786376953 2.051000118255615 2.632999897003174 3.842000007629395 C 0.8429999947547913 5.631999969482422 0.8429999947547913 8.534999847412109 2.632999897003174 10.32499980926514 L 3.516999959945679 11.20800018310547 L 10 17.6919994354248 L 16.48299980163574 11.20800018310547 L 17.36700057983398 10.32499980926514 C 19.15800094604492 8.534999847412109 19.15800094604492 5.631999969482422 17.36700057983398 3.842000007629395 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/heart"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE1",
+                  "DISPLAY_ELEMENTS": "Label",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "Button",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Button"
+        },
+        {
+          "type": "Group",
+          "name": "Input",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 60.5,
+            "y": 722
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Default][STATE=DEFAULT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 264,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Value",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 16,
+                "y": 30
+              },
+              "fillEnabled": true,
+              "fill": "#3e3e3e",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Eメールアドレス",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "SemiBold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 230,
+                "y": 15
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 2.544,
+                    "y": 2.5
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Ellipse",
+                      "name": "Path [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.044,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "radiusX": 6.666666507720947,
+                      "radiusY": 6.666666507720947,
+                      "__componentType": "Ellipse"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 11.331,
+                        "y": 11.375
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 3.625,
+                        "y": 3.625
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "Feather/Search"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": -12
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Label",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "Bold",
+              "fontSize": 13,
+              "charSpacing": 40,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 19,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "DISPLAY_ELEMENTS": "Default"
+                },
+                "type": "Input",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Input"
+        },
+        {
+          "type": "Group",
+          "name": "Input",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 60.5,
+            "y": 658
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Default][STATE=DEFAULT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 264,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Value",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 16,
+                "y": 30
+              },
+              "fillEnabled": true,
+              "fill": "#3e3e3e",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "お名前",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "SemiBold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 230,
+                "y": 15
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 2.74,
+                    "y": 2.5
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Ellipse",
+                      "name": "Path [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.24,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "radiusX": 6.666666507720947,
+                      "radiusY": 6.666666507720947,
+                      "__componentType": "Ellipse"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [DISPLAY_ELEMENTS=Default][ICON=Feather/Search][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 11.135,
+                        "y": 11.375
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 3.625,
+                        "y": 3.625
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE1",
+                      "SIZE": "MEDIUM",
+                      "ICON": "Feather/Search"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": -12
+              },
+              "fillEnabled": true,
+              "fill": "#3d3d3d",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Label",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "Bold",
+              "fontSize": 13,
+              "charSpacing": 40,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 19,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "DISPLAY_ELEMENTS": "Default"
+                },
+                "type": "Input",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Input"
+        },
+        {
+          "type": "Group",
+          "name": "Icon",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 60.5,
+            "y": 490
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [ICON=feather/map-pin][SIZE=LARGE][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 0,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fcfcfc",
+              "strokeEnabled": false,
+              "stroke": "#fd49c6",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 24,
+              "height": 24,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -1,
+                "y": -1
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Path",
+                  "name": "Path [ICON=feather/map-pin][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1,
+                    "y": 1
+                  },
+                  "fillEnabled": true,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "pathData": "M 21 10 C 21 17 12 23 12 23 C 12 23 3 17 3 10 C 3 5.028999805450439 7.028999805450439 1 12 1 C 16.97100067138672 1 21 5.028999805450439 21 10 Z",
+                  "__componentType": "Path"
+                },
+                {
+                  "type": "Ellipse",
+                  "name": "Path [ICON=feather/map-pin][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 10,
+                    "y": 8
+                  },
+                  "fillEnabled": true,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "radiusX": 3,
+                  "radiusY": 3,
+                  "__componentType": "Ellipse"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STYLE": "STYLE1",
+                  "SIZE": "LARGE",
+                  "ICON": "feather/map-pin"
+                },
+                "type": "Icon",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Icon"
+        },
+        {
+          "type": "Group",
+          "name": "Icon",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 60.5,
+            "y": 538
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [ICON=feather/phone][SIZE=LARGE][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 0,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fcfcfc",
+              "strokeEnabled": false,
+              "stroke": "#fd49c6",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 24,
+              "height": 24,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -1,
+                "y": -1
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Path",
+                  "name": "Path [ICON=feather/phone][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1,
+                    "y": 1
+                  },
+                  "fillEnabled": true,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "pathData": "M 22 16.92000007629395 L 22 19.92000007629395 C 22.00200080871582 20.48299980163574 21.76700019836426 21.02099990844727 21.35199928283691 21.40200042724609 C 20.9370002746582 21.78300094604492 20.38100051879883 21.97100067138672 19.81999969482422 21.92000007629395 C 16.74300003051758 21.58600044250488 13.78699970245361 20.53400039672852 11.1899995803833 18.85000038146973 C 8.77400016784668 17.31500053405762 6.724999904632568 15.26599979400635 5.190000057220459 12.85000038146973 C 3.5 10.24100017547607 2.447999954223633 7.270999908447266 2.119999885559082 4.179999828338623 C 2.069000005722046 3.621000051498413 2.25600004196167 3.065999984741211 2.634999990463257 2.651999950408936 C 3.013000011444092 2.236999988555908 3.549000024795532 2.000999927520752 4.110000133514404 2 L 7.110000133514404 2 C 8.11400032043457 1.990000009536743 8.970000267028809 2.726000070571899 9.109999656677246 3.720000028610229 C 9.237000465393066 4.679999828338623 9.470999717712402 5.623000144958496 9.810000419616699 6.53000020980835 C 10.08500003814697 7.261000156402588 9.909000396728516 8.085000038146973 9.359999656677246 8.640000343322754 L 8.090000152587891 9.909999847412109 C 9.513999938964844 12.41399955749512 11.58600044250488 14.48600006103516 14.09000015258789 15.90999984741211 L 15.35999965667725 14.64000034332275 C 15.91499996185303 14.09099960327148 16.73900032043457 13.91499996185303 17.46999931335449 14.1899995803833 C 18.37700080871582 14.5290002822876 19.31999969482422 14.76299953460693 20.28000068664551 14.89000034332275 C 21.2859992980957 15.0319995880127 22.02499961853027 15.90499973297119 22 16.92000007629395 Z",
+                  "__componentType": "Path"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STYLE": "STYLE1",
+                  "SIZE": "LARGE",
+                  "ICON": "feather/phone"
+                },
+                "type": "Icon",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Icon"
+        },
+        {
+          "type": "Group",
+          "name": "Icon",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 60.5,
+            "y": 586
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [ICON=feather/smartphone][SIZE=LARGE][STYLE=STYLE1]",
+              "visible": true,
+              "opacity": 0,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fcfcfc",
+              "strokeEnabled": false,
+              "stroke": "#fd49c6",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 24,
+              "height": 24,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -1,
+                "y": -1
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Rect [ICON=feather/smartphone][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 6,
+                    "y": 3
+                  },
+                  "fillEnabled": true,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 14,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 2,
+                    "topRight": 2,
+                    "bottomRight": 2,
+                    "bottomLeft": 2
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Line",
+                  "name": "Line [ICON=feather/smartphone][SIZE=LARGE][STYLE=STYLE1]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 13,
+                    "y": 19
+                  },
+                  "fillEnabled": false,
+                  "strokeEnabled": true,
+                  "stroke": "#3d3d3d",
+                  "strokeWidth": 2,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "round",
+                  "strokeJoins": "round",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "start": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "end": {
+                    "x": 0.009999999776482582,
+                    "y": 0
+                  },
+                  "__componentType": "Line"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STYLE": "STYLE1",
+                  "SIZE": "LARGE",
+                  "ICON": "feather/smartphone"
+                },
+                "type": "Icon",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Icon"
+        },
+        {
+          "type": "Text",
+          "name": "Address [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 100.5,
+            "y": 491
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "東京都品川区大崎1丁目11-2",
+          "fontFamily": "Noto Sans",
+          "fontStyle": "SemiBold",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 0,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 224,
+            "height": 22
+          },
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Phone [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 100.5,
+            "y": 539
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "(+1) 123 456 7890 ",
+          "fontFamily": "Noto Sans",
+          "fontStyle": "SemiBold",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 0,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 224,
+            "height": 22
+          },
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Mobile [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_M]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 100.5,
+            "y": 587
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "(+1) 123 456 7891",
+          "fontFamily": "Noto Sans",
+          "fontStyle": "SemiBold",
+          "fontSize": 16,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 0,
+          "paragraphSpacing": 0,
+          "areaBox": {
+            "width": 224,
+            "height": 22
+          },
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Title [PLATFORM=MOBILE][STYLE=STYLE1][TAG=H4]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 136.5,
+            "y": 450
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "お問い合わせ",
+          "fontFamily": "Noto Sans",
+          "fontStyle": "Bold",
+          "fontSize": 24,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "center",
+          "lineSpacing": 32,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Map",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Background [STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 36.5,
+                "y": 81
+              },
+              "fillEnabled": true,
+              "fill": "#ebebeb",
+              "strokeEnabled": false,
+              "stroke": "#707070",
+              "strokeWidth": 1,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 312,
+              "height": 312,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Background"
+            },
+            {
+              "type": "Group",
+              "name": "Location Pin",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": -555.5,
+                "y": -54.5
+              },
+              "dynamicLayout": false,
+              "children": [
+                {
+                  "type": "Ellipse",
+                  "name": "Ellipse [FILL=STYLE2/LIGHT]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 716,
+                    "y": 259.5
+                  },
+                  "fillEnabled": true,
+                  "fill": "#cfcfcf",
+                  "strokeEnabled": false,
+                  "stroke": "#707070",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "radiusX": 32,
+                  "radiusY": 32,
+                  "__componentType": "Ellipse"
+                },
+                {
+                  "type": "Ellipse",
+                  "name": "Ellipse [FILL=STYLE2/BRAND]",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 736.8,
+                    "y": 280.3
+                  },
+                  "fillEnabled": true,
+                  "fill": "#3c3c3c",
+                  "strokeEnabled": false,
+                  "stroke": "#707070",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "radiusX": 11.199999809265137,
+                  "radiusY": 11.199999809265137,
+                  "__componentType": "Ellipse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 284.5,
+            "y": 97
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Line",
+                      "name": "Line [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 6,
+                        "y": 6
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 10,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 0,
+                        "y": 10
+                      },
+                      "__componentType": "Line"
+                    },
+                    {
+                      "type": "Line",
+                      "name": "Line [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 6,
+                        "y": 6
+                      },
+                      "fillEnabled": false,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "start": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "end": {
+                        "x": 10,
+                        "y": 10
+                      },
+                      "__componentType": "Line"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "DEFAULT",
+                      "STYLE": "STYLE2",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/x"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Textarea",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 60.5,
+            "y": 786
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [DISPLAY_ELEMENTS=Default][STATE=DEFAULT]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 264,
+              "height": 96,
+              "cornerRadii": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomRight": 0,
+                "bottomLeft": 0
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Text",
+              "name": "Value",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 16,
+                "y": 13
+              },
+              "fillEnabled": true,
+              "fill": "#3e3e3e",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "こちらにメッセージをお書きください",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "SemiBold",
+              "fontSize": 16,
+              "charSpacing": 0,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 0,
+              "paragraphSpacing": 0,
+              "areaBox": {
+                "width": 232,
+                "height": 70
+              }
+            },
+            {
+              "type": "Text",
+              "name": "Label",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": -6.8
+              },
+              "fillEnabled": true,
+              "fill": "#3e3e3e",
+              "strokeEnabled": true,
+              "stroke": "rgba(0,0,0,0)",
+              "strokeWidth": 1,
+              "strokePosition": "center",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 10,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "text": "Label",
+              "fontFamily": "Noto Sans",
+              "fontStyle": "Bold",
+              "fontSize": 13,
+              "charSpacing": 40,
+              "underline": false,
+              "strikethrough": false,
+              "textTransform": "none",
+              "textScript": "none",
+              "flipY": false,
+              "textAlign": "left",
+              "lineSpacing": 19,
+              "paragraphSpacing": 0,
+              "areaBox": null
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "DISPLAY_ELEMENTS": "Default"
+                },
+                "type": "Textarea",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Textarea"
+        }
+      ]
+    }
+  ],
+  "__componentType": "お問い合わせ - Mobile"
+}

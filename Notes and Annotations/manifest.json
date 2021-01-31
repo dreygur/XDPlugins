@@ -1,0 +1,41 @@
+{
+  "id": "b5ef6ba9",
+  "name": "Notes and Annotations",
+
+  "summary": "Interactive notes/annotations",
+    "description": "With Notes and Annotations you can easily add interactive notes based on provided templates or create your own look and feel. With two simple buttons you can easily hide or show all notes in the entire document.",
+    "keywords": [
+      "notes",
+      "annotations",
+      "collaboration",
+      "feedback",
+      "utility",
+      "productivity",
+      "concept",
+      "templates",
+      "ux"
+    ],
+    "releaseNotes": "First full features version. More templates coming soon.",
+    "website": "https://www.tourdexd.com",
+    "author": "Tour de XD",
+    "helpUrl": "https://tourdexd.com/plugin/notes-and-annotations/",
+    "version": "1.0.0",
+    "languages": ["en"],
+    "icons": [
+      { "width": 48, "height": 48, "path": "assets/icon_48.png" },
+      { "width": 96, "height": 96, "path": "assets/icon_96.png" },
+      { "width": 144, "height": 144, "path": "assets/icon_144.png" },
+      { "width": 192, "height": 192, "path": "assets/icon_192.png" }
+    ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Notes and Annotations",
+      "commandId": "dialogDefault"
+    }
+  ]
+}

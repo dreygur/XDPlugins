@@ -1,0 +1,47 @@
+{
+    "id": "5e40380c",
+    "name": "Denali Icons",
+    "version": "1.0.0",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+      },
+    "description": "Use Denali Icons directly in XD with a simple drag and drop.",
+    "languages": ["en"],
+    "author": "Chas Turansky",
+    "helpUrl": "https://denali.design/support",
+    "icons": [
+        {
+            "width": 192,
+            "height": 192,
+            "path": "resources/denali_icon@5x.png"
+        },
+        {
+            "width": 144,
+            "height": 144,
+            "path": "resources/denali_icon@4x.png"
+        },
+        {
+            "width": 96,
+            "height": 96,
+            "path": "resources/denali_icon@3x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "resources/denali_icon@2x.png"
+        },
+        {
+            "width": 24,
+            "height": 24,
+            "path": "resources/denali_icon@1x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Denali Icons",
+            "panelId": "denaliIcons"
+        }
+    ]
+  }

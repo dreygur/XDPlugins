@@ -1,0 +1,46 @@
+{
+  "ExportError": {
+    "en": "Image output failed.<br/>- Write destination problem (security etc.)<br/>- Path name is too long<br/>- Image size is 0px<br/>- XD Status,Image cannot be output.(try export image.)",
+    "ja": "画像の出力に失敗しました<br>以下のような可能性があります<br/>・書き込み先の問題(セキュリティ等)<br/>・パス名が長すぎる<br/>・イメージサイズが0px<br/>・画像出力ができない状態(<a href='https://bit.ly/38mU9vY'>参考</a>)"
+  },
+  "ExportErrorSelection": {
+    "en": "Make the following selections: <br/>-One layer immediate child of the output artboard <br/>-Not locked",
+    "ja": "以下のような選択をしてください<br/>・出力アートボード直下のレイヤーを1つ<br/>・ロックされていない"
+  },
+  "ExportDialogSelected": {
+    "en": "Selected layers/artboards",
+    "ja": "選択 レイヤー/アートボード"
+  },
+  "ExportDialogOutput": {
+    "en": "Output",
+    "ja": "出力"
+  },
+  "ExportDialogUnderDevelopmentOptions": {
+    "en": "Under development",
+    "ja": "開発中オプション"
+  },
+  "ExportDialogOptionAllArtboard": {
+    "en": "Export all artboards.",
+    "ja": "全てのアートボードを対象とする"
+  },
+  "ExportComponentInstanceAsPrefab": {
+    "en": "All Component instance as prefab.",
+    "ja": "全てのコンポーネントインスタンスをPrefabにする"
+  },
+  "ExportDialogOptionCheckExportMark": {
+    "en": "Export only with export mark.",
+    "ja": "エキスポートマークがついているもののみ出力する"
+  },
+  "ExportDialogOptionNotExportImage": {
+    "en": "Not export image files.",
+    "ja": "イメージは出力しない"
+  },
+  "ExportDialogOptionOnlyCssChangeContent": {
+    "en": "Only change content with CSS.",
+    "ja": "CSSによるコンテンツの変更のみ実行"
+  },
+  "ExportErrorNoTarget": {
+    "en": "No output target",
+    "jp": "出力対象がありません"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "WakaTime",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "id": "391090dc",
+  "icons": [
+    {
+      "path": "images/wakatime24.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/wakatime48.png",
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "WakaTime",
+      "type": "menu",
+      "commandId": "apiKeyDialog"
+    }
+  ],
+  "version": "1.0.0"
+}

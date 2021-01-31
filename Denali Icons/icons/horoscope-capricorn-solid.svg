@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="horoscope">
+      <path d="M36,24a9.5,9.5,0,0,0-5,1.5V11a8,8,0,0,0-8-8,8.2,8.2,0,0,0-6,2.7A8.2,8.2,0,0,0,11,3a8,8,0,0,0-8,8v4a2,2,0,0,0,4,0V11a4,4,0,0,1,8,0V34a2,2,0,0,0,4,0V11a4,4,0,0,1,8,0V37a4,4,0,0,1-4,4H21a2,2,0,0,0,0,4h2a8.1,8.1,0,0,0,7.4-5A8.5,8.5,0,0,0,36,42a9,9,0,0,0,0-18Zm0,14a5,5,0,1,1,5-5A5,5,0,0,1,36,38Z"/>
+    </g>
+  </g>
+</svg>

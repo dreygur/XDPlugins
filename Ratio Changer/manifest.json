@@ -1,0 +1,27 @@
+{
+  "id": "477ff5d3",
+  "name": "Ratio Changer",
+  "version": "1.0.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "30.0"
+  },
+  "description": "This plugin can changes ratio of object(shapes and texts and paths).Just select objects and set the ratio you want to change. Various ratios(Square, Golden, Yamato, 4:3, 3:2, 16:9, 16:10, Equilateral Triangle )and Custom ratio.",
+  "summary": "This plugin can change the ratio of objects",
+  "languages": ["en", "ja"],
+  "author": "Takayuki Iida",
+  "helpUrl": "https://twitter.com/hatokiraidesu",
+  "icons": [
+      { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+      { "width": 96, "height": 96, "path": "images/icon@2x.png" },
+      { "width": 144, "height": 144, "path": "images/icon@3x.png" },
+      { "width": 192, "height": 192, "path": "images/icon@2x.png" }
+  ],
+  "uiEntryPoints": [
+      {
+        "type": "panel",
+        "label": "Ratio Changer",
+        "panelId": "ratiochanger"
+      }
+  ]
+}

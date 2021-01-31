@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>layers</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M45.3,14.1,24,6,2.7,14.1a.9.9,0,0,0,0,1.8L24,24l21.3-8.1A.9.9,0,0,0,45.3,14.1ZM24,19.7,11.5,15,24,10.3,36.5,15Z"/>
+      <path d="M43.3,22.1,24,29.7,4.7,22.1a2,2,0,1,0-1.4,3.8L24,34l20.7-8.1a2,2,0,0,0-1.4-3.8Z"/>
+      <path d="M43.3,32.1,24,39.7,4.7,32.1a2,2,0,1,0-1.4,3.8L24,44l20.7-8.1a2,2,0,1,0-1.4-3.8Z"/>
+    </g>
+  </g>
+</svg>

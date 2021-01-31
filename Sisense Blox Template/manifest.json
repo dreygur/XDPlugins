@@ -1,0 +1,37 @@
+{
+    "name": "Sisense Blox Template",
+    "id": "a3ccee64",
+    "version": "2.0.0",
+    "author": "Sisense Inc",
+    "description": "Create Sisense BloX template by selecting your designed items then Ctrl-option-C on Mac and Ctrl-alt-C on a PC, then paste it on Sisense+BloX and you are done!. Sisense Blox is required for the use of this Plugin and the installation is for Windows only, download Sisense and Blox at: www.sisense.com, After the free trial ends to keep using the software payment is required.",
+    "summary": "Generates BloX Templates",
+    "helpUrl": "https://support.sisense.com",
+    "keywords": ["widgets", "template", "analytics", "builders"],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "images/icon@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@2x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Copy BloX Template",
+            "panelId": "sisense",
+            "shortcut": {
+                "mac": "Ctrl+Option+C",
+                "win": "Ctrl+Alt+C"
+            }
+        }
+    ]
+}

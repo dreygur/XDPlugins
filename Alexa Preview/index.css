@@ -1,0 +1,180 @@
+html, body, div, p {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: "SF UI Text", adobe-clean, "Adobe Clean", sans-serif;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+dialog {
+  width: 750px;
+  height: 644px;
+  text-align: center;
+  background-color: #232F3E;
+  background-size: cover;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #04D1FF;
+  padding: 0;
+}
+
+section {
+  text-align: center;
+  color: #ffffff;
+  padding: 0 auto;
+}
+
+footer, p, table, .artboard-list {
+  width: 382px;
+  margin: 20px auto 32px auto;
+  padding: 0;
+}
+
+h1 {
+  margin: 6px auto 0 auto;
+  padding: 0;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.logo {
+  margin: 54px auto 0px auto;
+}
+
+button {
+  padding: 0;
+  margin: 0 6px;
+}
+
+.center {
+  justify-content: center;
+}
+
+table {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  display: block;
+  overflow-y: scroll;
+  max-height: 240px;
+  width: 500px;
+  margin: 20px auto 0px auto;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+  padding: 8px 24px;
+  text-align: left;
+  line-height: 20px;
+  text-overflow: ellipsis;
+}
+
+tr.selected, tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+td.invocation-name {
+  width: 55%;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+td.updated-at {
+  width: 45%;
+  font-size: 11px;
+  text-align: right;
+  line-height: 24px;
+}
+
+td.delete-button {
+  width: 5%;
+  vertical-align: middle;
+  align-items: center;
+  line-height: 20px;
+  margin: 0 0 0 20px;
+}
+
+td.delete-button > img {
+  width: 20px;
+  height: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.artboard-list {
+  margin-bottom: 12px;
+}
+
+.artboard-list > div {
+  justify-content: space-between;
+  background-color: #EAEAEA;
+  border-radius: 5px;
+  height: 255px;
+  align-items: center;
+}
+
+.artboard-list-info {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+section.thin > * {
+  width: 340px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.4em;
+  border: #232F3E 1px solid;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.description {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.error {
+  border: red 1px solid;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.small {
+  text-align: left;
+  font-size: 10px;
+  height: 18px;
+}
+
+.success-invocation {
+  font-size: 26px;
+  width: 520px;
+  font-style: italic;
+}

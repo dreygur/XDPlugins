@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>data-storage-check-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M26,32V42a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V32Zm6,6a2,2,0,1,1,2-2A2,2,0,0,1,32,38Zm6,0a2,2,0,1,1,2-2A2,2,0,0,1,38,38ZM26,20v8H46V20Zm6,6a2,2,0,1,1,2-2A2,2,0,0,1,32,26Zm6,0a2,2,0,1,1,2-2A2,2,0,0,1,38,26ZM44,4H4A2,2,0,0,0,2,6V16H46V6A2,2,0,0,0,44,4ZM32,14a2,2,0,1,1,2-2A2,2,0,0,1,32,14Zm6,0a2,2,0,1,1,2-2A2,2,0,0,1,38,14Z"/>
+        <path d="M19.6,26.6,9,37.2,6.4,34.6a1.9,1.9,0,0,0-3,.2,2.1,2.1,0,0,0,.2,2.7l4,3.9a1.9,1.9,0,0,0,2.8,0l12-12a2,2,0,0,0-2.8-2.8Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

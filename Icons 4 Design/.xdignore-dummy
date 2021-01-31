@@ -1,0 +1,17 @@
+.xdignore
+.gitignore
+.npmignore
+src/
+node_modules/
+package-lock.json
+package.json
+.eslintrc.json
+webpack.config.js
+yarn.lock
+readme.md
+images/src/
+images/icons/
+*.old
+*.log
+.babelrc
+*.map

@@ -1,0 +1,21 @@
+{
+  "name" : "Triangle",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "Quickly add triangle elements to your design",
+  "id" : "60a4b458",
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Triangle",
+    "type" : "menu",
+    "commandId" : "addTriangle",
+    "shortcut": { "mac": "Cmd+Shift+B", "win": "Ctrl+Shift+B" }
+  } ],
+  "version" : "1.0.0"
+}

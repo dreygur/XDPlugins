@@ -1,0 +1,70 @@
+{
+  "summary": "LTR to RTL (for Hebrew)",
+  "website": "http://alongruss.com",
+  "keywords": [
+    "LTR",
+    "RTL",
+    "text",
+    "hebrew",
+    "he",
+    "heb"
+  ],
+  "languages": [
+    "en"
+  ],
+  "author": "Alon Gruss",
+  "name": "LTR to RTL by Alon Gruss",
+  "host": {
+    "app": "XD",
+    "minVersion": "14.0"
+  },
+  "description": "Use Ctrl+h or Cmd+h to flip from LTR text to RTL.\n\nThis plugin was made to ease the work of designers.\n\n( wanna help me back? I'm looking for a UX job! )",
+  "helpUrl": "alon.gruss+xdplug@gmail.com",
+  "id": "dc7f9d19",
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "images/icon@3x.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "images/icon@4x.png",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "images/icon@5x.png",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "LTR <> RTL by Alon Gruss",
+      "type": "menu",
+      "menuItems": [
+        {
+          "label": "switch to RTL",
+          "type": "menu",
+          "commandId": "switchToRTL",
+          "shortcut": {
+            "mac": "Cmd+h",
+            "win": "Ctrl+h"
+          }
+        }
+      ]
+    }
+  ],
+  "version": "1.0.2",
+  "releaseNotes": "Fixed numbered bullets and numbers breaking lines."
+}

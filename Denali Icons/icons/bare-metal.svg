@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>bare-metal</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M38,2H10A2,2,0,0,0,8,4V44a2,2,0,0,0,2,2H38a2,2,0,0,0,2-2V4A2,2,0,0,0,38,2ZM36,42H12V6H36Z"/>
+        <rect x="16" y="10" width="16" height="4"/>
+        <rect x="16" y="16" width="16" height="4"/>
+        <rect x="16" y="22" width="16" height="4"/>
+        <circle cx="24" cy="35" r="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

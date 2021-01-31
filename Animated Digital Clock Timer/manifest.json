@@ -1,0 +1,26 @@
+{
+  "name" : "Animated Digital Clock Timer",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "14.0.42"
+  },
+  "description" : "Create digital clock style countdown timers between any two artboards tied with an auto-animate transition.",
+  "id" : "f577b9f9",
+  "icons" : [ {
+    "path" : "images/icon-512.png",
+    "width" : 512,
+    "height" : 512
+  },
+  {
+    "path" : "images/icon-96.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Animated Digital Clock Timer",
+    "type" : "menu",
+    "commandId" : "makeCountdownTimer"
+  }
+],
+  "version" : "1.0.3"
+}

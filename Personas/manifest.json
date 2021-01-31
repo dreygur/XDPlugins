@@ -1,0 +1,37 @@
+{
+  "id": "ee0666dd",
+  "name": "Personas",
+  "summary": "Create customizable personas",
+  "description": "Create beautiful and customizable personas with different layouts and image styles. Crafting personas has never been easier and more fun.",
+  "keywords": [
+    "personas",
+    "utility",
+    "productivity",
+    "concept",
+    "templates",
+    "ux"
+  ],
+  "releaseNotes": "New persona template added. Auto scroll into view when created.",
+  "website": "https://www.tourdexd.com",
+  "author": "Tour de XD",
+  "helpUrl": "https://tourdexd.com/plugin/personas/",
+  "version": "1.1.0",
+  "languages": ["en"],
+  "icons": [
+    { "width": 48, "height": 48, "path": "assets/icon_48.png" },
+    { "width": 96, "height": 96, "path": "assets/icon_96.png" },
+    { "width": 144, "height": 144, "path": "assets/icon_144.png" },
+    { "width": 192, "height": 192, "path": "assets/icon_192.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Personas",
+      "commandId": "openCommand"
+    }
+  ]
+}

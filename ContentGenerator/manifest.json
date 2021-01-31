@@ -1,0 +1,17 @@
+{
+    "id": "5f75a26a",
+    "name": "ContentGenerator",
+    "version": "1.0.0",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Content Generator...",
+            "commandId": "contentGenerator"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "summary" : "Replace a font in a document",
+  "languages" : [ "en" ],
+  "author" : "Adam Coulombe",
+  "name" : "Global Font Replace",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "description" : "Useful for replacing a font across an entire document. Select an item that has the font you want to copy, then, select an item that uses the font you want to replace. Then, voilà! Note: XD has some limitations that prevent plugins from automatically making changes to text elements in certain contexts. For this reason, text elements within Repeat Grids, Masks, and Linked Graphics may still need to be replaced manually.",
+  "helpUrl" : "https://github.com/adamcoulombe/Global-Font-Replace-for-Adobe-XD",
+  "id" : "54ac870b",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon@3x.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon@4x.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon@5x.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints" : [ {
+    "type": "panel",
+    "label": "Global Font Replace",
+    "panelId": "globalFontReplace"
+} ],
+  "version" : "1.0.0"
+}

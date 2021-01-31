@@ -1,0 +1,50 @@
+{
+    "id": "4f6017df",
+    "name": "Select Same Color",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+    "version": "1.0.0",
+    "description": "When an item is selected, allows quick selection of items with the same fill, border, or shadow. Supports both solid colors and linear gradients. Useful for rapid prototyping by selecting items with the same visual characteristics.",
+    "icons": [
+        { "width": 96, "height": 96, "path": "images/icon@2x.png" }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Select Same Color",
+
+            
+            "menuItems": [
+                {
+                    "type": "menu",
+                    "label": "Select Items With Same Fill",
+                    "commandId": "selectItemsWithSameFill",
+                    "shortcut": {
+                        "mac": "Ctrl+Alt+F",
+                        "win": "Ctrl+Alt+F"
+                    }
+                },
+                 {
+                    "type": "menu",
+                    "label": "Select Items With Same Border",
+                    "commandId": "selectItemsWithSameBorder",
+                    "shortcut": {
+                        "mac": "Ctrl+Alt+B",
+                        "win": "Ctrl+Alt+B"
+                    }
+                },
+                {
+                    "type": "menu",
+                    "label": "Select Items With Same Shadow",
+                    "commandId": "selectItemsWithSameShadow",
+                    "shortcut": {
+                        "mac": "Ctrl+Alt+S",
+                        "win": "Ctrl+Alt+S"
+                    }
+                }
+            ]
+        }
+    ]
+}

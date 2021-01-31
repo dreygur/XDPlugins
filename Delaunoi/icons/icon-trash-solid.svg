@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="icon-trash-solid" transform="translate(-154 -39)">
+    <rect id="Rechteck_27" data-name="Rechteck 27" width="18" height="18" transform="translate(154 39)" fill="none"/>
+    <path id="trash" d="M7.286,2a.714.714,0,0,0-.639.395L6.13,3.429H3.714a.714.714,0,0,0,0,1.429V12a1.429,1.429,0,0,0,1.429,1.429h5.714A1.429,1.429,0,0,0,12.286,12V4.857a.714.714,0,1,0,0-1.429H9.87L9.353,2.395A.714.714,0,0,0,8.714,2ZM5.857,6.286a.714.714,0,0,1,1.429,0v4.286a.714.714,0,0,1-1.429,0Zm3.571-.714a.714.714,0,0,0-.714.714v4.286a.714.714,0,0,0,1.429,0V6.286A.714.714,0,0,0,9.429,5.571Z" transform="translate(155 40)" fill="#848484" fill-rule="evenodd"/>
+  </g>
+</svg>

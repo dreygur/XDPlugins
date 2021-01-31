@@ -1,0 +1,50 @@
+{
+    "name": "Alignment",
+    "id": "5dd3e4eb",
+    "version": "2.0.0",
+    "description": "Set alignment to top, right, bottom and left corners with support for horizontal centering, vertical centering, margins and anchoring to edges.",
+    "summary": "Align and position elements",
+
+    "keywords": [
+        "alignment",
+        "position",
+        "cartesian",
+        "anchoring",
+        "anchor",
+        "constraints",
+        "layout",
+        "size",
+        "resize"
+    ],
+
+    "languages": [
+        "en"
+    ],
+
+    "author": "Velara 3",
+    "publisher": "Velara 3",
+    "website": "https://www.velara3.com",
+    "helpUrl": "https://discuss.velara3.com/",
+
+    "icons":[
+        { "width": 24, "height": 24, "path": "images/Icon 24.png" },
+        { "width": 48, "height": 48, "path": "images/Icon 48.png" },
+        { "width": 96, "height": 96, "path": "images/Icon 96.png" },
+        { "width": 144, "height": 144, "path": "images/Icon 144.png" },
+        { "width": 192, "height": 192, "path": "images/Icon 192.png" }
+     ],
+
+    "host": {
+        "app": "XD",
+        "minVersion": "19.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Alignment",
+            "commandId": "menuCommand",
+            "shortcut": { "mac": "Cmd+Shift+T", "win": "Ctrl+Shift+T" }
+        }
+    ]
+}

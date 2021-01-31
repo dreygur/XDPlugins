@@ -1,0 +1,35 @@
+{
+    "name": "Calendar",
+	"id": "00c1868d",
+    "version": "2.1.5",
+
+    "host":
+	{
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "icons":
+    [
+        {
+            "width": 24,
+            "height": 24,
+            "path":"img/icon_24.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path":"img/icon_48.png"
+        }
+    ],
+
+    "uiEntryPoints":
+	[
+        {
+            "type": "panel",
+            "label": "Calendar",
+            "panelId": "Calendar",
+            "shortcut": {"mac": "Cmd+Alt+Shift+D", "win": "Ctrl+Alt+Shift+D"}
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "summary": "Navigate artboards with keys",
+    "description": "This plugin allows easy keyboard navigation from currently selected* artboard to the previous (Ctrl+Alt+Z) or next (Ctrl+Alt+C) artboard. \n\nEach movement finishes by zooming the artboard to fit.\n\n\n*Note: to allow for a series of movements, \"current selection\" is only used for the first movement, and isn't used again until a new selection is detected.",
+    "releaseNotes": "Change keyboard shortcuts to Z/C since Mac couldn't use Cmd+Opt+D.",
+    "keywords": ["artboard", "keyboard shortcuts", "navigate", "jump", "previous", "move"],
+    "languages": ["en", "de", "fr", "ja", "ko", "zh", "es", "pt"],
+    "website": "https://github.com/iamsolarplexus/adobexd-goToNextArtboard",
+    "author": "Rick Case",
+    "helpUrl": "https://github.com/iamsolarplexus/adobexd-goToNextArtboard",
+    "main": "main.js",
+    "version": "1.0.7",
+    "name": "Go to Next Artboard",
+    "icons": [{
+        "path": "images/pluginIcon1.png",
+        "width": 48,
+        "height": 48
+    }, {
+        "path": "images/pluginIcon2.png",
+        "width": 96,
+        "height": 96
+    }, {
+        "path": "images/pluginIcon3.png",
+        "width": 144,
+        "height": 144
+    }, {
+        "path": "images/pluginIcon4.png",
+        "width": 192,
+        "height": 192
+    }],
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+    "id": "6b87acaa",
+    "uiEntryPoints": [{
+        "label": "Go to Next/Prev Artboard",
+        "type": "menu",
+        "menuItems": [{
+                "label": "Go to previous",
+                "type": "menu",
+                "commandId": "prevArtboard",
+                "shortcut": {
+                    "win": "Ctrl+Alt+Z",
+                    "mac": "Cmd+Opt+Z"
+                }
+            },
+            {
+                "label": "Go to next",
+                "type": "menu",
+                "commandId": "nextArtboard",
+                "shortcut": {
+                    "win": "Ctrl+Alt+C",
+                    "mac": "Cmd+Opt+C"
+                }
+            }
+        ]
+    }]
+}

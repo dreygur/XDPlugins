@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>map</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M44,4.6h-.5l-12,3.2h-1l-13-3.6h-1L3.5,7.6A1.9,1.9,0,0,0,2,9.5V41.4a2,2,0,0,0,2,2h.5l12-3.2h1l13,3.6h1l13-3.5A1.9,1.9,0,0,0,46,38.5V6.6A2,2,0,0,0,44,4.6ZM19,8.7l10,2.9V39.3L19,36.4ZM6,11.1l9-2.4V36.4L6,38.8ZM42,36.9l-9,2.4V11.6l9-2.4Z"/>
+    </g>
+  </g>
+</svg>

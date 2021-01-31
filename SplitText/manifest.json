@@ -1,0 +1,84 @@
+{
+  "name": "SplitText",
+  "id": "dc7ed958",
+  "version": "1.0.5",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@0.5x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@1x.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "14.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": {
+        "en": "Split Text",
+        "de": "Text geteilt",
+        "fr": "Diviser le texte",
+        "ja": "テキストの分割",
+        "ko": "텍스트 분할",
+        "zh": "拆分文本",
+        "es": "Dividir texto",
+        "pt": "Dividir texto",
+        "default": "Split Text"
+      },
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": {
+            "en": "Split text by newlines",
+            "de": "Geteilte Texte nach neuen Zeilen",
+            "fr": "Diviser le texte par des sauts de ligne",
+            "ja": "改行でテキストを分割する",
+            "ko": "줄 바꿈으로 텍스트 나누기",
+            "zh": "按换行符拆分文本",
+            "es": "Dividir texto por líneas nuevas",
+            "pt": "Dividir texto por novas linhas",
+            "default": "Split text by newlines"
+          },
+          "commandId": "splitbynewline"
+        },
+        {
+          "type": "menu",
+          "label": {
+            "en": "Split Text by commas",
+            "de": "Text nach Kommas teilen",
+            "fr": "Diviser le texte par des virgules",
+            "ja": "テキストをカンマで区切る",
+            "ko": "쉼표로 텍스트 나누기",
+            "zh": "用逗号分隔文本",
+            "es": "Dividir texto por comas",
+            "pt": "Dividir texto por vírgulas",
+            "default": "Split Text by commas"
+          },
+          "commandId": "splitbycomma"
+        },
+        {
+          "type": "menu",
+          "label": {
+            "en": "Split Text by tabs",
+            "de": "Text nach Tabs teilen",
+            "fr": "Diviser le texte par onglets",
+            "ja": "タブでテキストを分割する",
+            "ko": "탭으로 텍스트 나누기",
+            "zh": "按选项卡拆分文本",
+            "es": "Dividir texto por pestañas",
+            "pt": "Dividir texto por tabulações",
+            "default": "Split Text by tabs"
+          },
+          "commandId": "splitbytab"
+        }
+      ]
+    }
+  ]
+}

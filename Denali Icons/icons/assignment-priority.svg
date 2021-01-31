@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>assignment-priority</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,30a2,2,0,0,0,2-2V16a2,2,0,0,0-4,0V28A2,2,0,0,0,24,30Z"/>
+      <circle cx="24" cy="36" r="2"/>
+      <path d="M40,6H36V4a2,2,0,0,0-2-2H14a2,2,0,0,0-2,2V6H8A2,2,0,0,0,6,8V44a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V8A2,2,0,0,0,40,6ZM38,42H10V10h6V6H32v4h6Z"/>
+    </g>
+  </g>
+</svg>

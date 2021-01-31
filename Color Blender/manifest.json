@@ -1,0 +1,23 @@
+{
+    "id": "8a9b1a6e",
+    "name": "Color Blender",
+    "version": "1.2.1",
+
+    "description": "Blend fill colors across a set of selected objects. Can also auto-create the intermediate objects by cloning if you only have two objects selected.\n\nThe first version of this plugin was created live in just 40 minutes: https://www.behance.net/live/videos/1713. This plugin is open source and only 200 lines of code!",
+    "icons": [
+        { "width": 96, "height": 96, "path": "icon@2x.png" }
+    ],
+
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Blend Colors",
+            "commandId": "blendCommand"
+        }
+    ]
+}

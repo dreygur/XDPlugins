@@ -1,0 +1,7 @@
+<svg id="Icon_-_Thumbs_Up_-_Element" data-name="Icon - Thumbs Up - Element" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="area" width="40" height="40" fill="#fff" opacity="0"/>
+  <g id="paths" transform="translate(-58 -47)">
+    <rect id="Rectangle" data-name="Rectangle [color_border]" width="9" height="16" stroke-width="3.5" transform="translate(62 66.659)" stroke="#26cc2c" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+    <path id="Path" data-name="Rectangle [color_border]" d="M71,64.568l5.542-12.621A1.626,1.626,0,0,1,78.04,51h0a1.605,1.605,0,0,1,1.584,1.205l2.1,8.971h8.692a3.452,3.452,0,0,1,3.506,4.1l-3.378,15.23a2.826,2.826,0,0,1-2.8,2.152H71Z" transform="translate(0 0)" fill="#fff" stroke="#26cc2c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+{
+    "name": "Pattern Maker",
+	"id": "4ca6f95c",
+	"version": "2.1.0",
+
+    "host":
+	{
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "icons":
+    [
+        {
+            "width": 24,
+            "height": 24,
+            "path":"img/icon_24.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path":"img/icon_48.png"
+        }
+    ],
+		
+    "uiEntryPoints":
+	[
+        {
+            "type": "panel",
+            "label": "Pattern Maker",
+            "panelId": "panel",
+            "shortcut": {"mac": "Cmd+Alt+Shift+P", "win": "Ctrl+Alt+Shift+P"}
+        }
+    ]
+}

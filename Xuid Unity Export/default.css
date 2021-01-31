@@ -1,0 +1,579 @@
+/*
+ デザイン要素はできるだけXDにやらせる
+ こちらで定義にするのはUnityでの挙動になるようにする
+
+ CSSパーサは以下のものを利用
+ https://jsfiddle.net/developit/vzkckrw4/
+ 制限： Style-Valueに{}があるとおかしくなる
+
+ セレクタに改行があるとエラーになる
+ */
+
+/*
+ idについてのルールは極力つけず、classにつけるようにするのが良いのではないだろうか
+ */
+* {
+  layer: UI;
+}
+
+/*
+ ArtboardはUnityで配置時親ににぴったりはまるようにする
+ */
+:top-node:dynamic-layout {
+  rect-transform-anchors-offsets-x: 0 1 0 0;
+  rect-transform-anchors-offsets-y: 0 1 0 0;
+}
+
+:top-node:not(:dynamic-layout) {
+  rect-transform-anchors-x: 0.5 0.5;
+  rect-transform-anchors-y: 0.5 0.5;
+}
+
+
+[typeof='BooleanGroup'],
+[typeof='Line'],
+[typeof='Ellipse'],
+[typeof='Rectangle'],
+[typeof='Path'],
+[typeof='Polygon'] {
+  image: true;
+  image-slice: true;
+}
+
+/*
+ 横にならべる
+ */
+.layout-x {
+  layout-group: x;
+  /*layout-group-control-child-size: width height;
+  layout-group-child-force-expand: width;*/
+  content-size-fitter-horizontal-fit: preferred-size;
+}
+
+/*
+padding
+- vertical layout groupを作成しpaddingをコントロール
+- background以外を.contentにまとめる
+- .contentのサイズ
+ */
+.padding {
+  /* layout-groupをつかってpaddingを構成する*/
+  /* layout-group このスタイルはcontentに移動させない */
+  layout-group: vertical;
+  layout-group-child-control-size: width height;
+  layout-group-child-force-expand: width height;
+  layout-group-child-alignment: upper-center;
+  /* content-size-fitter このスタイルはcontentに移動させない */
+  content-size-fitter: true;
+  content-size-fitter-horizontal-fit: preferred-size;
+  content-size-fitter-vertical-fit: preferred-size;
+  create-content: true;
+  create-content-name: '.content';
+}
+
+/*
+ このように書くことで、.contentを作成せずに実現可能か？
+ - 1つだけ子供をもつ
+ - その子供は.contentをもつ
+ - その子供は.contentはlayout-propertyを持つ
+.padding:not(:has-only-child:has-some-child(.content):has-some-child(:has-layout-properties-size)) {
+  create-content: true;
+  create-content-name: '.content';
+}
+*/
+
+.padding > .content {
+  layout-element: true;
+  layout-element-preferred-width: draw-bounds-width;
+  layout-element-preferred-height: draw-bounds-height;
+}
+
+/*
+padding background
+ */
+.padding > :first-child:same-parent-bounds {
+  component: true;
+  image: true;
+}
+
+/*
+ 縦にならべる
+ APIでvertical-stack状態であるかどうかが取得できると
+ クラスで指定する必要がなくなる
+ */
+.vertical-stack {
+  layout-group: vertical;
+  layout-group-child-control-size: width height;
+  layout-group-child-force-expand: width;
+  layout-group-child-alignment: upper-center;
+  layout-group-spacing-y: average;
+  content-size-fitter: true;
+  content-size-fitter-vertical-fit: preferred-size;
+}
+
+/*.vertical-stack > *:not(:has-layout-properties-preferred-size) { 　CSSセレクタで、CSSが決定した後の値を取ろうとしているため、無限ループにはいる*/
+.vertical-stack > * {
+  layout-element: not-has-layout-properties-preferred-size;
+  layout-element-preferred-height: draw-bounds-height;
+}
+
+/*
+.vertical-stack直下の一番下のレイヤーは画像化、コンポーネント化する
+最下のレイヤー
+first-childになる
+それが、親Boundsと同じであった場合、Paddingフレームとなっている
+イメージ化し、コンポーネント化する
+ */
+.vertical-stack > :first-child:same-parent-bounds {
+  component: true;
+  image: true;
+}
+
+/*
+縦に並べるアイテム用
+- 縦のサイズがアイテムによってきまっている
+- 横のサイズが親によって決められる
+ */
+.vertical-item {
+  wrap-vertical-item: true;
+  wrap-move-layout-element: true; /* このアイテムのLayoutElementをWrapオブジェクトに移動する*/
+  layout-element: true; /* 必ず layout-elementを作成する */
+}
+
+/*
+ 縦にならべる
+ APIでvertical-stack状態であるかどうかが取得できると
+ クラスで指定する必要がなくなる
+ */
+.horizontal-stack {
+  layout-group: horizontal;
+  layout-group-child-control-size: width height;
+  layout-group-child-force-expand: height;
+  layout-group-child-alignment: middle-center;
+  layout-group-spacing-x: average;
+  content-size-fitter: true;
+  content-size-fitter-horizontal-fit: preferred-size;
+}
+
+/*.horizontal-stack > :not(:has-layout-properties-preferred-size) {*/
+.horizontal-stack > * {
+  layout-element: not-has-layout-properties-preferred-size;
+  layout-element-preferred-width: draw-bounds-width;
+}
+
+/*
+.horizontal-stack直下の一番下のレイヤーは画像化、コンポーネント化する
+最下のレイヤー
+first-childになる
+それが、親Boundsと同じであった場合、Paddingフレームとなっている
+イメージ化し、コンポーネント化する
+ */
+.horizontal-stack > :first-child:same-parent-bounds {
+  component: true;
+  image: true;
+}
+
+/*
+横に並べるアイテム用
+- 横のサイズがアイテムによってきまっている
+- 縦のサイズが親によって決められる
+ */
+.horizontal-item {
+  wrap-horizontal-item: true;
+  wrap-move-layout-element: true; /* このアイテムのLayoutElementをWrapオブジェクトに移動する*/
+  layout-element: true; /* 必ず layout-elementを作成する */
+}
+
+/*
+ グリッド状にならべる 横に伸びる
+ */
+.layout-grid-x {
+  layout-group: grid;
+  layout-group-control-child-size: width height;
+  layout-group-child-force-expand: height;
+  layout-group-start-axis: y;
+  content-size-fitter-horizontal-fit: preferred-size;
+}
+
+/*
+ グリッド状にならべる 縦に伸びる
+ */
+.layout-grid-y {
+  layout-group: grid;
+  layout-group-control-child-size: width height;
+  layout-group-child-force-expand: width;
+  layout-group-start-axis: x;
+  content-size-fitter-vertical-fit: preferred-size;
+}
+
+[typeof='RepeatGrid']:not(.no-mask) {
+  rect-mask-twod: true;
+  create-content: true;
+  create-content-name: '.content';
+  create-content-move-layout-group: true;
+  create-content-move-content-size-fitter: true;
+}
+
+[typeof='RepeatGrid'].no-mask {
+  rect-mask-twod: false;
+}
+
+[typeof='RepeatGrid']:horizontal-layout {
+  layout-group: x;
+  layout-group-spacing-x: average;
+  layout-group-padding: 0 0 0 0; /* contentが伸びたりしない場合はpaddingは必要ない*/
+  content-size-fitter: true;
+  content-size-fitter-horizontal-fit: preferred-size;
+}
+
+[typeof='RepeatGrid']:vertical-layout {
+  layout-group: y;
+  layout-group-spacing-y: average;
+  layout-group-padding: 0 0 0 0; /* contentが伸びたりしない場合はpaddingは必要ない*/
+  content-size-fitter: true;
+  content-size-fitter-vertical-fit: preferred-size;
+}
+
+[typeof='RepeatGrid']:grid-layout {
+  layout-group: grid;
+  layout-group-cell-size-x: average;
+  layout-group-cell-size-y: average;
+  layout-group-spacing-x: average;
+  layout-group-spacing-y: average;
+  layout-group-padding: 0 0 0 0; /* contentが伸びたりしない場合はpaddingは必要ない*/
+}
+
+[typeof='RepeatGrid']:not(.no-mask).horizontal-scroll {
+  scroll-rect: true;
+  scroll-rect-content: '.content';
+  scroll-rect-horizontal: true;
+  scroll-rect-vertical: false;
+  scroll-rect-horizontal-scrollbar: '.horizontal-scrollbar' '.scrollbar-x';
+  content-size-fitter-horizontal-fit: preferred-size;
+  content-size-fitter-vertical-fit: unconstrained;
+  layout-group-start-axis: vertical;
+}
+
+[typeof='RepeatGrid']:not(.no-mask).vertical-scroll {
+  scroll-rect: true;
+  scroll-rect-content: '.content';
+  scroll-rect-horizontal: false;
+  scroll-rect-vertical: true;
+  scroll-rect-vertical-scrollbar: '.vertical-scrollbar' '.scrollbar-y';
+  content-size-fitter: true;
+  content-size-fitter-horizontal-fit: unconstrained;
+  content-size-fitter-vertical-fit: preferred-size;
+  layout-group-start-axis: horizontal;
+}
+
+[typeof='RepeatGrid'] > * {
+  unity-name: 'rg${childIndex}(${guid})';
+}
+
+.guid-name {
+  unity-name: '${guid}';
+}
+
+/*
+ScrollableGroup
+ */
+/* content を子供の中から探し無ければ作成 */
+[typeof='ScrollableGroup']:not(:has-only-child:has-some-child(.content)) {
+  create-content: true;
+  create-content-name: '.content';
+  create-content-move-layout-group: true;
+  create-content-move-content-size-fitter: true;
+  rect-mask-twod: true;
+  scroll-rect: true;
+  scroll-rect-content: '.content';
+}
+
+/* contentは すでにcontentをもっている */
+[typeof='ScrollableGroup']:has-only-child:has-some-child(.content) {
+  rect-mask-twod: true;
+  scroll-rect: true;
+  scroll-rect-content: '.content';
+}
+
+[scrollingtype='vertical'] {
+  scroll-rect-vertical: true;
+}
+
+[scrollingtype='horizontal'] {
+  scroll-rect-horizontal: true;
+}
+
+[scrollingtype='panning'] {
+  scroll-rect-vertical: true;
+  scroll-rect-horizontal: true;
+}
+
+.viewport-xy {
+  create-content: true;
+  create-content-name: '.content';
+  create-content-bounds: viewport-content-global-draw-bounds;
+  rect-mask-twod: true;
+  scroll-rect: true;
+  scroll-rect-horizontal: true;
+  scroll-rect-vertical: true;
+  scroll-rect-content: '.content';
+}
+
+.viewport-layout-x {
+  create-content: true;
+  create-content-name: '.content.layout-x';
+  rect-mask-twod: true;
+  scroll-rect: true;
+  scroll-rect-horizontal: true;
+  scroll-rect-content: '.content';
+}
+
+.viewport-layout-y {
+  create-content: true;
+  create-content-name: '.content.layout-y';
+  rect-mask-twod: true;
+  scroll-rect: true;
+  scroll-rect-vertical: true;
+  scroll-rect-content: '.content';
+}
+
+.viewport-grid-x {
+  create-content: true;
+  create-content-name: '.content.layout-grid-x';
+  rect-mask-twod: true;
+  scroll-rect: true;
+  scroll-rect-horizontal: true;
+  scroll-rect-content: '.content';
+  scroll-rect-horizontal-scrollbar: '.scrollbar-x';
+}
+
+.viewport-grid-y {
+  create-content: true;
+  create-content-name: '.content.layout-grid-y';
+  rect-mask-twod: true;
+  scroll-rect: true;
+  scroll-rect-vertical: true;
+  scroll-rect-content: '.content';
+  scroll-rect-vertical-scrollbar: '.scrollbar-y';
+}
+
+.viewport-layout-x > .content {
+  conent-size-fitter: x;
+  rect-transform-anchors-offsets-y: 0 1 0 0;
+}
+
+.viewport-layout-y > .content {
+  /*
+   親と横幅がぴったり重なる
+   anchor.min.x: 0
+   anchor.max.x: 1
+   offset.min.x: 0
+   offset.max.x: 0
+   */
+  rect-transform-anchors-offsets-x: 0 1 0 0;
+}
+
+.viewport-grid-x > .content {
+  rect-transform-anchors-offsets-x: 0 1 0 0;
+}
+
+.viewport-grid-y > .content {
+  rect-transform-anchors-offsets-y: 0 1 0 0;
+}
+
+.horizontal-scrollbar,
+.scrollbar-x {
+  scrollbar: true;
+  scrollbar-direction: ltr;
+  scrollbar-handle-target: '.handle';
+}
+
+.horizontal-scrollbar > .handle,
+.scrollbar-x > .handle {
+  fix: l r t b;
+}
+
+.vertical-scrollbar,
+.scrollbar-y {
+  scrollbar: true;
+  scrollbar-direction: btt;
+  scrollbar-handle-target: '.handle';
+}
+
+.vertical-scrollbar > .handle,
+.scrollbar-y > .handle {
+  fix: l r t b;
+}
+
+.slider-x {
+  slider: true;
+  slider-direction: ltr;
+  slider-fill-rect-target: '.fill';
+  slider-handle-rect-target: '.handle';
+}
+
+.slider-x > .fill {
+  wrap: true;
+}
+
+.slider-x > .handle {
+  wrap-slider-handle-x: true;
+}
+
+.slider-y {
+  slider: true;
+  slider-direction: btt;
+  slider-fill-rect-target: '.fill';
+  slider-handle-rect-target: '.handle';
+}
+
+.slider-y > .fill {
+  wrap: true;
+}
+
+.slider-y > .handle {
+  wrap-slider-handle-y: true;
+}
+
+.dots-scrollbar {
+  scrollbar: true;
+  scrollbar-direction: ltr;
+  layout-group: x;
+  layout-group-spacing-x: 9px;
+  content-size-fitter-vertical-fit: preferred-size;
+  content-size-fitter-horizontal-fit: preferred-size;
+}
+
+.dots-scrollbar > .toggle {
+  layout-element: min;
+}
+
+.comp-image {
+  image: true;
+  component: true;
+}
+
+.image,
+[class$='-image'] {
+  image: true;
+}
+
+.text,
+[typeof='Text'],
+[class$='-text'] {
+  text: true;
+  /*もしimageになるのならスライスしない*/
+  image-slice: false;
+  image-type: simple;
+  preserve-aspect: true;
+}
+
+.textmp,
+[class$='-textmp'] {
+  textmp: true;
+  /*もしimageになるのならスライスしない*/
+  image-slice: false;
+  image-type: simple;
+  preserve-aspect: true;
+}
+
+.button {
+  button: true;
+  button-transition-target-graphic: '.target-graphic' '.target-image';
+  button-transition-highlighted-sprite: '.highlighted-image';
+  button-transition-pressed-sprite: '.pressed-image';
+  button-transition-selected-sprite: '.selected-image';
+  button-transition-disabled-sprite: '.disabled-image';
+}
+
+.toggle {
+  toggle: true;
+  toggle-transition-target-graphic: '.target-graphic' '.target-image';
+  toggle-transition-highlighted-sprite-target: '.highlighted-image';
+  toggle-transition-pressed-sprite-target: '.pressed-image';
+  toggle-transition-selected-sprite-target: '.selected-image';
+  toggle-transition-disabled-sprite-target: '.disabled-image';
+  toggle-on-graphic: '.on-graphic' '.on-image'; /* ONのときのチェック画像 */
+}
+
+.no-slice {
+  image: true;
+  image-slice: false;
+}
+
+.input {
+  input: true;
+  input-transition-target-graphic: '.target-image';
+  input-transition-highlighted-sprite-target: '.highlighted-image';
+  input-transition-pressed-sprite-target: '.pressed-image';
+  input-transition-selected-sprite-target: '.selected-image';
+  input-transition-disabled-sprite-target: '.disabled-image';
+  input-target-graphic: '.target-image'; /* ONのときのチェック画像 */
+  input-text-target: '.input-text' '.input-textmp';
+  input-placeholder-target: '.placeholder';
+}
+
+.no-instance {
+  instance-if-possible: false;
+}
+
+.graphic-swap {
+  toggle-graphic-swap: true;
+  toggle-transition: 'sprite-swap';
+}
+
+.sprite-swap {
+  button-transition: 'sprite-swap';
+}
+
+/*
+このクラス直下のイメージは親のサイズでSpriteを作成する
+同一サイズにはUnity内で処理する
+*/
+.sprite-swap > * {
+  image-fit-parent-bounds: true;
+  image-slice: false;
+}
+
+.lock-aspect {
+  image-slice: false;
+  image-type: simple;
+  preserve-aspect: true;
+}
+
+.stretch-cover {
+  stretch-cover: true;
+  image-slice: false;
+  image-type: simple;
+  preserve-aspect: true;
+}
+
+[typeof='Group']:has-mask {
+  create-content: true;
+  create-content-name: '.content';
+  mask: true;
+  mask-show-mask-graphic: false;
+}
+
+*:is-mask {
+  image: true;
+  component: true;
+}
+
+.scroll-x {
+  scroll-rect: true;
+  scroll-rect-horizontal: true;
+  scroll-rect-content: '.content';
+  create-content: true;
+  create-content-name: '.content';
+}
+
+.scroll-xy {
+  scroll-rect: true;
+  scroll-rect-horizontal: true;
+  scroll-rect-vertical: true;
+  scroll-rect-content: '.content';
+  create-content: true;
+  create-content-name: '.content';
+}
+

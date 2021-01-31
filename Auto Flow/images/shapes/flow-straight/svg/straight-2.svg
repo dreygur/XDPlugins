@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125.034" height="7.907" viewBox="0 0 125.034 7.907">
+  <g id="Group_99" data-name="Group 99" transform="translate(-37.5 -60.82)">
+    <circle id="Oval_L" data-name="Oval L" cx="1.75" cy="1.75" r="1.75" transform="translate(38.5 63.5)" fill="#454d58" stroke="#454d58" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_16" data-name="Path 16" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 158.553, 68)" fill="none" stroke="#454d58" stroke-linecap="round" stroke-width="1"/>
+    <path id="Path_17" data-name="Path 17" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 158.553, 68)" fill="none" stroke="#454d58" stroke-linecap="round" stroke-width="1"/>
+    <path id="Line" d="M.5,1.5H118.517" transform="translate(42.5 63.5)" fill="none" stroke="#454d58" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g id="arrows_dark_arrow_1" data-name="arrows dark/arrow 1" transform="translate(43 65)">
+      <path id="Line-2" data-name="Line" d="M.5,1.5H118.517" transform="translate(-0.5 -1.5)" fill="none" stroke="#454d58" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

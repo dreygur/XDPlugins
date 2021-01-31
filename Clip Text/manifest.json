@@ -1,0 +1,29 @@
+{
+  "id": "58d9d249",
+  "name": "Clip Text",
+  "version": "1.0.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "description": "Copy on clipboard planetext of selected texts.",
+    "summary": "Copy text.",
+    "languages": ["en"],
+    "author": "Kohei shimizu",
+    "helpUrl": "https://github.com/Raphael-D/xd-plugin/tree/master/clip-text",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+        { "width": 144, "height": 144, "path":"images/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+  "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Clip Text",
+        "commandId": "ClipText",
+        "shortcut": { "mac": "Cmd+Option+c", "win": "Ctrl+Alt+c" }
+      }
+   ]
+}

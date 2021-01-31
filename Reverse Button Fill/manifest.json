@@ -1,0 +1,35 @@
+{
+  "summary": "Reverse fill of a button.",
+  "website": "https://github.com/masa-sumimoto/adobe-xd-reverse-button-fill",
+  "keywords": [ "button", "reverse", "swap", "automation" ],
+  "languages": [ "en" ],
+  "author": "Masaaki Sumimoto",
+  "description": "A plugin that reverse fill of a text and a rectangle ( or a ellipse ). This plugin is intended to be used for button-like elements.",
+  "helpUrl": "https://github.com/masa-sumimoto/adobe-xd-reverse-button-fill",
+  "main" : "main.js",
+  "icons": [
+      { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+      { "width": 96, "height": 96, "path": "images/icon@2x.png" },
+      { "width": 144, "height": 144, "path": "images/icon@3x.png" },
+      { "width": 192, "height": 192, "path": "images/icon@4x.png" }
+  ],
+  "version": "1.0.0",
+  "releaseNotes": "Version 1.0.0 has been released",
+  "name": "Reverse Button Fill",
+  "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+  },
+  "id": "cb51e415",
+  "uiEntryPoints": [
+    {
+      "label": "Reverse Button Fill",
+      "type": "menu",
+      "commandId": "reverseButtonFill",
+      "shortcut": {
+        "mac": "Cmd+Shift+B",
+        "win": "Ctrl+Shift+B"
+      }
+    }
+  ]
+}

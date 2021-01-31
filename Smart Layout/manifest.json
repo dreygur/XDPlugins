@@ -1,0 +1,34 @@
+{
+  "id": "15a43612",
+  "name": "Smart Layout",
+  "summary": "vertical stacking and paddings",
+  "description": "Vertical stacking with gaps, paddings, margins and more for Adobe XD. A real time saver when dealing with more complex layouts. Great for creating design variations much faster.",
+  "keywords": [
+    "layout", "smart", "gap", "padding", "margin", "productivity", "auto", "stack", "ui",
+    "vertical"
+  ],
+  "releaseNotes": "Initial release",
+  "website": "https://xdhero.com/plugins/smart-layout/",
+  "author": "XD Hero",
+  "helpUrl": "https://xdhero.com/plugins/smart-layout/tutorials",
+  "version": "1.2.0",
+  "languages": ["en"],
+  "icons": [
+    { "width": 24, "height": 24, "path": "assets/icon_24.png" },
+    { "width": 48, "height": 48, "path": "assets/icon_48.png" },
+    { "width": 96, "height": 96, "path": "assets/icon_96.png" },
+    { "width": 144, "height": 144, "path": "assets/icon_144.png" },
+    { "width": 192, "height": 192, "path": "assets/icon_192.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Smart Layout",
+      "panelId": "default"
+    }
+  ]
+}

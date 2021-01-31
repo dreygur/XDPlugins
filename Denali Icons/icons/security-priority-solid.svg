@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>security-priority-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,2S6,7.1,6,8V26.2c0,9.2,13.3,17.3,17,19.5a1.8,1.8,0,0,0,2,0c3.8-2.1,17-10.3,17-19.5V8C42,7.1,24,2,24,2Zm5,23H25l3.1,9.2a.5.5,0,0,1-.9.6L18.3,22.7A1,1,0,0,1,19,21h4l-3.1-9.2a.5.5,0,0,1,.9-.6l8.9,12.1A1,1,0,0,1,29,25Z"/>
+    </g>
+  </g>
+</svg>

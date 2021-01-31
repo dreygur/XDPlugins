@@ -1,0 +1,24 @@
+{
+    "id": "db5e3c23",
+    "name": "Copy CSS to Clipboard",
+    "version": "1.1.0",
+
+    "description": "Quickly copy CSS code for text styles, colors, gradients, shadows, etc. to the clipboard.\n\nThis plugin is open source and only 200 lines of code!",
+    "icons": [
+        { "width": 96, "height": 96, "path": "icon@2x.png" }
+    ],
+
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Copy CSS",
+            "commandId": "copy",
+            "shortcut": { "mac": "Cmd+Shift+Alt+C", "win": "Ctrl+Shift+Alt+C" }
+        }
+    ]
+}

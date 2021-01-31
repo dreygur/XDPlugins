@@ -1,0 +1,41 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-self-start {
+    align-self: start;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.margin-1-b {
+    margin-bottom: 0.625rem;
+}
+
+.margin-half {
+    margin-bottom: 0.3125rem;
+}

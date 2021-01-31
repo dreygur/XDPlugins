@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="398" height="102" viewBox="0 0 398 102">
+  <defs>
+    <filter id="Rectangle" x="19.5" y="21.5" width="359" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="0" y="0" width="398" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-3" x="12" y="17" width="374" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Light_Snackbars_A.one-line_Text_only_5_States_" data-name="Light 🌕/ Snackbars/A.one-line | Text only (5 States)" transform="translate(27 26)">
+    <g id="Container">
+      <g id="Light_Elevation_00dp" data-name="Light 🌕/Elevation/00dp">
+        <g id="Shadow" style="mix-blend-mode: multiply;isolation: isolate">
+          <g transform="matrix(1, 0, 0, 1, -27, -26)" filter="url(#Rectangle)">
+            <rect id="Rectangle-4" data-name="Rectangle" width="344" height="48" rx="4" transform="translate(27 26)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -27, -26)" filter="url(#Rectangle-2)">
+            <rect id="Rectangle-5" data-name="Rectangle" width="344" height="48" rx="4" transform="translate(27 26)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -27, -26)" filter="url(#Rectangle-3)">
+            <rect id="Rectangle-6" data-name="Rectangle" width="344" height="48" rx="4" transform="translate(27 26)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <rect id="_Color" data-name="🎨 Color" width="344" height="48" rx="4" fill="rgba(0,0,0,0.87)"/>
+    </g>
+    <text id="One_line_text_string." data-name="One line text string." transform="translate(16 14)" fill="rgba(255,255,255,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.018em"><tspan x="0" y="13">One line text string.</tspan></text>
+  </g>
+</svg>

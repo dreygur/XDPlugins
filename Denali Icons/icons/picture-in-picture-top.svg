@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>picture-in-picture-top</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M42,38H6V10H42ZM44,6H4A2,2,0,0,0,2,7.9V40.1A2,2,0,0,0,4,42H44a2,2,0,0,0,2-1.9V7.9A2,2,0,0,0,44,6Z"/>
+      <path d="M34,18v4H26V18h8m4-4H22V26H38V14Z"/>
+    </g>
+  </g>
+</svg>

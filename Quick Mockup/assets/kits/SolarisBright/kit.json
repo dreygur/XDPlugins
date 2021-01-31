@@ -1,0 +1,32 @@
+{
+  "name": "Solaris Bright",
+  "FONT_VARIATIONS": [
+    "NotoSans-Regular",
+    "NotoSans-Medium",
+    "NotoSans-SemiBold",
+    "NotoSans-Bold"
+  ],
+  "SWATCHES": {
+    "BACKGROUND": { "*": "#FFFFFF" },
+    "FOREGROUND": { "*": "#FFFFFF" },
+    "BRAND": { "STYLE2": "#FA1772", "*": "#FFFFFF" },
+    "ANCHOR": { "*": "#632FEF" },
+    "TEXT": { "STYLE3": "#FFFFFF", "STYLE2": "#FFFFFF", "*": "#9DA1B2" },
+    "LIGHT": { "*": "#303445" },
+    "ERROR": { "*": "#FF5F58" }
+  },
+  "ASSETS": {
+    "desktop/small": [
+    ],
+    "mobile/small": [
+    ],
+    "desktop/hero": [
+    ],
+    "desktop/panel": [
+    ],
+    "mobile/hero": [
+    ],
+    "mobile/panel": [
+    ]
+  }
+}

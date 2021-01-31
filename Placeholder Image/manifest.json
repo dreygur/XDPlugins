@@ -1,0 +1,52 @@
+{
+  "id": "d7bd33f4",
+  "name": "Placeholder Image",
+  "version": "0.0.3",
+  "description": "Placeholder Image for your designs and wireframes. All images are provided by https://placeholder.com/",
+  "summary": "Bring Placeholder Image",
+  "languages": ["en"],
+  "author": "Kenny Krosky",
+  "helpUrl": "https://twitter.com/ispykenny",
+  "icons": [
+    { 
+      "width": 24, 
+      "height": 24, 
+      "path": "icons/icon@1x.png" 
+    },
+    { 
+      "width": 48,
+      "height": 48,
+      "path": "icons/icon@2x.png" 
+    },
+    { 
+      "width": 96,
+      "height": 96,
+      "path": "icons/icon@3x.png" 
+    },
+    { 
+      "width": 144,
+      "height": 144,
+      "path": "icons/icon@4x.png" 
+    },
+    { 
+      "width": 192,
+      "height": 192,
+      "path": "icons/icon@5x.png"
+     }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Placeholder Image",
+      "commandId": "doImage",
+      "shortcut": { 
+        "mac": "Cmd+Shift+W", 
+        "win": "Ctrl+Shift+W" 
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "83f7c82d",
+    "name": "Find Artboard from Link",
+    "version": "0.0.4",
+    "description": "Paste the link from your browser to quickly find an artboard in your document. It can be a web link of a prototype or a spec document.",
+    "summary": "Artboard associated to a link",
+    "languages": ["en"],
+    "keywords": ["artboard", "web", "link", "deeplink", "online", "prototype", "spec"],
+    "author": "Alexandru Dobra-Somesan",
+    "helpUrl": "alexdobras@gmail.com",
+    "icons": [
+	{ "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+        { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Find Artboard from Link",
+            "commandId": "mainCommand"
+        }
+    ]
+}

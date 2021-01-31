@@ -1,0 +1,27 @@
+{
+   "name": "Pixabay image finder",
+   "id": "ed2eb036",
+   "version":"1.0.0",
+   "description":"Give me words and I'll give you pixabay images. Simple! Shortcut: Ctrl+Shift+I",
+   "icons":[
+      {
+         "width":96,
+         "height":96,
+         "path":"images/icon.png"
+      }
+   ],
+   "host":{
+      "app":"XD",
+      "minVersion":"13.0.0"
+   },
+   "uiEntryPoints": [
+    {
+        "type": "menu",
+        "label": {
+            "default": "Pixabay filler"
+        },
+        "commandId": "applyImage",
+        "shortcut": { "mac": "Cmd+Shift+P", "win": "Ctrl+Shift+P" }
+    }
+]
+}

@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  data-no-group="true"
+>
+  <desc>Design Innovation means brand new offerings, products, or services, or the “Blue Ocean” type of innovation. This workshop tends to be the most naturally exciting application of design thinking.</desc>
+
+  <metadata>
+    <rdf:RDF>
+      <rdf:Description about="Templates">
+        <rdf:Bag>
+          <rdf:li rdf:value="How Might We" />
+          <rdf:li rdf:value="User Clock Sketch" />
+          <rdf:li rdf:value="Crazy 8’s" />
+          <rdf:li rdf:value="Solution Sketching" />
+          <rdf:li rdf:value="Flowchart" />
+          <rdf:li rdf:value="Wireframe Sketching" />
+        </rdf:Bag>
+      </rdf:Description>
+      <rdf:Description about="Duration" rdf:value="4.5 Hours" />
+    </rdf:RDF>
+  </metadata>
+
+  <image xlink:href="/assets/en/templates/01. Brainstorming/How Might We (HMW) Template.svg" />
+  <image xlink:href="/assets/en/templates/02. Drawing/User Clock Sketch Template.svg" />
+  <image xlink:href="/assets/en/templates/02. Drawing/Crazy 8’s Template.svg" />
+  <image xlink:href="/assets/en/templates/02. Drawing/Solution Sketch Template.svg" />
+  <image xlink:href="/assets/en/templates/03. Flowcharts/Flow Chart - Simple Template.svg" />
+  <image xlink:href="/assets/en/templates/02. Drawing/Sketching Wireframes - Web Page Template.svg" />
+</svg>

@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff7800;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ff7800;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <title>icon_overdue_and_blocked</title>
+  <path class="cls-1" d="M42,5A30,30,0,1,1,12,35H7A35,35,0,1,0,42,0h0Z"/>
+  <polygon class="cls-1" points="9.5 26.66 19 37 0 37 9.5 26.66"/>
+  <line class="cls-2" x1="53" y1="23.5" x2="30.33" y2="46.17"/>
+  <line class="cls-2" x1="30.33" y1="23.5" x2="53" y2="46.17"/>
+</svg>

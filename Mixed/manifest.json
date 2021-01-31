@@ -1,0 +1,23 @@
+{
+  "id": "e37db03f",
+  "name": "Mixed",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "width": 256,
+      "height": 256,
+      "path": "icon.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Send to Mixed.io",
+      "commandId": "menuCommand"
+    }
+  ]
+}

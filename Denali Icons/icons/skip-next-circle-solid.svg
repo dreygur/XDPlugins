@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>skip-next-circle-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M24,2A22,22,0,1,0,46,24,21.9,21.9,0,0,0,24,2Zm1.4,23.4-7.9,7.9a2,2,0,0,1-2.7.3,1.9,1.9,0,0,1-.2-3L21.2,24l-6.6-6.6a2,2,0,0,1,.2-3.1,2.3,2.3,0,0,1,2.7.3l7.9,8A1.9,1.9,0,0,1,25.4,25.4ZM34,32a2,2,0,0,1-4,0V16a2,2,0,0,1,4,0Z"/>
+    </g>
+  </g>
+</svg>

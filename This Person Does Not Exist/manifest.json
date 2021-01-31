@@ -1,0 +1,47 @@
+{
+    "id": "2fd73edc",
+    "name": "This Person Does Not Exist",
+    "version": "0.0.4",
+    "description": "Add computer generated photos of fictional people to your mockups. This plugin uses the thispersondoesnotexist.com website by Nvidia as source for the photos and images.weserv.nl as a proxy and resize tool.",
+    "summary": "Photos of fictional people",
+    "releaseNotes": "Manifest update to ensure compatibility.",
+    "keywords": [
+        "avatar",
+        "face",
+        "content",
+        "generate",
+        "ui",
+        "image",
+        "photo",
+        "persona",
+        "fictional",
+        "people"
+    ],
+    
+    "languages": [
+        "en"
+    ],
+    
+    "website": "https://uifaces.co",
+    "author": "Aleksandar Tasevski",
+    "helpUrl": "https://uifaces.co/tpdne-plugin",
+    "icons": [
+        { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@2x.png" },
+        { "width": 144, "height": 144, "path": "images/icon@3x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@4x.png" }
+    ],
+
+	"host": {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+
+	"uiEntryPoints": [
+		{
+			"type": "menu",
+			"label": "This Person Does Not Exist",
+			"commandId": "generateFaces"
+		}
+	]
+}

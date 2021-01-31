@@ -1,0 +1,34 @@
+{
+    "summary": "Generate Delaunay triangles and Voronoi diagrams",
+    "website": "https://plugisto.com/",
+    "keywords": ["delaunay", "voronoi", "triangles", "cells", "diagram", "generative", "points", "d3", "brewer"],
+    "languages": ["en"],
+    "author": "plugisto",
+    "description": "",
+    "helpUrl": "https://plugisto.com",
+    "main": "main.js",
+    "icons": [{
+            "path": "images/icon.png",
+            "width": 24,
+            "height": 24
+        },
+        {
+            "path": "images/icon@2x.png",
+            "width": 48,
+            "height": 48
+        }
+    ],
+    "version": "1.0.2",
+    "releaseNotes": "",
+    "name": "Delaunoi",
+    "host": {
+        "app": "XD",
+        "minVersion": "32.0"
+    },
+    "id" : "f311a007",
+    "uiEntryPoints": [{
+          "type": "panel",
+          "label": "Delaunoi XD",
+          "panelId": "startDelaunoi"
+        }]
+}

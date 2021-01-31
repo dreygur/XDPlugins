@@ -1,0 +1,167 @@
+{
+	"name": "Widgets for XD",
+	"id": "a0447d4a",
+	"version": "1.0.2",
+	"description": "This Plugin Creates Widgets that are commonly used by smartphones with Single Click",
+	"icons": [
+		{
+			"width": 96,
+			"height": 96,
+			"path": "images/icon.png"
+		}
+	],
+	"host": {
+		"app": "XD",
+		"minVersion": "13.0.0"
+	},
+	"uiEntryPoints": [
+		{
+			"type": "menu",
+			"label": "Widgets for XD",
+			"menuItems": [
+				{
+					"type": "menu",
+					"label": "About",
+					"commandId": "about"
+				},
+				{
+					"type": "menu",
+					"label": "System Bars",
+					"commandId": "placeHolder"
+				},
+				{
+					"type": "menu",
+					"label": "AppBar",
+					"commandId": "createAppBar",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+A",
+						"win": "Ctrl+Shift+Alt+A"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "NavBar",
+					"commandId": "createNavBar",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+N",
+						"win": "Ctrl+Shift+Alt+N"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Widgets",
+					"commandId": "placeHolder"
+				},
+				{
+					"type": "menu",
+					"label": "BottomNavBar",
+					"commandId": "bottomNavBar",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+Y",
+						"win": "Ctrl+Shift+Alt+Y"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Button",
+					"commandId": "createButton",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+B",
+						"win": "Ctrl+Shift+Alt+B"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Text",
+					"commandId": "insertText",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+I",
+						"win": "Ctrl+Shift+Alt+I"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Card",
+					"commandId": "createCard",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+E",
+						"win": "Ctrl+Shift+Alt+E"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Chip",
+					"commandId": "createChip",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+H",
+						"win": "Ctrl+Shift+Alt+H"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Dialogs",
+					"commandId": "placeHolder"
+				},
+				{
+					"type": "menu",
+					"label": "BottomSheet",
+					"commandId": "bottomSheet",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+S",
+						"win": "Ctrl+Shift+Alt+S"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "AlertDialog",
+					"commandId": "alertDialog",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+Q",
+						"win": "Ctrl+Shift+Alt+Q"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Context Menu",
+					"commandId": "contextMenu",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+M",
+						"win": "Ctrl+Shift+Alt+M"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "SnackBar",
+					"commandId": "snackBar",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+J",
+						"win": "Ctrl+Shift+Alt+J"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "Utils",
+					"commandId": "placeHolder"
+				},
+				{
+					"type": "menu",
+					"label": "ButtonResizer",
+					"commandId": "buttonResizer",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+O",
+						"win": "Ctrl+Shift+Alt+O"
+					}
+				},
+				{
+					"type": "menu",
+					"label": "PlaceInParentCenter",
+					"commandId": "placeInParentCenter",
+					"shortcut": {
+						"mac": "Cmd+Shift+Alt+P",
+						"win": "Ctrl+Shift+Alt+P"
+					}
+				}
+			]
+		}
+	]
+}

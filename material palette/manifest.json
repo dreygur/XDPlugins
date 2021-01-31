@@ -1,0 +1,50 @@
+{
+  "summary" : "material palette",
+  "website" : "http://savedata.xyz",
+  "keywords" : [ 
+    "material",
+    "color picker",
+    "material colors",
+    "material palette",
+    "on screen",
+    "material design" ],
+  "languages" : [ "en", "de", "fr", "ja", "ko", "zh", "es", "pt" ],
+  "author" : "hossein sedighian",
+  "description" : "on screen material palette",
+  "helpUrl" : "https://t.me/savedata_space",
+  "main" : "main.js",
+  "icons" : [ {
+    "path" : "images/pluginIcon1.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/pluginIcon2.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/pluginIcon3.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/pluginIcon4.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "version" : "1.2.1",
+  "releaseNotes" : "Support Polygon Elements",
+  "name" : "material palette",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "id" : "03cee63e",
+  "uiEntryPoints" : [ {
+    "label" : "Material Palette",
+    "type" : "menu",
+    "commandId" : "MaterialPalleteCall",
+    "shortcut": {
+      "mac": "Cmd+M",
+      "win": "Ctrl+M"
+    }
+  } ]
+}

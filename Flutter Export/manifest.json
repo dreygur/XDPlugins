@@ -1,0 +1,56 @@
+{
+  "id" : "df8aa287",
+  "name" : "Flutter Export",
+  "description" : "Exporting to flutter can be tedious, the scaled folders are specific (2.0x, 3.0x) and at least 3 individual exports are needed\n\n This plugin will alleviate this annoyance in a single click. Choose the format and root asset folder in your flutter project and export directly",
+  "summary": "Export assets for flutter",
+  "author": "TomTom",
+  "version" : "1.0.0",
+  "helpUrl":  "https://github.com/TheTomTom3901/flutter-export/issues/new?assignees=TheTomTom3901&labels=&template=bug_report.md&title=",
+  "languages": ["en"],
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "keywords": [
+    "export",
+    "flutter",
+    "scale",
+    "assets",
+    "mobile",
+    "web",
+    "images",
+    "svg",
+    "png",
+    "jpg"
+  ],
+  "icons" : [ {
+    "path" : "images/logo@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/logo@2x.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/logo@3x.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/logo@4x.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/logo@5x.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Export for flutter",
+    "type" : "menu",
+    "commandId" : "flutterExport",
+    "shortcut": {
+      "mac": "Cmd+Opt+E",
+      "win": "Ctrl+Alt+E"
+    }
+  } ]
+}

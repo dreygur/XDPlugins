@@ -1,0 +1,91 @@
+/* CUSTOMIZED CSS CLASSES */
+
+.dialog-header {
+  width: 100%;
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dialog-section-divider {
+  width: 100%;
+  margin: 10px 0;
+  height: 2.5px;
+  background-color: #e1e1e1;
+}
+
+.dialog-content {
+  font-size: 14px;
+  color: #4b4b4b;
+  line-height: 21px;
+  margin-bottom: 24px;
+}
+
+.dialog-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.variant-list-title {
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.panel-section-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #dedede;
+  margin: .75rem 0;
+}
+
+.section-title {
+  color: #a0a0a0;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+.triangle-pointer-icon {
+  width: .5rem;
+  height: .5rem;
+}
+
+.plus-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  cursor: pointer;
+}
+
+.link-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  cursor: pointer;
+}
+
+.pencil-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  cursor: pointer;
+}
+
+.eye-icon {
+  width: 0.75rem;
+  height: .75rem;
+  cursor: pointer;
+}
+
+.minus-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  cursor: pointer;
+}
+
+.trash-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  cursor: pointer;
+  fill: rgba(214, 99, 86, 0.6);
+}
+
+.trash-icon:hover {
+  fill: rgb(214, 99, 86);
+}

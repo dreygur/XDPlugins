@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>rss-feed</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M11,35a2,2,0,1,1-2,2,2,2,0,0,1,2-2m0-4a6,6,0,1,0,6,6,6,6,0,0,0-6-6Z"/>
+        <path d="M7,18a2,2,0,0,0,0,4A19,19,0,0,1,26,41a2,2,0,0,0,4,0A23,23,0,0,0,7,18Z"/>
+        <path d="M7,5A2,2,0,0,0,7,9,32.1,32.1,0,0,1,39,41a2,2,0,0,0,4,0A36,36,0,0,0,7,5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

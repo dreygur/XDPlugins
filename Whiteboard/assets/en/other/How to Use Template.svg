@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-How_to_Use_Template">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="How_to_Use_Template" data-name="How to Use Template" clip-path="url(#clip-How_to_Use_Template)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="How_to_Use" data-name="How to Use">
+      <rect id="Overlay" width="1920" height="1080" fill="#fff" opacity="0.597"/>
+      <g id="How_to_Use-2" data-name="How to Use" transform="translate(3840 2607)">
+        <rect id="background" width="1680" height="1080" transform="translate(-3600 -2607)" fill="#ffd86f"/>
+        <g id="Illustration" transform="translate(0 -25)">
+          <rect id="Rectangle_147700" data-name="Rectangle 147700" width="360" height="220" transform="translate(-2538 -2015)" fill="#fff"/>
+          <path id="Rectangle_147701" data-name="Rectangle 147701" d="M0,0H360a0,0,0,0,1,0,0V68a12,12,0,0,1-12,12H12A12,12,0,0,1,0,68V0A0,0,0,0,1,0,0Z" transform="translate(-2538 -1795)" fill="#fff"/>
+          <path id="Rectangle_147702" data-name="Rectangle 147702" d="M12,0H348a12,12,0,0,1,12,12V210a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12A12,12,0,0,1,12,0Z" transform="translate(-2538 -2225)" fill="#fff"/>
+          <rect id="Header_Bar" data-name="Header Bar" width="519.957" height="50" rx="11" transform="translate(-2697.957 -2305)" fill="#f5f5f5"/>
+          <path id="Union_8" data-name="Union 8" d="M179.971,0l16.971,16.971L179.971,33.941,163,16.971Z" transform="translate(-2538 -2240.971)" fill="#fff"/>
+          <rect id="Rectangle_147703" data-name="Rectangle 147703" width="220" height="40" rx="20" transform="translate(-2468 -1775)" fill="#ffd86f"/>
+          <rect id="Rectangle_147706" data-name="Rectangle 147706" width="60" height="20" rx="10" transform="translate(-2268 -2075)" fill="#efefef"/>
+          <text id="Enable_Coediting_Beta_" data-name="Enable Coediting (Beta)" transform="translate(-2358 -1751)" fill="#222" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-77.84" y="0">Enable Coediting (Beta)</tspan></text>
+          <text id="Invite_to_Document" data-name="Invite to Document" transform="translate(-2508 -2185)" fill="#222" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Invite to Document</tspan></text>
+          <rect id="Header_Bar-2" data-name="Header Bar" width="300" height="40" rx="11" transform="translate(-2508 -2125)" fill="#efefef"/>
+          <rect id="Rectangle_147704" data-name="Rectangle 147704" width="40" height="8" rx="4" transform="translate(-2507.957 -2145)" fill="#efefef"/>
+          <g id="Group_68141" data-name="Group 68141" transform="translate(-3798 -2545)">
+            <rect id="Rectangle_147689" data-name="Rectangle 147689" width="30" height="30" rx="15" transform="translate(1290 600)" fill="#efefef"/>
+            <g id="Group_68122" data-name="Group 68122">
+              <g id="Setting" transform="translate(1330 604.275)">
+                <rect id="Rectangle_142861" data-name="Rectangle 142861" width="40" height="8" rx="4" transform="translate(0 -0.275)" fill="#efefef"/>
+              </g>
+              <g id="Setting-2" data-name="Setting" transform="translate(1330 616.413)">
+                <rect id="Rectangle_142861-2" data-name="Rectangle 142861" width="99.479" height="8" rx="4" transform="translate(0 1.587)" fill="#efefef"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_68142" data-name="Group 68142" transform="translate(-3798 -2495)">
+            <rect id="Rectangle_147689-2" data-name="Rectangle 147689" width="30" height="30" rx="15" transform="translate(1290 600)" fill="#efefef"/>
+            <g id="Group_68122-2" data-name="Group 68122">
+              <g id="Setting-3" data-name="Setting" transform="translate(1330 604.275)">
+                <rect id="Rectangle_142861-3" data-name="Rectangle 142861" width="40" height="8" rx="4" transform="translate(0 -0.275)" fill="#efefef"/>
+              </g>
+              <g id="Setting-4" data-name="Setting" transform="translate(1330 616.413)">
+                <rect id="Rectangle_142861-4" data-name="Rectangle 142861" width="99.479" height="8" rx="4" transform="translate(0 1.587)" fill="#efefef"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_68123" data-name="Group 68123" transform="translate(-3813 -2545)">
+            <text id="My_Document" data-name="My Document" transform="translate(1135 270)" fill="#222" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">My Document</tspan></text>
+            <g id="Group_68118" data-name="Group 68118" transform="translate(1245.485 263.242) rotate(135)">
+              <line id="Line_81" data-name="Line 81" x2="6" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+              <line id="Line_82" data-name="Line 82" x2="6" transform="translate(6 0) rotate(90)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+            </g>
+          </g>
+          <line id="Line_92" data-name="Line 92" x2="360" transform="translate(-2538 -1795)" fill="none" stroke="#ffd86f" stroke-width="2"/>
+          <line id="Line_93" data-name="Line 93" x2="360" transform="translate(-2538 -2015)" fill="none" stroke="#ffd86f" stroke-width="2"/>
+          <g id="Ellipse_78" data-name="Ellipse 78" transform="translate(-2370 -2292)" fill="none" stroke="#101010" stroke-width="2">
+            <circle cx="12" cy="12" r="12" stroke="none"/>
+            <circle cx="12" cy="12" r="11" fill="none"/>
+          </g>
+          <g id="Ellipse_80" data-name="Ellipse 80" transform="translate(-2323 -2295)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+            <circle cx="15" cy="15" r="15" stroke="none"/>
+            <circle cx="15" cy="15" r="14.5" fill="none"/>
+          </g>
+          <g id="Ellipse_81" data-name="Ellipse 81" transform="translate(-2273 -2295)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+            <circle cx="15" cy="15" r="15" stroke="none"/>
+            <circle cx="15" cy="15" r="14.5" fill="none"/>
+          </g>
+          <g id="Group_68125" data-name="Group 68125" transform="translate(-3461.043 -2437)">
+            <g id="Rectangle_147694" data-name="Rectangle 147694" transform="translate(1145.043 144)" fill="none" stroke="#c1c1c1" stroke-width="2">
+              <rect width="16" height="26" rx="4" stroke="none"/>
+              <rect x="1" y="1" width="14" height="24" rx="3" fill="none"/>
+            </g>
+            <line id="Line_83" data-name="Line 83" x2="14" transform="translate(1146 150)" fill="none" stroke="#c1c1c1" stroke-width="2"/>
+            <line id="Line_84" data-name="Line 84" x2="14" transform="translate(1146 163)" fill="none" stroke="#c1c1c1" stroke-width="2"/>
+            <g id="Ellipse_73" data-name="Ellipse 73" transform="translate(1152.043 165)" fill="none" stroke="#c1c1c1" stroke-width="2">
+              <circle cx="1" cy="1" r="1" stroke="none"/>
+              <circle cx="1" cy="1" fill="none"/>
+            </g>
+          </g>
+          <g id="Polygon_7" data-name="Polygon 7" transform="translate(-2248 -2291) rotate(90)" fill="none">
+            <path d="M10.124,1.593a1,1,0,0,1,1.752,0l9.309,16.925A1,1,0,0,1,20.309,20H1.691a1,1,0,0,1-.876-1.482Z" stroke="none"/>
+            <path d="M 10.99999904632568 4.150074005126953 L 3.382543563842773 18.00000381469727 L 18.61745452880859 18.00000381469727 L 10.99999904632568 4.150074005126953 M 10.99999904632568 1.075037002563477 C 11.34312629699707 1.075037002563477 11.68625450134277 1.247732162475586 11.87621879577637 1.593122482299805 L 21.18493843078613 18.5180835723877 C 21.55148887634277 19.18453216552734 21.06932830810547 20.00000190734863 20.30872917175293 20.00000190734863 L 1.691268920898438 20.00000190734863 C 0.9306697845458984 20.00000190734863 0.4485092163085938 19.18453216552734 0.8150596618652344 18.5180835723877 L 10.123779296875 1.593122482299805 C 10.31374359130859 1.247732162475586 10.6568717956543 1.075037002563477 10.99999904632568 1.075037002563477 Z" stroke="none" fill="#c1c1c1"/>
+          </g>
+          <line id="Line_94" data-name="Line 94" x2="19" transform="translate(-2366.5 -2274)" fill="none" stroke="#101010" stroke-width="2"/>
+          <g id="Group_68124" data-name="Group 68124" transform="translate(-3767.043 -2486)">
+            <circle id="Ellipse_72" data-name="Ellipse 72" cx="7" cy="7" r="7" transform="translate(1413.043 205)" fill="#f5f5f5"/>
+            <line id="Line_76" data-name="Line 76" y2="8" transform="translate(1420.043 208)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+            <path id="Path_60928" data-name="Path 60928" d="M0,0H8" transform="translate(1416.043 212)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2"/>
+          </g>
+          <g id="Ellipse_79" data-name="Ellipse 79" transform="translate(-2363 -2287)" fill="none" stroke="#101010" stroke-width="2">
+            <circle cx="5" cy="5" r="5" stroke="none"/>
+            <circle cx="5" cy="5" r="4" fill="none"/>
+          </g>
+          <text id="Members_2_" data-name="Members (2)" transform="translate(-2508 -1975)" fill="#222" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Members (2)</tspan></text>
+          <line id="Line_95" data-name="Line 95" x2="357" transform="translate(-2357 -2315)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2" opacity="0.204"/>
+          <line id="Line_97" data-name="Line 97" x2="247" transform="translate(-2247 -2105)" fill="none" stroke="#101010" stroke-width="2" opacity="0.204"/>
+          <line id="Line_98" data-name="Line 98" x2="217" transform="translate(-2217 -1755)" fill="none" stroke="#101010" stroke-width="2" opacity="0.204"/>
+          <text id="A._Invite_to_Document" data-name="A.
+Invite to Document" transform="translate(-2000 -2359)" fill="#fff" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-13.58" y="0">A.</tspan><tspan fill="#222"><tspan x="-123.382" y="20">Invite to Document</tspan></tspan></text>
+          <text id="B._Add_colleagues_by_email" data-name="B. 
+Add colleagues by email" transform="translate(-2000 -2149)" fill="#fff" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-16.478" y="0">B. </tspan><tspan fill="#222"><tspan x="-158.256" y="20">Add colleagues by email</tspan></tspan></text>
+          <text id="C._Enable_real-time_editing" data-name="C. 
+Enable real-time editing" transform="translate(-2000 -1799)" fill="#fff" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-16.996" y="0">C. </tspan><tspan fill="#222"><tspan x="-155.904" y="20">Enable real-time editing</tspan></tspan></text>
+          <line id="Line_96" data-name="Line 96" y2="20" transform="translate(-2357 -2315)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="2" opacity="0.204"/>
+        </g>
+        <text id="Instructions" transform="translate(-3520 -2359)" fill="#222" font-size="18" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="13" xml:space="preserve">01.  Update XD to Latest Version</tspan><tspan font-family="AcuminPro-Regular, Acumin Pro" font-weight="400"><tspan x="0" y="39">Coediting is still in beta and requires users to use the same version XD to work well, so </tspan><tspan x="0" y="65">your team should all get the latest version of XD. It just takes a few minutes.</tspan></tspan><tspan x="0" y="91"></tspan><tspan x="0" y="117">02. Save to Cloud Documents</tspan><tspan font-family="AcuminPro-Regular, Acumin Pro" font-weight="400"><tspan x="0" y="143">You will need to save the file to ”Cloud Documents” to use coediting in XD.</tspan></tspan><tspan x="0" y="169"></tspan><tspan x="0" y="195" xml:space="preserve">03.  Use Coediting Mode in XD</tspan><tspan font-family="AcuminPro-Regular, Acumin Pro" font-weight="400"><tspan x="0" y="221">Coediting, available in beta, lets you and other designers work together in XD in real </tspan><tspan x="0" y="247">time. You can work on the same whiteboarding or brainstorming activity by inviting </tspan><tspan x="0" y="273">people to the document. </tspan><tspan y="273" font-family="AcuminPro-BoldItalic, Acumin Pro" font-weight="700" font-style="italic">See the image on the right. </tspan><tspan x="0" y="299"></tspan></tspan><tspan x="0" y="325">04. Use Templates, Shapes and Sketching</tspan><tspan font-family="AcuminPro-Regular, Acumin Pro" font-weight="400"><tspan x="0" y="351">This plugin was created to let designers and non-designers alike use XD as a </tspan><tspan x="0" y="377">whiteboarding and brainstorming with remote teams in mind. We’ve put together a </tspan><tspan x="0" y="403">collection of useful design thinking templates to make your collaboration more effective. </tspan><tspan x="0" y="429">You can also freely sketch like a regular whiteboard and use shapes especially selected </tspan><tspan x="0" y="455">for design brainstorms.</tspan><tspan x="0" y="481"></tspan></tspan><tspan x="0" y="507" xml:space="preserve">05.  Use Video Conferencing for Remote Collaboration</tspan><tspan font-family="AcuminPro-Regular, Acumin Pro" font-weight="400"><tspan x="0" y="533">When collaborating remotely it is most effective to use video conference software (like </tspan><tspan x="0" y="559">Zoom, Bluejeans, or Google Hangouts) to be able to discuss while either one facilitator </tspan><tspan x="0" y="585">or multiple users work on the board.</tspan><tspan x="0" y="611"></tspan></tspan><tspan x="0" y="637">We love feedback!</tspan><tspan font-family="AcuminPro-Regular, Acumin Pro" font-weight="400"><tspan x="0" y="663">Please send us any suggestions for functionality, templates and shapes. We’d also love to </tspan><tspan x="0" y="689">see your own brainstorm framework templates you’ve found useful. Please send it in as </tspan><tspan x="0" y="715">XD or SVG files so we can consider adding it to the plugin for others to use. Email to: </tspan></tspan><tspan font-family="AcuminPro-Regular, Acumin Pro" font-weight="400" text-decoration="underline"><tspan x="0" y="741">xd-whiteboard@adobe.com</tspan></tspan></text>
+        <text id="How_to_collaborate_with_this_plugin_and_Adobe_XD" data-name="How to collaborate with this plugin and Adobe XD" transform="translate(-3520 -2395)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">How to collaborate with this plugin and Adobe XD</tspan></text>
+        <text id="How_to_Use-3" data-name="How to Use" transform="translate(-3520 -2495)" fill="#101010" font-size="44" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">How to Use</tspan></text>
+      </g>
+      <g id="Delete_to_Continue" data-name="Delete to Continue">
+        <text id="Label" transform="translate(60 1000)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Delete this</tspan><tspan x="0" y="18">Layer to continue</tspan></text>
+        <g id="Close_Button" data-name="Close Button" transform="translate(10)">
+          <g id="Circle" transform="translate(50 940)" fill="#fff" stroke="#000" stroke-width="2">
+            <circle cx="15" cy="15" r="15" stroke="none"/>
+            <circle cx="15" cy="15" r="14" fill="none"/>
+          </g>
+          <g id="Cross_Icon" data-name="Cross Icon">
+            <line id="Line_126" data-name="Line 126" x2="7" y2="7" transform="translate(61.5 951.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+            <line id="Line_127" data-name="Line 127" x1="7" y2="7" transform="translate(61.5 951.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

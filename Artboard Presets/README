@@ -1,0 +1,9 @@
+Artboard Presets v1.0
+-------------------------
+This plugin provides an extended list of preset artboard sizes, including many common Android mobile devices.
+You can also create and save your own custom presets.
+To delete a custom preset, right click on its name and select 'Delete'.
+
+Credits:
+Font Awesome by Dave Gandy - http://fontawesome.com
+Preset dimensions from https://deviceatlas.com/blog/viewport-resolution-diagonal-screen-size-and-dpi-most-popular-smartphones

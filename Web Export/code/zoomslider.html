@@ -1,0 +1,84 @@
+<div id="ViewScaleSlider">
+
+	<input id="ViewScaleSliderInput" type="range" value="100" min="5" max="400" step="1" oninput="application.sliderChangeHandler(event)" onchange="application.sliderChangeHandler(event)"></input>
+	
+	<style>
+	#ViewScaleSlider {
+		box-sizing: border-box;
+		position: absolute;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+	}
+	#ViewScaleSliderInput {
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 3px;
+		position: relative;
+		background-color: rgba(0, 0, 0, 0.5);
+		border: 12px solid rgba(0, 0, 0, 0);
+		border-radius: 12px;
+	}
+	input[type="range"]::-ms-fill-lower,
+	input[type="range"]::-ms-fill-upper {
+		background: transparent;
+	}
+	input[type="range"]::-ms-track {
+		border-radius: 8px;
+		height: 7px;
+		border: 1px solid #bdc3c7;
+		background-color: #fff;
+	}
+	input[type="range"]::-ms-thumb {
+		background-color: #ecf0f1;
+		border: 1px solid #bdc3c7;
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		cursor: pointer;
+	}
+
+	.NoScriptSliderGroup {
+		position: fixed;
+		min-width: 20px;
+		min-height: 10px;
+		overflow: visible;
+		text-align: left;
+		padding: 4px;
+		padding-left: 16px;
+		padding-right: 16px;
+		font-family: Arial, sans-serif, Helvetica, Georgia;
+		font-size: 12px;
+		font-weight: bold;
+		left: 20px;
+		bottom: 20px;
+		background-color: rgba(0,0,0,.5);
+		border-radius: 12px;
+		color:rgb(235, 235, 235);
+		transition: all 2s linear;
+	}
+
+	.PageRefreshedClass {
+		position: fixed;
+		min-width: 20px;
+		min-height: 10px;
+		padding: 4px;
+		padding-left: 16px;
+		padding-right: 16px;
+		font-family: Arial, sans-serif, Helvetica, Georgia;
+		font-size: 12px;
+		font-weight: bold;
+		left: 20px;
+		top: 20px;
+		background-color: rgba(0,0,0,.5);
+		border-radius: 12px;
+		color:rgb(235, 235, 235);
+		transition: all 2s linear;
+	}
+	</style>
+
+	<noscript>
+		<div class="NoScriptSliderGroup"><span>JavaScript must be enabled to use some features on this page</span>
+		</div>
+	</noscript>
+</div>

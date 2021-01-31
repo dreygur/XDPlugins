@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-icon-tab-honey">
+      <rect width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="icon-tab-honey" clip-path="url(#clip-icon-tab-honey)">
+    <g id="Gruppe_35" data-name="Gruppe 35" transform="translate(6.5 4.25)">
+      <path id="Polygon_3" data-name="Polygon 3" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(-2.5 -2.5)" fill="#666"/>
+      <path id="Polygon_4" data-name="Polygon 4" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(2.5 -2.5)" fill="#666"/>
+      <path id="Polygon_5" data-name="Polygon 5" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(7.5 -2.5)" fill="#666"/>
+      <path id="Polygon_6" data-name="Polygon 6" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(12.5 -2.5)" fill="#666"/>
+      <path id="Polygon_7" data-name="Polygon 7" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(0 2)" fill="#666"/>
+      <path id="Polygon_8" data-name="Polygon 8" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(5 2)" fill="#666"/>
+      <path id="Polygon_9" data-name="Polygon 9" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(10 2)" fill="#666"/>
+      <path id="Polygon_10" data-name="Polygon 10" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(-2.5 6.5)" fill="#666"/>
+      <path id="Polygon_11" data-name="Polygon 11" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(2.5 6.5)" fill="#666"/>
+      <path id="Polygon_12" data-name="Polygon 12" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(7.5 6.5)" fill="#666"/>
+      <path id="Polygon_13" data-name="Polygon 13" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(12.5 6.5)" fill="#666"/>
+      <path id="Polygon_14" data-name="Polygon 14" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(0 11)" fill="#666"/>
+      <path id="Polygon_15" data-name="Polygon 15" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(5 11)" fill="#666"/>
+      <path id="Polygon_16" data-name="Polygon 16" d="M2.5,0,5,2.5,2.5,5,0,2.5Z" transform="translate(10 11)" fill="#666"/>
+    </g>
+  </g>
+</svg>

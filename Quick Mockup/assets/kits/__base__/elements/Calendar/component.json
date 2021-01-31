@@ -1,0 +1,12 @@
+{
+  "name": "Calendar",
+  "name_ja": "カレンダー",
+  "UI": [
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "Default" }, { "value": "Card" }],
+      "compLabel": "DISPLAY_ELEMENTS",
+      "defaultValue": "Default"
+    }
+  ]
+}

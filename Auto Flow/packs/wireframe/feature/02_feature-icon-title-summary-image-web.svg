@@ -1,0 +1,95 @@
+<svg id="_02_feature-icon-title-summary-image-web" data-name="02_feature-icon-title-summary-image-web" xmlns="http://www.w3.org/2000/svg" width="1440" height="572" viewBox="0 0 1440 572">
+  <rect id="Rectangle_22" data-name="Rectangle 22" width="1440" height="572" fill="#fff"/>
+  <g id="Group_47" data-name="Group 47" transform="translate(536 100)">
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="367.809" height="371.809" fill="#f2f7fb"/>
+    <g id="Group_46" data-name="Group 46" transform="translate(154.499 156.5)">
+      <path id="Path_44" data-name="Path 44" d="M0,0H59.023V59.023H0Z" fill="none"/>
+      <path id="Path_45" data-name="Path 45" d="M47.267,42.349V7.919A4.933,4.933,0,0,0,42.349,3H7.919A4.933,4.933,0,0,0,3,7.919v34.43a4.933,4.933,0,0,0,4.919,4.919h34.43a4.933,4.933,0,0,0,4.918-4.919ZM16.526,28.823l6.148,7.4,8.608-11.091L42.349,39.889H7.919Z" transform="translate(4.378 4.378)" fill="#dfe2f2"/>
+      <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="3" cy="3.5" rx="3" ry="3.5" transform="translate(16.501 19.5)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_49" data-name="Group 49" transform="translate(941.773 140)">
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="32" cy="32" r="32" transform="translate(0.227)" fill="#f2f7fb"/>
+    <g id="Group_48" data-name="Group 48" transform="translate(19.462 19.462)">
+      <path id="Path_46" data-name="Path 46" d="M12.69,18.323,19.3,22.31,17.543,14.8,23.38,9.744l-7.686-.652L12.69,2l-3,7.087L2,9.739,7.837,14.8,6.083,22.31Z" transform="translate(0.138 0.138)" fill="#1ce3dc"/>
+      <path id="Path_47" data-name="Path 47" d="M0,0H25.655V25.655H0Z" fill="none"/>
+    </g>
+  </g>
+  <g id="Group_51" data-name="Group 51" transform="translate(941.773 139)">
+    <circle id="Ellipse_20" data-name="Ellipse 20" cx="32" cy="32" r="32" transform="translate(0.227)" fill="#f2f7fb"/>
+    <g id="Group_50" data-name="Group 50" transform="translate(19.462 19.462)">
+      <path id="Path_48" data-name="Path 48" d="M12.69,18.323,19.3,22.31,17.543,14.8,23.38,9.744l-7.686-.652L12.69,2l-3,7.087L2,9.739,7.837,14.8,6.083,22.31Z" transform="translate(0.138 0.138)" fill="#1ce3dc"/>
+      <path id="Path_49" data-name="Path 49" d="M0,0H25.655V25.655H0Z" fill="none"/>
+    </g>
+  </g>
+  <g id="Group_54" data-name="Group 54" transform="translate(942.773 253.86)">
+    <circle id="Ellipse_21" data-name="Ellipse 21" cx="32" cy="32" r="32" transform="translate(0.227 0.14)" fill="#f2f7fb"/>
+    <g id="Group_52" data-name="Group 52" transform="translate(20.863 20.863)">
+      <path id="Path_50" data-name="Path 50" d="M0,0H22.6V22.6H0Z" fill="none"/>
+      <path id="Path_51" data-name="Path 51" d="M11.419,20.283,10.053,19.04C5.2,14.641,2,11.74,2,8.18A5.13,5.13,0,0,1,7.18,3a5.64,5.64,0,0,1,4.238,1.968A5.64,5.64,0,0,1,15.657,3a5.13,5.13,0,0,1,5.18,5.18c0,3.56-3.2,6.461-8.053,10.869Z" transform="translate(-0.116 -0.174)" fill="#1ce3dc"/>
+    </g>
+    <g id="Group_53" data-name="Group 53" transform="translate(20.863 20.863)">
+      <path id="Path_52" data-name="Path 52" d="M0,0H22.6V22.6H0Z" fill="none"/>
+      <path id="Path_53" data-name="Path 53" d="M11.419,20.283,10.053,19.04C5.2,14.641,2,11.74,2,8.18A5.13,5.13,0,0,1,7.18,3a5.64,5.64,0,0,1,4.238,1.968A5.64,5.64,0,0,1,15.657,3a5.13,5.13,0,0,1,5.18,5.18c0,3.56-3.2,6.461-8.053,10.869Z" transform="translate(-0.116 -0.174)" fill="#1ce3dc"/>
+    </g>
+  </g>
+  <g id="Group_56" data-name="Group 56" transform="translate(942 368.811)">
+    <ellipse id="Ellipse_22" data-name="Ellipse 22" cx="32.5" cy="32" rx="32.5" ry="32" transform="translate(0 0.189)" fill="#f2f7fb"/>
+    <g id="Group_55" data-name="Group 55" transform="translate(19.317 18.545)">
+      <path id="Path_54" data-name="Path 54" d="M10.93,21.976v-6.7H15.4v6.7h5.581v-8.93H24.33L13.162,3,2,13.046H5.349v8.93Z" transform="translate(0.232 0.349)" fill="#1ce3dc"/>
+      <path id="Path_55" data-name="Path 55" d="M0,0H26.789V26.789H0Z" fill="none"/>
+    </g>
+  </g>
+  <text id="Feature_Title" data-name="Feature Title" transform="translate(1026 277)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Feature Title</tspan></text>
+  <text id="Describe_Feature_in_a_Sentence" data-name="Describe Feature in a Sentence" transform="translate(1026 314)" fill="rgba(33,33,33,0.87)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Describe Feature in a Sentence</tspan></text>
+  <g id="Group_57" data-name="Group 57" transform="translate(0 -42)">
+    <text id="Feature_Title-2" data-name="Feature Title" transform="translate(1024 204)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Feature Title</tspan></text>
+    <text id="Describe_Feature_in_a_Sentence-2" data-name="Describe Feature in a Sentence" transform="translate(1024 241)" fill="rgba(33,33,33,0.87)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Describe Feature in a Sentence</tspan></text>
+  </g>
+  <g id="Group_58" data-name="Group 58" transform="translate(0 -42)">
+    <text id="Feature_Title-3" data-name="Feature Title" transform="translate(1027 434)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Feature Title</tspan></text>
+    <text id="Describe_Feature_in_a_Sentence-3" data-name="Describe Feature in a Sentence" transform="translate(1026 471)" fill="rgba(33,33,33,0.87)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Describe Feature in a Sentence</tspan></text>
+  </g>
+  <g id="Group_60" data-name="Group 60" transform="translate(134.773 140)">
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="32" cy="32" r="32" transform="translate(0.227)" fill="#f2f7fb"/>
+    <g id="Group_59" data-name="Group 59" transform="translate(19.462 19.462)">
+      <path id="Path_56" data-name="Path 56" d="M12.69,18.323,19.3,22.31,17.543,14.8,23.38,9.744l-7.686-.652L12.69,2l-3,7.087L2,9.739,7.837,14.8,6.083,22.31Z" transform="translate(0.138 0.138)" fill="#1ce3dc"/>
+      <path id="Path_57" data-name="Path 57" d="M0,0H25.655V25.655H0Z" fill="none"/>
+    </g>
+  </g>
+  <g id="Group_62" data-name="Group 62" transform="translate(134.773 139)">
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="32" cy="32" r="32" transform="translate(0.227)" fill="#f2f7fb"/>
+    <g id="Group_61" data-name="Group 61" transform="translate(19.462 19.462)">
+      <path id="Path_58" data-name="Path 58" d="M12.69,18.323,19.3,22.31,17.543,14.8,23.38,9.744l-7.686-.652L12.69,2l-3,7.087L2,9.739,7.837,14.8,6.083,22.31Z" transform="translate(0.138 0.138)" fill="#1ce3dc"/>
+      <path id="Path_59" data-name="Path 59" d="M0,0H25.655V25.655H0Z" fill="none"/>
+    </g>
+  </g>
+  <g id="Group_65" data-name="Group 65" transform="translate(135.773 253.86)">
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="32" cy="32" r="32" transform="translate(0.227 0.14)" fill="#f2f7fb"/>
+    <g id="Group_63" data-name="Group 63" transform="translate(20.863 20.863)">
+      <path id="Path_60" data-name="Path 60" d="M0,0H22.6V22.6H0Z" fill="none"/>
+      <path id="Path_61" data-name="Path 61" d="M11.419,20.283,10.053,19.04C5.2,14.641,2,11.74,2,8.18A5.13,5.13,0,0,1,7.18,3a5.64,5.64,0,0,1,4.238,1.968A5.64,5.64,0,0,1,15.657,3a5.13,5.13,0,0,1,5.18,5.18c0,3.56-3.2,6.461-8.053,10.869Z" transform="translate(-0.116 -0.174)" fill="#1ce3dc"/>
+    </g>
+    <g id="Group_64" data-name="Group 64" transform="translate(20.863 20.863)">
+      <path id="Path_62" data-name="Path 62" d="M0,0H22.6V22.6H0Z" fill="none"/>
+      <path id="Path_63" data-name="Path 63" d="M11.419,20.283,10.053,19.04C5.2,14.641,2,11.74,2,8.18A5.13,5.13,0,0,1,7.18,3a5.64,5.64,0,0,1,4.238,1.968A5.64,5.64,0,0,1,15.657,3a5.13,5.13,0,0,1,5.18,5.18c0,3.56-3.2,6.461-8.053,10.869Z" transform="translate(-0.116 -0.174)" fill="#1ce3dc"/>
+    </g>
+  </g>
+  <g id="Group_67" data-name="Group 67" transform="translate(135 368.811)">
+    <ellipse id="Ellipse_26" data-name="Ellipse 26" cx="32.5" cy="32" rx="32.5" ry="32" transform="translate(0 0.189)" fill="#f2f7fb"/>
+    <g id="Group_66" data-name="Group 66" transform="translate(19.317 18.545)">
+      <path id="Path_64" data-name="Path 64" d="M10.93,21.976v-6.7H15.4v6.7h5.581v-8.93H24.33L13.162,3,2,13.046H5.349v8.93Z" transform="translate(0.232 0.349)" fill="#1ce3dc"/>
+      <path id="Path_65" data-name="Path 65" d="M0,0H26.789V26.789H0Z" fill="none"/>
+    </g>
+  </g>
+  <text id="Feature_Title-4" data-name="Feature Title" transform="translate(219 277)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Feature Title</tspan></text>
+  <text id="Describe_Feature_in_a_Sentence-4" data-name="Describe Feature in a Sentence" transform="translate(219 314)" fill="rgba(33,33,33,0.87)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Describe Feature in a Sentence</tspan></text>
+  <g id="Group_68" data-name="Group 68" transform="translate(-807 -42)">
+    <text id="Feature_Title-5" data-name="Feature Title" transform="translate(1024 204)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Feature Title</tspan></text>
+    <text id="Describe_Feature_in_a_Sentence-5" data-name="Describe Feature in a Sentence" transform="translate(1024 241)" fill="rgba(33,33,33,0.87)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Describe Feature in a Sentence</tspan></text>
+  </g>
+  <g id="Group_69" data-name="Group 69" transform="translate(-807 -42)">
+    <text id="Feature_Title-6" data-name="Feature Title" transform="translate(1027 434)" fill="rgba(0,0,0,0.87)" font-size="24" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Feature Title</tspan></text>
+    <text id="Describe_Feature_in_a_Sentence-6" data-name="Describe Feature in a Sentence" transform="translate(1026 471)" fill="rgba(33,33,33,0.87)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Describe Feature in a Sentence</tspan></text>
+  </g>
+</svg>

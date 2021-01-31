@@ -1,0 +1,2018 @@
+{
+  "type": "Artboard",
+  "name": "ポートフォリオホーム - Desktop",
+  "visible": true,
+  "opacity": 1,
+  "rotation": 0,
+  "fillEnabled": true,
+  "fill": "#fbfbfb",
+  "strokeEnabled": false,
+  "strokeWidth": 1,
+  "strokePosition": "center",
+  "strokeEndCaps": "butt",
+  "strokeJoins": "miter",
+  "strokeMiterLimit": 10,
+  "strokeDashArray": [],
+  "strokeDashOffset": 0,
+  "shadow": null,
+  "blur": null,
+  "width": 1366,
+  "height": 2050,
+  "viewportHeight": 768,
+  "children": [
+    {
+      "type": "Rectangle",
+      "name": "Background [STYLE=STYLE1]",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "fillEnabled": true,
+      "fill": "#fbfbfb",
+      "strokeEnabled": false,
+      "stroke": "#707070",
+      "strokeWidth": 1,
+      "strokePosition": "inside",
+      "strokeEndCaps": "butt",
+      "strokeJoins": "miter",
+      "strokeMiterLimit": 4,
+      "strokeDashArray": [],
+      "strokeDashOffset": 0,
+      "shadow": null,
+      "blur": null,
+      "width": 1366,
+      "height": 2050,
+      "cornerRadii": {
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomRight": 0,
+        "bottomLeft": 0
+      },
+      "__componentType": "Background"
+    },
+    {
+      "type": "Group",
+      "name": "Footer",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Text",
+          "name": "Typography [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_S]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 682,
+            "y": 1884
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Example@email.com ",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 13,
+          "charSpacing": 40,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "center",
+          "lineSpacing": 19,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Text",
+          "name": "Typography [PLATFORM=Desktop][STYLE=STYLE1][TAG=UI_S]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 682,
+            "y": 1918
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 2,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Copyright © 2020 Name. All rights reserved.",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 13,
+          "charSpacing": 40,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "center",
+          "lineSpacing": 19,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 691,
+            "y": 1782
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1.667,
+                    "y": 1.667
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.667,
+                        "y": -1.667
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 13.33300018310547 6.666999816894531 C 16.09499931335449 6.666999816894531 18.33300018310547 8.904999732971191 18.33300018310547 11.66699981689453 L 18.33300018310547 17.5 L 15 17.5 L 15 11.66699981689453 C 15 10.74600028991699 14.25399971008301 10 13.33300018310547 10 C 12.41300010681152 10 11.66699981689453 10.74600028991699 11.66699981689453 11.66699981689453 L 11.66699981689453 17.5 L 8.333000183105469 17.5 L 8.333000183105469 11.66699981689453 C 8.333000183105469 8.904999732971191 10.57199954986572 6.666999816894531 13.33300018310547 6.666999816894531 Z",
+                      "__componentType": "Path"
+                    },
+                    {
+                      "type": "Rectangle",
+                      "name": "Rect [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 5.833
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 3.3333332538604736,
+                      "height": 10,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Ellipse",
+                      "name": "Path [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "radiusX": 1.6666666269302368,
+                      "radiusY": 1.6666666269302368,
+                      "__componentType": "Ellipse"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/linkedin"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 755,
+            "y": 1782
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/youtube][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 1.667,
+                    "y": 1.667
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/youtube][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.667,
+                        "y": -1.667
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 18.78300094604492 5.349999904632568 C 18.58200073242188 4.545000076293945 17.96500015258789 3.908999919891357 17.16699981689453 3.683000087738037 C 15.73299980163574 3.33299994468689 10 3.33299994468689 10 3.33299994468689 C 10 3.33299994468689 4.267000198364258 3.33299994468689 2.83299994468689 3.717000007629395 C 2.035000085830688 3.943000078201294 1.417999982833862 4.578000068664551 1.217000007629395 5.382999897003174 C 0.9539999961853027 6.837999820709229 0.8259999752044678 8.314000129699707 0.8330000042915344 9.791999816894531 C 0.8240000009536743 11.2810001373291 0.9520000219345093 12.76799964904785 1.217000007629395 14.23299980163574 C 1.439000010490417 15.01299953460693 2.052000045776367 15.61900043487549 2.83299994468689 15.83300018310547 C 4.267000198364258 16.21699905395508 10 16.21699905395508 10 16.21699905395508 C 10 16.21699905395508 15.73299980163574 16.21699905395508 17.16699981689453 15.83300018310547 C 17.96500015258789 15.60700035095215 18.58200073242188 14.97200012207031 18.78300094604492 14.16699981689453 C 19.04400062561035 12.72299957275391 19.17200088500977 11.25899982452393 19.16699981689453 9.791999816894531 C 19.17600059509277 8.302000045776367 19.04800033569336 6.815999984741211 18.78300094604492 5.349999904632568 Z",
+                      "__componentType": "Path"
+                    },
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/youtube][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -1.667,
+                        "y": -1.667
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 8.125 12.51700019836426 L 12.91699981689453 9.791999816894531 L 8.125 7.066999912261963 L 8.125 12.51700019836426 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/youtube"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 627,
+            "y": 1782
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/twitter][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0.833,
+                    "y": 2.491
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/twitter][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.833,
+                        "y": -2.491
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 19.16699981689453 2.5 C 18.36899948120117 3.062999963760376 17.48500061035156 3.493000030517578 16.54999923706055 3.775000095367432 C 15.52200031280518 2.592999935150146 13.86499977111816 2.177999973297119 12.40200042724609 2.736999988555908 C 10.9379997253418 3.296000003814697 9.979000091552734 4.709000110626221 10 6.275000095367432 L 10 7.107999801635742 C 7.026000022888184 7.184999942779541 4.210000038146973 5.76800012588501 2.5 3.33299994468689 C 2.5 3.33299994468689 -0.8330000042915344 10.83300018310547 6.666999816894531 14.16699981689453 C 4.949999809265137 15.33199977874756 2.905999898910522 15.91600036621094 0.8330000042915344 15.83300018310547 C 8.333000183105469 20 17.5 15.83300018310547 17.5 6.25 C 17.49900054931641 6.01800012588501 17.47699928283691 5.785999774932861 17.4330005645752 5.558000087738037 C 18.28400039672852 4.71999979019165 18.88400077819824 3.66100001335144 19.16699981689453 2.5 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/twitter"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        },
+        {
+          "type": "Group",
+          "name": "Circle Button",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 563,
+            "y": 1782
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Rectangle",
+              "name": "Area [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 0,
+                "y": 0
+              },
+              "fillEnabled": true,
+              "fill": "#fff",
+              "strokeEnabled": true,
+              "stroke": "#3e3e3e",
+              "strokeWidth": 2,
+              "strokePosition": "inside",
+              "strokeEndCaps": "butt",
+              "strokeJoins": "miter",
+              "strokeMiterLimit": 4,
+              "strokeDashArray": [],
+              "strokeDashOffset": 0,
+              "shadow": null,
+              "blur": null,
+              "width": 48,
+              "height": 48,
+              "cornerRadii": {
+                "topLeft": 1000,
+                "topRight": 1000,
+                "bottomRight": 1000,
+                "bottomLeft": 1000
+              },
+              "__componentType": "Rectangle"
+            },
+            {
+              "type": "Group",
+              "name": "Icon",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 14,
+                "y": 14
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Rectangle",
+                  "name": "Area [ICON=feather/facebook][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                  "visible": true,
+                  "opacity": 0,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "fillEnabled": true,
+                  "fill": "rgba(253,73,198,0.35)",
+                  "strokeEnabled": false,
+                  "stroke": "#fd49c6",
+                  "strokeWidth": 1,
+                  "strokePosition": "inside",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 4,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "width": 20,
+                  "height": 20,
+                  "cornerRadii": {
+                    "topLeft": 0,
+                    "topRight": 0,
+                    "bottomRight": 0,
+                    "bottomLeft": 0
+                  },
+                  "__componentType": "Rectangle"
+                },
+                {
+                  "type": "Group",
+                  "name": "Icon",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 5.833,
+                    "y": 1.667
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Path",
+                      "name": "Path [ICON=feather/facebook][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -5.833,
+                        "y": -1.667
+                      },
+                      "fillEnabled": true,
+                      "strokeEnabled": true,
+                      "stroke": "#3e3e3e",
+                      "strokeWidth": 1.6666666269302368,
+                      "strokePosition": "center",
+                      "strokeEndCaps": "round",
+                      "strokeJoins": "round",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "pathData": "M 15 1.66700005531311 L 12.5 1.66700005531311 C 10.19900035858154 1.66700005531311 8.333000183105469 3.532000064849854 8.333000183105469 5.833000183105469 L 8.333000183105469 8.333000183105469 L 5.833000183105469 8.333000183105469 L 5.833000183105469 11.66699981689453 L 8.333000183105469 11.66699981689453 L 8.333000183105469 18.33300018310547 L 11.66699981689453 18.33300018310547 L 11.66699981689453 11.66699981689453 L 14.16699981689453 11.66699981689453 L 15 8.333000183105469 L 11.66699981689453 8.333000183105469 L 11.66699981689453 5.833000183105469 C 11.66699981689453 5.373000144958496 12.03999996185303 5 12.5 5 L 15 5 L 15 1.66700005531311 Z",
+                      "__componentType": "Path"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STYLE": "STYLE2",
+                      "STATE": "DEFAULT",
+                      "SIZE": "MEDIUM",
+                      "ICON": "feather/facebook"
+                    },
+                    "type": "Icon",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "Icon"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {
+                  "STATE": "DEFAULT",
+                  "STYLE": "STYLE2",
+                  "SIZE": "MEDIUM"
+                },
+                "type": "CircleButton",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "CircleButton"
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 143,
+        "y": 142
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 143,
+        "y": 526
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 143,
+        "y": 910
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 143,
+        "y": 1294
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 695,
+        "y": 142
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 695,
+        "y": 526
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 695,
+        "y": 910
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Image",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 695,
+        "y": 1294
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Rectangle",
+          "name": "Placement Area [ASSET=small][SIZE=Default][STATE=DEFAULT]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "fillEnabled": true,
+          "strokeEnabled": false,
+          "stroke": "#3e3e3e",
+          "strokeWidth": 2,
+          "strokePosition": "inside",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 4,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "width": 528,
+          "height": 360,
+          "cornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomRight": 0,
+            "bottomLeft": 0
+          },
+          "__componentType": "Rectangle"
+        },
+        {
+          "type": "Text",
+          "name": "METADATA",
+          "visible": false,
+          "__jsonText": {
+            "config": {
+              "STATE": "DEFAULT",
+              "SIZE": "Default",
+              "ASSET": "small"
+            },
+            "theme": "Base",
+            "type": "Image"
+          }
+        }
+      ],
+      "__componentType": "Image"
+    },
+    {
+      "type": "Group",
+      "name": "Header",
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "dynamicLayout": true,
+      "children": [
+        {
+          "type": "Text",
+          "name": "Title [PLATFORM=Desktop][STYLE=STYLE1][TAG=H5]",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 143,
+            "y": 69
+          },
+          "fillEnabled": true,
+          "fill": "#3d3d3d",
+          "strokeEnabled": false,
+          "stroke": "#1968ff",
+          "strokeWidth": 1,
+          "strokePosition": "center",
+          "strokeEndCaps": "butt",
+          "strokeJoins": "miter",
+          "strokeMiterLimit": 10,
+          "strokeDashArray": [],
+          "strokeDashOffset": 0,
+          "shadow": null,
+          "blur": null,
+          "text": "Mockup",
+          "fontFamily": "Noto Sans CJK JP",
+          "fontStyle": "Bold",
+          "fontSize": 24,
+          "charSpacing": 0,
+          "underline": false,
+          "strikethrough": false,
+          "textTransform": "none",
+          "textScript": "none",
+          "flipY": false,
+          "textAlign": "left",
+          "lineSpacing": 34,
+          "paragraphSpacing": 0,
+          "areaBox": null,
+          "__componentType": "Typography"
+        },
+        {
+          "type": "Group",
+          "name": "Tabs",
+          "visible": true,
+          "opacity": 1,
+          "rotation": 0,
+          "translation": {
+            "x": 980.039,
+            "y": 34
+          },
+          "dynamicLayout": true,
+          "children": [
+            {
+              "type": "Group",
+              "name": "[PLACEHOLDER] Tab Item",
+              "visible": false,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 192,
+                "y": 0
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Group",
+                  "name": "Area",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Placement Area",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.04,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "fill": "#fff",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 42,
+                      "height": 42,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Rectangle",
+                      "name": "Bar",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": -0.04,
+                        "y": 40
+                      },
+                      "fillEnabled": true,
+                      "fill": "#3e3e3e",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 42,
+                      "height": 2,
+                      "cornerRadii": {
+                        "topLeft": 1000,
+                        "topRight": 1000,
+                        "bottomRight": 1000,
+                        "bottomLeft": 1000
+                      },
+                      "__componentType": "Rectangle"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "Label",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -0.04,
+                    "y": 27
+                  },
+                  "fillEnabled": true,
+                  "fill": "#8b8b8b",
+                  "strokeEnabled": true,
+                  "stroke": "rgba(0,0,0,0)",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "Label",
+                  "fontFamily": "Noto Sans",
+                  "fontStyle": "SemiBold",
+                  "fontSize": 16,
+                  "charSpacing": 0,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "left",
+                  "lineSpacing": 0,
+                  "paragraphSpacing": 0,
+                  "areaBox": null
+                }
+              ]
+            },
+            {
+              "type": "Group",
+              "name": "Tab Item",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 147,
+                "y": 0
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Group",
+                  "name": "Area",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Placement Area",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "fill": "#fff",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 95.9609375,
+                      "height": 42,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Rectangle",
+                      "name": "Bar",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 40
+                      },
+                      "fillEnabled": true,
+                      "fill": "#3e3e3e",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 95.9609375,
+                      "height": 2,
+                      "cornerRadii": {
+                        "topLeft": 1000,
+                        "topRight": 1000,
+                        "bottomRight": 1000,
+                        "bottomLeft": 1000
+                      },
+                      "__componentType": "Rectangle"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "Label",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -0.04,
+                    "y": 27
+                  },
+                  "fillEnabled": true,
+                  "fill": "#8b8b8b",
+                  "strokeEnabled": true,
+                  "stroke": "rgba(0,0,0,0)",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "お問い合わせ",
+                  "fontFamily": "Noto Sans CJK JP",
+                  "fontStyle": "Bold",
+                  "fontSize": 16,
+                  "charSpacing": 0,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "left",
+                  "lineSpacing": 0,
+                  "paragraphSpacing": 0,
+                  "areaBox": null
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {},
+                    "type": "TabItem",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "TabItem"
+            },
+            {
+              "type": "Group",
+              "name": "Tab Item",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 75,
+                "y": 0
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Group",
+                  "name": "Area",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Placement Area",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "fill": "#fff",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 42,
+                      "height": 42,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Rectangle",
+                      "name": "Bar",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 40
+                      },
+                      "fillEnabled": true,
+                      "fill": "#3e3e3e",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 42,
+                      "height": 2,
+                      "cornerRadii": {
+                        "topLeft": 1000,
+                        "topRight": 1000,
+                        "bottomRight": 1000,
+                        "bottomLeft": 1000
+                      },
+                      "__componentType": "Rectangle"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "Label",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -0.04,
+                    "y": 27
+                  },
+                  "fillEnabled": true,
+                  "fill": "#8b8b8b",
+                  "strokeEnabled": true,
+                  "stroke": "rgba(0,0,0,0)",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "ブログ",
+                  "fontFamily": "Noto Sans CJK JP",
+                  "fontStyle": "Bold",
+                  "fontSize": 16,
+                  "charSpacing": 0,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "left",
+                  "lineSpacing": 0,
+                  "paragraphSpacing": 0,
+                  "areaBox": null
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {},
+                    "type": "TabItem",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "TabItem"
+            },
+            {
+              "type": "Group",
+              "name": "Tab Item",
+              "visible": true,
+              "opacity": 1,
+              "rotation": 0,
+              "translation": {
+                "x": 19,
+                "y": 0
+              },
+              "dynamicLayout": true,
+              "children": [
+                {
+                  "type": "Group",
+                  "name": "Area",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "dynamicLayout": true,
+                  "children": [
+                    {
+                      "type": "Rectangle",
+                      "name": "Placement Area [STATE=ACTIVE]",
+                      "visible": true,
+                      "opacity": 0,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "fillEnabled": true,
+                      "fill": "#fff",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 31.9609375,
+                      "height": 42,
+                      "cornerRadii": {
+                        "topLeft": 0,
+                        "topRight": 0,
+                        "bottomRight": 0,
+                        "bottomLeft": 0
+                      },
+                      "__componentType": "Rectangle"
+                    },
+                    {
+                      "type": "Rectangle",
+                      "name": "Bar [STATE=ACTIVE]",
+                      "visible": true,
+                      "opacity": 1,
+                      "rotation": 0,
+                      "translation": {
+                        "x": 0,
+                        "y": 40
+                      },
+                      "fillEnabled": true,
+                      "fill": "#3e3e3e",
+                      "strokeEnabled": false,
+                      "stroke": "#707070",
+                      "strokeWidth": 1,
+                      "strokePosition": "inside",
+                      "strokeEndCaps": "butt",
+                      "strokeJoins": "miter",
+                      "strokeMiterLimit": 4,
+                      "strokeDashArray": [],
+                      "strokeDashOffset": 0,
+                      "shadow": null,
+                      "blur": null,
+                      "width": 31.9609375,
+                      "height": 2,
+                      "cornerRadii": {
+                        "topLeft": 1000,
+                        "topRight": 1000,
+                        "bottomRight": 1000,
+                        "bottomLeft": 1000
+                      },
+                      "__componentType": "Rectangle"
+                    }
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "name": "Label",
+                  "visible": true,
+                  "opacity": 1,
+                  "rotation": 0,
+                  "translation": {
+                    "x": -0.04,
+                    "y": 27
+                  },
+                  "fillEnabled": true,
+                  "fill": "#3d3d3d",
+                  "strokeEnabled": true,
+                  "stroke": "rgba(0,0,0,0)",
+                  "strokeWidth": 1,
+                  "strokePosition": "center",
+                  "strokeEndCaps": "butt",
+                  "strokeJoins": "miter",
+                  "strokeMiterLimit": 10,
+                  "strokeDashArray": [],
+                  "strokeDashOffset": 0,
+                  "shadow": null,
+                  "blur": null,
+                  "text": "作品",
+                  "fontFamily": "Noto Sans CJK JP",
+                  "fontStyle": "Bold",
+                  "fontSize": 16,
+                  "charSpacing": 0,
+                  "underline": false,
+                  "strikethrough": false,
+                  "textTransform": "none",
+                  "textScript": "none",
+                  "flipY": false,
+                  "textAlign": "left",
+                  "lineSpacing": 0,
+                  "paragraphSpacing": 0,
+                  "areaBox": null
+                },
+                {
+                  "type": "Text",
+                  "name": "METADATA",
+                  "visible": false,
+                  "__jsonText": {
+                    "config": {
+                      "STATE": "ACTIVE"
+                    },
+                    "type": "TabItem",
+                    "theme": "Base"
+                  }
+                }
+              ],
+              "__componentType": "TabItem"
+            },
+            {
+              "type": "Text",
+              "name": "METADATA",
+              "visible": false,
+              "__jsonText": {
+                "config": {},
+                "type": "Tabs",
+                "theme": "Base"
+              }
+            }
+          ],
+          "__componentType": "Tabs"
+        }
+      ]
+    }
+  ],
+  "__componentType": "ポートフォリオホーム - Desktop"
+}

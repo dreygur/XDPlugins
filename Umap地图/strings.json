@@ -1,0 +1,30 @@
+{
+  "en": {
+    "service": "Technical support provided by <a href='https://xd.94xy.com'>94xy.com</a>",
+    "map": "map",
+    "tencent": "Tencent",
+    "baidu": "Baidu",
+    "amap": "Amap",
+    "google":"Google",
+    "zom": "zom",
+    "ser": "search",
+    "apply": "Apply",
+    "sel": "Please select rectangle, circle or polygon.",
+    "net": "Network is not available/internet connection is not available!",
+    "val":"beijing"
+  },
+  "zh": {
+    "service": "<a href='https://xd.94xy.com'>XD中文网94xy.com</a>提供技术支持",
+    "map": "地图",
+    "tencent": "腾讯",
+    "baidu": "百度",
+    "amap": "高德",
+    "google":"Google",
+    "zom": "缩放",
+    "ser": "搜索",
+    "apply": "应用",
+    "sel": "请选择矩形、圆型或多边形",
+    "net": "网络不可用/互联网连接不可用",
+    "val":"北京"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>browser-open-in</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M44,6H4A2,2,0,0,0,2,8V40a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V8A2,2,0,0,0,44,6ZM42,38H26V26.8l3.6,3.6a1.9,1.9,0,0,0,3-.2,2.1,2.1,0,0,0-.2-2.7l-7-6.9a1.9,1.9,0,0,0-2.8,0l-7,6.9a2.1,2.1,0,0,0-.2,2.7,1.9,1.9,0,0,0,3,.2L22,26.8V38H6V10H42Z"/>
+        <circle cx="10" cy="14" r="2"/>
+        <circle cx="16" cy="14" r="2"/>
+        <circle cx="22" cy="14" r="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

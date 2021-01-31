@@ -1,0 +1,17 @@
+{
+  "name": "Date Picker",
+  "name_ja": "日付ピッカー",
+  "UI": [
+    {
+      "uiType": "Select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    }
+  ]
+}

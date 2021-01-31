@@ -1,0 +1,26 @@
+{
+  "name": "Video",
+  "name_ja": "ビデオ",
+  "allowedProps": ["STATE"],
+  "assetsPlaceholder": "Placement Area",
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [{ "value": "DEFAULT" }, { "value": "ACTIVE" }],
+      "compLabel": "STATE",
+      "defaultValue": "DEFAULT"
+    },
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": null, "label": "Placeholder" },
+        { "value": "small", "label": "Small" },
+        { "value": "hero", "label": "Hero" },
+        { "value": "panel", "label": "Panel" }
+      ],
+      "compLabel": "ASSET",
+      "label": "ASSET TYPE",
+      "defaultValue": null
+    }
+  ]
+}

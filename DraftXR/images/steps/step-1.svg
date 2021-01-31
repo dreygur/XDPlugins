@@ -1,0 +1,26 @@
+<svg id="step-1" xmlns="http://www.w3.org/2000/svg" width="249.99" height="69.442" viewBox="0 0 249.99 69.442">
+  <g id="Group_26" data-name="Group 26" transform="translate(128.467)">
+    <g id="artboard" transform="translate(0)" fill="#e1f1fa" stroke="#3496ef" stroke-width="1">
+      <rect width="121.523" height="69.442" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="120.523" height="68.442" rx="2.5" fill="none"/>
+    </g>
+    <g id="buttons" transform="translate(26.041 15.624)">
+      <rect id="button_4" data-name="button 4" width="32.985" height="17.36" rx="3" transform="translate(36.457 20.832)" fill="rgba(255,255,255,0.5)"/>
+      <rect id="button_3" data-name="button 3" width="32.985" height="17.36" rx="3" transform="translate(0 20.832)" fill="rgba(255,255,255,0.5)"/>
+      <rect id="button_2" data-name="button 2" width="32.985" height="17.36" rx="3" transform="translate(36.457)" fill="#fff"/>
+      <rect id="button_1" data-name="button 1" width="32.985" height="17.36" rx="3" fill="rgba(255,255,255,0.5)"/>
+    </g>
+  </g>
+  <g id="Group_27" data-name="Group 27">
+    <g id="artboard-2" data-name="artboard" fill="#e1f1fa" stroke="#3496ef" stroke-width="1">
+      <rect width="121.523" height="69.442" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="120.523" height="68.442" rx="2.5" fill="none"/>
+    </g>
+    <g id="buttons-2" data-name="buttons" transform="translate(26.041 15.624)">
+      <rect id="button_4-2" data-name="button 4" width="32.985" height="17.36" rx="3" transform="translate(36.457 20.832)" fill="#fff"/>
+      <rect id="button_3-2" data-name="button 3" width="32.985" height="17.36" rx="3" transform="translate(0 20.832)" fill="#fff"/>
+      <rect id="button_2-2" data-name="button 2" width="32.985" height="17.36" rx="3" transform="translate(36.457)" fill="#fff"/>
+      <rect id="button_1-2" data-name="button 1" width="32.985" height="17.36" rx="3" fill="#fff"/>
+    </g>
+  </g>
+</svg>

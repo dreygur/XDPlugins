@@ -1,0 +1,26 @@
+{
+  "summary" : "Export layers to Justinmind",
+  "website" : "https://www.justinmind.com",
+  "languages" : [ "en"],
+  "author" : "Justinmind",
+  "description" : "Bring your artboards, pages and layers to Justinmind and turn your designs into an interactive, shareable prototype.",
+  "helpUrl" : "https://www.justinmind.com/community/",
+  "main" : "main.js",
+  "icons" : [ { "width": 24, "height": 24, "path": "images/pluginIcon0.png" },
+        { "width": 48, "height": 48, "path": "images/pluginIcon1.png" },
+        { "width": 96, "height": 96, "path": "images/pluginIcon2.png" },
+        { "width": 144, "height": 144, "path": "images/pluginIcon3.png" },
+        { "width": 192, "height": 192, "path": "images/pluginIcon4.png" }],
+  "version" : "1.1.2",
+  "name" : "XD to Justinmind",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "id" : "0f830219",
+  "uiEntryPoints" : [ {
+    "label" : "XD to Justinmind",
+    "type" : "menu",
+    "commandId" : "exportJIM"
+  } ]
+}

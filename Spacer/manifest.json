@@ -1,0 +1,29 @@
+{
+    "id": "a1cabe5a",
+    "author": "Nico Ledwith",
+    "name": "Spacer",
+    "version": "1.0.0",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "images/icon@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@2x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Spacing",
+            "panelId": "spacing"
+        }
+    ]
+}

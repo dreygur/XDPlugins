@@ -1,0 +1,63 @@
+{
+    "id": "ef5c00c8",
+    "name": "Respresso Integration",
+    "version": "1.0.0",
+    "description": "Integrate your colors, icons, texts into Respresso",
+    "summary": "Respresso handles your digital assets so you don't have to",
+    "languages": ["en"],
+    "author": "József Mezei",
+    "helpUrl": "https://github.com/pontehu/respresso-adobexd",
+    "releaseNotes": "Released 1.0 integration client for Respresso, Select demanded resources, Choose proper version for resources",
+    "keywords": [
+        "Respresso",
+        "Integrate",
+        "Integration"
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "27.2"
+    },
+    "icons": [
+        {
+            "path" : "images/ic_launcher@1x.png",
+            "width" : 24,
+            "height" : 24
+        },
+        {
+            "path" : "images/ic_launcher@2x.png",
+            "width" : 48,
+            "height" : 48
+        },
+        {
+            "path" : "images/ic_launcher@3x.png",
+            "width" : 96,
+            "height" : 96
+        },
+        {
+            "path" : "images/ic_launcher@4x.png",
+            "width" : 144,
+            "height" : 144
+        },
+        {
+            "path" : "images/ic_launcher@5x.png",
+            "width" : 192,
+            "height" : 192
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Respresso",
+            "menuItems": [
+                {
+                    "label": "Integrate",
+                    "commandId": "respresso",
+                    "shortcut": {
+                        "mac": "Cmd+Shift+Q",
+                        "win": "Ctrl+Shift+Q"
+                    }
+                }
+            ]
+        }
+    ]
+}

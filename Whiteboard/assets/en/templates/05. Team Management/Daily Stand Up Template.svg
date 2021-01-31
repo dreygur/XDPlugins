@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1704" height="60" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="60" height="784" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="1704" height="784" fill="none"/>
+    </clipPath>
+    <filter id="background" x="1340" y="40" width="548" height="582" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Daily_Stand_Up_Template">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Daily_Stand_Up_Template" data-name="Daily Stand Up Template" clip-path="url(#clip-Daily_Stand_Up_Template)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="Names" transform="translate(140 180)" clip-path="url(#clip-path)">
+      <g transform="translate(-140 -200)">
+        <rect id="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      </g>
+      <g transform="translate(204 -200)">
+        <rect id="area-2" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-2" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      </g>
+      <g transform="translate(548 -200)">
+        <rect id="area-3" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-3" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      </g>
+      <g transform="translate(892 -200)">
+        <rect id="area-4" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-4" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      </g>
+      <g transform="translate(1236 -200)">
+        <rect id="area-5" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-5" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      </g>
+    </g>
+    <g id="Questions" transform="translate(80 240)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-80 -260)">
+        <rect id="area-6" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-6" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Question</tspan></text>
+      </g>
+      <g transform="translate(-80)">
+        <rect id="area-7" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-7" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Question</tspan></text>
+      </g>
+      <g transform="translate(-80 260)">
+        <rect id="area-8" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-8" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Question</tspan></text>
+      </g>
+      <g transform="translate(-80 520)">
+        <rect id="area-9" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-9" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Question</tspan></text>
+      </g>
+    </g>
+    <g id="Cells" transform="translate(140 240)" clip-path="url(#clip-path-3)">
+      <g transform="translate(-140 -260)">
+        <rect id="Cell" width="340" height="260" stroke-width="4" fill="none" stroke="#e0e0e0" transform="translate(142 262)"/>
+      </g>
+      <g transform="translate(200 -260)">
+        <rect id="Cell-2" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540 -260)">
+        <rect id="Cell-3" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880 -260)">
+        <rect id="Cell-4" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220 -260)">
+        <rect id="Cell-5" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560 -260)">
+        <rect id="Cell-6" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(-140)">
+        <rect id="Cell-7" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(200)">
+        <rect id="Cell-8" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540)">
+        <rect id="Cell-9" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880)">
+        <rect id="Cell-10" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220)">
+        <rect id="Cell-11" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560)">
+        <rect id="Cell-12" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(-140 260)">
+        <rect id="Cell-13" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(200 260)">
+        <rect id="Cell-14" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540 260)">
+        <rect id="Cell-15" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880 260)">
+        <rect id="Cell-16" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220 260)">
+        <rect id="Cell-17" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560 260)">
+        <rect id="Cell-18" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(-140 520)">
+        <rect id="Cell-19" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(200 520)">
+        <rect id="Cell-20" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540 520)">
+        <rect id="Cell-21" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880 520)">
+        <rect id="Cell-22" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220 520)">
+        <rect id="Cell-23" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560 520)">
+        <rect id="Cell-24" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+    </g>
+    <line id="hr" x2="1704" transform="translate(140 242)" fill="none" stroke="#101010" stroke-width="4"/>
+    <line id="vr" y2="780" transform="translate(142 244)" fill="none" stroke="#101010" stroke-width="4"/>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area-10" data-name="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Run a quick daily check-in meeting for your team to plan the day’s work.</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Daily Stand-up</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-109.456" y="0">24 March 2020</tspan></text>
+      <text id="Project_Name" data-name="Project Name" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-101.056" y="0">Project Name</tspan></text>
+    </g>
+    <g id="Post-It_Element" data-name="Post-It Element" transform="translate(160 260)">
+      <rect id="background_color_fill_" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-10" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-2" data-name="Post-It Element" transform="translate(840 260)">
+      <rect id="background_color_fill_2" data-name="background [color_fill]" width="140" height="100" fill="#8484f3"/>
+      <text id="label-11" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-2" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-3" data-name="Post-It Element" transform="translate(500 260)">
+      <rect id="background_color_fill_3" data-name="background [color_fill]" width="140" height="100" fill="#7ee1ff"/>
+      <text id="label-12" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-3" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-4" data-name="Post-It Element" transform="translate(1180 260)">
+      <rect id="background_color_fill_4" data-name="background [color_fill]" width="140" height="100" fill="#ff80ac"/>
+      <text id="label-13" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-4" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-5" data-name="Post-It Element" transform="translate(1520 260)">
+      <rect id="background_color_fill_5" data-name="background [color_fill]" width="140" height="100" fill="#26ccbf"/>
+      <text id="label-14" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-5" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-6" data-name="Post-It Element" transform="translate(660 260)">
+      <rect id="background_color_fill_6" data-name="background [color_fill]" width="140" height="100" fill="#7ee1ff"/>
+      <text id="label-15" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-6" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-7" data-name="Post-It Element" transform="translate(1000 260)">
+      <rect id="background_color_fill_7" data-name="background [color_fill]" width="140" height="100" fill="#8484f3"/>
+      <text id="label-16" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-7" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-8" data-name="Post-It Element" transform="translate(840 380)">
+      <rect id="background_color_fill_8" data-name="background [color_fill]" width="140" height="100" fill="#8484f3"/>
+      <text id="label-17" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-8" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-9" data-name="Post-It Element" transform="translate(320 260)">
+      <rect id="background_color_fill_9" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-18" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-9" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-10" data-name="Post-It Element" transform="translate(160 380)">
+      <rect id="background_color_fill_10" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-19" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+      <rect id="sticker-10" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1340 40)">
+      <g transform="matrix(1, 0, 0, 1, -1340, -40)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="540" height="574" transform="translate(1340 40)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="18">How to use</tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="42"></tspan><tspan x="0" y="66" xml:space="preserve">01.  </tspan><tspan y="66" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Set a time and place. Poll your team to learn whether they </tspan><tspan x="0" y="90" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">prefer morning stand-ups or end-of-day meetings. Standups </tspan><tspan x="0" y="114" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">should become a useful part of everyone’s routine, setting the </tspan><tspan x="0" y="138" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">stage of their day or wrapping up at the end.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="162"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="186" xml:space="preserve">02.  </tspan><tspan y="186" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Create an agenda. Standup meetings should not run any </tspan><tspan x="0" y="210" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">longer than it takes someone to start fidgeting while standing </tspan><tspan x="0" y="234" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">up! In general, aim for ten or fifteen minutes. To stay on task, </tspan><tspan x="0" y="258" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">create a quick agenda that sketches out what you hope to </tspan><tspan x="0" y="282" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">accomplish.</tspan><tspan x="0" y="306"></tspan><tspan x="0" y="330" xml:space="preserve">03.  </tspan><tspan y="330" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Stick to the same format. Once you’ve nailed down your </tspan><tspan x="0" y="354" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">time and place, come up with some questions that you hope to </tspan><tspan x="0" y="378" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">answer during each meeting. Many standups aim to answer </tspan><tspan x="0" y="402" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">the following three questions: What have I accomplished since </tspan><tspan x="0" y="426" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">our last standup? What do I hope to accomplish before the </tspan><tspan x="0" y="450" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">next one? What obstacles might keep me from doing so?</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

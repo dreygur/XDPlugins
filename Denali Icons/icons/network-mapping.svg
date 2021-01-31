@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>network-mapping</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M36,21h8a2,2,0,0,0,2-2V11a2,2,0,0,0-2-2H36a2,2,0,0,0-2,2v2H26v3.3a6.8,6.8,0,0,0-4,0V6H14V4a2,2,0,0,0-2-2H4A2,2,0,0,0,2,4v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V10h4v8.7A8,8,0,0,0,16.3,22H14V20a2,2,0,0,0-2-2H4a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V26h2.3A8,8,0,0,0,18,29.3V38H14V36a2,2,0,0,0-2-2H4a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V42h8V31.7a6.8,6.8,0,0,0,4,0V35h8v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V29a2,2,0,0,0-2-2H36a2,2,0,0,0-2,2v2H30V29.3a8,8,0,0,0,0-10.6V17h4v2A2,2,0,0,0,36,21Zm2-8h4v4H38ZM10,10H6V6h4Zm0,16H6V22h4Zm0,16H6V38h4ZM38,31h4v4H38ZM20,24a4,4,0,1,1,4,4A4,4,0,0,1,20,24Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+{
+    "id": "c1d8526b",
+    "name": "StockSolo – Stock Photo Search",
+    "version": "1.1.2",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/logo-violet@1x.png" },
+        { "width": 48, "height": 48, "path": "images/logo-violet@2x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "24.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "StockSolo Panel",
+            "panelId": "mainPanel"
+        }
+    ]
+}

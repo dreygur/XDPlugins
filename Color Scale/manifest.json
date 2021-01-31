@@ -1,0 +1,34 @@
+{
+  "id": "d77f842c",
+  "name": "Color Scale",
+  "version": "1.0.1",
+  "description": "A plugin that can generate color scales. Select one Text, Rectangle, or Ellipse node and run the plugin. You can get graded colors from the node fill color towards white, black, complementary colors etc. You can also get a color scale by selecting two specific nodes.",
+  "summary": "Generate color scale.",
+  "releaseNotes": "Change shortcut / Improvement of internal program",
+  "keywords": [ "color", "scale", "tips", "gradation", "complementary", "automation" ],
+  "languages": [ "en" ],
+  "website": "https://github.com/masa-sumimoto/adobe-xd-color-scale",
+  "author": "Masaaki Sumimoto",
+  "helpUrl": "https://github.com/masa-sumimoto/adobe-xd-color-scale",
+  "icons": [
+    { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+    { "width": 96, "height": 96, "path": "images/icon@2x.png" },
+    { "width": 144, "height": 144, "path": "images/icon@3x.png" },
+    { "width": 192, "height": 192, "path": "images/icon@4x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Color Scale",
+      "commandId": "run",
+      "shortcut": {
+        "mac": "Ctrl+Opt+Shift+c",
+        "win": "Ctrl+Alt+Shift+c"
+      }
+    }
+  ]
+}

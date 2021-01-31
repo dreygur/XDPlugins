@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+  <title>date</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path d="M11.5,1H10V.5A.5.5,0,0,0,9.5,0,.5.5,0,0,0,9,.5V1H3V.5A.5.5,0,0,0,2.5,0,.5.5,0,0,0,2,.5V1H.51A.5.5,0,0,0,0,1.5v10a.51.51,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,11.5,1Zm-.25,10a.27.27,0,0,1-.26.27H1A.26.26,0,0,1,.76,11V4H11.25Z"/>
+        <g>
+          <circle cx="2.34" cy="9.61" r="0.5"/>
+          <circle cx="2.34" cy="7.61" r="0.5"/>
+          <circle cx="4.17" cy="9.61" r="0.5"/>
+          <circle cx="4.17" cy="7.61" r="0.5"/>
+          <circle cx="4.17" cy="5.61" r="0.5"/>
+          <circle cx="7.83" cy="9.61" r="0.5"/>
+          <circle cx="7.83" cy="7.61" r="0.5"/>
+          <circle cx="7.83" cy="5.61" r="0.5"/>
+          <circle cx="9.66" cy="7.61" r="0.5"/>
+          <circle cx="9.66" cy="5.61" r="0.5"/>
+          <circle cx="6" cy="9.61" r="0.5"/>
+          <circle cx="6" cy="7.61" r="0.5"/>
+          <circle cx="6" cy="5.61" r="0.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>notification-snooze</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M43.4,29.4l-3.2-3.2A4.7,4.7,0,0,1,39,23.3V22H35v1.3A8.6,8.6,0,0,0,37.3,29L40,31.7V36H8V31.7l3.1-3.2A6.4,6.4,0,0,0,13,24V17c0-4.9,2.4-10,9-10.9v-4C13.7,3,9,9.3,9,17v7a2.3,2.3,0,0,1-.7,1.7L4.6,29.4A2,2,0,0,0,4,30.8V38a2,2,0,0,0,2,2H17.1a7,7,0,0,0,13.8,0H42a2,2,0,0,0,2-2V30.8A2,2,0,0,0,43.4,29.4Z"/>
+        <path d="M28,6h7.2l-8.6,8.6a1.8,1.8,0,0,0-.4,2.2A2,2,0,0,0,28,18H40a2,2,0,0,0,0-4H32.8l8.6-8.6a1.8,1.8,0,0,0,.4-2.2A2,2,0,0,0,40,2H28a2,2,0,0,0,0,4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

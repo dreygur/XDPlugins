@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>keyboard-capslock</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M24,6.8,39.2,22H33v6H15V22H8.8L24,6.8M24,2a2,2,0,0,0-1.4.6l-20,20A2,2,0,0,0,4,26h7v4a2,2,0,0,0,2,2H35a2,2,0,0,0,2-2V26h7a2,2,0,0,0,1.4-3.4l-20-20A2,2,0,0,0,24,2Z"/>
+      <path d="M33,40v2H15V40H33m2-4H13a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2H35a2,2,0,0,0,2-2V38a2,2,0,0,0-2-2Z"/>
+    </g>
+  </g>
+</svg>

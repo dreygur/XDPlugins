@@ -1,0 +1,86 @@
+[
+  {
+    "id": "01. Post-Its",
+    "name": "Post Its",
+    "items": [
+      { "name": "Note - Dotted - Element.svg" },
+      { "name": "Note Element.svg" },
+      { "name": "Post-It Element.svg" }
+    ]
+  },
+  {
+    "id": "02. Icons",
+    "name": "Icons",
+    "items": [
+      { "name": "Emotion - Angry - Element.svg" },
+      { "name": "Emotion - Happy - Element.svg" },
+      { "name": "Emotion - Joy - Element.svg" },
+      { "name": "Emotion - Love - Element.svg" },
+      { "name": "Emotion - Sad - Element.svg" },
+      { "name": "Emotion - Surprise - Element.svg" },
+      { "name": "Emotion - Uninterested - Element.svg" },
+      { "name": "Icon - Check - Element.svg" },
+      { "name": "Icon - Cross - Element.svg" },
+      { "name": "Icon - Thumbs Down - Element.svg" },
+      { "name": "Icon - Thumbs Up - Element.svg" }
+    ]
+  },
+  {
+    "id": "03. Drawing",
+    "name": "Drawing",
+    "items": [
+      { "name": "Device Frame - Element.svg" },
+      { "name": "Notepad - Large - Element.svg" },
+      { "name": "Notepad - Small - Element.svg" },
+      { "name": "Web Page Frame - Element.svg" }
+    ]
+  },
+  {
+    "id": "04. Flowchart",
+    "name": "Flowchart",
+    "items": [
+      { "name": "Flowchart Block - Action - Element.svg" },
+      { "name": "Flowchart Block - Decision - Element.svg" },
+      { "name": "Flowchart Block - Point - Element.svg" },
+      { "name": "Flowchart Block - Status - Element.svg" },
+      { "name": "Flowchart Connector - Back - Element.svg" },
+      { "name": "Flowchart Connector - Fork - Element.svg" },
+      { "name": "Flowchart Connector - Straight - Element.svg" },
+      { "name": "Flowchart Connector - Turn - Element.svg" }
+    ]
+  },
+  {
+    "id": "05. Mind Map",
+    "name": "Mind Map",
+    "items": [
+      { "name": "Mindmap Block - Ghost - Element.svg" },
+      { "name": "Mindmap Block Element.svg" },
+      { "name": "Mindmap Connector - Bottom - Element.svg" },
+      { "name": "Mindmap Connector - Top - Element.svg" }
+    ]
+  },
+  {
+    "id": "07. Gantt Chart",
+    "name": "Gantt Chart",
+    "items": [{ "name": "Gantt Track - Thumbnails - Element.svg" }, { "name": "Gantt Track Element.svg" }]
+  },
+  {
+    "id": "08. Kanban",
+    "name": "Kanban",
+    "items": [
+      { "name": "Task Card - Date + Thumbnails - Element.svg" },
+      { "name": "Task Card - Date - Element.svg" },
+      { "name": "Task Card Element.svg" }
+    ]
+  },
+  {
+    "id": "09. Miscellaneous",
+    "name": "Miscellaneous",
+    "items": [
+      { "name": "Category Label Element.svg" },
+      { "name": "Step Element.svg" },
+      { "name": "Step Label Element.svg" },
+      { "name": "Thumbnail - Element.svg" }
+    ]
+  }
+]

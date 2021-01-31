@@ -1,0 +1,7 @@
+<svg id="label_-_circle_-_letter" data-name="label - circle - letter" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <g id="Ellipse_1" data-name="Ellipse 1" fill="#ffd16d" stroke="#ffd16d" stroke-width="1">
+    <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+    <circle cx="19.5" cy="19.5" r="19" fill="none"/>
+  </g>
+  <text id="A" transform="translate(15 24)" fill="#fff" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">A</tspan></text>
+</svg>

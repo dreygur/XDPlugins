@@ -1,0 +1,24 @@
+<svg id="Task_Card_-_Date_-_Element" data-name="Task Card - Date - Element" xmlns="http://www.w3.org/2000/svg" width="366" height="146" viewBox="0 0 366 146">
+  <rect id="shadow" width="360" height="140" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+  <g id="background" transform="translate(-780 -2340)">
+    <g id="background-2" data-name="background" transform="translate(780 2340)" fill="#fff" stroke="#d8d8d8" stroke-width="1">
+      <rect width="360" height="140" stroke="none"/>
+      <rect x="0.5" y="0.5" width="359" height="139" fill="none"/>
+    </g>
+    <rect id="tag_color_fill_" data-name="tag [color_fill]" width="20" height="140" transform="translate(780 2340)" fill="#ffd86f"/>
+  </g>
+  <text id="label" transform="translate(40 20)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="16">タスク…</tspan></text>
+  <g id="date" transform="translate(-780 -2580)">
+    <rect id="background-3" data-name="background" width="80" height="30" transform="translate(820 2670)" fill="#101010" opacity="0.05"/>
+    <text id="label-2" data-name="label" transform="translate(852 2688)" fill="#101010" font-size="11" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="0">APR 25</tspan></text>
+    <g id="calendar" transform="translate(828 2676)">
+      <g id="Rectangle_147637" data-name="Rectangle 147637" transform="translate(0 2)" fill="#fff" stroke="#101010" stroke-width="2">
+        <rect width="16" height="14" stroke="none"/>
+        <rect x="1" y="1" width="14" height="12" fill="none"/>
+      </g>
+      <line id="Line_2" data-name="Line 2" x2="16" transform="translate(0 7)" fill="none" stroke="#101010" stroke-width="2"/>
+      <line id="Line_13" data-name="Line 13" y2="4" transform="translate(4)" fill="none" stroke="#101010" stroke-width="2"/>
+      <line id="Line_14" data-name="Line 14" y2="4" transform="translate(12)" fill="none" stroke="#101010" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "name" : "XDA Exporter",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "Export artboard as xda. xda is a json data. you can use xda to generate artboard in any other soft",
+  "id" : "ae72f905",
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Export XDA",
+    "type" : "menu",
+    "commandId" : "exportXda"
+  } ],
+  "version" : "1.0.1"
+}

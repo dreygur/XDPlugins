@@ -1,0 +1,46 @@
+{
+  "name": "Button",
+  "name_ja": "ボタン",
+  "UI": [
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "STYLE1" }, { "value": "STYLE2" }, { "value": "STYLE3" }],
+      "compLabel": "STYLE",
+      "defaultValue": "STYLE1"
+    },
+    {
+      "uiType": "Select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    },
+    {
+      "uiType": "Select",
+      "optionList": [
+        { "value": "XSMALL", "label": "XSMALL" },
+        { "value": "SMALL" },
+        { "value": "MEDIUM" },
+        { "value": "LARGE" }
+      ],
+      "compLabel": "SIZE",
+      "defaultValue": "MEDIUM"
+    },
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "Label" }, { "value": "Icon" }, { "value": "Label+Icon" }],
+      "compLabel": "DISPLAY_ELEMENTS",
+      "defaultValue": "Label"
+    },
+    {
+      "uiType": "input",
+      "type": "text",
+      "uxp_quiet": "true",
+      "compLabel": "LABEL"
+    }
+  ]
+}

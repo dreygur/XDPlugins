@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,viewport-fit=cover,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Tencent">
+    <meta name="Copyright" content="Tencent">
+    <title>表情组件-分散图</title>
+    <link rel="stylesheet" href="../theme/css/reset.css">
+    <link rel="stylesheet" href="../theme/css/clpane.css">
+</head>
+
+<body>
+    <div class="clpane">
+
+        <div class="clpane-item">
+            <p class="clpane-title" @click="togglePanel(0)">字体颜色</p>
+            <ul class="clpane-list" v-show="panePlay[0]">
+                <li class="clpane-list-item">
+                    <span class="clpane-list-color"></span>
+                    <span class="clpane-list-name">fdasgf</span>
+                </li>
+            </ul>
+        </div>
+        <div class="clpane-item">
+            <p class="clpane-title">填充颜色</p>
+            <ul class="clpane-list">
+                <li class="clpane-list-item>
+                      <span
+                        class=" clpane-list-color"></span>
+                    <span class="clpane-list-name">{{item[0]}}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="clpane-item">
+            <p class="clpane-title">边框颜色</p>
+            <ul class="clpane-list">
+                <li class="clpane-list-item">
+                    <span class="clpane-list-color"></span>
+                    <span class="clpane-list-name">item</span>
+                </li>
+            </ul>
+        </div>
+        <div class="clpane-item">
+            <p class="clpane-title">链接颜色</p>
+            <ul class="clpane-list">
+                <li class="clpane-list-item">
+                    <span class="clpane-list-color"></span>
+                    <span class="clpane-list-name">item</span>
+                </li>
+            </ul>
+        </div>
+        <div class="clpane-item">
+            <p class="clpane-title">阴影颜色</p>
+            <ul class="clpane-list">
+                <li class="clpane-list-item">
+                    <span class="clpane-list-color"></span>
+                    <span class="clpane-list-name">item</span>
+                </li>
+            </ul>
+        </div>
+        <button class="btn-down">下载</button>
+    </div>
+</body>
+
+</html>

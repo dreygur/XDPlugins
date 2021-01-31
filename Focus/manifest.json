@@ -1,0 +1,72 @@
+{
+  "id": "575781a5",
+  "name": "Focus",
+  "version": "1.3.1",
+  "releaseNotes": "",
+  "description": "Focus powers-up your design workflow with in-context annotations directly inside your design documents. This means that all your notes, ideas, tasks, feedback and whatever else you want to jot down stays relevant and never gets lost again.\n\nAll your annotations are safely and securely sync'd to Focus so you can finally keep everything in one place where it belongs.\n\nMore features to boost your productivity:\n\n- Link annotations to specific layers and center on them with one click\n\n- Stay organised with tags and smart filters\n\n- See and interact with annotations directly on your artboards\n\n- Sync selected artboards to the web and share them with your colleagues - access your latest work together with all your annotations in the brand new web app.\n\n\nTo get started, please create a Focus account at https://designwithfocus.com/get-started.\n\nFeel free to get in touch at feedback@designwithfocus.com, we'd love to hear your feedback and suggestions!",
+  "summary": "In-context design annotations",
+  "keywords": [
+    "productivity",
+    "annotations",
+    "notes",
+    "tasks",
+    "comments",
+    "feedback",
+    "collaboration"
+  ],
+  "languages": ["en"],
+  "website": "https://designwithfocus.com",
+  "author": "Design with Focus Ltd",
+  "helpUrl": "support@designwithfocus.com",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon@3x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon@4x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon@5x.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "28.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Show Focus Panel",
+      "panelId": "panel",
+      "shortcut": {
+        "mac": "Cmd+Shift+F",
+        "win": "Ctrl+Shift+F"
+      }
+    },
+    {
+      "type": "menu",
+      "label": "Toggle Annotation Markers",
+      "commandId": "toggleAnnotationMarkers",
+      "shortcut": {
+        "mac": "Cmd+Shift+X",
+        "win": "Ctrl+Shift+X"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>shuffle-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M42,22H6a2,2,0,0,0,0,4H42a2,2,0,0,0,0-4Z"/>
+        <path d="M6,18H42a2,2,0,0,0,0-4H6a2,2,0,0,0,0,4Z"/>
+        <path d="M42,30H6a2,2,0,0,0,0,4H42a2,2,0,0,0,0-4Z"/>
+        <polygon points="24 4 18 10 30 10 24 4"/>
+        <polygon points="24 44 30 38 18 38 24 44"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg id="Post-It_Element" data-name="Post-It Element" xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect id="background_color_fill_" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+  <text id="label" data-area="140 80" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+  <rect id="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+</svg>

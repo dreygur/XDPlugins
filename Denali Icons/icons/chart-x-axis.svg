@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-x-axis</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M43.4,34.6l-5.9-6a2.1,2.1,0,0,0-2.7-.2,1.9,1.9,0,0,0-.2,3L37.2,34H6a2,2,0,0,0,0,4H37.2l-2.6,2.6a1.9,1.9,0,0,0,.2,3,2.1,2.1,0,0,0,2.7-.2l5.9-6A1.9,1.9,0,0,0,43.4,34.6Z"/>
+        <path d="M6,30a2,2,0,0,0,2-2V26a2,2,0,0,0-4,0v2A2,2,0,0,0,6,30Z"/>
+        <path d="M6,20a2,2,0,0,0,2-2V16a2,2,0,0,0-4,0v2A2,2,0,0,0,6,20Z"/>
+        <path d="M6,10A2,2,0,0,0,8,8V6A2,2,0,0,0,4,6V8A2,2,0,0,0,6,10Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

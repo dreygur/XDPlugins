@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 96 96">
+      <image width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAABNJJREFUeAHtmE1sVFUUx2faqQ1UQ9HyoUapRIwLS4CaTFvbOokGEwSBBPxI/JgmLGABCYFgDJDwsVAC8WPhxo1hpbgwmKBbp58DhKpNFKNRgzsXJFpjYqZfw++U98qbJ2/ilPS+afO/yem599zz7r3vd+49704TCRUREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREAEREIH5TiAZeoFiqO26GV6P6/mdz1fjfEZNWEIgVdK61XC9E+M+ebfe3HFNJ8Ax8PB0CkCYiOO2AuAYeHg6BSBMxHFbAXAMPDydAhAm4rgddQ11vIzqm66zs3NzTU3Na6zsq76+vrN3skLGWs1YbxeLxWv9/f1vBsdacCeAlz3Z3d1d7OrqOhV80UrrAHucZ14E2rpKnw37M8a9NlYymdwY7nMRAHuBr5Hm8ORqJxJzHQAffgbY2+Yp8Dn9lT6X3wAffiPgLYe+Xy0BID09xVr2I0+SFlag/yBNfDYxMXEsn8//G1wn9gL+J/B7mfoS+r6sra3dl8vl/vH9Ojo6VqVSqXfpb8evDvtl5CDfjh99nyg9VycgDD8btYA47EBqZt6N6BGgfUp9EfVDQDxOvaTwLdiF4TB+f6Kb8OuZnJz8xHdKp9MrCMi39G/HdhX5BtlE+1J7e/uDvl+UrjQAtpttIR9HDYi9quHbuoF6DmgPsEO3civpAdYb3vs87+kZRd9iZA1+afQGZIogbGbXP2FO9fX1R2kvpfoePs8y5nPUj2G7h4AeMJ9yZTYpKMmAWW/QntDgVQ/f1kv6mCCtLELSNB9ClpsdaJaOwuXKwMDAb2ZEj3DD+oFqC3DXor9HOhArBfpev1lNWBqy0nJTRf+tNAB/MVQGySFZxIofhHkBn/UmAf8BejfADdR1dvXf6ATaNldJwackj+Mzgs3A3u85Pmwa21tee0Zha5ppRFQqTUE2zHdIBhlFsoilo/kCP8HvhB2A2YuM8tF9lJSxDN3NO0SVNaGOx7z2ddME5BfTU1NTW8bHx+8LSqFQeNr6ypVKT4A/lh+EHIasJ6jp2461q7aQ/1fb4gB3YWho6Fer19XV7TB9u4Lf+tbW1iXDw8OjmUymiQ+wbTbb8T97+iI6TXsTN6gLZguU/5yoQN90dbYBsIeDQbDr2Vkki1RLeYlU0xpcDPCPstvP8wF+B/sL9B9CP4LsBPRY0NevA3ZpQ0PD7/h+zi7fTvsu+q709vbmzYfnPkK9gn0PPi3o8/g1Mpft/g85YefML6rMJgUFx/KDsB9jNtgRdx0Qq5BngsLubRocHPwJaKex223mFLIFYK+iv7jdmvHdhv0y/faBbUTyY2NjO31fbj5X6cvg14ttA3IG+EfQKxn3GrqiUsTbxHVxPi/pJMVVcvr2839eFv+7udfb/3TKldq2trZmS1nlnMr1OQfhLSauecuxcNJ3pynIySIX8iQKQMzRVQAUgJgJxDy9ToACEDOBmKeP+iUcx2+BmFHEM71SUDzcNasIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiMACInADAqVK/rhN/JQAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="preview_checkbox" class="cls-1" width="32" height="32"/>
+</svg>

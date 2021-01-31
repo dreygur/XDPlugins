@@ -1,0 +1,5916 @@
+{
+	"500px" : {
+		"styles" : [ "brands" ]
+	},
+	"abacus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"accessible-icon" : {
+		"styles" : [ "brands" ]
+	},
+	"accusoft" : {
+		"styles" : [ "brands" ]
+	},
+	"acorn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"acquisitions-incorporated" : {
+		"styles" : [ "brands" ]
+	},
+	"ad" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"address-book" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"address-card" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"adjust" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"adn" : {
+		"styles" : [ "brands" ]
+	},
+	"adobe" : {
+		"styles" : [ "brands" ]
+	},
+	"adversal" : {
+		"styles" : [ "brands" ]
+	},
+	"affiliatetheme" : {
+		"styles" : [ "brands" ]
+	},
+	"air-freshener" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"alarm-clock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"algolia" : {
+		"styles" : [ "brands" ]
+	},
+	"alicorn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"align-center" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"align-justify" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"align-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"align-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"alipay" : {
+		"styles" : [ "brands" ]
+	},
+	"allergies" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"amazon" : {
+		"styles" : [ "brands" ]
+	},
+	"amazon-pay" : {
+		"styles" : [ "brands" ]
+	},
+	"ambulance" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"american-sign-language-interpreting" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"amilia" : {
+		"styles" : [ "brands" ]
+	},
+	"analytics" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"anchor" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"android" : {
+		"styles" : [ "brands" ]
+	},
+	"angel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angellist" : {
+		"styles" : [ "brands" ]
+	},
+	"angle-double-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angle-double-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angle-double-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angle-double-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angle-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angle-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angle-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angle-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angry" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"angrycreative" : {
+		"styles" : [ "brands" ]
+	},
+	"angular" : {
+		"styles" : [ "brands" ]
+	},
+	"ankh" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"app-store" : {
+		"styles" : [ "brands" ]
+	},
+	"app-store-ios" : {
+		"styles" : [ "brands" ]
+	},
+	"apper" : {
+		"styles" : [ "brands" ]
+	},
+	"apple" : {
+		"styles" : [ "brands" ]
+	},
+	"apple-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"apple-crate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"apple-pay" : {
+		"styles" : [ "brands" ]
+	},
+	"archive" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"archway" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-circle-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-circle-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-circle-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-circle-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-from-bottom" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-from-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-from-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-from-top" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-square-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-square-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-square-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-square-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-to-bottom" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-to-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-to-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-to-top" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-alt-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-circle-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-circle-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-circle-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-circle-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-from-bottom" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-from-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-from-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-from-top" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-square-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-square-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-square-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-square-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-to-bottom" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-to-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-to-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-to-top" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrow-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrows" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrows-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrows-alt-h" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrows-alt-v" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrows-h" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"arrows-v" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"artstation" : {
+		"styles" : [ "brands" ]
+	},
+	"assistive-listening-systems" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"asterisk" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"asymmetrik" : {
+		"styles" : [ "brands" ]
+	},
+	"at" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"atlas" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"atlassian" : {
+		"styles" : [ "brands" ]
+	},
+	"atom" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"atom-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"audible" : {
+		"styles" : [ "brands" ]
+	},
+	"audio-description" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"autoprefixer" : {
+		"styles" : [ "brands" ]
+	},
+	"avianex" : {
+		"styles" : [ "brands" ]
+	},
+	"aviato" : {
+		"styles" : [ "brands" ]
+	},
+	"award" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"aws" : {
+		"styles" : [ "brands" ]
+	},
+	"axe" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"axe-battle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"baby" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"baby-carriage" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"backpack" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"backspace" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"backward" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bacon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"badge" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"badge-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"badge-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"badge-percent" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"badger-honey" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"balance-scale" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"balance-scale-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"balance-scale-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ball-pile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ballot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ballot-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ban" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"band-aid" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bandcamp" : {
+		"styles" : [ "brands" ]
+	},
+	"barcode" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"barcode-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"barcode-read" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"barcode-scan" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bars" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"baseball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"baseball-ball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"basketball-ball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"basketball-hoop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bath" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"battery-bolt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"battery-empty" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"battery-full" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"battery-half" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"battery-quarter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"battery-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"battery-three-quarters" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bed" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"beer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"behance" : {
+		"styles" : [ "brands" ]
+	},
+	"behance-square" : {
+		"styles" : [ "brands" ]
+	},
+	"bell" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bell-school" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bell-school-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bell-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bells" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bezier-curve" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bible" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bicycle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bimobject" : {
+		"styles" : [ "brands" ]
+	},
+	"binoculars" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"biohazard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"birthday-cake" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bitbucket" : {
+		"styles" : [ "brands" ]
+	},
+	"bitcoin" : {
+		"styles" : [ "brands" ]
+	},
+	"bity" : {
+		"styles" : [ "brands" ]
+	},
+	"black-tie" : {
+		"styles" : [ "brands" ]
+	},
+	"blackberry" : {
+		"styles" : [ "brands" ]
+	},
+	"blanket" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"blender" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"blender-phone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"blind" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"blog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"blogger" : {
+		"styles" : [ "brands" ]
+	},
+	"blogger-b" : {
+		"styles" : [ "brands" ]
+	},
+	"bluetooth" : {
+		"styles" : [ "brands" ]
+	},
+	"bluetooth-b" : {
+		"styles" : [ "brands" ]
+	},
+	"bold" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bolt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bomb" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bone-break" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bong" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-dead" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-reader" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-spells" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"book-user" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bookmark" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"books" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"books-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"boot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"booth-curtain" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bow-arrow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bowling-ball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bowling-pins" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-ballot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-fragile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-full" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"box-usd" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"boxes" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"boxes-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"boxing-glove" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"brackets" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"brackets-curly" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"braille" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"brain" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bread-loaf" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bread-slice" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"briefcase" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"briefcase-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"broadcast-tower" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"broom" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"browser" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"brush" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"btc" : {
+		"styles" : [ "brands" ]
+	},
+	"bug" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"building" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bullhorn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bullseye" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bullseye-arrow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bullseye-pointer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"burn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"buromobelexperte" : {
+		"styles" : [ "brands" ]
+	},
+	"burrito" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bus-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"bus-school" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"business-time" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"buysellads" : {
+		"styles" : [ "brands" ]
+	},
+	"cabinet-filing" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calculator" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calculator-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-day" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-edit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-star" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"calendar-week" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"camera" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"camera-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"camera-retro" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"campfire" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"campground" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"canadian-maple-leaf" : {
+		"styles" : [ "brands" ]
+	},
+	"candle-holder" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"candy-cane" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"candy-corn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cannabis" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"capsules" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-battery" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-bump" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-crash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-garage" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-mechanic" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-side" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-tilt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"car-wash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-circle-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-circle-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-circle-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-circle-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-square-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-square-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-square-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-square-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"caret-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"carrot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cart-arrow-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cart-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cash-register" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cauldron" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cc-amazon-pay" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-amex" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-apple-pay" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-diners-club" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-discover" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-jcb" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-mastercard" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-paypal" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-stripe" : {
+		"styles" : [ "brands" ]
+	},
+	"cc-visa" : {
+		"styles" : [ "brands" ]
+	},
+	"centercode" : {
+		"styles" : [ "brands" ]
+	},
+	"centos" : {
+		"styles" : [ "brands" ]
+	},
+	"certificate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chair" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chair-office" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chalkboard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chalkboard-teacher" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"charging-station" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-area" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-bar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-line" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-line-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-network" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-pie" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-pie-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chart-scatter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"check-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"check-double" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"check-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cheese" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cheese-swiss" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cheeseburger" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-bishop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-bishop-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-board" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-clock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-clock-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-king" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-king-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-knight" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-knight-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-pawn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-pawn-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-queen" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-queen-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-rook" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chess-rook-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-circle-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-circle-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-circle-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-circle-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-double-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-double-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-double-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-double-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-square-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-square-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-square-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-square-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chevron-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"child" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chimney" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"chrome" : {
+		"styles" : [ "brands" ]
+	},
+	"church" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"circle-notch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"city" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"claw-marks" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clinic-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clipboard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clipboard-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clipboard-list" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clipboard-list-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clipboard-prescription" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clipboard-user" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"closed-captioning" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-download" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-download-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-drizzle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-hail" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-hail-mixed" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-meatball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-moon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-moon-rain" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-rain" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-rainbow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-showers" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-showers-heavy" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-sleet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-snow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-sun" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-sun-rain" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-upload" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloud-upload-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clouds" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clouds-moon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"clouds-sun" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cloudscale" : {
+		"styles" : [ "brands" ]
+	},
+	"cloudsmith" : {
+		"styles" : [ "brands" ]
+	},
+	"cloudversify" : {
+		"styles" : [ "brands" ]
+	},
+	"club" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cocktail" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"code" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"code-branch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"code-commit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"code-merge" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"codepen" : {
+		"styles" : [ "brands" ]
+	},
+	"codiepie" : {
+		"styles" : [ "brands" ]
+	},
+	"coffee" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"coffee-togo" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"coffin" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cogs" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"coins" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"columns" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-dots" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-edit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-lines" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-smile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-alt-times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-dots" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-edit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-lines" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-smile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comment-times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comments" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comments-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comments-alt-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"comments-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"compact-disc" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"compass" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"compass-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"compress" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"compress-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"compress-arrows-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"compress-wide" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"concierge-bell" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"confluence" : {
+		"styles" : [ "brands" ]
+	},
+	"connectdevelop" : {
+		"styles" : [ "brands" ]
+	},
+	"container-storage" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"contao" : {
+		"styles" : [ "brands" ]
+	},
+	"conveyor-belt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"conveyor-belt-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cookie" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cookie-bite" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"copy" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"copyright" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"corn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"couch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cpanel" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-by" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-nc" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-nc-eu" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-nc-jp" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-nd" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-pd" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-pd-alt" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-remix" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-sa" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-sampling" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-sampling-plus" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-share" : {
+		"styles" : [ "brands" ]
+	},
+	"creative-commons-zero" : {
+		"styles" : [ "brands" ]
+	},
+	"credit-card" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"credit-card-blank" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"credit-card-front" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cricket" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"critical-role" : {
+		"styles" : [ "brands" ]
+	},
+	"croissant" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"crop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"crop-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cross" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"crosshairs" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"crow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"crown" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"crutch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"crutches" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"css3" : {
+		"styles" : [ "brands" ]
+	},
+	"css3-alt" : {
+		"styles" : [ "brands" ]
+	},
+	"cube" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cubes" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"curling" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cut" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"cuttlefish" : {
+		"styles" : [ "brands" ]
+	},
+	"d-and-d" : {
+		"styles" : [ "brands" ]
+	},
+	"d-and-d-beyond" : {
+		"styles" : [ "brands" ]
+	},
+	"dagger" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dashcube" : {
+		"styles" : [ "brands" ]
+	},
+	"database" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"deaf" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"debug" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"deer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"deer-rudolph" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"delicious" : {
+		"styles" : [ "brands" ]
+	},
+	"democrat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"deploydog" : {
+		"styles" : [ "brands" ]
+	},
+	"deskpro" : {
+		"styles" : [ "brands" ]
+	},
+	"desktop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"desktop-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dev" : {
+		"styles" : [ "brands" ]
+	},
+	"deviantart" : {
+		"styles" : [ "brands" ]
+	},
+	"dewpoint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dharmachakra" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dhl" : {
+		"styles" : [ "brands" ]
+	},
+	"diagnoses" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"diamond" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"diaspora" : {
+		"styles" : [ "brands" ]
+	},
+	"dice" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-d10" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-d12" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-d20" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-d4" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-d6" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-d8" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-five" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-four" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-one" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-six" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-three" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dice-two" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"digg" : {
+		"styles" : [ "brands" ]
+	},
+	"digital-ocean" : {
+		"styles" : [ "brands" ]
+	},
+	"digital-tachograph" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"diploma" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"directions" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"discord" : {
+		"styles" : [ "brands" ]
+	},
+	"discourse" : {
+		"styles" : [ "brands" ]
+	},
+	"disease" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"divide" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dizzy" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dna" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"do-not-enter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dochub" : {
+		"styles" : [ "brands" ]
+	},
+	"docker" : {
+		"styles" : [ "brands" ]
+	},
+	"dog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dog-leashed" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dollar-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dolly" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dolly-empty" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dolly-flatbed" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dolly-flatbed-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dolly-flatbed-empty" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"donate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"door-closed" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"door-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dot-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dove" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"download" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"draft2digital" : {
+		"styles" : [ "brands" ]
+	},
+	"drafting-compass" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dragon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"draw-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"draw-polygon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"draw-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dreidel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dribbble" : {
+		"styles" : [ "brands" ]
+	},
+	"dribbble-square" : {
+		"styles" : [ "brands" ]
+	},
+	"dropbox" : {
+		"styles" : [ "brands" ]
+	},
+	"drum" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"drum-steelpan" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"drumstick" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"drumstick-bite" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"drupal" : {
+		"styles" : [ "brands" ]
+	},
+	"duck" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dumbbell" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dumpster" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dumpster-fire" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dungeon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"dyalog" : {
+		"styles" : [ "brands" ]
+	},
+	"ear" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ear-muffs" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"earlybirds" : {
+		"styles" : [ "brands" ]
+	},
+	"ebay" : {
+		"styles" : [ "brands" ]
+	},
+	"eclipse" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"eclipse-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"edge" : {
+		"styles" : [ "brands" ]
+	},
+	"edit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"egg" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"egg-fried" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"eject" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"elementor" : {
+		"styles" : [ "brands" ]
+	},
+	"elephant" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ellipsis-h" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ellipsis-h-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ellipsis-v" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ellipsis-v-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ello" : {
+		"styles" : [ "brands" ]
+	},
+	"ember" : {
+		"styles" : [ "brands" ]
+	},
+	"empire" : {
+		"styles" : [ "brands" ]
+	},
+	"empty-set" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"engine-warning" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"envelope" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"envelope-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"envelope-open-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"envelope-open-text" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"envelope-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"envira" : {
+		"styles" : [ "brands" ]
+	},
+	"equals" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"eraser" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"erlang" : {
+		"styles" : [ "brands" ]
+	},
+	"ethereum" : {
+		"styles" : [ "brands" ]
+	},
+	"ethernet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"etsy" : {
+		"styles" : [ "brands" ]
+	},
+	"euro-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"exchange" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"exchange-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"exclamation-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"exclamation-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"exclamation-triangle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"expand" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"expand-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"expand-arrows" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"expand-arrows-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"expand-wide" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"expeditedssl" : {
+		"styles" : [ "brands" ]
+	},
+	"external-link" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"external-link-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"external-link-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"external-link-square-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"eye" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"eye-dropper" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"eye-evil" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"eye-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"facebook" : {
+		"styles" : [ "brands" ]
+	},
+	"facebook-f" : {
+		"styles" : [ "brands" ]
+	},
+	"facebook-messenger" : {
+		"styles" : [ "brands" ]
+	},
+	"facebook-square" : {
+		"styles" : [ "brands" ]
+	},
+	"fantasy-flight-games" : {
+		"styles" : [ "brands" ]
+	},
+	"fast-backward" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fast-forward" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fax" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"feather" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"feather-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fedex" : {
+		"styles" : [ "brands" ]
+	},
+	"fedora" : {
+		"styles" : [ "brands" ]
+	},
+	"female" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"field-hockey" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fighter-jet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"figma" : {
+		"styles" : [ "brands" ]
+	},
+	"file" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-archive" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-audio" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-certificate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-chart-line" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-chart-pie" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-code" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-contract" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-csv" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-download" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-edit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-excel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-export" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-image" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-import" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-invoice" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-invoice-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-medical-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-pdf" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-powerpoint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-prescription" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-signature" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-spreadsheet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-upload" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-user" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-video" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"file-word" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"files-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fill" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fill-drip" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"film" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"film-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"filter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fingerprint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fire" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fire-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fire-extinguisher" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fire-smoke" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"firefox" : {
+		"styles" : [ "brands" ]
+	},
+	"fireplace" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"first-aid" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"first-order" : {
+		"styles" : [ "brands" ]
+	},
+	"first-order-alt" : {
+		"styles" : [ "brands" ]
+	},
+	"firstdraft" : {
+		"styles" : [ "brands" ]
+	},
+	"fish" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fish-cooked" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fist-raised" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flag" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flag-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flag-checkered" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flag-usa" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flame" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flask" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flask-poison" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flask-potion" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flickr" : {
+		"styles" : [ "brands" ]
+	},
+	"flipboard" : {
+		"styles" : [ "brands" ]
+	},
+	"flower" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flower-daffodil" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flower-tulip" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"flushed" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fly" : {
+		"styles" : [ "brands" ]
+	},
+	"fog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"folder" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"folder-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"folder-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"folder-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"folder-times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"folder-tree" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"folders" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"font" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"font-awesome" : {
+		"styles" : [ "brands" ]
+	},
+	"font-awesome-alt" : {
+		"styles" : [ "brands" ]
+	},
+	"font-awesome-flag" : {
+		"styles" : [ "brands" ]
+	},
+	"font-awesome-logo-full" : {
+		"styles" : [ "solid", "regular", "light", "brands" ],
+		"private" : true
+	},
+	"fonticons" : {
+		"styles" : [ "brands" ]
+	},
+	"fonticons-fi" : {
+		"styles" : [ "brands" ]
+	},
+	"football-ball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"football-helmet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"forklift" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fort-awesome" : {
+		"styles" : [ "brands" ]
+	},
+	"fort-awesome-alt" : {
+		"styles" : [ "brands" ]
+	},
+	"forumbee" : {
+		"styles" : [ "brands" ]
+	},
+	"forward" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"foursquare" : {
+		"styles" : [ "brands" ]
+	},
+	"fragile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"free-code-camp" : {
+		"styles" : [ "brands" ]
+	},
+	"freebsd" : {
+		"styles" : [ "brands" ]
+	},
+	"french-fries" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"frog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"frosty-head" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"frown" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"frown-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"fulcrum" : {
+		"styles" : [ "brands" ]
+	},
+	"function" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"funnel-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"futbol" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"galactic-republic" : {
+		"styles" : [ "brands" ]
+	},
+	"galactic-senate" : {
+		"styles" : [ "brands" ]
+	},
+	"gamepad" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gas-pump" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gas-pump-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gavel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gem" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"genderless" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"get-pocket" : {
+		"styles" : [ "brands" ]
+	},
+	"gg" : {
+		"styles" : [ "brands" ]
+	},
+	"gg-circle" : {
+		"styles" : [ "brands" ]
+	},
+	"ghost" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gift" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gift-card" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gifts" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gingerbread-man" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"git" : {
+		"styles" : [ "brands" ]
+	},
+	"git-square" : {
+		"styles" : [ "brands" ]
+	},
+	"github" : {
+		"styles" : [ "brands" ]
+	},
+	"github-alt" : {
+		"styles" : [ "brands" ]
+	},
+	"github-square" : {
+		"styles" : [ "brands" ]
+	},
+	"gitkraken" : {
+		"styles" : [ "brands" ]
+	},
+	"gitlab" : {
+		"styles" : [ "brands" ]
+	},
+	"gitter" : {
+		"styles" : [ "brands" ]
+	},
+	"glass" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glass-champagne" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glass-cheers" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glass-martini" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glass-martini-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glass-whiskey" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glass-whiskey-rocks" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glasses" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glasses-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"glide" : {
+		"styles" : [ "brands" ]
+	},
+	"glide-g" : {
+		"styles" : [ "brands" ]
+	},
+	"globe" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"globe-africa" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"globe-americas" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"globe-asia" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"globe-europe" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"globe-snow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"globe-stand" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gofore" : {
+		"styles" : [ "brands" ]
+	},
+	"golf-ball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"golf-club" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"goodreads" : {
+		"styles" : [ "brands" ]
+	},
+	"goodreads-g" : {
+		"styles" : [ "brands" ]
+	},
+	"google" : {
+		"styles" : [ "brands" ]
+	},
+	"google-drive" : {
+		"styles" : [ "brands" ]
+	},
+	"google-play" : {
+		"styles" : [ "brands" ]
+	},
+	"google-plus" : {
+		"styles" : [ "brands" ]
+	},
+	"google-plus-g" : {
+		"styles" : [ "brands" ]
+	},
+	"google-plus-square" : {
+		"styles" : [ "brands" ]
+	},
+	"google-wallet" : {
+		"styles" : [ "brands" ]
+	},
+	"gopuram" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"graduation-cap" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gratipay" : {
+		"styles" : [ "brands" ]
+	},
+	"grav" : {
+		"styles" : [ "brands" ]
+	},
+	"greater-than" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"greater-than-equal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grimace" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-beam" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-beam-sweat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-hearts" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-squint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-squint-tears" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-stars" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-tears" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-tongue" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-tongue-squint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-tongue-wink" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grin-wink" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grip-horizontal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grip-lines" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grip-lines-vertical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"grip-vertical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gripfire" : {
+		"styles" : [ "brands" ]
+	},
+	"grunt" : {
+		"styles" : [ "brands" ]
+	},
+	"guitar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"gulp" : {
+		"styles" : [ "brands" ]
+	},
+	"h-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"h1" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"h2" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"h3" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hacker-news" : {
+		"styles" : [ "brands" ]
+	},
+	"hacker-news-square" : {
+		"styles" : [ "brands" ]
+	},
+	"hackerrank" : {
+		"styles" : [ "brands" ]
+	},
+	"hamburger" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hammer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hammer-war" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hamsa" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-holding" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-holding-box" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-holding-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-holding-magic" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-holding-seedling" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-holding-usd" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-holding-water" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-lizard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-middle-finger" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-paper" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-peace" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-point-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-point-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-point-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-point-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-pointer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-receiving" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-rock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-scissors" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hand-spock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hands" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hands-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hands-helping" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hands-usd" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"handshake" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"handshake-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hanukiah" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hard-hat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hashtag" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hat-santa" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hat-winter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hat-witch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hat-wizard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"haykal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hdd" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"head-side" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"head-side-brain" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"head-side-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"head-vr" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"heading" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"headphones" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"headphones-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"headset" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"heart-broken" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"heart-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"heart-rate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"heart-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"heartbeat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"helicopter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"helmet-battle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hexagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"highlighter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hiking" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hippo" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hips" : {
+		"styles" : [ "brands" ]
+	},
+	"hire-a-helper" : {
+		"styles" : [ "brands" ]
+	},
+	"history" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hockey-mask" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hockey-puck" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hockey-sticks" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"holly-berry" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"home" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"home-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"home-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"home-lg" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"home-lg-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hood-cloak" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hooli" : {
+		"styles" : [ "brands" ]
+	},
+	"hornbill" : {
+		"styles" : [ "brands" ]
+	},
+	"horse" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"horse-head" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hospital" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hospital-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hospital-symbol" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hospital-user" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hospitals" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hot-tub" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hotdog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hotel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hotjar" : {
+		"styles" : [ "brands" ]
+	},
+	"hourglass" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hourglass-end" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hourglass-half" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hourglass-start" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"house-damage" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"house-flood" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"houzz" : {
+		"styles" : [ "brands" ]
+	},
+	"hryvnia" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"html5" : {
+		"styles" : [ "brands" ]
+	},
+	"hubspot" : {
+		"styles" : [ "brands" ]
+	},
+	"humidity" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"hurricane" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"i-cursor" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ice-cream" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ice-skate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"icicles" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"id-badge" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"id-card" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"id-card-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"igloo" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"image" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"images" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"imdb" : {
+		"styles" : [ "brands" ]
+	},
+	"inbox" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"inbox-in" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"inbox-out" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"indent" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"industry" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"industry-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"infinity" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"info" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"info-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"info-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"inhaler" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"instagram" : {
+		"styles" : [ "brands" ]
+	},
+	"integral" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"intercom" : {
+		"styles" : [ "brands" ]
+	},
+	"internet-explorer" : {
+		"styles" : [ "brands" ]
+	},
+	"intersection" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"inventory" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"invision" : {
+		"styles" : [ "brands" ]
+	},
+	"ioxhost" : {
+		"styles" : [ "brands" ]
+	},
+	"island-tropical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"italic" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"itunes" : {
+		"styles" : [ "brands" ]
+	},
+	"itunes-note" : {
+		"styles" : [ "brands" ]
+	},
+	"jack-o-lantern" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"java" : {
+		"styles" : [ "brands" ]
+	},
+	"jedi" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"jedi-order" : {
+		"styles" : [ "brands" ]
+	},
+	"jenkins" : {
+		"styles" : [ "brands" ]
+	},
+	"jira" : {
+		"styles" : [ "brands" ]
+	},
+	"joget" : {
+		"styles" : [ "brands" ]
+	},
+	"joint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"joomla" : {
+		"styles" : [ "brands" ]
+	},
+	"journal-whills" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"js" : {
+		"styles" : [ "brands" ]
+	},
+	"js-square" : {
+		"styles" : [ "brands" ]
+	},
+	"jsfiddle" : {
+		"styles" : [ "brands" ]
+	},
+	"kaaba" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"kaggle" : {
+		"styles" : [ "brands" ]
+	},
+	"key" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"key-skeleton" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"keybase" : {
+		"styles" : [ "brands" ]
+	},
+	"keyboard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"keycdn" : {
+		"styles" : [ "brands" ]
+	},
+	"keynote" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"khanda" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"kickstarter" : {
+		"styles" : [ "brands" ]
+	},
+	"kickstarter-k" : {
+		"styles" : [ "brands" ]
+	},
+	"kidneys" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"kiss" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"kiss-beam" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"kiss-wink-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"kite" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"kiwi-bird" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"knife-kitchen" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"korvue" : {
+		"styles" : [ "brands" ]
+	},
+	"lambda" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lamp" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"landmark" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"landmark-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"language" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"laptop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"laptop-code" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"laptop-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"laravel" : {
+		"styles" : [ "brands" ]
+	},
+	"lastfm" : {
+		"styles" : [ "brands" ]
+	},
+	"lastfm-square" : {
+		"styles" : [ "brands" ]
+	},
+	"laugh" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"laugh-beam" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"laugh-squint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"laugh-wink" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"layer-group" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"layer-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"layer-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"leaf" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"leaf-heart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"leaf-maple" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"leaf-oak" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"leanpub" : {
+		"styles" : [ "brands" ]
+	},
+	"lemon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"less" : {
+		"styles" : [ "brands" ]
+	},
+	"less-than" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"less-than-equal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"level-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"level-down-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"level-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"level-up-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"life-ring" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lightbulb" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lightbulb-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lightbulb-exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lightbulb-on" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lightbulb-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lights-holiday" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"line" : {
+		"styles" : [ "brands" ]
+	},
+	"link" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"linkedin" : {
+		"styles" : [ "brands" ]
+	},
+	"linkedin-in" : {
+		"styles" : [ "brands" ]
+	},
+	"linode" : {
+		"styles" : [ "brands" ]
+	},
+	"linux" : {
+		"styles" : [ "brands" ]
+	},
+	"lips" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lira-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"list" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"list-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"list-ol" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"list-ul" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"location" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"location-arrow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"location-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"location-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lock-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lock-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lock-open-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-alt-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-alt-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-alt-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-alt-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"long-arrow-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"loveseat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"low-vision" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"luchador" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"luggage-cart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lungs" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"lyft" : {
+		"styles" : [ "brands" ]
+	},
+	"mace" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"magento" : {
+		"styles" : [ "brands" ]
+	},
+	"magic" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"magnet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mail-bulk" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mailbox" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mailchimp" : {
+		"styles" : [ "brands" ]
+	},
+	"male" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mandalorian" : {
+		"styles" : [ "brands" ]
+	},
+	"mandolin" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marked" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marked-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-alt-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-edit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-question" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-smile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-marker-times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-pin" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"map-signs" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"markdown" : {
+		"styles" : [ "brands" ]
+	},
+	"marker" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mars" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mars-double" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mars-stroke" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mars-stroke-h" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mars-stroke-v" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mask" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mastodon" : {
+		"styles" : [ "brands" ]
+	},
+	"maxcdn" : {
+		"styles" : [ "brands" ]
+	},
+	"meat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"medal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"medapps" : {
+		"styles" : [ "brands" ]
+	},
+	"medium" : {
+		"styles" : [ "brands" ]
+	},
+	"medium-m" : {
+		"styles" : [ "brands" ]
+	},
+	"medkit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"medrt" : {
+		"styles" : [ "brands" ]
+	},
+	"meetup" : {
+		"styles" : [ "brands" ]
+	},
+	"megaphone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"megaport" : {
+		"styles" : [ "brands" ]
+	},
+	"meh" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"meh-blank" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"meh-rolling-eyes" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"memory" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mendeley" : {
+		"styles" : [ "brands" ]
+	},
+	"menorah" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mercury" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"meteor" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"microchip" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"microphone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"microphone-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"microphone-alt-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"microphone-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"microscope" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"microsoft" : {
+		"styles" : [ "brands" ]
+	},
+	"mind-share" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"minus-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"minus-hexagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"minus-octagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"minus-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mistletoe" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mitten" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mix" : {
+		"styles" : [ "brands" ]
+	},
+	"mixcloud" : {
+		"styles" : [ "brands" ]
+	},
+	"mizuni" : {
+		"styles" : [ "brands" ]
+	},
+	"mobile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mobile-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mobile-android" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mobile-android-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"modx" : {
+		"styles" : [ "brands" ]
+	},
+	"monero" : {
+		"styles" : [ "brands" ]
+	},
+	"money-bill" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"money-bill-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"money-bill-wave" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"money-bill-wave-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"money-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"money-check-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"monitor-heart-rate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"monkey" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"monument" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"moon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"moon-cloud" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"moon-stars" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mortar-pestle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mosque" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"motorcycle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mountain" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mountains" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mouse-pointer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mug-hot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"mug-marshmallows" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"music" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"napster" : {
+		"styles" : [ "brands" ]
+	},
+	"narwhal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"neos" : {
+		"styles" : [ "brands" ]
+	},
+	"network-wired" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"neuter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"newspaper" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"nimblr" : {
+		"styles" : [ "brands" ]
+	},
+	"nintendo-switch" : {
+		"styles" : [ "brands" ]
+	},
+	"node" : {
+		"styles" : [ "brands" ]
+	},
+	"node-js" : {
+		"styles" : [ "brands" ]
+	},
+	"not-equal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"notes-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"npm" : {
+		"styles" : [ "brands" ]
+	},
+	"ns8" : {
+		"styles" : [ "brands" ]
+	},
+	"nutritionix" : {
+		"styles" : [ "brands" ]
+	},
+	"object-group" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"object-ungroup" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"octagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"odnoklassniki" : {
+		"styles" : [ "brands" ]
+	},
+	"odnoklassniki-square" : {
+		"styles" : [ "brands" ]
+	},
+	"oil-can" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"oil-temp" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"old-republic" : {
+		"styles" : [ "brands" ]
+	},
+	"om" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"omega" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"opencart" : {
+		"styles" : [ "brands" ]
+	},
+	"openid" : {
+		"styles" : [ "brands" ]
+	},
+	"opera" : {
+		"styles" : [ "brands" ]
+	},
+	"optin-monster" : {
+		"styles" : [ "brands" ]
+	},
+	"ornament" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"osi" : {
+		"styles" : [ "brands" ]
+	},
+	"otter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"outdent" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"page4" : {
+		"styles" : [ "brands" ]
+	},
+	"pagelines" : {
+		"styles" : [ "brands" ]
+	},
+	"pager" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paint-brush" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paint-brush-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paint-roller" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"palette" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"palfed" : {
+		"styles" : [ "brands" ]
+	},
+	"pallet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pallet-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paper-plane" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paperclip" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"parachute-box" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paragraph" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"parking" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"parking-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"parking-circle-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"parking-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"passport" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pastafarianism" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paste" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"patreon" : {
+		"styles" : [ "brands" ]
+	},
+	"pause" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pause-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paw" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paw-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paw-claws" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"paypal" : {
+		"styles" : [ "brands" ]
+	},
+	"peace" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pegasus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pen" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pen-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pen-fancy" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pen-nib" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pen-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pencil" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pencil-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pencil-paintbrush" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pencil-ruler" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pennant" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"penny-arcade" : {
+		"styles" : [ "brands" ]
+	},
+	"people-carry" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pepper-hot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"percent" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"percentage" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"periscope" : {
+		"styles" : [ "brands" ]
+	},
+	"person-booth" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"person-carry" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"person-dolly" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"person-dolly-empty" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"person-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"phabricator" : {
+		"styles" : [ "brands" ]
+	},
+	"phoenix-framework" : {
+		"styles" : [ "brands" ]
+	},
+	"phoenix-squadron" : {
+		"styles" : [ "brands" ]
+	},
+	"phone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"phone-office" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"phone-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"phone-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"phone-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"phone-volume" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"php" : {
+		"styles" : [ "brands" ]
+	},
+	"pi" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pie" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pied-piper" : {
+		"styles" : [ "brands" ]
+	},
+	"pied-piper-alt" : {
+		"styles" : [ "brands" ]
+	},
+	"pied-piper-hat" : {
+		"styles" : [ "brands" ]
+	},
+	"pied-piper-pp" : {
+		"styles" : [ "brands" ]
+	},
+	"pig" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"piggy-bank" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pills" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pinterest" : {
+		"styles" : [ "brands" ]
+	},
+	"pinterest-p" : {
+		"styles" : [ "brands" ]
+	},
+	"pinterest-square" : {
+		"styles" : [ "brands" ]
+	},
+	"pizza" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pizza-slice" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"place-of-worship" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plane" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plane-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plane-arrival" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plane-departure" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"play" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"play-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"playstation" : {
+		"styles" : [ "brands" ]
+	},
+	"plug" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plus-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plus-hexagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plus-octagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"plus-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"podcast" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"podium" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"podium-star" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"poll" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"poll-h" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"poll-people" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"poo" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"poo-storm" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"poop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"popcorn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"portrait" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pound-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"power-off" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pray" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"praying-hands" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"prescription" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"prescription-bottle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"prescription-bottle-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"presentation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"print" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"print-search" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"print-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"procedures" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"product-hunt" : {
+		"styles" : [ "brands" ]
+	},
+	"project-diagram" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pumpkin" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"pushed" : {
+		"styles" : [ "brands" ]
+	},
+	"puzzle-piece" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"python" : {
+		"styles" : [ "brands" ]
+	},
+	"qq" : {
+		"styles" : [ "brands" ]
+	},
+	"qrcode" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"question" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"question-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"question-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"quidditch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"quinscape" : {
+		"styles" : [ "brands" ]
+	},
+	"quora" : {
+		"styles" : [ "brands" ]
+	},
+	"quote-left" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"quote-right" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"quran" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"r-project" : {
+		"styles" : [ "brands" ]
+	},
+	"rabbit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rabbit-fast" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"racquet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"radiation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"radiation-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rainbow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"raindrops" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ram" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ramp-loading" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"random" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"raspberry-pi" : {
+		"styles" : [ "brands" ]
+	},
+	"ravelry" : {
+		"styles" : [ "brands" ]
+	},
+	"react" : {
+		"styles" : [ "brands" ]
+	},
+	"reacteurope" : {
+		"styles" : [ "brands" ]
+	},
+	"readme" : {
+		"styles" : [ "brands" ]
+	},
+	"rebel" : {
+		"styles" : [ "brands" ]
+	},
+	"receipt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rectangle-landscape" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rectangle-portrait" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rectangle-wide" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"recycle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"red-river" : {
+		"styles" : [ "brands" ]
+	},
+	"reddit" : {
+		"styles" : [ "brands" ]
+	},
+	"reddit-alien" : {
+		"styles" : [ "brands" ]
+	},
+	"reddit-square" : {
+		"styles" : [ "brands" ]
+	},
+	"redhat" : {
+		"styles" : [ "brands" ]
+	},
+	"redo" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"redo-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"registered" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"renren" : {
+		"styles" : [ "brands" ]
+	},
+	"repeat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"repeat-1" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"repeat-1-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"repeat-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"reply" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"reply-all" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"replyd" : {
+		"styles" : [ "brands" ]
+	},
+	"republican" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"researchgate" : {
+		"styles" : [ "brands" ]
+	},
+	"resolving" : {
+		"styles" : [ "brands" ]
+	},
+	"restroom" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"retweet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"retweet-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rev" : {
+		"styles" : [ "brands" ]
+	},
+	"ribbon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ring" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rings-wedding" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"road" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"robot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rocket" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rocketchat" : {
+		"styles" : [ "brands" ]
+	},
+	"rockrms" : {
+		"styles" : [ "brands" ]
+	},
+	"route" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"route-highway" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"route-interstate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rss" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rss-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ruble-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ruler" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ruler-combined" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ruler-horizontal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ruler-triangle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ruler-vertical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"running" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rupee-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"rv" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sack" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sack-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sad-cry" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sad-tear" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"safari" : {
+		"styles" : [ "brands" ]
+	},
+	"salad" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sandwich" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sass" : {
+		"styles" : [ "brands" ]
+	},
+	"satellite" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"satellite-dish" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sausage" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"save" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scalpel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scalpel-path" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scanner" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scanner-keyboard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scanner-touchscreen" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scarecrow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scarf" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"schlix" : {
+		"styles" : [ "brands" ]
+	},
+	"school" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"screwdriver" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scribd" : {
+		"styles" : [ "brands" ]
+	},
+	"scroll" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scroll-old" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scrubber" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"scythe" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sd-card" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"search" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"search-dollar" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"search-location" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"search-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"search-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"searchengin" : {
+		"styles" : [ "brands" ]
+	},
+	"seedling" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sellcast" : {
+		"styles" : [ "brands" ]
+	},
+	"sellsy" : {
+		"styles" : [ "brands" ]
+	},
+	"server" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"servicestack" : {
+		"styles" : [ "brands" ]
+	},
+	"shapes" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"share" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"share-all" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"share-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"share-alt-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"share-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sheep" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shekel-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shield" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shield-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shield-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shield-cross" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ship" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shipping-fast" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shipping-timed" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shirtsinbulk" : {
+		"styles" : [ "brands" ]
+	},
+	"shish-kebab" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shoe-prints" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shopping-bag" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shopping-basket" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shopping-cart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shopware" : {
+		"styles" : [ "brands" ]
+	},
+	"shovel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shovel-snow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shower" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shredder" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shuttle-van" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"shuttlecock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sickle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sigma" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sign-in" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sign-in-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sign-language" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sign-out" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sign-out-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-1" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-2" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-3" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-4" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-alt-1" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-alt-2" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-alt-3" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-alt-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signal-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"signature" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sim-card" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"simplybuilt" : {
+		"styles" : [ "brands" ]
+	},
+	"sistrix" : {
+		"styles" : [ "brands" ]
+	},
+	"sitemap" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sith" : {
+		"styles" : [ "brands" ]
+	},
+	"skating" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"skeleton" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sketch" : {
+		"styles" : [ "brands" ]
+	},
+	"ski-jump" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ski-lift" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"skiing" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"skiing-nordic" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"skull" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"skull-crossbones" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"skyatlas" : {
+		"styles" : [ "brands" ]
+	},
+	"skype" : {
+		"styles" : [ "brands" ]
+	},
+	"slack" : {
+		"styles" : [ "brands" ]
+	},
+	"slack-hash" : {
+		"styles" : [ "brands" ]
+	},
+	"slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sledding" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sleigh" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sliders-h" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sliders-h-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sliders-v" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sliders-v-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"slideshare" : {
+		"styles" : [ "brands" ]
+	},
+	"smile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"smile-beam" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"smile-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"smile-wink" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"smog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"smoke" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"smoking" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"smoking-ban" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sms" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snake" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snapchat" : {
+		"styles" : [ "brands" ]
+	},
+	"snapchat-ghost" : {
+		"styles" : [ "brands" ]
+	},
+	"snapchat-square" : {
+		"styles" : [ "brands" ]
+	},
+	"snow-blowing" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snowboarding" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snowflake" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snowflakes" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snowman" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snowmobile" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"snowplow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"socks" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"solar-panel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-alpha-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-alpha-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-amount-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-amount-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-numeric-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-numeric-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sort-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"soundcloud" : {
+		"styles" : [ "brands" ]
+	},
+	"soup" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sourcetree" : {
+		"styles" : [ "brands" ]
+	},
+	"spa" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"space-shuttle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"spade" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"speakap" : {
+		"styles" : [ "brands" ]
+	},
+	"spider" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"spider-black-widow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"spider-web" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"spinner" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"spinner-third" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"splotch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"spotify" : {
+		"styles" : [ "brands" ]
+	},
+	"spray-can" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"square-full" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"square-root" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"square-root-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"squarespace" : {
+		"styles" : [ "brands" ]
+	},
+	"squirrel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stack-exchange" : {
+		"styles" : [ "brands" ]
+	},
+	"stack-overflow" : {
+		"styles" : [ "brands" ]
+	},
+	"staff" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stamp" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star-and-crescent" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star-christmas" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star-exclamation" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star-half" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star-half-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star-of-david" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"star-of-life" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stars" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"staylinked" : {
+		"styles" : [ "brands" ]
+	},
+	"steak" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"steam" : {
+		"styles" : [ "brands" ]
+	},
+	"steam-square" : {
+		"styles" : [ "brands" ]
+	},
+	"steam-symbol" : {
+		"styles" : [ "brands" ]
+	},
+	"steering-wheel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"step-backward" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"step-forward" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stethoscope" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sticker-mule" : {
+		"styles" : [ "brands" ]
+	},
+	"sticky-note" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stocking" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stomach" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stop-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stopwatch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"store" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"store-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"strava" : {
+		"styles" : [ "brands" ]
+	},
+	"stream" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"street-view" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stretcher" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"strikethrough" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"stripe" : {
+		"styles" : [ "brands" ]
+	},
+	"stripe-s" : {
+		"styles" : [ "brands" ]
+	},
+	"stroopwafel" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"studiovinari" : {
+		"styles" : [ "brands" ]
+	},
+	"stumbleupon" : {
+		"styles" : [ "brands" ]
+	},
+	"stumbleupon-circle" : {
+		"styles" : [ "brands" ]
+	},
+	"subscript" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"subway" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"suitcase" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"suitcase-rolling" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sun" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sun-cloud" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sun-dust" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sun-haze" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sunrise" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sunset" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"superpowers" : {
+		"styles" : [ "brands" ]
+	},
+	"superscript" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"supple" : {
+		"styles" : [ "brands" ]
+	},
+	"surprise" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"suse" : {
+		"styles" : [ "brands" ]
+	},
+	"swatchbook" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"swimmer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"swimming-pool" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sword" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"swords" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"synagogue" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sync" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"sync-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"syringe" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"table" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"table-tennis" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tablet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tablet-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tablet-android" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tablet-android-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tablet-rugged" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tablets" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-alt-average" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-alt-fast" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-alt-fastest" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-alt-slow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-alt-slowest" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-average" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-fast" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-fastest" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-slow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tachometer-slowest" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"taco" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tag" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tags" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tally" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tanakh" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tape" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tasks" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tasks-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"taxi" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"teamspeak" : {
+		"styles" : [ "brands" ]
+	},
+	"teeth" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"teeth-open" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"telegram" : {
+		"styles" : [ "brands" ]
+	},
+	"telegram-plane" : {
+		"styles" : [ "brands" ]
+	},
+	"temperature-frigid" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"temperature-high" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"temperature-hot" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"temperature-low" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tencent-weibo" : {
+		"styles" : [ "brands" ]
+	},
+	"tenge" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tennis-ball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"terminal" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"text-height" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"text-width" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"th" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"th-large" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"th-list" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"the-red-yeti" : {
+		"styles" : [ "brands" ]
+	},
+	"theater-masks" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"themeco" : {
+		"styles" : [ "brands" ]
+	},
+	"themeisle" : {
+		"styles" : [ "brands" ]
+	},
+	"thermometer" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thermometer-empty" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thermometer-full" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thermometer-half" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thermometer-quarter" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thermometer-three-quarters" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"theta" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"think-peaks" : {
+		"styles" : [ "brands" ]
+	},
+	"thumbs-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thumbs-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thumbtack" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thunderstorm" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thunderstorm-moon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"thunderstorm-sun" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ticket" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ticket-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tilde" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"times-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"times-hexagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"times-octagon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"times-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tint" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tint-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tire" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tire-flat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tire-pressure-warning" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tire-rugged" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tired" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"toggle-off" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"toggle-on" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"toilet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"toilet-paper" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"toilet-paper-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tombstone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tombstone-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"toolbox" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tools" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tooth" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"toothbrush" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"torah" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"torii-gate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tornado" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tractor" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trade-federation" : {
+		"styles" : [ "brands" ]
+	},
+	"trademark" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"traffic-cone" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"traffic-light" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"traffic-light-go" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"traffic-light-slow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"traffic-light-stop" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"train" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tram" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"transgender" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"transgender-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trash-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trash-restore" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trash-restore-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"treasure-chest" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tree" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tree-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tree-christmas" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tree-decorated" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tree-large" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tree-palm" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trees" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trello" : {
+		"styles" : [ "brands" ]
+	},
+	"triangle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tripadvisor" : {
+		"styles" : [ "brands" ]
+	},
+	"trophy" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"trophy-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-container" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-couch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-loading" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-monster" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-moving" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-pickup" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-plow" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"truck-ramp" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tshirt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tty" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tumblr" : {
+		"styles" : [ "brands" ]
+	},
+	"tumblr-square" : {
+		"styles" : [ "brands" ]
+	},
+	"turkey" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"turtle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tv" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"tv-retro" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"twitch" : {
+		"styles" : [ "brands" ]
+	},
+	"twitter" : {
+		"styles" : [ "brands" ]
+	},
+	"twitter-square" : {
+		"styles" : [ "brands" ]
+	},
+	"typo3" : {
+		"styles" : [ "brands" ]
+	},
+	"uber" : {
+		"styles" : [ "brands" ]
+	},
+	"ubuntu" : {
+		"styles" : [ "brands" ]
+	},
+	"uikit" : {
+		"styles" : [ "brands" ]
+	},
+	"umbrella" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"umbrella-beach" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"underline" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"undo" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"undo-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"unicorn" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"union" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"uniregistry" : {
+		"styles" : [ "brands" ]
+	},
+	"universal-access" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"university" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"unlink" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"unlock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"unlock-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"untappd" : {
+		"styles" : [ "brands" ]
+	},
+	"upload" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"ups" : {
+		"styles" : [ "brands" ]
+	},
+	"usb" : {
+		"styles" : [ "brands" ]
+	},
+	"usd-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"usd-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-alt-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-astronaut" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-chart" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-check" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-circle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-clock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-cog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-crown" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-edit" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-friends" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-graduate" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-hard-hat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-headset" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-injured" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-lock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-md" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-md-chat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-minus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-ninja" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-nurse" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-secret" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-shield" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-tag" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-tie" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"user-times" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"users" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"users-class" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"users-cog" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"users-crown" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"users-medical" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"usps" : {
+		"styles" : [ "brands" ]
+	},
+	"ussunnah" : {
+		"styles" : [ "brands" ]
+	},
+	"utensil-fork" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"utensil-knife" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"utensil-spoon" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"utensils" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"utensils-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vaadin" : {
+		"styles" : [ "brands" ]
+	},
+	"value-absolute" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vector-square" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"venus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"venus-double" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"venus-mars" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"viacoin" : {
+		"styles" : [ "brands" ]
+	},
+	"viadeo" : {
+		"styles" : [ "brands" ]
+	},
+	"viadeo-square" : {
+		"styles" : [ "brands" ]
+	},
+	"vial" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vials" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"viber" : {
+		"styles" : [ "brands" ]
+	},
+	"video" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"video-plus" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"video-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vihara" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vimeo" : {
+		"styles" : [ "brands" ]
+	},
+	"vimeo-square" : {
+		"styles" : [ "brands" ]
+	},
+	"vimeo-v" : {
+		"styles" : [ "brands" ]
+	},
+	"vine" : {
+		"styles" : [ "brands" ]
+	},
+	"vk" : {
+		"styles" : [ "brands" ]
+	},
+	"vnv" : {
+		"styles" : [ "brands" ]
+	},
+	"volcano" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"volleyball-ball" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"volume" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"volume-down" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"volume-mute" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"volume-off" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"volume-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"volume-up" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vote-nay" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vote-yea" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vr-cardboard" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"vuejs" : {
+		"styles" : [ "brands" ]
+	},
+	"walker" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"walking" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wallet" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wand" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wand-magic" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"warehouse" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"warehouse-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"watch" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"watch-fitness" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"water" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"water-lower" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"water-rise" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"webcam" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"webcam-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"weebly" : {
+		"styles" : [ "brands" ]
+	},
+	"weibo" : {
+		"styles" : [ "brands" ]
+	},
+	"weight" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"weight-hanging" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"weixin" : {
+		"styles" : [ "brands" ]
+	},
+	"whale" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"whatsapp" : {
+		"styles" : [ "brands" ]
+	},
+	"whatsapp-square" : {
+		"styles" : [ "brands" ]
+	},
+	"wheat" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wheelchair" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"whistle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"whmcs" : {
+		"styles" : [ "brands" ]
+	},
+	"wifi" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wifi-1" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wifi-2" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wifi-slash" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wikipedia-w" : {
+		"styles" : [ "brands" ]
+	},
+	"wind" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wind-warning" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"window" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"window-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"window-close" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"window-maximize" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"window-minimize" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"window-restore" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"windows" : {
+		"styles" : [ "brands" ]
+	},
+	"windsock" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wine-bottle" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wine-glass" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wine-glass-alt" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wix" : {
+		"styles" : [ "brands" ]
+	},
+	"wizards-of-the-coast" : {
+		"styles" : [ "brands" ]
+	},
+	"wolf-pack-battalion" : {
+		"styles" : [ "brands" ]
+	},
+	"won-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wordpress" : {
+		"styles" : [ "brands" ]
+	},
+	"wordpress-simple" : {
+		"styles" : [ "brands" ]
+	},
+	"wpbeginner" : {
+		"styles" : [ "brands" ]
+	},
+	"wpexplorer" : {
+		"styles" : [ "brands" ]
+	},
+	"wpforms" : {
+		"styles" : [ "brands" ]
+	},
+	"wpressr" : {
+		"styles" : [ "brands" ]
+	},
+	"wreath" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"wrench" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"x-ray" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"xbox" : {
+		"styles" : [ "brands" ]
+	},
+	"xing" : {
+		"styles" : [ "brands" ]
+	},
+	"xing-square" : {
+		"styles" : [ "brands" ]
+	},
+	"y-combinator" : {
+		"styles" : [ "brands" ]
+	},
+	"yahoo" : {
+		"styles" : [ "brands" ]
+	},
+	"yandex" : {
+		"styles" : [ "brands" ]
+	},
+	"yandex-international" : {
+		"styles" : [ "brands" ]
+	},
+	"yarn" : {
+		"styles" : [ "brands" ]
+	},
+	"yelp" : {
+		"styles" : [ "brands" ]
+	},
+	"yen-sign" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"yin-yang" : {
+		"styles" : [ "solid", "regular", "light" ]
+	},
+	"yoast" : {
+		"styles" : [ "brands" ]
+	},
+	"youtube" : {
+		"styles" : [ "brands" ]
+	},
+	"youtube-square" : {
+		"styles" : [ "brands" ]
+	},
+	"zhihu" : {
+		"styles" : [ "brands" ]
+	}
+}

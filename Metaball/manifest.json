@@ -1,0 +1,28 @@
+{
+  "name" : "Metaball",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "id" : "21ff0122",
+  "icons" : [ {
+    "path" : "images/icon_48.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon_96.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon_192.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Create Metaball",
+    "type" : "panel",
+    "panelId" : "createMetaball",
+    "shortcut": {"mac": "Cmd+Alt+Shift+M", "win": "Ctrl+Alt+Shift+M"}
+  } ],
+  "version" : "0.0.3"
+}

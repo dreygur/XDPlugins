@@ -1,0 +1,29 @@
+{
+  "id": "0bd205ac",
+  "name": "Bookmarks",
+  "version": "1.0.0",
+  "author": "Braindrop Labs",
+  "description": "Bookmark document zoom and pan locations.",
+  "icons": [
+    {
+      "width": 96,
+      "height": 96,
+      "path": "assets/img/icons/icon-96x96.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "14.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Bookmarks",
+      "commandId": "menuCommand",
+      "shortcut": {
+        "mac": "Cmd+Shift+B",
+        "win": "Ctrl+Shift+B"
+      }
+    }
+  ]
+}

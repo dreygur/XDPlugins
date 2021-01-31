@@ -1,0 +1,109 @@
+{
+  "STATE": "STATE",
+  "IDLE": "Default",
+  "HOVER": "Hover",
+  "ACTIVE": "Active",
+  "DISABLED": "Disabled",
+  "ERROR": "Error",
+  "STYLE": "STYLE",
+  "PRIMARY": "PRIMARY",
+  "DEFAULT": "Default",
+  "SECONDARY": "Secondary",
+  "GHOST": "Ghost",
+  "LABEL": "LABEL",
+  "SIZE": "SIZE",
+  "XSMALL": "XSmall",
+  "MEDIUM": "Medium",
+  "SMALL": "Small",
+  "LARGE": "Large",
+  "STYLE1": "Main",
+  "STYLE2": "Primary",
+  "STYLE3": "Secondary",
+
+  "SELECT": "Select",
+  "IMAGE_NOT_DISPLAYED": "Could not display image",
+  "ON": "On",
+  "OFF": "Off",
+
+  "ELEMENTS": "Elements",
+  "ELEMENTS_UPPER": "ELEMENTS",
+
+  "RESET_DEFAULT": "Reset to Defaults",
+  "RESET": "Reset",
+
+  "ICON": "ICON",
+  "ICON_TYPE": "ICON",
+  "ALL_ICONS": "All icons",
+
+  "BACK": "BACK",
+  "UI_KIT": "UI KIT",
+  "SETTINGS": "Settings",
+  "ALL_ITEMS": "All Items",
+  "ITEMS": "ITEMS",
+  "H1": "H1",
+  "H2": "H2",
+  "H3": "H3",
+  "H4": "H4",
+  "H5": "H5",
+  "H6": "H6",
+  "PLACEHOLDER_TEXT": "Header",
+  "PLACEHOLDER_TEXT_PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+  "P": "P",
+  "A": "A",
+  "AVATAR": "Avatar",
+  "TYPE": "Type",
+  "SEARCH": "Search",
+  "MODE": "MODE",
+
+  "ICONS": {
+    "PLUS": "Plus",
+    "CROSS": "Cross",
+    "PEN": "Pen",
+    "LENS": "Lens",
+    "ARROWT": "Arrow-top",
+    "ARROWR": "Arrow-right",
+    "ARROWB": "Arrow-bottom",
+    "ARROWL": "Arrow-left",
+    "PLAY": "Play",
+    "PAUSE": "Pause",
+    "VOLUME": "Volume",
+    "CHECK": "Check",
+    "MENU": "Menu"
+  },
+
+  "UI": {
+    "INPUT_DEFAULT_LABEL": "Label",
+    "INPUT_DEFAULT_VALUE": "Value"
+  },
+
+  "TAG": "TAG",
+  "FEEDBACK": "Feedback",
+  "CUSTOM": "Custom",
+  "WARNING_LABEL": "Warning",
+  "OK_BUTTON": "Ok",
+  "SELECT_ARTBOARD": "Please select an Artboard",
+  "PLUGIN_DESCRIPTION": "Quick Mockup streamlines the creation of wireframes, mockups and prototypes for any project by providing easy access to UI elements in XD. Users can take it to the next level by customizing styles, states, and content in just a few clicks. Quick Mockup is a design toolkit built to help you create your best work — from your earliest ideas, through to final design. Whether you're new to XD or a seasoned pro, Quick Mockups has everything you need to get started on your next project. We are releasing Quick Mockup as an early beta. Please download the plugin and give us feedback to help us improve it.",
+
+  "DISPLAY_ELEMENTS": "DISPLAY",
+
+  "NAV_ELEMENTS": "Elements",
+  "NAV_FUNCTIONS": "Functions",
+  "NAV_TEMPLATES": "Templates",
+
+  "EXPORTER_NAV_EXPORT": "Export",
+  "EXPORTER_NAV_PREVIEW": "Preview",
+
+  "SWITCH_THEME_UPPER": "SWITCH THEME",
+  "PICK_THEME_TITLE": "Pick a theme",
+  "PICK_THEME_DESCRIPTION": "A theme defines the look of your project. You can change your theme at any time.",
+  "SWITCH_THEME_TITLE": "Change Theme",
+  "SWITCH_THEME_DESCRIPTION": "Choose a theme to apply it to selected artboards.",
+
+  "SWITCH_THEME": "Themes",
+
+  "ACTIVE_CHILD": "ACTIVE ITEM",
+  "ADD_CHILD": "Add item",
+  "DONE": "Done",
+
+  "SWITCH_SELECT_ARTBOARD_ALERT": "Please select an artboard containing elements first"
+}

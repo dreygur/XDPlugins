@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.914" height="120.727" viewBox="0 0 7.914 120.727">
+  <g id="Group_100" data-name="Group 100" transform="translate(132.728 -40.806) rotate(90)">
+    <g id="Group_97" data-name="Group 97" transform="translate(-69 -11)">
+      <path id="Path_20" data-name="Path 20" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 226.553, 143)" fill="none" stroke="#454d58" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_21" data-name="Path 21" d="M6.341,0,5.058,1.545l-.609.733-.229.276-.562.677a.633.633,0,0,1-.974,0L1.8,2.163,0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 226.553, 143)" fill="none" stroke="#454d58" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_22" data-name="Path 22" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="translate(113.788 136.542) rotate(88)" fill="none" stroke="#454d58" stroke-linecap="round" stroke-width="1"/>
+      <g id="arrows_dark_arrow_1" data-name="arrows dark/arrow 1" transform="translate(111 140)">
+        <path id="Line" d="M.5,1.5H118.517" transform="translate(-0.5 -1.5)" fill="none" stroke="#454d58" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

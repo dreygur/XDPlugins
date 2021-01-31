@@ -1,0 +1,56 @@
+{
+  "summary" : "取消描边，使用默认颜色填充",
+  "languages" : [ "zh" ],
+  "author" : "XD中文网",
+  "name" : "DColor",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "keywords": [
+        "fill",
+        "Stroke",
+        "color"
+    ],
+  "description" : "取消描边，并使用默认颜色填充对象，快捷键为Cmd+Alt+Shift+D（Mac OS）或Ctrl+Alt+Shift+D（Win），支持自定义默认颜色。",
+  "website": "https://xd.94xy.com",
+  "helpUrl" : "https://xd.94xy.com/adobe-xd-plugin/15.html",
+  "id" : "7d746585",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon@3x.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon@4x.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon@5x.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints" : [ 
+        {
+          "type": "menu",
+          "label": "默认填充颜色",
+          "commandId": "defaultFill",
+          "shortcut": {"mac": "Cmd+Alt+Shift+D", "win": "Ctrl+Alt+Shift+D"}
+        },{
+          "type": "panel",
+          "label": "设置默认填充",
+          "panelId": "panel"
+        },{
+          "type": "menu",
+          "label": "关于",
+          "commandId": "showAbout"
+        }],
+  "version" : "0.0.1"
+}

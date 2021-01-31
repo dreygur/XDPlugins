@@ -1,0 +1,7 @@
+<svg id="Input_-_text" data-name="Input - text" xmlns="http://www.w3.org/2000/svg" width="365" height="58" viewBox="0 0 365 58">
+  <g id="Rectangle_60" data-name="Rectangle 60" fill="#fff" stroke="#ededed" stroke-width="2">
+    <rect width="365" height="58" rx="7" stroke="none"/>
+    <rect x="1" y="1" width="363" height="56" rx="6" fill="none"/>
+  </g>
+  <text id="Name" transform="translate(23 37)" fill="#acacac" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="-0.015em"><tspan x="0" y="0">Name</tspan></text>
+</svg>

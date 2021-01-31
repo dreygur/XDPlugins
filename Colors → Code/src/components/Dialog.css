@@ -1,0 +1,15 @@
+:local(.form) {
+    width: 360px;
+}
+:local(.h1) {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+:local(.icon) {
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}

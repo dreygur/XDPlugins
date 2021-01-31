@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>apple</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M25.8,5.8A9.4,9.4,0,0,1,32.7,2a9.2,9.2,0,0,1-2.3,7c-3,3.7-6.5,3.1-6.5,3.1S23.2,9.2,25.8,5.8Z" fill-rule="evenodd"/>
+        <path d="M24.2,14.6c1.5,0,4.3-2,7.9-2A9.7,9.7,0,0,1,40.7,17a9.5,9.5,0,0,0-4.8,8.3,9.8,9.8,0,0,0,6,9s-4.2,11.6-9.8,11.6c-2.5,0-4.5-1.7-7.2-1.7S19.4,46,17.6,46C12.5,46,6,34.9,6,26s5.5-13.3,10.6-13.3C19.9,12.7,22.5,14.6,24.2,14.6Z" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

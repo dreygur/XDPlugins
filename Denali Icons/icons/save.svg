@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>save</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M34,4H6A2,2,0,0,0,4,6V42a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V14ZM30,40H18V28H30Zm10,0H34V26a2,2,0,0,0-2-2H16a2,2,0,0,0-2,2V40H8V8H32.3L40,15.7Z"/>
+        <path d="M28,12H16a2,2,0,0,0,0,4H28a2,2,0,0,0,0-4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

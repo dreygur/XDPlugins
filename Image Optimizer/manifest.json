@@ -1,0 +1,39 @@
+{
+   "name": "Image Optimizer",
+   "id":"495aa300",
+   "version": "1.1.0",
+   "description": "Image Optimizer is a compression tool that lets designers compress the images within Adobe XD. \n\nSimply select the image/s that you want to compress and then click the plugin button. Shortcut = Mac:'Cmd+Alt+O' / Windows:'Ctrl+Alt+O'.\n\nNote: Due to API's current limitation, you will not be able to compress images from multiple artboards or from different parent containers.\n\nContact support with questions: irajashekarb@gmail.com",
+   "summary": "Image Optimizing tool",
+    "releaseNotes": "Fixed shortcut key issue.",
+   "keywords": [
+        "utility",
+        "productivity",
+        "automation"
+    ],
+   "author":"Raja Shekar",
+   "authorEmail": "irajashekarb@gmail.com",
+   "repository": "https://github.com/irajashekarb/Image-Optimizer",   
+    "icons":[
+				{ "width": 24, "height": 24, "path": "images/icon@0.5x.png" },
+				{ "width": 48, "height": 48, "path": "images/icon@1x.png" },
+				{ "width": 96, "height": 96, "path": "images/icon@2x.png" },
+				{ "width": 144, "height": 144, "path": "images/icon@3x.png" },
+				{"width": 192, "height": 192, "path": "images/icon@4x.png" }
+    ],
+   "host":{
+      "app": "XD",
+      "minVersion": "13.0"
+   },
+   "helpUrl": "https://github.com/irajashekarb/Image-Optimizer",
+   "languages": [
+        "en"
+    ],
+   "uiEntryPoints":[
+      {
+         "type": "menu",
+         "label": "Image Optimizer",
+         "commandId": "myPluginCommand",
+         "shortcut":{ "mac":"Cmd+Alt+O" , "win":"Ctrl+Alt+O" }
+      }
+   ]
+}

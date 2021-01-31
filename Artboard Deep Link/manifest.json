@@ -1,0 +1,54 @@
+{
+  "summary" : "Get the URL of an artboard",
+  "languages" : [ "en" ],
+  "author" : "Alexandru Dobra-Somesan",
+  "name" : "Artboard Deep Link",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0"
+  },
+  "keywords": ["link", "online", "xd.adobe.com", "prototype", "spec", "browser", "deeplink", "review"],
+  "description" : "Fast obtain the exact web link (URL) of the selected artboard for you to paste it in a browser to see your project directly opening at that.\nThis is a great way to direct other people exactly to a particular place in your project.\nThe link gets automatically copyied to the clipboard of your computer.\nWorks with Prototype and Spec.\nCareful: First be sure to save your project and share it online.\nTUTORIAL: Click on the \"Get support\" link below.",
+  "helpUrl" : "alexdobras@gmail.com",
+  "id" : "ad6455ce",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  }, {
+    "path" : "images/icon@3x.png",
+    "width" : 96,
+    "height" : 96
+  }, {
+    "path" : "images/icon@4x.png",
+    "width" : 144,
+    "height" : 144
+  }, {
+    "path" : "images/icon@5x.png",
+    "width" : 192,
+    "height" : 192
+  } ],
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Get Artboard URL",
+      "menuItems": [
+        {
+          "label" : "Get Prototype Link",
+          "type" : "menu",
+          "commandId" : "getPROTOTYPEurl"
+        },
+        {
+          "label" : "Get Design Spec Link",
+          "type" : "menu",
+          "commandId" : "getSPECSurl"
+        }
+      ]
+    }
+  ],
+    "version" : "0.0.2"
+}

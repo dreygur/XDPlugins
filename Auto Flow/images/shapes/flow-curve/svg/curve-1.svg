@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90.814" height="65.285" viewBox="0 0 90.814 65.285">
+  <g id="Group_101" data-name="Group 101" transform="translate(-42.75 -165.443)">
+    <path id="Path_25" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 129.583, 230)" fill="none" stroke="#454d58" stroke-linecap="round" stroke-width="1"/>
+    <g id="arrow_2" data-name="arrow 2" transform="translate(43.5 165.443)">
+      <path id="Path_2" data-name="Path 2" d="M0,0V50.881C0,56.5,3.377,61.057,7.543,61.057H89.005" transform="translate(0)" fill="none" stroke="#454d58" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

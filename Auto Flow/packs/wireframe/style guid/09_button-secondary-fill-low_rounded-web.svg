@@ -1,0 +1,4 @@
+<svg id="button_secondary_-_low_raunded" data-name="button secondary - low raunded" xmlns="http://www.w3.org/2000/svg" width="169" height="56" viewBox="0 0 169 56">
+  <path id="Path_15" data-name="Path 15" d="M7,0H162a7,7,0,0,1,7,7V49a7,7,0,0,1-7,7H7a7,7,0,0,1-7-7V7A7,7,0,0,1,7,0Z" fill="#18c5bf"/>
+  <text id="Click_Here" data-name="Click Here" transform="translate(40 36)" fill="#fff" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.015em"><tspan x="0" y="0">Click Here</tspan></text>
+</svg>

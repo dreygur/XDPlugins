@@ -1,0 +1,63 @@
+{
+  "id": "02ec2f87",
+  "author": "Em Software",
+  "name": "Icons 4 Design",
+  "version": "1.1.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "description": "Search and place 5,000+ free, high-quality, no-attribution-required icons and symbols.\n\nSearch by icon name (e.g., 'arrow'), and place any icons in the result list with a click, resulting in a vector-based, fully-editable icon.\n\nIncludes a dozen popular icon collections in a range of styles, including Font Awesome, Feather, Ionic, Map, Material, Metro, Open, Payment, Simple, Weather and Zocial. These are icons you'll actually want to use in your designs, unlike the icon collections with millions of random graphics.\n\nDownload and use of this plugin is subject to Em Software Terms of Use and Privacy Policy. Go to http://emsoftware.com/ for more information.",
+  "keywords": [
+    "place",
+    "icon",
+    "symbol",
+    "ios",
+    "android",
+    "logo",
+    "awesome",
+    "feather",
+    "ionic",
+    "map",
+    "material",
+    "metro",
+    "simple"
+  ],
+  "summary": "5000+ icons at your fingertips",
+  "languages": ["en"],
+  "helpUrl": "http://emsoftware.com/xdplugins/icons-4-design/",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon@3x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon@4x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon@5x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Icons 4 Design",
+      "panelId": "iconsAndSymbolsPanel"
+    }
+  ]
+}

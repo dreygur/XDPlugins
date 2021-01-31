@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>camera</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,21a5,5,0,1,1-5,5,5,5,0,0,1,5-5m0-4a9,9,0,1,0,9,9,9,9,0,0,0-9-9Z"/>
+      <path d="M28.1,10l2.8,3.5L32.1,15H42V38H6V15h9.9l1.2-1.5L19.9,10h8.2M30,6H18l-4,5H4a2,2,0,0,0-2,2V40a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V13a2,2,0,0,0-2-2H34L30,6Z"/>
+    </g>
+  </g>
+</svg>

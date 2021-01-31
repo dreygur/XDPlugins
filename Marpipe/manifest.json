@@ -1,0 +1,32 @@
+{
+    "id": "b815eb1f",
+    "name": "Marpipe",
+    "description": "multivariate ad generator",
+    "languages": [
+        "en"
+    ],
+    "version": "1.0.3",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "src/asset/icon/logo@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "src/asset/icon/logo@2x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Marpipe",
+            "panelId": "marpipe"
+        }
+    ]
+}

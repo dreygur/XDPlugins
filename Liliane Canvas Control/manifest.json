@@ -1,0 +1,28 @@
+{
+  "name": "Liliane Canvas Control",
+  "host": {
+    "app": "XD",
+    "minVersion": "30.0"
+  },
+  "id": "217decfe",
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Liliane Canvas Control",
+      "panelId": "liliane"
+    }
+  ],
+  "version": "1.0.12"
+}

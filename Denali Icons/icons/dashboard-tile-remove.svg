@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>dashboard-tile-remove</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M39,15h0a2,2,0,0,1-2,2H29a2,2,0,0,1-2-2h0a2,2,0,0,1,2-2h8A2,2,0,0,1,39,15Z"/>
+      <path d="M18,34v6H10V34h8m2-4H8a2,2,0,0,0-2,2V42a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V32a2,2,0,0,0-2-2Z"/>
+      <path d="M20,6h0a2,2,0,0,0-2-2H8A2,2,0,0,0,6,6V24a2,2,0,0,0,2,2H18a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2H10V8h8A2,2,0,0,0,20,6Z"/>
+      <path d="M38,32v8H30V32a2,2,0,0,0-2-2h0a2,2,0,0,0-2,2V42a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V32a2,2,0,0,0-2-2h0A2,2,0,0,0,38,32Z"/>
+      <path d="M33,6a9,9,0,1,1-9,9,9,9,0,0,1,9-9m0-4A13,13,0,1,0,46,15,13,13,0,0,0,33,2Z"/>
+    </g>
+  </g>
+</svg>

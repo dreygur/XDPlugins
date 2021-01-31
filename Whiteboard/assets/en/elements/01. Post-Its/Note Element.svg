@@ -1,0 +1,5 @@
+<svg id="Note_Element" data-name="Note Element" xmlns="http://www.w3.org/2000/svg" width="160" height="134" viewBox="0 0 160 134">
+  <path id="triangle_color_fill_" data-name="triangle [color_fill]" d="M0,0H20L0,16Z" transform="translate(18 118)" fill="#ffd86f"/>
+  <rect id="background_color_fill_" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+  <text id="label" data-area="132 92" transform="translate(14 14)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a note here..</tspan></text>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "name" : "Go to Artboard",
+  "author": "Ryan Davis",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "id" : "6704b59d",
+  "icons" : [ {
+    "path" : "images/icon@1x.jpg",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.jpg",
+    "width" : 48,
+    "height" : 48
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "GoToArtboard",
+    "type" : "menu",
+	"menuItems": [
+        {
+          "type": "menu",
+          "label": "Go to Selected Artboard",
+          "commandId": "goToSelectionArtboard",
+          "shortcut": {
+            "mac": "Cmd+Alt+Q",
+			"win": "Ctrl+Alt+Q"
+          }
+        }
+      ]
+    }
+  ],
+  "version" : "0.0.3"
+}

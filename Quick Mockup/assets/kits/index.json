@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Minimal",
+    "__name": "Base",
+    "description": "Bright wireframe theme",
+    "url": "https://d3mf2xess4sg21.cloudfront.net/themes/Minimal/v1"
+  },
+  {
+    "name": "Foundation",
+    "__name": "Foundation",
+    "description": "Bright mockup theme",
+    "url": "plugin:/assets/kits/Foundation"
+  },
+  {
+    "name": "Fluo",
+    "__name": "Fluo",
+    "description": "Dark mockup theme",
+    "url": "plugin:/assets/kits/Fluo"
+  },
+  {
+    "name": "Kyoto",
+    "__name": "Kyoto",
+    "description": "Dark mockup theme",
+    "url": "plugin:/assets/kits/Kyoto"
+  },
+  {
+    "name": "Malibu",
+    "__name": "Malibu",
+    "description": "Bright mockup theme",
+    "url": "plugin:/assets/kits/Malibu"
+  },
+  {
+    "name": "Monumental",
+    "__name": "Monumental",
+    "description": "Bright mockup theme",
+    "url": "plugin:/assets/kits/Monumental"
+  },
+  {
+    "name": "Pink Elegant",
+    "__name": "PinkElegant",
+    "description": "Bright mockup theme",
+    "url": "plugin:/assets/kits/PinkElegant"
+  },
+  {
+    "name": "Radiance",
+    "__name": "Radiance",
+    "description": "Dark mockup theme",
+    "url": "plugin:/assets/kits/Radiance"
+  }
+]

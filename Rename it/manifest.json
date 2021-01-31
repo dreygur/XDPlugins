@@ -1,0 +1,65 @@
+{
+  "id": "bcd7a3a9",
+  "name": "Rename it",
+  "version": "1.2.3",
+  "description": "Keep your Adobe XD files organized, batch rename layers and artboards.",
+  "summary": "Batch rename layers",
+  "releaseNotes": "Added param case, bug fixes.",
+  "keywords": ["utility", "productivity", "rename", "layers", "automation", "batch"],
+  "languages": ["en"],
+  "website": "https://renameit.design",
+  "helpUrl": "https://renameit.design/xd",
+  "author": "Rodrigo Soares",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon_24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon_48.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Rename It",
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": "Rename Selected Layers",
+          "commandId": "renameCommand",
+          "shortcut": {
+            "mac": "Ctrl+Alt+R",
+            "win": "Ctrl+Alt+R"
+          }
+        },
+        {
+          "type": "menu",
+          "label": "Find & Replace Selected Layers",
+          "commandId": "findReplaceCommand",
+          "shortcut": {
+            "mac": "Ctrl+Option+Cmd+R",
+            "win": "Shift+Ctrl+Alt+R"
+          }
+        },
+        {
+          "type": "menu",
+          "label": "Settings",
+          "commandId": "settingsCommand"
+        },
+        {
+          "type": "menu",
+          "label": "Donate",
+          "commandId": "donateCommand"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>device-mobile-graph</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M25,36H23a2,2,0,0,0,0,4h2a2,2,0,0,0,0-4Z"/>
+        <path d="M37,2H11A2,2,0,0,0,9,4V27H9V44a2,2,0,0,0,2,2H37a2,2,0,0,0,2-2V4A2,2,0,0,0,37,2ZM13,42V27.8l6-6,4.1,4.1L31.5,17a1.9,1.9,0,0,0,.5-1.3h0a2,2,0,0,0-3.5-1.3l-5.6,5.8L19,16.2l-6,6V6H35V42Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

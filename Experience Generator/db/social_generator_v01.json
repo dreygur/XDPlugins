@@ -1,0 +1,1942 @@
+{
+    "id": "Social Generator",
+    "version": "1.0.0",
+    "author": "Unykvis",
+    "socialmedia": [
+
+
+        {
+            "name": "facebook",
+            "title": "Facebook",
+            "imgsrc": "/images/social/facebook.png",
+            "experiences": [{
+                "name": "facebook_canvas_mobile_news_feed",
+                "title": "Canvas Mobile News Feed",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_canvas_header",
+                "title": "Canvas Header",
+                "imgsrc": "",
+                "width": 120,
+                "height": 44
+            }, {
+                "name": "facebook_canvas_photo",
+                "title": "Canvas Photo",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "facebook_canvas_carousel",
+                "title": "Canvas Carousel",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "facebook_canvas_video",
+                "title": "Canvas Video",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "facebook_canvas_product_set",
+                "title": "Canvas Product Set",
+                "imgsrc": "",
+                "width": 600,
+                "height": 600
+            }, {
+                "name": "facebook_events",
+                "title": "Events",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "facebook_lead_ads_desktop_news_feed",
+                "title": "Lead Ads Desktop News Feed",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_lead_ads_context_card",
+                "title": "Lead Ads Context Card",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_collections_mobile_news_feed_image",
+                "title": "Collections Mobile News Feed Image ",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 128
+            }, {
+                "name": "facebook_collections_mobile_news_feed_video",
+                "title": "Collections Mobile News Feed Video",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "facebook_single_image_ads_desktop_news_feed",
+                "title": "Single Image Ads Desktop News Feed",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_single_image_ads_right_column",
+                "title": "Single Image Ads Right Column",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_single_image_ads_mobile_news_feed",
+                "title": "Single Image Ads Mobile News Feed",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_single_image_ads_mobile_interstitial",
+                "title": "Single Image Ads Mobile Interstitial",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_single_image_ads_mobile_native",
+                "title": "Single Image Ads Mobile Native",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "facebook_carousel_ads_desktop_news_feed",
+                "title": "Carousel Ads Desktop News Feed",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1080
+            }, {
+                "name": "facebook_carousel_ads_right_column",
+                "title": "Carousel Ads Right Column",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1080
+            }, {
+                "name": "facebook_carousel_ads_mobile_news_feed",
+                "title": "Carousel Ads Mobile News Feed",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1080
+            }, {
+                "name": "facebook_carousel_ads_mobile_interstitial",
+                "title": "Carousel Ads Mobile Interstitial",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1080
+            }, {
+                "name": "facebook_carousel_ads_mobile_native",
+                "title": "Carousel Ads Mobile Native",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1080
+            }, {
+                "name": "facebook_video_slideshow_ads_desktop_news_feed",
+                "title": "Video Slideshow Ads Desktop News Feed",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 720
+            }, {
+                "name": "facebook_video_slideshow_ads_right_column",
+                "title": "Video Slideshow Ads Right Column",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 720
+            }, {
+                "name": "facebook_video_slideshow_ads_mobile_news_feed",
+                "title": "Video Slideshow Ads Mobile News Feed",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 720
+            }, {
+                "name": "facebook_video_ads_desktop_news_feed",
+                "title": "Video Ads Desktop News Feed",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "facebook_video_ads_right_column",
+                "title": "Video Ads Right Column",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "facebook_video_ads_mobile_news_feed",
+                "title": "Video Ads Mobile News Feed",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "facebook_cover_image",
+                "title": "Cover Image",
+                "imgsrc": "",
+                "width": 828,
+                "height": 315
+            }, {
+                "name": "facebook_profile_image",
+                "title": "Profile Image",
+                "imgsrc": "",
+                "width": 180,
+                "height": 180
+            }, {
+                "name": "facebook_facebook_post_image",
+                "title": "Facebook Post Image ",
+                "imgsrc": "",
+                "width": 1440,
+                "height": 830
+            }]
+        },
+        {
+            "name": "youtube",
+            "title": "Youtube",
+            "imgsrc": "/images/social/youtube.png",
+            "experiences": [{
+                "name": "youtube_display_ads_2",
+                "title": "Display Ads 2",
+                "imgsrc": "",
+                "width": 300,
+                "height": 250
+            }, {
+                "name": "youtube_display_ads_1",
+                "title": "Display Ads 1",
+                "imgsrc": "",
+                "width": 300,
+                "height": 60
+            }, {
+                "name": "youtube_display_overlay_ads",
+                "title": "Display Overlay Ads",
+                "imgsrc": "",
+                "width": 480,
+                "height": 70
+            }, {
+                "name": "youtube_videos_ads_non_skippable_ad",
+                "title": "Videos Ads Non-skippable Ad",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "youtube_videos_ads_long_non_skippable_ad",
+                "title": "Videos Ads Long Non-skippable Ad",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "youtube_videos_ads__skippable_ad",
+                "title": "Videos Ads  Skippable Ad",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }, {
+                "name": "youtube_sponsored_cards",
+                "title": "Sponsored Cards",
+                "imgsrc": "",
+                "width": 800,
+                "height": 800
+            }, {
+                "name": "youtube_video_thumbnail",
+                "title": "Video Thumbnail",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 720
+            }, {
+                "name": "youtube_channel_icon",
+                "title": "Channel Icon",
+                "imgsrc": "",
+                "width": 800,
+                "height": 800
+            }, {
+                "name": "youtube_channel_cover",
+                "title": "Channel Cover",
+                "imgsrc": "",
+                "width": 2560,
+                "height": 1440
+            }]
+        },
+        {
+            "name": "instagram",
+            "title": "Instagram",
+            "imgsrc": "/images/social/instagram.png",
+            "experiences": [{
+                "name": "instagram_carousel_video_ads_landscape",
+                "title": "Carousel Video Ads Landscape",
+                "imgsrc": "",
+                "width": 600,
+                "height": 315
+            }, {
+                "name": "instagram_carousel_video_square_ads_",
+                "title": "Carousel Video Square Ads ",
+                "imgsrc": "",
+                "width": 600,
+                "height": 600
+            }, {
+                "name": "instagram_carousel_image_ads_",
+                "title": "Carousel Image Ads ",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1080
+            }, {
+                "name": "instagram_video_feed_landscape_ads",
+                "title": "Video Feed Landscape Ads",
+                "imgsrc": "",
+                "width": 600,
+                "height": 315
+            }, {
+                "name": "instagram_video_feed_square_ads",
+                "title": "Video Feed Square Ads",
+                "imgsrc": "",
+                "width": 600,
+                "height": 600
+            }, {
+                "name": "instagram_single_square_image_ads",
+                "title": "Single Square Image Ads",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1080
+            }, {
+                "name": "instagram_single_landscape_image_ads",
+                "title": "Single Landscape Image Ads",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 628
+            }, {
+                "name": "instagram_profile_image",
+                "title": "Profile Image",
+                "imgsrc": "",
+                "width": 110,
+                "height": 110
+            }]
+        },
+        {
+            "name": "linkedin",
+            "title": "Linkedin",
+            "imgsrc": "/images/social/linkedin.png",
+            "experiences": [{
+                "name": "linkedin_text_ads_logo",
+                "title": "Text Ads Logo",
+                "imgsrc": "",
+                "width": 50,
+                "height": 50
+            }, {
+                "name": "linkedin_sponsored_content",
+                "title": "Sponsored Content",
+                "imgsrc": "",
+                "width": 1200,
+                "height": 627
+            }, {
+                "name": "linkedin_overview_tab_logo_image",
+                "title": "Overview Tab Logo Image",
+                "imgsrc": "",
+                "width": 300,
+                "height": 300
+            }, {
+                "name": "linkedin_overview_tab_image",
+                "title": "Overview Tab Image",
+                "imgsrc": "",
+                "width": 480,
+                "height": 240
+            }, {
+                "name": "linkedin_overview_tab_cover_image",
+                "title": "Overview Tab Cover Image",
+                "imgsrc": "",
+                "width": 1536,
+                "height": 768
+            }, {
+                "name": "linkedin_life_tab_hero_image",
+                "title": "Life Tab Hero Image",
+                "imgsrc": "",
+                "width": 1128,
+                "height": 376
+            }, {
+                "name": "linkedin_life_tab_custom_modules",
+                "title": "Life Tab Custom Modules",
+                "imgsrc": "",
+                "width": 502,
+                "height": 282
+            }, {
+                "name": "linkedin_life_tab_company_photos",
+                "title": "Life Tab Company Photos",
+                "imgsrc": "",
+                "width": 900,
+                "height": 600
+            }, {
+                "name": "linkedin_cover_image",
+                "title": "Cover Image",
+                "imgsrc": "",
+                "width": 1536,
+                "height": 768
+            }, {
+                "name": "linkedin_company_logo",
+                "title": "Company Logo",
+                "imgsrc": "",
+                "width": 300,
+                "height": 300
+            }, {
+                "name": "linkedin_article_cover_image",
+                "title": "Article Cover Image",
+                "imgsrc": "",
+                "width": 744,
+                "height": 400
+            }]
+        },
+        {
+            "name": "producthunt",
+            "title": "Product hunt",
+            "imgsrc": "/images/social/producthunt.png",
+            "experiences": [{
+                "name": "producthunt_thumbnail",
+                "title": "Thumbnail",
+                "imgsrc": "",
+                "width": 600,
+                "height": 600
+            }]
+        },
+        {
+            "name": "snapchat",
+            "title": "Snapchat",
+            "imgsrc": "/images/social/snapchat.png",
+            "experiences": [{
+                "name": "snapchat_snap_ads_article",
+                "title": "Snap Ads Article",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_snap_ads_app_install",
+                "title": "Snap Ads App install",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_snap_ads_long_form",
+                "title": "Snap Ads Long Form",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_snap_ads_web_view",
+                "title": "Snap Ads Web View",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_sponsored_geofilters",
+                "title": "Sponsored Geofilters",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_sponsored_geofilters_event",
+                "title": "Sponsored Geofilters Event",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_sponsored_geofilters_shared_spaces",
+                "title": "Sponsored Geofilters Shared Spaces",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_sponsored_geofilters_chain",
+                "title": "Sponsored Geofilters Chain",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_sponsored_geofilters_national",
+                "title": "Sponsored Geofilters National",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }, {
+                "name": "snapchat_sponsored_lenses",
+                "title": "Sponsored Lenses",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 1920
+            }]
+        },
+        {
+            "name": "twitter",
+            "title": "Twitter",
+            "imgsrc": "/images/social/twitter.png",
+            "experiences": [{
+                "name": "twitter_cards_lead_generation_card_desktop",
+                "title": "Cards Lead Generation Card Desktop",
+                "imgsrc": "",
+                "width": 800,
+                "height": 200
+            }, {
+                "name": "twitter_cards_lead_generation_card_mobile",
+                "title": "Cards Lead Generation Card Mobile",
+                "imgsrc": "",
+                "width": 800,
+                "height": 200
+            }, {
+                "name": "twitter_cards_website_card_desktop",
+                "title": "Cards Website Card Desktop",
+                "imgsrc": "",
+                "width": 800,
+                "height": 320
+            }, {
+                "name": "twitter_cards_website_card_mobile",
+                "title": "Cards Website Card Mobile",
+                "imgsrc": "",
+                "width": 800,
+                "height": 320
+            }, {
+                "name": "twitter_cards_image_app",
+                "title": "Cards Image App",
+                "imgsrc": "",
+                "width": 800,
+                "height": 320
+            }, {
+                "name": "twitter_cards_video_app",
+                "title": "Cards Video App",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 1024
+            }, {
+                "name": "twitter_video_ads",
+                "title": "Video Ads",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 1024
+            }, {
+                "name": "twitter_header_photo",
+                "title": "Header Photo",
+                "imgsrc": "",
+                "width": 1500,
+                "height": 500
+            }, {
+                "name": "twitter_profile_photo",
+                "title": "Profile Photo",
+                "imgsrc": "",
+                "width": 400,
+                "height": 400
+            }, {
+                "name": "twitter_in_stream_photo",
+                "title": "In-stream Photo",
+                "imgsrc": "",
+                "width": 1024,
+                "height": 512
+            }]
+        },
+        {
+            "name": "adwords",
+            "title": "Adwords",
+            "imgsrc": "/images/social/adwords.png",
+            "experiences": [{
+                "name": "adwords_html5_ads_portrait_desktop",
+                "title": "HTML5 Ads Portrait Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 1050
+            }, {
+                "name": "adwords_html5_ads_skyscraper_desktop",
+                "title": "HTML5 Ads Skyscraper Desktop",
+                "imgsrc": "",
+                "width": 120,
+                "height": 600
+            }, {
+                "name": "adwords_html5_ads_small_square_desktop",
+                "title": "HTML5 Ads Small Square Desktop",
+                "imgsrc": "",
+                "width": 200,
+                "height": 200
+            }, {
+                "name": "adwords_html5_ads_square_desktop",
+                "title": "HTML5 Ads Square Desktop",
+                "imgsrc": "",
+                "width": 250,
+                "height": 250
+            }, {
+                "name": "adwords_html5_ads_top_banner_desktop",
+                "title": "HTML5 Ads Top Banner Desktop",
+                "imgsrc": "",
+                "width": 930,
+                "height": 180
+            }, {
+                "name": "adwords_html5_ads_wide_skyscaper_desktop",
+                "title": "HTML5 Ads Wide Skyscaper Desktop",
+                "imgsrc": "",
+                "width": 160,
+                "height": 600
+            }, {
+                "name": "adwords_html5_ads_netboard_desktop",
+                "title": "HTML5 Ads Netboard Desktop",
+                "imgsrc": "",
+                "width": 580,
+                "height": 400
+            }, {
+                "name": "adwords_html5_ads_tripple_widescreen_desktop",
+                "title": "HTML5 Ads Tripple Widescreen Desktop",
+                "imgsrc": "",
+                "width": 250,
+                "height": 360
+            }, {
+                "name": "adwords_html5_ads_leaderboard_mobile",
+                "title": "HTML5 Ads Leaderboard Mobile",
+                "imgsrc": "",
+                "width": 320,
+                "height": 550
+            }, {
+                "name": "adwords_html5_ads_large_banner_mobile",
+                "title": "HTML5 Ads Large Banner Mobile",
+                "imgsrc": "",
+                "width": 320,
+                "height": 100
+            }, {
+                "name": "adwords_html5_ads_banner_desktop",
+                "title": "HTML5 Ads Banner Desktop",
+                "imgsrc": "",
+                "width": 468,
+                "height": 60
+            }, {
+                "name": "adwords_html5_ads_billboard_desktop",
+                "title": "HTML5 Ads Billboard Desktop",
+                "imgsrc": "",
+                "width": 970,
+                "height": 250
+            }, {
+                "name": "adwords_html5_ads_halfpage_desktop",
+                "title": "HTML5 Ads Halfpage Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 600
+            }, {
+                "name": "adwords_html5_ads_inline_rectangle_desktop",
+                "title": "HTML5 Ads Inline Rectangle Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 250
+            }, {
+                "name": "adwords_html5_ads_large_leaderboard_desktop",
+                "title": "HTML5 Ads Large Leaderboard Desktop",
+                "imgsrc": "",
+                "width": 970,
+                "height": 90
+            }, {
+                "name": "adwords_html5_ads_large_rectangle",
+                "title": "HTML5 Ads Large Rectangle",
+                "imgsrc": "",
+                "width": 336,
+                "height": 280
+            }, {
+                "name": "adwords_html5_ads_leaderboard_desktop",
+                "title": "HTML5 Ads Leaderboard Desktop",
+                "imgsrc": "",
+                "width": 728,
+                "height": 90
+            }, {
+                "name": "adwords_gmail_ads_collapsed_ad",
+                "title": "Gmail Ads Collapsed Ad",
+                "imgsrc": "",
+                "width": 144,
+                "height": 144
+            }, {
+                "name": "adwords_gmail_ads_image_template",
+                "title": "Gmail Ads Image Template",
+                "imgsrc": "",
+                "width": 650,
+                "height": 300
+            }, {
+                "name": "adwords_gmail_ads_single_promotion_template",
+                "title": "Gmail Ads Single Promotion Template",
+                "imgsrc": "",
+                "width": 300,
+                "height": 500
+            }, {
+                "name": "adwords_gmail_ads_multi_product_template",
+                "title": "Gmail Ads Multi-product Template",
+                "imgsrc": "",
+                "width": 180,
+                "height": 180
+            }, {
+                "name": "adwords_gmail_ads_catalog_template",
+                "title": "Gmail Ads Catalog Template",
+                "imgsrc": "",
+                "width": 650,
+                "height": 300
+            }, {
+                "name": "adwords_animated_image_ads_banner_desktop",
+                "title": "Animated Image Ads Banner Desktop",
+                "imgsrc": "",
+                "width": 468,
+                "height": 60
+            }, {
+                "name": "adwords_animated_image_ads_billboard_desktop",
+                "title": "Animated Image Ads Billboard Desktop",
+                "imgsrc": "",
+                "width": 970,
+                "height": 250
+            }, {
+                "name": "adwords_animated_image_ads_halfpage_desktop",
+                "title": "Animated Image Ads Halfpage Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 600
+            }, {
+                "name": "adwords_animated_image_ads_inline_rectangle_desktop",
+                "title": "Animated Image Ads Inline Rectangle Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 250
+            }, {
+                "name": "adwords_animated_image_ads_large_leaderboard_desktop",
+                "title": "Animated Image Ads Large Leaderboard Desktop",
+                "imgsrc": "",
+                "width": 970,
+                "height": 90
+            }, {
+                "name": "adwords_animated_image_ads_large_rectangle",
+                "title": "Animated Image Ads Large Rectangle",
+                "imgsrc": "",
+                "width": 336,
+                "height": 280
+            }, {
+                "name": "adwords_animated_image_ads_leaderboard_desktop",
+                "title": "Animated Image Ads Leaderboard Desktop",
+                "imgsrc": "",
+                "width": 728,
+                "height": 90
+            }, {
+                "name": "adwords_animated_image_ads_portrait_desktop",
+                "title": "Animated Image Ads Portrait Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 1050
+            }, {
+                "name": "adwords_animated_image_ads_skyscraper_desktop",
+                "title": "Animated Image Ads Skyscraper Desktop",
+                "imgsrc": "",
+                "width": 120,
+                "height": 600
+            }, {
+                "name": "adwords_animated_image_ads_small_square_desktop",
+                "title": "Animated Image Ads Small Square Desktop",
+                "imgsrc": "",
+                "width": 200,
+                "height": 200
+            }, {
+                "name": "adwords_animated_image_ads_square_desktop",
+                "title": "Animated Image Ads Square Desktop",
+                "imgsrc": "",
+                "width": 250,
+                "height": 250
+            }, {
+                "name": "adwords_animated_image_image_ads_wide_skyscraper_desktop",
+                "title": "Animated Image Image Ads Wide Skyscraper Desktop",
+                "imgsrc": "",
+                "width": 160,
+                "height": 600
+            }, {
+                "name": "adwords_animated_image_ads_large_banner_mobile",
+                "title": "Animated Image Ads Large Banner Mobile",
+                "imgsrc": "",
+                "width": 300,
+                "height": 100
+            }, {
+                "name": "adwords_non_animated_image_ads_banner_desktop",
+                "title": "Non-animated Image Ads Banner Desktop",
+                "imgsrc": "",
+                "width": 468,
+                "height": 60
+            }, {
+                "name": "adwords_non_animated_image_ads_billboard_desktop",
+                "title": "Non-animated Image Ads Billboard Desktop",
+                "imgsrc": "",
+                "width": 970,
+                "height": 250
+            }, {
+                "name": "adwords_non_animated_image_ads_halfpage_desktop",
+                "title": "Non-animated Image Ads Halfpage Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 600
+            }, {
+                "name": "adwords_non_animated_image_ads_inline_rectangle_desktop",
+                "title": "Non-animated Image Ads Inline Rectangle Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 250
+            }, {
+                "name": "adwords_non_animated_image_ads_large_leaderboard_desktop",
+                "title": "Non-animated Image Ads Large Leaderboard Desktop",
+                "imgsrc": "",
+                "width": 970,
+                "height": 90
+            }, {
+                "name": "adwords_non_animated_image_ads_large_rectangle",
+                "title": "Non-animated Image Ads Large Rectangle",
+                "imgsrc": "",
+                "width": 336,
+                "height": 280
+            }, {
+                "name": "adwords_non_animated_image_ads_leaderboard_desktop",
+                "title": "Non-animated Image Ads Leaderboard Desktop",
+                "imgsrc": "",
+                "width": 728,
+                "height": 90
+            }, {
+                "name": "adwords_non_animated_image_ads_portrait_desktop",
+                "title": "Non-animated Image Ads Portrait Desktop",
+                "imgsrc": "",
+                "width": 300,
+                "height": 1050
+            }, {
+                "name": "adwords_non_animated_image_ads_skyscraper_desktop",
+                "title": "Non-animated Image Ads Skyscraper Desktop",
+                "imgsrc": "",
+                "width": 120,
+                "height": 600
+            }, {
+                "name": "adwords_non_animated_image_ads_small_square_desktop",
+                "title": "Non-animated Image Ads Small Square Desktop",
+                "imgsrc": "",
+                "width": 200,
+                "height": 200
+            }, {
+                "name": "adwords_non_animated_image_ads_square_desktop",
+                "title": "Non-animated Image Ads Square Desktop",
+                "imgsrc": "",
+                "width": 250,
+                "height": 250
+            }, {
+                "name": "adwords_non_animated_image_ads_vertical_rectangle",
+                "title": "Non-animated Image Ads Vertical Rectangle",
+                "imgsrc": "",
+                "width": 240,
+                "height": 400
+            }, {
+                "name": "adwords_non_animated_image_ads_wide_skyscaper_desktop",
+                "title": "Non-animated Image Ads Wide Skyscaper Desktop",
+                "imgsrc": "",
+                "width": 160,
+                "height": 600
+            }, {
+                "name": "adwords_non_animated_image_ads_inline_rectangle_mobile",
+                "title": "Non-animated Image Ads Inline Rectangle Mobile",
+                "imgsrc": "",
+                "width": 300,
+                "height": 250
+            }, {
+                "name": "adwords_non_animated_image_ads_large_banner_mobile",
+                "title": "Non-animated Image Ads Large Banner Mobile",
+                "imgsrc": "",
+                "width": 320,
+                "height": 100
+            }, {
+                "name": "adwords_non_animated_image_ads_leaderboard_mobile",
+                "title": "Non-animated Image Ads Leaderboard Mobile",
+                "imgsrc": "",
+                "width": 320,
+                "height": 250
+            }, {
+                "name": "adwords_non_animated_image_ads_small_square_mobile",
+                "title": "Non-animated Image Ads Small Square Mobile",
+                "imgsrc": "",
+                "width": 200,
+                "height": 200
+            }, {
+                "name": "adwords_non_animated_image_ads_square_mobile",
+                "title": "Non-animated Image Ads Square Mobile",
+                "imgsrc": "",
+                "width": 250,
+                "height": 250
+            }]
+        },
+        {
+            "name": "tumblr",
+            "title": "Tumblr",
+            "imgsrc": "/images/social/tumblr.png",
+            "experiences": [{
+                "name": "tumblr_sponsored_posts_static_image",
+                "title": "Sponsored Posts Static Image",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 1920
+            }, {
+                "name": "tumblr_sponsored_posts_animated_gif",
+                "title": "Sponsored Posts Animated Gif",
+                "imgsrc": "",
+                "width": 540,
+                "height": 750
+            }, {
+                "name": "tumblr_sponsored_videos",
+                "title": "Sponsored Videos",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 720
+            }, {
+                "name": "tumblr_sponsored_day_dashboard_banner",
+                "title": "Sponsored Day Dashboard Banner",
+                "imgsrc": "",
+                "width": 1080,
+                "height": 432
+            }, {
+                "name": "tumblr_sponsored_day_explore_banner",
+                "title": "Sponsored Day Explore Banner",
+                "imgsrc": "",
+                "width": 2600,
+                "height": 1463
+            }, {
+                "name": "tumblr_sponsored_blogs_avatar",
+                "title": "Sponsored Blogs Avatar",
+                "imgsrc": "",
+                "width": 512,
+                "height": 512
+            }, {
+                "name": "tumblr_sponsored_blogs_post_thumbnail",
+                "title": "Sponsored Blogs Post Thumbnail",
+                "imgsrc": "",
+                "width": 175,
+                "height": 175
+            }, {
+                "name": "tumblr_radar_sponsored_static_image",
+                "title": "Radar Sponsored Static Image",
+                "imgsrc": "",
+                "width": 1280,
+                "height": 1920
+            }, {
+                "name": "tumblr_radar_sponsored_gif_image",
+                "title": "Radar Sponsored Gif Image",
+                "imgsrc": "",
+                "width": 540,
+                "height": 750
+            }, {
+                "name": "tumblr_profile_picture",
+                "title": "Profile Picture",
+                "imgsrc": "",
+                "width": 128,
+                "height": 128
+            }]
+        },
+        {
+            "name": "pinterest",
+            "title": "Pinterest",
+            "imgsrc": "/images/social/pinterest.png",
+            "experiences": [{
+                "name": "pinterest_promoted_pins",
+                "title": "Promoted Pins",
+                "imgsrc": "",
+                "width": 600,
+                "height": 1066
+            }, {
+                "name": "pinterest_board_display_small_thumbnail",
+                "title": "Board Display Small Thumbnail",
+                "imgsrc": "",
+                "width": 69,
+                "height": 69
+            }, {
+                "name": "pinterest_board_display_large_thumbail",
+                "title": "Board Display Large Thumbail",
+                "imgsrc": "",
+                "width": 216,
+                "height": 146
+            }, {
+                "name": "pinterest_profile_picture",
+                "title": "Profile Picture",
+                "imgsrc": "",
+                "width": 165,
+                "height": 165
+            }, {
+                "name": "pinterest_video_pins",
+                "title": "Video Pins",
+                "imgsrc": "",
+                "width": 1920,
+                "height": 1080
+            }]
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}

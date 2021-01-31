@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-big-number-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M44,4H6A2,2,0,0,0,4,6V44a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V6A2,2,0,0,0,44,4ZM16,38H12V12h4Zm13,0c-5.5,0-10-5.3-10-13s4.5-13,10-13,10,5.3,10,13S34.5,38,29,38Zm0-22c-3.4,0-6,3.9-6,9s2.6,9,6,9,6-3.9,6-9S32.4,16,29,16Z"/>
+    </g>
+  </g>
+</svg>

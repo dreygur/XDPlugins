@@ -1,0 +1,46 @@
+{
+    "summary": "Import GDS colours to assets",
+    "website": "https://github.com/mcoulthurst/xd-gds-palette",
+    "keywords": ["color", "colour", "palette", "assests", "GDS", "GOV.UK Design System", "GOV.UK", "Government Digital Service"],
+    "languages": ["en"],
+    "author": "Martin Coulthurst",
+    "description": "Import colour palette used in the GOV.UK Design System.",
+    "helpUrl": "https://github.com/mcoulthurst/xd-gds-palette/blob/master/README.md",
+    "main": "main.js",
+    "icons": [
+    {
+        "path": "images/icon1x.png",
+        "width": 48,
+        "height": 48
+    },
+    {
+        "path": "images/icon2x.png",
+        "width": 96,
+        "height": 96
+    },
+    {
+        "path": "images/icon3x.png",
+        "width": 144,
+        "height": 144
+    },
+    {
+        "path": "images/icon4x.png",
+        "width": 192,
+        "height": 192
+    }],
+    "version": "1.0.0",
+    "releaseNotes": "Initial release",
+    "name": "GDS palette",
+    "host":
+    {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+    "id": "f2d59285",
+    "uiEntryPoints": [
+    {
+        "type": "menu",
+        "label": "Add GDS palette to Assets",
+        "commandId": "addPalette"
+    }]
+}

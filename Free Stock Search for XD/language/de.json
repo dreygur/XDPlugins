@@ -1,0 +1,118 @@
+{
+    "de": {
+        "buttonOk": "OK",
+        "serverError": "Server antwortete: Fehler",
+        "buyLicense": "Eine Lizenz für diese Datei kaufen",
+        "search": "Suchen",
+        "searchPlaceholder": "Suche nach Stock-Dateien",
+        "downloadAndApply": "Datei/en herunterladen und einfügen",
+        "downloadVector": "Vektor-Datei herunterladen",
+        "noMoreResults": "Keine (weiteren) Ergebnisse",
+        "register": {
+            "title": "PLUGIN AKTIVIERUNG",
+            "mail": "Deine Mail-Adresse",
+            "key": "Dein Lizenzschlüssel",
+            "buyLicense": "Lizenz kaufen",
+            "questions": "Fragen oder Probleme?",
+            "error": "Deine Mail-Adresse und Lizenzschlüssel stimmen nicht überein.",
+            "errorFreeVersion": "Keine gültige Mail-Adresse eingetragen.",
+            "pleaseRegister": "Bitte registriere Free Stock Search mit deiner E-Mail-Adresse.",
+            "inform": "Du wirst über diese Mail-Adresse über Updates informiert. Kein Spam.",
+            "registerButton": "Registrieren"
+        },
+        "help": {
+            "resizeWindow": "Vergrößere das Plugin-Fenster, um mehr Ergebnisse anzuzeigen →",
+            "dontShowAgain": "Zeige diese Nachricht nicht noch einmal",
+            "photos": {
+                "title1": "Einzelnes Foto platzieren",
+                "content1": [
+                    "Klicke direkt auf ein Thumbnail, um das Foto in der Standard-Größe zu platzieren. Die Standard-Größe kann in den Foto-Einstellungen geändert werden.",
+                    "Wähle ein unterstütztes Element (Rechteck, Ellipse, Polygon, Pfad, Gruppe die ein unterstütztes Element beinhaltet, Wiederholungsraster) im Dokument aus, bevor du auf das Thumbnail klickst, um das Foto in dieses Element zu platzieren.",
+                    "Wähle mehrere Elemente im Dokument aus, um das Foto in allen ausgewählten Elementen zu platzieren.",
+                    "Bewege die Maus in einem Thumbnail auf das Pfeilsymbol oben rechts, um eine benutzerdefinierte Download-Größe auszuwählen.",
+                    "Ist kein Element im Dokument ausgewählt, wird das Foto frei im Dokument platziert."
+                ],
+                "title2": "Mehrere Fotos platzieren",
+                "content2": [
+                    "Wähle mehrere unterstütze Elemente im Dokument aus.",
+                    "Markiere die zu platzierenden Fotos indem die entsprechenden Thumbnails angehakt werden.",
+                    "Klicke auf 'Gewählte Dateien einfügen'."
+                ]
+            },
+            "vectors": {
+                "title": "Vektoren platzieren",
+                "content": [
+                    "Klicke auf ein Thumbnail, um die Vektordatei herunterzuladen.",
+                    "Verwende <b>Cmd/Ctrl + V</b>, um die Vektordatei im Dokument zu platzieren.",
+                    "<b>Warum muss ich das tun?</b> Es ist derzeit nicht möglich, eine Vektordatei per Skript zu platzieren. Es wird implementiert, sobald es möglich ist."
+                ]
+            },
+            "icons": {
+                "title": "Icons platzieren",
+                "content": [
+                    "Klicke auf ein Thumbnail, um das Icon herunterzuladen.",
+                    "Verwende <b>Cmd/Ctrl + V</b>, um das Icon im Dokument zu platzieren.",
+                    "<b>Warum muss ich das tun?</b> Es ist derzeit nicht möglich, eine Vektordatei per Skript zu platzieren. Es wird implementiert, sobald es möglich ist."
+                ]
+            }
+        },
+        "results": {
+            "buttonNextResults": "Weitere Ergebnisse laden",
+            "from": "Von",
+            "on": "auf",
+            "saveToComputer": "Auf Computer speichern",
+            "buyLicense": "Lizenz kaufen"
+        },
+        "assets": {
+            "photos": "Fotos",
+            "vectors": "Vektoren",
+            "icons": "Icons"
+        },
+        "photosSettings": {
+            "searchPhotosOn": "SUCHE FOTOS AUF",
+            "defaultDownloadSize": "STANDARD DOWNLOAD-GRÖSSE",
+            "small": "Klein",
+            "medium": "Mittel",
+            "large": "Groß",
+            "original": "Original",
+            "willBeUsedOn": "Diese Größe wird bei einem Klick auf ein Thumbnail, beim gleichzeitigen Einfügen mehrerer Dateien ('Gewählte Dateien einfügen') und bei 'Auf Computer speichern' verwendet."
+        },
+        "vectorsSettings": {
+            "searchVectorsOn": "SUCHE VEKTOREN AUF"
+        },
+        "iconsSettings": {
+            "searchIconsOn": "SUCHE ICONS AUF"
+        },
+        "update": {
+            "updateAvailable": "Ein Update ist verfügbar.",
+            "downloadHere": "Lade es hier herunter."
+        },
+        "applyMultiple": {
+            "apply": "Gewählte Dateien einfügen",
+            "filesSelected": "Dateien ausgewählt",
+            "fileSelected": "Datei ausgewählt"
+        },
+        "hintBottom": {
+            "vectorDownloaded": "Die Vektor/Icon-Datei wurde heruntergeladen und in die Zwischenablage kopiert. Verwende <b>Cmd/Ctrl + V</b>, um sie zu platzieren.",
+            "selectElements": "Wähle unterstützte Elemente im Dokument aus. Möchtest du nur eine Datei platzieren, klicke direkt auf das Thumbnail oder wähle über das Pfeil-Symbol eine Größe."
+        },
+        "proVersionFeatures": {
+            "onlyAvailable": "ist nur in der Pro-Version verfügbar.",
+            "title": "Features der Pro-Version",
+            "content": [
+                "<b>Suche nach allen Ergebnissen</b> (Suche ist nicht auf 30 Ergebnisse limitiert. Millionen von Dateien verfügbar).",
+                "Platziere Fotos in den Größen <b>Klein, Mittel, Groß und Original.</b>",
+                "Suche und platziere <b>KOSTENLOSE Vektordateien.</b>",
+                "Suche und platziere <b>KOSTENLOSE Icons (im Vektorformat).</b>",
+                "<b>Speichere Dateien auf deinen Computer.</b>",
+                "<b>Keine Assets von Adobe Stock und Shutterstock erscheinenen in den Ergebnissen</b> (wenn diese Agenturen nicht ausgewählt sind)."
+            ],
+            "button": "Free Stock Search Pro kaufen",
+            "largeAndOriginal": "Groß und Original",
+            "freeIcons": "Suchen und Platzieren von kostenlosen Icons auf Pixabay",
+            "freeVectors": "Suchen und Platzieren von kostenlosen Vektoren auf Pixabay",
+            "allResults": "Suche nach allen Ergebnissen",
+            "realVectors": "Es können echte Vektordateien heruntergeladen und platziert werden."
+        }
+    }
+}

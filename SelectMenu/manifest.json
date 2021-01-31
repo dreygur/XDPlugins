@@ -1,0 +1,127 @@
+{
+  "id": "e46fe5a4",
+  "name": "SelectMenu",
+  "author": "sttk3.com",
+  "version":"2.0.0",
+  "icons": [
+    { "width": 48, "height": 48, "path": "images/icon-48.png" },
+    { "width": 96, "height": 96, "path": "images/icon-96.png" }
+   ],
+  "host": {
+    "app":"XD",
+    "minVersion":"28.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "SelectMenu",
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": "Same Name",
+          "commandId": "selectSameName"
+        },
+        {
+          "type": "menu",
+          "label": "Same Name & Class",
+          "commandId": "selectSameNameAndClass"
+        },
+        {
+          "type": "menu",
+          "label": "Same Class",
+          "commandId": "selectSameClass"
+        },
+        {
+          "type": "menu",
+          "label": "Same Components",
+          "commandId": "selectSameComponents"
+        },
+        {
+          "type": "menu",
+          "label": "Same Position (Local)",
+          "commandId": "selectSameLocalPosition"
+        },
+
+        {
+          "type": "menu",
+          "label": " ",
+          "commandId": "ignore"
+        },
+
+        {
+          "type": "menu",
+          "label": "Same Row",
+          "commandId": "selectSameRow"
+        },
+        {
+          "type": "menu",
+          "label": "Left of the Row",
+          "commandId": "selectLeftOfRow"
+        },
+        {
+          "type": "menu",
+          "label": "Right of the Row",
+          "commandId": "selectRightOfRow"
+        },
+        {
+          "type": "menu",
+          "label": "Same Column",
+          "commandId": "selectSameColumn"
+        },
+        {
+          "type": "menu",
+          "label": "Above of the Column",
+          "commandId": "selectAboveOfColumn"
+        },
+
+        {
+          "type": "menu",
+          "label": "Below of the Column",
+          "commandId": "selectBelowOfColumn"
+        },
+        
+        {
+          "type": "menu",
+          "label": " ",
+          "commandId": "ignore"
+        },
+        
+        {
+          "type": "menu",
+          "label": "All Artboard",
+          "commandId": "selectAllArtboard"
+        },
+        {
+          "type": "menu",
+          "label": "All Text",
+          "commandId": "selectAllText"
+        },
+        {
+          "type": "menu",
+          "label": "Area Texts",
+          "commandId": "selectAreaTexts"
+        },
+        {
+          "type": "menu",
+          "label": "Point Texts",
+          "commandId": "selectPointTexts"
+        },
+        {
+          "type": "menu",
+          "label": "Locked Items",
+          "commandId": "selectLockedItems"
+        },
+        {
+          "type": "menu",
+          "label": "Hidden Items",
+          "commandId": "selectHiddenItems"
+        },
+        {
+          "type": "menu",
+          "label": "Marked Items",
+          "commandId": "selectMarkedItems"
+        }
+      ]
+    }
+  ]
+}

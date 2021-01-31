@@ -1,0 +1,55 @@
+{
+	"id": "0f288d4e",
+	"name": "Complex Gradients",
+	"description": "Create complex gradients",
+	"author": "SK <mightyskeet@gmail.com>",
+	"license": "https://creativecommons.org/publicdomain/zero/1.0",
+	"icons": [
+		{
+			"width": 96,
+			"height": 96,
+			"path": "icon@2x.png"
+		}
+	],
+	"host": {
+		"app": "XD",
+		"minVersion": "13.0.0"
+	},
+	"version": "1.0.0",
+	"uiEntryPoints": [
+		{
+			"type": "menu",
+			"label": "Complex Gradients",
+			"menuItems": [
+				{
+					"label": "Repeating",
+					"commandId": "repeating"
+				},
+				{
+					"label": "Simplify",
+					"commandId": "simplify"
+				},
+				{
+					"label": "Random",
+					"commandId": "random"
+				},
+				{
+					"label": "Create from elements fill",
+					"commandId": "fromFill"
+				},
+				{
+					"label": "Invert",
+					"commandId": "invert",
+					"shortcut": {
+						"mac": "Cmd+Alt+Shift+I",
+						"win": "Ctrl+Alt+Shift+I"
+					}
+				},
+				{
+					"label": "About Plugin",
+					"commandId": "about"
+				}
+			]
+		}		
+	]
+}

@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 800 800">
+      <image width="800" height="800" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAMgCAYAAADbcAZoAAAACXBIWXMAACxKAAAsSgF3enRNAAAgAElEQVR4nO3de29bSXrg4WOJFEVKliULhtudToJ8/280f8xiN5uZ8RgeX1r3Wwcvu6mWbV0p8uWpqucBDDuzCyRD6pTqd6rqnBd/+es/f+sAAAASrPmQAQCALAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAASCNAAACANAIEAABII0AAAIA0AgQAAEgjQAAAgDQCBAAA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"/>
+    </pattern>
+    <filter id="background" x="1340" y="40" width="548" height="732" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Kanban_Template">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Kanban_Template" data-name="Kanban Template" clip-path="url(#clip-Kanban_Template)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="frame">
+      <line id="vr" y2="880" transform="translate(62 200)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <line id="vr-2" data-name="vr" y2="880" transform="translate(511 200)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <line id="vr-3" data-name="vr" y2="880" transform="translate(960 200)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <line id="vr-4" data-name="vr" y2="880" transform="translate(1409 200)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <line id="vr-5" data-name="vr" y2="880" transform="translate(1858 200)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      <line id="hr" x2="1800" transform="translate(60 200)" fill="none" stroke="#101010" stroke-width="4"/>
+    </g>
+    <g id="Category_Label_Element" data-name="Category Label Element" transform="translate(553 244)">
+      <rect id="dot_color_fill_" data-name="dot [color_fill]" width="40" height="20" rx="10" fill="#ff80ac"/>
+      <text id="label" transform="translate(50 18)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">To do</tspan></text>
+    </g>
+    <g id="Category_Label_Element-2" data-name="Category Label Element" transform="translate(104 244)">
+      <rect id="dot_color_fill_2" data-name="dot [color_fill]" width="40" height="20" rx="10" fill="#ffd86f"/>
+      <text id="label-2" data-name="label" transform="translate(50 18)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Backlog</tspan></text>
+    </g>
+    <g id="Category_Label_Element-3" data-name="Category Label Element" transform="translate(1002 244)">
+      <rect id="dot_color_fill_3" data-name="dot [color_fill]" width="40" height="20" rx="10" fill="#7ee1ff"/>
+      <text id="label-3" data-name="label" transform="translate(50 18)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">In progress</tspan></text>
+    </g>
+    <g id="Category_Label_Element-4" data-name="Category Label Element" transform="translate(1451 244)">
+      <rect id="dot_color_fill_4" data-name="dot [color_fill]" width="40" height="20" rx="10" fill="#26cc2c"/>
+      <text id="label-4" data-name="label" transform="translate(50 18)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Done</tspan></text>
+    </g>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Kanban boards visually depict work at various stages of a process using cards to represent work</tspan><tspan x="0" y="22">items and columns to represent each stage of the process.</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Kanban Board</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-109.456" y="0">24 March 2020</tspan></text>
+      <text id="Project_Name" data-name="Project Name" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-101.056" y="0">Project Name</tspan></text>
+    </g>
+    <g id="Task_Card_Element" data-name="Task Card Element" transform="translate(104 328)">
+      <rect id="shadow" width="360" height="100" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+      <g id="Card" transform="translate(-780 -2340)">
+        <g id="background-2" data-name="background">
+          <rect id="background-3" data-name="background" width="360" height="100" transform="translate(780 2340)" fill="#fff"/>
+          <rect id="tag_color_fill_" data-name="tag [color_fill]" width="20" height="100" transform="translate(780 2340)" fill="#ffd86f"/>
+        </g>
+        <text id="label-5" data-area="300 60" data-name="label" transform="translate(820 2360)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a task here…</tspan></text>
+      </g>
+    </g>
+    <g id="Task_Card_Element-2" data-name="Task Card Element" transform="translate(552 328)">
+      <rect id="shadow-2" data-name="shadow" width="360" height="100" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+      <g id="Card-2" data-name="Card" transform="translate(-780 -2340)">
+        <g id="background-4" data-name="background">
+          <rect id="background-5" data-name="background" width="360" height="100" transform="translate(780 2340)" fill="#fff"/>
+          <rect id="tag_color_fill_2" data-name="tag [color_fill]" width="20" height="100" transform="translate(780 2340)" fill="#ff80ac"/>
+        </g>
+        <text id="label-6" data-area="300 60" data-name="label" transform="translate(820 2360)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a task here…</tspan></text>
+      </g>
+    </g>
+    <g id="Task_Card_Element-3" data-name="Task Card Element" transform="translate(1001 328)">
+      <rect id="shadow-3" data-name="shadow" width="360" height="100" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+      <g id="Card-3" data-name="Card" transform="translate(-780 -2340)">
+        <g id="background-6" data-name="background">
+          <rect id="background-7" data-name="background" width="360" height="100" transform="translate(780 2340)" fill="#fff"/>
+          <rect id="tag_color_fill_3" data-name="tag [color_fill]" width="20" height="100" transform="translate(780 2340)" fill="#7ee1ff"/>
+        </g>
+        <text id="label-7" data-area="300 60" data-name="label" transform="translate(820 2360)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a task here…</tspan></text>
+      </g>
+    </g>
+    <g id="Task_Card_Element-4" data-name="Task Card Element" transform="translate(1451 328)">
+      <rect id="shadow-4" data-name="shadow" width="360" height="100" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+      <g id="Card-4" data-name="Card" transform="translate(-780 -2340)">
+        <g id="background-8" data-name="background">
+          <rect id="background-9" data-name="background" width="360" height="100" transform="translate(780 2340)" fill="#fff"/>
+          <rect id="tag_color_fill_4" data-name="tag [color_fill]" width="20" height="100" transform="translate(780 2340)" fill="#26cc2c"/>
+        </g>
+        <text id="label-8" data-area="300 60" data-name="label" transform="translate(820 2360)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a task here…</tspan></text>
+      </g>
+    </g>
+    <g id="Task_Card_-_Date_-_Element" data-name="Task Card - Date - Element" transform="translate(104 474)">
+      <rect id="shadow-5" data-name="shadow" width="360" height="140" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+      <g id="background-10" data-name="background" transform="translate(-780 -2340)">
+        <rect id="background-11" data-name="background" width="360" height="140" transform="translate(780 2340)" fill="#fff"/>
+        <rect id="tag_color_fill_5" data-name="tag [color_fill]" width="20" height="140" transform="translate(780 2340)" fill="#ffd86f"/>
+      </g>
+      <text id="label-9" data-name="label" transform="translate(40 20)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a task here…</tspan></text>
+      <g id="date-2" data-name="date" transform="translate(-780 -2580)">
+        <rect id="background-12" data-name="background" width="80" height="30" transform="translate(820 2670)" fill="#101010" opacity="0.05"/>
+        <text id="label-10" data-name="label" transform="translate(852 2688)" fill="#101010" font-size="11" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">APR 25</tspan></text>
+        <g id="calendar" transform="translate(828 2676)">
+          <g id="Rectangle_147637" data-name="Rectangle 147637" transform="translate(0 2)" fill="#fff" stroke="#101010" stroke-width="2">
+            <rect width="16" height="14" stroke="none"/>
+            <rect x="1" y="1" width="14" height="12" fill="none"/>
+          </g>
+          <line id="Line_2" data-name="Line 2" x2="16" transform="translate(0 7)" fill="none" stroke="#101010" stroke-width="2"/>
+          <line id="Line_13" data-name="Line 13" y2="4" transform="translate(4)" fill="none" stroke="#101010" stroke-width="2"/>
+          <line id="Line_14" data-name="Line 14" y2="4" transform="translate(12)" fill="none" stroke="#101010" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <g id="Task_Card_-_Date_Thumbnails_-_Element" data-name="Task Card - Date + Thumbnails - Element" transform="translate(1001 474)">
+      <rect id="shadow-6" data-name="shadow" width="360" height="140" transform="translate(6 6)" fill="#101010" opacity="0.06"/>
+      <g id="background-13" data-name="background" transform="translate(-780 -2340)">
+        <rect id="background-14" data-name="background" width="360" height="140" transform="translate(780 2340)" fill="#fff"/>
+        <rect id="tag_color_fill_6" data-name="tag [color_fill]" width="20" height="140" transform="translate(780 2340)" fill="#7ee1ff"/>
+      </g>
+      <text id="label-11" data-name="label" transform="translate(40 20)" fill="#101010" font-size="14" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="10">Write a task here…</tspan></text>
+      <g id="thumbnail" transform="translate(310 90)">
+        <circle id="drop_area" data-name="drop area" cx="15" cy="15" r="15" fill="url(#pattern)"/>
+      </g>
+      <g id="thumbnail-2" data-name="thumbnail" transform="translate(270 90)">
+        <circle id="drop_area-2" data-name="drop area" cx="15" cy="15" r="15" fill="url(#pattern)"/>
+      </g>
+      <g id="thumbnail-3" data-name="thumbnail" transform="translate(230 90)">
+        <circle id="drop_area-3" data-name="drop area" cx="15" cy="15" r="15" fill="url(#pattern)"/>
+      </g>
+      <g id="date-3" data-name="date" transform="translate(-780 -2580)">
+        <rect id="background-15" data-name="background" width="80" height="30" transform="translate(820 2670)" fill="#101010" opacity="0.05"/>
+        <text id="label-12" data-name="label" transform="translate(852 2688)" fill="#101010" font-size="11" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">APR 25</tspan></text>
+        <g id="calendar-2" data-name="calendar" transform="translate(828 2676)">
+          <g id="Rectangle_147637-2" data-name="Rectangle 147637" transform="translate(0 2)" fill="#fff" stroke="#101010" stroke-width="2">
+            <rect width="16" height="14" stroke="none"/>
+            <rect x="1" y="1" width="14" height="12" fill="none"/>
+          </g>
+          <line id="Line_2-2" data-name="Line 2" x2="16" transform="translate(0 7)" fill="none" stroke="#101010" stroke-width="2"/>
+          <line id="Line_13-2" data-name="Line 13" y2="4" transform="translate(4)" fill="none" stroke="#101010" stroke-width="2"/>
+          <line id="Line_14-2" data-name="Line 14" y2="4" transform="translate(12)" fill="none" stroke="#101010" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1340 40)">
+      <g transform="matrix(1, 0, 0, 1, -1340, -40)" filter="url(#background)">
+        <rect id="background-16" data-name="background" width="540" height="724" transform="translate(1340 40)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="18">What is this?</tspan><tspan x="0" y="42"></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="66">Kanban boards visually depict work at various stages of a </tspan><tspan x="0" y="90">process using cards to represent work items and columns to </tspan><tspan x="0" y="114">represent each stage of the process. Cards are moved from left </tspan><tspan x="0" y="138">to right to show progress and to help coordinate teams </tspan><tspan x="0" y="162">performing the work.</tspan><tspan y="162" font-size="24" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"></tspan></tspan><tspan x="0" y="186"></tspan><tspan x="0" y="210">How to use</tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="234"></tspan><tspan x="0" y="258" xml:space="preserve">01.  </tspan><tspan y="258" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Move Kanban Cards between status lists from Ideas to To </tspan><tspan x="0" y="282" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Do to Doing to Done.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="306"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="330" xml:space="preserve">02.  </tspan><tspan y="330" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Invite team mates to the Kanban Board by by using the XD </tspan><tspan x="0" y="354" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">coediting feature</tspan><tspan x="0" y="378"></tspan><tspan x="0" y="402" xml:space="preserve">03.  </tspan><tspan y="402" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Assign Kanban Cards to people by adding their photos to </tspan><tspan x="0" y="426" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">the task (drag &amp; drop on placeholder photos.)</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="450"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="474" xml:space="preserve">04.  </tspan><tspan y="474" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Add due dates on Kanban Cards, if possible.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="498"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="522" xml:space="preserve">05.  </tspan><tspan y="522" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Have the team move their own cards to each stage of the </tspan><tspan x="0" y="546" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Kanban or do it together in daily standup meetings.</tspan></tspan><tspan font-size="15" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500"><tspan x="0" y="570"></tspan></tspan><tspan font-size="15" font-family="AcuminPro-Black, Acumin Pro" font-weight="800"><tspan x="0" y="594" xml:space="preserve">06.  </tspan><tspan y="594" font-family="AcuminPro-Medium, Acumin Pro" font-weight="500">Change the colors of the tasks ask you change the status.</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

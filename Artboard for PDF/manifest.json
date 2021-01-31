@@ -1,0 +1,28 @@
+{
+   "name": "Artboard for PDF",
+   "id": "572d4397",
+   "version":"1.1.1",
+   "description":"Create artboards for exporting as PDF files. You Can Select Size (A3 - B5) and Orientation (Landscape or Portrait).",
+   "icons":[
+      {
+         "width":96,
+         "height":96,
+         "path":"images/icon.png"
+      }
+   ],
+   "host":{
+      "app":"XD",
+      "minVersion":"14.0.0"
+   },
+   "uiEntryPoints":[
+      {
+         "type":"menu",
+         "label":{
+           "default":"Artboard for PDF",
+           "ja":"PDF用アートボードの作成"
+         },
+         "commandId":"newArtboardCommand",
+         "shortcut": { "mac": "Cmd+Shift+P", "win": "Ctrl+Shift+P" }
+      }
+   ]
+}

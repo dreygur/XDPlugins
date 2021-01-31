@@ -1,0 +1,37 @@
+{
+  "id": "58851edf",
+  "name": "Mupixa",
+  "version": "1.3.4",
+  "description": "By publishing your design prototypes to Mupixa.com you can conduct moderated and unmoderated usability tests by simply inviting users to try them. Session replays, heatmaps and much more consolidated statistics are generated based on the recorded interactions.",
+  "summary": "Usability analytics for design prototypes.",
+  "keywords": [
+    "UX",
+    "productivity",
+    "automation",
+    "testing",
+    "usability",
+    "evaluation",
+    "analytics"
+  ],
+  "languages": ["en"],
+  "website": "https://mupixa.com",
+  "author": "Mupixa UG (haftungsbeschränkt)",
+  "helpUrl": "https://mupixa.com/imprint.html",
+  "icons": [
+    { "width": 48, "height": 48, "path": "images/icon@1x.png" },
+    { "width": 96, "height": 96, "path": "images/icon@2x.png" },
+    { "width": 144, "height": 144, "path": "images/icon@3x.png" },
+    { "width": 192, "height": 192, "path": "images/icon@4x.png" }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "24.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Mupixa",
+      "commandId": "mupixa"
+    }
+  ]
+}

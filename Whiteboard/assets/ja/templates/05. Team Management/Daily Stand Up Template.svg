@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1704" height="60" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="60" height="784" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="1704" height="784" fill="none"/>
+    </clipPath>
+    <filter id="background" x="1340" y="40" width="548" height="588" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Daily_Stand_Up_Template">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Daily_Stand_Up_Template" data-name="Daily Stand Up Template" clip-path="url(#clip-Daily_Stand_Up_Template)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="Names" transform="translate(140 180)" clip-path="url(#clip-path)">
+      <g transform="translate(-140 -200)">
+        <rect id="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">名前</tspan></text>
+      </g>
+      <g transform="translate(204 -200)">
+        <rect id="area-2" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-2" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">名前</tspan></text>
+      </g>
+      <g transform="translate(548 -200)">
+        <rect id="area-3" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-3" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">名前</tspan></text>
+      </g>
+      <g transform="translate(892 -200)">
+        <rect id="area-4" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-4" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">名前</tspan></text>
+      </g>
+      <g transform="translate(1236 -200)">
+        <rect id="area-5" data-name="area" width="340" height="60" transform="translate(140 200)" fill="#fff" opacity="0"/>
+        <text id="label-5" data-name="label" transform="translate(140 236)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">名前</tspan></text>
+      </g>
+    </g>
+    <g id="Questions" transform="translate(80 240)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-80 -260)">
+        <rect id="area-6" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-6" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">質問</tspan></text>
+      </g>
+      <g transform="translate(-80)">
+        <rect id="area-7" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-7" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">質問</tspan></text>
+      </g>
+      <g transform="translate(-80 260)">
+        <rect id="area-8" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-8" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">質問</tspan></text>
+      </g>
+      <g transform="translate(-80 520)">
+        <rect id="area-9" data-name="area" width="60" height="260" transform="translate(80 260)" fill="#fff" opacity="0"/>
+        <text id="label-9" data-name="label" transform="translate(116 520) rotate(-90)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="0">Question</tspan></text>
+      </g>
+    </g>
+    <g id="Cells" transform="translate(140 240)" clip-path="url(#clip-path-3)">
+      <g transform="translate(-140 -260)">
+        <rect id="Cell" width="340" height="260" stroke-width="4" fill="none" stroke="#e0e0e0" transform="translate(142 262)"/>
+      </g>
+      <g transform="translate(200 -260)">
+        <rect id="Cell-2" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540 -260)">
+        <rect id="Cell-3" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880 -260)">
+        <rect id="Cell-4" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220 -260)">
+        <rect id="Cell-5" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560 -260)">
+        <rect id="Cell-6" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(-140)">
+        <rect id="Cell-7" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(200)">
+        <rect id="Cell-8" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540)">
+        <rect id="Cell-9" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880)">
+        <rect id="Cell-10" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220)">
+        <rect id="Cell-11" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560)">
+        <rect id="Cell-12" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(-140 260)">
+        <rect id="Cell-13" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(200 260)">
+        <rect id="Cell-14" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540 260)">
+        <rect id="Cell-15" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880 260)">
+        <rect id="Cell-16" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220 260)">
+        <rect id="Cell-17" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560 260)">
+        <rect id="Cell-18" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(-140 520)">
+        <rect id="Cell-19" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(200 520)">
+        <rect id="Cell-20" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(540 520)">
+        <rect id="Cell-21" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(880 520)">
+        <rect id="Cell-22" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1220 520)">
+        <rect id="Cell-23" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+      <g transform="translate(1560 520)">
+        <rect id="Cell-24" data-name="Cell" width="340" height="260" transform="translate(142 262)" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+      </g>
+    </g>
+    <line id="hr" x2="1704" transform="translate(140 242)" fill="none" stroke="#101010" stroke-width="4"/>
+    <line id="vr" y2="780" transform="translate(142 244)" fill="none" stroke="#101010" stroke-width="4"/>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area-10" data-name="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">チームで毎日の進捗を確認するチェックインミーティングを行って、その日の作業を計画します。</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="0">毎日のスタンドアップミーティング</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-111.536" y="0">2020</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">年</tspan><tspan y="0">3</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">月</tspan><tspan y="0">24</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="400">日</tspan></text>
+      <text id="プロジェクト名" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="-111.52" y="0">プロジェクト名</tspan></text>
+    </g>
+    <g id="Post-It_Element" data-name="Post-It Element" transform="translate(160 260)">
+      <rect id="background_color_fill_" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-10" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-2" data-name="Post-It Element" transform="translate(840 260)">
+      <rect id="background_color_fill_2" data-name="background [color_fill]" width="140" height="100" fill="#8484f3"/>
+      <text id="label-11" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-2" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-3" data-name="Post-It Element" transform="translate(500 260)">
+      <rect id="background_color_fill_3" data-name="background [color_fill]" width="140" height="100" fill="#7ee1ff"/>
+      <text id="label-12" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-3" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-4" data-name="Post-It Element" transform="translate(1180 260)">
+      <rect id="background_color_fill_4" data-name="background [color_fill]" width="140" height="100" fill="#ff80ac"/>
+      <text id="label-13" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-4" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-5" data-name="Post-It Element" transform="translate(1520 260)">
+      <rect id="background_color_fill_5" data-name="background [color_fill]" width="140" height="100" fill="#26ccbf"/>
+      <text id="label-14" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-5" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-6" data-name="Post-It Element" transform="translate(660 260)">
+      <rect id="background_color_fill_6" data-name="background [color_fill]" width="140" height="100" fill="#7ee1ff"/>
+      <text id="label-15" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-6" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-7" data-name="Post-It Element" transform="translate(1000 260)">
+      <rect id="background_color_fill_7" data-name="background [color_fill]" width="140" height="100" fill="#8484f3"/>
+      <text id="label-16" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-7" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-8" data-name="Post-It Element" transform="translate(840 380)">
+      <rect id="background_color_fill_8" data-name="background [color_fill]" width="140" height="100" fill="#8484f3"/>
+      <text id="label-17" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-8" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-9" data-name="Post-It Element" transform="translate(320 260)">
+      <rect id="background_color_fill_9" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-18" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-9" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-10" data-name="Post-It Element" transform="translate(160 380)">
+      <rect id="background_color_fill_10" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-19" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-10" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-11" data-name="Post-It Element" transform="translate(160 532)">
+      <rect id="background_color_fill_11" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-20" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-11" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-12" data-name="Post-It Element" transform="translate(320 532)">
+      <rect id="background_color_fill_12" data-name="background [color_fill]" width="140" height="100" fill="#ffd86f"/>
+      <text id="label-21" data-area="120 60" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-12" data-name="sticker" width="140" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1340 40)">
+      <g transform="matrix(1, 0, 0, 1, -1340, -40)" filter="url(#background)">
+        <rect id="background-2" data-name="background" width="540" height="580" transform="translate(1340 40)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="26">How to use</tspan><tspan font-size="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="800"><tspan x="0" y="50"></tspan><tspan x="0" y="74" xml:space="preserve">01.  </tspan><tspan y="74" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">時間と場所を設定します。朝の集まりと</tspan><tspan y="74" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">1</tspan><tspan y="74" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">日の終りの集ま</tspan><tspan x="0" y="98" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">りのどちらを好むか、チームの投票で決めます。スタンドアッ</tspan><tspan x="0" y="122" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">プは、</tspan><tspan y="122" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">1</tspan><tspan y="122" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">日の舞台を設定したり、</tspan><tspan y="122" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">1</tspan><tspan y="122" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">日の最後を締めくくったりし</tspan><tspan x="0" y="146" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">て、全員の日課の役に立つパートになるはずです。</tspan><tspan y="146" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="170"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="800"><tspan x="0" y="194" xml:space="preserve">02.  </tspan><tspan y="194" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">議題を作成します。スタンドアップは、誰かが立ち上がっ</tspan><tspan x="0" y="218" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">てそわそわし始めるくらい長い時間をかけて行うべきではあり</tspan><tspan x="0" y="242" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ません。一般的には、</tspan><tspan y="242" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">10</tspan><tspan y="242" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">〜</tspan><tspan y="242" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">15</tspan><tspan y="242" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">分で終わるように目指します。</tspan><tspan x="0" y="266" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">続けるためには、達成したいことを簡単に説明する簡単な議題</tspan><tspan x="0" y="290" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">を作成します。</tspan><tspan y="290" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="314"></tspan><tspan x="0" y="338" xml:space="preserve">03.  </tspan><tspan y="338" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">同じフォーマットを使いましょう。時間と場所を確定した</tspan><tspan x="0" y="362" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">ら、各会議の中で回答しようと思ういくつかの質問を考えま</tspan><tspan x="0" y="386" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">す。多くのスタンドアップは、次の</tspan><tspan y="386" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">3</tspan><tspan y="386" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">つの質問に答えることを</tspan><tspan x="0" y="410" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">目的としています。前回のスタンドアップ以来、何を達成しま</tspan><tspan x="0" y="434" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">したか？次回のスタンドアップまでに、何を達成したいです</tspan><tspan x="0" y="458" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400">か？達成を妨げる可能性のある障害は何ですか？</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

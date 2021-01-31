@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>keyboard-tab</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M35.4,22.6l-6.9-7a2.1,2.1,0,0,0-2.7-.2,1.9,1.9,0,0,0-.2,3L29.2,22H6a2,2,0,0,0-2,2H4a2,2,0,0,0,2,2H29.2l-3.6,3.6a1.9,1.9,0,0,0,.2,3,2.1,2.1,0,0,0,2.7-.2l6.9-7A1.9,1.9,0,0,0,35.4,22.6Z"/>
+      <path d="M44,12V36a2,2,0,0,1-4,0V12a2,2,0,0,1,4,0Z"/>
+    </g>
+  </g>
+</svg>

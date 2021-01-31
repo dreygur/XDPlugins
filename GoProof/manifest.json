@@ -1,0 +1,23 @@
+{
+    "id": "a699f8ab",
+    "author": "Oppolis Software Ltd",
+    "name": "GoProof",
+    "description": "The GoProof plugin for Adobe XD brings proofing and collaboration on prototypes into the GoProof ecosystem, enabling app and web designers to manage XD work alongside all their other Adobe Creative Cloud media in an effortless and natural workflow.",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.11"
+    },
+    "icons": [
+        { "width": 48, "height": 48, "path": "Icon.png" }
+    ],
+    "version": "1.2.0",
+    "main": "main.js",
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "GoProof",
+            "commandId": "showUpload",
+            "shortcut": { "mac": "Cmd+Shift+P", "win": "Ctrl+Shift+P" }
+        }
+    ]
+}

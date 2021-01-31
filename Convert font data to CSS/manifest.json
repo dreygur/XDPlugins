@@ -1,0 +1,52 @@
+{
+    "id": "0d8bbfb7",
+    "name": "Convert font data to CSS",
+    "version": "0.0.3",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": {
+                "default": "GET FONT DATA ALL",
+                "ja": "全てのフォントデータを取得"
+            },
+            "commandId": "getFontDataAll",
+            "shortcut": {
+                "mac": "Cmd+Alt+A",
+                "win": "Ctrl+Alt+A"
+            }
+        },
+        {
+            "type": "menu",
+            "label": {
+                "default": "GET CHAR SPACING",
+                "ja": "letter-spacingを取得"
+            },
+            "commandId": "getCharSpacing",
+            "shortcut": {
+                "mac": "Cmd+Alt+C",
+                "win": "Ctrl+Alt+C"
+            }
+        },
+        {
+            "type": "menu",
+            "label": {
+                "default": "GET LINE HEIGHT",
+                "ja": "line-heightを取得"
+            },
+            "commandId": "getLineHeight",
+            "shortcut": {
+                "mac": "Cmd+Alt+L",
+                "win": "Ctrl+Alt+L"
+            }
+        }
+    ]
+  }
+  

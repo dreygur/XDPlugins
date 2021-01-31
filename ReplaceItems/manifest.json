@@ -1,0 +1,32 @@
+{
+  "id": "09c942dd",
+  "name": "ReplaceItems",
+  "author": "sttk3.com",
+  "version":"1.0.1",
+  "icons": [
+    { "width": 48, "height": 48, "path": "images/icon-48.png" },
+    { "width": 96, "height": 96, "path": "images/icon-96.png" }
+  ],
+  "host":{
+    "app":"XD",
+    "minVersion":"21.0"
+  },
+  "uiEntryPoints":[
+    {
+      "type":"menu",
+      "label":"ReplaceItems",
+      "menuItems":[
+        {
+          "type":"menu",
+          "label":"Replace",
+          "commandId":"replaceItems"
+        },
+        {
+          "type":"menu",
+          "label":"Duplicate",
+          "commandId":"duplicateItems"
+        }
+      ]
+    }
+  ]
+}

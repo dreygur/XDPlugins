@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-wave-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M42,40H8V22.2C10,17.1,11.3,14,14,14s4.9,4.9,6.7,9.3S25.3,34,30,34s8.8-6.8,10.9-12.7a2,2,0,0,0-1.2-2.6,2.1,2.1,0,0,0-2.6,1.2C36.2,22.4,33.6,30,30,30c-2.1,0-3.9-4.4-5.6-8.3C22.1,16.2,19.5,10,14,10a7.2,7.2,0,0,0-6,3.2V6A2,2,0,0,0,4,6V44H42a2,2,0,0,0,0-4Z"/>
+    </g>
+  </g>
+</svg>

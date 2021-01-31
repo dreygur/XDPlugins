@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>key-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M40.4,34.6,27.1,21.2A10.8,10.8,0,0,0,29,15,11,11,0,1,0,18,26a10.8,10.8,0,0,0,6.2-1.9l6,5.9-4.6,4.6a1.9,1.9,0,0,0,0,2.8,1.9,1.9,0,0,0,2.8,0L33,32.8,36.2,36l-4.6,4.6a1.9,1.9,0,0,0,0,2.8,1.9,1.9,0,0,0,2.8,0l6-6A1.9,1.9,0,0,0,40.4,34.6ZM11,15a7,7,0,1,1,7,7A7,7,0,0,1,11,15Z"/>
+    </g>
+  </g>
+</svg>

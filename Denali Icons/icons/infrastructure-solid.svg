@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>infrastructure-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <circle cx="24" cy="24" r="2"/>
+      <circle cx="24" cy="16" r="2"/>
+      <circle cx="24" cy="8" r="2"/>
+      <circle cx="24" cy="40" r="2"/>
+      <circle cx="24" cy="32" r="2"/>
+      <circle cx="32" cy="24" r="2"/>
+      <circle cx="40" cy="24" r="2"/>
+      <circle cx="8" cy="24" r="2"/>
+      <circle cx="16" cy="24" r="2"/>
+      <path d="M42,12a4,4,0,0,0-3.5,2H34V9.5a4,4,0,1,0-4,0V18h8.5A4,4,0,1,0,42,12Z"/>
+      <path d="M2,16a4,4,0,0,0,7.5,2H18V9.5a4,4,0,1,0-4,0V14H9.5A4,4,0,0,0,2,16Z"/>
+      <path d="M42,28a4,4,0,0,0-3.5,2H30v8.5a4,4,0,1,0,4,0V34h4.5A4,4,0,1,0,42,28Z"/>
+      <path d="M18,38.5V30H9.5a4,4,0,1,0,0,4H14v4.5a4,4,0,1,0,4,0Z"/>
+    </g>
+  </g>
+</svg>

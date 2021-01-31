@@ -1,0 +1,51 @@
+{
+  "id": "5148e344",
+  "name": "颜色资源管理 for XD",
+  "version": "1.0.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "description": "Translate design specifications into code.",
+  "summary": "Translate design asset to code",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "author": "UIdevelop",
+  "helpUrl": "https://www.wegamedesign.com/",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "theme/images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "theme/images/icon@2x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "theme/images/icon@3x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "theme/images/icon@4x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "theme/images/icon@5x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "token",
+      "panelId": "sassVariable"
+    }
+  ]
+}

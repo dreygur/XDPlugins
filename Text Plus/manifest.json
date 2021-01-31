@@ -1,0 +1,23 @@
+{
+    "id": "966047b1",
+    "name": "Text Plus",
+    "version": "1.0.0",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "icons": [
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@1x.png"
+        }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Modify text",
+            "panelId": "modifyText"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>user-data-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M41,2H7A2.9,2.9,0,0,0,4,5V43a2.9,2.9,0,0,0,3,3H41a2.9,2.9,0,0,0,3-3V5A2.9,2.9,0,0,0,41,2ZM24,5a6,6,0,1,1-6,6A6,6,0,0,1,24,5ZM13,23a18,18,0,0,1,11-4,18,18,0,0,1,11,4v3a2,2,0,0,1-2,2H15a2,2,0,0,1-2-2Zm1,19a2,2,0,1,1,2-2A2,2,0,0,1,14,42Zm0-6a2,2,0,1,1,2-2A2,2,0,0,1,14,36Zm20,6H22a2,2,0,0,1,0-4H34a2,2,0,0,1,0,4Zm0-6H22a2,2,0,0,1,0-4H34a2,2,0,0,1,0,4Z"/>
+    </g>
+  </g>
+</svg>

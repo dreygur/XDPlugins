@@ -1,0 +1,12 @@
+<svg id="Component_15_1" data-name="Component 15 – 1" xmlns="http://www.w3.org/2000/svg" width="183" height="90.5" viewBox="0 0 183 90.5">
+  <path id="Path_8" data-name="Path 8" d="M8,0l8,8H0Z" transform="translate(81.5)" fill="#fc385c"/>
+  <g id="Group_81" data-name="Group 81" transform="translate(-32 -24.5)">
+    <g id="Path_7" data-name="Path 7" transform="translate(32 32)" fill="#fc385c">
+      <path d="M 178 82.5 L 5 82.5 C 2.518681764602661 82.5 0.5 80.48131561279297 0.5 78 L 0.5 5 C 0.5 2.518681764602661 2.518681764602661 0.5 5 0.5 L 178 0.5 C 180.4813232421875 0.5 182.5 2.518681764602661 182.5 5 L 182.5 78 C 182.5 80.48131561279297 180.4813232421875 82.5 178 82.5 Z" stroke="none"/>
+      <path d="M 5 1 C 2.794387817382812 1 1 2.794380187988281 1 5 L 1 78 C 1 80.20561981201172 2.794387817382812 82 5 82 L 178 82 C 180.2056121826172 82 182 80.20561981201172 182 78 L 182 5 C 182 2.794380187988281 180.2056121826172 1 178 1 L 5 1 M 5 0 L 178 0 C 180.7614288330078 0 183 2.238571166992188 183 5 L 183 78 C 183 80.76142883300781 180.7614288330078 83 178 83 L 5 83 C 2.238571166992188 83 0 80.76142883300781 0 78 L 0 5 C 0 2.238571166992188 2.238571166992188 0 5 0 Z" stroke="none" fill="#fc385c"/>
+    </g>
+    <text id="Write_your_description_Here_Tooltip" data-name="Write your description 
+Here
+Tooltip" transform="translate(51 58)" fill="#fff" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Write your description </tspan><tspan x="0" y="20">Here</tspan><tspan x="0" y="40">Tooltip</tspan></text>
+  </g>
+</svg>

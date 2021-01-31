@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102.475" height="19.093" viewBox="0 0 102.475 19.093">
+  <g id="Flowchart_Connector_-_Straight_-_Element" data-name="Flowchart Connector - Straight - Element" transform="translate(0 2.475)">
+    <g id="Element_-_Flowchart_connector_Straight_r_" data-name="Element - Flowchart connector [Straight r]" transform="translate(0 0)" opacity="0.996">
+      <line id="line_color_border_" data-name="line [color_border]" x2="100" transform="translate(0 7)" fill="none" stroke="#101010" stroke-width="3.5"/>
+      <g id="arrow_head" data-name="arrow head" transform="translate(92.929 0) rotate(45)">
+        <line id="line_color_border_2" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+        <line id="line_color_border_3" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

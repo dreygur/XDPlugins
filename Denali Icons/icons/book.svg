@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="44" viewBox="0 0 36 44">
+  <title>book</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M34,8H32V2a2,2,0,0,0-2-2H6A6,6,0,0,0,0,6V38a6,6,0,0,0,6,6H34a2,2,0,0,0,2-2V10A2,2,0,0,0,34,8ZM6,4H28V8H6.1A2.1,2.1,0,0,1,4,6.3,2,2,0,0,1,6,4ZM32,40H6a2,2,0,0,1-2-2V12H32Z"/>
+        <rect x="8" y="16" width="20" height="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

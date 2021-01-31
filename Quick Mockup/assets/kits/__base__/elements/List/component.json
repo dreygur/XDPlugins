@@ -1,0 +1,28 @@
+{
+  "name": "List",
+  "name_ja": "リスト",
+  "allowedProps": ["DISPLAY_ELEMENTS"],
+  "isContainer": true,
+  "UI": [
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "Default" }, { "value": "Card" }],
+      "compLabel": "DISPLAY_ELEMENTS",
+      "defaultValue": "Default"
+    },
+    {
+      "uiType": "childState",
+      "compLabel": "ACTIVE_CHILD",
+      "propName": "STATE",
+      "selectedPropValue": "ACTIVE",
+      "resetPropValue": "DEFAULT",
+      "componentTypes": ["ListItem"]
+    },
+    {
+      "uiType": "addChild",
+      "compLabel": "ADD_CHILD",
+      "componentType": "List Item",
+      "componentsArrangement": "vertical"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>calendar-event-activity</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="icons_Q2" data-name="icons Q2">
+      <rect width="48" height="48" fill="none"/>
+      <g>
+        <circle cx="12" cy="20" r="2"/>
+        <path d="M20,29H36a2,2,0,0,0,0-4H20a2,2,0,0,0,0,4Z"/>
+        <path d="M20,22H36a2,2,0,0,0,0-4H20a2,2,0,0,0,0,4Z"/>
+        <path d="M20,36H36a2,2,0,0,0,0-4H20a2,2,0,0,0,0,4Z"/>
+        <circle cx="12" cy="27" r="2"/>
+        <circle cx="12" cy="34" r="2"/>
+        <path d="M44,4H4A2,2,0,0,0,2,6V42a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V6A2,2,0,0,0,44,4ZM42,40H6V14H42Zm0-30H6V8H42Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

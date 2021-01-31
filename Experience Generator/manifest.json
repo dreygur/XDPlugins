@@ -1,0 +1,56 @@
+{
+    "id": "d122dd61",
+    "name": "Experience Generator",
+    "version":"7.2.0",
+    "description":"Generate entire groups of artboards for each experience and device selected with every artboard needed for that specific experience, and defined sizes for the device resolution.  By combining several experience and device selections, it's able to create complex workflows in a matter of seconds. Support: suporte@unykvis.com",
+    "summary": "Experiences artboard generator",
+    "releaseNotes":"Bug fixing and compatibility with the latest version of Adobe XD.",
+    "keywords":["utility","productivity","batch","artboard","experience","automation","workspace","webdesign"],
+    "languages":["en"],
+    "website":"https://www.unykvis.com/en",
+    "helpUrl":"https://www.unykvis.com/en/contactos",
+    "author": "Unykvis",
+    "icons":[
+        {
+            "width":24,
+            "height":24,
+            "path":"images/icons/icon_24.png"
+        },
+        {
+            "width":48,
+            "height":48,
+            "path":"images/icons/icon_48.png"
+        },
+        {
+            "width":96,
+            "height":96,
+            "path":"images/icons/icon_96.png"
+        },
+        {
+            "width":144,
+            "height":144,
+            "path":"images/icons/icon_144.png"
+        },
+        {
+            "width":192,
+            "height":192,
+            "path":"images/icons/icon_192.png"
+        }
+    ],
+    "host":{
+        "app":"XD",
+        "minVersion":"16.0"
+
+    },
+    "uiEntryPoints":[
+        {
+            "type":"menu",
+            "label": "Experience Generator",
+            "commandId": "experienceGenerator",
+            "shortcut": { 
+                "mac": "Cmd+Alt+G", 
+                "win": "Ctrl+Alt+G" 
+            }
+        }
+    ]
+}

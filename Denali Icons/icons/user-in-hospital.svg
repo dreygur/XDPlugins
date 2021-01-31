@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Medical">
+      <g>
+        <path d="M45.2,33.3a17.4,17.4,0,0,0-20.4,0,1.7,1.7,0,0,0-.8,1.4v5.8A1.6,1.6,0,0,0,25.6,42H44.4A1.6,1.6,0,0,0,46,40.5V34.7A1.7,1.7,0,0,0,45.2,33.3ZM42,38H28V36a13.5,13.5,0,0,1,14,0Z"/>
+        <path d="M35,28a6,6,0,1,0-6-6A6,6,0,0,0,35,28Zm0-8a2,2,0,1,1-2,2A2,2,0,0,1,35,20Z"/>
+        <path d="M26,28V9H22V4H6V9H2V40a2,2,0,0,0,4,0V13h4V8h8v5h4V28a2,2,0,0,0,4,0Z"/>
+        <path d="M15,17h2a1,1,0,0,0,0-2H15V13a1,1,0,0,0-2,0v2H11a1,1,0,0,0,0,2h2v2a1,1,0,0,0,2,0Z"/>
+        <rect x="9" y="22" width="4" height="4"/>
+        <rect x="15" y="22" width="4" height="4"/>
+        <rect x="9" y="28" width="4" height="4"/>
+        <rect x="15" y="28" width="4" height="4"/>
+        <rect x="9" y="34" width="4" height="4"/>
+        <rect x="15" y="34" width="4" height="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

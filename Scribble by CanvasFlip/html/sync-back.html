@@ -1,0 +1,60 @@
+<div id="mainSection" class="page active">
+    <div class="cf-header">
+        <img id="logoHeader" src="">
+    </div>
+    <div class="cf-body">
+        <div id="syncForm" class="active">
+            <div class="cf-body-header">Sync Back Artboards
+                <div class="cf-body-desc">Sync back selected artboards from Scribble project!</div>
+            </div>
+            <div class="cf-body-form">
+                <div class="cf-body-form-body cf-body-form-select">
+                    <label>Select Project</label>
+                    <div id="selectProjectLoading">Loading Projects...</div>
+                    <select id="selectProject" style="display:none;"></select>
+                </div>
+                <div class="cf-body-form-body">
+                    <div class="cf-checkbox">
+                        <label class="cf-checkbox-container">
+                            <input type="checkbox" id="syncAll" name="isSyncAll" value="true" checked/><span>All artboards on active page</span>
+                        </label>
+                        <label class="cf-checkbox-container">
+                            <input type="checkbox" id="syncSelected" name="isSyncAll" value="false"/><span>Only selected artboards</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="cf-body-form-body">
+                    <div id="syncBtn" class="btn">Sync Back</div>
+                    <div id="error">No artboards selected.</div>
+                    <div id="cfProgressBar" class="loader-progress">
+                        <div id="cfProgress"></div>
+                        <div id="cfProgressFilled"></div>                               
+                        <div id="cfProgressPercentage">Syncing Artboards...<span id="cfProgressPercentageValue">0</span>%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cf-footer">
+        <a id="logoutBtn">Logout</a>
+        <div id="close">
+            <a>Close Scribble</a>
+        </div>
+    </div>
+</div>
+<div id="loadSection" class="page">
+    <div>
+        <div>
+            <div class="btn-loader"></div>
+            <div class="btn-loader-text">Please Wait</div>
+        </div>
+    </div>
+</div>
+<div id="updateSection" class="page">
+    <div>
+        <div>
+            <p class="cf-body-header">This plugin is out of date.</p>
+            <button id="getLatestPlugin" class="btn btn-primary">Get latest plugin</button>
+        </div>
+    </div>
+</div>

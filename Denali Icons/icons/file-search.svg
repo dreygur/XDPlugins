@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>file-search</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <path d="M32,25a2,2,0,0,0-2-2H14a2,2,0,0,0,0,4H30A2,2,0,0,0,32,25Z"/>
+        <path d="M14,31a2,2,0,0,0,0,4h8a2,2,0,0,0,0-4Z"/>
+        <path d="M36,42H8V8H18a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2H6A2,2,0,0,0,4,6V44a2,2,0,0,0,2,2H38a2,2,0,0,0,2-2V28a2,2,0,0,0-2-2h0a2,2,0,0,0-2,2Z"/>
+        <path d="M45.4,22.6l-5.1-5.1A9.7,9.7,0,0,0,42,12a10,10,0,0,0-20,0,9.9,9.9,0,0,0,.5,3H14a2,2,0,0,0,0,4H24.9A10.1,10.1,0,0,0,32,22a9.7,9.7,0,0,0,5.5-1.7l5.1,5.1a1.9,1.9,0,0,0,2.8,0A1.9,1.9,0,0,0,45.4,22.6ZM26,12a6,6,0,1,1,6,6A6,6,0,0,1,26,12Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

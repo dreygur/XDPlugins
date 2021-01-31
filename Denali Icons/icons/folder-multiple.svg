@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>folder-multiple</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M44,10H29L24,5H12a2,2,0,0,0-2,2v6H4a2,2,0,0,0-2,2V41a2,2,0,0,0,2,2H36a2,2,0,0,0,2-2V35h6a2,2,0,0,0,2-2V12A2,2,0,0,0,44,10ZM34,39H6V17h8.3l5,5H34Zm8-8H38V20a2,2,0,0,0-2-2H21l-5-5H14V9h8.3l5,5H42Z"/>
+    </g>
+  </g>
+</svg>

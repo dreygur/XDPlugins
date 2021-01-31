@@ -1,0 +1,35 @@
+{
+  "id": "dd27f87f",
+  "name": "Brandfetch",
+  "author": "Brandfetch",
+  "description": "The brand search engine",
+  "summary": "Search from millions of logos, colors, fonts, and more.",
+  "version": "2.0.1",
+  "helpUrl": "https://brandfetch.io/plugins/adobe-xd",
+  "host": {
+    "app": "XD",
+    "minVersion": "26.0"
+  },
+  "languages": ["en"],
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "./imgs/icon_24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "./imgs/icon_48.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Brandfetch",
+      "panelId": "panelController"
+    }
+  ],
+
+  "shortcut": { "mac": "Cmd+B", "win": "Ctrl+B" }
+}

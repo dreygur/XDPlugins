@@ -1,0 +1,59 @@
+{
+  "id": "a7a661fe",
+  "name": "Texts Selector",
+  "version": "1.0.2",
+  "description": "By this plugin, you can select all text elements from selected items. You can easily change the font face, size, and color of multiple text elements at once.",
+  "summary": "Select only text elements",
+  "keywords": [
+    "text",
+    "selection"
+  ],
+  "languages": [
+    "en",
+    "ja"
+  ],
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@0.5x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon@2x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon@3x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon@4x.png"
+    }
+  ],
+  "website": "http://omoon.org",
+  "author": "omoon",
+  "helpUrl": "http://omoon.org",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": {
+        "default": "Texts Selector",
+        "ja": "テキスト要素のみ選択"
+      },
+      "commandId": "selectTexts"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "STATE": "ステータス",
+  "IDLE": "初期設定",
+  "HOVER": "ホバー",
+  "ACTIVE": "アクティブ",
+  "DISABLED": "無効",
+  "ERROR": "エラー",
+  "STYLE": "スタイル",
+  "PRIMARY": "プライマリ",
+  "DEFAULT": "初期設定",
+  "SECONDARY": "セカンダリ",
+  "GHOST": "ゴースト",
+  "LABEL": "ラベル",
+  "SIZE": "サイズ",
+
+  "SELECT": "変更",
+  "IMAGE_NOT_DISPLAYED": "画像を表示できませんでした",
+  "ON": "オン",
+  "OFF": "オフ",
+
+  "ELEMENTS": "エレメント",
+  "ELEMENTS_UPPER": "エレメント",
+
+  "RESET_DEFAULT": "初期設定に戻す",
+  "RESET": "リセット",
+
+  "ICON": "アイコン",
+  "ICON_TYPE": "アイコン",
+  "ALL_ICONS": "すべてのアイコン",
+
+  "BACK": "戻る",
+  "UI_KIT": "UI キット",
+  "SETTINGS": "設定",
+  "ALL_ITEMS": "すべての項目",
+  "ITEMS": "アイテム",
+  "H1": "H1",
+  "H2": "H2",
+  "H3": "H3",
+  "H4": "H4",
+  "H5": "H5",
+  "H6": "H6",
+  "PLACEHOLDER_TEXT": "ヘッダー",
+  "PLACEHOLDER_TEXT_PARAGRAPH": "山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。とかくに人の世は住みにくい。住みにくさが高じると、安い所へ引き越したくなる。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。",
+  "P": "P",
+  "A": "A",
+  "AVATAR": "アバター",
+  "TYPE": "テキスト",
+  "SEARCH": "検索",
+  "MODE": "モード",
+
+  "ICONS": {
+    "PLUS": "プラス",
+    "CROSS": "クロス",
+    "PEN": "ペン",
+    "LENS": "レンズ",
+    "ARROWT": "上矢印",
+    "ARROWR": "右矢印",
+    "ARROWB": "下矢印",
+    "ARROWL": "左矢印",
+    "PLAY": "再生",
+    "PAUSE": "一時停止",
+    "VOLUME": "ボリューム",
+    "CHECK": "チェック",
+    "MENU": "メニュー"
+  },
+
+  "UI": {
+    "INPUT_DEFAULT_LABEL": "ラベル",
+    "INPUT_DEFAULT_VALUE": "バリュー"
+  },
+
+  "TAG": "タグ",
+  "FEEDBACK": "フィードバック",
+  "CUSTOM": "カスタム",
+  "WARNING_LABEL": "警告",
+  "OK_BUTTON": "OK",
+  "SELECT_ARTBOARD": "アートボードを選択してください",
+
+  "DISPLAY_ELEMENTS": "表示",
+
+  "NAV_ELEMENTS": "個のエレメント",
+  "NAV_FUNCTIONS": "モジュール",
+  "NAV_TEMPLATES": "テンプレート",
+
+  "EXPORTER_NAV_EXPORT": "エクスポート",
+  "EXPORTER_NAV_PREVIEW": "プレビュー",
+
+  "SWITCH_THEME_UPPER": "テーマを変更",
+  "PICK_THEME_TITLE": "テーマを選択",
+  "PICK_THEME_DESCRIPTION": "テーマはプロジェクトの外観を定義します。テーマはいつでも変更できます。",
+  "SWITCH_THEME_TITLE": "テーマを変更",
+  "SWITCH_THEME_DESCRIPTION": "選択したアートボードに適用するテーマを選択してください",
+  "SWITCH_THEME": "テーマ",
+
+  "ACTIVE_CHILD": "アクティブアイテム",
+  "ADD_CHILD": "アイテムを追加",
+  "DONE": "完了",
+
+  "SWITCH_SELECT_ARTBOARD_ALERT": "まずアートボードを選択してください",
+  "PLATFORM": "デバイス",
+  "STYLE1": "メイン",
+  "STYLE2": "一次",
+  "STYLE3": "二次",
+  "XSMALL": "XSmall",
+  "MEDIUM": "Medium",
+  "SMALL": "Small",
+  "LARGE": "Large",
+  "CARD": "カード",
+  "FLAT": "フラット",
+  "PLACEHOLDER": "プレースホルダー",
+
+  "HERO": "ヒーロー",
+  "PANEL": "パネル",
+  "VALUE": "値",
+  "LABEL+ICON": "ラベル+アイコン"
+}

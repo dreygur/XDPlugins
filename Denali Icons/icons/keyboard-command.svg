@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>keyboard-command</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M37,46a9,9,0,0,1-9-9V32H20v5a9,9,0,1,1-9-9h5V20H11a9,9,0,1,1,9-9v5h8V11a9,9,0,1,1,9,9H32v8h5a9,9,0,0,1,0,18ZM32,32v5a5,5,0,1,0,5-5ZM11,32a5,5,0,1,0,5,5V32Zm9-4h8V20H20ZM32,16h5a5,5,0,1,0-5-5ZM11,6a5,5,0,0,0,0,10h5V11A5,5,0,0,0,11,6Z"/>
+    </g>
+  </g>
+</svg>

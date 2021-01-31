@@ -1,0 +1,61 @@
+{
+  "id": "6228aed2",
+  "author": "Em Software",
+  "name": "Docs 2 Design",
+  "version": "1.0.5",
+  "host": {
+    "app": "XD",
+    "minVersion": "30.0"
+  },
+  "description": "Connect documents to designs",
+  "keywords": [
+    "document",
+    "design",
+    "connect",
+    "localization",
+    "translation",
+    "Word",
+    "Excel",
+    "Google Docs",
+    "sheet",
+    "variants",
+    "versions"
+  ],
+  "summary": "Connect documents to designs",
+  "languages": ["en"],
+  "helpUrl": "http://emsoftware.com/xdplugins/docs-2-design/",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon@3x.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon@4x.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon@5x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Docs 2 Design",
+      "panelId": "docs2DesignPanel"
+    }
+  ]
+}

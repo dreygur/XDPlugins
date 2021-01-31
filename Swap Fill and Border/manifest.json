@@ -1,0 +1,24 @@
+{
+  "name" : "Swap Fill and Border",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "Swap Fill and Border is a plugin that allows you to switch fill and border colors in a moment. You can save your time and let you focus on the UI that really matters",
+  "id" : "eddfdae4",
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+    "label": "Swap Fill and Border",
+    "type": "menu",
+    "commandId": "myPluginCommand",
+    "shortcut": {
+      "mac": "Cmd+Shift+x",
+      "win": "Ctrl+Shift+x"
+    }
+  } ],
+  "version" : "1.0.4"
+}

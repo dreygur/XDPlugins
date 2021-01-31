@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-bar-horizontal</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M6,4H6A2,2,0,0,1,8,6V42a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2V6A2,2,0,0,1,6,4Zm6,30v4H28a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2Zm0-24v4H42a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2Zm0,16v4H34a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2Zm0-8v4H25a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2Z"/>
+    </g>
+  </g>
+</svg>

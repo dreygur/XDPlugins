@@ -1,0 +1,35 @@
+{
+  "name": "Circle Button",
+  "name_ja": "サークルボタン",
+  "UI": [
+    {
+      "uiType": "select",
+      "optionList": [{ "value": "STYLE1" }, { "value": "STYLE2" }, { "value": "STYLE3" }],
+      "compLabel": "STYLE",
+      "defaultValue": "STYLE1"
+    },
+    {
+      "uiType": "select",
+      "optionList": [
+        { "value": "DEFAULT" },
+        { "value": "ACTIVE" },
+        { "value": "HOVER" },
+        { "value": "DISABLED" },
+        { "value": "ERROR" }
+      ],
+      "compLabel": "STATE"
+    },
+    {
+      "uiType": "icon",
+      "compLabel": "ICON",
+      "defaultValue": "feather/heart",
+      "inheritFrom": "Icon"
+    },
+    {
+      "uiType": "Select",
+      "optionList": [{ "value": "XSMALL" }, { "value": "SMALL" }, { "value": "MEDIUM" }, { "value": "LARGE" }],
+      "compLabel": "SIZE",
+      "defaultValue": "MEDIUM"
+    }
+  ]
+}

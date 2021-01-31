@@ -1,0 +1,50 @@
+{
+    "label": "How to use this plugin?",
+    "id": "cad9f183",
+    "name": "Vempathy",
+    "version": "1.0.2",
+    "description": "Get feedback on your design where it matters: users emotional reactions. With the Vempathy plugin you will build better digital experiences with rapid customer feedback and analysis powered by artificial intelligence. You will see exactly when participants express different emotions while interacting with your designs.\n\nBy combining artificial intelligence analysis of facial expressions, paralinguistics, and sentiment, Vempathy is the most accurate user experience research platform on the market. The Vempathy plugin for Adobe XD brings the power of Vempathy’s advanced feedback reporting right within your existing design workflow.\n\nTo get started, add your Adobe XD prototype to the plugin, and Vempathy will walk you through the rest. Try Vempathy with your first UX test free!\n\nVisit http://vempathy.com to learn more.",
+    "summary": "Faster user testing.",
+    "releaseNotes": "Improved new user experience!",
+    "keywords": [
+        "testing",
+        "user testing",
+        "feedback",
+        "research"
+    ],
+    "languages": [
+        "en"
+    ],
+    "website": "https://vempathy.tech/plugins/adobe-xd/",
+    "author": "Vempathy Inc.",
+    "helpUrl": "https://vempathy.tech/plugins/adobe-xd/",
+    "icons": [
+        { "width": 48, "height": 48, "path": "images/VempathyIconAdobeXD48.jpg" },
+        { "width": 96, "height": 96, "path": "images/VempathyIconAdobeXD96.jpg" },
+        { "width": 144, "height": 144, "path": "images/VempathyIconAdobeXD144.jpg" },
+        { "width": 192, "height": 192, "path": "images/VempathyIconAdobeXD192.jpg" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "14.0",
+        "maxVersion": "99.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Vempathy",
+            "menuItems": [
+                {
+                    "type": "menu",
+                    "label": "Vempathy",
+                    "commandId": "menuCommand"
+                },
+                {
+                    "type": "menu",
+                    "label": "How to use this plugin?",
+                    "commandId": "useCommand"
+                }
+            ]
+        }
+    ]
+}

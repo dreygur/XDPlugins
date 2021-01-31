@@ -1,0 +1,35 @@
+{
+  "id": "913f32dd",
+  "name": "Google Sheets",
+  "author": "Impekable",
+  "version": "1.0.5",
+  "description": "The Google Sheets plugin for Adobe XD enables designers within XD to enrich their designs with real content and data from Google Sheets. This allows collaboration with other team members to create dynamic designs, right from XD. Either use a public link or .CSV file to enrich designs with dynamic content. The refresh tool allows designers to easily update designs with updates in the Google Sheet, making collaboration easy. Created and built by Impekable and Clade Design. Reach out to GoogleSheetsforAdobeXD@Impekable.com with any questions, bugs or concerns.",
+  "icons": [
+    {
+      "width": 48,
+      "height": 48,
+      "path": "assets/icon-48x48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "assets/icon-96x96.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "assets/icon-192x192.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "28.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Google Sheets Panel",
+      "panelId": "PanelSelectArtboard"
+    }
+  ]
+}

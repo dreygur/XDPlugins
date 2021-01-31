@@ -1,0 +1,166 @@
+{
+    "name": "Selection",
+	"id": "c137efc3",
+	"version": "1.1.3",
+
+    "host":
+	{
+        "app": "XD",
+        "minVersion": "14.0"
+    },
+
+    "icons":
+    [
+        {
+            "width": 24,
+            "height": 24,
+            "path":"img/icon_24.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path":"img/icon_48.png"
+        }
+    ],
+		
+     "uiEntryPoints":
+     [
+         {
+             "type": "menu",
+             "label": "Selection",
+             "menuItems":
+             [
+                {
+                    "type": "menu",
+                    "label": "Fill",
+                    "commandId": "selectSameFill"
+                },
+                {
+                    "type": "menu",
+                    "label": "Border",
+                    "commandId": "selectSameStroke"
+                },
+                {
+                    "type": "menu",
+                    "label": "Border Color",
+                    "commandId": "selectSameStrokeColor"
+                },
+                {
+                    "type": "menu",
+                    "label": "Border Size",
+                    "commandId": "selectSameStrokeWidth"
+                },
+                {
+                    "type": "menu",
+                    "label": "Fill & Border",
+                    "commandId": "selectSameFillAndStroke"
+                },
+                {
+                    "type": "menu",
+                    "label": "Fill & Border Color",
+                    "commandId": "selectSameFillAndStrokeColor"
+                },
+                {
+                    "type": "menu",
+                    "label": "Fill & Border Size",
+                    "commandId": "selectSameFillAndStrokeWidth"
+                },
+                {
+                    "type": "menu",
+                    "label": "Opacity",
+                    "commandId": "selectSameOpacity"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font",
+                    "commandId": "selectSameFont"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font Size",
+                    "commandId": "selectSameFontSize"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font & Font Size",
+                    "commandId": "selectSameFontAndFontSize"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font & Color",
+                    "commandId": "selectSameFontAndColor"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font & Font Size & Color",
+                    "commandId": "selectSameFontAndFontSizeAndColor"
+                },
+                {
+                    "type": "menu",
+                    "label": "Fill • global",
+                    "commandId": "selectSameFillGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Border • global",
+                    "commandId": "selectSameStrokeGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Border Color • global",
+                    "commandId": "selectSameStrokeColorGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Border Size • global",
+                    "commandId": "selectSameStrokeWidthGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Fill & Border • global",
+                    "commandId": "selectSameFillAndStrokeGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Fill & Border Color • global",
+                    "commandId": "selectSameFillAndStrokeColorGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Fill & Border Size • global",
+                    "commandId": "selectSameFillAndStrokeWidthGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Opacity • global",
+                    "commandId": "selectSameOpacityGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font • global",
+                    "commandId": "selectSameFontGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font Size • global",
+                    "commandId": "selectSameFontSizeGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font & Font Size • global",
+                    "commandId": "selectSameFontAndFontSizeGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font & Color • global",
+                    "commandId": "selectSameFontAndColorGlobally"
+                },
+                {
+                    "type": "menu",
+                    "label": "Font & Font Size & Color • global",
+                    "commandId": "selectSameFontAndFontSizeAndColorGlobally"
+                }
+             ]
+         }
+     ]
+}

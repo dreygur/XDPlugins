@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-MindMap_1.0_Template">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="MindMap_1.0_Template" data-name="MindMap 1.0 Template" clip-path="url(#clip-MindMap_1.0_Template)">
+    <rect width="1920" height="1080" fill="#f7f7f7"/>
+    <g id="Mindmap_Block_Element" data-name="Mindmap Block Element" transform="translate(480 380)">
+      <g id="background_color_border_" data-name="background [color_border]" fill="#fff" stroke="#fd88d1" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-80.41" y="0">Product Features</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-2" data-name="Mindmap Block Element" transform="translate(1580 260)">
+      <g id="background_color_border_2" data-name="background [color_border]" fill="#fff" stroke="#8484f3" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-2" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-3" data-name="Mindmap Block Element" transform="translate(1580 660)">
+      <g id="background_color_border_3" data-name="background [color_border]" fill="#fff" stroke="#7ee1ff" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-3" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-4" data-name="Mindmap Block Element" transform="translate(1580 780)">
+      <g id="background_color_border_4" data-name="background [color_border]" fill="#fff" stroke="#7ee1ff" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-4" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-5" data-name="Mindmap Block Element" transform="translate(1580 900)">
+      <g id="background_color_border_5" data-name="background [color_border]" fill="#fff" stroke="#7ee1ff" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-5" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-6" data-name="Mindmap Block Element" transform="translate(120 380)">
+      <g id="background_color_border_6" data-name="background [color_border]" fill="#fff" stroke="#fd88d1" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-6" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-7" data-name="Mindmap Block Element" transform="translate(120 260)">
+      <g id="background_color_border_7" data-name="background [color_border]" fill="#fff" stroke="#fd88d1" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-7" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-8" data-name="Mindmap Block Element" transform="translate(120 500)">
+      <g id="background_color_border_8" data-name="background [color_border]" fill="#fff" stroke="#fd88d1" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-8" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-9" data-name="Mindmap Block Element" transform="translate(480 780)">
+      <g id="background_color_border_9" data-name="background [color_border]" fill="#fff" stroke="#ffd86f" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-9" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-76.43" y="0">User Pain Points</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-10" data-name="Mindmap Block Element" transform="translate(840 580)">
+      <g id="background_color_border_10" data-name="background [color_border]" fill="#fff" stroke="#101010" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-10" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-66.5" y="0">Awesome App</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-11" data-name="Mindmap Block Element" transform="translate(1220 380)">
+      <g id="background_color_border_11" data-name="background [color_border]" fill="#fff" stroke="#8484f3" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-11" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-81.84" y="0">Biz Requirements</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-12" data-name="Mindmap Block Element" transform="translate(1220 780)">
+      <g id="background_color_border_12" data-name="background [color_border]" fill="#fff" stroke="#7ee1ff" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-12" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-94.89" y="0">Tech Considerations</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-13" data-name="Mindmap Block Element" transform="translate(1580 380)">
+      <g id="background_color_border_13" data-name="background [color_border]" fill="#fff" stroke="#8484f3" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-13" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-14" data-name="Mindmap Block Element" transform="translate(1580 500)">
+      <g id="background_color_border_14" data-name="background [color_border]" fill="#fff" stroke="#8484f3" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-14" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-15" data-name="Mindmap Block Element" transform="translate(120 720)">
+      <g id="background_color_border_15" data-name="background [color_border]" fill="#fff" stroke="#ffd86f" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-15" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Block_Element-16" data-name="Mindmap Block Element" transform="translate(120 840)">
+      <g id="background_color_border_16" data-name="background [color_border]" fill="#fff" stroke="#ffd86f" stroke-width="3">
+        <rect width="240" height="60" rx="12" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="57" rx="10.5" fill="none"/>
+      </g>
+      <text id="label-16" data-name="label" transform="translate(120 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-25.9" y="0">Label</tspan></text>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element" data-name="Mindmap Connector - Top - Element" transform="translate(720 410)" opacity="0.5">
+      <path id="line_color_border_" data-name="line [color_border]" d="M7009-788s-30.461-2.469-60.2-99.96S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element" data-name="Mindmap Connector Element" transform="translate(720 610)" opacity="0.5">
+      <path id="line_color_border_2" data-name="line [color_border]" d="M6889-788s30.46-2.469,60.2-99.96S7009-988,7009-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-2" data-name="Mindmap Connector - Top - Element" transform="translate(1079.297 410)" opacity="0.5">
+      <path id="line_color_border_3" data-name="line [color_border]" d="M6889-788s35.791-2.469,70.734-99.96S7030-988,7030-988" transform="translate(-6889 988)" fill="none" stroke="#8484f3" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-2" data-name="Mindmap Connector Element" transform="translate(1080 610)" opacity="0.5">
+      <path id="line_color_border_4" data-name="line [color_border]" d="M7029-788s-35.537-2.469-70.232-99.96S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#7ee1ff" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-3" data-name="Mindmap Connector - Top - Element" transform="translate(360 290)" opacity="0.498">
+      <path id="line_color_border_5" data-name="line [color_border]" d="M7009-868s-30.461-1.482-60.2-59.976S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-3" data-name="Mindmap Connector Element" transform="translate(360 410)" opacity="0.498">
+      <path id="line_color_border_6" data-name="line [color_border]" d="M7009-987.5s-30.461-.006-60.2-.25S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-4" data-name="Mindmap Connector Element" transform="translate(360 410)" opacity="0.498">
+      <path id="line_color_border_7" data-name="line [color_border]" d="M6889-868s30.46-1.482,60.2-59.976S7009-988,7009-988" transform="translate(-6889 988)" fill="none" stroke="#fd88d1" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-5" data-name="Mindmap Connector Element" transform="translate(360 812)" opacity="0.498">
+      <path id="line_color_border_8" data-name="line [color_border]" d="M6889-930s30.46-.716,60.2-28.988S7009-988,7009-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-4" data-name="Mindmap Connector - Top - Element" transform="translate(360 750)" opacity="0.498">
+      <path id="line_color_border_9" data-name="line [color_border]" d="M7009-926s-30.461-.766-60.2-30.988S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-6" data-name="Mindmap Connector Element" transform="translate(1460 410)" opacity="0.498">
+      <path id="line_color_border_10" data-name="line [color_border]" d="M7009-868s-30.461-1.482-60.2-59.976S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#8484f3" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-7" data-name="Mindmap Connector Element" transform="translate(1460 811)" opacity="0.498">
+      <path id="line_color_border_11" data-name="line [color_border]" d="M7009-873s-30.461-1.42-60.2-57.477S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#7ee1ff" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-8" data-name="Mindmap Connector Element" transform="translate(1460 409.5)" opacity="0.498">
+      <path id="line_color_border_12" data-name="line [color_border]" d="M7009-987.5s-30.461-.006-60.2-.25S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#8484f3" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_Element-9" data-name="Mindmap Connector Element" transform="translate(1460 810.5)" opacity="0.498">
+      <path id="line_color_border_13" data-name="line [color_border]" d="M7009-987.5s-30.461-.006-60.2-.25S6889-988,6889-988" transform="translate(-6889 988)" fill="none" stroke="#7ee1ff" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-5" data-name="Mindmap Connector - Top - Element" transform="translate(1460 290)" opacity="0.498">
+      <path id="line_color_border_14" data-name="line [color_border]" d="M6889-868s30.46-1.482,60.2-59.976S7009-988,7009-988" transform="translate(-6889 988)" fill="none" stroke="#8484f3" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Mindmap_Connector_-_Top_-_Element-6" data-name="Mindmap Connector - Top - Element" transform="translate(1460 686)" opacity="0.498">
+      <path id="line_color_border_15" data-name="line [color_border]" d="M6889-863s30.46-1.543,60.2-62.475S7009-988,7009-988" transform="translate(-6889 988)" fill="none" stroke="#7ee1ff" stroke-linecap="round" stroke-width="3.5"/>
+    </g>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">An invention by BBC TV host Tony Buzan in 1974 for his show “Use Your Head”, mind maps are a popular</tspan><tspan x="0" y="22">way to show relationships among pieces, often created around a single concept.</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Mind Map - All Blocks</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-109.456" y="0">24 March 2020</tspan></text>
+      <text id="Project_Name" data-name="Project Name" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-101.056" y="0">Project Name</tspan></text>
+    </g>
+  </g>
+</svg>

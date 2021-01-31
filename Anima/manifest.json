@@ -1,0 +1,30 @@
+{
+  "id": "542412cd",
+  "name": "Anima",
+  "version": "1.0.26",
+  "description": "Create responsive, interactive High-Fidelity Prototypes, and Export HTML, all inside XD",
+  "summary": "Create high-fidelity prototypes and export HTML",
+  "languages": ["en"],
+  "author": "Anima",
+  "website": "https://www.animaapp.com",
+  "helpUrl": "https://www.animaapp.com/support",
+  "keywords": ["design system", "styleguide", "export", "html", "css", "prototype", "prototypes", "code"],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "icons": [
+    {
+      "path": "icon.png",
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Anima",
+      "panelId": "animaPanel"
+    }
+  ]
+}

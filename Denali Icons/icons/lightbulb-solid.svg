@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>lightbulb-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <path d="M17,42a2.1,2.1,0,0,0,.8,1.6L21,46h6l3.2-2.4A2.1,2.1,0,0,0,31,42V40H17Zm0-8v2H31V34ZM38.9,15C38.3,9.4,33.3,3.8,27.6,2.4A14.7,14.7,0,0,0,24,2,14.9,14.9,0,0,0,9,16.1a14.5,14.5,0,0,0,4.3,10.8A19.5,19.5,0,0,1,15.7,30H32.3a15,15,0,0,1,2.4-3A14.7,14.7,0,0,0,38.9,15Z"/>
+    </g>
+  </g>
+</svg>

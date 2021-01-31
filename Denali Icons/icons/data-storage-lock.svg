@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>data-storage-lock</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <circle cx="38" cy="36" r="2"/>
+        <circle cx="32" cy="36" r="2"/>
+        <circle cx="38" cy="24" r="2"/>
+        <circle cx="32" cy="24" r="2"/>
+        <path d="M44,4H4A2,2,0,0,0,2,6V18a2,2,0,0,0,2,2H42v8H28a2,2,0,0,0,0,4H42v8H28a2,2,0,0,0,0,4H44a2,2,0,0,0,2-2V6A2,2,0,0,0,44,4ZM42,16H6V8H42Z"/>
+        <circle cx="38" cy="12" r="2"/>
+        <circle cx="32" cy="12" r="2"/>
+        <path d="M20,29H19A6,6,0,0,0,7,29H6a2,2,0,0,0-2,2V43a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V31A2,2,0,0,0,20,29Zm-7-2a2,2,0,0,1,2,2H11A2,2,0,0,1,13,27Zm5,14H8V33H18Z"/>
+        <rect x="12" y="35" width="2" height="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

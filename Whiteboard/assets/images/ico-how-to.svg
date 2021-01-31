@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="__Panel_UI_-_Icon_How_to_" data-name="__Panel UI - Icon [How to]" transform="translate(-264 -925)">
+    <rect id="area" width="30" height="30" transform="translate(264 925)" fill="#fff" opacity="0"/>
+    <g id="Ellipse_20197" data-name="Ellipse 20197" transform="translate(268 929)" fill="none" stroke="#909090" stroke-width="2">
+      <circle cx="11" cy="11" r="11" stroke="none"/>
+      <circle cx="11" cy="11" r="10" fill="none"/>
+    </g>
+    <line id="Line_81" data-name="Line 81" y2="4" transform="translate(279 940)" fill="none" stroke="#909090" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Ellipse_20201" data-name="Ellipse 20201" cx="1" cy="1" r="1" transform="translate(278 935)" fill="#909090" stroke="#909090" stroke-linecap="round" stroke-width="0.25"/>
+  </g>
+</svg>

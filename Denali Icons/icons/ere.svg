@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_7" data-name="Layer 7">
+      <g>
+        <path d="M2,37a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V35H2Z"/>
+        <path d="M44,9H4a2,2,0,0,0-2,2v2H46V11A2,2,0,0,0,44,9Z"/>
+        <polygon points="14 28 6 28 6 26 14 26 14 22 6 22 6 20 14 20 14 16 2 16 2 32 14 32 14 28"/>
+        <polygon points="34 32 46 32 46 28 38 28 38 26 46 26 46 22 38 22 38 20 46 20 46 16 34 16 34 32"/>
+        <path d="M31,21a5,5,0,0,0-5-5H17V32h4V26h1a5,5,0,0,1,5,5v1h4V31a9,9,0,0,0-2.2-5.9A5,5,0,0,0,31,21Zm-5,1H21V20h5a1,1,0,0,1,0,2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+{
+    "id": "903a8b8e",
+    "name": "Stipo Components Library for XD",
+    "version": "0.0.6",
+    "description":"Stipo lets you store all components of your XD design in one library to access anytime.",
+    "icons":[
+        {
+            "width":24,
+            "height":24,
+            "path":"images/icon24.png"
+        },
+        {
+            "width":48,
+            "height":48,
+            "path":"images/icon48.png"
+        },
+        {
+            "width":96,
+            "height":96,
+            "path":"images/icon96.png"
+        },
+        {
+            "width":512,
+            "height":512,
+            "path":"images/icon512.png"
+        }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.11.19"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Stipo Components Library for XD",
+            "menuItems": [
+                {
+                    "type": "menu",
+                    "label": "Open library",
+                    "commandId": "openLibrary",
+                    "shortcut": { "mac": "Cmd+Shift+L", "win": "Ctrl+Shift+L" }
+                },
+                {
+                    "type": "menu",
+                    "label": "Add to library",
+                    "commandId": "addToLibrary",
+                    "shortcut": { "mac": "Cmd+Shift+N", "win": "Ctrl+Shift+N" }
+                },
+                {
+                    "type": "menu",
+                    "label": "Paste Component",
+                    "commandId": "addToCanvas",
+                    "shortcut": { "mac": "Cmd+Shift+P", "win": "Ctrl+Shift+P" }
+                },
+                {
+                    "type": "menu",
+                    "label": "Help",
+                    "commandId": "openHelpDialog"
+                },
+                {
+                    "type": "menu",
+                    "label": "More details",
+                    "commandId": "openStipoPage"
+                }
+                
+            ]
+        }
+    ]
+}

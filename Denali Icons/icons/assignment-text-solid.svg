@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>assignment-text-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M40,6H36V4a2,2,0,0,0-2-2H13a2,2,0,0,0-2,2V6H8A2,2,0,0,0,6,8V44a2,2,0,0,0,2,2H40a2,2,0,0,0,2-2V8A2,2,0,0,0,40,6ZM25.4,35.4A2,2,0,0,1,24,36H16a2,2,0,0,1-2-2,2.1,2.1,0,0,1,2-2h8a2,2,0,0,1,2,2A2,2,0,0,1,25.4,35.4Zm8-8A2,2,0,0,1,32,28H16a2,2,0,0,1-2-2,2.1,2.1,0,0,1,2-2H32a2,2,0,0,1,2,2A2,2,0,0,1,33.4,27.4Zm0-8A2,2,0,0,1,32,20H16a2,2,0,0,1-2-2,2.1,2.1,0,0,1,2-2H32a2,2,0,0,1,2,2A2,2,0,0,1,33.4,19.4Z"/>
+    </g>
+  </g>
+</svg>

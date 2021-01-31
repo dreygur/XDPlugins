@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>nodes</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <path d="M36,19.4v-9L24,2,12,10.4v9l-10,7V37.6L14,46l10-7.1L34,46l12-8.5V26.4Zm-14,16-8,5.7L6,35.5v-7l7.9-5.6L22,28.6Zm-6-16V12.5l8-5.6,8,5.6v6.9L24,25Zm26,16-8,5.7-8-5.6V28.6l8-5.7,8,5.6Z"/>
+    </g>
+  </g>
+</svg>

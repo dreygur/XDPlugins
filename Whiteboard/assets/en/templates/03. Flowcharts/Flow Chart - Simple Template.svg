@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Flow_Chart_-_Simple_Template">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Flow_Chart_-_Simple_Template" data-name="Flow Chart - Simple Template" clip-path="url(#clip-Flow_Chart_-_Simple_Template)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="Flowchart_Connector_-_Straight_-_Element" data-name="Flowchart Connector - Straight - Element" transform="translate(670 584)">
+      <g id="Element_-_Flowchart_connector_Straight_r_" data-name="Element - Flowchart connector [Straight r]" transform="translate(0 0)" opacity="0.996">
+        <line id="line_color_border_" data-name="line [color_border]" x2="100" transform="translate(0 7)" fill="none" stroke="#ffd86f" stroke-width="3.5"/>
+        <g id="arrow_head" data-name="arrow head" transform="translate(92.929 0) rotate(45)">
+          <line id="line_color_border_2" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+          <line id="line_color_border_3" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#ffd86f" stroke-linecap="round" stroke-width="3.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Flowchart_Connector_-_Straight_-_Element-2" data-name="Flowchart Connector - Straight - Element" transform="translate(970 584)">
+      <g id="Element_-_Flowchart_connector_Straight_r_2" data-name="Element - Flowchart connector [Straight r]" transform="translate(0 0)" opacity="0.996">
+        <line id="line_color_border_4" data-name="line [color_border]" x2="100" transform="translate(0 7)" fill="none" stroke="#101010" stroke-width="3.5"/>
+        <g id="arrow_head-2" data-name="arrow head" transform="translate(92.929 0) rotate(45)">
+          <line id="line_color_border_5" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+          <line id="line_color_border_6" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#101010" stroke-linecap="round" stroke-width="3.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Flowchart_Connector_-_Turn_-_Element" data-name="Flowchart Connector - Turn - Element" transform="translate(1050 402.858)">
+      <path id="line_color_border_7" data-name="line [color_border]" d="M489,100H389V200" transform="translate(200 -381.858) rotate(90)" fill="none" stroke="#ff80ac" stroke-width="3.5"/>
+      <g id="arrow_head-3" data-name="arrow head" transform="translate(14.143 7.071) rotate(135)">
+        <line id="line_color_border_8" data-name="line [color_border]" x2="10" transform="translate(0 10)" fill="none" stroke="#ff80ac" stroke-linecap="round" stroke-width="3.5"/>
+        <line id="line_color_border_9" data-name="line [color_border]" y1="10" transform="translate(10 0)" fill="none" stroke="#ff80ac" stroke-linecap="round" stroke-width="3.5"/>
+      </g>
+    </g>
+    <g id="Flowchart_Connector_-_Turn_-_Element-2" data-name="Flowchart Connector - Turn - Element" transform="translate(870 410)">
+      <path id="line_color_border_10" data-name="line [color_border]" d="M482,100H389V250" transform="translate(-382 -100)" fill="none" stroke="#ff80ac" stroke-width="3.5"/>
+      <g id="arrow_head-4" data-name="arrow head" transform="translate(14.143 142.929) rotate(135)">
+        <line id="line_color_border_11" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#ff80ac" stroke-linecap="round" stroke-width="3.5"/>
+        <line id="line_color_border_12" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#ff80ac" stroke-linecap="round" stroke-width="3.5"/>
+      </g>
+    </g>
+    <g id="Flowchart_Connector_-_Turn_-_Element-3" data-name="Flowchart Connector - Turn - Element" transform="translate(1150 670)">
+      <path id="line_color_border_13" data-name="line [color_border]" d="M100,0H0V100" transform="translate(0 100) rotate(-90)" fill="none" stroke="#26ccbf" stroke-width="3.5"/>
+      <g id="arrow_head-5" data-name="arrow head" transform="translate(92.929 92.858) rotate(45)">
+        <line id="line_color_border_14" data-name="line [color_border]" x2="10" transform="translate(0 0)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+        <line id="line_color_border_15" data-name="line [color_border]" y2="10" transform="translate(10 0)" fill="none" stroke="#26ccbf" stroke-linecap="round" stroke-width="3.5"/>
+      </g>
+    </g>
+    <g id="Flowchart_Block_-_Status_-_Element" data-name="Flowchart Block - Status - Element" transform="translate(470 560)">
+      <g id="background_color_border_" data-name="background [color_border]" fill="#fff" stroke="#ffd86f" stroke-width="3">
+        <rect width="200" height="60" rx="30" stroke="none"/>
+        <rect x="1.5" y="1.5" width="197" height="57" rx="28.5" fill="none"/>
+      </g>
+      <text id="Start" transform="translate(100 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-23.16" y="0">Start</tspan></text>
+    </g>
+    <g id="Flowchart_Block_-_Status_-_Element-2" data-name="Flowchart Block - Status - Element" transform="translate(1250 740)">
+      <g id="background_color_border_2" data-name="background [color_border]" fill="#fff" stroke="#26ccbf" stroke-width="3">
+        <rect width="200" height="60" rx="30" stroke="none"/>
+        <rect x="1.5" y="1.5" width="197" height="57" rx="28.5" fill="none"/>
+      </g>
+      <text id="Get_out" data-name="Get out" transform="translate(100 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-34.47" y="0">Get out</tspan></text>
+    </g>
+    <g id="Flowchart_Block_-_Decision_-_Element" data-name="Flowchart Block - Decision - Element" transform="translate(1070.193 510.194)">
+      <g id="background_color_border_3" data-name="background [color_border]" transform="translate(79.903 0) rotate(45)" fill="#fff" stroke="#101010" stroke-width="3">
+        <rect width="113" height="113" stroke="none"/>
+        <rect x="1.5" y="1.5" width="110" height="110" fill="none"/>
+      </g>
+      <text id="label" transform="translate(80 71)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-29.48" y="0">Found</tspan><tspan x="-27.87" y="28">Keys?</tspan></text>
+    </g>
+    <g id="Flowchart_Block_-_Action_-_Element" data-name="Flowchart Block - Action - Element" transform="translate(770 560)">
+      <g id="background_color_border_4" data-name="background [color_border]" fill="#fff" stroke="#101010" stroke-width="3">
+        <rect width="200" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="197" height="57" fill="none"/>
+      </g>
+      <text id="label-2" data-name="label" transform="translate(100 36)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-56.51" y="0">Search keys</tspan></text>
+    </g>
+    <g id="Flowchart_Block_-_Action_-_Element-2" data-name="Flowchart Block - Action - Element" transform="translate(970 380)">
+      <g id="background_color_border_5" data-name="background [color_border]" fill="#fff" stroke="#ff80ac" stroke-width="3">
+        <rect width="80" height="60" stroke="none"/>
+        <rect x="1.5" y="1.5" width="77" height="57" fill="none"/>
+      </g>
+      <text id="label-3" data-name="label" transform="translate(40 35)" fill="#101010" font-size="20" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-13.24" y="0">No</tspan></text>
+    </g>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="1920" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">In UX design a flowchart is used to visually represent user flows or user tasks. More specifically, </tspan><tspan x="0" y="22">a flowchart is a diagram of a process using a set of standard symbols and connecting lines.</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Flow Chart - Simple</tspan></text>
+      <text id="Date" transform="translate(1719 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-109.456" y="0">24 March 2020</tspan></text>
+      <text id="Project_Name" data-name="Project Name" transform="translate(1860 116)" fill="#b0b0b0" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="-101.056" y="0">Project Name</tspan></text>
+    </g>
+  </g>
+</svg>

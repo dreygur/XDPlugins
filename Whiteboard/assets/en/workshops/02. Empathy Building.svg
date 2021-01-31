@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-no-group="true">
+  <desc>The Empathy Building workshops are to help a broad team or disciplines understand and prioritize user needs before designing a solution. They help build empathy for users needs and pain points.</desc>
+
+  <metadata>
+    <rdf:RDF>
+      <rdf:Description about="Templates">
+        <rdf:Bag>
+          <rdf:li rdf:value="Personas &amp; Use Cases" />
+          <rdf:li rdf:value="Empathy Map" />
+          <rdf:li rdf:value="Customer Journey Map" />
+          <rdf:li rdf:value="Crazy 8’s" />
+          <rdf:li rdf:value="Storyboarding" />
+        </rdf:Bag>
+      </rdf:Description>
+      <rdf:Description about="Duration" rdf:value="5 Hours" />
+    </rdf:RDF>
+  </metadata>
+
+  <image xlink:href="/assets/en/templates/01. Brainstorming/Persona and Use Cases Template.svg" />
+  <image xlink:href="/assets/en/templates/01. Brainstorming/Empathy Map Template.svg" />
+  <image xlink:href="/assets/en/templates/01. Brainstorming/Customer Journey Map Template.svg" />
+  <image xlink:href="/assets/en/templates/02. Drawing/Crazy 8’s Template.svg" />
+  <image xlink:href="/assets/en/templates/02. Drawing/Storyboards Template.svg" />
+</svg>

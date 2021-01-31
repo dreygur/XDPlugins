@@ -1,0 +1,41 @@
+{
+    "id": "39b69a7a",
+    "name": "Grids Plus",
+    "version": "3.4.1",
+    "summary": "Grids Plus+ Plugin",
+    "releaseNotes": "Descripcion text changed",
+    "keywords": [
+        "grid",
+        "grids",
+        "gride",
+        "grids plus",
+        "guides",
+		"grid creator",
+		"grid generator"
+    ],
+    "languages": [
+        "en"
+    ],
+    "website": "https://sugarsweetapps.com/grids-plus/?utm_source=Plugin&utm_medium=Direct&utm_campaign=Website%20Link%20Before%20Installation",
+    "author": "Yaron Elharar",
+    "helpUrl": "https://sugarsweetapps.com/contact/?utm_source=Plugin&utm_medium=Direct&utm_campaign=Contact%20Page%20Before%20Installation",
+    "icons": [
+        { "width": 24, "height": 24, "path": "assets/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "assets/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "assets/icon@3x.png" },
+        { "width": 144, "height": 144, "path": "assets/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "assets/icon@5x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0"
+    },
+	 "uiEntryPoints": [
+		{
+		  "type": "menu",
+		  "label": "Grids Plus+",
+		  "commandId": "menuCommand",
+		  "shortcut": { "mac": "Cmd+Shift+f", "win": "Ctrl+Shift+f" }
+		}
+    ]
+}

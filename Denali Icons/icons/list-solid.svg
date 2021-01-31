@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>list-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M6,24H6a2,2,0,0,1,2-2h2a2,2,0,0,1,2,2h0a2,2,0,0,1-2,2H8A2,2,0,0,1,6,24ZM8,14h2a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2H8a2,2,0,0,0-2,2H6A2,2,0,0,0,8,14ZM8,38h2a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2H8a2,2,0,0,0-2,2H6A2,2,0,0,0,8,38ZM19,26H39a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2H19a2,2,0,0,0-2,2h0A2,2,0,0,0,19,26Zm0-12H39a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2H19a2,2,0,0,0-2,2h0A2,2,0,0,0,19,14Zm0,24H39a2,2,0,0,0,2-2h0a2,2,0,0,0-2-2H19a2,2,0,0,0-2,2h0A2,2,0,0,0,19,38Z"/>
+    </g>
+  </g>
+</svg>

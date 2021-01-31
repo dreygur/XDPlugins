@@ -1,0 +1,24 @@
+{
+   "name": "QR Code Maker for XD",
+   "id": "885ede20",
+   "version":"1.0.1",
+   "description":"Create QR Code in current document. This plugin will work 8 bit binary mode with UTF-8. The error level will set low.",
+   "icons":[
+      {
+         "width":96,
+         "height":96,
+         "path":"images/icon.png"
+      }
+   ],
+   "host":{
+      "app":"XD",
+      "minVersion":"13.0.0"
+   },
+   "uiEntryPoints":[
+      {
+         "type":"menu",
+         "label":"QRCodeMaker",
+         "commandId":"makeQR"
+      }
+   ]
+}

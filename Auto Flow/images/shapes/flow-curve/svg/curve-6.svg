@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89.034" height="68.228" viewBox="0 0 89.034 68.228">
+  <g id="Group_107" data-name="Group 107" transform="translate(-46.5 -603.5)">
+    <path id="Path_28" data-name="Path 28" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 131.553, 671)" fill="none" stroke="#454d58" stroke-linecap="round" stroke-width="1"/>
+    <g id="Group_106" data-name="Group 106">
+      <circle id="Oval_L" data-name="Oval L" cx="1.75" cy="1.75" r="1.75" transform="translate(47.5 604.5)" fill="#454d58" stroke="#454d58" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="arrow_2" data-name="arrow 2" transform="translate(49.5 606.443)">
+        <path id="Path_2" data-name="Path 2" d="M0,0V50.881C0,56.5,3.225,61.057,7.2,61.057h77.8" transform="translate(0)" fill="none" stroke="#454d58" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

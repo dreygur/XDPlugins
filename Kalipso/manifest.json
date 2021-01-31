@@ -1,0 +1,33 @@
+{
+	"id": "56a33ad2",
+	"name": "Kalipso",
+	"version": "0.0.4",
+	"description": "Kalipso plugin needs you to install a third party application called Kalipso 5 Design Studio, wich you can download and use in trial mode. This plugin accelarates the mockup to kalipso designer process, converting your Adobe XD mockups  into Kalipso Styles!",
+	"summary": "Define Kalipso 5 Styles thru your mockups",
+	"languages": ["en","pt",""],
+	"author": "SYSDEV Mobile Computing, LDA",
+	"helpUrl": "http://srv1:100/Kalipso_V50/default.aspx?pageid=Introduction",
+	"host": {
+		"app": "XD",
+		"minVersion": "21.0"
+	},
+	"icons": [
+		{
+			"width": 24,
+			"height": 24,
+			"path": "images/icon@1x.png"
+		},
+		{
+			"width": 48,
+			"height": 48,
+			"path": "images/icon@2x.png"
+		}
+	],
+	"uiEntryPoints": [
+		{
+			"type": "panel",
+			"label": "Kalipso Plugin",
+			"panelId": "kalipsoPluginPanel"
+		}
+	]
+}

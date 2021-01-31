@@ -1,0 +1,56 @@
+.shortcut {
+  width: 100%;
+}
+
+.copy-element {
+  margin-bottom: 10px;
+}
+.copy-element__item {
+  padding: 14px 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+#plugin-title {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.shortcut-name {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#result-error {
+  color: red;
+}
+
+.shortcut-command {
+  font-size: 14px;
+  color: black;
+  padding: 10px 0 0 0;
+  margin: 0;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.close-out {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}
+#cancel:hover {
+  opacity: 0.6;
+}
+
+.form-parent {
+  margin-bottom: 10px;
+}
+
+.form-parent h1 {
+  padding-bottom: 10px;
+}
+
+.button-flex {
+  display: flex;
+  align-items: center;
+}

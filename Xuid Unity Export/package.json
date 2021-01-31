@@ -1,0 +1,52 @@
+{
+  "name": "@adobexd/typings",
+  "version": "22.0.0",
+  "typings": "./types/index.d.ts",
+  "description": "Typings for Adobe XD CC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AdobeXD/typings.git"
+  },
+  "keywords": [
+    "typescript",
+    "adobe-xd",
+    "xd",
+    "adobexd",
+    "plugins",
+    "typings",
+    "typescript definitions"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdobeXD/typings/issues"
+  },
+  "homepage": "https://github.com/AdobeXD/typings#readme",
+  "contributors": [
+    {
+      "name": "Pablo Klaschka",
+      "email": "xdplugins@pabloklaschka.de",
+      "url": "https://github.com/pklaschka"
+    },
+    {
+      "name": "Eric Robinson",
+      "email": "eric@sonicbloom.io",
+      "url": "https://github.com/ericdrobinson"
+    },
+    {
+      "name": "Kerri Shotts",
+      "email": "kerrishotts@gmail.com",
+      "url": "https://github.com/kerrishotts"
+    },
+    {
+      "name": "Jonathan Fontanez",
+      "email": "fontanezj1@gmail.com",
+      "url": "https://github.com/tato123"
+    }
+  ],
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "css-selector-parser": "^1.3.0"
+  }
+}

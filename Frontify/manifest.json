@@ -1,0 +1,63 @@
+{
+  "id": "30cb8db1",
+  "name": "Frontify",
+  "version": "1.0.2",
+  "author": "Frontify",
+  "website": "https://www.frontify.com",
+  "helpUrl": "https://help.frontify.com",
+  "summary": "Access all your brand assets",
+  "description": "Simplify creative operations by linking your digital brand assets in Frontify directly to Adobe XD, for seamless access to imagery, logos, colors, text fonts, and icons.",
+  "keywords": [
+    "consistency",
+    "branding",
+    "guidelines",
+    "digital assets",
+    "colors",
+    "typography",
+    "images",
+    "logo",
+    "icons"
+  ],
+  "languages": [
+    "en",
+    "de"
+  ],
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "assets/plugin-icons/icon_24x24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "assets/plugin-icons/icon_48x48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "assets/plugin-icons/icon_96x96.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "assets/plugin-icons/icon_144x144.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "assets/plugin-icons/icon_192x192.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Frontify",
+      "panelId": "frontifyPanel"
+    }
+  ]
+}

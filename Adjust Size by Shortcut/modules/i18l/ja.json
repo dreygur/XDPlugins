@@ -1,0 +1,7 @@
+{
+  "ALERT_TITLE": "オブジェクトが選択されていません",
+  "ALERT_MESSAGE": "リサイズ可能なオブジェクトを選択して、プラグインを実行してください。",
+  "SETTING_TITLE": "リサイズ幅の設定",
+  "SETTING_LABEL_NORMAL": "通常",
+  "SETTING_LABEL_LARGER": "大きく"
+}

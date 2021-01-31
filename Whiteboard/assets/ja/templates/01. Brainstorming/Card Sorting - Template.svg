@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3080" height="1480" viewBox="0 0 3080 1480">
+  <defs>
+    <filter id="background" x="1937" y="41" width="548" height="1332" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="background-2" x="2508" y="41" width="548" height="585" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Template:_カードソーティング">
+      <rect width="3080" height="1480"/>
+    </clipPath>
+  </defs>
+  <g id="Template:_カードソーティング" data-name="Template: カードソーティング" clip-path="url(#clip-Template:_カードソーティング)">
+    <rect width="3080" height="1480" fill="#f8f8f8"/>
+    <g id="Element_-_Step" data-name="Element - Step" transform="translate(1440 400)">
+      <rect id="background_color_fill_" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-2" data-name="Element - Step" transform="translate(1833 400)">
+      <rect id="background_color_fill_2" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-2" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-3" data-name="Element - Step" transform="translate(2226 400)">
+      <rect id="background_color_fill_3" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-3" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-4" data-name="Element - Step" transform="translate(2619 400)">
+      <rect id="background_color_fill_4" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-4" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-5" data-name="Element - Step" transform="translate(1440 760)">
+      <rect id="background_color_fill_5" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-5" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-6" data-name="Element - Step" transform="translate(1440 1120)">
+      <rect id="background_color_fill_6" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-6" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-7" data-name="Element - Step" transform="translate(1833 760)">
+      <rect id="background_color_fill_7" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-7" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-8" data-name="Element - Step" transform="translate(1833 1120)">
+      <rect id="background_color_fill_8" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-8" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-9" data-name="Element - Step" transform="translate(2226 760)">
+      <rect id="background_color_fill_9" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-9" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="Element_-_Step-10" data-name="Element - Step" transform="translate(2619 760)">
+      <rect id="background_color_fill_10" data-name="background [color_fill]" width="340" height="40" rx="12" fill="#7ee1ff"/>
+      <text id="label-10" data-name="label" transform="translate(170 24)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-96" y="0">カテゴリー名をここに記入</tspan></text>
+    </g>
+    <g id="label-11" data-name="label" transform="translate(-12 -31)">
+      <text id="左のカードを_右のセクションに移す" data-name="左のカードを
+右のセクションに移す" transform="translate(1090 831)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="49" y="25">左のカードを</tspan><tspan y="25" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="800"></tspan><tspan x="1" y="58">右のセクションに移す</tspan></text>
+      <path id="arrow" d="M4240,10216l12,12-12,12" transform="translate(-2880 -9361.5)" fill="none" stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity="0.249"/>
+    </g>
+    <g id="Element_-_Slide_Header" data-name="Element - Slide Header">
+      <rect id="area" width="3080" height="180" fill="#fff" opacity="0"/>
+      <text id="Description" transform="translate(60 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">カードソーティングを通して、ユーザーにとって最も理解しやすいコンテンツ、機能、コンセプトの整理やカテゴライズの仕方を発見することができます。</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"></tspan><tspan x="0" y="27">ユーザーのメンタルモデルをこのようにして把握することで、更に自信を持って情報アーキテクチャを設計することが可能となります。</tspan></text>
+      <text id="Title" transform="translate(60 84)" fill="#101010" font-size="32" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">カードソーティング</tspan></text>
+      <text id="Date" transform="translate(2879 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-112.192" y="0">2020</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">年</tspan><tspan y="0">3</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">月</tspan><tspan y="0">20</tspan><tspan y="0" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600">日</tspan></text>
+      <text id="プロジェクト名" transform="translate(3020 116)" fill="#b0b0b0" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="-112" y="0">プロジェクト名</tspan></text>
+    </g>
+    <g id="Element_-_Step_Label" data-name="Element - Step Label" transform="translate(120 218)">
+      <g id="step">
+        <path id="background_color_fill_11" data-name="background [color_fill]" d="M12,0H28A12,12,0,0,1,40,12V28A12,12,0,0,1,28,40H12A12,12,0,0,1,0,28V12A12,12,0,0,1,12,0Z" fill="#ffd86f"/>
+        <text id="label-12" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-9.152" y="0">01</tspan></text>
+      </g>
+      <text id="label-13" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">カードの準備</tspan></text>
+    </g>
+    <g id="Element_-_Step_Label-2" data-name="Element - Step Label" transform="translate(1440 218)">
+      <g id="step-2" data-name="step">
+        <path id="background_color_fill_12" data-name="background [color_fill]" d="M12,0H28A12,12,0,0,1,40,12V28A12,12,0,0,1,28,40H12A12,12,0,0,1,0,28V12A12,12,0,0,1,12,0Z" fill="#7ee1ff"/>
+        <text id="label-14" data-name="label" transform="translate(20 25)" fill="#101010" font-size="16" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="-9.152" y="0">02</tspan></text>
+      </g>
+      <text id="label-15" data-name="label" transform="translate(60 27)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="0">カードの整理・分類</tspan></text>
+    </g>
+    <text id="_まずリサーチャーが一枚のカードにつき_一つのコンセプトを書きます_最大30-40枚のカードを用意してください_先入観が入らないようにカードの並びは混同するようにしてください_" data-name="・まずリサーチャーが一枚のカードにつき、一つのコンセプトを書きます。最大30-40枚のカードを用意してください。
+・先入観が入らないようにカードの並びは混同するようにしてください。" transform="translate(120 280)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="19">・まずリサーチャーが一枚のカードにつき、一つのコンセプトを書きます。最大</tspan><tspan y="19" font-family="SourceHanSansJP-Medium, Source Han Sans JP">30-40</tspan><tspan y="19">枚のカードを用意してください。</tspan><tspan y="19" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></text>
+    <text id="_参加者に直感的_または彼ら自身が一番理解しやすい基準に従ってカードをカテゴリーに振り分けてもらいます_開放型の場合_参加者にカテゴリーそのものも作成してもらいます_閉鎖型の場合_まずリサーチャーがカテゴリーを準備してそこへ適切だと思われるカードをあてはめてもらいます_" data-name="・参加者に直感的、または彼ら自身が一番理解しやすい基準に従ってカードをカテゴリーに振り分けてもらいます。
+・開放型の場合、参加者にカテゴリーそのものも作成してもらいます。閉鎖型の場合、まずリサーチャーがカテゴリーを準備してそこへ適切だと思われるカードをあてはめてもらいます。" transform="translate(1433 280)" fill="#909090" font-size="18" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="19">・参加者に直感的、または彼ら自身が一番理解しやすい基準に従ってカードをカテゴリーに振り分けてもらいます。</tspan><tspan y="19" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan><tspan x="0" y="47">・開放型の場合、参加者にカテゴリーそのものも作成してもらいます。閉鎖型の場合、まずリサーチャーがカテゴリーを準備してそこへ適切だと思われるカードをあてはめてもらいます。</tspan></text>
+    <g id="Element_-_How_to_use" data-name="Element - How to use" transform="translate(1937 41)">
+      <g transform="matrix(1, 0, 0, 1, -1937, -41)" filter="url(#background)">
+        <rect id="background-3" data-name="background" width="540" height="1324" transform="translate(1937 41)" fill="#ffd86f"/>
+      </g>
+      <text id="description-2" data-name="description" transform="translate(60 60)" fill="#101010" font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="26">What is this?</tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="50"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="74">デザイナーやリサーチャーは、カードソーティングという技法</tspan><tspan x="0" y="98">を用いて、ユーザーに直感的にトピックをカテゴリー毎に分類</tspan><tspan x="0" y="122">してもらい、この結果をもとにサイトやアプリ内で情報をどう</tspan><tspan x="0" y="146">括るか、どんなラベルを与えて、どう整理していくか、を決め</tspan><tspan x="0" y="170">ていきます。探しているものをユーザーが見つけることができ</tspan><tspan x="0" y="194">るように、ユーザーの情報整理の仕方を観察したのち、自社の</tspan><tspan x="0" y="218">サイトやアプリの情報のグルーピングや順序を決断していきま</tspan><tspan x="0" y="242">す。</tspan><tspan y="242" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="266"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="290">カードソーティングには開放型、閉鎖型、という二つの手法が</tspan><tspan x="0" y="314">あります。</tspan><tspan y="314" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="338"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="362">開放型のカードソーティングは参加者に自由にカテゴリーや欠</tspan><tspan x="0" y="386">けていると思ったトピックを新しいカードとして作成してもら</tspan><tspan x="0" y="410">います。このアプローチは試験的なプロジェクトや、新しい情</tspan><tspan x="0" y="434">報を発掘したい時に向いています。</tspan><tspan y="434" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="458"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="482">一方で、閉鎖的なカードソーティングでは、参加者は与えられ</tspan><tspan x="0" y="506">たカードだけを使って並び替えや整理をしてもらいます。この</tspan><tspan x="0" y="530">アプローチはカテゴリーのラベルや、トピックが既に確立して</tspan><tspan x="0" y="554">いる際に、試みているアイデアが適切かどうか査定する時に向</tspan><tspan x="0" y="578">いています。</tspan><tspan y="578" font-family="SourceHanSansJP-Medium, Source Han Sans JP"></tspan></tspan><tspan x="0" y="602"></tspan><tspan x="0" y="626">How to use</tspan><tspan font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="650"></tspan><tspan x="0" y="674">01. </tspan><tspan y="674" font-family="SourceHanSansJP-Regular, Source Han Sans JP">カードの準備</tspan><tspan y="674" xml:space="preserve"> - </tspan><tspan y="674" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">リサーチャーが１カード毎に１つの考えを</tspan><tspan x="0" y="698" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">40</tspan><tspan y="698" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">字以内で書いていきます。先入観が入らないように、カー</tspan><tspan x="0" y="722" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">ドは不規則な順で並べて置きましょう。</tspan><tspan y="722" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="746"></tspan><tspan x="0" y="770">02. </tspan><tspan y="770" font-family="SourceHanSansJP-Regular, Source Han Sans JP">参加者にカードの分類してもらう</tspan><tspan y="770" xml:space="preserve"> -  </tspan><tspan y="770" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">参加者に直感的、また</tspan><tspan x="0" y="794" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">は彼ら自身が理解できる基準に従ってカードをカテゴリーに振</tspan><tspan x="0" y="818" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">り分けてもらいます。開放型では参加者にグループ分けをして</tspan><tspan x="0" y="842" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">もらい、そしてヘッダー（グループ名）も作成してもらいま</tspan><tspan x="0" y="866" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">す。閉鎖型の場合は、既存するヘッダー毎にカードを移動して</tspan><tspan x="0" y="890" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">もらいます。</tspan><tspan y="890" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="914"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="938">03. </tspan><tspan y="938" font-family="SourceHanSansJP-Regular, Source Han Sans JP">参加者に説明してもらう</tspan><tspan y="938">-</tspan><tspan y="938" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"> </tspan><tspan y="938" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">参加者にどんな理由でカードを</tspan><tspan x="0" y="962" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">グループに分けたのか論理的な根拠を説明してもらいます。こ</tspan><tspan x="0" y="986" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">れらの質問をなげかけてみましょう：「とても難しい、または</tspan><tspan x="0" y="1010" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">簡単に整理できたカードはありましたか？」「複数のグループ</tspan><tspan x="0" y="1034" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">に属すことができそうなカードはありましたか？」</tspan><tspan y="1034" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="1058"></tspan></tspan><tspan font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="1082">進行役付き</tspan><tspan y="1082" xml:space="preserve" font-family="SourceHanSansJP-Regular, Source Han Sans JP"> vs </tspan><tspan y="1082">進行役無しのカードソーティングで気をつける</tspan><tspan x="0" y="1106">こと</tspan><tspan y="1106" xml:space="preserve" font-family="SourceHanSansJP-Regular, Source Han Sans JP"> - </tspan><tspan y="1106" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">進行役付きのセッションの強みは参加者がカードを動か</tspan><tspan x="0" y="1130" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">している間に質問を投げかけたり、また意図を深く探ったり、</tspan><tspan x="0" y="1154" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">見ていているだけでは分からない部分も記録することができる</tspan><tspan x="0" y="1178" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">点です。進行役無しのセッションの強みは複数のテストが同時</tspan></tspan></text>
+    </g>
+    <g id="Element_-_How_to_use-2" data-name="Element - How to use" transform="translate(2508 41)">
+      <g transform="matrix(1, 0, 0, 1, -2508, -41)" filter="url(#background-2)">
+        <rect id="background-4" data-name="background" width="540" height="577" transform="translate(2508 41)" fill="#ffd86f"/>
+      </g>
+      <text id="description-3" data-name="description" transform="translate(60 60)" fill="#101010" font-size="15" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"><tspan x="0" y="16"></tspan><tspan font-size="24" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="0" y="40">Steps for participant</tspan></tspan><tspan font-family="SourceHanSansJP-Regular, Source Han Sans JP" font-weight="400"><tspan x="0" y="64"></tspan><tspan x="0" y="88">Step 1 - </tspan><tspan y="88" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">左にあるトピックのカードを見てください。今回のタ</tspan><tspan x="0" y="112" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">スクはあなたにとって一番分かりやすい形でグループ毎に分け</tspan><tspan x="0" y="136" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">ることです。正解・間違えなどないので自由に、直感的に作業</tspan><tspan x="0" y="160" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">してください。</tspan><tspan y="160" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="184"></tspan><tspan x="0" y="208">Step 2 - </tspan><tspan y="208" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">基本的な作業としては、左にあるカードを右側のセク</tspan><tspan x="0" y="232" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">ションへ移します。</tspan><tspan y="232" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="256"></tspan><tspan x="0" y="280">Step 3 (</tspan><tspan y="280" font-family="SourceHanSansJP-Regular, Source Han Sans JP">開放的なカードソーティングの場合</tspan><tspan y="280">) - </tspan><tspan y="280" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">右側へカードを</tspan><tspan x="0" y="304" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">移すと同時に、あなたが一番理解しやすい形でグループに分け</tspan><tspan x="0" y="328" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">てください。そしてグループに適切だと思われるカテゴリー名</tspan><tspan x="0" y="352" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">を記入してください。</tspan><tspan y="352" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500"></tspan><tspan x="0" y="376"></tspan><tspan x="0" y="400">Step 3 (</tspan><tspan y="400" font-family="SourceHanSansJP-Regular, Source Han Sans JP">閉鎖的なカードソーティングの場合</tspan><tspan y="400">) - </tspan><tspan y="400" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">右側にすでにグ</tspan><tspan x="0" y="424" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">ループ名が提供してあるので、そこへ全てのカードを当てはめ</tspan><tspan x="0" y="448" font-family="SourceHanSansJP-Medium, Source Han Sans JP" font-weight="500">てください。</tspan></tspan></text>
+    </g>
+    <g id="Post-It_Element" data-name="Post-It Element" transform="translate(120 400)">
+      <rect id="background_color_fill_13" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-16" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-2" data-name="Post-It Element" transform="translate(480 400)">
+      <rect id="background_color_fill_14" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-17" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-2" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-3" data-name="Post-It Element" transform="translate(300 400)">
+      <rect id="background_color_fill_15" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-18" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-3" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-4" data-name="Post-It Element" transform="translate(660 400)">
+      <rect id="background_color_fill_16" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-19" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-4" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-5" data-name="Post-It Element" transform="translate(840 400)">
+      <rect id="background_color_fill_17" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-20" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-5" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-6" data-name="Post-It Element" transform="translate(120 540)">
+      <rect id="background_color_fill_18" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-21" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-6" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-7" data-name="Post-It Element" transform="translate(480 540)">
+      <rect id="background_color_fill_19" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-22" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-7" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-8" data-name="Post-It Element" transform="translate(300 540)">
+      <rect id="background_color_fill_20" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-23" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-8" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-9" data-name="Post-It Element" transform="translate(660 540)">
+      <rect id="background_color_fill_21" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-24" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-9" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-10" data-name="Post-It Element" transform="translate(840 540)">
+      <rect id="background_color_fill_22" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-25" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-10" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-11" data-name="Post-It Element" transform="translate(120 960)">
+      <rect id="background_color_fill_23" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-26" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-11" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-12" data-name="Post-It Element" transform="translate(480 960)">
+      <rect id="background_color_fill_24" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-27" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-12" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-13" data-name="Post-It Element" transform="translate(300 960)">
+      <rect id="background_color_fill_25" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-28" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-13" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-14" data-name="Post-It Element" transform="translate(660 960)">
+      <rect id="background_color_fill_26" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-29" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-14" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-15" data-name="Post-It Element" transform="translate(840 960)">
+      <rect id="background_color_fill_27" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-30" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-15" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-16" data-name="Post-It Element" transform="translate(120 680)">
+      <rect id="background_color_fill_28" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-31" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-16" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-17" data-name="Post-It Element" transform="translate(480 680)">
+      <rect id="background_color_fill_29" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-32" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-17" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-18" data-name="Post-It Element" transform="translate(300 680)">
+      <rect id="background_color_fill_30" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-33" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-18" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-19" data-name="Post-It Element" transform="translate(660 680)">
+      <rect id="background_color_fill_31" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-34" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-19" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-20" data-name="Post-It Element" transform="translate(840 680)">
+      <rect id="background_color_fill_32" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-35" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-20" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-21" data-name="Post-It Element" transform="translate(120 1100)">
+      <rect id="background_color_fill_33" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-36" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-21" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-22" data-name="Post-It Element" transform="translate(480 1100)">
+      <rect id="background_color_fill_34" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-37" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-22" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-23" data-name="Post-It Element" transform="translate(300 1100)">
+      <rect id="background_color_fill_35" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-38" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-23" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-24" data-name="Post-It Element" transform="translate(660 1100)">
+      <rect id="background_color_fill_36" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-39" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-24" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-25" data-name="Post-It Element" transform="translate(840 1100)">
+      <rect id="background_color_fill_37" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-40" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-25" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-26" data-name="Post-It Element" transform="translate(120 820)">
+      <rect id="background_color_fill_38" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-41" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-26" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-27" data-name="Post-It Element" transform="translate(480 820)">
+      <rect id="background_color_fill_39" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-42" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-27" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-28" data-name="Post-It Element" transform="translate(300 820)">
+      <rect id="background_color_fill_40" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-43" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-28" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-29" data-name="Post-It Element" transform="translate(660 820)">
+      <rect id="background_color_fill_41" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-44" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-29" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-30" data-name="Post-It Element" transform="translate(840 820)">
+      <rect id="background_color_fill_42" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-45" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-30" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-31" data-name="Post-It Element" transform="translate(120 1240)">
+      <rect id="background_color_fill_43" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-46" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-31" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-32" data-name="Post-It Element" transform="translate(480 1240)">
+      <rect id="background_color_fill_44" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-47" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-32" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-33" data-name="Post-It Element" transform="translate(300 1240)">
+      <rect id="background_color_fill_45" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-48" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-33" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-34" data-name="Post-It Element" transform="translate(660 1240)">
+      <rect id="background_color_fill_46" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-49" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-34" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+    <g id="Post-It_Element-35" data-name="Post-It Element" transform="translate(840 1240)">
+      <rect id="background_color_fill_47" data-name="background [color_fill]" width="160" height="120" fill="#ffd86f"/>
+      <text data-area="140 80" id="label-50" data-name="label" transform="translate(10 30)" fill="#101010" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="600"><tspan x="0" y="15">メモ</tspan><tspan y="15" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700">…</tspan></text>
+      <rect id="sticker-35" data-name="sticker" width="160" height="20" opacity="0.35" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

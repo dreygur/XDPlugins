@@ -1,0 +1,15 @@
+{
+  "SETTING_TITLE": "Resize Artboard to Fit Content Settings",
+  "SETTING_LABEL_FIXED_SIZE": "Fix values",
+  "SETTING_LABEL_SIZE_WIDTH": "Width",
+  "SETTING_LABEL_SIZE_HEIGHT": "Height",
+  "SETTING_LABEL_OFFSET": "Offset Bounding",
+  "SETTING_LABEL_OFFSET_BOTTOM": "Bottom",
+  "SETTING_NOTE": "\"0\" is follows the size of the content.",
+  "SETTING_KEEP_CURRENT_ARTBOARD_WIDTH_TITLE": "Keep Size",
+  "SETTING_KEEP_CURRENT_ARTBOARD_WIDTH": "Keep Current Artboard Width",
+  "ALERT_NO_ARTBOARD_TITLE": "Not Artboards",
+  "ALERT_NO_ARTBOARD_BODY": "No Artboard in selection. Please select Artboards.",
+  "ALERT_NO_SELECTION_ARTBOARD_TITLE": "Artboard not selected",
+  "ALERT_NO_SELECTION_ARTBOARD_BODY": "Artboard is not selected. Please select Artboards."
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>data-storage-lock-solid</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M44,4H4A2,2,0,0,0,2,6V16H46V6A2,2,0,0,0,44,4ZM32,14a2,2,0,1,1,2-2A2,2,0,0,1,32,14Zm6,0a2,2,0,1,1,2-2A2,2,0,0,1,38,14Z"/>
+        <path d="M26,42a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V32H26Zm12-8a2,2,0,1,1-2,2A2,2,0,0,1,38,34Zm-6,0a2,2,0,1,1-2,2A2,2,0,0,1,32,34Z"/>
+        <path d="M26,28H46V20H26Zm12-6a2,2,0,1,1-2,2A2,2,0,0,1,38,22Zm-6,0a2,2,0,1,1-2,2A2,2,0,0,1,32,22Z"/>
+        <path d="M20,29H19A6,6,0,0,0,7,29H6a2,2,0,0,0-2,2V43a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V31A2,2,0,0,0,20,29ZM14,39H12V35h2ZM11,29a2,2,0,0,1,4,0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
