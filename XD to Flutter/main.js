@@ -1,1 +1,7753 @@
-module.exports=function(t){var e={};function n(r){if(e[r])return e[r].exports;var i=e[r]={i:r,l:!1,exports:{}};return t[r].call(i.exports,i,i.exports,n),i.l=!0,i.exports}return n.m=t,n.c=e,n.d=function(t,e,r){n.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:r})},n.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},n.t=function(t,e){if(1&e&&(t=n(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var i in t)n.d(r,i,function(e){return t[e]}.bind(null,i));return r},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,"a",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p="",n(n.s=30)}([function(t,e){t.exports=require("scenegraph")},function(t,e,n){const r=n(19);function i(t){return(t<16?"0":"")+Math.round(t).toString(16)}function o(t,e=!0){return t.reduce((t,n)=>(t[n]=e,t),{})}e.fix=function(t,e=1){let n=Math.pow(10,e);return(t=Math.round(t*n)/n)+(t===(0|t)?".0":"")},e.capitalize=function(t){return t[0].toUpperCase()+t.substr(1)},e.shorten=function(t,e){return t&&t.length>e?t.substr(0,e-1)+"…":t},e.getColorComponent=i,e.getARGBHexWithOpacity=function(t,e=1){return i(t.a*e)+i(t.r)+i(t.g)+i(t.b)},e.getRGBHex=function(t){return i(t.r)+i(t.g)+i(t.b)},e.delay=function(t){return new Promise(e=>setTimeout(e,t))},e.buildMap=o,e.DART_RESERVED_WORDS=["assert","break","case","catch","class","const","continue","default","do","else","enum","extends","false","final","finally","for","if","in","is","new","null","rethrow","return","super","switch","this","throw","true","try","var","void","while","with","async","hide","on","show","sync","abstract","as","covariant","deferred","export","factory","Function","get","implements","import","interface","library","mixin","operator","part","set","static","typedef","await","yield","bool","double","dynamic","int","List","Map","String"],e.DART_RESERVED_WORDS_MAP=o(e.DART_RESERVED_WORDS),e.cleanVarName=function(t){return t?(t=t.replace(/^[\W\d]+|\W/gi,""),e.DART_RESERVED_WORDS_MAP[t]&&(t+="_"),t):""},e.cleanFileName=function(t){return t.replace(/[\/\\:*?"<>|#]]+/gi,"")},e.cleanPath=function(t){return t.replace(/^\/|\/$|[\\:*?"<>|#]+/g,"")},e.getParamList=function(t){let e="";return t.forEach(t=>{t&&(e+=t)}),e},e.getParamDelta=function(t,e){let n=null;for(let r=0;r<e.length;r++)t[r]!==e[r]&&(null===n&&(n=[]),n.push(e[r]));return n},e.escapeString=function(t){return t.replace(/(['\\$])/g,"\\$1").replace(/\n/g,"\\n")},e.getSelectedItem=function(t){return 1===t.items.length?t.items[0]:null},e.enumName=function(t,e){for(let[n,r]of Object.entries(t))if(r==e)return n;return""},e.getHash=function(t){let e=0;for(let n=0;n<t.length;++n)e=65599*e+t.charCodeAt(n)|0;return e},e.getExportAllMessage=function(t,e,n){let r=1===e?"":"s";return 0===e?`No ${n}s found to export`:t===e?`Exported ${t} ${n}${r}`:t>0?`Exported ${t} of ${e} ${n}${r}`:`Failed to export ${e} ${n}${r}`},e.getCmdKeyStr=function(){return"darwin"===r.platform()?"Cmd":"Ctrl"}},function(t,e,n){const r=n(0),i=n(1),o=n(3);function a(t,e){let n=t.pluginData;return n&&n[e]}function l(t,e,n){let r=t.pluginData||{};r[e]=n,t.pluginData=r}function s(t){return c(t)?i.cleanVarName(t.name):null}function c(t){return t instanceof r.Artboard||t instanceof r.SymbolInstance&&t.isMaster}function u(t){return t.fill&&t.fill.assetId}function d(t){let e=function(t){if(!t)return null;let e=t.toString().replace(/\\/g,"/"),n=/ImageFill\(([^<][^(]+)\)/.exec(e);return n?n[1]:null}(t.fill);return e?i.getHash(e):null}e.getContainingComponent=function t(e,n=!1){return e&&e!==r.root?n&&e instanceof r.SymbolInstance?e:t(e.parent,!0):null},e.getOpacity=function(t){let e=t,n=1;for(;e;)null!=e.opacity&&(n*=e.opacity),e=e.parent;return n},e.getProp=a,e.setProp=l,e.getInteractionCount=function(t){return t&&t.triggeredInteractions?!1===a(r.root,o.ENABLE_PROTOTYPE)?0:t.triggeredInteractions.length:0},e.getFlutterFont=function(t){let e=r.root.pluginData;return e&&e.fontMap&&e.fontMap[t]||null},e.setFlutterFont=function(t,e){let n=r.root.pluginData||{};n.fontMap||(n.fontMap={}),n.fontMap[t]=e,r.root.pluginData=n},e.getWidgetName=function(t){if(!c(t))return null;let e=a(t,o.WIDGET_NAME)||s(t);return i.cleanVarName(function(){let t=r.root.pluginData;return t?t[o.WIDGET_PREFIX]||"":"XD"}()+e)},e.getDefaultWidgetName=s,e.isWidget=c,e.getImageName=function(t){if(!t.fill)return null;let e,n=d(t),i=u(t),l=r.root.pluginData,s=l&&l.imageMap;return i&&(e=s&&s[i]),!e&&n&&(e=s&&s[n]),e||a(t,o.IMAGE_FILL_NAME)||null},e.setImageName=function(t,e){if(d(t)){let n=r.root.pluginData||{};n.imageMap||(n.imageMap={}),n.imageMap[u(t)]=e,r.root.pluginData=n}l(t,o.IMAGE_FILL_NAME,e)},e.setState=function(t,e){t.pluginData=e},e.getState=function(t){return t.pluginData||{}},e.getImageHash=d,e.getShapeDataName=function(t,e){return i.cleanVarName(`_svg_${t.getSvgId(e)}`)}},function(t,e){t.exports=Object.freeze({EXPORT_PATH:"exportPath",CODE_PATH:"codePath",IMAGE_PATH:"imagePath",WIDGET_PREFIX:"widgetPrefix",ENABLE_PROTOTYPE:"enablePrototype",RESOLUTION_AWARE:"resolutionAware",EXPORT_COLORS:"exportColors",COLORS_CLASS_NAME:"colorsClassName",EXPORT_CHAR_STYLES:"exportCharStyles",CHAR_STYLES_CLASS_NAME:"charStylesClassName",INCLUDE_IN_EXPORT_PROJECT:"addToExportAll",WIDGET_NAME:"widgetName",TAP_CALLBACK_NAME:"tapCallbackName",FLUTTER_FONT:"flutterFont",TEXT_PARAM_NAME:"textParamName",COLOR_PARAM_NAME:"colorParamName",IMAGE_FILL_NAME:"imageFillName",IMAGE_PARAM_NAME:"imageParamName",INCLUDE_IN_EXPORT_ALL_IMAGES:"includeInExportAllImages",COMBINE_SHAPES:"combineShapes",FLATTEN_TO_IMAGE:"flattenToImage"})},function(t,e,n){const r=n(0),{formatDart:i}=n(20),o=n(1),a=n(13);function l(...t){a.debug&&console.log(...t)}function s(t){return`{x:${o.fix(t.x)}, y:${o.fix(t.y)}, w:${o.fix(t.width)}, h:${o.fix(t.height)}}`}e.trace=l,e._printParameters=function(t,e){let n=e||0,r="";for(let t=0;t<n;++t)r+="  ";if(l(`${r}node - ${t.constructor.name}`),t.parameters){let e=Object.entries(t.parameters);for(let[t,n]of e)l(`    ${r}${t}`)}t.children&&t.children.forEach(t=>{printParameters(t,n+1)})},e._printTree=function t(e,n=""){let r=`\n${n}${e.xdNode.name}(${e.constructor.name}, ${e.xdNode.constructor.name})`,i=e.children;for(var o=0;i&&o<i.length;o++)r+=t(i[o],n+"\t");return n||l(r),r},e._printLayout=function(t,e){let n=t.items[0],r=n&&n.parent;function i(t,e){l(`${e}Constraints:${t?"":"undefined"}`),t&&l(`\tposition: ${t.position}`),t&&l(`\tsize: ${t.size}`)}r?(l("-------------------------------------------"),l(`Layout for: ${n.name}`),l(`parent.dynamicLayout: ${r.dynamicLayout}`),l(`dynamicLayout: ${n.dynamicLayout}`),l(`hasCustomConstraints: ${n.hasCustomConstraints}`),i(n.horizontalConstraints,"horizontal"),i(n.verticalConstraints,"vertical"),l(`rotation: ${n.rotation}`),l(`transform: ${n.transform}`)):l("Node has no parent.")},e._imageFlipTest=function(t,e){let n,i,o=t.items;for(let t=0;t<o.length;t++){let e=o[t];e.fill instanceof r.ImageFill?n=e:e instanceof r.Rectangle&&(i=e)}n&&i?(i.fill=n.fill,l("src matrix:",n.transform)):l("select two rectangles, one with an image fill, one without.")},e._dumpTransformData=function(t,e){console.clear(),function t(e,n=""){if(!e||!e.length)return;e.forEach(e=>{l(`${n}-> ${e.name}`),l(`${n} • topLeftInParent: ${function(t){return`{x:${o.fix(t.x)}, y:${o.fix(t.y)}}}`}(e.topLeftInParent)}`),l(`${n} • rotation: ${o.fix(e.rotation)}`),l(`${n} • localBounds: ${s(e.localBounds)}`),l(`${n} • boundsInParent: ${s(e.boundsInParent)}`),l(`${n} • matrix: ${e.transform}`),t(e.children,n+"  ")})}(t.items),l("***** Calculated values: *****"),function(t,e){!function t(e,n=""){if(!e||!e.length)return;e.forEach(e=>{let i=e.localBounds,a=e.parent.localBounds,c=e.topLeftInParent;e instanceof r.Artboard&&(c=a={x:0,y:0});let u={x:c.x-a.x,y:c.y-a.y,width:i.width,height:i.height};l(`${n}-> ${e.name}`),l(`${n} • rotation: ${o.fix(e.rotation)}`),l(`${n} • rect: ${s(u)}`),t(e.children,n+"  ")})}(t.items)}(t)},e._printdumpNodePluginData=async function(t,e){let n=(t,e)=>{if(!t)return;let r=e||0;((t,e)=>{if(!t)return;let n="";for(let t=0;t<e;++t)n+="  ";for(let[e,r]of Object.entries(t))l(`${n}${e} => ${r}`)})(t.pluginData,r),t.children.forEach(t=>{n(t,r+1)})};for(let e=0;e<t.items.length;++e){let r=t.items[e];n(r)}},e._testDartStyle=async function(t,e){let n=t.items[0];if(!(n instanceof r.Text))return void l("select text");let o,a=n.text,s=0,c=Date.now();for(;Date.now()-c<1e3;)o=i(a),s++;c=Date.now()-c,l(o),l("-------------------"),l(a.length+" characters formatted"),l(s+" iterations took "+c+"ms (avg: "+(c/s).toFixed(1)+"ms)")}},function(t,e,n){const r=n(0),i=n(24),o=n(1),{getOpacity:a}=n(2),{getImagePath:l}=n(17);function s(t,e=1){return"const Color(0x"+o.getARGBHexWithOpacity(t,e)+")"}function c(t,e){return t instanceof r.LinearGradient?function(t,e=1){return"LinearGradient("+`begin: ${h(t.startX,t.startY)},`+`end: ${h(t.endX,t.endY)},`+d(t.colorStops,e)+")"}(t,e):t instanceof r.RadialGradient?function(t,e=1){return"RadialGradient("+`center: ${h(t.startX,t.startY)}, `+(t.startX===t.endX&&t.startY===t.endY?"":`focal: ${h(t.endX,t.endY)}, `)+(0===t.startR?"":`focalRadius: ${o.fix(t.startR,3)}, `)+`radius: ${o.fix(t.endR,3)}, `+d(t.colorStops,e)+function(t){let e=t.gradientTransform;return"transform: GradientXDTransform("+`${o.fix(e.a,3)}, ${o.fix(e.b,3)}, ${o.fix(e.c,3)}, `+`${o.fix(e.d,3)}, ${o.fix(e.e,3)}, ${o.fix(e.f,3)}, `+`${h(t.startX,t.startY)}), `}(t)+")"}(t,e):""}function u(t){return t.gradientType===i.RADIAL?"RadialGradient":"LinearGradient"}function d(t,e){let n=t.length,r=[],i=[];for(let a=0;a<n;a++){let n=t[a];r.push(o.fix(n.stop,3)),i.push(s(n.color,e))}return`colors: [${i.join(", ")}], stops: [${r.join(", ")}], `}function h(t,e){return`Alignment(${o.fix(2*t-1,2)}, ${o.fix(2*e-1,2)})`}e.DartType=Object.freeze({BOOL:"bool",COLOR:"Color",IMAGE:"ImageProvider",STRING:"String",TAP_CB:"VoidCallback"}),e.getColor=s,e.getAssetImage=function(t,e){let n=l(t);return!n&&e&&e.log.warn("Image does not have a Flutter image name.",t),`const AssetImage('${n||""}')`},e.getString=function(t){return`'${o.escapeString(t)}'`},e.getGradientParam=function(t,e){let n=c(t,e);return n?`gradient: ${n}, `:""},e.getGradient=c,e.getGradientFromAsset=function(t){return`const ${u(t)}(`+d(t.colorStops)+")"},e.getGradientTypeFromAsset=u},function(t,e,n){const{trace:r}=n(4),i=n(1),{Parameter:o}=n(15),{Layout:a}=n(50);e.AbstractNode=class{constructor(t,e){this.xdNode=t,this.parameters=null,this.children=null,this.decorators=null,this.hasDecorators=!1,this.layout=new a(this,e),this._cache=null}get hasChildren(){return!(!this.children||!this.children.length)}get responsive(){return!!this.xdNode.horizontalConstraints}get xdId(){return this.xdNode?this.xdNode.guid:null}get xdName(){return this.xdNode?this.xdNode.name:null}get adjustedBounds(){let t=this.xdNode,e=t.boundsInParent,n=t.localBounds,r=t.parent.localBounds,i=e.x+e.width/2-n.width/2,o=e.y+e.height/2-n.height/2;return{x:i-r.x,y:o-r.y,width:n.width,height:n.height}}addDecorator(t){this.decorators=this.decorators||[],this.decorators.push(t),t.cosmetic||(this.hasDecorators=!0)}addParam(t,e,n,r){if(!e||!t)return null;let i=new o(e,n,r);return this.parameters||(this.parameters={}),this.parameters[t]=i}getParam(t){return this.parameters&&this.parameters[t]}getParamName(t){let e=this.getParam(t);return e&&e.name||null}get transform(){return{rotation:this.xdNode.rotation,flipY:!1}}toString(t){return`[${this.constructor.name}]`}serialize(t){if(null===this._cache){let e=this._serialize(t);this._cache=this._decorate(e,t)}return this._cache}_serialize(t){return""}_decorate(t,e){if(!t)return t;let n=this.decorators,r=t&&n?n.length:0;for(let i=0;i<r;i++)t=n[i].serialize(t,e);return this.layout&&(t=this.layout.serialize(t,e)),t}_getChildList(t){let e="";return this.children.forEach(n=>{let r=n&&n.serialize(t);r&&(e+=r+", ")}),e}_addSizedBox(t,e,n){return`SizedBox(width: ${i.fix(e.width,0)}, height: ${i.fix(e.height,0)}, child: ${t},)`}_getChildStack(t){return`Stack(children: <Widget>[${this._getChildList(t)}], )`}}},function(t,e,n){"use strict";n.r(e),n.d(e,"render",(function(){return O})),n.d(e,"hydrate",(function(){return k})),n.d(e,"createElement",(function(){return g})),n.d(e,"h",(function(){return g})),n.d(e,"Fragment",(function(){return x})),n.d(e,"createRef",(function(){return _})),n.d(e,"isValidElement",(function(){return i})),n.d(e,"Component",(function(){return y})),n.d(e,"cloneElement",(function(){return M})),n.d(e,"createContext",(function(){return F})),n.d(e,"toChildArray",(function(){return P})),n.d(e,"_unmount",(function(){return L})),n.d(e,"options",(function(){return r}));var r,i,o,a,l,s,c,u={},d=[],h=/acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord/i;function p(t,e){for(var n in e)t[n]=e[n];return t}function f(t){var e=t.parentNode;e&&e.removeChild(t)}function g(t,e,n){var r,i=arguments,o={};for(r in e)"key"!==r&&"ref"!==r&&(o[r]=e[r]);if(arguments.length>3)for(n=[n],r=3;r<arguments.length;r++)n.push(i[r]);if(null!=n&&(o.children=n),"function"==typeof t&&null!=t.defaultProps)for(r in t.defaultProps)void 0===o[r]&&(o[r]=t.defaultProps[r]);return m(t,o,e&&e.key,e&&e.ref)}function m(t,e,n,i){var o={type:t,props:e,key:n,ref:i,__k:null,__:null,__b:0,__e:null,__d:null,__c:null,constructor:void 0};return r.vnode&&r.vnode(o),o}function _(){return{}}function x(t){return t.children}function y(t,e){this.props=t,this.context=e}function w(t,e){if(null==e)return t.__?w(t.__,t.__.__k.indexOf(t)+1):null;for(var n;e<t.__k.length;e++)if(null!=(n=t.__k[e])&&null!=n.__e)return n.__e;return"function"==typeof t.type?w(t):null}function b(t){var e,n;if(null!=(t=t.__)&&null!=t.__c){for(t.__e=t.__c.base=null,e=0;e<t.__k.length;e++)if(null!=(n=t.__k[e])&&null!=n.__e){t.__e=t.__c.base=n.__e;break}return b(t)}}function A(t){(!t.__d&&(t.__d=!0)&&1===o.push(t)||l!==r.debounceRendering)&&((l=r.debounceRendering)||a)($)}function $(){var t,e,n,r,i,a,l;for(o.sort((function(t,e){return e.__v.__b-t.__v.__b}));t=o.pop();)t.__d&&(n=void 0,r=void 0,a=(i=(e=t).__v).__e,(l=e.__P)&&(n=[],r=N(l,i,p({},i),e.__n,void 0!==l.ownerSVGElement,null,n,null==a?w(i):a),T(n,i),r!=a&&b(i)))}function E(t,e,n,r,i,o,a,l,s){var c,h,p,g,m,_,x,y=n&&n.__k||d,b=y.length;if(l==u&&(l=null!=o?o[0]:b?w(n,0):null),c=0,e.__k=P(e.__k,(function(n){if(null!=n){if(n.__=e,n.__b=e.__b+1,null===(p=y[c])||p&&n.key==p.key&&n.type===p.type)y[c]=void 0;else for(h=0;h<b;h++){if((p=y[h])&&n.key==p.key&&n.type===p.type){y[h]=void 0;break}p=null}if(g=N(t,n,p=p||u,r,i,o,a,l,s),(h=n.ref)&&p.ref!=h&&(x||(x=[]),p.ref&&x.push(p.ref,null,n),x.push(h,n.__c||g,n)),null!=g){if(null==_&&(_=g),null!=n.__d)g=n.__d,n.__d=null;else if(o==p||g!=l||null==g.parentNode){t:if(null==l||l.parentNode!==t)t.appendChild(g);else{for(m=l,h=0;(m=m.nextSibling)&&h<b;h+=2)if(m==g)break t;t.insertBefore(g,l)}"option"==e.type&&(t.value="")}l=g.nextSibling,"function"==typeof e.type&&(e.__d=g)}}return c++,n})),e.__e=_,null!=o&&"function"!=typeof e.type)for(c=o.length;c--;)null!=o[c]&&f(o[c]);for(c=b;c--;)null!=y[c]&&L(y[c],y[c]);if(x)for(c=0;c<x.length;c++)R(x[c],x[++c],x[++c])}function P(t,e,n){if(null==n&&(n=[]),null==t||"boolean"==typeof t)e&&n.push(e(null));else if(Array.isArray(t))for(var r=0;r<t.length;r++)P(t[r],e,n);else n.push(e?e("string"==typeof t||"number"==typeof t?m(null,t,null,null):null!=t.__e||null!=t.__c?m(t.type,t.props,t.key,null):t):t);return n}function S(t,e,n){"-"===e[0]?t.setProperty(e,n):t[e]="number"==typeof n&&!1===h.test(e)?n+"px":null==n?"":n}function v(t,e,n,r,i){var o,a,l,s,c;if(i?"className"===e&&(e="class"):"class"===e&&(e="className"),"key"===e||"children"===e);else if("style"===e)if(o=t.style,"string"==typeof n)o.cssText=n;else{if("string"==typeof r&&(o.cssText="",r=null),r)for(a in r)n&&a in n||S(o,a,"");if(n)for(l in n)r&&n[l]===r[l]||S(o,l,n[l])}else"o"===e[0]&&"n"===e[1]?(s=e!==(e=e.replace(/Capture$/,"")),c=e.toLowerCase(),e=(c in t?c:e).slice(2),n?(r||t.addEventListener(e,I,s),(t.l||(t.l={}))[e]=n):t.removeEventListener(e,I,s)):"list"!==e&&"tagName"!==e&&"form"!==e&&"type"!==e&&!i&&e in t?t[e]=null==n?"":n:"function"!=typeof n&&"dangerouslySetInnerHTML"!==e&&(e!==(e=e.replace(/^xlink:?/,""))?null==n||!1===n?t.removeAttributeNS("http://www.w3.org/1999/xlink",e.toLowerCase()):t.setAttributeNS("http://www.w3.org/1999/xlink",e.toLowerCase(),n):null==n||!1===n?t.removeAttribute(e):t.setAttribute(e,n))}function I(t){this.l[t.type](r.event?r.event(t):t)}function N(t,e,n,i,o,a,l,s,c){var u,d,h,f,g,m,_,w,b,A,$=e.type;if(void 0!==e.constructor)return null;(u=r.__b)&&u(e);try{t:if("function"==typeof $){if(w=e.props,b=(u=$.contextType)&&i[u.__c],A=u?b?b.props.value:u.__:i,n.__c?_=(d=e.__c=n.__c).__=d.__E:("prototype"in $&&$.prototype.render?e.__c=d=new $(w,A):(e.__c=d=new y(w,A),d.constructor=$,d.render=D),b&&b.sub(d),d.props=w,d.state||(d.state={}),d.context=A,d.__n=i,h=d.__d=!0,d.__h=[]),null==d.__s&&(d.__s=d.state),null!=$.getDerivedStateFromProps&&(d.__s==d.state&&(d.__s=p({},d.__s)),p(d.__s,$.getDerivedStateFromProps(w,d.__s))),f=d.props,g=d.state,h)null==$.getDerivedStateFromProps&&null!=d.componentWillMount&&d.componentWillMount(),null!=d.componentDidMount&&d.__h.push(d.componentDidMount);else{if(null==$.getDerivedStateFromProps&&w!==f&&null!=d.componentWillReceiveProps&&d.componentWillReceiveProps(w,A),!d.__e&&null!=d.shouldComponentUpdate&&!1===d.shouldComponentUpdate(w,d.__s,A)){for(d.props=w,d.state=d.__s,d.__d=!1,d.__v=e,e.__e=n.__e,e.__k=n.__k,d.__h.length&&l.push(d),u=0;u<e.__k.length;u++)e.__k[u]&&(e.__k[u].__=e);break t}null!=d.componentWillUpdate&&d.componentWillUpdate(w,d.__s,A),null!=d.componentDidUpdate&&d.__h.push((function(){d.componentDidUpdate(f,g,m)}))}d.context=A,d.props=w,d.state=d.__s,(u=r.__r)&&u(e),d.__d=!1,d.__v=e,d.__P=t,u=d.render(d.props,d.state,d.context),e.__k=P(null!=u&&u.type==x&&null==u.key?u.props.children:u),null!=d.getChildContext&&(i=p(p({},i),d.getChildContext())),h||null==d.getSnapshotBeforeUpdate||(m=d.getSnapshotBeforeUpdate(f,g)),E(t,e,n,i,o,a,l,s,c),d.base=e.__e,d.__h.length&&l.push(d),_&&(d.__E=d.__=null),d.__e=null}else e.__e=C(n.__e,e,n,i,o,a,l,c);(u=r.diffed)&&u(e)}catch(t){r.__e(t,e,n)}return e.__e}function T(t,e){r.__c&&r.__c(e,t),t.some((function(e){try{t=e.__h,e.__h=[],t.some((function(t){t.call(e)}))}catch(t){r.__e(t,e.__v)}}))}function C(t,e,n,r,i,o,a,l){var s,c,h,p,f,g=n.props,m=e.props;if(i="svg"===e.type||i,null==t&&null!=o)for(s=0;s<o.length;s++)if(null!=(c=o[s])&&(null===e.type?3===c.nodeType:c.localName===e.type)){t=c,o[s]=null;break}if(null==t){if(null===e.type)return document.createTextNode(m);t=i?document.createElementNS("http://www.w3.org/2000/svg",e.type):document.createElement(e.type),o=null}if(null===e.type)null!=o&&(o[o.indexOf(t)]=null),g!==m&&t.data!=m&&(t.data=m);else if(e!==n){if(null!=o&&(o=d.slice.call(t.childNodes)),h=(g=n.props||u).dangerouslySetInnerHTML,p=m.dangerouslySetInnerHTML,!l){if(g===u)for(g={},f=0;f<t.attributes.length;f++)g[t.attributes[f].name]=t.attributes[f].value;(p||h)&&(p&&h&&p.__html==h.__html||(t.innerHTML=p&&p.__html||""))}(function(t,e,n,r,i){var o;for(o in n)o in e||v(t,o,null,n[o],r);for(o in e)i&&"function"!=typeof e[o]||"value"===o||"checked"===o||n[o]===e[o]||v(t,o,e[o],n[o],r)})(t,m,g,i,l),e.__k=e.props.children,p||E(t,e,n,r,"foreignObject"!==e.type&&i,o,a,u,l),l||("value"in m&&void 0!==m.value&&m.value!==t.value&&(t.value=null==m.value?"":m.value),"checked"in m&&void 0!==m.checked&&m.checked!==t.checked&&(t.checked=m.checked))}return t}function R(t,e,n){try{"function"==typeof t?t(e):t.current=e}catch(t){r.__e(t,n)}}function L(t,e,n){var i,o,a;if(r.unmount&&r.unmount(t),(i=t.ref)&&(i.current&&i.current!==t.__e||R(i,null,e)),n||"function"==typeof t.type||(n=null!=(o=t.__e)),t.__e=t.__d=null,null!=(i=t.__c)){if(i.componentWillUnmount)try{i.componentWillUnmount()}catch(t){r.__e(t,e)}i.base=i.__P=null}if(i=t.__k)for(a=0;a<i.length;a++)i[a]&&L(i[a],e,n);null!=o&&f(o)}function D(t,e,n){return this.constructor(t,n)}function O(t,e,n){var i,o,a;r.__&&r.__(t,e),o=(i=n===s)?null:n&&n.__k||e.__k,t=g(x,null,[t]),a=[],N(e,(i?e:n||e).__k=t,o||u,u,void 0!==e.ownerSVGElement,n&&!i?[n]:o?null:d.slice.call(e.childNodes),a,n||u,i),T(a,t)}function k(t,e){O(t,e,s)}function M(t,e){return e=p(p({},t.props),e),arguments.length>2&&(e.children=d.slice.call(arguments,2)),m(t.type,e,e.key||t.key,e.ref||t.ref)}function F(t){var e={},n={__c:"__cC"+c++,__:t,Consumer:function(t,e){return t.children(e)},Provider:function(t){var r,i=this;return this.getChildContext||(r=[],this.getChildContext=function(){return e[n.__c]=i,e},this.shouldComponentUpdate=function(e){t.value!==e.value&&r.some((function(t){t.context=e.value,A(t)}))},this.sub=function(t){r.push(t);var e=t.componentWillUnmount;t.componentWillUnmount=function(){r.splice(r.indexOf(t),1),e&&e.call(t)}}),t.children}};return n.Consumer.contextType=n,n}r={__e:function(t,e){for(var n,r;e=e.__;)if((n=e.__c)&&!n.__)try{if(n.constructor&&null!=n.constructor.getDerivedStateFromError&&(r=!0,n.setState(n.constructor.getDerivedStateFromError(t))),null!=n.componentDidCatch&&(r=!0,n.componentDidCatch(t)),r)return A(n.__E=n)}catch(e){t=e}throw t}},i=function(t){return null!=t&&void 0===t.constructor},y.prototype.setState=function(t,e){var n;n=this.__s!==this.state?this.__s:this.__s=p({},this.state),"function"==typeof t&&(t=t(n,this.props)),t&&p(n,t),null!=t&&this.__v&&(this.__e=!1,e&&this.__h.push(e),A(this))},y.prototype.forceUpdate=function(t){this.__v&&(this.__e=!0,t&&this.__h.push(t),A(this))},y.prototype.render=x,o=[],a="function"==typeof Promise?Promise.prototype.then.bind(Promise.resolve()):setTimeout,s=u,c=0},function(t,e){t.exports=require("application")},function(t,e){e.AbstractDecorator=class{constructor(t,e,n=!1){this.node=t,this.cosmetic=n}serialize(t,e){return this._serialize(t,e)}_serialize(t,e){return t}}},function(t,e,n){const r=n(0);function i(t){return t instanceof r.Text?e.TEXT:t instanceof r.Group?e.GROUP:t instanceof r.SymbolInstance||t instanceof r.Artboard?e.WIDGET:t instanceof r.Path||t instanceof r.Polygon||t instanceof r.Rectangle||t instanceof r.Ellipse||t instanceof r.BooleanGroup||t instanceof r.Line?e.SHAPE:e.ROOT}e.getType=i,e.getXDLabel=function(t){return t instanceof r.Text?"text":t instanceof r.Group?"group":t instanceof r.SymbolInstance?"component":t instanceof r.Artboard?"artboard":t instanceof r.Path||t instanceof r.Polygon||t instanceof r.Rectangle||t instanceof r.Ellipse||t instanceof r.BooleanGroup||t instanceof r.Line?"shape":"none"},e.getLabel=function(t){return i(t)},e.TEXT="text",e.GROUP="group",e.WIDGET="widget",e.SHAPE="shape",e.ROOT="root"},function(t,e,n){const{h:r,render:i,Component:o,Fragment:a}=n(7),l=n(21),s=n(33),c=n(22);let u;async function d(t){return u=document.createElement("dialog"),i(t,u),!1!==await document.body.appendChild(u).showModal()}function h(t,e,n,i="OK",o){let l=t=>{o&&o(t),function(t){u&&u.close(t),u=null}(t)};return r("form",{method:"dialog"},t&&r(a,null,r("h1",null,r("span",null,t),r("img",{class:"icon",src:"./assets/icon.png"})),r("hr",null)),e,r("footer",null,n&&r("button",{onClick:()=>l(!1),"uxp-variant":"primary"},n),r("button",{onClick:()=>l(!0),"uxp-variant":"cta","uxp-selected":"true",autofocus:"autofocus"},i)))}function p(t,e,n){return t.length?r(a,null,r("h1",null,r("img",{src:n.default,alt:"icon",class:"result-icon"}),g(t,e)),r("div",{class:"list"},t.map(t=>r("div",null,t.toString())))):null}function f(t,e){if(0===t.length)return"";let n=g(t,e)+":";return t.reduce((t,e)=>t+"\n"+e.toString(),n)}function g(t,e){let n=t.length;return n+" "+e+(n>1?"s":"")}t.exports={alert:async function(t,e=null,n="OK"){await d(h(e,r("p",{dangerouslySetInnerHTML:{__html:t}}),null,n))},prompt:async function(t,e=null,n="Cancel",i="Continue"){return await d(h(e,r("p",{dangerouslySetInnerHTML:{__html:t}}),n,i))},projectAlert:async function(t){return await d(h("Set a Flutter Project Folder",r(a,null,r("p",{class:"text"},"Before exporting, you must select the Flutter project folder to export into."),r("p",{class:"text-information"},"Due to current restrictions in Adobe XD, you will have to do this each time you open this file.")),"Cancel","Continue"))},resultsAlert:async function(t){return await d(h(null,r(a,null,p(t.errors,"Error",s),p(t.warnings,"Warning",c)),"Copy To Clipboard","Close",e=>!e&&function(t){let e=f(t.errors,"Error")+"\n\n"+f(t.warnings,"Warning");l.copyText(e.trim())}(t)))}}},function(t,e,n){const{Log:r}=n(23),{trace:i}=n(4);e.ContextTarget={FILES:1,CLIPBOARD:2};e.Context=class{constructor(t){this._debugLog=new r,this._userLog=new r,this.log=this._userLog,this.widgetNameSet={},this.artboards={},this.masterComponents={},this.componentInstances={},this.target=t,this.widgets={},this.widgetStack=[],this.resultMessage=null,this._gridDepth=0,this._fonts={}}get fonts(){return Object.keys(this._fonts)}get _currentWidget(){let t=this.widgetStack,e=t.length;return e>0?t[e-1]:null}useDebugLog(){this.log=this._debugLog}useUserLog(){this.log=this._userLog}pushGrid(){this._gridDepth++}popGrid(){this._gridDepth--}get inGrid(){return this._gridDepth>0}pushWidget(t){this.widgets[t.widgetName]=t,this.widgetStack.push(t)}popWidget(){this.widgetStack.pop()}addArtboard(t){this._checkWidgetName(t)&&(this.artboards[t.symbolId]=t,this.widgetNameSet[t.widgetName]=!0)}addFont(t,e){this._fonts[t]=!0}addComponentInstance(t){let e=this.componentInstances[t.symbolId];if(e||(e=this.componentInstances[t.symbolId]=[]),!t.isMaster||this._checkWidgetName(t)){for(let n=0;n<e.length;++n)if(e[n].xdNode===t.xdNode)return;e.push(t),t.isMaster&&(this.masterComponents[t.symbolId]=t,this.widgetNameSet[t.widgetName]=!0)}}getComponentFromXdNode(t){let e=this.componentInstances[t.symbolId];for(let n=0;e&&n<e.length;++n){let r=e[n];if(r.xdNode===t)return r}return null}getArtboardFromXdNode(t){return this.artboards[t.guid]}addImport(t,e,n){let r=this._currentWidget;r&&r.addImport(t,e,n)}usesPinned(){this.addImport("package:adobe_xd/pinned.dart")}addShapeData(t){let e=this._currentWidget;e&&(e.addShapeData(t),this.addImport("package:flutter_svg/flutter_svg.dart"))}removeShapeData(t){let e=this._currentWidget;e&&e.removeShapeData(t)}addParam(t){let e=this._currentWidget;!this.inGrid&&e&&e.addChildParam(t,this)}finish(){Object.freeze(this)}_checkWidgetName(t){let e=t.widgetName;return e?!this.widgetNameSet[e]||(this.log.error(`Duplicate widget name: ${e}.`,t.xdNode),!1):(this.log.error("Empty widget name.",t.xdNode),!1)}}},function(t,e,n){const r=n(8),{alert:i}=n(11);e.version="1.0.0",e.debug=!1,e.xdVersionRequired=30,e.xdVersion=parseInt(r.version),e.xdVersionOk=e.xdVersion>=e.xdVersionRequired,e.label=e.debug?"DEBUG":"Release",e.checkXDVersion=function(){return!!e.xdVersionOk||(i(`XD to Flutter plugin (v${e.version}) requires Adobe XD version `+`${e.xdVersionRequired} or higher.`+`<br><br>Current version is ${r.version}. Please upgrade.`),!1)}},function(t,e,n){const r=n(0),i=n(16).storage.localFileSystem,o=n(1),a=n(2),l=n(3),{Pubspec:s}=n(36),{Log:c}=n(23),{projectAlert:u,prompt:d}=n(11);class h{constructor(){this.root=new p(null,l.EXPORT_PATH,null),this.code=new p(this.root,l.CODE_PATH,f.CODE),this.images=new p(this.root,l.IMAGE_PATH,f.IMAGE),this.imagesX2=new p(this.images,null,f.IMAGE_X2),this.imagesX3=new p(this.images,null,f.IMAGE_X3)}async checkRoot(t=!0){return!!this.hasRoot||!(t&&!await u(this))&&await this.promptForRoot()}async validate(t){let e=await this.root.readFile("pubspec.yaml");if(!e)return t.log.warn(h.PUBSPEC_WARNING,null),!1;let n=new s(e);return n.checkFonts(t.fonts,t.log),n.checkDependencies([h.XD_PACKAGE],t.log),n.checkAssets([this.images.path+"/"],t.log),!0}async promptForRoot(){let t=await i.getFolder();return!!t&&(!!await this._verifyRoot(t)&&(this.root._f=t,this.root._path=t.nativePath,a.setProp(r.root,this.root._prop,this.root._path),!0))}get hasRoot(){return!!this.root._f}async _verifyRoot(t){let e;try{e=await t.getEntry("pubspec.yaml")}catch(t){}if(!e)return d(h.PUBSPEC_WARNING);let n=new c,r=await e.read();r?new s(r).checkDependencies([h.XD_PACKAGE],n):n.warn("Unable to read pubspec.yaml.",null);let i=n.getResults();return r=i.errors.concat(i.warnings).reduce((t,e)=>`${t}<div>  • ${e}</div>`,""),!r||d(`Warnings were generated while validating your Flutter project.${r}`)}}class p{constructor(t,e,n){this._parent=t,this._prop=e,this._defaultPath=n,this._path=null,this._f=null}async getFile(t,e,n=!0){let r=null,i=await this._getF(e);if(!i)return null;if(t=o.cleanFileName(t),n)try{r=i.createFile(t,{overwrite:!0})}catch(n){e.log.error(`Unable to create file ('${this._getFullPath()}${t}'): ${n}`,null)}else{try{r=await i.getEntry(t)}catch(t){}r&&!r.isFile&&(r=null)}return r}async writeFile(t,e,n){let r=await this.getFile(t,n);if(!r)return!1;try{r.write(e)}catch(t){return!1}return!0}async readFile(t,e){let n=await this.getFile(t,e,!1);return n?await n.read():null}get path(){return this._getRelPath()}async _getF(t){if(!this._parent)return this._f;let e=this._getFullPath();if(this._f&&e===this._path)return this._f;let n=await this._parent._getF(t);return this._f=await this._getNestedF(n,this._getRelPath().split("/"),t),this._f}async _getNestedF(t,e,n){if(!t)return null;let r,i,o=e.shift().substr(0,160);try{r=await t.getEntry(o)}catch(t){}if(r)r.isFolder||(i="A file with that name already exists.",r=null);else try{r=await t.createFolder(o)}catch(t){i=t}return i&&n.log.error(`Unable to create folder ('${this._getFullPath()}'): ${i}`,null),e.length&&r?this._getNestedF(r,e):r}_hasRootPath(){return this._parent?this._parent._hasRootPath():!!this._f}_getFullPath(){return this._parent?this._parent._getFullPath()+this._getRelPath()+"/":this._f&&this._f.nativePath}_getRelPath(){let t=this._prop&&a.getProp(r.root,this._prop)||this._defaultPath;return o.cleanPath(t)}}h.PUBSPEC_WARNING='A "pubspec.yaml" file was not found in the specified Flutter project folder.',h.XD_PACKAGE="adobe_xd";let f=Object.freeze({ROOT:"Select a project path.",CODE:"lib",IMAGE:"assets/images",IMAGE_X2:"2.0x",IMAGE_X3:"3.0x"}),g=new h;t.exports={DefaultPath:f,project:g}},function(t,e){e.Parameter=class{constructor(t,e=null,n=null){this.name=t,this.type=e,this.value=n}}},function(t,e){t.exports=require("uxp")},function(t,e,n){const r=n(0),i=n(8),o=n(1),a=n(2),{Context:l,ContextTarget:s}=n(12),{project:c}=n(14),u=n(3),{alert:d}=n(11),{trace:h}=n(4),{checkXDVersion:p}=n(13);function f(t,e){return t.children.forEach((t,n)=>{if(t.visible)if(t.fill instanceof r.ImageFill){let n=a.getImageName(t);n&&(e[n]=(e[n]||new y).add(t))}else t.children&&f(t,e)}),e}async function g(t,e,n,i){let o=t.xdNode,l=o.fill,s=l.naturalWidth,d=l.naturalHeight;if(!a.getProp(r.root,u.RESOLUTION_AWARE))return await m(t.xdNode,e,s,d,n,i);let h=t.maxW,p=t.maxH,f=s/d,g=Math.min(s/h,d/p),_=Math.max(h,p*f)+.5|0,x=_/f+.5|0,y=await m(o,e,_,x,n,i);return y?(g>=3&&(n=c.imagesX3)&&await m(o,e,3*_,3*x,n,i),g>=2&&(n=c.imagesX2)&&await m(o,e,2*_,2*x,n,i),y):null}async function m(t,e,n,o,a,l){if(!a)return;if(!(t.fill instanceof r.ImageFill))return void l.log.error("Tried to export an image from a node that does not have an image fill.",xNode);let s=new r.Rectangle;s.fill=t.fill,s.width=n,s.height=o;let c=x(t),u=await a.getFile(c,l);if(!u)return l.log.error(`Could not create image file ('${c}').`,null),null;let d=_(t),p={node:s,outputFile:u,type:d,scale:1};return d===i.RenditionType.JPG&&(p.quality=80),await i.createRenditions([p]).then(t=>{h(`Image output to: ${t[0].outputFile.nativePath}`)}).catch(t=>{l.log.error(`Unable to export image ('${e}'): ${t}`,null),c=null}),c}function _(t){let e=t.fill;return e&&e instanceof r.ImageFill?"image/jpeg"===e.mimeType?i.RenditionType.JPG:i.RenditionType.PNG:null}function x(t){let e=function(t){let e=_(t);return e?e===i.RenditionType.JPG?"jpg":"png":null}(t),n=a.getImageName(t);return e&&n?`${n}.${e}`:null}e.exportImage=async function(t,e){if(!p())return;let n=o.getSelectedItem(t),r=a.getImageName(n);if(!r)return void d("You must set an image name before exporting.");if(!await c.checkRoot())return null;let i=c.images,u=f(e,{})[r],h=new l(s.FILES),m=await g(u,r,i,h);return h.resultMessage=m?`Exported '${m}' successfully`:"Image export failed",h},e.exportAllImages=async function(t,e){if(!p())return;if(!await c.checkRoot())return null;let n=c.images,r=new l(s.FILES),i=f(e,{}),a=0,u=0;for(let t in i){let e=i[t];e.includeInExportAll&&(u++,await g(e,t,n,r)&&a++)}return r.resultMessage=o.getExportAllMessage(a,u,"named image"),r},e.getImagePath=function(t){let e=x(t);return e?`${c.images.path}/${e}`:null};class y{constructor(t){this.xdNode=null,this.count=this.maxW=this.maxH=0,this.includeInExportAll=!0,this.add(t)}add(t){if(!t)return this;this.count++,this.xdNode=t;let e=t.globalBounds;return this.maxW=Math.max(this.maxW,e.width),this.maxH=Math.max(this.maxH,e.height),this}}},function(t,e,n){const r=n(0),i=n(1),o=n(5),a=n(2),{AbstractNode:l}=n(6),s=n(3),{ParamType:c}=n(15);class u extends l{static create(t,e){if(t instanceof r.Rectangle||t instanceof r.Ellipse)return t.fillEnabled&&t.fill instanceof r.RadialGradient&&e.addImport("package:adobe_xd/gradient_xd_transform.dart"),new u(t,e)}constructor(t,e){if(super(t,e),t.fill instanceof r.ImageFill){let n=o.getAssetImage(t,e);e.addParam(this.addParam("fill",a.getProp(t,s.IMAGE_PARAM_NAME),o.DartType.IMAGE,n))}}get isRect(){return this.xdNode instanceof r.Rectangle}_serialize(t){return`Container(${this._getSizeParams(t)}${this._getColorOrDecorationParam(t)})`}_getSizeParams(t){if(this.responsive)return"";let e=this.xdNode,n=this.isRect;return`width: ${i.fix(n?e.width:2*e.radiusX)}, height: ${i.fix(n?e.height:2*e.radiusY)}, `}_getColorOrDecorationParam(t){let e=this.xdNode;return this.isRect&&!e.stroke&&!e.hasRoundedCorners&&!e.shadow&&e.fill instanceof r.Color?this._getFillParam(t):this._getDecorationParam(t)}_getDecorationParam(t){return`decoration: ${this._getBoxDecoration(t)}, `}_getBoxDecoration(t){return"BoxDecoration("+i.getParamList([this._getBorderRadiusParam(t),this._getFillParam(t),this._getBorderParam(t),this._getBoxShadowParam(t)])+")"}_getFillParam(t){let e=this.xdNode,n=e.fillEnabled&&e.fill;if(!n)return"";let i=e.blur,l=i&&i.visible&&i.isBackgroundEffect?i.fillOpacity:1,s=a.getOpacity(e)*l;if(n instanceof r.Color)return`color: ${o.getColor(e.fill,s)}, `;if(n instanceof r.ImageFill){return"image: DecorationImage("+`  image: ${this.getParamName("fill")||o.getAssetImage(e,t)},`+`  fit: ${this._getBoxFit(n.scaleBehavior)},`+this._getOpacityColorFilterParam(s)+"), "}let c=o.getGradientParam(n,s);if(c)return c;t.log.warn(`Unrecognized fill type ('${n.constructor.name}').`,e)}_getBoxFit(t,e){return`BoxFit.${t===r.ImageFill.SCALE_COVER?"cover":"fill"}`}_getOpacityColorFilterParam(t){return t>=1?"":`colorFilter: new ColorFilter.mode(Colors.black.withOpacity(${i.fix(t,2)}), BlendMode.dstIn), `}_getBorderParam(t){let e=this.xdNode;if(!e.strokeEnabled)return"";e.strokePosition!==r.GraphicNode.INNER_STROKE&&t.log.warn("Only inner strokes are supported on rectangles & ellipses.",e),e.strokeJoins!==r.GraphicNode.STROKE_JOIN_MITER&&t.log.warn("Only miter stroke joins are supported on rectangles & ellipses.",e);let n=e.strokeDashArray;n&&n.length&&n.reduce((t,e)=>t+e)&&t.log.warn("Dashed lines are not supported on rectangles & ellipses.",e);let l=e.stroke&&o.getColor(e.stroke,a.getOpacity(e));return l?`border: Border.all(width: ${i.fix(e.strokeWidth,2)}, color: ${l}), `:""}_getBorderRadiusParam(t){let e,n=this.xdNode;return n instanceof r.Ellipse?e=this._getBorderRadiusForEllipse(t):n.hasRoundedCorners&&(e=this._getBorderRadiusForRectangle(t)),e?`borderRadius: ${e}, `:""}_getBorderRadiusForEllipse(t){return"BorderRadius.all(Radius.elliptical(9999.0, 9999.0))"}_getBorderRadiusForRectangle(t){let e=this.xdNode.cornerRadii,n=e.topLeft,r=e.topRight,o=e.bottomRight,a=e.bottomLeft;return n===r&&n===o&&n===a?`BorderRadius.circular(${i.fix(n,2)})`:"BorderRadius.only("+this._getRadiusParam("topLeft",n)+this._getRadiusParam("topRight",r)+this._getRadiusParam("bottomRight",o)+this._getRadiusParam("bottomLeft",a)+")"}_getRadiusParam(t,e){return e<=1?"":`${t}: Radius.circular(${i.fix(e,2)}), `}_getBoxShadowParam(t){let e=this.xdNode,n=e.shadow;return n&&n.visible?"boxShadow: [BoxShadow("+`color: ${o.getColor(n.color,a.getOpacity(e))}, `+`offset: Offset(${n.x}, ${n.y}), `+`blurRadius: ${n.blur}, `+"), ], ":""}}e.Container=u},function(t,e){t.exports=require("os")},function(t,e){t.exports=require("./lib/dart_style")},function(t,e){t.exports=require("clipboard")},function(t,e,n){"use strict";n.r(e),e.default=n.p+"images/icon-warning.png"},function(t,e,n){const r=n(1),{trace:i}=n(4);e.Log=class{constructor(){this.entries={}}add(t,e=a.NOTE,n=null){n&&(t=`[${r.shorten(n.name,20)}] ${t}`);let i=new o(t,e),l=this.entries[i.hash]=this.entries[i.hash]||i;return l.count+=1,l}getResults(){let t=this.entries,e={warnings:[],errors:[]};for(let n in t){let r=t[n],i=r.severity;i===a.WARNING?e.warnings.push(r):i===a.ERROR&&e.errors.push(r)}return e}note(t,e){let n=this.add(t,a.NOTE,e);i(n.toString())}warn(t,e){this.add(t,a.WARNING,e)}error(t,e){this.add(t,a.ERROR,e)}fatal(t,e){this.add(t,a.FATAL,e)}};class o{constructor(t,e=a.NOTE){this.message=t,this.severity=e,this.count=0,this.hash=r.getHash(`${this.message}${this.severity}`)}toString(){return this.message+(this.count>1?` (x${this.count})`:"")}}const a=Object.freeze({NOTE:0,WARNING:1,ERROR:2,FATAL:3,BLACKWATCH_PLAID:11})},function(t,e){t.exports=require("assets")},function(t,e,n){const r=n(2),{AbstractNode:i}=n(6),{ContextTarget:o}=n(12);e.AbstractWidget=class extends i{constructor(t,e){super(t,e),this.children=[],this._childParameters={},this._shapeData={},this._imports={}}get symbolId(){return this.xdNode.symbolId}get widgetName(){return r.getWidgetName(this.xdNode)}serialize(t){return this._serialize(t)}serializeWidget(t){let e=this._childParameters,n="",r="";for(let t in e){let i=e[t],o=i.value;r+=`this.${i.name}${o?` = ${o}`:""}, `,n+=`final ${i.type} ${i.name};\n`}let i=this._serializeWidgetBody(t),o=this._getImportListString(t),a=this._getShapeDataProps(t);return o+"\n"+`class ${this.widgetName} extends StatelessWidget {\n`+n+`${this.widgetName}({ Key key, ${r}}) : super(key: key);\n`+`@override\nWidget build(BuildContext context) { return ${i}; }`+"}\n"+a}addShapeData(t){this._shapeData[t.xdNode.guid]=t}removeShapeData(t){delete this._shapeData[t.xdNode.guid]}addImport(t,e,n){this._imports[t]={name:t,isWidget:e,scope:n}}addChildParam(t,e){t&&t.name&&(this._childParameters[t.name]&&e.log.warn(`Duplicate parameter on '${this.widgetName}': ${t.name}.`),this._childParameters[t.name]=t)}_serializeWidgetBody(t){throw"_serializeWidgetBody must be implemented."}_getShapeDataProps(t){let e="",n={};for(let[i,o]of Object.entries(this._shapeData)){const i=r.getShapeDataName(o,t);n[i]||(n[i]=!0,e+=`const String ${i} = '${o.toSvgString(t)}';\n`)}return e}_getImportListString(t){let e="import 'package:flutter/material.dart';\n",n=this._imports;for(let r in n){let i=n[r];t.target!==o.FILES&&i.isWidgetImport||(e+=`import '${i.name}'${i.scope?`as ${i.scope}`:""};\n`)}return e}_getParamList(t){let e="",n=this._childParameters;for(let t in n){let r=n[t],i=r.value;e+=i?`${r.name}: ${i}, `:""}return e}}},function(t,e,n){const r=n(0),i=n(2),{DartType:o}=n(5),{AbstractNode:a}=n(6),l=n(3);class s extends a{static create(t,e){if(t instanceof r.Group)return new s(t,e)}constructor(t,e){super(t,e),this.children=[],e.addParam(this.addParam("onTap",i.getProp(this.xdNode,l.TAP_CALLBACK_NAME),o.TAP_CB))}_serialize(t){if(!this.hasChildren)return"";let e=this.xdNode;e.mask&&t.log.warn("Group masks aren't supported.",e);let n=this._getChildStack(t);return this.responsive||(n=this._addSizedBox(n,e.localBounds,t)),n}}e.Stack=s},function(t,e,n){const r=n(0),i=n(1),o=n(2),{getColor:a,getString:l,DartType:s}=n(5),{AbstractNode:c}=n(6),u=n(3);class d extends c{static create(t,e){if(t instanceof r.Text)return new d(t,e)}constructor(t,e){super(t,e),e.addParam(this.addParam("text",o.getProp(t,u.TEXT_PARAM_NAME),s.STRING,l(t.text))),e.addParam(this.addParam("fill",o.getProp(t,u.COLOR_PARAM_NAME),s.COLOR,a(t.fill)))}get adjustedBounds(){let t=super.adjustedBounds,e=this.xdNode;if(!e.areaBox&&!this.responsive){let n=Math.max(.25*e.fontSize,.1*t.width);t.width+=2*n,e.textAlign===r.Text.ALIGN_RIGHT?t.x-=2*n:e.textAlign===r.Text.ALIGN_CENTER&&(t.x-=n)}return t}get transform(){let t=this.xdNode;return{rotation:t.rotation,flipY:t.flipY}}_serialize(t){let e,n=this.xdNode;if(e=n.styleRanges.length<=1||this.getParam("text")||this.getParam("fill")?this._getText(t):this._getTextRich(t),n.clippedByArea&&(e=`SingleChildScrollView(child: ${e})`),this.responsive);else if(n.areaBox)e=this._addSizedBox(e,n.areaBox,t);else if(n.textAlign!==r.Text.ALIGN_LEFT){e=`SizedBox(width: ${i.fix(this.adjustedBounds.width,0)}, child: ${e},)`}return e}_padWidth(t){let e=this.xdNode,n=0|Math.max(.25*e.fontSize,.1*t);return e.textAlign===r.Text.ALIGN_RIGHT?this._offsetX=2*-n:e.textAlign===r.Text.ALIGN_CENTER&&(this._offsetX=-n),t+2*n}_getText(t){return"Text("+`${this.getParamName("text")||l(this.xdNode.text)}, `+p(this._getTextStyleParamList(this.xdNode,!1,t))+this._getTextAlignParam()+")"}_getTextRich(t){let e=this.xdNode,n=e.text,r=e.styleRanges,o="",a=0,l=this._getTextStyleParamList(r[0],!0,t);for(let e=0;e<r.length;e++){let s=r[e].length;if(0===s)continue;let c=this._getTextStyleParamList(r[e],!1,t),u=i.getParamDelta(l,c);e===r.length-1&&(s=n.length-a),o+=this._getTextSpan(u,n.substr(a,s))+", ",a+=s}return"Text.rich(TextSpan("+p(l)+`  children: [${o}],`+`), ${this._getTextAlignParam()})`}_getTextSpan(t,e){return"TextSpan("+` text: ${l(e)}, `+p(t)+")"}_getTextAlignParam(){return`textAlign: ${this._getTextAlign(this.xdNode.textAlign)}, `}_getTextAlign(t){return"TextAlign."+("right"===t?"right":"center"===t?"center":"left")}_getTextStyleParamList(t,e,n){return h(t,e,n,this.xdNode,this.getParamName("fill"))}}function h(t,e,n,r=null,i=null){let o=null!=t.length;return function(t,e,n){"none"!==t.textScript&&n.log.warn("Superscript & subscript are not currently supported.",e);"none"!==t.textTransform&&n.log.warn("Text transformations (all caps, title case, lowercase) are not currently supported.",e);t.paragraphSpacing&&n.log.warn("Paragraph spacing is not currently supported.",e);t.strokeEnabled&&t.stroke&&n.log.warn("Text border is not currently supported.",e)}(t,r,n),n.addFont(m(t),r),[g(t),_(t),x(t,i),y(t),e?null:w(t),e?null:b(t),e?null:A(t),!o||e?$(r||t):null,!o||e?E(r||t):null]}function p(t){if(!t)return"";let e=f(t);return e?`style: ${e}, `:""}function f(t){let e=i.getParamList(t);return e?`TextStyle(${e})`:""}function g(t){return`fontFamily: '${m(t)}', `}function m(t){return o.getFlutterFont(t.fontFamily)||t.fontFamily}function _(t){return`fontSize: ${t.fontSize}, `}function x(t,e){return`color: ${e||a(t.fill,o.getOpacity(t))}, `}function y(t){return 0===t.charSpacing?"":`letterSpacing: ${t.charSpacing/1e3*t.fontSize}, `}function w(t){let e=function(t){let e=(t=t.toLowerCase()).match(N),n=e&&I[e];return n?"FontStyle."+n:null}(t.fontStyle);return e?`fontStyle: ${e}, `:""}function b(t){let e=function(t){let e=(t=t.toLowerCase()).match(v),n=e&&S[e];return n?"FontWeight."+n:null}(t.fontStyle);return e?`fontWeight: ${e}, `:""}function A(t){let e=t.underline,n=t.strikethrough,r="";return e||n?(r=e&&n?"TextDecoration.combine([TextDecoration.underline, TextDecoration.lineThrough])":`TextDecoration.${e?"underline":"lineThrough"}`,`decoration: ${r}, `):r}function $(t){return 0===t.lineSpacing?"":`height: ${t.lineSpacing/t.fontSize}, `}function E(t){return null!=t.shadow&&t.shadow.visible?`shadows: [${function(t){let e=t;return`Shadow(color: ${a(e.color)}, `+(e.x||e.y?`offset: Offset(${e.x}, ${e.y}), `:"")+(e.blur?`blurRadius: ${e.blur}, `:"")+")"}(t.shadow)}], `:""}function P(t){let e=[];for(let n in t)e.push(n);return new RegExp(e.join("|"),"ig")}e.Text=d,e.getTextStyleParamList=h,e.getStyleParam=p,e.getTextStyle=f;const S={thin:"w100",hairline:"w100",extralight:"w200",ultralight:"w200",light:"w300",book:"w300",demi:"w300",normal:null,regular:null,plain:null,medium:"w500",semibold:"w600",demibold:"w600",bold:"w700",extrabold:"w800",heavy:"w800",black:"w900",poster:"w900"},v=P(S),I={italic:"italic",oblique:"italic"},N=P(I)},function(t,e,n){const{AbstractDecorator:r}=n(9),{Stack:i}=n(26);class o extends r{static create(t,e){if(t instanceof i)return t.getParam("onTap")?new o(t,e):void 0}_serialize(t,e){return o.get(t,this.node.getParam("onTap").name)}}e.OnTap=o,o.get=function(t,e){return t&&e?"GestureDetector("+`onTap: ()=> ${e}?.call(), `+`child: ${t}, `+")":t}},function(t,e,n){const r=n(0),{AbstractNode:i}=n(6);class o extends i{static create(t,e){if(t instanceof r.Path||t instanceof r.Polygon||t instanceof r.Line||t instanceof r.BooleanGroup)return new o(t,e)}serialize(t){throw"Path.serialize() called."}}e.Path=o},function(t,e,n){const{h:r,render:i,Component:o}=n(7),{editDocument:a}=n(8),l=n(19),s=n(31),c=n(34),u=n(35),d=n(10),h=n(2);n(39);const p=n(0),f=n(17),g=n(47),m=n(4),_=m.trace;class x extends o{constructor(t){super(t),this.state={context:null},t.notifier.listen(t=>this.updateResults(t))}exportSelectedItem(){a({editLabel:"Export widget"},async(t,e)=>{this.updateResults(await g.exportSelected(t,e))})}copySelectedItem(){a({editLabel:"Copy selected item to clipboard"},async(t,e)=>{this.updateResults(await g.copySelected(t,e))})}exportAll(){a({editLabel:"Export all widgets"},async(t,e)=>{this.updateResults(await g.exportAll(t,e))})}exportImage(){a({editLabel:"Export image"},async(t,e)=>{this.updateResults(await f.exportImage(t,e))})}exportAllImages(){a({editLabel:"Export all images"},async(t,e)=>{this.updateResults(await f.exportAllImages(t,e))})}updateResults(t){this.setState({context:t}),t?t.log||_("UNEXPECTED RESULT OBJECT!"):_("NO RESULT RETURNED!")}render(t,e){let n=!!(t.selected&&t.selected.length>1),i=!n&&t.selected&&t.selected[0],o=d.getType(i),a=o===d.ROOT,f=h.isWidget(i),g=o!==d.ROOT&&o!==d.WIDGET,m=i&&i.fill&&i.fill instanceof p.ImageFill,_=h.getContainingComponent(i,!0);return r("div",{id:"panel-container","data-platform":l.platform()},r("div",{class:"options-container"},!a||n?r(s,{node:i}):null,r(u,{node:a?p.root:i,component:_,multi:n})),r("div",{class:"actions-container"},r(c,{context:e.context,node:i}),r("span",{class:"separator"}),m?r("button",{"uxp-variant":"primary",onClick:()=>this.exportImage()},"Export Image"):null,g?r("button",{"uxp-variant":"primary",onClick:()=>this.copySelectedItem()},"Copy Selected"):null,f?r("button",{"uxp-variant":"primary",onClick:()=>this.exportSelectedItem()},"Export Widget"):null,a?r("button",{"uxp-variant":"primary",onClick:()=>this.exportAllImages()},"Export All Images"):null,r("button",{"uxp-variant":"cta",onClick:()=>this.exportAll()},"Export All Widgets")))}}let y,w=new class{listen(t){this.f=t}notify(t){this.f&&this.f(t)}};function b(t){let e=t&&t.items;i(r(x,{key:"panel",selected:e,notifier:w}),y)}t.exports={panels:{flutterPanel:{show:function(t){y||t.node.appendChild((null==y&&(y=document.createElement("div"),b()),y))},update:b}},commands:{exportAll:async function(t,e){w.notify(await g.exportAll(t,e))},exportSelected:async function(t,e){w.notify(await g.exportSelected(t,e))},copySelected:async function(t,e){w.notify(await g.copySelected(t,e))},_testDartStyle:m._testDartStyle,_printdumpNodePluginData:m._printdumpNodePluginData,_imageFlipTest:m._imageFlipTest,_printLayout:m._printLayout,_dumpTransformData:m._dumpTransformData}}},function(t,e,n){const{h:r,Component:i,Fragment:o}=n(7),a=n(10),l=n(32),{trace:s}=n(4);t.exports=class extends i{constructor(t){super(t),this.state={rendition:""}}componentDidMount(){this.renderPreview(this.props.node)}shouldComponentUpdate(t,e){return this.props!==t&&this.renderPreview(t.node),!0}async renderPreview(t){try{this.setState({rendition:await l.getPreview(t)})}catch(t){s("error rendering preview",t)}}render(){let t=!this.props.node,e=t||null===this.state.rendition,n=t?"MULTIPLE":a.getXDLabel(this.props.node);return r("div",{class:"preview-container"},r("div",{class:`preview-canvas${e?" multi":" "}`},r("img",{class:"preview-img",src:this.state.rendition,alt:"preview"}),r("div",{class:"preview-no label"},"PREVIEW NOT AVAILABLE")),r("span",{class:"label"},"SELECTION: ",r("b",null,n.toUpperCase())," "),r("span",{class:"separator"}))}}},function(t,e,n){const r=n(8),i=n(16).storage,o=n(1);let a;i.localFileSystem.getTemporaryFolder().then(t=>{t.createFile("XD_Flutter_preview.png",{overwrite:!0}).then(t=>{a=t})}),e.getPreview=async function t(e,n=0){if(!e)return"";if(!a)return null;let l=e.localBounds,s=3*Math.min(20,200/l.height,400/l.width);try{await r.createRenditions([{node:e,scale:s,outputFile:a,type:r.RenditionType.PNG}])}catch(r){return n>0?(await o.delay(100),await t(e,n-1)):null}return"data:image/png;base64,"+function(t){let e="";const n="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",r=new Uint8Array(t),i=r.byteLength,o=i%3,a=i-o;let l,s,c,u,d;for(var h=0;h<a;h+=3)d=r[h]<<16|r[h+1]<<8|r[h+2],l=(16515072&d)>>18,s=(258048&d)>>12,c=(4032&d)>>6,u=63&d,e+=n[l]+n[s]+n[c]+n[u];1==o?(d=r[a],l=(252&d)>>2,s=(3&d)<<4,e+=n[l]+n[s]+"=="):2==o&&(d=r[a]<<8|r[a+1],l=(64512&d)>>10,s=(1008&d)>>4,c=(15&d)<<2,e+=n[l]+n[s]+n[c]+"=");return e}(await a.read({format:i.formats.binary}))}},function(t,e,n){"use strict";n.r(e),e.default=n.p+"images/icon-error.png"},function(t,e,n){const{h:r,Component:i,Fragment:o}=n(7),{resultsAlert:a}=n(11),l=n(13),{shell:s}=n(16);t.exports=class extends i{constructor(t){super(t)}shouldComponentUpdate(t){return this.props.node!==t.node?(this.setState({results:null}),!0):this.props.context!==t.context&&void(t.context&&t.context.log&&this.setState({results:t.context.log.getResults()}))}render(t,e){if(!l.xdVersionOk)return r("div",{class:"results-container"},r("div",{class:"version alert"},`Version ${l.xdVersionRequired}+ of Adobe XD is required (v${l.version})`));if(!t.context||!e.results)return r("div",{class:"results-container"},r("span",{class:`version${l.debug?" alert":""}`},`${l.label} v${l.version}`),r("a",{class:"help",onClick:()=>s.openExternal("https://github.com/AdobeXD/xd-to-flutter-plugin")},"Need help?"));if(!t.context.log)return r("p",null,"UNEXPECTED RESULT OBJECT!");let n=e.results,i=this.getErrorMsg(n);return r(o,null,n&&r("div",{class:"results-container"},t.context.resultMessage,i?": ":".",i))}getErrorMsg(t){if(!t)return null;let e=t.errors.length,n=e?"error":"warning";return e||(e=t.warnings.length),e?r("a",{onClick:()=>a(t)},`${e} ${n}${e>1?"s":""}`):null}}},function(t,e,n){var r=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(t[r]=n[r])}return t};const i=n(0),{editDocument:o}=n(8),{h:a,Component:l,Fragment:s}=n(7),c=n(1),{project:u}=n(14),d=n(2),{initInputHandlers:h,TextInputWithLabel:p,Label:f,TextInput:g,Checkbox:m}=n(37),_=n(10),x=n(3),{DefaultPath:y}=n(14),w=n(38),b=n(22);function A(t){return t.component&&!t.component.isMaster}function $(t){return t.node.fill&&t.node.fill instanceof i.ImageFill}t.exports=function(t){let e=_.getType(t.node);if(t.multi)return a("div",null,"Select a single element to modify settings.");if(A(t)&&!$(t))return a(E,r({key:t.node.guid},t));switch(e){case _.TEXT:return a(v,r({key:t.node.guid},t));case _.GROUP:return a(T,r({key:t.node.guid},t));case _.WIDGET:return a(I,r({key:t.node.guid},t));case _.SHAPE:return a(N,r({key:t.node.guid},t));default:return a(S,t)}};class E extends l{constructor(t){super(t)}render(t,e){return a("div",{class:"settings-container"},P(this.props))}}function P(t,e=!1){let n=t.node===t.component,r=n?"element":_.getXDLabel(t.node);return a("div",{class:"warning"},e?a("span",{class:"separator"}):null,a("div",{class:"warning-row"},a("img",{src:b.default,alt:"icon",class:"icon"}),a("div",null,"EDITING COMPONENT")),a("div",{class:"warning-text"},a("p",null,"The selected ",r," is ",n?"":"part of"," a component instance."),a("p",null,"To modify ",e?"some ":"","settings on this ",r," you must edit the Master Component."),a("p",null,"Press ",a("b",null,c.getCmdKeyStr(),"-Shift-K")," to locate the Master Component.")))}class S extends l{constructor(t){super(t),h(this),this.state=i.root.pluginData||{[x.WIDGET_PREFIX]:"XD",[x.ENABLE_PROTOTYPE]:!0}}setProjectFolder(){o(t=>u.promptForRoot())}shouldComponentUpdate(){this.setState(d.getState(i.root))}render(t,e){return a("div",{class:"settings-container"},a(f,{label:"FLUTTER PROJECT"}),a("div",{class:"project-row"},a(g,{name:x.EXPORT_PATH,placeholder:y.ROOT,state:e,handleInput:this.handleInput,readonly:!0}),a("button",{"uxp-variant":"action",onClick:this.setProjectFolder},a("img",{src:w.default,alt:"icon-folder"}))),a(p,{name:x.CODE_PATH,label:"CODE PATH",placeholder:y.CODE,state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsCleanPath}),a(p,{name:x.IMAGE_PATH,label:"IMAGE PATH",placeholder:y.IMAGE,state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsCleanPath}),a(p,{name:x.WIDGET_PREFIX,label:"WIDGET NAME PREFIX",placeholder:"",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}),a("span",{class:"separator"}),a("label",{class:"label"},"SETTINGS"),a("div",{class:"wrapping-row"},a(m,{name:x.ENABLE_PROTOTYPE,label:"Prototype Interactions",state:e,handleInput:this.handleInput}),a(m,{name:x.RESOLUTION_AWARE,label:"Resolution Aware Images",state:e,handleInput:this.handleInput})),a("span",{class:"separator"}),a("label",{class:"label"},"EXPORT ASSETS"),a(m,{name:x.EXPORT_COLORS,label:"Colors",state:e,handleInput:this.handleInput}),e[x.EXPORT_COLORS]?a(g,{name:x.COLORS_CLASS_NAME,placeholder:"XDColors",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}):null,a(m,{name:x.EXPORT_CHAR_STYLES,label:"Character Styles",state:e,handleInput:this.handleInput}),e[x.EXPORT_CHAR_STYLES]?a(g,{name:x.CHAR_STYLES_CLASS_NAME,placeholder:"XDTextStyles",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}):null)}}class v extends l{constructor(t){super(t),h(this);let e=this.props.node.pluginData||{};e.flutterFont=d.getFlutterFont(this.props.node.fontFamily),this.state=e}shouldComponentUpdate(t){let e=t.node.pluginData||{};e[x.FLUTTER_FONT]=d.getFlutterFont(t.node.fontFamily),this.setState(e)}render(t,e){return a("div",{class:"settings-container"},a(p,{name:x.FLUTTER_FONT,label:"FLUTTER FONT",placeholder:this.props.node.fontFamily,state:e,handleInput:this.handleInput}),a(p,{name:x.TEXT_PARAM_NAME,label:"TEXT PARAMETER",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}),a(p,{name:x.COLOR_PARAM_NAME,label:"COLOR PARAMETER",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}))}}class I extends l{constructor(t){super(t),h(this),this.state=t.node.pluginData||{[x.INCLUDE_IN_EXPORT_PROJECT]:!0}}shouldComponentUpdate(){this.setState(d.getState(this.props.node))}render(t,e){let n=this.props.node instanceof i.SymbolInstance;return a("div",{class:"settings-container"},a(m,{name:x.INCLUDE_IN_EXPORT_PROJECT,label:"Include in Export All Widgets",state:e,handleInput:this.handleInput}),a(p,{name:x.WIDGET_NAME,label:"WIDGET NAME",placeholder:d.getDefaultWidgetName(this.props.node),state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}),n&&a(p,{name:x.TAP_CALLBACK_NAME,label:"TAP CALLBACK NAME",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}))}}class N extends l{constructor(t){super(t),h(this);let e=t.node.pluginData||{};e[x.IMAGE_FILL_NAME]=d.getImageName(t.node),this.state=e}shouldComponentUpdate(t){let e=t.pluginData||{};return e[x.IMAGE_FILL_NAME]=d.getImageName(t.node),this.setState(e),!0}render(t,e){return $(this.props)?a("div",{class:"settings-container"},a(p,{name:x.IMAGE_FILL_NAME,label:"IMAGE EXPORT NAME",state:e,handleInput:this.handleInput}),A(this.props)?P(this.props,!0):a(p,{name:x.IMAGE_PARAM_NAME,label:"IMAGE PARAMETER",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName})):null}}class T extends l{constructor(t){super(t),h(this),this.state=t.node.pluginData||{}}shouldComponentUpdate(){this.setState(d.getState(this.props.node))}render(t,e){return a("div",{class:"settings-container"},a(m,{name:x.COMBINE_SHAPES,label:"Combine Shapes",state:e,handleInput:this.handleInput}),a(p,{name:x.TAP_CALLBACK_NAME,label:"TAP CALLBACK NAME",state:e,handleInput:this.handleInput,onBlur:this.handleBlurAsClassName}))}}},function(t,e){t.exports={Pubspec:class{constructor(t){this._parseBlocks(t)}checkFonts(t,e){let n=this.fields.flutter;return this._checkEntries(t,n,"fonts",t=>RegExp(`^ +- family: +${t} *(?:$|#)`,"m"),e)}checkDependencies(t,e){let n=this.fields.dependencies;return this._checkEntries(t,n,"dependencies",t=>RegExp(`^ +${t}:\\s`,"m"),e)}checkAssets(t,e){let n=this.fields.flutter;return this._checkEntries(t,n,"assets",t=>RegExp(`^ +- +${t} *(?:$|#)`,"m"),e)}_parseBlocks(t){let e,n=this.fields={},r=t.length,i=/^([-\w]+):\s/gm,o=i.exec(t);for(;e=o;)o=i.exec(t),n[e[1]]=t.slice(e.index+e[0].length,o?o.index-1:r)}_checkEntries(t,e,n,r,i){if(!t||!t.length)return!0;if(!e)return i&&i.warn(`Could not find ${n} entry in pubspec.yaml.`),!1;let o=[];return t.forEach(t=>{r(t).test(e)||o.push(t)}),0===o.length||(i&&i.warn(`Could not find ${n} entry in pubspec.yaml for: ${o.join(", ")}.`),!1)}toString(){return`[Pubspec fields=${Object.keys(this.fields).join(", ")}]`}}}},function(t,e,n){const{editDocument:r}=n(8),{h:i,Fragment:o}=n(7),a=n(2),l=n(1),s=n(3);function c(t,e,n){let i=e.target.name,o=n(t.state[i]),l=t.props.node;r({editLabel:"Updated Flutter Data"},(function(e){let n=t.state;n[i]=o,a.setState(l,n)})),t.setState({[i]:o})}function u(t){return i("input",{type:"text",class:"settings__text-input",name:t.name,onblur:t.onBlur,placeholder:t.placeholder,onInput:t.handleInput,readonly:t.readonly,value:t.state[t.name]||""})}function d(t){return i("label",{class:"label"},t.label)}t.exports={initInputHandlers:function(t){t.handleInput=e=>function(t,e){let n=e.target.name,i="checkbox"==e.target.type?!t.state[n]:e.target.value;r({editLabel:"Updated Flutter Data"},(function(e){if(n===s.FLUTTER_FONT)a.setFlutterFont(t.props.node.fontFamily,i);else if(n===s.IMAGE_FILL_NAME)a.setImageName(t.props.node,i);else{let e=t.state;e[n]=i;let r=t.props.node;a.setState(r,e)}})),t.setState({[n]:i})}(t,e),t.handleBlurAsCleanPath=e=>c(t,e,l.cleanPath),t.handleBlurAsClassName=e=>c(t,e,l.cleanVarName)},TextInputWithLabel:function(t){return i(o,null,d(t),u(t))},TextInput:u,Label:d,Checkbox:function(t){return i("label",{class:"settings__checkbox-label"},i("input",{type:"checkbox",name:t.name,onClick:t.handleInput,checked:t.state[t.name]||!1}),i("span",null,t.label))}}},function(t,e,n){"use strict";n.r(e),e.default=n.p+"images/icon-folder.png"},function(t,e,n){var r=n(40),i=n(41);"string"==typeof(i=i.__esModule?i.default:i)&&(i=[[t.i,i,""]]);var o={insert:"head",singleton:!1},a=(r(t.i,i,o),i.locals?i.locals:{});t.exports=a},function(t,e,n){"use strict";var r,i=function(){return void 0===r&&(r=Boolean(window&&document&&document.all&&!window.atob)),r},o=function(){var t={};return function(e){if(void 0===t[e]){var n=document.querySelector(e);if(window.HTMLIFrameElement&&n instanceof window.HTMLIFrameElement)try{n=n.contentDocument.head}catch(t){n=null}t[e]=n}return t[e]}}(),a={};function l(t,e,n){for(var r=0;r<e.length;r++){var i={css:e[r][1],media:e[r][2],sourceMap:e[r][3]};a[t][r]?a[t][r](i):a[t].push(g(i,n))}}function s(t){var e=document.createElement("style"),r=t.attributes||{};if(void 0===r.nonce){var i=n.nc;i&&(r.nonce=i)}if(Object.keys(r).forEach((function(t){e.setAttribute(t,r[t])})),"function"==typeof t.insert)t.insert(e);else{var a=o(t.insert||"head");if(!a)throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");a.appendChild(e)}return e}var c,u=(c=[],function(t,e){return c[t]=e,c.filter(Boolean).join("\n")});function d(t,e,n,r){var i=n?"":r.css;if(t.styleSheet)t.styleSheet.cssText=u(e,i);else{var o=document.createTextNode(i),a=t.childNodes;a[e]&&t.removeChild(a[e]),a.length?t.insertBefore(o,a[e]):t.appendChild(o)}}function h(t,e,n){var r=n.css,i=n.media,o=n.sourceMap;if(i?t.setAttribute("media",i):t.removeAttribute("media"),o&&btoa&&(r+="\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(o))))," */")),t.styleSheet)t.styleSheet.cssText=r;else{for(;t.firstChild;)t.removeChild(t.firstChild);t.appendChild(document.createTextNode(r))}}var p=null,f=0;function g(t,e){var n,r,i;if(e.singleton){var o=f++;n=p||(p=s(e)),r=d.bind(null,n,o,!1),i=d.bind(null,n,o,!0)}else n=s(e),r=h.bind(null,n,e),i=function(){!function(t){if(null===t.parentNode)return!1;t.parentNode.removeChild(t)}(n)};return r(t),function(e){if(e){if(e.css===t.css&&e.media===t.media&&e.sourceMap===t.sourceMap)return;r(t=e)}else i()}}t.exports=function(t,e,n){return(n=n||{}).singleton||"boolean"==typeof n.singleton||(n.singleton=i()),t=n.base?t+n.base:t,e=e||[],a[t]||(a[t]=[]),l(t,e,n),function(e){if(e=e||[],"[object Array]"===Object.prototype.toString.call(e)){a[t]||(a[t]=[]),l(t,e,n);for(var r=e.length;r<a[t].length;r++)a[t][r]();a[t].length=e.length,0===a[t].length&&delete a[t]}}}},function(t,e,n){var r=n(42),i=n(43),o=n(44),a=n(45),l=n(46);e=r(!1);var s=i(o),c=i(a),u=i(l);e.push([t.i,"ignore.ignore {\n  background: url("+s+");\n  background: url("+c+");\n}\na {\n  color: #0d66d0;\n}\na:hover {\n  text-decoration: underline;\n}\n.separator {\n  width: 100%;\n  height: 2px;\n  background-color: #eaeaea;\n  margin: 16px 0;\n}\n.label {\n  color: #8e8e8e;\n  text-transform: uppercase;\n  font-size: 9px;\n  letter-spacing: 0.18em;\n  margin: 8px 0;\n}\n#panel-container {\n  height: calc(100vh - 110px);\n  max-width: 400px;\n  width: 100%;\n  margin: 0 auto;\n  font-size: 10px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n#panel-container .actions-container {\n  flex: 0 1 auto;\n  display: flex;\n  flex-direction: column;\n  margin: 0;\n}\n#panel-container .actions-container .separator {\n  margin: 8px 0;\n}\n#panel-container .actions-container button {\n  display: block;\n  width: 100%;\n  margin: 4px 0;\n}\n#panel-container .options-container {\n  overflow: auto;\n  margin-bottom: 0.5rem;\n  margin-right: -12px;\n  padding-right: 12px;\n}\n#panel-container[data-platform*='win32'] {\n  font-family: 'Segoe UI', sans-serif;\n}\n#panel-container[data-platform*='darwin'] {\n  font-family: -apple-system, 'Helvetica Neue', sans-serif;\n}\n.preview-container {\n  display: flex;\n  flex-direction: column;\n}\n.preview-container .preview-canvas {\n  background: #fff;\n  background: url("+u+");\n  width: 100%;\n  height: 160px;\n  padding: 4px;\n  margin: 0 auto 4px auto;\n  border: solid 1px #eaeaea;\n}\n.preview-container .preview-canvas .preview-img {\n  width: 100%;\n  height: 100%;\n  object-fit: contain;\n  overflow: hidden;\n}\n.preview-container .preview-canvas .preview-no {\n  display: none;\n  line-height: 144px;\n  text-align: center;\n  letter-spacing: 0.05em;\n  font-weight: 600;\n}\n.preview-container .preview-canvas.multi {\n  background: #e1e1e1;\n}\n.preview-container .preview-canvas.multi .preview-no {\n  display: block;\n}\n.preview-container .preview-canvas.multi .preview-img {\n  display: none;\n}\n.preview-container .separator {\n  margin: 4px 0 12px 0;\n}\n.settings-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: start;\n}\n.settings-container .project-row {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n}\n.settings-container .project-row button {\n  margin: 0;\n  margin-left: 2px;\n}\n.settings-container .label {\n  margin-top: 16px;\n}\n.settings-container .separator + .label,\n.settings-container *:first-child {\n  margin-top: 0px;\n}\n.settings-container .wrapping-row {\n  display: flex;\n  flex-wrap: wrap;\n  width: 100%;\n}\n.settings-container .warning-row {\n  display: flex;\n  font-weight: bold;\n  letter-spacing: 0.05em;\n  color: #f1aa25;\n}\n.settings-container .warning-row .icon {\n  height: 12px;\n  width: 12px;\n  margin-right: 8px;\n}\n.settings-container .warning-text p {\n  color: #3f3f3f;\n  margin: 12px 0;\n}\n.settings-container * + .warning {\n  margin-top: 8px;\n}\n.settings-container * + .warning .warning-row {\n  margin-top: 12px;\n}\n.settings-container .settings__text-input {\n  width: 100%;\n  margin: 0;\n}\n.settings-container .settings__text-input + .settings__checkbox-label {\n  margin-top: 12px;\n}\n.settings-container .settings__checkbox-label {\n  display: flex;\n  flex-wrap: nowrap;\n  color: #3f3f3f;\n  max-width: 195px;\n  width: 100%;\n  justify-content: start;\n  align-content: center;\n  align-items: center;\n  margin: 0;\n  padding: 2px 0;\n}\n.settings-container .settings__checkbox-label input[type=checkbox] {\n  margin-left: 0;\n  margin-right: 0;\n}\n.settings-container .settings__checkbox-label span {\n  margin-top: -3px;\n}\n.results-container {\n  letter-spacing: 0.1px;\n  font-weight: bold;\n  color: #8e8e8e;\n}\n.results-container a {\n  display: inline-block;\n  margin-bottom: -2px;\n  font-weight: normal;\n}\n.results-container a.help {\n  font-weight: bold;\n}\n.results-container .version,\n.results-container .alert {\n  color: #3f3f3f;\n  background: #eaeaea;\n  padding: 0.25em 0.5em;\n  margin-right: 0.5em;\n}\n.results-container .alert {\n  background: #b20;\n  color: #fff;\n}\n.results-container .vdiv {\n  padding: 0 6px;\n}\ndialog .text-information {\n  color: #8e8e8e;\n}\ndialog .result-icon {\n  height: 16px;\n  width: 16px;\n  margin-right: 8px;\n  margin-bottom: -3px;\n}\ndialog .list {\n  max-height: 200px;\n  min-height: 24px;\n  width: 500px;\n  border-top: 2px solid #e1e1e1;\n  background: #fff;\n  overflow-y: auto;\n  margin-top: 16px;\n  margin-bottom: 32px;\n}\ndialog .list > div {\n  padding: 8px 16px;\n}\ndialog .list > div:nth-child(even) {\n  background: #fafafa;\n}\n",""]),t.exports=e},function(t,e,n){"use strict";t.exports=function(t){var e=[];return e.toString=function(){return this.map((function(e){var n=function(t,e){var n=t[1]||"",r=t[3];if(!r)return n;if(e&&"function"==typeof btoa){var i=(a=r,l=btoa(unescape(encodeURIComponent(JSON.stringify(a)))),s="sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(l),"/*# ".concat(s," */")),o=r.sources.map((function(t){return"/*# sourceURL=".concat(r.sourceRoot||"").concat(t," */")}));return[n].concat(o).concat([i]).join("\n")}var a,l,s;return[n].join("\n")}(e,t);return e[2]?"@media ".concat(e[2]," {").concat(n,"}"):n})).join("")},e.i=function(t,n,r){"string"==typeof t&&(t=[[null,t,""]]);var i={};if(r)for(var o=0;o<this.length;o++){var a=this[o][0];null!=a&&(i[a]=!0)}for(var l=0;l<t.length;l++){var s=[].concat(t[l]);r&&i[s[0]]||(n&&(s[2]?s[2]="".concat(n," and ").concat(s[2]):s[2]=n),e.push(s))}},e}},function(t,e,n){"use strict";t.exports=function(t,e){return e||(e={}),"string"!=typeof(t=t&&t.__esModule?t.default:t)?t:(/^['"].*['"]$/.test(t)&&(t=t.slice(1,-1)),e.hash&&(t+=e.hash),/["'() \t\n]/.test(t)||e.needQuotes?'"'.concat(t.replace(/"/g,'\\"').replace(/\n/g,"\\n"),'"'):t)}},function(t,e,n){"use strict";n.r(e),e.default=n.p+"images/icon@1x.png"},function(t,e,n){"use strict";n.r(e),e.default=n.p+"images/icon@2x.png"},function(t,e,n){"use strict";n.r(e),e.default=n.p+"images/bg-transparent.png"},function(t,e,n){const r=n(0),i=n(24),o=n(21),a=n(1),l=n(2),s=n(5),{trace:c}=n(4),{Context:u,ContextTarget:d}=n(12),{parse:h}=n(48),{formatDart:p}=n(20),f=n(3),g=n(10),{project:m}=n(14),{alert:_}=n(11),{checkXDVersion:x}=n(13),{getTextStyleParamList:y,getTextStyle:w}=n(27);async function b(t,e,n){let r=t.widgetName+".dart",i=t.serializeWidget(n);return i=E(i,!1,n,t),i?(await e.writeFile(r,i,n),r):null}async function A(t){if(!l.getProp(r.root,f.EXPORT_COLORS))return;let e=i.colors.get();if(!e)return;let n={},o={},c=[],u=a.cleanVarName(l.getProp(r.root,f.COLORS_CLASS_NAME))||"XDColors",d=`import 'package:flutter/material.dart';\n\nclass ${u} {\n`;for(let r=0,i=e.length;r<i;r++){let i=e[r],l=a.cleanVarName(i.name);if(!l)continue;if(o[l]){t.log.warn(`Duplicate color asset name: ${l}`);continue}o[l]=!0,c.push(l);let u=!i.color,h=/(.+?)(\d+)$/.exec(l);if(h){let e=n[h[1]];e||(e=n[h[1]]=[],e.isGradient=u),e.isGradient!==u?t.log.warn(`Color asset lists can't mix colors and gradients (${h[1]})`):e[parseInt(h[2])]=l}if(u){d+=`\tstatic const ${s.getGradientTypeFromAsset(i)} ${l} = ${s.getGradientFromAsset(i)};\n`}else d+=`\tstatic const Color ${l} = ${s.getColor(i.color)};\n`}d+="\n";for(let t in n){let e=$(n[t],t,!0);e&&(d+=`${e}\n`)}d+="\n}",d=E(d,!1,t,null),await m.code.writeFile(`${u}.dart`,d,t)}function $(t,e,n){if(n&&(!t[0]||!t[1]))return"";let r=`\tstatic const List<${t.isGradient?"Gradient":"Color"}> ${e} = const [`;for(let e=0;t[e];e++)r+=`${0===e?"":", "}${t[e]}`;return r+"];"}function E(t,e,n,r){let i=null,o=r&&r.xdNode;try{i=p(t,e)}catch(t){c(t),n.log.error("Unable to format the exported source code.",o)}return i}t.exports={copySelected:async function(t,e){if(!x())return;let n=a.getSelectedItem(t);if(!n)return void _("Select a single item to copy.");let r=g.getType(n);if(!(r!==g.ROOT&&r!==g.WIDGET))return _("The selected item cannot be copied."),null;let i,l=new u(d.CLIPBOARD),s=h(e,n,l);return s&&(s.layout=null,i=E(s.serialize(l)+";",!0,l)),i?(o.copyText(i),l.resultMessage="Flutter code copied to clipboard"):l.resultMessage="Unable to export this node",l},exportSelected:async function(t,e){if(!x())return;let n=a.getSelectedItem(t);if(!n)return _("Select an Artboard or Master Component."),null;if(!l.isWidget(n)){let t="Only Artboards and Master Components can be exported as Widgets.";return n instanceof r.SymbolInstance&&(t+=` Press <b>${a.getCmdKeyStr()}-Shift-K</b> to locate the Master Component.`),_(t),null}if(!await m.checkRoot())return null;let i,o=m.code,s=new u(d.FILES),c=h(e,n,s);return c&&(i=await b(c,o,s)),await m.validate(s),s.resultMessage=i?`Exported '${i}' successfully`:"Widget export failed",s},exportAll:async function(t,e){if(!x())return;let n=new u(d.FILES);if(!await m.checkRoot(!1))return null;let o=m.code,s=0,c=0;h(e,null,n);let p=Object.assign({},n.artboards,n.masterComponents);for(let t in p){if(!1===l.getProp(p[t].xdNode,f.INCLUDE_IN_EXPORT_PROJECT))continue;++c,await b(p[t],o,n)&&s++}return await A(n),await async function(t){if(!l.getProp(r.root,f.EXPORT_CHAR_STYLES))return;let e=i.characterStyles.get();if(!e||0===e.length)return;let n={},o=[],s=a.cleanVarName(l.getProp(r.root,f.CHAR_STYLES_CLASS_NAME))||"XDTextStyles",c=`import 'package:flutter/material.dart';\n\nclass ${s} {\n`;for(let r=0,i=e.length;r<i;r++){let i=e[r],l=a.cleanVarName(i.name);if(!l)continue;if(n[l]){t.log.warn(`Duplicate character style asset name: ${l}`);continue}n[l]=!0,o.push(l);let s=w(y(i.style,!1,t));s&&(c+=`\tstatic const TextStyle ${l} = const ${s};\n`)}c+="\n}",c=E(c,!1,t,null),await m.code.writeFile(`${s}.dart`,c,t)}(n),await m.validate(n),n.resultMessage=a.getExportAllMessage(s,c,"widget"),n},exportColors:A}},function(t,e,n){const r=n(0),i=n(2),o=n(3),{trace:a}=n(4),{ParameterRef:l}=n(15),{Artboard:s}=n(49),{Stack:c}=n(26),{Container:u}=n(18),{Text:d}=n(27),{Component:h}=n(51),{Path:p}=n(29),{Grid:f}=n(52),{Shape:g}=n(53),{Blur:m}=n(54),{Blend:_}=n(55),{OnTap:x}=n(28),{PrototypeInteraction:y}=n(56),{Comment:w}=n(57),b=Object.freeze({NORMAL:0,SYMBOLS_AS_GROUPS:1});e.parse=function(t,e,n){!function t(e,n){e instanceof r.SymbolInstance?n.addComponentInstance(new h(e,n)):e instanceof r.Artboard&&n.addArtboard(new s(e,n));e.children&&e.children.forEach(e=>t(e,n))}(t,n);const i=Object.assign({},n.artboards,n.masterComponents);for(let t of Object.values(i)){e&&t.xdNode!==e?n.useDebugLog():n.useUserLog(),S(E(t.xdNode,n,b.NORMAL,!0),n)}if(n.useUserLog(),!e)return null;let o=E(e,n,b.NORMAL,!0);return o instanceof p?o=g.fromPath(o,n):S(o,n),o};let A=[f,p,u,c,d],$=[y,x,m,_,w];function E(t,e,n,o=!1){if(!o&&!t.visible)return null;let l=null,s=!1,u=t instanceof r.Artboard,d=t instanceof r.SymbolInstance;if(t instanceof r.RootNode)throw"parseScenegraphNode() run on RootNode";if(d&&n===b.SYMBOLS_AS_GROUPS)l=new c(t,e);else if(u||d){if(l=u?e.getArtboardFromXdNode(t):e.getComponentFromXdNode(t),l.parsed)return l;l.responsive&&e.usesPinned(),l.parsed=s=!0}else for(let n=0;n<A.length&&!l;n++)l=A[n].create(t,e);if(!l)return e.log.error(`Unable to create export node ('${t.constructor.name}').`,t),null;if(s)e.pushWidget(l),P(l,e,n),e.popWidget();else if(l instanceof c)P(l,e,n);else if(l instanceof f){e.inGrid&&e.log.warn("Nested repeat grids are currently unsupported, and may result in unexpected behaviour.",t);let n=l.xdNode.children,r=n&&n.at(0);e.pushGrid(),l.item=r&&E(r,e,b.SYMBOLS_AS_GROUPS),e.popGrid(),S(l.item,e)}!function(t,e){let n=t.xdNode;if(n instanceof r.SymbolInstance){let t=e.masterComponents[n.symbolId];t?e.addImport(`./${t.widgetName}.dart`,!0):a(`Didn't add import for component '${n.name}' because the master was not found`)}let o=i.getInteractionCount(n);for(let t=0;t<o;++t){let r=n.triggeredInteractions[t].action;if("goToArtboard"!==r.type)continue;let i=e.getArtboardFromXdNode(r.destination);i?e.addImport(`./${i.widgetName}.dart`,!0):a(`Didn't add import for destination artboard '${r.destination.name}' because it was not found. This is likely due to a duplicate name.`)}}(l,e);for(let t=0;t<$.length;t++){let n=$[t].create(l,e);n&&l.addDecorator(n)}return l}function P(t,e,n){let r=t.xdNode.children;for(let i=0;i<r.length;++i)t.children.push(E(r.at(i),e,n,!1))}function S(t,e,n=!1){if(!t||!t.children||t.children.length<1||t.hasCombinedShapes)return;t.hasCombinedShapes=!0;let r=t instanceof s||t instanceof h;r&&e.pushWidget(t);let a,l=t instanceof s||t instanceof h||t instanceof c,u=null,d=t.children,p=2*d.length;for(let t=0;t<=d.length;t++){if(--p<0)throw"infinite loop in combineShapes";let r=d[t];if(r&&r.children){let a=n||i.getProp(r.xdNode,o.COMBINE_SHAPES);S(r,e,a);let s=1===r.children.length&&r.children[0];a&&l&&r instanceof c&&s instanceof g&&!g.hasInteraction(r)&&(e.removeShapeData(s),s.xdNode=r.xdNode,s.decorators=r.decorators,d.splice(t,1,s),r=s)}if(!u&&g.canAdd(r,n)&&(u=new g(r.xdNode,e),a=t),u&&u.add(r,n))r instanceof g&&e.removeShapeData(r);else if(u&&(e.addShapeData(u),d.splice(a,u.count,u),t-=u.count-1,u=null,g.canAdd(r,n))){t--;continue}}r&&e.popWidget()}},function(t,e,n){const r=n(0),{AbstractWidget:i}=n(25),{getColor:o}=n(5);e.Artboard=class extends i{static create(t,e){throw"Artboard.create() called."}get symbolId(){return this.xdNode.guid}_serialize(t){return`${this.widgetName}(${this._getParamList(t)})`}get adjustedBounds(){let t=this.xdNode;return{x:0,y:0,width:t.width,height:t.height}}_serializeWidgetBody(t){return`Scaffold(${this._getBackgroundColorParam(t)}body: ${this._getChildStack(t)}, )`}_getBackgroundColorParam(t){let e,n=this.xdNode,i=n.fillEnabled&&n.fill;if(i instanceof r.Color)e=i;else if(i){t.log.warn("Only solid color backgrounds are supported for artboards.",n);let r=i.colorStops;r&&r.length>0&&(e=r[0].color)}return e?`backgroundColor: ${o(e)}, `:""}}},function(t,e,n){const r=n(0),i=n(1),{AbstractDecorator:o}=n(9);e.Layout=class extends o{static create(t,e){throw"Layout.create() called."}constructor(t,e){super(t,e),t.responsive&&e.usesPinned()}_serialize(t,e){let n=this.node;return n.layout?(t=this._transform(t,e),n.responsive?this._pin(t,e):this._translate(t,e)):t}_pin(t,e){let n=this.node.xdNode,o=r.SceneNode,a=n.parent.localBounds,l=this.node.adjustedBounds,s=n.horizontalConstraints,c=n.verticalConstraints,u=s.position,d=s.size,h=c.position,p=c.size;return"Pinned.fromSize("+`bounds: Rect.fromLTWH(${i.fix(l.x)}, ${i.fix(l.y)}, ${i.fix(l.width)}, ${i.fix(l.height)}), `+`size: Size(${i.fix(a.width)}, ${i.fix(a.height)}), `+(u===o.FIXED_LEFT||u===o.FIXED_BOTH?"pinLeft: true, ":"")+(u===o.FIXED_RIGHT||u===o.FIXED_BOTH?"pinRight: true, ":"")+(h===o.FIXED_TOP||h===o.FIXED_BOTH?"pinTop: true, ":"")+(h===o.FIXED_BOTTOM||h===o.FIXED_BOTH?"pinBottom: true, ":"")+(d===o.SIZE_FIXED?"fixedWidth: true, ":"")+(p===o.SIZE_FIXED?"fixedHeight: true, ":"")+`child: ${t}, `+")"}_translate(t,e){let n=this.node,r=(n.xdNode,n.adjustedBounds),o=i.fix(r.x),a=i.fix(r.y);return"0.0"===o&&"0.0"===a?t:"Transform.translate("+`offset: Offset(${i.fix(r.x)}, ${i.fix(r.y)}), `+`child: ${t},`+")"}_transform(t,e){let n=this.node.transform,r=t;return n.flipY?t="Transform(alignment: Alignment.center, "+`transform: Matrix4.identity()..rotateZ(${this._getAngle(n)})..scale(1.0, -1.0), `+`child: ${t}, `+")":n.rotation%360!=0&&(t="Transform.rotate("+`angle: ${this._getAngle(n)}, `+`child: ${t}, `+")"),r!==t&&e.log.warn("Rotation and flip are not fully supported in responsive layouts.",this.node.xdNode),t}_getAngle(t){return i.fix(t.rotation/180*Math.PI,4)}}},function(t,e,n){const r=n(2),{DartType:i}=n(5),{AbstractWidget:o}=n(25),a=n(3),{ContextTarget:l}=n(12),{OnTap:s}=n(28),{Parameter:c}=n(15);e.Component=class extends o{static create(t,e){throw"Component.create() called."}constructor(t,e){super(t,e);let n=r.getProp(this.xdNode,a.TAP_CALLBACK_NAME);n&&this.addChildParam(new c(n,i.TAP_CB),e)}get isMaster(){return this.xdNode.isMaster}_serialize(t){let e=t.masterComponents[this.symbolId];if(!e)return t.log.error("Master component could not be found.",this.xdNode),"Container()";t.target===l.CLIPBOARD&&t.log.warn(`Component widget ${e.widgetName} not exported during copy to clipboard operation.`,null);let n=`${e.widgetName}(${this._getParamList(t)})`;return this.responsive||(n=this._addSizedBox(n,this.xdNode.localBounds,t)),this._decorate(n,t)}_serializeWidgetBody(t){let e=this._getChildStack(t);return s.get(e,r.getProp(this.xdNode,a.TAP_CALLBACK_NAME))}}},function(t,e,n){const r=n(0),i=n(1),o=n(2),{getString:a,getAssetImage:l}=n(5),{AbstractNode:s}=n(6),c=n(3);class u extends s{static create(t,e){if(t instanceof r.RepeatGrid)return new u(t,e)}constructor(t,e){super(t,e),this.item=null}_serialize(t){let e=this.xdNode,n=this.item;if(!n||e.children.length<1)return t.log.error("Repeat grid has no children.",e),"";if(n.children.length<1)return t.log.warn("Repeat grid item is empty.",e),"";(e.paddingX<0||e.paddingY<0)&&t.log.warn("Negative grid spacing is not supported.",e);let r=this._itemIsResponsive();r&&(n=n.children[0],n.layout=null);let o=this._getParams(t),a=e.children.length,l=new Array(a).fill(""),s="";for(let t in o){let e=o[t];s+=`final ${t} = map['${t}'];\n`;for(let n=0;n<a;n++)l[n]+=`'${t}': ${e[n]}, `}let c=`{${l.join("}, {")}}`,u=n.serialize(t),d=Math.max(0,e.paddingX),h=Math.max(0,e.paddingY),p=e.cellSize.width,f=e.cellSize.height,g=i.fix(p/f,2),m=(e.width+d/2)/(e.cellSize.width+d),_=Math.round(m);return Math.abs(m-_)>.15&&t.log.warn("Partial columns are not supported in repeat grids.",e),r?"GridView.count("+`mainAxisSpacing: ${h}, crossAxisSpacing: ${d}, `+`crossAxisCount: ${_}, `+`childAspectRatio: ${g}, `+`children: [${c}].map((map) { ${s} return ${u}; }).toList(),`+")":"SingleChildScrollView(child: Wrap(alignment: WrapAlignment.center, "+`spacing: ${d}, runSpacing: ${h}, `+`children: [${c}].map((map) { ${s} return ${u}; }).toList(),`+"), )"}_itemIsResponsive(){let t=this.item;return!(!t||!t.children||1!==t.children.length)&&(t=t.children[0],!!(t.children&&t.children.length>0&&t.children[0].responsive))}_getParams(t){let e={};return this._diff(this.item,this.xdNode.children.map(t=>t),e,t),e}_diff(t,e,n,i){if(!t||!e||e.length<1)return;let a=e[0];if(a instanceof r.Text){let r=o.getProp(a,c.TEXT_PARAM_NAME)||this._getName(n,"text");this._diffField(n,e,r,this._getText,i)&&t.addParam("text",r)}else if((a instanceof r.Rectangle||a instanceof r.Ellipse)&&a.fill instanceof r.ImageFill){let r=o.getProp(a,c.IMAGE_PARAM_NAME)||this._getName(n,"image");this._diffField(n,e,r,this._getImage,i)&&t.addParam("fill",r)}for(let r=0,o=t.children&&t.children.length;r<o;r++){let o=t.children[r];this._diff(o,e.map(t=>t.children.at(r)),n,i)}}_getName(t,e){let n=0,r=e;for(;t[r];)r=e+"_"+n++;return r}_diffField(t,e,n,r,i){let o=r(e[0]),a=[],l=!1;for(let t=0,n=e.length;t<n;t++){let n=r(e[t],i);o!==n&&(l=!0),a[t]=n}return l&&(t[n]=a),l}_getText(t,e){return a(t.text)}_getImage(t,e){return l(t,e)}}e.Grid=u},function(t,e,n){const r=n(0),i=n(1),{AbstractNode:o}=n(6),{getOpacity:a}=n(2),{ContextTarget:l}=n(12),{getImagePath:s}=n(17),c=n(2),u=n(3),{Container:d}=n(18),{Path:h}=n(29);class p extends o{static create(t,e){throw"Shape.create() called."}static fromPath(t,e){let n=new p(t.xdNode,e);return n.add(t),n}constructor(t,e){super(t,e),this.nodes=[],this.rejectNextAdd=!1,this.viewBox=null,this._svgString=null}get count(){return this.nodes.length}get adjustedBounds(){this._calculateViewBox();let t=this.xdNode.parent.localBounds,e=this.viewBox;return{x:e.x-t.x,y:e.y-t.y,width:e.width,height:e.height}}get transform(){return{rotation:0,flipY:!1}}add(t,e=!1){if(this.rejectNextAdd||!p.canAdd(t,e))return this.rejectNextAdd=!1,!1;if(p.hasInteraction(t)||t.hasDecorators||t.responsive){if(this.nodes.length)return!1;this.decorators=t.decorators,this.rejectNextAdd=!0}return t instanceof p||(t=t.xdNode),this.nodes.push(t),!0}_serialize(t){let e;return e=t.target===l.CLIPBOARD?`'${this.toSvgString(t)}'`:c.getShapeDataName(this,t),`SvgPicture.string(${e}, allowDrawingOutsideViewBox: true, ${this.responsive?"fit: BoxFit.fill, ":""})`}get boundsInParent(){return this._calculateViewBox(),this.xdNode.transform.transformRect(this.viewBox)}getSvgId(t){return this._svgId?this._svgId:(this._svgId=i.getHash(this.toSvgString(t)).toString(36),this._svgId)}toSvgString(t){if(this._svgString)return this._svgString;this._calculateViewBox();let e=i.fix(this.viewBox.x),n=i.fix(this.viewBox.y),r=i.fix(this.viewBox.width),o=i.fix(this.viewBox.height),a=function t(e,n,r=!1){let i="";for(let r=0;r<e.nodes.length;++r){let o=e.nodes[r];i+=o instanceof p?t(o,n):f(o,n)}if(!r){let t=g(e.xdNode.transform);i=`<g transform="${t}">${i}</g>`}return i}(this,t,!0);return this._svgString=`<svg viewBox="${e} ${n} ${r} ${o}" >${a}</svg>`,this._svgString}_calculateViewBox(){if(this.viewBox)return;let t=this.viewBox=function(t){let e=Number.MAX_VALUE,n=Number.MAX_VALUE,r=-Number.MAX_VALUE,i=-Number.MAX_VALUE;for(let o of t){let t=o.boundsInParent.x+o.boundsInParent.width,a=o.boundsInParent.y+o.boundsInParent.height;o.boundsInParent.x<e&&(e=o.boundsInParent.x),o.boundsInParent.y<n&&(n=o.boundsInParent.y),t>r&&(r=t),a>i&&(i=a)}return{x:e,y:n,width:r-e,height:i-n}}(this.nodes);t.width=Math.max(1,t.width),t.height=Math.max(1,t.height)}}function f(t,e){let n=t,o=n.pathData,l=a(n),c="none",u=l,d=!1,h=!1;n.fill&&n.fillEnabled&&(d=n.fill instanceof r.ImageFill,h=n.fill instanceof r.LinearGradient||n.fill instanceof r.RadialGradient,d?c="url(#image)":h?c="url(#gradient)":(c="#"+i.getRGBHex(n.fill),u=n.fill.a/255*l)),d&&e.log.warn("Image fills are not supported on shapes.",n);let p=d?s(n):"",f=i.fix(d?n.fill.naturalWidth:0),m=i.fix(d?n.fill.naturalHeight:0),_=n.stroke&&n.strokeEnabled?"#"+i.getRGBHex(n.stroke):"none",x=n.stroke&&n.strokeEnabled?n.stroke.a/255*l:l,y=n.strokeWidth,w=n.strokeDashArray.length>0?n.strokeDashArray[0]:0,b=n.strokeDashArray.length>1?n.strokeDashArray[1]:w,A=n.strokeDashArray.length>0?n.strokeDashOffset:0,$=n.strokeJoins===r.GraphicNode.STROKE_JOIN_MITER?n.strokeMiterLimit:0,E=n.strokeEndCaps,P=n.strokeJoins,S=`fill="${c}"`;1!=u&&(S+=` fill-opacity="${i.fix(u,2)}"`);let v=`stroke="${_}" stroke-width="${y}"`;1!=x&&(v+=` stroke-opacity="${i.fix(x,2)}"`),0!=b&&(v+=` stroke-dasharray="${w} ${b}"`),0!=A&&(v+=` stroke-dashoffset="${A}"`),0!=$&&(v+=` stroke-miterlimit="${$}"`),E!=r.GraphicNode.STROKE_CAP_BUTT&&(v+=` stroke-linecap="${E}"`),P!=r.GraphicNode.STROKE_JOIN_MITER&&(v+=` stroke-linejoin="${P}"`);let I=n.shadow&&n.shadow.visible;I&&e.log.warn("Shadows are not supported on shapes.",n);let N=I?'filter="url(#shadow)"':"",T=I?n.shadow.x:0,C=I?n.shadow.y:0,R=I?n.shadow.blur:0,L="";if(I&&(L+=`<filter id="shadow"><feDropShadow dx="${T}" dy="${C}" stdDeviation="${R}"/></filter>`),d&&(L+=`<pattern id="image" patternUnits="userSpaceOnUse" width="${f}" height="${m}"><image xlink:href="${p}" x="0" y="0" width="${f}" height="${m}" /></pattern>`),h)if(n.fill instanceof r.LinearGradient){L+=`<linearGradient id="gradient" x1="${i.fix(n.fill.startX,6)}" y1="${i.fix(n.fill.startY,6)}" x2="${i.fix(n.fill.endX,6)}" y2="${i.fix(n.fill.endY,6)}">`;for(let t of n.fill.colorStops){L+=`<stop offset="${i.fix(t.stop,6)}" stop-color="#${i.getARGBHexWithOpacity(t.color)}" ${255!==t.color.a?`stop-opacity="${i.fix(t.color.a/255,2)}"`:""} />`}L+="</linearGradient>"}else if(n.fill instanceof r.RadialGradient){const t=n.fill.gradientTransform.invert(),e=t.transformPoint({x:n.fill.startX,y:n.fill.startY}),r=t.transformPoint({x:n.fill.endX,y:n.fill.endY}),o=i.fix(e.x,6),a=i.fix(e.y,6),l=i.fix(n.fill.startR,6),s=i.fix(r.x,6),c=i.fix(r.y,6),u=i.fix(n.fill.endR,6),d=i.fix(n.fill.gradientTransform.a,6),h=i.fix(n.fill.gradientTransform.b,6),p=i.fix(n.fill.gradientTransform.c,6),f=i.fix(n.fill.gradientTransform.d,6),g=i.fix(n.fill.gradientTransform.e,6),m=i.fix(n.fill.gradientTransform.f,6);let _="";1===d&&0===h&&0===p&&1===f&&0===g&&0===m||(_=`gradientTransform="matrix(${d} ${h} ${p} ${f} ${g} ${m})"`),L+=`<radialGradient id="gradient" ${_} fx="${o}" fy="${a}" fr="${l}" cx="${s}" cy="${c}" r="${u}">`;for(let t of n.fill.colorStops){L+=`<stop offset="${i.fix(t.stop,6)}" stop-color="#${i.getRGBHex(t.color)}" ${255!==t.color.a?`stop-opacity="${i.fix(t.color.a/255,2)}"`:""}/>`}L+="</radialGradient>"}L=L?`<defs>${L}</defs>`:"",n.transform.translate(n.localBounds.x,n.localBounds.y);const D=g(n.transform);return`${L}<path ${D?`transform="${D}"`:""} d="${o}" ${S} ${v} ${N}/>`}function g(t){let e;if(1!==t.a||0!==t.b||0!==t.c||1!==t.d){e=`matrix(${i.fix(t.a,6)}, ${i.fix(t.b,6)}, ${i.fix(t.c,6)}, ${i.fix(t.d,6)}, ${i.fix(t.e,2)}, ${i.fix(t.f,2)})`}else if(0!==t.e||0!==t.f){e=`translate(${i.fix(t.e,2)}, ${i.fix(t.f,2)})`}else e="";return e}p.canAdd=function(t,e=!1){let n=t&&t.xdNode;return t instanceof h||t instanceof p||e&&t instanceof d&&!(n.fillEnabled&&n.fill instanceof r.ImageFill)&&!(n.shadow&&n.shadow.visible)&&!t.hasDecorators},p.hasInteraction=function(t){let e=c.getInteractionCount(t.xdNode)>0,n=c.getProp(t.xdNode,u.TAP_CALLBACK_NAME);return!(!e&&!n)},e.Shape=p},function(t,e,n){const r=n(0),i=n(1),{AbstractDecorator:o}=n(9),{Container:a}=n(18);class l extends o{static create(t,e){let n=t.xdNode,r=n.blur;if(r&&r.visible)return t instanceof a?r.isBackgroundEffect?(r.isBackgroundEffect&&0!==Math.round(n.blur.brightnessAmount)&&e.log.warn("Brightness is currently not supported on blurs.",n),e.addImport("dart:ui",!1,"ui"),new l(t,e)):void e.log.warn("Object blur is not supported.",n):void e.log.warn("Blur is currently only supported on rectangles and ellipses.",n)}_serialize(t,e){let n=this.node.xdNode,o=n.blur;return`${n instanceof r.Rectangle?"ClipRect":"ClipOval"}(child: BackdropFilter(${function(t,e){return`filter: ${function(t,e){let n=i.fix(t.blurAmount,2);return`ui.ImageFilter.blur(sigmaX: ${n}, sigmaY: ${n})`}(t)}, `}(o)}child: ${t}, ), )`}}e.Blur=l},function(t,e,n){const r=n(0),i=n(1),{AbstractDecorator:o}=n(9);class a extends o{static create(t,e){let n=t.xdNode,r=n.blendMode;if(r&&"pass-through"!==r){if(a.MODE_MAP[r])return e.addImport("package:adobe_xd/blend_mask.dart",!1),new a(t,e);e.log.warn(`Unsupported blend mode '${r}'`,n)}}_serialize(t,e){let n=this.node.xdNode,o=n.boundsInParent,l=a.MODE_MAP[n.blendMode],s="";if(n instanceof r.Group&&!this.node.responsive){s=`region: Offset(${i.fix(o.x)}, ${i.fix(o.y)}) & Size(${i.fix(o.width)}, ${i.fix(o.height)}), `}return"BlendMask("+`blendMode: BlendMode.${l||"src"}, `+s+`child: ${t}, `+")"}}e.Blend=a,a.MODE_MAP={"pass-through":"src",normal:"srcOver",darken:"darken",multiply:"multiply","color-burn":"colorBurn",lighten:"lighten",screen:"screen","color-dodge":"colorDodge",overlay:"overlay","soft-light":"softLight","hard-light":"hardLight",difference:"difference",exclusion:"exclusion",hue:"hue",saturation:"saturation",color:"color",luminosity:"luminosity"}},function(t,e,n){n(0);const r=n(1),i=n(2),{AbstractDecorator:o}=n(9);n(3);class a extends o{static create(t,e){if(i.getInteractionCount(t.xdNode)<1)return;let n=t.xdNode,r=n.triggeredInteractions,o=r[0];if(r.length>1)return e.log.warn("Multiple prototype interactions on one object is not supported.",n);if("tap"!==o.trigger.type)return e.log.warn(`Unsupported trigger '${o.trigger.type}'. Only tap is supported.`,n);let l=o.action.type;return"goToArtboard"!==l&&"goBack"!==l?e.log.warn(`Unsupported action type '${l}'.`,n):(e.addImport("package:adobe_xd/page_link.dart"),new a(t,e))}_serialize(t,e){let n=this.node.xdNode.triggeredInteractions[0].action,i=n.transition;if("goBack"===n.type)return`PageLink(links: [PageLinkInfo(), ], child: ${t}, )`;let o=e.getArtboardFromXdNode(n.destination);return o?"PageLink(links: [PageLinkInfo("+l(i,e)+s(i,e)+function(t){return`duration: ${r.fix(t.duration,4)}, `}(i)+`pageBuilder: () => ${o.serialize(e)}, `+"), ], "+`child: ${t}, `+")":(e.log.error(`Couldn't add prototype link to '${n.destination.name}'. This is likely due to a duplicate Artboard name.`),t)}}function l(t,e){let n=c[t.type]||"",r=u[t.fromSide]||"";return n||e.log.warn(`Transition type not supported: '${t.type}'.`,xdNode),n?`transition: LinkTransition.${n}${r}, `:""}function s(t,e){let n=d[t.easing]||"";return n||e.log.warn(`Ease not supported: '${t.easing}'.`,xdNode),n?`ease: Curves.${n}, `:""}e.PrototypeInteraction=a;const c={slide:"Slide",push:"Push",dissolve:"Fade"},u={L:"Left",R:"Right",T:"Up",B:"Down"},d={linear:"linear","ease-in":"easeIn","ease-out":"easeOut","ease-in-out":"easeInOut","wind-up":"slowMiddle",bounce:"bounceIn",snap:"easeInOutExpo"}},function(t,e,n){const r=n(1),{AbstractDecorator:i}=n(9),o=n(10);class a extends i{static create(t,e){if(!t.xdNode.hasDefaultName)return new a(t,e,!0)}_serialize(t,e){let n=this.node.xdNode;return`\n // Adobe XD layer: '${r.shorten(n.name,20)}' (${o.getXDLabel(n)})\n${t}`}}e.Comment=a}]);
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/ui/main.jsx");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "../lib/dart_style":
+/*!***********************************!*\
+  !*** external "./lib/dart_style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("./lib/dart_style");
+
+/***/ }),
+
+/***/ "../lib/js-yaml":
+/*!********************************!*\
+  !*** external "./lib/js-yaml" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("./lib/js-yaml");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader/index.js!./src/ui/styles.styl":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader!./src/ui/styles.styl ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./assets/icon@1x.png */ "./src/ui/assets/icon@1x.png");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./assets/icon@2x.png */ "./src/ui/assets/icon@2x.png");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./assets/bg-transparent.png */ "./src/ui/assets/bg-transparent.png");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+// Module
+exports.push([module.i, "ignore.ignore {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\na {\n  color: #0d66d0;\n}\na:hover {\n  text-decoration: underline;\n}\n.separator {\n  width: 100%;\n  height: 2px;\n  background-color: #eaeaea;\n  margin: 16px 0;\n}\n.label {\n  color: #8e8e8e;\n  text-transform: uppercase;\n  font-size: 9px;\n  letter-spacing: 0.18em;\n  margin: 8px 0;\n}\n#panel-container {\n  height: calc(100vh - 110px);\n  max-width: 400px;\n  width: 100%;\n  margin: 0 auto;\n  font-size: 10px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n#panel-container .actions-container {\n  flex: 0 1 auto;\n  display: flex;\n  flex-direction: column;\n  margin: 0;\n}\n#panel-container .actions-container .separator {\n  margin: 8px 0;\n}\n#panel-container .actions-container button {\n  display: block;\n  width: 100%;\n  margin: 4px 0;\n}\n#panel-container .options-container {\n  overflow: auto;\n  margin-bottom: 0.5rem;\n  margin-right: -12px;\n  padding-right: 12px;\n}\n#panel-container[data-platform*='win32'] {\n  font-family: 'Segoe UI', sans-serif;\n}\n#panel-container[data-platform*='darwin'] {\n  font-family: -apple-system, 'Helvetica Neue', sans-serif;\n}\n.preview-container {\n  display: flex;\n  flex-direction: column;\n}\n.preview-container .preview-canvas {\n  background: #fff;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  width: 100%;\n  height: 160px;\n  padding: 4px;\n  margin: 0 auto 4px auto;\n  border: solid 1px #eaeaea;\n}\n.preview-container .preview-canvas .preview-img {\n  width: 100%;\n  height: 100%;\n  object-fit: contain;\n  overflow: hidden;\n}\n.preview-container .preview-canvas .preview-no {\n  display: none;\n  line-height: 144px;\n  text-align: center;\n  letter-spacing: 0.05em;\n  font-weight: 600;\n}\n.preview-container .preview-canvas.multi {\n  background: #e1e1e1;\n}\n.preview-container .preview-canvas.multi .preview-no {\n  display: block;\n}\n.preview-container .preview-canvas.multi .preview-img {\n  display: none;\n}\n.preview-container .separator {\n  margin: 4px 0 12px 0;\n}\n.settings-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: start;\n  overflow-x: hidden;\n}\n.settings-container .project-row,\n.settings-container .customcode-row {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n}\n.settings-container .project-row button,\n.settings-container .customcode-row button {\n  margin: 0;\n  margin-left: 2px;\n}\n.settings-container .customcode-row textarea {\n  height: 64px;\n  background: #f3f3f3;\n  font-family: Courier !important;\n}\n.settings-container .customcode-row button {\n  margin-left: -36px;\n  margin-top: 32px;\n}\n.settings-container .label {\n  margin-top: 16px;\n}\n.settings-container .separator + .label,\n.settings-container *:first-child {\n  margin-top: 0px;\n}\n.settings-container .wrapping-row {\n  display: flex;\n  flex-wrap: wrap;\n  width: 100%;\n}\n.settings-container .warning-row {\n  display: flex;\n  font-weight: bold;\n  letter-spacing: 0.05em;\n  color: #f1aa25;\n}\n.settings-container .warning-row .icon {\n  height: 12px;\n  width: 12px;\n  margin-right: 8px;\n}\n.settings-container .warning-text p {\n  color: #3f3f3f;\n  margin: 12px 0;\n}\n.settings-container * + .warning {\n  margin-top: 8px;\n}\n.settings-container * + .warning .warning-row {\n  margin-top: 12px;\n}\n.settings-container .settings__text-input,\n.settings-container .settings__textarea {\n  width: 100%;\n  margin: 0;\n}\n.settings-container .settings__text-input + .settings__checkbox-label,\n.settings-container .settings__textarea + .settings__checkbox-label {\n  margin-top: 12px;\n}\n.settings-container select {\n  margin: 12px 0 4px 0;\n  width: 100%;\n}\n.settings-container .settings__checkbox-label {\n  display: flex;\n  flex-wrap: nowrap;\n  color: #3f3f3f;\n  max-width: 195px;\n  width: 100%;\n  justify-content: start;\n  align-content: center;\n  align-items: center;\n  margin: 0;\n  padding: 2px 0;\n}\n.settings-container .settings__checkbox-label input[type=checkbox] {\n  margin-left: 0;\n  margin-right: 0;\n}\n.settings-container .settings__checkbox-label span {\n  margin-top: -3px;\n}\n.settings-container p.note {\n  background: #eaeaea;\n  padding: 4px;\n  font-size: 10px;\n  margin: 4px 0;\n  width: 100%;\n  letter-spacing: 0.05em;\n}\n.settings-container p.note img {\n  height: 1em;\n  margin-bottom: -0.2em;\n  margin-top: -0.2em;\n  opacity: 0.5;\n}\n.results-container {\n  letter-spacing: 0.05em;\n  font-weight: bold;\n  color: #8e8e8e;\n}\n.results-container a {\n  display: inline-block;\n  margin-bottom: -2px;\n  font-weight: normal;\n}\n.results-container a.help {\n  font-weight: bold;\n}\n.results-container a img {\n  height: 1.1em;\n  margin-bottom: -0.25em;\n  margin-top: -0.25em;\n  margin-right: 2px;\n}\n.results-container .version,\n.results-container .alert {\n  color: #3f3f3f;\n  background: #eaeaea;\n  padding: 0.25em 0.5em;\n  margin-right: 0.5em;\n}\n.results-container .alert {\n  background: #b20;\n  color: #fff;\n}\n.results-container .vdiv {\n  padding: 0 6px;\n}\ndialog {\n  max-width: 600px;\n  padding: 16px;\n  padding-bottom: 8px;\n}\ndialog .text-information {\n  color: #8e8e8e;\n}\ndialog .icon {\n  height: 1.4em;\n  margin: -0.2em 0.2em 0 -0.2em;\n  vertical-align: middle;\n}\ndialog hr {\n  margin: 12px 0 12px 0;\n}\ndialog .result-icon {\n  height: 16px;\n  width: 16px;\n  margin-right: 8px;\n  margin-bottom: -3px;\n}\ndialog .list {\n  max-height: 200px;\n  min-height: 24px;\n  width: 500px;\n  border-top: 2px solid #e1e1e1;\n  background: #fff;\n  overflow-y: auto;\n  margin-top: 16px;\n  margin-bottom: 32px;\n}\ndialog .list > div {\n  padding: 8px 16px;\n}\ndialog .list > div:nth-child(even) {\n  background: #fafafa;\n}\ndialog footer {\n  margin: 0;\n  padding: 0;\n}\ndialog .code-editor {\n  width: 100%;\n  min-width: 480px;\n  height: 200px;\n  font-family: monospace !important;\n  white-space: pre;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== 'string') {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
+/***/ "./node_modules/preact/dist/preact.module.js":
+/*!***************************************************!*\
+  !*** ./node_modules/preact/dist/preact.module.js ***!
+  \***************************************************/
+/*! exports provided: render, hydrate, createElement, h, Fragment, createRef, isValidElement, Component, cloneElement, createContext, toChildArray, _unmount, options */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return E; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hydrate", function() { return H; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return h; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return h; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Fragment", function() { return y; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return p; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isValidElement", function() { return l; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Component", function() { return d; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cloneElement", function() { return I; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createContext", function() { return L; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toChildArray", function() { return b; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_unmount", function() { return A; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "options", function() { return n; });
+var n,l,u,t,i,o,r,f={},e=[],c=/acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord/i;function s(n,l){for(var u in l)n[u]=l[u];return n}function a(n){var l=n.parentNode;l&&l.removeChild(n)}function h(n,l,u){var t,i=arguments,o={};for(t in l)"key"!==t&&"ref"!==t&&(o[t]=l[t]);if(arguments.length>3)for(u=[u],t=3;t<arguments.length;t++)u.push(i[t]);if(null!=u&&(o.children=u),"function"==typeof n&&null!=n.defaultProps)for(t in n.defaultProps)void 0===o[t]&&(o[t]=n.defaultProps[t]);return v(n,o,l&&l.key,l&&l.ref)}function v(l,u,t,i){var o={type:l,props:u,key:t,ref:i,__k:null,__:null,__b:0,__e:null,__d:null,__c:null,constructor:void 0};return n.vnode&&n.vnode(o),o}function p(){return{}}function y(n){return n.children}function d(n,l){this.props=n,this.context=l}function m(n,l){if(null==l)return n.__?m(n.__,n.__.__k.indexOf(n)+1):null;for(var u;l<n.__k.length;l++)if(null!=(u=n.__k[l])&&null!=u.__e)return u.__e;return"function"==typeof n.type?m(n):null}function w(n){var l,u;if(null!=(n=n.__)&&null!=n.__c){for(n.__e=n.__c.base=null,l=0;l<n.__k.length;l++)if(null!=(u=n.__k[l])&&null!=u.__e){n.__e=n.__c.base=u.__e;break}return w(n)}}function g(l){(!l.__d&&(l.__d=!0)&&1===u.push(l)||i!==n.debounceRendering)&&((i=n.debounceRendering)||t)(k)}function k(){var n,l,t,i,o,r,f;for(u.sort(function(n,l){return l.__v.__b-n.__v.__b});n=u.pop();)n.__d&&(t=void 0,i=void 0,r=(o=(l=n).__v).__e,(f=l.__P)&&(t=[],i=T(f,o,s({},o),l.__n,void 0!==f.ownerSVGElement,null,t,null==r?m(o):r),$(t,o),i!=r&&w(o)))}function _(n,l,u,t,i,o,r,c,s){var h,v,p,y,d,w,g,k=u&&u.__k||e,_=k.length;if(c==f&&(c=null!=o?o[0]:_?m(u,0):null),h=0,l.__k=b(l.__k,function(u){if(null!=u){if(u.__=l,u.__b=l.__b+1,null===(p=k[h])||p&&u.key==p.key&&u.type===p.type)k[h]=void 0;else for(v=0;v<_;v++){if((p=k[v])&&u.key==p.key&&u.type===p.type){k[v]=void 0;break}p=null}if(y=T(n,u,p=p||f,t,i,o,r,c,s),(v=u.ref)&&p.ref!=v&&(g||(g=[]),p.ref&&g.push(p.ref,null,u),g.push(v,u.__c||y,u)),null!=y){if(null==w&&(w=y),null!=u.__d)y=u.__d,u.__d=null;else if(o==p||y!=c||null==y.parentNode){n:if(null==c||c.parentNode!==n)n.appendChild(y);else{for(d=c,v=0;(d=d.nextSibling)&&v<_;v+=2)if(d==y)break n;n.insertBefore(y,c)}"option"==l.type&&(n.value="")}c=y.nextSibling,"function"==typeof l.type&&(l.__d=y)}}return h++,u}),l.__e=w,null!=o&&"function"!=typeof l.type)for(h=o.length;h--;)null!=o[h]&&a(o[h]);for(h=_;h--;)null!=k[h]&&A(k[h],k[h]);if(g)for(h=0;h<g.length;h++)z(g[h],g[++h],g[++h])}function b(n,l,u){if(null==u&&(u=[]),null==n||"boolean"==typeof n)l&&u.push(l(null));else if(Array.isArray(n))for(var t=0;t<n.length;t++)b(n[t],l,u);else u.push(l?l("string"==typeof n||"number"==typeof n?v(null,n,null,null):null!=n.__e||null!=n.__c?v(n.type,n.props,n.key,null):n):n);return u}function x(n,l,u,t,i){var o;for(o in u)o in l||P(n,o,null,u[o],t);for(o in l)i&&"function"!=typeof l[o]||"value"===o||"checked"===o||u[o]===l[o]||P(n,o,l[o],u[o],t)}function C(n,l,u){"-"===l[0]?n.setProperty(l,u):n[l]="number"==typeof u&&!1===c.test(l)?u+"px":null==u?"":u}function P(n,l,u,t,i){var o,r,f,e,c;if(i?"className"===l&&(l="class"):"class"===l&&(l="className"),"key"===l||"children"===l);else if("style"===l)if(o=n.style,"string"==typeof u)o.cssText=u;else{if("string"==typeof t&&(o.cssText="",t=null),t)for(r in t)u&&r in u||C(o,r,"");if(u)for(f in u)t&&u[f]===t[f]||C(o,f,u[f])}else"o"===l[0]&&"n"===l[1]?(e=l!==(l=l.replace(/Capture$/,"")),c=l.toLowerCase(),l=(c in n?c:l).slice(2),u?(t||n.addEventListener(l,N,e),(n.l||(n.l={}))[l]=u):n.removeEventListener(l,N,e)):"list"!==l&&"tagName"!==l&&"form"!==l&&"type"!==l&&!i&&l in n?n[l]=null==u?"":u:"function"!=typeof u&&"dangerouslySetInnerHTML"!==l&&(l!==(l=l.replace(/^xlink:?/,""))?null==u||!1===u?n.removeAttributeNS("http://www.w3.org/1999/xlink",l.toLowerCase()):n.setAttributeNS("http://www.w3.org/1999/xlink",l.toLowerCase(),u):null==u||!1===u?n.removeAttribute(l):n.setAttribute(l,u))}function N(l){this.l[l.type](n.event?n.event(l):l)}function T(l,u,t,i,o,r,f,e,c){var a,h,v,p,m,w,g,k,x,C,P=u.type;if(void 0!==u.constructor)return null;(a=n.__b)&&a(u);try{n:if("function"==typeof P){if(k=u.props,x=(a=P.contextType)&&i[a.__c],C=a?x?x.props.value:a.__:i,t.__c?g=(h=u.__c=t.__c).__=h.__E:("prototype"in P&&P.prototype.render?u.__c=h=new P(k,C):(u.__c=h=new d(k,C),h.constructor=P,h.render=D),x&&x.sub(h),h.props=k,h.state||(h.state={}),h.context=C,h.__n=i,v=h.__d=!0,h.__h=[]),null==h.__s&&(h.__s=h.state),null!=P.getDerivedStateFromProps&&(h.__s==h.state&&(h.__s=s({},h.__s)),s(h.__s,P.getDerivedStateFromProps(k,h.__s))),p=h.props,m=h.state,v)null==P.getDerivedStateFromProps&&null!=h.componentWillMount&&h.componentWillMount(),null!=h.componentDidMount&&h.__h.push(h.componentDidMount);else{if(null==P.getDerivedStateFromProps&&k!==p&&null!=h.componentWillReceiveProps&&h.componentWillReceiveProps(k,C),!h.__e&&null!=h.shouldComponentUpdate&&!1===h.shouldComponentUpdate(k,h.__s,C)){for(h.props=k,h.state=h.__s,h.__d=!1,h.__v=u,u.__e=t.__e,u.__k=t.__k,h.__h.length&&f.push(h),a=0;a<u.__k.length;a++)u.__k[a]&&(u.__k[a].__=u);break n}null!=h.componentWillUpdate&&h.componentWillUpdate(k,h.__s,C),null!=h.componentDidUpdate&&h.__h.push(function(){h.componentDidUpdate(p,m,w)})}h.context=C,h.props=k,h.state=h.__s,(a=n.__r)&&a(u),h.__d=!1,h.__v=u,h.__P=l,a=h.render(h.props,h.state,h.context),u.__k=b(null!=a&&a.type==y&&null==a.key?a.props.children:a),null!=h.getChildContext&&(i=s(s({},i),h.getChildContext())),v||null==h.getSnapshotBeforeUpdate||(w=h.getSnapshotBeforeUpdate(p,m)),_(l,u,t,i,o,r,f,e,c),h.base=u.__e,h.__h.length&&f.push(h),g&&(h.__E=h.__=null),h.__e=null}else u.__e=j(t.__e,u,t,i,o,r,f,c);(a=n.diffed)&&a(u)}catch(l){n.__e(l,u,t)}return u.__e}function $(l,u){n.__c&&n.__c(u,l),l.some(function(u){try{l=u.__h,u.__h=[],l.some(function(n){n.call(u)})}catch(l){n.__e(l,u.__v)}})}function j(n,l,u,t,i,o,r,c){var s,a,h,v,p,y=u.props,d=l.props;if(i="svg"===l.type||i,null==n&&null!=o)for(s=0;s<o.length;s++)if(null!=(a=o[s])&&(null===l.type?3===a.nodeType:a.localName===l.type)){n=a,o[s]=null;break}if(null==n){if(null===l.type)return document.createTextNode(d);n=i?document.createElementNS("http://www.w3.org/2000/svg",l.type):document.createElement(l.type),o=null}if(null===l.type)null!=o&&(o[o.indexOf(n)]=null),y!==d&&n.data!=d&&(n.data=d);else if(l!==u){if(null!=o&&(o=e.slice.call(n.childNodes)),h=(y=u.props||f).dangerouslySetInnerHTML,v=d.dangerouslySetInnerHTML,!c){if(y===f)for(y={},p=0;p<n.attributes.length;p++)y[n.attributes[p].name]=n.attributes[p].value;(v||h)&&(v&&h&&v.__html==h.__html||(n.innerHTML=v&&v.__html||""))}x(n,d,y,i,c),l.__k=l.props.children,v||_(n,l,u,t,"foreignObject"!==l.type&&i,o,r,f,c),c||("value"in d&&void 0!==d.value&&d.value!==n.value&&(n.value=null==d.value?"":d.value),"checked"in d&&void 0!==d.checked&&d.checked!==n.checked&&(n.checked=d.checked))}return n}function z(l,u,t){try{"function"==typeof l?l(u):l.current=u}catch(l){n.__e(l,t)}}function A(l,u,t){var i,o,r;if(n.unmount&&n.unmount(l),(i=l.ref)&&(i.current&&i.current!==l.__e||z(i,null,u)),t||"function"==typeof l.type||(t=null!=(o=l.__e)),l.__e=l.__d=null,null!=(i=l.__c)){if(i.componentWillUnmount)try{i.componentWillUnmount()}catch(l){n.__e(l,u)}i.base=i.__P=null}if(i=l.__k)for(r=0;r<i.length;r++)i[r]&&A(i[r],u,t);null!=o&&a(o)}function D(n,l,u){return this.constructor(n,u)}function E(l,u,t){var i,r,c;n.__&&n.__(l,u),r=(i=t===o)?null:t&&t.__k||u.__k,l=h(y,null,[l]),c=[],T(u,(i?u:t||u).__k=l,r||f,f,void 0!==u.ownerSVGElement,t&&!i?[t]:r?null:e.slice.call(u.childNodes),c,t||f,i),$(c,l)}function H(n,l){E(n,l,o)}function I(n,l){return l=s(s({},n.props),l),arguments.length>2&&(l.children=e.slice.call(arguments,2)),v(n.type,l,l.key||n.key,l.ref||n.ref)}function L(n){var l={},u={__c:"__cC"+r++,__:n,Consumer:function(n,l){return n.children(l)},Provider:function(n){var t,i=this;return this.getChildContext||(t=[],this.getChildContext=function(){return l[u.__c]=i,l},this.shouldComponentUpdate=function(l){n.value!==l.value&&t.some(function(n){n.context=l.value,g(n)})},this.sub=function(n){t.push(n);var l=n.componentWillUnmount;n.componentWillUnmount=function(){t.splice(t.indexOf(n),1),l&&l.call(n)}}),n.children}};return u.Consumer.contextType=u,u}n={__e:function(n,l){for(var u,t;l=l.__;)if((u=l.__c)&&!u.__)try{if(u.constructor&&null!=u.constructor.getDerivedStateFromError&&(t=!0,u.setState(u.constructor.getDerivedStateFromError(n))),null!=u.componentDidCatch&&(t=!0,u.componentDidCatch(n)),t)return g(u.__E=u)}catch(l){n=l}throw n}},l=function(n){return null!=n&&void 0===n.constructor},d.prototype.setState=function(n,l){var u;u=this.__s!==this.state?this.__s:this.__s=s({},this.state),"function"==typeof n&&(n=n(u,this.props)),n&&s(u,n),null!=n&&this.__v&&(this.__e=!1,l&&this.__h.push(l),g(this))},d.prototype.forceUpdate=function(n){this.__v&&(this.__e=!0,n&&this.__h.push(n),g(this))},d.prototype.render=y,u=[],t="function"==typeof Promise?Promise.prototype.then.bind(Promise.resolve()):setTimeout,o=f,r=0;
+//# sourceMappingURL=preact.module.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = {};
+
+function modulesToDom(moduleId, list, options) {
+  for (var i = 0; i < list.length; i++) {
+    var part = {
+      css: list[i][1],
+      media: list[i][2],
+      sourceMap: list[i][3]
+    };
+
+    if (stylesInDom[moduleId][i]) {
+      stylesInDom[moduleId][i](part);
+    } else {
+      stylesInDom[moduleId].push(addStyle(part, options));
+    }
+  }
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && btoa) {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (moduleId, list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  moduleId = options.base ? moduleId + options.base : moduleId;
+  list = list || [];
+
+  if (!stylesInDom[moduleId]) {
+    stylesInDom[moduleId] = [];
+  }
+
+  modulesToDom(moduleId, list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    if (!stylesInDom[moduleId]) {
+      stylesInDom[moduleId] = [];
+    }
+
+    modulesToDom(moduleId, newList, options);
+
+    for (var j = newList.length; j < stylesInDom[moduleId].length; j++) {
+      stylesInDom[moduleId][j]();
+    }
+
+    stylesInDom[moduleId].length = newList.length;
+
+    if (stylesInDom[moduleId].length === 0) {
+      delete stylesInDom[moduleId];
+    }
+  };
+};
+
+/***/ }),
+
+/***/ "./src/core/constants.js":
+/*!*******************************!*\
+  !*** ./src/core/constants.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const PropType = __webpack_require__(/*! ../core/proptype */ "./src/core/proptype.js");
+
+// a collection of miscellaneous constants that don't warrant their own files.
+let ExportMode = Object.freeze({
+	INLINE: "inline",
+	METHOD: "method",
+	BUILDER: "builder",
+	CUSTOM: "custom"
+});
+exports.ExportMode = ExportMode;
+
+exports.ExportModeOptions = [{ id: ExportMode.INLINE, label: "Export as inline code (default)" }, { id: ExportMode.METHOD, label: "Export as build method" }, { id: ExportMode.BUILDER, label: "Replace with builder param" }, { id: ExportMode.CUSTOM, label: "Replace with custom code" }];
+
+exports.DEFAULT_CUSTOM_CODE = "Text('Hello World')";
+exports.DEFAULT_CLASS_PREFIX = "XD";
+exports.DEFAULT_COLORS_CLASS_NAME = "XDColors";
+exports.DEFAULT_CHAR_STYLES_CLASS_NAME = "XDTextStyles";
+exports.HELP_URL = "https://github.com/AdobeXD/xd-to-flutter-plugin/blob/master/README.md";
+exports.REQUIRED_PARAM = { _: "required param" };
+
+exports.DEFAULT_PLUGIN_DATA = {
+	[PropType.WIDGET_PREFIX]: exports.DEFAULT_CLASS_PREFIX,
+	[PropType.ENABLE_PROTOTYPE]: true,
+	[PropType.NORMALIZE_NAME_CASE]: true,
+	[PropType.INCLUDE_NAME_COMMENTS]: true
+};
+
+/***/ }),
+
+/***/ "./src/core/context.js":
+/*!*****************************!*\
+  !*** ./src/core/context.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const { Log } = __webpack_require__(/*! ./log */ "./src/core/log.js");
+const { trace } = __webpack_require__(/*! ../utils/debug */ "./src/utils/debug.js");
+
+const ContextTarget = {
+	FILES: 1,
+	CLIPBOARD: 2
+};
+exports.ContextTarget = ContextTarget;
+
+class Context {
+
+	constructor(target) {
+		this._debugLog = new Log();
+		this._userLog = new Log();
+		this.log = this._userLog;
+		this.widgetNameSet = {};
+		this.artboards = {};
+		this.masterComponents = {};
+		this.componentInstances = {};
+		this.target = target;
+		this.widgets = {};
+		this.widgetStack = [];
+		this.resultMessage = null;
+		this._gridDepth = 0;
+		this._fonts = {};
+	}
+
+	get fonts() {
+		return Object.keys(this._fonts);
+	}
+
+	get _currentWidget() {
+		let stack = this.widgetStack,
+		    l = stack.length;
+		return l > 0 ? stack[l - 1] : null;
+	}
+
+	useDebugLog() {
+		this.log = this._debugLog;
+	}
+
+	useUserLog() {
+		this.log = this._userLog;
+	}
+
+	pushGrid() {
+		this._gridDepth++;
+	}
+	popGrid() {
+		this._gridDepth--;
+	}
+
+	get inGrid() {
+		return this._gridDepth > 0;
+	}
+
+	pushWidget(node) {
+		this.widgets[node.widgetName] = node;
+		this.widgetStack.push(node);
+	}
+
+	popWidget() {
+		this.widgetStack.pop();
+	}
+
+	addArtboard(node) {
+		if (!this._checkWidgetName(node)) {
+			return;
+		}
+		this.artboards[node.symbolId] = node;
+		this.widgetNameSet[node.widgetName] = true;
+	}
+
+	addFont(font, xdNode) {
+		// currently not using xdNode, but it's passed in so we can report it if needed.
+		this._fonts[font] = true;
+	}
+
+	addComponentInstance(node) {
+		let instances = this.componentInstances[node.symbolId];
+		if (!instances) {
+			instances = this.componentInstances[node.symbolId] = [];
+		}
+		if (node.isMaster && !this._checkWidgetName(node)) {
+			return;
+		}
+		// Check if it's already in the instance list:
+		for (let i = 0; i < instances.length; ++i) {
+			if (instances[i].xdNode === node.xdNode) {
+				return;
+			}
+		}
+		instances.push(node);
+		if (node.isMaster) {
+			this.masterComponents[node.symbolId] = node;
+			this.widgetNameSet[node.widgetName] = true;
+		}
+	}
+
+	getComponentFromXdNode(xdNode) {
+		let instances = this.componentInstances[xdNode.symbolId];
+		for (let i = 0; instances && i < instances.length; ++i) {
+			let instance = instances[i];
+			// Comparing using equality to test if these xdNodes are the same reference
+			if (instance.xdNode === xdNode) {
+				return instance;
+			}
+		}
+		return null;
+	}
+
+	getArtboardFromXdNode(xdNode) {
+		return this.artboards[xdNode.guid];
+	}
+
+	addImport(name, isWidget, scope) {
+		let widget = this._currentWidget;
+		if (widget) {
+			widget.addImport(name, isWidget, scope);
+		}
+	}
+
+	usesPinned() {
+		this.addImport("package:adobe_xd/pinned.dart");
+	}
+
+	addBuildMethod(name, str) {
+		if (!this._currentWidget) {
+			return;
+		}
+		this._currentWidget.addBuildMethod(name, str, this);
+	}
+
+	addShapeData(node) {
+		let widget = this._currentWidget;
+		if (widget) {
+			widget.addShapeData(node);
+			this.addImport("package:flutter_svg/flutter_svg.dart");
+		}
+	}
+
+	removeShapeData(node) {
+		let widget = this._currentWidget;
+		if (widget) {
+			widget.removeShapeData(node);
+		}
+	}
+
+	addParam(param) {
+		let widget = this._currentWidget;
+		if (!this.inGrid && widget) {
+			widget.addChildParam(param, this);
+		}
+	}
+
+	// Post process data gathered during the parse stage and seal the object
+	finish() {
+		Object.freeze(this);
+	}
+
+	_checkWidgetName(node) {
+		let name = node.widgetName;
+		if (!name) {
+			this.log.error(`Empty widget name.`, node.xdNode);
+			return false;
+		}
+		if (this.widgetNameSet[name]) {
+			this.log.error(`Duplicate widget name: ${name}.`, node.xdNode);
+			return false;
+		}
+		return true;
+	}
+
+}
+
+exports.Context = Context;
+
+/***/ }),
+
+/***/ "./src/core/dart_export.js":
+/*!*********************************!*\
+  !*** ./src/core/dart_export.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const assets = __webpack_require__(/*! assets */ "assets");
+const clipboard = __webpack_require__(/*! clipboard */ "clipboard");
+
+const $ = __webpack_require__(/*! ../utils/utils */ "./src/utils/utils.js");
+const NodeUtils = __webpack_require__(/*! ../utils/nodeutils */ "./src/utils/nodeutils.js");
+const ExportUtils = __webpack_require__(/*! ../utils/exportutils */ "./src/utils/exportutils.js");
+const { cleanIdentifierName, cleanDartName } = __webpack_require__(/*! ../utils/nameutils */ "./src/utils/nameutils.js");
+
+const { trace } = __webpack_require__(/*! ../utils/debug */ "./src/utils/debug.js");
+const { Context, ContextTarget } = __webpack_require__(/*! ./context */ "./src/core/context.js");
+const { parse } = __webpack_require__(/*! ./parse */ "./src/core/parse.js");
+const { formatDart } = __webpack_require__(/*! ../lib/dart_style */ "../lib/dart_style");
+const PropType = __webpack_require__(/*! ./proptype */ "./src/core/proptype.js");
+const NodeType = __webpack_require__(/*! ./nodetype */ "./src/core/nodetype.js");
+const { project } = __webpack_require__(/*! ./project */ "./src/core/project.js");
+const { alert } = __webpack_require__(/*! ../ui/alert */ "./src/ui/alert.jsx");
+const { checkXDVersion } = __webpack_require__(/*! ../version */ "./src/version.js");
+const { getTextStyleParamList, getTextStyle } = __webpack_require__(/*! ./nodes/text */ "./src/core/nodes/text.js");
+const { DEFAULT_COLORS_CLASS_NAME, DEFAULT_CHAR_STYLES_CLASS_NAME } = __webpack_require__(/*! ../core/constants */ "./src/core/constants.js");
+
+async function copySelected(selection, root) {
+	if (!checkXDVersion()) {
+		return;
+	}
+	let xdNode = $.getSelectedItem(selection);
+	if (!xdNode) {
+		alert("Select a single item to copy.");return;
+	}
+	let type = NodeType.getType(xdNode);
+	let isCopyable = type !== NodeType.ROOT && type !== NodeType.WIDGET;
+	if (!isCopyable) {
+		alert("The selected item cannot be copied.");
+		return null;
+	}
+
+	let ctx = new Context(ContextTarget.CLIPBOARD);
+
+	let result,
+	    node = parse(root, xdNode, ctx);
+	if (node) {
+		node.layout.enabled = false;
+		result = _formatDart(node.serialize(ctx) + ';', true, ctx);
+	}
+
+	if (result && result.length > 1) {
+		result = result.slice(0, -1); // strip off trailing ';'
+		clipboard.copyText(result);
+		ctx.resultMessage = "Flutter code copied to clipboard";
+	} else {
+		ctx.resultMessage = "Unable to export this node";
+	}
+
+	ctx.log.dump(ctx.resultMessage);
+	return ctx;
+}
+
+async function exportAll(selection, root) {
+	if (!checkXDVersion()) {
+		return;
+	}
+	let ctx = new Context(ContextTarget.FILES);
+
+	if (!(await project.checkRoot())) {
+		return null;
+	}
+	let codeF = project.code;
+
+	let count = 0,
+	    total = 0;
+	// Parse entire document, getting all artboards and components, combining them in one object for iteration
+	parse(root, null, ctx);
+	let widgets = Object.assign({}, ctx.artboards, ctx.masterComponents);
+	// Write each widget to disk
+	for (let n in widgets) {
+		if (NodeUtils.getProp(widgets[n].xdNode, PropType.INCLUDE_IN_EXPORT_PROJECT) === false) continue;
+		++total;
+		let fileName = await writeWidget(widgets[n], codeF, ctx);
+		if (fileName) {
+			count++;
+		}
+	}
+
+	await exportColors(ctx);
+	await exportCharStyles(ctx);
+	await project.validate(ctx);
+
+	ctx.resultMessage = $.getExportAllMessage(count, total, "widget");
+
+	ctx.log.dump(ctx.resultMessage);
+	return ctx;
+}
+
+async function exportSelected(selection, root) {
+	if (!checkXDVersion()) {
+		return;
+	}
+	let xdNode = $.getSelectedItem(selection);
+	if (!xdNode) {
+		alert("Select an Artboard or Master Component.");return null;
+	}
+
+	if (!NodeUtils.isWidget(xdNode)) {
+		let msg = "Only Artboards and Master Components can be exported as Widgets.";
+		if (xdNode instanceof xd.SymbolInstance) {
+			msg += ` Press <b>${$.getCmdKeyStr()}-Shift-K</b> to locate the Master Component.`;
+		}
+		alert(msg);
+		return null;
+	}
+
+	if (!(await project.checkRoot())) {
+		return null;
+	}
+	let codeF = project.code;
+
+	let ctx = new Context(ContextTarget.FILES);
+	let fileName,
+	    node = parse(root, xdNode, ctx);
+	if (node) {
+		// Write the widget we have selected to disk
+		fileName = await writeWidget(node, codeF, ctx);
+	}
+
+	await project.validate(ctx);
+
+	ctx.resultMessage = fileName ? `Exported '${fileName}' successfully` : "Widget export failed";
+
+	ctx.log.dump(ctx.resultMessage);
+	return ctx;
+}
+
+//Writes a single artboard / component to dart file
+async function writeWidget(node, codeF, ctx) {
+	let fileName = node.widgetName + ".dart";
+	let fileStr = node.serializeWidget(ctx);
+	fileStr = _formatDart(fileStr, false, ctx, node);
+
+	if (!fileStr) {
+		return null;
+	}
+
+	await codeF.writeFile(fileName, fileStr, ctx);
+	return fileName;
+}
+
+async function exportColors(ctx) {
+	if (!NodeUtils.getProp(xd.root, PropType.EXPORT_COLORS)) {
+		return;
+	}
+	let entries = assets.colors.get();
+	if (!entries) {
+		return;
+	}
+	let lists = {},
+	    usedNames = {},
+	    names = [];
+	let className = cleanDartName(NodeUtils.getProp(xd.root, PropType.COLORS_CLASS_NAME)) || DEFAULT_COLORS_CLASS_NAME;
+
+	let str = `import 'package:flutter/material.dart';\n\nclass ${className} {\n`;
+	for (let i = 0, l = entries.length; i < l; i++) {
+		let asset = entries[i],
+		    name = cleanIdentifierName(asset.name);
+		if (!name) {
+			continue;
+		}
+		if (usedNames[name]) {
+			ctx.log.warn(`Duplicate color asset name: ${name}`);
+			continue;
+		}
+		usedNames[name] = true;
+		names.push(name);
+		let isGradient = !asset.color;
+		let match = /(.+?)(\d+)$/.exec(name);
+		if (match) {
+			let o = lists[match[1]];
+			if (!o) {
+				o = lists[match[1]] = [];
+				o.isGradient = isGradient;
+			}
+			if (o.isGradient !== isGradient) {
+				ctx.log.warn(`Color asset lists can't mix colors and gradients (${match[1]})`);
+			} else {
+				o[parseInt(match[2])] = name;
+			}
+		}
+		if (isGradient) {
+			let type = ExportUtils.getGradientTypeFromAsset(asset);
+			str += `\tstatic const ${type} ${name} = ${ExportUtils.getGradientFromAsset(asset)};\n`;
+		} else {
+			str += `\tstatic const Color ${name} = ${ExportUtils.getColor(asset.color)};\n`;
+		}
+	}
+	str += '\n';
+	for (let n in lists) {
+		let s = _getColorList(lists[n], n, true);
+		if (s) {
+			str += `${s}\n`;
+		}
+	}
+	str += '\n}';
+	str = _formatDart(str, false, ctx, null);
+	await project.code.writeFile(`${className}.dart`, str, ctx);
+}
+
+function _getColorList(o, name, validate) {
+	if (validate && (!o[0] || !o[1])) {
+		return '';
+	}
+	let type = o.isGradient ? 'Gradient' : 'Color';
+	let str = `\tstatic const List<${type}> ${name} = const [`;
+	for (let i = 0; true; i++) {
+		if (!o[i]) {
+			break;
+		}
+		str += `${i === 0 ? '' : ', '}${o[i]}`;
+	}
+	return str + '];';
+}
+
+async function exportCharStyles(ctx) {
+	if (!NodeUtils.getProp(xd.root, PropType.EXPORT_CHAR_STYLES)) {
+		return;
+	}
+	let entries = assets.characterStyles.get();
+	if (!entries || entries.length === 0) {
+		return;
+	}
+	let usedNames = {},
+	    names = [];
+	let className = cleanDartName(NodeUtils.getProp(xd.root, PropType.CHAR_STYLES_CLASS_NAME)) || DEFAULT_CHAR_STYLES_CLASS_NAME;
+	let str = `import 'package:flutter/material.dart';\n\nclass ${className} {\n`;
+	for (let i = 0, l = entries.length; i < l; i++) {
+		let asset = entries[i],
+		    name = cleanIdentifierName(asset.name);
+		if (!name) {
+			continue;
+		}
+		if (usedNames[name]) {
+			ctx.log.warn(`Duplicate character style asset name: ${name}`);
+			continue;
+		}
+		usedNames[name] = true;
+		names.push(name);
+		let style = getTextStyle(getTextStyleParamList(asset.style, false, ctx));
+		if (style) {
+			str += `\tstatic const TextStyle ${name} = const ${style};\n`;
+		}
+	}
+	str += '\n}';
+	str = _formatDart(str, false, ctx, null);
+	await project.code.writeFile(`${className}.dart`, str, ctx);
+}
+
+function _formatDart(str, nestInFunct, ctx, node) {
+	let result = null,
+	    xdNode = node && node.xdNode;
+	try {
+		result = formatDart(str, nestInFunct);
+	} catch (e) {
+		trace(e);
+		ctx.log.error('Unable to format the exported source code.', xdNode);
+	}
+	return result;
+}
+
+module.exports = {
+	copySelected,
+	exportSelected,
+	exportAll,
+	exportColors
+};
+
+/***/ }),
+
+/***/ "./src/core/decorators/abstractdecorator.js":
+/*!**************************************************!*\
+  !*** ./src/core/decorators/abstractdecorator.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+// Decorates an AbstractNode, typically by wrapping the widget.
+class AbstractDecorator {
+	// AbstractDecorators should also have a static `create(node, ctx)` method
+	// that returns an instance if appropriate.
+
+	constructor(node, ctx, cosmetic = false) {
+		this.node = node;
+		this.cosmetic = cosmetic;
+	}
+
+	get xdNode() {
+		return this.node && this.node.xdNode;
+	}
+
+	serialize(nodeStr, ctx) {
+		return this._serialize(nodeStr, ctx);
+	}
+
+	_serialize(nodeStr, ctx) {
+		return nodeStr;
+	}
+}
+exports.AbstractDecorator = AbstractDecorator;
+
+/***/ }),
+
+/***/ "./src/core/decorators/blend.js":
+/*!**************************************!*\
+  !*** ./src/core/decorators/blend.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const { AbstractDecorator } = __webpack_require__(/*! ./abstractdecorator */ "./src/core/decorators/abstractdecorator.js");
+
+class Blend extends AbstractDecorator {
+	static create(node, ctx) {
+		let xdNode = node.xdNode,
+		    blend = xdNode.blendMode;
+		if (!blend || blend === "pass-through" || blend === "normal") {
+			return;
+		}
+		if (!Blend.MODE_MAP[blend]) {
+			ctx.log.warn(`Unsupported blend mode '${blend}'`, xdNode);
+			return;
+		}
+		ctx.addImport("package:adobe_xd/blend_mask.dart", false);
+		return new Blend(node, ctx);
+	}
+
+	_serialize(nodeStr, ctx) {
+		let xdNode = this.node.xdNode,
+		    bounds = xdNode.boundsInParent;
+		let mode = Blend.MODE_MAP[xdNode.blendMode],
+		    region = "";
+
+		if (xdNode instanceof xd.Group && this.node.layout.isFixedSize) {
+			let lx = $.fix(bounds.x),
+			    ly = $.fix(bounds.y);
+			let lw = $.fix(bounds.width),
+			    lh = $.fix(bounds.height);
+			region = `region: Offset(${lx}, ${ly}) & Size(${lw}, ${lh}), `;
+		}
+
+		let str = "BlendMask(" + `blendMode: BlendMode.${mode || "src"}, ` +
+		//`opacity: ${xdNode.opacity}, ` +
+		region + `child: ${nodeStr}, ` + ")";
+
+		return str;
+	}
+}
+exports.Blend = Blend;
+
+Blend.MODE_MAP = {
+	"pass-through": "src",
+	"normal": "srcOver",
+	"darken": "darken",
+	"multiply": "multiply",
+	"color-burn": "colorBurn",
+	"lighten": "lighten",
+	"screen": "screen",
+	"color-dodge": "colorDodge",
+	"overlay": "overlay",
+	"soft-light": "softLight",
+	"hard-light": "hardLight",
+	"difference": "difference",
+	"exclusion": "exclusion",
+	"hue": "hue",
+	"saturation": "saturation",
+	"color": "color",
+	"luminosity": "luminosity"
+};
+
+/***/ }),
+
+/***/ "./src/core/decorators/blur.js":
+/*!*************************************!*\
+  !*** ./src/core/decorators/blur.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const { AbstractDecorator } = __webpack_require__(/*! ./abstractdecorator */ "./src/core/decorators/abstractdecorator.js");
+const { Container } = __webpack_require__(/*! ../nodes/container */ "./src/core/nodes/container.js");
+
+class Blur extends AbstractDecorator {
+	static create(node, ctx) {
+		let xdNode = node.xdNode,
+		    blur = xdNode.blur;
+		if (blur && blur.visible) {
+			if (!(node instanceof Container)) {
+				ctx.log.warn("Blur is currently only supported on rectangles and ellipses.", xdNode);
+				return;
+			}
+			if (!blur.isBackgroundEffect) {
+				ctx.log.warn("Object blur is not supported.", xdNode);
+				return;
+			}
+			if (blur.isBackgroundEffect && Math.round(xdNode.blur.brightnessAmount) !== 0) {
+				ctx.log.warn("Brightness is currently not supported on blurs.", xdNode);
+			}
+			ctx.addImport("dart:ui", false, "ui");
+			return new Blur(node, ctx);
+		}
+	}
+
+	_serialize(nodeStr, ctx) {
+		let xdNode = this.node.xdNode,
+		    blur = xdNode.blur;
+		let clipType = xdNode instanceof xd.Rectangle ? "ClipRect" : "ClipOval";
+		let filterParam = _getImageFilterParam(blur, ctx);
+		return `${clipType}(child: BackdropFilter(${filterParam}child: ${nodeStr}, ), )`;
+	}
+}
+exports.Blur = Blur;
+
+function _getImageFilterParam(blur, ctx) {
+	// currently just exports blurs.
+	return `filter: ${_getImageFilter(blur, ctx)}, `;
+}
+
+function _getImageFilter(blur, ctx) {
+	let sigStr = $.fix(blur.blurAmount, 0);
+	return `ui.ImageFilter.blur(sigmaX: ${sigStr}, sigmaY: ${sigStr})`;
+}
+
+/***/ }),
+
+/***/ "./src/core/decorators/comment.js":
+/*!****************************************!*\
+  !*** ./src/core/decorators/comment.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const { AbstractDecorator } = __webpack_require__(/*! ./abstractdecorator */ "./src/core/decorators/abstractdecorator.js");
+const nodetype = __webpack_require__(/*! ../nodetype */ "./src/core/nodetype.js");
+
+class Comment extends AbstractDecorator {
+	static create(node, ctx) {
+		if (Comment.enabled && !node.xdNode.hasDefaultName) {
+			return new Comment(node, ctx, true);
+		}
+	}
+
+	_serialize(nodeStr, ctx) {
+		let xdNode = this.node.xdNode;
+		let name = $.shorten(xdNode.name, 20),
+		    type = nodetype.getXDLabel(xdNode);
+		return `\n // Adobe XD layer: '${name}' (${type})\n${nodeStr}`;
+	}
+}
+Comment.enabled = true;
+
+exports.Comment = Comment;
+
+/***/ }),
+
+/***/ "./src/core/decorators/layout.js":
+/*!***************************************!*\
+  !*** ./src/core/decorators/layout.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const { getAlignment } = __webpack_require__(/*! ../../utils/exportutils */ "./src/utils/exportutils.js");
+const { addSizedBox, getGroupContentBounds, hasComplexTransform } = __webpack_require__(/*! ../../utils/layoututils */ "./src/utils/layoututils.js");
+
+const { AbstractDecorator } = __webpack_require__(/*! ./abstractdecorator */ "./src/core/decorators/abstractdecorator.js");
+
+class Layout extends AbstractDecorator {
+	static create(node, ctx) {
+		throw "Layout.create() called.";
+	}
+
+	constructor(node, ctx) {
+		super(node, ctx);
+		this.enabled = true; // set to false to disable layout without changing settings.
+	}
+
+	reset() {
+		// these properties are set in calculate():
+		this.type = LayoutType.NONE;
+		this.direction = LayoutDirection.BOTH; // for stack layouts
+		this.padding = null;
+		this.isFixedSize = false; // indicates layout should fix the size, can be adjusted externally
+		this.isResponsive = false; // will move or resize when parent resizes. Ex. Center is both fixed size and responsive.
+
+		// these properties are set by the target or its parent after .calculate() is run
+		// they only affect serialize:
+		this.shouldExpand = false; // indicates that a SizedBox.expand should be added. Defaults to false.
+		this.shouldFixSize = false; // indicates that a SizedBox should be added. Defaults to the value of isFixedSize.
+	}
+
+	calculate(ctx) {
+		// this precalculates the layout details. These properties can be overridden,
+		// for example, by the node itself or its parent node.
+		let node = this.node,
+		    xdNode = this.xdNode;
+		let constraints = xdNode.layout.resizeConstraints,
+		    o = constraints && constraints.values;
+		let parent = xdNode.parent,
+		    xdParentLayout = parent && parent.layout;
+		let tmp, pBounds, bounds;
+
+		this.reset();
+
+		if (!xdParentLayout) {
+			// widget definition
+			this.enabled = false;
+			return this;
+		}
+
+		this.parentBounds = pBounds = getGroupContentBounds(parent);
+		this.bounds = bounds = node.adjustedBounds;
+
+		if (xdParentLayout && xdParentLayout.type === "stack") {
+			// In a stack.
+			let isVertical = xdParentLayout.stack.orientation === "vertical";
+			this.direction = isVertical ? LayoutDirection.VERTICAL : LayoutDirection.HORIZONTAL;
+			let shouldPin = o && (isVertical && !o.width && this._isFullWidth() || !isVertical && !o.height && this._isFullHeight());
+			this.type = shouldPin ? LayoutType.NONE : LayoutType.PINNED;
+			this.isResponsive = shouldPin;
+			this.isFixedSize = !shouldPin;
+		} else if (!bounds || !o) {
+			// missing either bounds (rare) or constraints (not set to responsive)
+			this.type = LayoutType.TRANSLATE;
+			this.isFixedSize = true;
+		} else if (o.top && o.right && o.bottom && o.left) {
+			this.type = LayoutType.NONE;
+			if (!this._isFullSize()) {
+				this.padding = this._getPadding();
+			}
+			this.isResponsive = true;
+		} else if (o.width && o.height && (tmp = this._getAlignment(o))) {
+			this.type = tmp === "Alignment.center" ? LayoutType.CENTER : LayoutType.ALIGN;
+			this.isFixedSize = true;
+			this.isResponsive = true;
+			this.alignment = tmp;
+		} else {
+			this.type = LayoutType.PINNED;
+			this.isResponsive = true;
+		}
+		this.shouldFixSize = this.isFixedSize;
+
+		// ideally this would get moved to _serialize(), in case someone changes it:
+		if (this.type === LayoutType.PINNED) {
+			ctx.usesPinned();
+		}
+		return this;
+	}
+
+	_serialize(nodeStr, ctx) {
+		let node = this.node,
+		    type = this.type;
+
+		if (!this.enabled) {
+			return nodeStr;
+		}
+
+		// work from inside out:
+		nodeStr = this._transform(nodeStr, ctx);
+		if (this.shouldFixSize) {
+			nodeStr = addSizedBox(nodeStr, this.bounds, ctx);
+		} else {
+			nodeStr = this._expand(nodeStr, ctx);
+		}
+
+		if (this.padding) {
+			nodeStr = this._padding(nodeStr, ctx);
+		}
+
+		if (type === LayoutType.NONE) {
+			return nodeStr;
+		}
+		if (type === LayoutType.TRANSLATE) {
+			return this._translate(nodeStr, ctx);
+		}
+		if (type === LayoutType.CENTER) {
+			return this._center(nodeStr, ctx);
+		}
+		if (type === LayoutType.ALIGN) {
+			return this._align(nodeStr, ctx);
+		}
+		if (type === LayoutType.PINNED) {
+			return this._pinned(nodeStr, ctx);
+		}
+		ctx.log.error(`Unexpected layout type: ${this.type}`, node.xdNode);
+	}
+
+	_expand(nodeStr, ctx) {
+		// PINNED doesn't require expansion, and other types are all fixed size.
+		if (this.shouldExpand && !this.isFixedSize && this.type === LayoutType.NONE) {
+			return `SizedBox.expand(child: ${nodeStr})`;
+		}
+		return nodeStr;
+	}
+
+	_pinned(nodeStr, ctx) {
+		// TODO: update Pinned to accept null for unnecessary (congruent) pins? ie. optimize for layout direction (vertical/horizontal/both).
+		// ^ can use _isFullWidth/Height
+		let constraints = this.xdNode.layout.resizeConstraints;
+		let o = constraints && constraints.values;
+		return "Pinned.fromPins(" + this._getHPin(o, this.bounds, this.parentBounds) + ", " + this._getVPin(o, this.bounds, this.parentBounds) + ", " + `child: ${nodeStr}, ` + ")";
+	}
+
+	_getHPin(o, b, pb) {
+		if (this.direction === LayoutDirection.HORIZONTAL) {
+			return this._getDefaultPin();
+		}
+		return this._getPin(o.left, o.width, o.right, b.x, b.width, pb.width);
+	}
+
+	_getVPin(o, b, pb) {
+		if (this.direction === LayoutDirection.VERTICAL) {
+			return this._getDefaultPin();
+		}
+		return this._getPin(o.top, o.height, o.bottom, b.y, b.height, pb.height);
+	}
+
+	_getDefaultPin() {
+		return "Pin()";
+	}
+
+	_getPin(cSt, cSz, cEnd, bSt, bSz, pSz) {
+		// c = constraints, b = bounds, p = parent bounds
+		let fix = $.fix,
+		    end = pSz - (bSt + bSz);
+		let middle = pSz === bSz ? 0.5 : bSt / (pSz - bSz);
+		let params = [cSz ? `size: ${fix(bSz)}` : null, cSt ? `start: ${fix(bSt)}` : null, cEnd ? `end: ${fix(end)}` : null, !cSt && !cSz ? `startFraction: ${fix(bSt / pSz, 4)}` : null, !cEnd && !cSz ? `endFraction: ${fix(end / pSz, 4)}` : null, cSz && !cSt && !cEnd ? `middle: ${fix(middle, 4)}` : null];
+		return "Pin(" + $.joinValues(params) + ")";
+	}
+
+	_translate(nodeStr, ctx) {
+		let bounds = this.bounds;
+		let isOrigin = $.almostEqual(bounds.x, 0, 0.1) && $.almostEqual(bounds.y, 0, 0.1);
+		return isOrigin ? nodeStr : "Transform.translate(" + `offset: Offset(${$.fix(bounds.x)}, ${$.fix(bounds.y)}), ` + `child: ${nodeStr},` + ")";
+	}
+
+	_padding(nodeStr, ctx) {
+		return !this.padding ? "" : "Padding(" + `padding: ${this.padding},` + `child: ${nodeStr}, ` + ")";
+	}
+
+	_align(nodeStr, ctx) {
+		return !this.alignment ? "" : "Align(" + `alignment: ${this.alignment}, ` + `child: ${nodeStr}, ` + ")";
+	}
+
+	_center(nodeStr, ctx) {
+		return `Center(child: ${nodeStr},)`;
+	}
+
+	_transform(nodeStr, ctx) {
+		let transform = this.node.transform;
+
+		if (this.isResponsive && !hasComplexTransform(this.node, "Rotation and flip are not fully supported in responsive layouts.", ctx)) {
+			return nodeStr;
+		}
+		if (transform.flipY) {
+			nodeStr = 'Transform(' + 'alignment: Alignment.center, ' + `transform: Matrix4.identity()..rotateZ(${this._getAngle(transform.rotation)})..scale(1.0, -1.0), ` + `child: ${nodeStr}, ` + ')';
+		} else if (transform.rotation % 360 !== 0) {
+			nodeStr = 'Transform.rotate(' + `angle: ${this._getAngle(transform.rotation)}, ` + `child: ${nodeStr}, ` + ')';
+		}
+		return nodeStr;
+	}
+
+	_getPadding() {
+		let size = this.parentBounds,
+		    bounds = this.bounds;
+		let l = bounds.x,
+		    r = size.width - (l + bounds.width);
+		let t = bounds.y,
+		    b = size.height - (t + bounds.height);
+
+		if ($.almostEqual(l, r, 0.5) && $.almostEqual(t, b, 0.5)) {
+			if ($.almostEqual(l, t, 0.5)) {
+				return `EdgeInsets.all(${$.fix(l)})`;
+			}
+			return "EdgeInsets.symmetric(" + `horizontal: ${$.fix(l)}, ` + `vertical: ${$.fix(t)} ` + ")";
+		}
+		// leave out trailing commas to prevent auto-format from putting every value on a new line:
+		return "EdgeInsets.fromLTRB(" + `${$.fix(l)}, ${$.fix(t)}, ${$.fix(r)}, ${$.fix(b)} ` + ")";
+	}
+
+	_getAlignment(o) {
+		let size = this.parentBounds,
+		    bounds = this.bounds;
+		let hStr,
+		    x = bounds.x,
+		    w = size.width - bounds.width;
+		let vStr,
+		    y = bounds.y,
+		    h = size.height - bounds.height;
+
+		if ($.almostEqual(y, 0, 0.5)) {
+			vStr = "top";
+		} else if ($.almostEqual(y, h / 2, 0.5)) {
+			vStr = "center";
+		} else if ($.almostEqual(y, h, 0.5)) {
+			vStr = "bottom";
+		}
+
+		if (o.top && vStr !== "top" || o.bottom && vStr !== "bottom") {
+			return;
+		}
+
+		if ($.almostEqual(x, 0, 0.5)) {
+			hStr = "Left";
+		} else if ($.almostEqual(x, w / 2, 0.5)) {
+			hStr = "Center";
+		} else if ($.almostEqual(x, w, 0.5)) {
+			hStr = "Right";
+		}
+
+		if (o.left && hStr !== "Left" || o.right && hStr !== "Right") {
+			return;
+		}
+
+		let str = hStr && vStr ? vStr + hStr : null;
+		if (str === "centerCenter") {
+			str = "center";
+		}
+		if (str) {
+			return `Alignment.${str}`;
+		}
+		return getAlignment(x / w, y / h);
+	}
+
+	_getAngle(rotation) {
+		return $.fix(rotation / 180 * Math.PI, 4);
+	}
+
+	_isFullWidth() {
+		return $.almostEqual(this.bounds.x, 0, 0.5) && $.almostEqual(this.bounds.width, this.parentBounds.width, 0.5);
+	}
+
+	_isFullHeight() {
+		return $.almostEqual(this.bounds.y, 0, 0.5) && $.almostEqual(this.bounds.height, this.parentBounds.height, 0.5);
+	}
+
+	_isFullSize() {
+		return this._isFullWidth() && this._isFullHeight();
+	}
+
+	_isCentered() {
+		let size = this.parentBounds,
+		    bounds = this.bounds;
+		let x1 = bounds.x + bounds.width / 2,
+		    x2 = size.width / 2;
+		let y1 = bounds.y + bounds.height / 2,
+		    y2 = size.height / 2;
+		return $.almostEqual(x1, x2, 0.5) && $.almostEqual(y1, y2, 0.5);
+	}
+}
+
+exports.Layout = Layout;
+
+var LayoutType = Object.freeze({
+	PINNED: "pinned",
+	ALIGN: "align",
+	CENTER: "center",
+	TRANSLATE: "translate",
+	NONE: "none"
+});
+exports.LayoutType = LayoutType;
+
+var LayoutDirection = Object.freeze({
+	VERTICAL: "vertical",
+	HORIZONTAL: "horizontal",
+	BOTH: "both"
+});
+exports.LayoutDirection = LayoutDirection;
+
+/***/ }),
+
+/***/ "./src/core/decorators/ontap.js":
+/*!**************************************!*\
+  !*** ./src/core/decorators/ontap.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const { AbstractDecorator } = __webpack_require__(/*! ./abstractdecorator */ "./src/core/decorators/abstractdecorator.js");
+const { Group } = __webpack_require__(/*! ../nodes/group */ "./src/core/nodes/group.js");
+
+class OnTap extends AbstractDecorator {
+	static create(node, ctx) {
+		if (!(node instanceof Group)) {
+			return;
+		}
+		if (node.getParam("onTap")) {
+			return new OnTap(node, ctx);
+		}
+	}
+
+	_serialize(nodeStr, ctx) {
+		return OnTap.get(nodeStr, this.node.getParam("onTap").name);
+	}
+}
+exports.OnTap = OnTap;
+
+OnTap.get = function (nodeStr, onTap) {
+	// This is also used by Component._serialize()
+	if (!nodeStr || !onTap) {
+		return nodeStr;
+	}
+	return 'GestureDetector(' + `onTap: ()=> ${onTap}?.call(), ` + `child: ${nodeStr}, ` + ')';
+};
+
+/***/ }),
+
+/***/ "./src/core/decorators/prototypeinteraction.js":
+/*!*****************************************************!*\
+  !*** ./src/core/decorators/prototypeinteraction.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { AbstractDecorator } = __webpack_require__(/*! ./abstractdecorator */ "./src/core/decorators/abstractdecorator.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+
+class PrototypeInteraction extends AbstractDecorator {
+	static create(node, ctx) {
+		if (NodeUtils.getInteractionCount(node.xdNode) < 1) {
+			return;
+		}
+
+		let xdNode = node.xdNode,
+		    list = xdNode.triggeredInteractions,
+		    interaction = list[0];
+		if (list.length > 1) {
+			return ctx.log.warn(`Multiple prototype interactions on one object is not supported.`, xdNode);
+		}
+		if (interaction.trigger.type !== "tap") {
+			return ctx.log.warn(`Unsupported trigger '${interaction.trigger.type}'. Only tap is supported.`, xdNode);
+		}
+		let type = interaction.action.type;
+		if (type !== "goToArtboard" && type !== "goBack") {
+			return ctx.log.warn(`Unsupported action type '${type}'.`, xdNode);
+		}
+		ctx.addImport("package:adobe_xd/page_link.dart");
+		return new PrototypeInteraction(node, ctx);
+	}
+
+	_serialize(nodeStr, ctx) {
+		let xdNode = this.node.xdNode,
+		    interaction = xdNode.triggeredInteractions[0];
+		let action = interaction.action,
+		    transition = action.transition;
+		if (action.type === "goBack") {
+			// PageLink treats an empty builder as "go back".
+			return `PageLink(links: [PageLinkInfo(), ], child: ${nodeStr}, )`;
+		}
+		// goToArtboard.
+		let artboard = ctx.getArtboardFromXdNode(action.destination);
+		if (!artboard) {
+			ctx.log.error(`Couldn't add prototype link to '${action.destination.name}'. This is likely due to a duplicate Artboard name.`);
+			return nodeStr;
+		}
+		return 'PageLink(' + 'links: [PageLinkInfo(' + _getTransitionParam(transition, xdNode, ctx) + _getEaseParam(transition, xdNode, ctx) + _getDurationParam(transition, xdNode, ctx) + `pageBuilder: () => ${artboard.serialize(ctx)}, ` + '), ], ' + `child: ${nodeStr}, ` + ')';
+	}
+}
+exports.PrototypeInteraction = PrototypeInteraction;
+
+function _getTransitionParam(transition, xdNode, ctx) {
+	let type = TRANSITION_TYPE_MAP[transition.type] || "";
+	let dir = TRANSITION_SIDE_MAP[transition.fromSide] || "";
+	if (!type) {
+		ctx.log.warn(`Transition type not supported: '${transition.type}'.`, xdNode);
+	}
+	return !type ? '' : `transition: LinkTransition.${type}${dir}, `;
+}
+
+function _getEaseParam(transition, xdNode, ctx) {
+	let ease = TRANSITION_EASE_MAP[transition.easing] || "";
+	if (!ease) {
+		ctx.log.warn(`Ease not supported: '${transition.easing}'.`, xdNode);
+	}
+	return !ease ? '' : `ease: Curves.${ease}, `;
+}
+
+function _getDurationParam(transition, xdNode, ctx) {
+	return `duration: ${$.fix(transition.duration, 4)}, `;
+}
+
+const TRANSITION_TYPE_MAP = {
+	"slide": "Slide",
+	"push": "Push",
+	"dissolve": "Fade"
+};
+
+const TRANSITION_SIDE_MAP = {
+	"L": "Left",
+	"R": "Right",
+	"T": "Down",
+	"B": "Up"
+};
+
+const TRANSITION_EASE_MAP = {
+	"linear": "linear",
+	"ease-in": "easeIn",
+	"ease-out": "easeOut",
+	"ease-in-out": "easeInOut",
+	"wind-up": "slowMiddle",
+	"bounce": "bounceIn",
+	"snap": "easeInOutExpo"
+};
+
+/***/ }),
+
+/***/ "./src/core/image_export.js":
+/*!**********************************!*\
+  !*** ./src/core/image_export.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const app = __webpack_require__(/*! application */ "application");
+
+const $ = __webpack_require__(/*! ../utils/utils */ "./src/utils/utils.js");
+const NodeUtils = __webpack_require__(/*! ../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { Context, ContextTarget } = __webpack_require__(/*! ./context */ "./src/core/context.js");
+const { project } = __webpack_require__(/*! ./project */ "./src/core/project.js");
+const PropType = __webpack_require__(/*! ./proptype */ "./src/core/proptype.js");
+const { alert } = __webpack_require__(/*! ../ui/alert */ "./src/ui/alert.jsx");
+const { trace } = __webpack_require__(/*! ../utils/debug */ "./src/utils/debug.js");
+const { checkXDVersion } = __webpack_require__(/*! ../version */ "./src/version.js");
+
+async function exportImage(selection, root) {
+	if (!checkXDVersion()) {
+		return;
+	}
+	let xdNode = $.getSelectedItem(selection),
+	    name = NodeUtils.getImageName(xdNode);
+	if (!name) {
+		alert("You must set an image name before exporting.");return;
+	}
+
+	if (!(await project.checkRoot())) {
+		return null;
+	}
+	let imageF = project.images;
+
+	// Do a full scan so we have maxW/maxH values:
+	let data = _scanForImages(root, {})[name];
+	let ctx = new Context(ContextTarget.FILES);
+	let fileName = await _exportImageData(data, name, imageF, ctx);
+	ctx.resultMessage = fileName ? `Exported '${fileName}' successfully` : "Image export failed";
+
+	ctx.log.dump(ctx.resultMessage);
+	return ctx;
+}
+exports.exportImage = exportImage;
+
+async function exportAllImages(selection, root) {
+	if (!checkXDVersion()) {
+		return;
+	}
+	if (!(await project.checkRoot())) {
+		return null;
+	}
+	let imageF = project.images;
+
+	let ctx = new Context(ContextTarget.FILES);
+	let imageNames = _scanForImages(root, {}),
+	    count = 0,
+	    total = 0;
+	for (let n in imageNames) {
+		let data = imageNames[n];
+		if (!data.includeInExportAll) {
+			continue;
+		}
+		total++;
+		let fileName = await _exportImageData(data, n, imageF, ctx);
+		if (fileName) {
+			count++;
+		}
+	}
+	_pruneImageMap(imageNames);
+
+	ctx.resultMessage = $.getExportAllMessage(count, total, "named image");
+
+	ctx.log.dump(ctx.resultMessage);
+	return ctx;
+}
+exports.exportAllImages = exportAllImages;
+
+function getImagePath(xdNode) {
+	let name = _getImageFileName(xdNode);
+	return name ? `${project.images.path}/${name}` : null;
+}
+exports.getImagePath = getImagePath;
+
+function _pruneImageMap(activeNames) {
+	// TODO: GS: might be worth pruning the image map stored on the root.
+	// Leaving it intact means we would remember the image name even if they removed an image / exported / added it back.
+}
+
+function _scanForImages(xdNode, map) {
+	// TODO: GS: should we warn about every unnamed image?
+	xdNode.children.forEach((child, i) => {
+		if (!child.visible) {
+			return;
+		}
+		if (child.fill instanceof xd.ImageFill) {
+			let name = NodeUtils.getImageName(child);
+			if (name) {
+				map[name] = (map[name] || new _ImageData()).add(child);
+			}
+		} else if (child.children) {
+			_scanForImages(child, map);
+		}
+	});
+	return map;
+}
+
+async function _exportImageData(data, name, imageF, ctx) {
+	let xdNode = data.xdNode,
+	    fill = xdNode.fill;
+	let imgW = fill.naturalWidth,
+	    imgH = fill.naturalHeight;
+
+	if (!NodeUtils.getProp(xd.root, PropType.RESOLUTION_AWARE)) {
+		return await _exportImageFile(data.xdNode, name, imgW, imgH, imageF, ctx);
+	}
+
+	// Resolution aware export:
+	let maxW = data.maxW,
+	    maxH = data.maxH;
+	let aspect = imgW / imgH,
+	    maxScale = Math.min(imgW / maxW, imgH / maxH);
+	let w = Math.max(maxW, maxH * aspect) + 0.5 | 0,
+	    h = w / aspect + 0.5 | 0;
+
+	let fileName = await _exportImageFile(xdNode, name, w, h, imageF, ctx);
+	if (!fileName) {
+		return null;
+	}
+
+	if (maxScale >= 3 && (imageF = project.imagesX3)) {
+		await _exportImageFile(xdNode, name, w * 3, h * 3, imageF, ctx);
+	}
+	if (maxScale >= 2 && (imageF = project.imagesX2)) {
+		await _exportImageFile(xdNode, name, w * 2, h * 2, imageF, ctx);
+	}
+	return fileName;
+}
+
+async function _exportImageFile(xdNode, name, w, h, imageF, ctx) {
+	if (!imageF) {
+		return;
+	}
+
+	// Gets the selected node's image fill, creates a new xd.Rectangle node using the fill
+	// at the natural size of the image, and then renders it to an image file.
+
+	// There are two ways we could approach this.
+	// One is to have this method return a rendition entry, and return it, then run them all at once.
+	// The other is running them one at a time. This approach would let us show a progress bar,
+	// and deal with errors individually, but may be slower?
+	if (!(xdNode.fill instanceof xd.ImageFill)) {
+		ctx.log.error('Tried to export an image from a node that does not have an image fill.', xNode);
+		return;
+	}
+
+	let rect = new xd.Rectangle();
+	rect.fill = xdNode.fill;
+	rect.width = w;
+	rect.height = h;
+
+	let fileName = _getImageFileName(xdNode);
+
+	let file = await imageF.getFile(fileName, ctx);
+
+	if (!file) {
+		ctx.log.error(`Could not create image file ('${fileName}').`, null);
+		return null;
+	}
+
+	ctx.log.note(`Write image '${$.getRelPath(file, ctx)}'`);
+
+	let type = _getRenditionType(xdNode);
+	let opts = {
+		node: rect,
+		outputFile: file,
+		type,
+		scale: 1.0
+	};
+	if (type === app.RenditionType.JPG) {
+		opts.quality = 80;
+	}
+
+	await app.createRenditions([opts]).then(results => {
+		//ctx.log.note(`Image output to: ${results[0].outputFile.nativePath}`);
+	}).catch(error => {
+		ctx.log.error(`Unable to export image ('${name}'): ${error}`, null);
+		fileName = null;
+	});
+	return fileName;
+}
+
+function _getRenditionType(xdNode) {
+	let fill = xdNode.fill;
+	if (!fill || !(fill instanceof xd.ImageFill)) {
+		return null;
+	}
+	return fill.mimeType === 'image/jpeg' ? app.RenditionType.JPG : app.RenditionType.PNG;
+}
+
+function _getImageExtension(xdNode) {
+	let type = _getRenditionType(xdNode);
+	return !type ? null : type === app.RenditionType.JPG ? "jpg" : "png";
+}
+
+function _getImageFileName(xdNode) {
+	let ext = _getImageExtension(xdNode),
+	    name = NodeUtils.getImageName(xdNode);
+	return ext && name ? `${name}.${ext}` : null;
+}
+
+class _ImageData {
+	constructor(xdNode) {
+		this.xdNode = null;
+		this.count = this.maxW = this.maxH = 0;
+		this.includeInExportAll = true;
+		this.add(xdNode);
+	}
+
+	add(xdNode) {
+		if (!xdNode) {
+			return this;
+		}
+		this.count++;
+		this.xdNode = xdNode;
+		let bounds = xdNode.globalBounds;
+		this.maxW = Math.max(this.maxW, bounds.width);
+		this.maxH = Math.max(this.maxH, bounds.height);
+		//if (NodeUtils.getProp(xdNode, PropType.INCLUDE_IN_EXPORT_ALL_IMAGES)) { this.includeInExportAll = true; }
+		return this;
+	}
+}
+
+/***/ }),
+
+/***/ "./src/core/log.js":
+/*!*************************!*\
+  !*** ./src/core/log.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const $ = __webpack_require__(/*! ../utils/utils */ "./src/utils/utils.js");
+const { trace } = __webpack_require__(/*! ../utils/debug */ "./src/utils/debug.js");
+const version = __webpack_require__(/*! ../version */ "./src/version.js");
+
+class Log {
+	constructor(message) {
+		this.entries = {};
+		this.log = [];
+		this.startTime = Date.now();
+		message && this.add(message);
+	}
+
+	add(message, severity = LogSeverity.NOTE, xdNode = null) {
+		if (xdNode) {
+			message = `[${$.shorten(xdNode.name, 20)}] ${message}`;
+		}
+		let entry = new Entry(message, severity);
+		this.log.push(entry);
+		let o = this.entries[entry.hash] = this.entries[entry.hash] || entry;
+		o.count += 1;
+		return o;
+	}
+
+	getResults() {
+		let entries = this.entries,
+		    results = { warnings: [], errors: [] };
+		for (let n in entries) {
+			let o = entries[n],
+			    severity = o.severity;
+			if (severity === LogSeverity.WARNING) {
+				results.warnings.push(o);
+			} else if (severity === LogSeverity.ERROR) {
+				results.errors.push(o);
+			}
+		}
+		return results;
+	}
+
+	dump(message) {
+		// if in debug mode, this ends the log and traces the result.
+		if (!version.debug) {
+			return;
+		}
+		this.add("Complete" + (message ? ": " + message : ""));
+		let str = "",
+		    log = this.log,
+		    t = this.startTime;
+		for (let i = 0; i < log.length; i++) {
+			let o = log[i];
+			str += (o.time - t + "ms").padStart(7, " ") + " ";
+			str += "".padStart(o.severity, "*").padEnd(4, " ");
+			str += o.message + "\n";
+		}
+		trace(str);
+	}
+
+	// These methods should always have a void return, so they can be included in an empty return.
+	note(message, xdNode) {
+		this.add(message, LogSeverity.NOTE, xdNode);
+	}
+
+	warn(message, xdNode) {
+		this.add(message, LogSeverity.WARNING, xdNode);
+	}
+
+	error(message, xdNode) {
+		this.add(message, LogSeverity.ERROR, xdNode);
+	}
+
+	fatal(message, xdNode) {
+		this.add(message, LogSeverity.FATAL, xdNode);
+	}
+}
+exports.Log = Log;
+
+class Entry {
+	constructor(message, severity = LogSeverity.NOTE) {
+		this.message = message;
+		this.severity = severity;
+		this.count = 0;
+		this.hash = $.getHash(`${this.message}${this.severity}`);
+		this.time = Date.now();
+	}
+
+	toString() {
+		return this.message + (this.count > 1 ? ` (x${this.count})` : '');
+	}
+}
+
+const LogSeverity = Object.freeze({
+	NOTE: 0, // Not surfaced to user, dev log.
+	WARNING: 1, // Surfaced as warning.
+	ERROR: 2, // Surfaced as error.
+	FATAL: 3, // Unlikely to be used. Plugin is in an unrecoverable state.
+	BLACKWATCH_PLAID: 11 // Pee pee pants
+});
+
+/***/ }),
+
+/***/ "./src/core/nodes/abstractnode.js":
+/*!****************************************!*\
+  !*** ./src/core/nodes/abstractnode.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const { getAdjustedBounds } = __webpack_require__(/*! ../../utils/layoututils */ "./src/utils/layoututils.js");
+
+const { Parameter } = __webpack_require__(/*! ../parameter */ "./src/core/parameter.js");
+const { Layout } = __webpack_require__(/*! ../decorators/layout */ "./src/core/decorators/layout.js");
+
+// Abstract class representing the minimum interface required for an export node.
+class AbstractNode {
+	// Nodes should also have a static `create(xdNode, ctx)` method
+	// that returns an instance if appropriate for the xdNode.
+
+	constructor(xdNode, ctx) {
+		this.xdNode = xdNode;
+		this.parameters = null;
+		this.children = null;
+		this.decorators = null;
+		this.hasDecorators = false; // indicates this node has non-cosmetic decorators.
+		this._cache = null;
+		this.layout = this._getLayout(ctx);
+	}
+
+	get hasChildren() {
+		return !!(this.children && this.children.length);
+	}
+
+	get xdId() {
+		return this.xdNode ? this.xdNode.guid : null;
+	}
+
+	get xdName() {
+		return this.xdNode ? this.xdNode.name : null;
+	}
+
+	get adjustedBounds() {
+		return getAdjustedBounds(this.xdNode);
+	}
+
+	addDecorator(decorator) {
+		this.decorators = this.decorators || [];
+		this.decorators.push(decorator);
+		if (!decorator.cosmetic) {
+			this.hasDecorators = true;
+		}
+	}
+
+	addParam(key, name, type, value) {
+		if (!name || !key) {
+			return null;
+		}
+		let param = new Parameter(name, type, value);
+		if (!this.parameters) {
+			this.parameters = {};
+		}
+		return this.parameters[key] = param;
+	}
+
+	getParam(key) {
+		return this.parameters && this.parameters[key];
+	}
+
+	getParamName(key) {
+		let param = this.getParam(key);
+		return param && param.name || null;
+	}
+
+	get transform() {
+		// currently supports rotation & flipY.
+		return { rotation: this.xdNode.rotation, flipY: false };
+	}
+
+	toString(ctx) {
+		return `[${this.constructor.name}]`;
+	}
+
+	serialize(ctx) {
+		if (this._cache === null) {
+			let nodeStr = this._serialize(ctx);
+			this._cache = this._decorate(nodeStr, ctx);
+		}
+		return this._cache;
+	}
+
+	_serialize(ctx) {
+		return "";
+	}
+
+	_decorate(nodeStr, ctx) {
+		if (!nodeStr) {
+			return nodeStr;
+		}
+		let decorators = this.decorators,
+		    l = nodeStr && decorators ? decorators.length : 0;
+		for (let i = 0; i < l; i++) {
+			nodeStr = decorators[i].serialize(nodeStr, ctx);
+		}
+		nodeStr = this.layout.serialize(nodeStr, ctx);
+		return nodeStr;
+	}
+
+	_getChildList(children, ctx) {
+		let str = "";
+		if (!children || children.length == 0) {
+			return str;
+		}
+		children.forEach(node => {
+			let childStr = node && node.serialize(ctx);
+			if (childStr) {
+				str += childStr + ", ";
+			}
+		});
+		return str;
+	}
+
+	_getChildStack(children, ctx) {
+		return `Stack(children: <Widget>[${this._getChildList(children, ctx)}], )`;
+	}
+
+	// can be overridden by subclasses to set layout properties:
+	_getLayout(ctx) {
+		return new Layout(this).calculate(ctx);
+	}
+}
+exports.AbstractNode = AbstractNode;
+
+/***/ }),
+
+/***/ "./src/core/nodes/abstractwidget.js":
+/*!******************************************!*\
+  !*** ./src/core/nodes/abstractwidget.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+
+const { AbstractNode } = __webpack_require__(/*! ./abstractnode */ "./src/core/nodes/abstractnode.js");
+const { ContextTarget } = __webpack_require__(/*! ../context */ "./src/core/context.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+const { REQUIRED_PARAM } = __webpack_require__(/*! ../constants */ "./src/core/constants.js");
+
+// Base class for nodes that create new Widgets (ex. components or artboards)
+// TODO: should this extend Group?
+class AbstractWidget extends AbstractNode {
+
+	constructor(xdNode, ctx) {
+		super(xdNode, ctx);
+		this.children = [];
+		this._childParameters = {};
+		this._buildMethods = {};
+		this._memberNames = {};
+		this._shapeData = {};
+		this._imports = {};
+	}
+
+	get symbolId() {
+		return this.xdNode.symbolId;
+	}
+
+	get widgetName() {
+		return NodeUtils.getWidgetName(this.xdNode);
+	}
+
+	serialize(ctx) {
+		// serialize a widget instance. Bypass cache & _decorate.
+		return this._serialize(ctx);
+	}
+
+	serializeWidget(ctx) {
+		// serialize the widget class
+		ctx.pushWidget(this);
+		let params = this._childParameters,
+		    propStr = "",
+		    paramStr = "";
+		let nullsafe = !!NodeUtils.getProp(xd.root, PropType.NULL_SAFE);
+		for (let n in params) {
+			let param = params[n],
+			    value = param.value,
+			    required = false;
+			if (param.value === REQUIRED_PARAM) {
+				required = true;
+				value = null;
+			}
+			if (required) {
+				paramStr += `${nullsafe ? "" : "@"}required `;
+			}
+			paramStr += `this.${param.name}${value ? ` = ${value}` : ""}, `;
+			propStr += `final ${param.type}${nullsafe && !required && !value ? "?" : ""} ${param.name};\n`;
+		}
+
+		let bodyStr = this._serializeWidgetBody(ctx);
+		let importStr = this._getImportListString(ctx);
+		let shapeDataStr = this._getShapeDataProps(ctx);
+		let buildMethodsStr = this._getBuildMethods(ctx);
+		let str = importStr + "\n" + `class ${this.widgetName} extends StatelessWidget {\n` + propStr + `${this.widgetName}({ Key${nullsafe ? "?" : ""} key, ${paramStr}}) : super(key: key);\n` + `@override\nWidget build(BuildContext context) { return ${bodyStr}; }` + buildMethodsStr + "}\n" + shapeDataStr;
+
+		ctx.popWidget();
+		return str;
+	}
+
+	addBuildMethod(name, str, ctx) {
+		this._checkMemberName(name, "build method", ctx);
+		this._buildMethods[name] = str;
+	}
+
+	addShapeData(shape) {
+		// TODO: GS: Switching this to use a unique shape ID (NOT svgId) could simplify a few things
+		this._shapeData[shape.xdNode.guid] = shape;
+	}
+
+	removeShapeData(shape) {
+		delete this._shapeData[shape.xdNode.guid];
+	}
+
+	addImport(name, isWidget, scope) {
+		this._imports[name] = { name, isWidget, scope };
+	}
+
+	addChildParam(param, ctx) {
+		if (!param || !param.name) {
+			return;
+		}
+		this._checkMemberName(param.name, `parameter of type ${param.type}`, ctx);
+		this._childParameters[param.name] = param;
+	}
+
+	_checkMemberName(name, type, ctx) {
+		if (!this.xdNode.isMaster) {
+			return;
+		}
+		let t = this._memberNames[name];
+		if (t && t === type) {
+			ctx.log.warn(`A ${type} name was defined twice on '${this.widgetName}': '${name}'`);
+		} else if (t && t !== type) {
+			ctx.log.error(`A ${type} was defined with the same name as a ${t} on '${this.widgetName}': '${name}'`);
+			//ctx.log.warn(`Duplicate member name (param) on '${this.widgetName}': ${name}.`);
+		}
+		this._memberNames[name] = type;
+	}
+
+	_serializeWidgetBody(ctx) {
+		throw "_serializeWidgetBody must be implemented.";
+	}
+
+	_getBuildMethods(ctx) {
+		let str = "",
+		    o = this._buildMethods;
+		for (let n in o) {
+			str += `\n\nWidget ${n}(context) {\nreturn ${o[n]};\n}`;
+		}
+		return str;
+	}
+
+	_getShapeDataProps(ctx) {
+		let str = "",
+		    names = {};
+		for (let [k, node] of Object.entries(this._shapeData)) {
+			const name = NodeUtils.getShapeDataName(node, ctx);
+			if (names[name]) {
+				continue;
+			}
+			names[name] = true;
+			str += `const String ${name} = '${node.toSvgString(ctx)}';\n`;
+		}
+		return str;
+	}
+
+	_getImportListString(ctx) {
+		let str = "import 'package:flutter/material.dart';\n";
+		let imports = this._imports;
+		for (let n in imports) {
+			let o = imports[n];
+			if (ctx.target === ContextTarget.FILES || !o.isWidgetImport) {
+				str += `import '${o.name}'${o.scope ? `as ${o.scope}` : ''};\n`;
+			}
+		}
+		return str;
+	}
+
+	_getParamList(ctx) {
+		let str = "",
+		    params = this._childParameters;
+		for (let n in params) {
+			let param = params[n],
+			    value = param.value;
+			str += value ? `${param.name}: ${value}, ` : "";
+		}
+		return str;
+	}
+}
+exports.AbstractWidget = AbstractWidget;
+
+/***/ }),
+
+/***/ "./src/core/nodes/artboard.js":
+/*!************************************!*\
+  !*** ./src/core/nodes/artboard.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const { AbstractWidget } = __webpack_require__(/*! ./abstractwidget */ "./src/core/nodes/abstractwidget.js");
+const { getColor } = __webpack_require__(/*! ../../utils/exportutils */ "./src/utils/exportutils.js");
+
+class Artboard extends AbstractWidget {
+	static create(xdNode, ctx) {
+		throw "Artboard.create() called.";
+	}
+
+	get symbolId() {
+		return this.xdNode.guid;
+	}
+
+	_serialize(ctx) {
+		return `${this.widgetName}(${this._getParamList(ctx)})`;
+	}
+
+	get adjustedBounds() {
+		// we don't want the artboard's position in the document.
+		let xdNode = this.xdNode;
+		return { x: 0, y: 0, width: xdNode.width, height: xdNode.height };
+	}
+
+	_serializeWidgetBody(ctx) {
+		return `Scaffold(${this._getBackgroundColorParam(ctx)}body: ${this._getChildStack(this.children, ctx)}, )`;
+	}
+
+	_getBackgroundColorParam(ctx) {
+		let xdNode = this.xdNode,
+		    fill = xdNode.fillEnabled && xdNode.fill,
+		    color;
+		if (fill instanceof xd.Color) {
+			color = fill;
+		} else if (fill) {
+			ctx.log.warn("Only solid color backgrounds are supported for artboards.", xdNode);
+			let stops = fill.colorStops;
+			if (stops && stops.length > 0) {
+				color = stops[0].color;
+			}
+		}
+		return color ? `backgroundColor: ${getColor(color)}, ` : "";
+	}
+}
+
+exports.Artboard = Artboard;
+
+/***/ }),
+
+/***/ "./src/core/nodes/component.js":
+/*!*************************************!*\
+  !*** ./src/core/nodes/component.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { DartType } = __webpack_require__(/*! ../../utils/exportutils */ "./src/utils/exportutils.js");
+
+const { AbstractWidget } = __webpack_require__(/*! ./abstractwidget */ "./src/core/nodes/abstractwidget.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+const { ContextTarget } = __webpack_require__(/*! ../context */ "./src/core/context.js");
+const { OnTap } = __webpack_require__(/*! ../decorators/ontap */ "./src/core/decorators/ontap.js");
+const { Parameter } = __webpack_require__(/*! ../parameter */ "./src/core/parameter.js");
+
+class Component extends AbstractWidget {
+	static create(xdNode, ctx) {
+		throw "Component.create() called.";
+	}
+
+	constructor(xdNode, ctx) {
+		super(xdNode, ctx);
+
+		let tapCB = NodeUtils.getProp(this.xdNode, PropType.TAP_CALLBACK_NAME);
+		if (tapCB) {
+			this.addChildParam(new Parameter(tapCB, DartType.TAP_CB), ctx);
+		}
+	}
+
+	get isMaster() {
+		return this.xdNode.isMaster;
+	}
+
+	_serialize(ctx) {
+		let master = ctx.masterComponents[this.symbolId];
+		if (!master) {
+			ctx.log.error('Master component could not be found.', this.xdNode);
+			return "Container()";
+		}
+		if (ctx.target === ContextTarget.CLIPBOARD) {
+			ctx.log.warn(`Component widget ${master.widgetName} not exported during copy to clipboard operation.`, null);
+		}
+		let str = `${master.widgetName}(${this._getParamList(ctx)})`;
+		return this._decorate(str, ctx);
+	}
+
+	_serializeWidgetBody(ctx) {
+		let str = this._getChildStack(this.children, ctx);
+		// for Component, onTap is not handled by the decorator, because it isn't instance based:
+		return OnTap.get(str, NodeUtils.getProp(this.xdNode, PropType.TAP_CALLBACK_NAME));
+	}
+}
+
+exports.Component = Component;
+
+/***/ }),
+
+/***/ "./src/core/nodes/container.js":
+/*!*************************************!*\
+  !*** ./src/core/nodes/container.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const ExportUtils = __webpack_require__(/*! ../../utils/exportutils */ "./src/utils/exportutils.js");
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+
+const { AbstractNode } = __webpack_require__(/*! ./abstractnode */ "./src/core/nodes/abstractnode.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+
+// Represents an Ellipse or Rectangle that can be exported as a decorated Container
+class Container extends AbstractNode {
+	static create(xdNode, ctx) {
+		if (xdNode instanceof xd.Rectangle || xdNode instanceof xd.Ellipse) {
+			if (xdNode.fillEnabled && (xdNode.fill instanceof xd.RadialGradient || xdNode.fill instanceof xd.AngularGradient)) {
+				ctx.addImport("package:adobe_xd/gradient_xd_transform.dart");
+			}
+			return new Container(xdNode, ctx);
+		}
+	}
+
+	constructor(xdNode, ctx) {
+		super(xdNode, ctx);
+		if (xdNode.fill instanceof xd.ImageFill) {
+			let value = ExportUtils.getAssetImage(xdNode, ctx);
+			ctx.addParam(this.addParam("fill", NodeUtils.getProp(xdNode, PropType.IMAGE_PARAM_NAME), ExportUtils.DartType.IMAGE, value));
+		}
+	}
+
+	get isRect() {
+		return this.xdNode instanceof xd.Rectangle;
+	}
+
+	_serialize(ctx) {
+		return "Container(" + this._getSizeParams(ctx) + this._getColorOrDecorationParam(ctx) + this._getMarginParam(ctx) + ")";
+	}
+
+	_getSizeParams(ctx) {
+		let layout = this.layout;
+		if (!layout.enabled || !layout.shouldFixSize) {
+			return "";
+		}
+		layout.shouldFixSize = false; // indicate that it's been handled
+		let o = this.xdNode,
+		    isRect = this.isRect;
+		let w = $.fix(isRect ? o.width : o.radiusX * 2, 0);
+		let h = $.fix(isRect ? o.height : o.radiusY * 2, 0);
+		return `width: ${w}, height: ${h}, `;
+	}
+
+	_getMarginParam(ctx) {
+		let layout = this.layout;
+		let margin = layout.enabled && layout.padding;
+		if (!margin) {
+			return "";
+		}
+		layout.padding = null; // indicate that it's been handled
+		return `margin: ${margin}, `;
+	}
+
+	/** BOXDECORATION */
+	_getColorOrDecorationParam(ctx) {
+		let xdNode = this.xdNode;
+		if (this.isRect && !xdNode.stroke && !xdNode.hasRoundedCorners && !xdNode.shadow && xdNode.fill instanceof xd.Color) {
+			return this._getFillParam(ctx);
+		} else {
+			return this._getDecorationParam(ctx);
+		}
+	}
+
+	_getDecorationParam(ctx) {
+		let str = $.getParamList([this._getBorderRadiusParam(ctx), this._getBorderParam(ctx), this._getBoxShadowParam(ctx)]);
+		let fill = this._getFillParam(ctx);
+		if (!str && fill.startsWith("color: ")) {
+			return fill;
+		}
+		return `decoration: BoxDecoration(${fill + str}), `;
+	}
+
+	/** FILL & STROKE */
+	_getFillParam(ctx) {
+		let xdNode = this.xdNode,
+		    fill = xdNode.fillEnabled && xdNode.fill;
+		if (!fill) {
+			return "";
+		}
+		let blur = xdNode.blur;
+		let blurFillOpacity = blur && blur.visible && blur.isBackgroundEffect ? blur.fillOpacity : 1.0;
+		let opacity = NodeUtils.getOpacity(xdNode) * blurFillOpacity;
+		if (fill instanceof xd.Color) {
+			return `color: ${ExportUtils.getColor(xdNode.fill, opacity)}, `;
+		}
+		if (fill instanceof xd.ImageFill) {
+			let image = this.getParamName("fill") || ExportUtils.getAssetImage(xdNode, ctx);
+			return "image: DecorationImage(" + `  image: ${image},` + `  fit: ${this._getBoxFit(fill.scaleBehavior)},` + this._getOpacityColorFilterParam(opacity) + "), ";
+		}
+		let gradient = ExportUtils.getGradientParam(fill, opacity);
+		if (gradient) {
+			return gradient;
+		}
+		ctx.log.warn(`Unrecognized fill type ('${fill.constructor.name}').`, xdNode);
+	}
+
+	_getBoxFit(scaleBehavior, ctx) {
+		// Flutter default is BoxFit.scaleDown, so this is always needed.
+		return `BoxFit.${scaleBehavior === xd.ImageFill.SCALE_COVER ? 'cover' : 'fill'}`;
+	}
+
+	_getOpacityColorFilterParam(opacity) {
+		if (opacity >= 1) {
+			return '';
+		}
+		return `colorFilter: new ColorFilter.mode(Colors.black.withOpacity(${$.fix(opacity, 2)}), BlendMode.dstIn), `;
+	}
+
+	_getBorderParam(ctx) {
+		let xdNode = this.xdNode;
+		if (!xdNode.strokeEnabled) {
+			return "";
+		}
+		if (xdNode.strokePosition !== xd.GraphicNode.INNER_STROKE) {
+			ctx.log.warn('Only inner strokes are supported on rectangles & ellipses.', xdNode);
+		}
+		if (xdNode.strokeJoins !== xd.GraphicNode.STROKE_JOIN_MITER) {
+			ctx.log.warn('Only miter stroke joins are supported on rectangles & ellipses.', xdNode);
+		}
+		let dashes = xdNode.strokeDashArray;
+		if (dashes && dashes.length && dashes.reduce((a, b) => a + b)) {
+			ctx.log.warn('Dashed lines are not supported on rectangles & ellipses.', xdNode);
+		}
+		let color = xdNode.stroke && ExportUtils.getColor(xdNode.stroke, NodeUtils.getOpacity(xdNode));
+		return color ? `border: Border.all(width: ${$.fix(xdNode.strokeWidth, 2)}, color: ${color}), ` : "";
+	}
+
+	/** BORDERRADIUS */
+	_getBorderRadiusParam(ctx) {
+		let xdNode = this.xdNode,
+		    radiusStr;
+		if (xdNode instanceof xd.Ellipse) {
+			radiusStr = this._getBorderRadiusForEllipse(ctx);
+		} else if (xdNode.hasRoundedCorners) {
+			radiusStr = this._getBorderRadiusForRectangle(ctx);
+		}
+		return radiusStr ? `borderRadius: ${radiusStr}, ` : "";
+	}
+
+	_getBorderRadiusForEllipse(ctx) {
+		// use a really high number so it works if it is resized.
+		// using shape: BoxShape.circle doesn't work with ovals
+		return `BorderRadius.all(Radius.elliptical(9999.0, 9999.0))`;
+	}
+
+	_getBorderRadiusForRectangle(ctx) {
+		let radii = this.xdNode.cornerRadii;
+		let tl = radii.topLeft,
+		    tr = radii.topRight,
+		    br = radii.bottomRight,
+		    bl = radii.bottomLeft;
+		if (tl === tr && tl === br && tl === bl) {
+			return `BorderRadius.circular(${$.fix(tl, 2)})`;
+		} else {
+			return 'BorderRadius.only(' + this._getRadiusParam("topLeft", tl) + this._getRadiusParam("topRight", tr) + this._getRadiusParam("bottomRight", br) + this._getRadiusParam("bottomLeft", bl) + ')';
+		}
+	}
+
+	_getRadiusParam(param, value) {
+		if (value <= 1) {
+			return '';
+		}
+		return `${param}: Radius.circular(${$.fix(value, 2)}), `;
+	}
+
+	/** SHADOWS */
+	_getBoxShadowParam(ctx) {
+		let xdNode = this.xdNode,
+		    s = xdNode.shadow;
+		if (!s || !s.visible) {
+			return "";
+		}
+		return "boxShadow: [BoxShadow(" + `color: ${ExportUtils.getColor(s.color, NodeUtils.getOpacity(xdNode))}, ` + `offset: Offset(${s.x}, ${s.y}), ` + `blurRadius: ${s.blur}, ` + "), ], ";
+	}
+
+}
+exports.Container = Container;
+
+/***/ }),
+
+/***/ "./src/core/nodes/grid.js":
+/*!********************************!*\
+  !*** ./src/core/nodes/grid.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { getString, getAssetImage, DartType, getScrollView } = __webpack_require__(/*! ../../utils/exportutils */ "./src/utils/exportutils.js");
+
+const { AbstractNode } = __webpack_require__(/*! ./abstractnode */ "./src/core/nodes/abstractnode.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+
+class Grid extends AbstractNode {
+	static create(xdNode, ctx) {
+		if (xdNode instanceof xd.RepeatGrid) {
+			return new Grid(xdNode, ctx);
+		}
+	}
+
+	constructor(xdNode, ctx) {
+		super(xdNode, ctx);
+		this.item = null;
+		// TODO: it would be nice to include the first child in the default value,
+		// but that's tricky if we need to add the param in the constructor instead of _serialize
+		ctx.addParam(this.addParam("data", NodeUtils.getProp(xdNode, PropType.DATA_PARAM_NAME), DartType.GRID_DATA, "const []"));
+	}
+
+	_serialize(ctx) {
+		let o = this.xdNode,
+		    item = this.item,
+		    layout = item.layout;
+		if (!item || o.children.length < 1) {
+			ctx.log.error("Repeat grid has no children.", o);
+			return "";
+		}
+		if (item.children.length < 1) {
+			ctx.log.warn("Repeat grid item is empty.", o);
+			return "";
+		}
+		if (o.paddingX < 0 || o.paddingY < 0) {
+			ctx.log.warn("Negative grid spacing is not supported.", o);
+		}
+
+		let itemIsResponsive = this._itemIsResponsive();
+		if (itemIsResponsive) {
+			item = this._stripVirtualGroup(item);
+			// disable any layout on the inner group:
+			layout.enabled = false;
+		} else {
+			// TODO: should we strip the virtual group if there is only a single child?
+			// disable layout except adding a sized box:
+			layout.reset();
+			layout.shouldFixSize = true;
+		}
+
+		// TODO: it would be great to add explicit types to the params at some point
+		// ex. children: <Map<String, dynamic>>
+		// ex. final String value = o['foo'];
+		let params = this._getParams(ctx);
+		let l = o.children.length,
+		    childData = new Array(l).fill(""),
+		    paramVarStr = "";
+		let ns = !!NodeUtils.getProp(xd.root, PropType.NULL_SAFE) ? "!" : "";
+
+		for (let n in params) {
+			let vals = params[n];
+			paramVarStr += `final ${n} = ${Grid.mapParamName}['${n}']${ns};\n`;
+			for (let i = 0; i < l; i++) {
+				childData[i] += `'${n}': ${vals[i]}, `;
+			}
+		}
+		let childDataStr = `[{${childData.join("}, {")}}]`;
+
+		let dataParamName = NodeUtils.getProp(o, PropType.DATA_PARAM_NAME);
+		if (dataParamName) {
+			childDataStr = dataParamName;
+		}
+
+		let itemStr = item.serialize(ctx);
+
+		let xSpacing = Math.max(0, o.paddingX),
+		    ySpacing = Math.max(0, o.paddingY);
+		let cellW = o.cellSize.width,
+		    cellH = o.cellSize.height;
+		let aspectRatio = $.fix(cellW / cellH, 2);
+
+		let cols = (o.width + xSpacing) / (o.cellSize.width + xSpacing);
+		let colCount = Math.round(cols),
+		    delta = Math.abs(cols - colCount);
+
+		if (delta > 0.15) {
+			ctx.log.warn("Partial columns are not supported in repeat grids.", o);
+		}
+
+		let str = itemIsResponsive ? `GridView.count(` + `mainAxisSpacing: ${ySpacing}, crossAxisSpacing: ${xSpacing}, ` + `crossAxisCount: ${colCount}, ` + `childAspectRatio: ${aspectRatio}, ` + `children: ${childDataStr}.map((${Grid.mapParamName}) { ${paramVarStr} return ${itemStr}; }).toList(),` + ')' : getScrollView(`Wrap(` + 'alignment: WrapAlignment.center, ' + `spacing: ${xSpacing}, runSpacing: ${ySpacing}, ` + `children: ${childDataStr}.map((${Grid.mapParamName}) { ${paramVarStr} return ${itemStr}; }).toList(),` + ')', this, ctx);
+
+		return str;
+	}
+
+	_itemIsResponsive() {
+		// check to see if the virtual group has a single child:
+		let item = this.item,
+		    kids = item && item.children;
+		if (!kids || kids.length !== 1) {
+			return false;
+		}
+		// now check if that child has children and if they are responsive
+		kids = kids[0].children;
+		return !!(kids && kids.length > 0 && kids[0].layout.isResponsive);
+	}
+
+	_stripVirtualGroup(item) {
+		let kids = item && item.children;
+		return !kids || kids.length !== 1 ? item : kids[0];
+	}
+
+	_getParams(ctx) {
+		let params = {};
+		this._diff(this.item, this.xdNode.children.map(o => o), params, ctx);
+		return params;
+	}
+
+	_diff(node, xdNodes, params, ctx) {
+		if (!node || !xdNodes || xdNodes.length < 1) {
+			return;
+		}
+		let master = xdNodes[0];
+
+		// Currently in XD, only text content and image fills can be different in grid items.
+		if (master instanceof xd.Text) {
+			let pName = NodeUtils.getProp(master, PropType.TEXT_PARAM_NAME);
+			let name = pName || this._getName(params, "text");
+			if (this._diffField(params, xdNodes, name, this._getText, !!pName, ctx)) {
+				node.addParam("text", name);
+			}
+		} else if ((master instanceof xd.Rectangle || master instanceof xd.Ellipse) && master.fill instanceof xd.ImageFill) {
+			let pName = NodeUtils.getProp(master, PropType.IMAGE_PARAM_NAME);
+			let name = pName || this._getName(params, "image");
+			if (this._diffField(params, xdNodes, name, this._getImage, !!pName, ctx)) {
+				node.addParam("fill", name);
+			}
+		}
+
+		for (let i = 0, l = node.children && node.children.length; i < l; i++) {
+			let childNode = node.children[i];
+			this._diff(childNode, xdNodes.map(o => o.children.at(i)), params, ctx);
+		};
+	}
+
+	_getName(params, name) {
+		let count = 0,
+		    n = name;
+		while (params[n]) {
+			n = name + "_" + count++;
+		}
+		return n;
+	}
+
+	_diffField(params, xdNodes, name, valueF, force, ctx) {
+		let a = valueF(xdNodes[0]),
+		    values = [],
+		    diff = !!force;
+		for (let i = 0, l = xdNodes.length; i < l; i++) {
+			let xdNode = xdNodes[i],
+			    b = valueF(xdNode, ctx);
+			if (a !== b) {
+				diff = true;
+			}
+			values[i] = b;
+		}
+		if (diff) {
+			params[name] = values;
+		}
+		return diff;
+	}
+
+	_getText(xdNode, ctx) {
+		return getString(xdNode.text);
+	}
+
+	_getImage(xdNode, ctx) {
+		return getAssetImage(xdNode, ctx);
+	}
+
+}
+
+Grid.mapParamName = 'itemData';
+exports.Grid = Grid;
+
+/***/ }),
+
+/***/ "./src/core/nodes/group.js":
+/*!*********************************!*\
+  !*** ./src/core/nodes/group.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { getScrollView, DartType } = __webpack_require__(/*! ../../utils/exportutils */ "./src/utils/exportutils.js");
+const { normalizeSpacings, normalizePadding, getGroupContentBounds, hasComplexTransform, mergeBounds, LayoutType } = __webpack_require__(/*! ../../utils/layoututils */ "./src/utils/layoututils.js");
+
+const { AbstractNode } = __webpack_require__(/*! ./abstractnode */ "./src/core/nodes/abstractnode.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+const { fix } = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const { addSizedBox } = __webpack_require__(/*! ../../utils/layoututils */ "./src/utils/layoututils.js");
+const { ExportMode, DEFAULT_CUSTOM_CODE, REQUIRED_PARAM } = __webpack_require__(/*! ../constants */ "./src/core/constants.js");
+
+class Group extends AbstractNode {
+	static create(xdNode, ctx) {
+		if (xdNode instanceof xd.Group || xdNode instanceof xd.ScrollableGroup) {
+			return new Group(xdNode, ctx);
+		}
+	}
+
+	constructor(xdNode, ctx) {
+		super(xdNode, ctx);
+		this.children = [];
+
+		let mode = this.mode;
+		if (mode === ExportMode.INLINE || mode === ExportMode.METHOD) {
+			ctx.addParam(this.addParam("onTap", NodeUtils.getProp(this.xdNode, PropType.TAP_CALLBACK_NAME), DartType.TAP_CB));
+		} else if (mode === ExportMode.BUILDER) {
+			ctx.addParam(this.addParam("builder", this.buildMethodName, DartType.BUILDER, REQUIRED_PARAM));
+		}
+	}
+
+	get mode() {
+		if (!this._mode) {
+			this._mode = NodeUtils.getProp(this.xdNode, PropType.EXPORT_MODE) || ExportMode.INLINE;
+		}
+		return this._mode;
+	}
+
+	get buildMethodName() {
+		return NodeUtils.getProp(this.xdNode, PropType.BUILD_METHOD_NAME) || NodeUtils.getDefaultBuildMethodName(this.xdNode);
+	}
+
+	get background() {
+		let padding = this.xdNode.layout.padding;
+		return padding && padding.background;
+	}
+
+	serialize(ctx) {
+		let nodeStr = this._serialize(ctx);
+		if (this.mode === ExportMode.CUSTOM || this.mode === ExportMode.BUILDER) {
+			// don't decorate or add layout
+			// TODO: what about the Comment decorator?
+			return nodeStr;
+		}
+		nodeStr = this._decorate(nodeStr, ctx);
+
+		if (this.mode === ExportMode.METHOD) {
+			// TODO: should we add the decorations inside, or outside of the method? What about layout?
+			ctx.addBuildMethod(this.buildMethodName, nodeStr);
+			return `${this.buildMethodName}(context)`;
+		}
+		return nodeStr;
+	}
+
+	_normalizeChildren() {
+		// removes the background child if appropriate.
+		return this.children.slice(!!this.background ? 1 : 0);
+	}
+
+	_serialize(ctx) {
+		// TODO: reconcile decorators with export modes.
+		if (this.mode === ExportMode.CUSTOM) {
+			return this._getCustomCode(ctx);
+		} else if (this.mode === ExportMode.BUILDER) {
+			return `${this.buildMethodName}(context)`;
+		}
+
+		if (!this.hasChildren) {
+			return "";
+		}
+
+		let xdNode = this.xdNode,
+		    layout = xdNode.layout,
+		    str;
+		if (xdNode.mask) {
+			ctx.log.warn("Group masks aren't supported.", xdNode);
+		}
+
+		// determine group type:
+		if (layout.type == "stack") {
+			str = this._serializeFlex(ctx);
+		} else {
+			str = this._getChildStack(this._normalizeChildren(), ctx);
+		}
+
+		str = this._addPadding(str, ctx);
+		str = this._addBackground(str, ctx);
+		str = this._addScrolling(str, ctx);
+		return str;
+	}
+
+	_getCustomCode(ctx) {
+		let str = NodeUtils.getProp(this.xdNode, PropType.CUSTOM_CODE) || DEFAULT_CUSTOM_CODE;
+		let match = /<(CHILDREN|THIS)({[^}]*?})?>/.exec(str);
+		if (!match) {
+			return str;
+		}
+
+		let i = match.index,
+		    l = match[0].length,
+		    tag = match[1],
+		    repStr = null,
+		    settings = {};
+		if (match[2]) {
+			try {
+				settings = JSON.parse(match[2]);
+			} catch (e) {
+				ctx.log.warn(`Unable to parse tag settings in custom code: ${e}`, this.xdNode);
+			}
+		}
+
+		if (tag === "CHILDREN") {
+			// <CHILDREN{'layout':'size|none'}>
+			if (settings.layout === "none") {
+				this.children.forEach(o => o.layout.enabled = false);
+			} else if (settings.layout === "size") {
+				this.children.forEach(o => o.layout.reset(true));
+			}
+			repStr = this._getChildList(this.children, ctx);
+		} else if (tag === "THIS") {
+			// <THIS{'decorators':false}>
+			// TODO: provide separate options for layout vs other decorators?
+			let mode = this._mode;
+			this._mode = ExportMode.INLINE;
+			repStr = settings.decorators ? this.serialize(ctx) : this._serialize(ctx);
+			this._mode = mode;
+		}
+		return repStr == null ? str : str.slice(0, i) + repStr + str.slice(i + l);
+	}
+
+	_serializeFlex(ctx) {
+		let xdNode = this.xdNode,
+		    layout = xdNode.layout;
+		let isVertical = layout.stack.orientation == "vertical";
+
+		let str = (isVertical ? "Column(" : "Row(") + "crossAxisAlignment: CrossAxisAlignment.stretch, " + `children: <Widget>[${this._getFlexChildren(ctx)}], ` + ")";
+		return str;
+	}
+
+	_getFlexChildren(ctx) {
+		let str = "",
+		    space;
+		let xdNode = this.xdNode,
+		    xdLayout = xdNode.layout;
+		let isVertical = xdLayout.stack.orientation === "vertical";
+		let spaces = normalizeSpacings(xdLayout.stack.spacings, this.children.length - 1).reverse();
+		let kids = this._normalizeChildren().reverse();
+
+		kids.forEach((node, i) => {
+			if (!node) {
+				return;
+			}
+			node.layout.shouldFixSize = false; // handled below
+
+			let childStr = node.serialize(ctx);
+			let size = isVertical ? node.xdNode.localBounds.height : node.xdNode.localBounds.width;
+			childStr = `SizedBox(${isVertical ? 'height' : 'width'}: ${fix(size)}, child: ${childStr}, )`;
+			if (!childStr) {
+				return;
+			}
+
+			if (space = spaces[i - 1]) {
+				str += `SizedBox(${isVertical ? 'height' : 'width'}: ${fix(space)}, ), `;
+			}
+
+			str += childStr + ", ";
+		});
+		return str;
+	}
+
+	_addBackground(str, ctx) {
+		let bg = this.background,
+		    bgNode = this.children[0];
+		if (!bg) {
+			return str;
+		}
+		bgNode.layout.enabled = false;
+		// this is just for the error generation:
+		hasComplexTransform(bgNode, "Rotation and flip are not supported for background elements.", ctx);
+		return 'Stack(children: [\n' + '// background:\n' + `Positioned.fill(child: ${bgNode.serialize(ctx)}, ), ` + `Positioned.fill(child: ${str}, ), ` + '], )';
+	}
+
+	_addPadding(str, ctx) {
+		let padding = this.xdNode.layout.padding;
+		let pad = normalizePadding(padding && padding.values);
+		if (!pad) {
+			return str;
+		}
+		return 'Padding(' + `padding: EdgeInsets.` + (pad.homogenous ? `all(${fix(pad.top)})` : `fromLTRB(${fix(pad.left)}, ${fix(pad.top)}, ${fix(pad.right)}, ${fix(pad.bottom)})`) + `, child: ${str}, ` + ')';
+	}
+
+	_addScrolling(str, ctx) {
+		let xdNode = this.xdNode,
+		    vp = xdNode.viewport;
+		if (!(xdNode instanceof xd.ScrollableGroup) || !vp) {
+			return str;
+		}
+		str = addSizedBox(str, mergeBounds(this.xdNode.children), ctx);
+		return getScrollView(str, this, ctx);
+	}
+
+}
+exports.Group = Group;
+
+/***/ }),
+
+/***/ "./src/core/nodes/path.js":
+/*!********************************!*\
+  !*** ./src/core/nodes/path.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const { AbstractNode } = __webpack_require__(/*! ./abstractnode */ "./src/core/nodes/abstractnode.js");
+
+class Path extends AbstractNode {
+	static create(xdNode, ctx) {
+		if (xdNode instanceof xd.Path || xdNode instanceof xd.Polygon || xdNode instanceof xd.Line || xdNode instanceof xd.BooleanGroup) {
+			return new Path(xdNode, ctx);
+		}
+	}
+
+	serialize(ctx) {
+		// Path objects are converted to Shapes in combineShapes
+		throw "Path.serialize() called.";
+	}
+}
+exports.Path = Path;
+
+/***/ }),
+
+/***/ "./src/core/nodes/shape.js":
+/*!*********************************!*\
+  !*** ./src/core/nodes/shape.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const { AbstractNode } = __webpack_require__(/*! ./abstractnode */ "./src/core/nodes/abstractnode.js");
+const { getOpacity } = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { ContextTarget } = __webpack_require__(/*! ../context */ "./src/core/context.js");
+const { getImagePath } = __webpack_require__(/*! ../image_export */ "./src/core/image_export.js");
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+
+const { Container } = __webpack_require__(/*! ./container */ "./src/core/nodes/container.js");
+const { Path } = __webpack_require__(/*! ./path */ "./src/core/nodes/path.js");
+
+class Shape extends AbstractNode {
+	static create(xdNode, ctx) {
+		throw "Shape.create() called.";
+	}
+
+	static fromPath(node, ctx) {
+		// creates a Shape from a single path. Used by Copy Selected.
+		let shape = new Shape(node.xdNode, ctx);
+		shape.add(node);
+		return shape;
+	}
+
+	// Collection of Path, Container, & Shape nodes that can be 
+	// written to a single SVG string. Created by combineShapes.
+	constructor(xdNode, ctx) {
+		super(xdNode, ctx);
+		this.nodes = [];
+		this.rejectNextAdd = false;
+		this.viewBox = null;
+		this._svgString = null;
+	}
+
+	get count() {
+		return this.nodes.length;
+	}
+
+	get adjustedBounds() {
+		if (!this.nodes) {
+			return null;
+		}
+		// Based on the composite view box, and not concerned with transformations.
+		this._calculateViewBox();
+		let xdNode = this.xdNode,
+		    pb = xdNode.parent.localBounds,
+		    vb = this.viewBox;
+		return {
+			x: vb.x - pb.x,
+			y: vb.y - pb.y,
+			width: vb.width,
+			height: vb.height
+		};
+	}
+
+	get transform() {
+		// The SVG string already accounts for the transform.
+		return { rotation: 0, flipY: false };
+	}
+
+	add(node, aggressive = false) {
+		// returns true if the node was added, false if not.
+		if (this.rejectNextAdd || !Shape.canAdd(node, aggressive)) {
+			this.rejectNextAdd = false;
+			return false;
+		}
+		if (Shape.hasInteraction(node) || node.hasDecorators || node.layout.isResponsive) {
+			if (this.nodes.length) {
+				return false;
+			}
+			this.decorators = node.decorators;
+			this.rejectNextAdd = true;
+		}
+		// Shapes are added directly to the node list, others are added as xdNodes:
+		if (!(node instanceof Shape)) {
+			node = node.xdNode;
+		}
+		this.nodes.push(node);
+		return true;
+	}
+
+	_serialize(ctx) {
+		let layout = this.layout;
+		// need to recalculate the layout because bounds may have changed due to shape collapsing:
+		layout.calculate(ctx);
+
+		let svg;
+		if (ctx.target === ContextTarget.CLIPBOARD) {
+			svg = `'${this.toSvgString(ctx)}'`;
+		} else {
+			svg = NodeUtils.getShapeDataName(this, ctx);
+		}
+		if (!layout.isFixedSize) {
+			layout.shouldExpand = true;
+		}
+		let fit = !layout.isFixedSize ? "fit: BoxFit.fill, " : "";
+		return `SvgPicture.string(${svg}, allowDrawingOutsideViewBox: true, ${fit})`;
+	}
+
+	get boundsInParent() {
+		this._calculateViewBox();
+		return this.xdNode.transform.transformRect(this.viewBox);
+	}
+
+	getSvgId(ctx) {
+		if (this._svgId) {
+			return this._svgId;
+		}
+		this._svgId = $.getHash(this.toSvgString(ctx)).toString(36);
+		return this._svgId;
+	}
+
+	toSvgString(ctx) {
+		if (this._svgString) {
+			return this._svgString;
+		}
+		this._calculateViewBox();
+
+		let vx = $.fix(this.viewBox.x);
+		let vy = $.fix(this.viewBox.y);
+		let vw = $.fix(this.viewBox.width);
+		let vh = $.fix(this.viewBox.height);
+
+		let svg = _serializeSvgGroup(this, ctx, true);
+		this._svgString = `<svg viewBox="${vx} ${vy} ${vw} ${vh}" >${svg}</svg>`;
+		return this._svgString;
+	}
+
+	_calculateViewBox() {
+		if (this.viewBox) {
+			return;
+		}
+		let o = this.viewBox = _calculateAggregateViewBox(this.nodes);
+		// ensure a minimum width/height for shapes comprising of just a line:
+		o.width = Math.max(1, o.width);
+		o.height = Math.max(1, o.height);
+	}
+
+}
+Shape.canAdd = function (node, aggressive = false) {
+	let xdNode = node && node.xdNode;
+	return node instanceof Path || node instanceof Shape || aggressive && node instanceof Container && !(xdNode.fillEnabled && xdNode.fill instanceof xd.ImageFill) && !(xdNode.shadow && xdNode.shadow.visible) && !node.hasDecorators;
+};
+Shape.hasInteraction = function (node) {
+	let hasLink = NodeUtils.getInteractionCount(node.xdNode) > 0;
+	let hasTap = NodeUtils.getProp(node.xdNode, PropType.TAP_CALLBACK_NAME);
+	return !!(hasLink || hasTap);
+};
+
+exports.Shape = Shape;
+
+function _serializeSvgGroup(node, ctx, ignoreTransform = false) {
+	let result = "";
+	for (let i = 0; i < node.nodes.length; ++i) {
+		let o = node.nodes[i];
+		if (o instanceof Shape) {
+			result += _serializeSvgGroup(o, ctx);
+		} else {
+			result += _serializeSvgNode(o, ctx);
+		}
+	}
+	if (!ignoreTransform) {
+		let xform = _getSvgTransform(node.xdNode.transform);
+		result = `<g transform="${xform}">${result}</g>`;
+	}
+	return result;
+}
+
+function _serializeSvgNode(xdNode, ctx) {
+	// TODO: CE: Pull some of this code out into utility functions
+	let o = xdNode,
+	    pathStr = o.pathData;
+	let opacity = getOpacity(o),
+	    fill = "none",
+	    fillOpacity = opacity;
+	let hasImageFill = false,
+	    hasGradientFill = false;
+	if (o.fill && o.fillEnabled) {
+		hasImageFill = o.fill instanceof xd.ImageFill;
+		hasGradientFill = o.fill instanceof xd.LinearGradient || o.fill instanceof xd.RadialGradient;
+		//	|| (o.fill instanceof xd.AngularGradient); // not supported in SVG yet
+		if (hasGradientFill) {
+			fill = "url(#gradient)";
+		} else if (o.fill instanceof xd.Color) {
+			fill = "#" + $.getRGBHex(o.fill);
+			fillOpacity = o.fill.a / 255.0 * opacity;
+		} else if (o.fill instanceof xd.AngularGradient) {
+			ctx.log.warn('Angular gradient fills are not supported on shapes.', o);
+		} else if (hasImageFill) {
+			// TODO: Flutter SVG doesn't support image fills yet.
+			hasImageFill = false;
+			//fill = "url(#image)";
+			ctx.log.warn('Image fills are not supported on shapes.', o);
+		} else {
+			ctx.log.warn(`Unrecognized fill type: ${o.fill.constructor.name}.`, o);
+		}
+	}
+
+	if (o.strokeEnabled && o.strokePosition !== xd.GraphicNode.CENTER_STROKE) {
+		ctx.log.warn('Only center strokes are supported on shapes.', o);
+	}
+
+	let imagePath = hasImageFill ? getImagePath(o) : "";
+	let imageWidth = $.fix(hasImageFill ? o.fill.naturalWidth : 0);
+	let imageHeight = $.fix(hasImageFill ? o.fill.naturalHeight : 0);
+	let stroke = o.stroke && o.strokeEnabled ? "#" + $.getRGBHex(o.stroke) : "none";
+	let strokeOpacity = o.stroke && o.strokeEnabled ? o.stroke.a / 255.0 * opacity : opacity;
+	let strokeWidth = o.strokeWidth;
+	let strokeDash = o.strokeDashArray.length > 0 ? o.strokeDashArray[0] : 0;
+	let strokeGap = o.strokeDashArray.length > 1 ? o.strokeDashArray[1] : strokeDash;
+	let strokeOffset = o.strokeDashArray.length > 0 ? o.strokeDashOffset : 0;
+	let strokeMiterLimit = o.strokeJoins === xd.GraphicNode.STROKE_JOIN_MITER ? o.strokeMiterLimit : 0;
+	let strokeCap = o.strokeEndCaps;
+	let strokeJoin = o.strokeJoins;
+
+	let fillAttrib = `fill="${fill}"`;
+	if (fillOpacity != 1.0) fillAttrib += ` fill-opacity="${$.fix(fillOpacity, 2)}"`;
+	let strokeAttrib = `stroke="${stroke}" stroke-width="${strokeWidth}"`;
+
+	if (strokeOpacity != 1.0) strokeAttrib += ` stroke-opacity="${$.fix(strokeOpacity, 2)}"`;
+	if (strokeGap != 0) strokeAttrib += ` stroke-dasharray="${strokeDash} ${strokeGap}"`;
+	if (strokeOffset != 0) strokeAttrib += ` stroke-dashoffset="${strokeOffset}"`;
+	if (strokeMiterLimit != 0) strokeAttrib += ` stroke-miterlimit="${strokeMiterLimit}"`;
+	if (strokeCap != xd.GraphicNode.STROKE_CAP_BUTT) strokeAttrib += ` stroke-linecap="${strokeCap}"`;
+	if (strokeJoin != xd.GraphicNode.STROKE_JOIN_MITER) strokeAttrib += ` stroke-linejoin="${strokeJoin}"`;
+
+	let hasShadow = o.shadow && o.shadow.visible;
+	if (hasShadow) {
+		// TODO: Flutter SVG doesn't support shadows yet.
+		hasShadow = false;
+		ctx.log.warn('Shadows are not supported on shapes.', o);
+	}
+	let filterAttrib = hasShadow ? `filter="url(#shadow)"` : "";
+
+	let defs = "";
+	if (hasShadow) {
+		defs += `<filter id="shadow"><feDropShadow dx="${o.shadow.x}" dy="${o.shadow.y}" stdDeviation="${o.shadow.blur}"/></filter>`;
+	}
+	if (hasImageFill) {
+		defs += `<pattern id="image" patternUnits="userSpaceOnUse" width="${imageWidth}" height="${imageHeight}"><image xlink:href="${imagePath}" x="0" y="0" width="${imageWidth}" height="${imageHeight}" /></pattern>`;
+	}
+	if (hasGradientFill) {
+		let colorStops = '';
+		for (let stop of o.fill.colorStops) {
+			const offset = $.fix(stop.stop, 6);
+			const color = $.getRGBHex(stop.color);
+			const opacity = stop.color.a !== 255 ? `stop-opacity="${$.fix(stop.color.a / 255.0, 2)}"` : "";
+			colorStops += `<stop offset="${offset}" stop-color="#${color}" ${opacity}/>`;
+		}
+		if (o.fill instanceof xd.LinearGradient) {
+			const x1 = $.fix(o.fill.startX, 6);
+			const y1 = $.fix(o.fill.startY, 6);
+			const x2 = $.fix(o.fill.endX, 6);
+			const y2 = $.fix(o.fill.endY, 6);
+			defs += `<linearGradient id="gradient" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}">`;
+			defs += colorStops;
+			defs += `</linearGradient>`;
+		} else if (o.fill instanceof xd.RadialGradient) {
+			const inv = o.fill.gradientTransform.invert();
+			const start = inv.transformPoint({ x: o.fill.startX, y: o.fill.startY });
+			const end = inv.transformPoint({ x: o.fill.endX, y: o.fill.endY });
+			const fx = $.fix(start.x, 6);
+			const fy = $.fix(start.y, 6);
+			const fr = $.fix(o.fill.startR, 6);
+			const cx = $.fix(end.x, 6);
+			const cy = $.fix(end.y, 6);
+			const r = $.fix(o.fill.endR, 6);
+			const a = $.fix(o.fill.gradientTransform.a, 6);
+			const b = $.fix(o.fill.gradientTransform.b, 6);
+			const c = $.fix(o.fill.gradientTransform.c, 6);
+			const d = $.fix(o.fill.gradientTransform.d, 6);
+			const e = $.fix(o.fill.gradientTransform.e, 6);
+			const f = $.fix(o.fill.gradientTransform.f, 6);
+			let xform = "";
+			if (a !== 1.0 || b !== 0.0 || c !== 0.0 || d !== 1.0 || e !== 0.0 || f !== 0.0) {
+				xform = `gradientTransform="matrix(${a} ${b} ${c} ${d} ${e} ${f})"`;
+			}
+			defs += `<radialGradient id="gradient" ${xform} fx="${fx}" fy="${fy}" fr="${fr}" cx="${cx}" cy="${cy}" r="${r}">`;
+			defs += colorStops;
+			defs += `</radialGradient>`;
+		}
+	}
+	defs = defs ? `<defs>${defs}</defs>` : "";
+
+	o.transform.translate(o.localBounds.x, o.localBounds.y);
+	const xform = _getSvgTransform(o.transform);
+	let transformAttrib = xform ? `transform="${xform}"` : "";
+
+	let str = `${defs}<path ${transformAttrib} d="${pathStr}" ${fillAttrib} ${strokeAttrib} ${filterAttrib}/>`;
+	return str;
+}
+
+function _getSvgTransform(transform) {
+	let result;
+
+	if (transform.a !== 1.0 || transform.b !== 0.0 || transform.c !== 0.0 || transform.d !== 1.0) {
+		// Use full transform
+		const a = $.fix(transform.a, 6);
+		const b = $.fix(transform.b, 6);
+		const c = $.fix(transform.c, 6);
+		const d = $.fix(transform.d, 6);
+		const e = $.fix(transform.e, 2);
+		const f = $.fix(transform.f, 2);
+		result = `matrix(${a}, ${b}, ${c}, ${d}, ${e}, ${f})`;
+	} else if (transform.e !== 0.0 || transform.f !== 0.0) {
+		// Use offset transform
+		const e = $.fix(transform.e, 2);
+		const f = $.fix(transform.f, 2);
+		result = `translate(${e}, ${f})`;
+	} else {
+		result = "";
+	}
+	return result;
+}
+
+function _calculateAggregateViewBox(nodes) {
+	let minX = Number.MAX_VALUE;
+	let minY = Number.MAX_VALUE;
+	let maxX = -Number.MAX_VALUE;
+	let maxY = -Number.MAX_VALUE;
+
+	for (let o of nodes) {
+		let boundsR = o.boundsInParent.x + o.boundsInParent.width;
+		let boundsB = o.boundsInParent.y + o.boundsInParent.height;
+		if (o.boundsInParent.x < minX) {
+			minX = o.boundsInParent.x;
+		}
+		if (o.boundsInParent.y < minY) {
+			minY = o.boundsInParent.y;
+		}
+		if (boundsR > maxX) {
+			maxX = boundsR;
+		}
+		if (boundsB > maxY) {
+			maxY = boundsB;
+		}
+	}
+
+	return { x: minX, y: minY, width: maxX - minX, height: maxY - minY };
+}
+
+/***/ }),
+
+/***/ "./src/core/nodes/text.js":
+/*!********************************!*\
+  !*** ./src/core/nodes/text.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const $ = __webpack_require__(/*! ../../utils/utils */ "./src/utils/utils.js");
+const NodeUtils = __webpack_require__(/*! ../../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { getColor, getString, getScrollView, DartType } = __webpack_require__(/*! ../../utils/exportutils */ "./src/utils/exportutils.js");
+
+const { AbstractNode } = __webpack_require__(/*! ./abstractnode */ "./src/core/nodes/abstractnode.js");
+const PropType = __webpack_require__(/*! ../proptype */ "./src/core/proptype.js");
+const { LayoutType } = __webpack_require__(/*! ../decorators/layout */ "./src/core/decorators/layout.js");
+
+/*
+Notes:
+- Line height in XD is a fixed pixel value. In Flutter it is a multiplier of the largest text in a line. This causes differences in rich text with different sizes.
+*/
+
+class Text extends AbstractNode {
+	static create(xdNode, ctx) {
+		if (xdNode instanceof xd.Text) {
+			return new Text(xdNode, ctx);
+		}
+	}
+
+	constructor(xdNode, ctx) {
+		super(xdNode, ctx);
+		ctx.addParam(this.addParam("text", NodeUtils.getProp(xdNode, PropType.TEXT_PARAM_NAME), DartType.STRING, getString(xdNode.text)));
+		ctx.addParam(this.addParam("fill", NodeUtils.getProp(xdNode, PropType.COLOR_PARAM_NAME), DartType.COLOR, getColor(xdNode.fill)));
+	}
+
+	get transform() {
+		let o = this.xdNode;
+		return { rotation: o.rotation, flipY: o.flipY };
+	}
+
+	_serialize(ctx) {
+		let str,
+		    o = this.xdNode,
+		    layout = this.layout;
+
+		if (o.styleRanges.length <= 1 || this.getParam("text") || this.getParam("fill")) {
+			str = this._getText(ctx);
+		} else {
+			str = this._getTextRich(ctx);
+		}
+
+		if (o.clippedByArea) {
+			str = getScrollView(str, this, ctx);
+		}
+		if (!layout.isFixedSize) {
+			layout.shouldExpand = true;
+		} else if (layout.type === LayoutType.TRANSLATE) {
+			str = this._addSizeBox(str, ctx);
+		}
+		return str;
+	}
+
+	_getText(ctx) {
+		let o = this.xdNode,
+		    text = this.getParamName("text") || getString(o.text);
+		return "Text(" + `${text}, ` + getStyleParam(this._getTextStyleParamList(o, false, ctx)) + (o.lineSpacing !== 0 ? this._getTextHeightBehavior() : "") + this._getTextAlignParam() + this._getSoftWrapParam() + ")";
+	}
+
+	_getTextRich(ctx) {
+		let xdNode = this.xdNode,
+		    text = xdNode.text;
+		let styles = xdNode.styleRanges;
+		let str = "",
+		    j = 0;
+		let defaultStyleParams = this._getTextStyleParamList(styles[0], true, ctx);
+		let hasTextHeight = false;
+
+		for (let i = 0; i < styles.length; i++) {
+			let style = styles[i],
+			    l = style.length;
+			hasTextHeight = hasTextHeight || style.lineSpacing !== 0;
+			if (l === 0) {
+				continue;
+			}
+			let styleParams = this._getTextStyleParamList(style, false, ctx);
+			let delta = $.getParamDelta(defaultStyleParams, styleParams);
+			if (i === styles.length - 1) {
+				l = text.length - j;
+			} // for some reason, XD doesn't always return the correct length for the last entry.
+			str += this._getTextSpan(delta, text.substr(j, l)) + ", ";
+			j += l;
+		}
+
+		// Export a rich text object with an empty root span setting a default style.
+		// Child spans set their style as a delta of the default.
+		return "Text.rich(TextSpan(" + getStyleParam(defaultStyleParams) + `  children: [${str}], ),` + (hasTextHeight ? this._getTextHeightBehavior() : "") + this._getTextAlignParam() + this._getSoftWrapParam() + ")";
+	}
+
+	_getTextSpan(styleParams, text) {
+		return "TextSpan(" + ` text: ${getString(text)}, ` + getStyleParam(styleParams) + ")";
+	}
+
+	_getSoftWrapParam() {
+		if (this.xdNode.layoutBox.type !== xd.Text.POINT) {
+			return "";
+		}
+		return "softWrap: false, ";
+	}
+
+	_getTextAlignParam() {
+		if (this.xdNode.textAlign === "left") {
+			return "";
+		}
+		return `textAlign: ${this._getTextAlign(this.xdNode.textAlign)}, `;
+	}
+
+	_getTextAlign(align) {
+		return "TextAlign." + (align === "right" ? "right" : align === "center" ? "center" : "left");
+	}
+
+	_getTextHeightBehavior() {
+		// TODO: this could potentially use some fuzzy logic to only apply to fields that are multi-line,
+		// and just omit the line height for single line text.
+		// ex. if (nodeHeight < textHeight * 1.2)
+		// it's a bit esoteric though, and could cause confusion
+		return "textHeightBehavior: TextHeightBehavior(applyHeightToFirstAscent: false), ";
+	}
+
+	_getTextStyleParamList(o, isDefault, ctx) {
+		return getTextStyleParamList(o, isDefault, ctx, this.xdNode, this.getParamName("fill"));
+	}
+
+	_addSizeBox(str, ctx) {
+		let o = this.xdNode,
+		    type = o.layoutBox.type,
+		    layout = this.layout;
+		if (type === xd.Text.FIXED_HEIGHT || !layout.enabled) {
+			return str;
+		} // let layout handle it
+
+		let bounds = layout.bounds,
+		    w = bounds.width;
+		layout.shouldFixSize = false;
+
+		if (type === xd.Text.POINT) {
+			if (o.textAlign === "right") {
+				w += bounds.x;
+				bounds.x = 0;
+			} else if (o.textAlign === "center") {
+				w += bounds.x;
+				bounds.x /= 2;
+			} else {
+				return str;
+			}
+		}
+		str = `SizedBox(width: ${$.fix(w, 0)}, child: ${str},)`;
+		return str;
+	}
+}
+exports.Text = Text;
+
+function getTextStyleParamList(o, isDefault, ctx, xdNode = null, fill = null) {
+	let isStyleRange = o.length != null;
+
+	// kind of an unusual place for this, but we want to run it on every style object:
+	_checkForUnsupportedFeatures(o, xdNode, ctx);
+	ctx.addFont(_getFontFamily(o), xdNode);
+
+	// Builds an array of style parameters.
+	return [_getFontFamilyParam(o), _getFontSizeParam(o), _getColorParam(o, fill), _getLetterSpacingParam(o),
+	// The default style doesn't include weight, decoration, or style (italic):
+	isDefault ? null : _getFontStyleParam(o), isDefault ? null : _getFontWeightParam(o), isDefault ? null : _getTextDecorationParam(o),
+	// Line height & shadows are set at the node level in XD, so not included for ranges:
+	!isStyleRange || isDefault ? _getHeightParam(xdNode || o) : null, !isStyleRange || isDefault ? _getShadowsParam(xdNode || o) : null];
+}
+exports.getTextStyleParamList = getTextStyleParamList;
+
+function getStyleParam(styleParams) {
+	if (!styleParams) {
+		return "";
+	}
+	let str = getTextStyle(styleParams);
+	return !str ? "" : `style: ${str}, `;
+}
+exports.getStyleParam = getStyleParam;
+
+function getTextStyle(styleParams) {
+	let str = $.getParamList(styleParams);
+	return !str ? "" : `TextStyle(${str})`;
+}
+exports.getTextStyle = getTextStyle;
+
+function _checkForUnsupportedFeatures(o, xdNode, ctx) {
+	if (o.textScript !== "none") {
+		// super / subscript
+		ctx.log.warn("Superscript & subscript are not currently supported.", xdNode);
+	}
+	if (o.textTransform !== "none") {
+		// uppercase / lowercase / titlecase
+		ctx.log.warn("Text transformations (all caps, title case, lowercase) are not currently supported.", xdNode);
+	}
+	if (o.paragraphSpacing) {
+		ctx.log.warn("Paragraph spacing is not currently supported.", xdNode);
+	}
+	if (o.strokeEnabled && o.stroke) {
+		// outline text
+		ctx.log.warn("Text border is not currently supported.", xdNode);
+	}
+}
+
+function _getFontFamilyParam(o) {
+	return `fontFamily: '${_getFontFamily(o)}', `;
+}
+
+function _getFontFamily(o) {
+	return NodeUtils.getFlutterFont(o.fontFamily) || o.fontFamily;
+}
+
+function _getFontSizeParam(o) {
+	return `fontSize: ${o.fontSize}, `;
+}
+
+function _getColorParam(o, fill) {
+	return `color: ${fill || getColor(o.fill, NodeUtils.getOpacity(o))}, `;
+}
+
+function _getLetterSpacingParam(o) {
+	// Flutter uses pixel values for letterSpacing.
+	// XD uses increments of 1/1000 of the font size.
+	return o.charSpacing === 0 ? "" : `letterSpacing: ${o.charSpacing / 1000 * o.fontSize}, `;
+}
+
+function _getFontStyleParam(o) {
+	let style = _getFontStyle(o.fontStyle);
+	return style ? `fontStyle: ${style}, ` : "";
+}
+
+function _getFontStyle(style) {
+	style = style.toLowerCase();
+	let match = style.match(FONT_STYLES_RE);
+	let val = match && FONT_STYLES[match];
+	return val ? "FontStyle." + val : null;
+}
+
+function _getFontWeightParam(o) {
+	let weight = _getFontWeight(o.fontStyle);
+	return weight ? `fontWeight: ${weight}, ` : "";
+}
+
+function _getFontWeight(style) {
+	style = style.toLowerCase();
+	let match = style.match(FONT_WEIGHTS_RE);
+	let val = match && FONT_WEIGHTS[match];
+	return val ? "FontWeight." + val : null;
+}
+
+function _getTextDecorationParam(o) {
+	let u = o.underline,
+	    s = o.strikethrough,
+	    str = "";
+	if (!u && !s) {
+		return str;
+	}
+	if (u && s) {
+		str = "TextDecoration.combine([TextDecoration.underline, TextDecoration.lineThrough])";
+	} else {
+		str = `TextDecoration.${u ? "underline" : "lineThrough"}`;
+	}
+	return `decoration: ${str}, `;
+}
+
+function _getHeightParam(o) {
+	// XD reports a lineSpacing of 0 to indicate default spacing.
+	// Flutter uses a multiplier against the font size for its "height" value.
+	// XD uses a pixel value.
+	return o.lineSpacing === 0 ? "" : `height: ${o.lineSpacing / o.fontSize}, `;
+}
+
+function _getShadowsParam(xdNode) {
+	return xdNode.shadow == null || !xdNode.shadow.visible ? "" : `shadows: [${_getShadow(xdNode.shadow)}], `;
+}
+
+function _getShadow(shadow) {
+	let o = shadow;
+	return `Shadow(color: ${getColor(o.color)}, ` + (o.x || o.y ? `offset: Offset(${o.x}, ${o.y}), ` : "") + (o.blur ? `blurRadius: ${o.blur}, ` : "") + ")";
+}
+
+function _buildStyleRegExp(map) {
+	let list = [];
+	for (let n in map) {
+		list.push(n);
+	}
+	return new RegExp(list.join("|"), "ig");
+}
+
+// Used to translate font weight names from XD to Flutter constants:
+// https://www.webtype.com/info/articles/fonts-weights/
+const FONT_WEIGHTS = {
+	"thin": "w100",
+	"hairline": "w100",
+	"extralight": "w200",
+	"ultralight": "w200",
+	"light": "w300",
+	"book": "w300",
+	"demi": "w300",
+
+	"normal": null, // w400
+	"regular": null,
+	"plain": null,
+
+	"medium": "w500",
+	"semibold": "w600",
+	"demibold": "w600",
+	"bold": "w700", // or "bold"
+	"extrabold": "w800",
+	"heavy": "w800",
+	"black": "w900",
+	"poster": "w900"
+};
+const FONT_WEIGHTS_RE = _buildStyleRegExp(FONT_WEIGHTS);
+
+const FONT_STYLES = {
+	"italic": "italic",
+	"oblique": "italic"
+};
+const FONT_STYLES_RE = _buildStyleRegExp(FONT_STYLES);
+
+/***/ }),
+
+/***/ "./src/core/nodetype.js":
+/*!******************************!*\
+  !*** ./src/core/nodetype.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+function getType(xdNode) {
+    if (xdNode instanceof xd.Text) {
+        return exports.TEXT;
+    }
+    if (xdNode instanceof xd.Group || xdNode instanceof xd.ScrollableGroup) {
+        return exports.GROUP;
+    }
+    if (xdNode instanceof xd.RepeatGrid) {
+        return exports.GRID;
+    }
+    if (xdNode instanceof xd.SymbolInstance || xdNode instanceof xd.Artboard) {
+        return exports.WIDGET;
+    }
+    if (xdNode instanceof xd.Path || xdNode instanceof xd.Polygon || xdNode instanceof xd.Rectangle || xdNode instanceof xd.Ellipse || xdNode instanceof xd.BooleanGroup || xdNode instanceof xd.Line) {
+        return exports.SHAPE;
+    }
+    return exports.ROOT;
+}
+exports.getType = getType;
+
+function getXDLabel(xdNode) {
+    if (xdNode == null) {
+        return "none";
+    }
+    // not necessarily the ideal location for this method, but it's good to maintain proximity to the other similar methods.
+    if (xdNode instanceof xd.Text) {
+        return "text";
+    }
+    if (xdNode instanceof xd.Group || xdNode instanceof xd.ScrollableGroup) {
+        return "group";
+    }
+    if (xdNode instanceof xd.RepeatGrid) {
+        return "grid";
+    }
+    if (xdNode instanceof xd.SymbolInstance) {
+        return "component";
+    }
+    if (xdNode instanceof xd.Artboard) {
+        return "artboard";
+    }
+    if (xdNode instanceof xd.Path || xdNode instanceof xd.Polygon || xdNode instanceof xd.Rectangle || xdNode instanceof xd.Ellipse || xdNode instanceof xd.BooleanGroup || xdNode instanceof xd.Line) {
+        return "shape";
+    }
+    return "unknown element";
+}
+exports.getXDLabel = getXDLabel;
+
+function getLabel(xdNode) {
+    // this works fine for now.
+    return getType(xdNode);
+}
+exports.getLabel = getLabel;
+
+exports.TEXT = "text";
+exports.GROUP = "group";
+exports.WIDGET = "widget";
+exports.SHAPE = "shape";
+exports.ROOT = "root";
+exports.GRID = "grid";
+
+/***/ }),
+
+/***/ "./src/core/parameter.js":
+/*!*******************************!*\
+  !*** ./src/core/parameter.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+class Parameter {
+	constructor(name, type = null, value = null) {
+		this.name = name;
+		this.type = type; // the Dart type
+		this.value = value; // always the string value or null
+	}
+}
+exports.Parameter = Parameter;
+
+/***/ }),
+
+/***/ "./src/core/parse.js":
+/*!***************************!*\
+  !*** ./src/core/parse.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+
+const NodeUtils = __webpack_require__(/*! ../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { cleanFileName } = __webpack_require__(/*! ../utils/nameutils */ "./src/utils/nameutils.js");
+const PropType = __webpack_require__(/*! ./proptype */ "./src/core/proptype.js");
+const { getXDLabel } = __webpack_require__(/*! ./nodetype */ "./src/core/nodetype.js");
+const { trace } = __webpack_require__(/*! ../utils/debug */ "./src/utils/debug.js");
+
+const { Artboard } = __webpack_require__(/*! ./nodes/artboard */ "./src/core/nodes/artboard.js");
+const { Group } = __webpack_require__(/*! ./nodes/group */ "./src/core/nodes/group.js");
+const { Container } = __webpack_require__(/*! ./nodes/container */ "./src/core/nodes/container.js");
+const { Text } = __webpack_require__(/*! ./nodes/text */ "./src/core/nodes/text.js");
+const { Component } = __webpack_require__(/*! ./nodes/component */ "./src/core/nodes/component.js");
+const { Path } = __webpack_require__(/*! ./nodes/path */ "./src/core/nodes/path.js");
+const { Grid } = __webpack_require__(/*! ./nodes/grid */ "./src/core/nodes/grid.js");
+
+const { Shape } = __webpack_require__(/*! ./nodes/shape */ "./src/core/nodes/shape.js");
+const { Blur } = __webpack_require__(/*! ./decorators/blur */ "./src/core/decorators/blur.js");
+const { Blend } = __webpack_require__(/*! ./decorators/blend */ "./src/core/decorators/blend.js");
+const { OnTap } = __webpack_require__(/*! ./decorators/ontap */ "./src/core/decorators/ontap.js");
+const { PrototypeInteraction } = __webpack_require__(/*! ./decorators/prototypeinteraction */ "./src/core/decorators/prototypeinteraction.js");
+const { Comment } = __webpack_require__(/*! ./decorators/comment */ "./src/core/decorators/comment.js");
+const { LayoutType } = __webpack_require__(/*! ./decorators/layout */ "./src/core/decorators/layout.js");
+
+const ParseMode = Object.freeze({
+	NORMAL: 0,
+	SYMBOLS_AS_GROUPS: 1
+});
+
+function parse(root, targetXdNode, ctx) {
+	// set initial properties:
+	Comment.enabled = !!NodeUtils.getProp(xd.root, PropType.INCLUDE_NAME_COMMENTS);
+
+	// Grab components and artboard from the root nodes
+	gatherWidgets(root, ctx);
+
+	// Parse components and artboard
+	const widgets = Object.assign({}, ctx.artboards, ctx.masterComponents);
+	for (let widget of Object.values(widgets)) {
+		if (!targetXdNode || widget.xdNode === targetXdNode) {
+			// This widget is being exported by the user
+			ctx.useUserLog();
+		} else {
+			// This widget must be parsed because it's state is needed but the user hasn't explicitly
+			// requested to export this widget so filter the log messages
+			ctx.useDebugLog();
+		}
+		let o = parseScenegraphNode(widget.xdNode, ctx, ParseMode.NORMAL, true);
+		combineShapes(o, ctx);
+	}
+	ctx.useUserLog();
+
+	if (!targetXdNode) {
+		return null;
+	}
+
+	let node = parseScenegraphNode(targetXdNode, ctx, ParseMode.NORMAL, true);
+	if (node instanceof Path) {
+		node = Shape.fromPath(node, ctx);
+	} else {
+		combineShapes(node, ctx);
+	}
+
+	return node;
+}
+exports.parse = parse;
+
+function gatherWidgets(xdNode, ctx) {
+	if (xdNode instanceof xd.SymbolInstance) {
+		ctx.addComponentInstance(new Component(xdNode, ctx));
+	} else if (xdNode instanceof xd.Artboard) {
+		ctx.addArtboard(new Artboard(xdNode, ctx));
+	}
+	if (xdNode.children) {
+		xdNode.children.forEach(o => gatherWidgets(o, ctx));
+	}
+}
+
+let NODE_FACTORIES = [Grid, Path, Container, Group, Text];
+let DECORATOR_FACTORIES = [// order determines nesting order, first will be innermost
+PrototypeInteraction, OnTap, Blur, Blend, Comment];
+
+function parseScenegraphNode(xdNode, ctx, mode, ignoreVisible = false) {
+	if (!ignoreVisible && !xdNode.visible) {
+		return null;
+	}
+
+	let node = null,
+	    isWidget = false;
+	let isArtboard = xdNode instanceof xd.Artboard,
+	    isComponent = xdNode instanceof xd.SymbolInstance;
+
+	if (xdNode instanceof xd.RootNode) {
+		throw "parseScenegraphNode() run on RootNode";
+	} else if (isComponent && mode === ParseMode.SYMBOLS_AS_GROUPS) {
+		node = new Group(xdNode, ctx);
+	} else if (isArtboard || isComponent) {
+		node = isArtboard ? ctx.getArtboardFromXdNode(xdNode) : ctx.getComponentFromXdNode(xdNode);
+		if (node) {
+			if (node.parsed) {
+				return node;
+			}
+			if (node.layout.type === LayoutType.PINNED) {
+				// since components can be parsed out of order
+				ctx.usesPinned();
+			}
+			node.parsed = isWidget = true;
+		}
+	} else {
+		for (let i = 0; i < NODE_FACTORIES.length && !node; i++) {
+			node = NODE_FACTORIES[i].create(xdNode, ctx);
+		}
+	}
+	if (!node) {
+		ctx.log.error(`Unable to create export node from ${getXDLabel(xdNode)} named '${xdNode.constructor.name}'.`, xdNode);
+		return null;
+	}
+
+	// post processing:
+	if (isWidget) {
+		ctx.pushWidget(node);
+		parseChildren(node, ctx, mode);
+		ctx.popWidget();
+	} else if (node instanceof Group) {
+		parseChildren(node, ctx, mode);
+	} else if (node instanceof Grid) {
+		if (ctx.inGrid) {
+			ctx.log.warn("Nested repeat grids are currently unsupported, and may result in unexpected behaviour.", xdNode);
+		}
+		let kids = node.xdNode.children,
+		    child = kids && kids.at(0);
+		ctx.pushGrid();
+		node.item = child && parseScenegraphNode(child, ctx, ParseMode.SYMBOLS_AS_GROUPS);
+		ctx.popGrid();
+		combineShapes(node.item, ctx);
+	}
+
+	addWidgetImports(node, ctx);
+
+	// add decorators:
+	for (let i = 0; i < DECORATOR_FACTORIES.length; i++) {
+		let decorator = DECORATOR_FACTORIES[i].create(node, ctx);
+		if (decorator) {
+			node.addDecorator(decorator);
+		}
+	}
+	return node;
+}
+
+function parseChildren(node, ctx, mode) {
+	let xdNodes = node.xdNode.children;
+	for (let i = 0; i < xdNodes.length; ++i) {
+		node.children.push(parseScenegraphNode(xdNodes.at(i), ctx, mode, false));
+	}
+}
+
+function addWidgetImports(node, ctx) {
+	let xdNode = node.xdNode,
+	    fixCase = !!NodeUtils.getProp(xd.root, PropType.NORMALIZE_NAME_CASE);
+
+	// Gather imports for components
+	if (xdNode instanceof xd.SymbolInstance) {
+		let master = ctx.masterComponents[xdNode.symbolId];
+		if (master) {
+			ctx.addImport(`./${cleanFileName(master.widgetName, fixCase)}.dart`, true);
+		} else {
+			trace(`Didn't add import for component '${xdNode.name}' because the master was not found`);
+		}
+	}
+
+	// Gather imports for interactions on nodes that reference other artboards
+	let l = NodeUtils.getInteractionCount(xdNode);
+	for (let i = 0; i < l; ++i) {
+		let action = xdNode.triggeredInteractions[i].action;
+		if (action.type !== "goToArtboard") {
+			continue;
+		}
+		let artboard = ctx.getArtboardFromXdNode(action.destination);
+		if (artboard) {
+			ctx.addImport(`./${cleanFileName(artboard.widgetName, fixCase)}.dart`, true);
+		} else {
+			trace(`Didn't add import for destination artboard '${action.destination.name}' because it was not found. This is likely due to a duplicate name.`);
+		}
+	}
+}
+
+function combineShapes(node, ctx, aggressive = false) {
+	// TODO: currently only subgroups set to "Combine Shapes" will be collapsed back into a
+	// parent that is also set to "Combine Shapes". It would be nice if a CS parent could
+	// combine in any subgroups if they are ONLY comprised of shapes.
+
+	// Combines shapes into a single SVG output. In normal mode, it will only combine adjacent Path nodes.
+	// In aggressive mode, it will combine Path & Container, and collapse groups that only contain those elements.
+	if (!node || !node.children || node.children.length < 1 || node.hasCombinedShapes) {
+		return;
+	}
+	node.hasCombinedShapes = true;
+	let isFile = node instanceof Artboard || node instanceof Component;
+	if (isFile) {
+		ctx.pushWidget(node);
+	}
+
+	let inGroup = node instanceof Artboard || node instanceof Component || node instanceof Group;
+	let shapeIndex,
+	    shape = null,
+	    kids = node.children;
+	let maxCount = kids.length * 2; // TODO: GS: This is a temporary fail-safe, since infinite loops can take down XD.
+
+	// This iterates one extra time with a null child to resolve the final shape:
+	for (let i = 0; i <= kids.length; i++) {
+		if (--maxCount < 0) {
+			throw "infinite loop in combineShapes";
+		}
+
+		let child = kids[i];
+		if (child && child.children) {
+			let aggressiveGroup = aggressive || NodeUtils.getProp(child.xdNode, PropType.COMBINE_SHAPES);
+			combineShapes(child, ctx, aggressiveGroup);
+
+			let onlyChild = child.children.length === 1 && child.children[0];
+			if (aggressiveGroup && inGroup && child instanceof Group && onlyChild instanceof Shape && !Shape.hasInteraction(child)) {
+				// the only child was a Shape, so we can strip the group and leave just the shape.
+				// this is currently necessary despite the check below, because the id changes when the xdNode changes:
+				ctx.removeShapeData(onlyChild);
+				// set the shape's xdNode to the group, so it uses its transform:
+				onlyChild.xdNode = child.xdNode;
+				// similarly copy the group's decorators onto the child:
+				// TODO: GS: test this with a blend on the child & on the group.
+				onlyChild.decorators = child.decorators;
+				kids.splice(i, 1, onlyChild);
+				child = onlyChild;
+				// does not become the active shape because it has to be nested to retain transform.
+			}
+		}
+		if (!shape && Shape.canAdd(child, aggressive)) {
+			// start a new shape, the child will be added to it below.
+			shape = new Shape(child.xdNode, ctx);
+			shapeIndex = i;
+		}
+		if (shape && shape.add(child, aggressive)) {
+			// Added.
+			if (child instanceof Shape) {
+				ctx.removeShapeData(child);
+			}
+		} else if (shape) {
+			// Not able to add the child to the current shape, so end it.
+			ctx.addShapeData(shape);
+			kids.splice(shapeIndex, shape.count, shape);
+			i -= shape.count - 1;
+			shape = null;
+			// If the child can be added, then iterate over it again, so it starts a new shape.
+			// This typically happens because it had interactivity.
+			if (Shape.canAdd(child, aggressive)) {
+				i--;continue;
+			}
+		}
+	}
+	if (isFile) {
+		ctx.popWidget();
+	}
+}
+
+/***/ }),
+
+/***/ "./src/core/project.js":
+/*!*****************************!*\
+  !*** ./src/core/project.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const fs = __webpack_require__(/*! uxp */ "uxp").storage.localFileSystem;
+
+const $ = __webpack_require__(/*! ../utils/utils */ "./src/utils/utils.js");
+const { cleanFileName } = __webpack_require__(/*! ../utils/nameutils */ "./src/utils/nameutils.js");
+const NodeUtils = __webpack_require__(/*! ../utils/nodeutils */ "./src/utils/nodeutils.js");
+const PropType = __webpack_require__(/*! ./proptype */ "./src/core/proptype.js");
+const { Pubspec } = __webpack_require__(/*! ./pubspec */ "./src/core/pubspec.js");
+const { Log } = __webpack_require__(/*! ./log */ "./src/core/log.js");
+const { projectAlert, prompt } = __webpack_require__(/*! ../ui/alert */ "./src/ui/alert.jsx");
+
+class Project {
+	constructor() {
+		this.root = new _Folder(null, PropType.EXPORT_PATH, null);
+		this.code = new _Folder(this.root, PropType.CODE_PATH, DefaultPath.CODE);
+		this.images = new _Folder(this.root, PropType.IMAGE_PATH, DefaultPath.IMAGE);
+		this.imagesX2 = new _Folder(this.images, null, DefaultPath.IMAGE_X2);
+		this.imagesX3 = new _Folder(this.images, null, DefaultPath.IMAGE_X3);
+	}
+
+	async checkRoot(alert = true) {
+		if (this.hasRoot) {
+			return true;
+		}
+		if (alert) {
+			let result = await projectAlert(this);
+			if (!result) {
+				return false;
+			}
+		}
+		return await this.promptForRoot();
+	}
+
+	async validate(ctx) {
+		// check for pubspec.yaml
+		let str = await this.root.readFile("pubspec.yaml");
+		if (!str) {
+			ctx.log.warn(Project.PUBSPEC_WARNING, null);return false;
+		}
+		let pubspec = new Pubspec(str, ctx.log);
+		pubspec.checkFonts(ctx.fonts);
+		this._checkDependencies(pubspec);
+		// Flutter asset directories always end in `/`:
+		pubspec.checkAssets([this.images.path + '/']);
+		return true;
+	}
+
+	async promptForRoot() {
+		let f = await fs.getFolder();
+		if (!f) {
+			return false;
+		}
+		if (!(await this._verifyRoot(f))) {
+			return false;
+		}
+		this.root._f = f;
+		this.root._path = f.nativePath;
+		NodeUtils.setProp(xd.root, this.root._prop, this.root._path);
+		return true;
+	}
+
+	get hasRoot() {
+		return !!this.root._f;
+	}
+
+	async _verifyRoot(f) {
+		// we can't run this through _Folder, because we're verifying before we assign it to the folder.
+		// this doesn't check images or fonts, since they may not have been set up yet.
+		let file;
+		try {
+			file = await f.getEntry('pubspec.yaml');
+		} catch (e) {}
+		if (!file) {
+			return prompt(Project.PUBSPEC_WARNING);
+		}
+		let log = new Log(),
+		    str = await file.read();
+		if (!str) {
+			log.warn("Unable to read pubspec.yaml.", null);
+		} else {
+			this._checkDependencies(new Pubspec(str, log));
+		}
+		let results = log.getResults();
+		str = results.errors.concat(results.warnings).reduce((s, o) => `${s}<div>  • ${o}</div>`, '');
+		return !str || prompt(`Warnings were generated while validating your Flutter project.${str}`);
+	}
+
+	_checkDependencies(pubspec) {
+		let result = pubspec.checkDependencies([Project.XD_PACKAGE]);
+		// check null safe only if it's enabled & we found adobe_xd:
+		if (result && !!NodeUtils.getProp(xd.root, PropType.NULL_SAFE)) {
+			result = pubspec.checkNullSafe();
+		}
+		return result;
+	}
+}
+
+class _Folder {
+	constructor(parent, prop, defaultPath) {
+		this._parent = parent;
+		this._prop = prop;
+		this._defaultPath = defaultPath;
+		this._path = null;
+		this._f = null; // UXP filesystem reference
+	}
+
+	async getFile(name, ctx, create = true) {
+		let file = null,
+		    f = await this._getF(ctx);
+		if (!f) {
+			return null;
+		}
+		let fixCase = !!NodeUtils.getProp(xd.root, PropType.NORMALIZE_NAME_CASE);
+		name = cleanFileName(name, fixCase);
+		if (create) {
+			try {
+				file = f.createFile(name, { overwrite: true });
+			} catch (e) {
+				ctx.log.error(`Unable to create file ('${this._getFullPath()}${name}'): ${e}`, null);
+			}
+		} else {
+			try {
+				file = await f.getEntry(name);
+			} catch (e) {}
+			if (file && !file.isFile) {
+				file = null;
+			}
+		}
+		return file;
+	}
+
+	async writeFile(name, content, ctx) {
+		let file = await this.getFile(name, ctx);
+		if (!file) {
+			return false;
+		}
+		ctx.log.note(`Write file '${$.getRelPath(file, ctx)}'`);
+		try {
+			file.write(content);
+		} catch (e) {
+			return false;
+		}
+		return true;
+	}
+
+	async readFile(name, ctx) {
+		let file = await this.getFile(name, ctx, false);
+		if (!file) {
+			return null;
+		}
+		return await file.read();
+	}
+
+	get path() {
+		return this._getRelPath();
+	}
+
+	async _getF(ctx) {
+		if (!this._parent) {
+			return this._f;
+		} // root
+
+		let fullPath = this._getFullPath();
+		if (this._f && fullPath === this._path) {
+			return this._f;
+		} // cached reference
+
+		let parentF = await this._parent._getF(ctx);
+		this._f = await this._getNestedF(parentF, this._getRelPath().split('/'), ctx);
+		return this._f;
+	}
+
+	async _getNestedF(parentF, names, ctx) {
+		if (!parentF) {
+			return null;
+		}
+		let f,
+		    err,
+		    name = names.shift().substr(0, 160);
+		// check if it already exists:
+		try {
+			f = await parentF.getEntry(name);
+		} catch (e) {}
+		if (!f) {
+			// create it:
+			try {
+				f = await parentF.createFolder(name);
+			} catch (e) {
+				err = e;
+			}
+		} else if (!f.isFolder) {
+			err = 'A file with that name already exists.'; // tested.
+			f = null;
+		}
+		if (err) {
+			ctx.log.error(`Unable to create folder ('${this._getFullPath()}'): ${err}`, null);
+		}
+		return names.length && f ? this._getNestedF(f, names) : f;
+	}
+
+	_hasRootPath() {
+		if (!this._parent) {
+			return !!this._f;
+		}
+		return this._parent._hasRootPath();
+	}
+
+	_getFullPath() {
+		if (!this._parent) {
+			return this._f && this._f.nativePath;
+		} // root
+		return this._parent._getFullPath() + this._getRelPath() + '/';
+	}
+
+	_getRelPath() {
+		let path = this._prop && NodeUtils.getProp(xd.root, this._prop) || this._defaultPath;
+		return $.cleanPath(path);
+	}
+}
+
+Project.PUBSPEC_WARNING = 'A "pubspec.yaml" file was not found in the specified Flutter project folder.';
+Project.XD_PACKAGE = 'adobe_xd';
+
+let DefaultPath = Object.freeze({
+	ROOT: "Select a project path.", // only used for placeholder UI
+	CODE: "lib",
+	IMAGE: "assets/images",
+	IMAGE_X2: "2.0x",
+	IMAGE_X3: "3.0x"
+});
+
+let project = new Project();
+
+module.exports = {
+	DefaultPath,
+	project
+};
+
+/***/ }),
+
+/***/ "./src/core/proptype.js":
+/*!******************************!*\
+  !*** ./src/core/proptype.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+module.exports = Object.freeze({
+	// Project
+	EXPORT_PATH: "exportPath",
+	CODE_PATH: "codePath",
+	IMAGE_PATH: "imagePath",
+	WIDGET_PREFIX: "widgetPrefix",
+	ENABLE_PROTOTYPE: "enablePrototype",
+	RESOLUTION_AWARE: "resolutionAware",
+	NULL_SAFE: "nullSafe",
+	INCLUDE_NAME_COMMENTS: "includeNameComments",
+	NORMALIZE_NAME_CASE: "normalizeNameCase",
+	EXPORT_COLORS: "exportColors",
+	COLORS_CLASS_NAME: "colorsClassName",
+	EXPORT_CHAR_STYLES: "exportCharStyles",
+	CHAR_STYLES_CLASS_NAME: "charStylesClassName",
+
+	// Component / Artboard
+	INCLUDE_IN_EXPORT_PROJECT: "addToExportAll",
+	WIDGET_NAME: "widgetName",
+	TAP_CALLBACK_NAME: "tapCallbackName",
+
+	// Text
+	FLUTTER_FONT: "flutterFont",
+	TEXT_PARAM_NAME: "textParamName",
+	COLOR_PARAM_NAME: "colorParamName",
+
+	// Shapes
+	IMAGE_FILL_NAME: "imageFillName",
+	IMAGE_PARAM_NAME: "imageParamName",
+	INCLUDE_IN_EXPORT_ALL_IMAGES: "includeInExportAllImages",
+
+	// Groups
+	COMBINE_SHAPES: "combineShapes",
+	EXPORT_MODE: "exportMode",
+	BUILD_METHOD_NAME: "buildMethodName",
+	CUSTOM_CODE: "customCode",
+
+	// Grid
+	DATA_PARAM_NAME: "dataParamName",
+
+	// Shared
+	FLATTEN_TO_IMAGE: "flattenToImage"
+});
+
+/***/ }),
+
+/***/ "./src/core/pubspec.js":
+/*!*****************************!*\
+  !*** ./src/core/pubspec.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+// NOTE: if we ever need to write YAML, we should evaluate https://www.npmjs.com/package/yaml
+// because it may allow us to preserve comments.
+const yaml = __webpack_require__(/*! ../lib/js-yaml */ "../lib/js-yaml");
+const { SemVer } = __webpack_require__(/*! ./semver */ "./src/core/semver.js");
+
+class Pubspec {
+	constructor(str, log) {
+		this.log = log;
+		let err;
+		try {
+			this.yaml = yaml.load(str);
+		} catch (e) {
+			err = e;
+		}
+		if (!this.yaml) {
+			this._warn(`Unable to parse pubspec.yaml${err ? ': ' + err.reason : ''}`);
+		}
+	}
+
+	checkFonts(fonts) {
+		if (!this.yaml) {
+			return false;
+		} // already threw a parsing error
+		let list = this.yaml.flutter && this.yaml.flutter.fonts;
+		let f = (val, o) => o.family === val;
+		return this._checkListEntries(fonts, list, 'flutter/fonts', f);
+	}
+
+	checkDependencies(names) {
+		if (!this.yaml) {
+			return false;
+		}
+		return this._checkMapEntries(names, this.yaml.dependencies, 'dependencies');
+	}
+
+	checkAssets(paths) {
+		if (!this.yaml) {
+			return false;
+		}
+		let list = this.yaml.flutter && this.yaml.flutter.assets;
+		return this._checkListEntries(paths, list, 'flutter/assets');
+	}
+
+	checkNullSafe() {
+		let yaml = this.yaml,
+		    errs = [];
+		if (!yaml) {
+			return null;
+		} // already threw a parsing error
+
+		let sdk = yaml.environment && yaml.environment.sdk;
+		let sdkResult = SemVer.parse(sdk).requiresAtLeast("2.12.0");
+		if (sdkResult === false) {
+			errs.push("a minimum Dart SDK constraint of 2.12.0 or higher");
+		}
+
+		let adobe_xd = yaml.dependencies && yaml.dependencies.adobe_xd;
+		let xdResult = !adobe_xd || !!adobe_xd.path ? null : SemVer.parse(adobe_xd).requiresAtLeast("2.0.0");
+		if (xdResult === false) {
+			errs.push("adobe_xd 2.0.0 or higher");
+		}
+
+		if (errs.length) {
+			this._warn(`Null safety requires ${errs.join(" and ")}. Update your pubspec.yaml or disable 'Export Null Safe Code'.`);
+		}
+		return xdResult === false || sdkResult === false ? false : xdResult === true && sdkResult === true ? true : null;
+	}
+
+	_warn(str) {
+		this.log && this.log.warn(str);
+		return false;
+	}
+
+	_logMissingEntry(noun) {
+		return this._warn(`Could not find ${noun} entry in pubspec.yaml.`);
+	}
+
+	_hasMissingEntries(values, noun) {
+		if (!values || values.length === 0) {
+			return true;
+		}
+		return this._warn(`Could not find ${noun} entry in pubspec.yaml for: ${values.join(', ')}.`);
+	}
+
+	_checkMapEntries(keys, map, noun) {
+		// checks for the existence of entries with the specified key names
+		if (!map) {
+			return this._logMissingEntry(noun);
+		}
+		let missing = [];
+		for (let i = 0, l = keys.length; i < l; i++) {
+			if (!map[keys[i]]) {
+				missing.push(keys[i]);
+			}
+		}
+		return this._hasMissingEntries(missing, noun);
+	}
+
+	_checkListEntries(values, list, noun, comparisonFunction = null) {
+		// checks for the existence of entries in list that match the specified values
+		// if a comparisonFunction is provided, it is used to determine the match
+		if (!list) {
+			return this._logMissingEntry(noun);
+		}
+		let missing = [],
+		    f = comparisonFunction || ((val, o) => val === o);
+		for (let i = 0, l = values.length; i < l; i++) {
+			if (!this._checkListEntry(values[i], list, f)) {
+				missing.push(values[i]);
+			}
+		}
+		return this._hasMissingEntries(missing, noun);
+	}
+
+	_checkListEntry(value, list, f) {
+		for (let i = 0, l = list.length; i < l; i++) {
+			let o = list[i];
+			if (f(value, o)) {
+				return true;
+			}
+		}
+		return false;
+	}
+}
+
+module.exports = {
+	Pubspec
+};
+
+/***/ }),
+
+/***/ "./src/core/semver.js":
+/*!****************************!*\
+  !*** ./src/core/semver.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+// Temporary test harness: https://jsfiddle.net/10Lra6jg/8/
+
+class SemVer {
+	constructor(low, high, isValid = true) {
+		this._low = low;
+		this._high = high;
+		this._isValid = (low == null || low.isValid) && (high == null || high.isValid) && isValid !== false;
+	}
+
+	get isValid() {
+		return this._isValid && !(this._high && !this._low) && ( // invalid if it has a high, but not a low
+		this._high == null || this._low.isLessThan(this._high)); // valid if low < high
+	}
+
+	isSatisfiedBy(version) {
+		version = Version.parse(version);
+		if (!version || !version.isValid || !this.isValid) {
+			return null;
+		}
+		if (this._low && this._low.compare(version) > 0) {
+			return false;
+		} // if lowVersion > version, return false
+		if (this._high && this._high.compare(version) <= 0) {
+			return false;
+		} // if highVersion <= version, return false
+		return true;
+	}
+
+	includesAtLeast(version) {
+		version = Version.parse(version);
+		if (!version || !version.isValid || !this.isValid) {
+			return null;
+		}
+		return this._high == null || this._high.compare(version) > 0; // no upper constraint or it's >= version
+	}
+
+	requiresAtLeast(version) {
+		version = Version.parse(version);
+		if (!version || !version.isValid || !this.isValid) {
+			return null;
+		}
+		return this._low.compare(version) >= 0; // low is >= version
+	}
+}
+
+SemVer.getInvalid = function () {
+	let o = new SemVer(null, null, false);
+	o.isInvalid = true;
+	return o;
+};
+
+SemVer.parse = function (str) {
+	if (str === null || str === "" || /any/i.test(str)) {
+		return new SemVer(null, null);
+	}
+	let v,
+	    o = /^[\s'"]*([^'"]+)[\s'"]*$/.exec(str);
+	str = o && o[1];
+	if (!str) {
+		return false;
+	}
+	if (str.charAt(0) === "^") {
+		// Caret syntax: ^1.2.3
+		v = Version.parse(str.slice(1));
+		return new SemVer(v, v.major === 0 ? new Version(0, v.minor + 1, 0) : new Version(v.major + 1, 0, 0));
+	}
+	if (/[0-9]/.test(str.charAt(0))) {
+		// Concrete version: 1.2.3
+		if (/\s/.test(str)) {
+			return SemVer.getInvalid();
+		} // more than one constraint
+		v = Version.parse(str);
+		return new SemVer(v, new Version(v.major, v.minor, v.patch + 1));
+	}
+	// comparative: >=1.2.3 <2.0.0
+	let low = null,
+	    high = null;
+	while (true) {
+		let re = /^\s*((?:<|>)?=?)\s*([0-9.]+)/,
+		    o = re.exec(str);
+		if (!o) {
+			break;
+		}
+		str = str.slice(o[0].length);
+		let constraint = o[1],
+		    v = Version.parse(o[2]);
+		if (!v.isValid || !constraint || !o[2]) {
+			return SemVer.getInvalid();
+		}
+		if (constraint.charAt(0) === ">") {
+			if (low) {
+				return SemVer.getInvalid();
+			} // already have a lower constraint
+			if (constraint.charAt(1) !== "=") {
+				v.patch++;
+			}
+			low = v;
+		} else {
+			if (high) {
+				return SemVer.getInvalid();
+			} // already have a higher constraint
+			if (constraint.charAt(1) === "=") {
+				v.patch++;
+			}
+			high = v;
+		}
+	}
+	if (!low & !high) {
+		return SemVer.getInvalid();
+	} // unable to parse any constraints
+	return new SemVer(low, high);
+};
+
+class Version {
+	constructor(major, minor, patch, build, label) {
+		this.major = major;
+		this.minor = minor;
+		this.patch = patch;
+		this.build = build || null;
+		this.label = label || null;
+	}
+
+	get isValid() {
+		return this._isValid(this.major) && this._isValid(this.minor) && this._isValid(this.patch);
+	}
+
+	_isValid(val) {
+		return !(isNaN(val) || val == null || val !== (val | 0));
+	}
+
+	isEqual(v) {
+		return this.compare(v) === 0;
+	}
+	isGreaterThan(v) {
+		return this.compare(v) > 0;
+	}
+	isLessThan(v) {
+		return this.compare(v) < 0;
+	}
+
+	compare(v) {
+		// returns +1 if greater, 0 if equal, -1 if less
+		let o = this;
+		if (o.major > v.major) {
+			return 1;
+		} else if (o.major < v.major) {
+			return -1;
+		}
+		if (o.minor > v.minor) {
+			return 1;
+		} else if (o.minor < v.minor) {
+			return -1;
+		}
+		if (o.patch > v.patch) {
+			return 1;
+		} else if (o.patch < v.patch) {
+			return -1;
+		}
+		return 0; // equal
+	}
+
+	get versionString() {
+		return `${this.major}.${this.minor}.${this.patch}`;
+	}
+
+	get fullVersionString() {
+		return this.versionString + (this.build ? '+' + this.build : '') + (this.label ? '-' + this.label : '');
+	}
+
+	toString() {
+		return `Version[${this.fullVersionString}]`;
+	}
+}
+
+Version.parse = function (str) {
+	if (str instanceof Version) {
+		return str;
+	}
+	let o = /\s*v?([^-+\s]+)\s*(?:\+([^-]+))?\s*-?\s*(.*)/.exec(str);
+	if (!o || o[1] == null) {
+		return new Version();
+	}
+	let version = o[1],
+	    build = o[2],
+	    label = o[3];
+	let parts = version && version.split(".").map(s => parseInt(s));
+	return new Version(parts[0], parts[1], parts[2], build, label);
+};
+
+module.exports = {
+	Version, SemVer
+};
+
+/***/ }),
+
+/***/ "./src/ui/alert.jsx":
+/*!**************************!*\
+  !*** ./src/ui/alert.jsx ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const { h, render, Component, Fragment } = __webpack_require__(/*! preact */ "./node_modules/preact/dist/preact.module.js");
+const clipboard = __webpack_require__(/*! clipboard */ "clipboard");
+
+const iconError = __webpack_require__(/*! ./assets/icon-error.png */ "./src/ui/assets/icon-error.png");
+const iconWarning = __webpack_require__(/*! ./assets/icon-warning.png */ "./src/ui/assets/icon-warning.png");
+const iconPlugin = __webpack_require__(/*! ./assets/icon@2x.png */ "./src/ui/assets/icon@2x.png");
+
+// docs for dialog UI: https://adobexdplatform.com/plugin-docs/reference/ui/dialogs/
+
+let dialog, callback;
+
+function closeDialog(value, e) {
+	e && e.preventDefault();
+	callback && callback(value, dialog);
+	dialog && dialog.close(value);
+	dialog = callback = null;
+}
+
+async function openDialog(contents, cb = null) {
+	// returns true if the user clicked the cta
+	dialog = document.createElement('dialog');
+	callback = cb;
+	render(contents, dialog);
+	let value = await document.body.appendChild(dialog).showModal();
+	if (value === "reasonCanceled") {
+		value = null;
+	} // esc key pressed
+	return value;
+}
+
+function Chrome(title, content, cancel, cta = 'OK') {
+	// currently returns true if the cta is clicked, false if cancel is clicked
+	// callback is called with the return value before the dialog is closed, to maintain edit privileges
+	return h(
+		"form",
+		{ method: "dialog", onSubmit: e => closeDialog(true, e) },
+		title && h(
+			Fragment,
+			null,
+			h(
+				"h1",
+				null,
+				h("img", { "class": "icon", src: iconPlugin.default }),
+				h(
+					"span",
+					null,
+					title
+				)
+			),
+			h("hr", null)
+		),
+		content,
+		h(
+			"footer",
+			null,
+			cancel && h(
+				"button",
+				{ onClick: e => closeDialog(false, e), type: "reset", "uxp-variant": "primary" },
+				cancel
+			),
+			h(
+				"button",
+				{ type: "submit", "uxp-variant": "cta", "uxp-selected": "true", autofocus: "autofocus" },
+				cta
+			)
+		)
+	);
+}
+
+async function alert(msg, title = null, closeLabel = 'OK') {
+	await openDialog(Chrome(title, h("p", { dangerouslySetInnerHTML: { __html: msg } }), null, closeLabel));
+}
+
+async function prompt(msg, title = null, cancelLabel = 'Cancel', ctaLabel = 'Continue') {
+	// note: html injection is to let us show lists.
+	return await openDialog(Chrome(title, h("p", { dangerouslySetInnerHTML: { __html: msg } }), cancelLabel, ctaLabel));
+}
+
+async function projectAlert(project) {
+	return await openDialog(Chrome('Set a Flutter Project Folder', h(
+		Fragment,
+		null,
+		h(
+			"p",
+			{ "class": "text" },
+			"Before exporting, you must select the Flutter project folder to export into."
+		),
+		h(
+			"p",
+			{ "class": "text-information" },
+			"Due to current restrictions in Adobe XD, you will have to do this each time you open this file."
+		)
+	), 'Cancel', 'Continue'));
+}
+
+async function resultsAlert(results) {
+	//results.errors = ["This is an error!"]; // for testing since we throw so few errors.
+	return await openDialog(Chrome(null, // each category creates it's own header.
+	h(
+		Fragment,
+		null,
+		getResultsCategory(results.errors, "Error", iconError),
+		getResultsCategory(results.warnings, "Warning", iconWarning)
+	), 'Copy To Clipboard', 'Close'), (v, _) => v === false && copyResults(results));
+}
+
+async function codeEditorAlert(code, handler) {
+	return await openDialog(Chrome("Custom Code", h(
+		Fragment,
+		null,
+		h(
+			"p",
+			{ "class": "text" },
+			"Paste code here without a trailing semicolon or comma. Read the Custom Code section of the ",
+			h(
+				"a",
+				{ href: "https://github.com/AdobeXD/xd-to-flutter-plugin/blob/master/README.md" },
+				"README"
+			),
+			" for more info."
+		),
+		h(
+			"p",
+			{ "class": "text-information" },
+			"Unfortunately, XD plugin limitations prevent showing a proper code editor here."
+		),
+		h("textarea", { "class": "code-editor", id: "editor", value: code || '', onKeyDown: o => o.preventDefault() })
+	), 'Cancel', 'Save'), (v, d) => v && handler(d.querySelector('#editor').value));
+}
+
+function copyResults(results) {
+	let str = getCategoryString(results.errors, "Error") + '\n\n' + getCategoryString(results.warnings, "Warning");
+	clipboard.copyText(str.trim());
+}
+
+function getResultsCategory(list, title, icon) {
+	let l = list.length;
+	return !l ? null : h(
+		Fragment,
+		null,
+		h(
+			"h1",
+			null,
+			h("img", { src: icon.default, alt: "icon", "class": "result-icon" }),
+			getCategoryTitle(list, title)
+		),
+		h(
+			"div",
+			{ "class": "list" },
+			list.map(o => h(
+				"div",
+				null,
+				o.toString()
+			))
+		)
+	);
+}
+
+function getCategoryString(list, title) {
+	if (list.length === 0) {
+		return '';
+	}
+	let str = getCategoryTitle(list, title) + ':';
+	return list.reduce((s, o) => s + '\n' + o.toString(), str);
+}
+function getCategoryTitle(list, title) {
+	let l = list.length;
+	return l + ' ' + title + (l > 1 ? 's' : '');
+}
+
+module.exports = { alert, prompt, projectAlert, resultsAlert, codeEditorAlert };
+
+/***/ }),
+
+/***/ "./src/ui/assets/bg-transparent.png":
+/*!******************************************!*\
+  !*** ./src/ui/assets/bg-transparent.png ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/bg-transparent.png");
+
+/***/ }),
+
+/***/ "./src/ui/assets/icon-edit.png":
+/*!*************************************!*\
+  !*** ./src/ui/assets/icon-edit.png ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/icon-edit.png");
+
+/***/ }),
+
+/***/ "./src/ui/assets/icon-error.png":
+/*!**************************************!*\
+  !*** ./src/ui/assets/icon-error.png ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/icon-error.png");
+
+/***/ }),
+
+/***/ "./src/ui/assets/icon-folder.png":
+/*!***************************************!*\
+  !*** ./src/ui/assets/icon-folder.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/icon-folder.png");
+
+/***/ }),
+
+/***/ "./src/ui/assets/icon-info.png":
+/*!*************************************!*\
+  !*** ./src/ui/assets/icon-info.png ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/icon-info.png");
+
+/***/ }),
+
+/***/ "./src/ui/assets/icon-warning.png":
+/*!****************************************!*\
+  !*** ./src/ui/assets/icon-warning.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/icon-warning.png");
+
+/***/ }),
+
+/***/ "./src/ui/assets/icon@1x.png":
+/*!***********************************!*\
+  !*** ./src/ui/assets/icon@1x.png ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/icon@1x.png");
+
+/***/ }),
+
+/***/ "./src/ui/assets/icon@2x.png":
+/*!***********************************!*\
+  !*** ./src/ui/assets/icon@2x.png ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/icon@2x.png");
+
+/***/ }),
+
+/***/ "./src/ui/formutils.jsx":
+/*!******************************!*\
+  !*** ./src/ui/formutils.jsx ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const { editDocument } = __webpack_require__(/*! application */ "application");
+const { h, Fragment } = __webpack_require__(/*! preact */ "./node_modules/preact/dist/preact.module.js");
+
+const NodeUtils = __webpack_require__(/*! ../utils/nodeutils */ "./src/utils/nodeutils.js");
+const $ = __webpack_require__(/*! ../utils/utils */ "./src/utils/utils.js");
+const { cleanDartName } = __webpack_require__(/*! ../utils/nameutils */ "./src/utils/nameutils.js");
+const PropType = __webpack_require__(/*! ../core/proptype */ "./src/core/proptype.js");
+
+function initInputHandlers(component) {
+    // Inject a button handler, that passes the current component to the shared handler to retain scope
+    component.handleInput = e => handleNodeInputChanged(component, e);
+
+    component.handleBlurAsCleanPath = e => handleBlur(component, e, $.cleanPath);
+    component.handleBlurAsClassName = e => handleBlur(component, e, cleanDartName);
+    component.handleBlurAsCustomCode = e => handleBlur(component, e, $.cleanCustomCode);
+};
+
+//Handles any input changes, and writes them into the node metadata
+function handleNodeInputChanged(c, event) {
+    let target = event.target,
+        name = target.name || target.id;
+    let value = target.type === 'checkbox' ? !c.state[name] : target.value;
+
+    editDocument({ editLabel: "Updated Flutter Data" }, function (selection) {
+        if (name === PropType.FLUTTER_FONT) {
+            NodeUtils.setFlutterFont(c.props.node.fontFamily, value);
+        } else if (name === PropType.IMAGE_FILL_NAME) {
+            NodeUtils.setImageName(c.props.node, value);
+        } else {
+            // Update component state
+            let state = c.state;
+            state[name] = value;
+            // Inject latest component state, into the node's metadata
+            let node = c.props.node;
+            //NodeUtils.setProp(node, name, value);
+            NodeUtils.setState(node, state);
+        }
+    });
+    c.setState({ [name]: value });
+}
+
+function handleBlur(c, event, cleanFxn) {
+    let target = event.target,
+        name = target.name || target.id;
+    let value = cleanFxn(c.state[name]);
+    let node = c.props.node;
+
+    editDocument({ editLabel: "Updated Flutter Data" }, function (_) {
+        let state = c.state;
+        state[name] = value;
+        //NodeUtils.setProp(node, name, value);
+        NodeUtils.setState(node, state);
+    });
+
+    c.setState({ [name]: value });
+}
+
+function TextInputWithLabel(props) {
+    return h(
+        Fragment,
+        null,
+        Label(props),
+        TextInput(props)
+    );
+}
+
+function TextInput(props) {
+    return h("input", { type: "text", "class": "settings__text-input",
+        name: props.name,
+        onblur: props.onBlur,
+        placeholder: props.placeholder,
+        onInput: props.handleInput,
+        readonly: props.readonly,
+        value: props.value || props.name && props.state[props.name] || ''
+    });
+}
+
+function TextArea(props) {
+    // textarea elements don't pass their name through events, so add id too:
+    return h("textarea", { "class": "settings__textarea",
+        id: props.name,
+        name: props.name,
+        onblur: props.onBlur,
+        placeholder: props.placeholder,
+        onInput: props.handleInput,
+        readonly: props.readonly,
+        value: props.value || props.name && props.state[props.name] || ''
+    });
+}
+
+function Label(props) {
+    return h(
+        "label",
+        { "class": "label" },
+        props.label
+    );
+}
+
+function Checkbox(props) {
+    return h(
+        "label",
+        { "class": "settings__checkbox-label" },
+        h("input", { type: "checkbox",
+            name: props.name,
+            onClick: props.handleInput,
+            checked: props.state[props.name] || false
+        }),
+        h(
+            "span",
+            null,
+            props.label
+        )
+    );
+}
+
+function Select(props) {
+    let val = props.state[props.name],
+        opts = props.options;
+    if (val == null && props.default) {
+        val = props.default === true ? opts[0].id : props.default;
+    }
+    // select elements don't pass their name through onChange events, so add id too:
+    return h(
+        "select",
+        { "class": "settings__select",
+            name: props.name,
+            id: props.name,
+            onChange: props.handleInput,
+            value: val },
+        opts.map(o => h(
+            "option",
+            { value: o.id, type: "option" },
+            o.label || o.id
+        ))
+    );
+}
+
+module.exports = {
+    initInputHandlers,
+    TextInputWithLabel,
+    TextInput,
+    TextArea,
+    Label,
+    Checkbox,
+    Select
+};
+
+/***/ }),
+
+/***/ "./src/ui/main.jsx":
+/*!*************************!*\
+  !*** ./src/ui/main.jsx ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const { h, render, Component } = __webpack_require__(/*! preact */ "./node_modules/preact/dist/preact.module.js");
+const { editDocument } = __webpack_require__(/*! application */ "application");
+const os = __webpack_require__(/*! os */ "os");
+
+const Preview = __webpack_require__(/*! ./preview */ "./src/ui/preview.jsx");
+const Results = __webpack_require__(/*! ./results */ "./src/ui/results.jsx");
+const Settings = __webpack_require__(/*! ./settings */ "./src/ui/settings.jsx");
+const NodeType = __webpack_require__(/*! ../core/nodetype */ "./src/core/nodetype.js");
+const nodeutils = __webpack_require__(/*! ../utils/nodeutils */ "./src/utils/nodeutils.js");
+__webpack_require__(/*! ./styles.styl */ "./src/ui/styles.styl");
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const image_export = __webpack_require__(/*! ../core/image_export */ "./src/core/image_export.js");
+const dart_export = __webpack_require__(/*! ../core/dart_export */ "./src/core/dart_export.js");
+
+const debug = __webpack_require__(/*! ../utils/debug */ "./src/utils/debug.js");
+const trace = debug.trace;
+
+class FlutterPanel extends Component {
+	constructor(props) {
+		super(props);
+		this.state = { context: null };
+		props.notifier.listen(o => this.updateResults(o));
+	}
+
+	exportSelectedItem() {
+		editDocument({ editLabel: "Export widget" }, async (selected, root) => {
+			this.updateResults((await dart_export.exportSelected(selected, root)));
+		});
+	}
+
+	copySelectedItem() {
+		editDocument({ editLabel: "Copy selected item to clipboard" }, async (selected, root) => {
+			this.updateResults((await dart_export.copySelected(selected, root)));
+		});
+	}
+
+	exportAll() {
+		editDocument({ editLabel: "Export all widgets" }, async (selected, root) => {
+			this.updateResults((await dart_export.exportAll(selected, root)));
+		});
+	}
+
+	exportImage() {
+		editDocument({ editLabel: "Export image" }, async (selected, root) => {
+			this.updateResults((await image_export.exportImage(selected, root)));
+		});
+	}
+
+	exportAllImages() {
+		editDocument({ editLabel: "Export all images" }, async (selected, root) => {
+			this.updateResults((await image_export.exportAllImages(selected, root)));
+		});
+	}
+
+	updateResults(ctx) {
+		this.setState({ context: ctx });
+		if (!ctx) {
+			trace("NO RESULT RETURNED!");return;
+		}
+		if (!ctx.log) {
+			trace("UNEXPECTED RESULT OBJECT!");return;
+		}
+	}
+
+	render(props, state) {
+		let multi = !!(props.selected && props.selected.length > 1);
+		let xdNode = !multi && props.selected && props.selected[0];
+		let type = NodeType.getType(xdNode);
+		let isRoot = type === NodeType.ROOT;
+		let isWidget = nodeutils.isWidget(xdNode);
+		let isCopyable = type !== NodeType.ROOT && type !== NodeType.WIDGET;
+		let hasImage = xdNode && xdNode.fill && xdNode.fill instanceof xd.ImageFill;
+		let component = nodeutils.getContainingComponent(xdNode, true);
+
+		return h(
+			"div",
+			{ id: "panel-container", "data-platform": os.platform() },
+			h(
+				"div",
+				{ "class": "options-container" },
+				!isRoot || multi ? h(Preview, { node: xdNode }) : null,
+				h(Settings, { node: isRoot ? xd.root : xdNode, component: component, multi: multi })
+			),
+			h(
+				"div",
+				{ "class": "actions-container" },
+				h(Results, { context: state.context, node: xdNode }),
+				h("span", { "class": "separator" }),
+				hasImage ? h(
+					"button",
+					{ "uxp-variant": "primary", onClick: () => this.exportImage() },
+					"Export Image"
+				) : null,
+				isCopyable ? h(
+					"button",
+					{ "uxp-variant": "primary", onClick: () => this.copySelectedItem() },
+					"Copy Selected"
+				) : null,
+				isWidget ? h(
+					"button",
+					{ "uxp-variant": "primary", onClick: () => this.exportSelectedItem() },
+					"Export Widget"
+				) : null,
+				isRoot ? h(
+					"button",
+					{ "uxp-variant": "primary", onClick: () => this.exportAllImages() },
+					"Export All Images"
+				) : null,
+				h(
+					"button",
+					{ "uxp-variant": "cta", onClick: () => this.exportAll() },
+					"Export All Widgets"
+				)
+			)
+		);
+	}
+}
+
+class Notifier {
+	listen(f) {
+		this.f = f;
+	}
+	notify(o) {
+		this.f && this.f(o);
+	}
+}
+
+let panelHolder,
+    notifier = new Notifier();
+
+function create() {
+	if (panelHolder == null) {
+		panelHolder = document.createElement("div");
+		update();
+	}
+	return panelHolder;
+}
+
+function show(event) {
+	if (!panelHolder) event.node.appendChild(create());
+}
+
+function update(selection) {
+	let items = selection && selection.items;
+	render(h(FlutterPanel, { key: "panel", selected: items, notifier: notifier }), panelHolder);
+}
+
+async function exportAll(selection, root) {
+	notifier.notify((await dart_export.exportAll(selection, root)));
+}
+
+async function exportSelected(selection, root) {
+	notifier.notify((await dart_export.exportSelected(selection, root)));
+}
+
+async function copySelected(selection, root) {
+	notifier.notify((await dart_export.copySelected(selection, root)));
+}
+
+module.exports = {
+	panels: {
+		flutterPanel: {
+			show,
+			update
+		}
+	},
+	commands: {
+		exportAll,
+		exportSelected,
+		copySelected,
+
+		// debug menu items, enable in manifest.json:
+		_testDartStyle: debug._testDartStyle,
+		_printdumpNodePluginData: debug._printdumpNodePluginData,
+		_imageFlipTest: debug._imageFlipTest,
+		_dumpTransformData: debug._dumpTransformData,
+		_dumpLayoutData: debug._dumpLayoutData
+	}
+
+};
+
+/***/ }),
+
+/***/ "./src/ui/preview.jsx":
+/*!****************************!*\
+  !*** ./src/ui/preview.jsx ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const { h, Component, Fragment } = __webpack_require__(/*! preact */ "./node_modules/preact/dist/preact.module.js");
+const NodeType = __webpack_require__(/*! ../core/nodetype */ "./src/core/nodetype.js");
+const render_preview = __webpack_require__(/*! ./render_preview */ "./src/ui/render_preview.js");
+const { trace } = __webpack_require__(/*! ../utils/debug */ "./src/utils/debug.js");
+
+class Preview extends Component {
+	constructor(props) {
+		super(props);
+		this.state = { rendition: '' };
+	}
+
+	componentDidMount() {
+		this.renderPreview(this.props.node);
+	}
+
+	shouldComponentUpdate(nextProps, nextState) {
+		// render new preview only if the props changed:
+		if (this.props !== nextProps) {
+			this.renderPreview(nextProps.node);
+		}
+		return true;
+	}
+
+	async renderPreview(node) {
+		try {
+			this.setState({ rendition: await render_preview.getPreview(node) });
+		} catch (e) {
+			trace('error rendering preview', e);
+		}
+	}
+
+	render() {
+		let isMultiple = !this.props.node;
+		let noPreview = isMultiple || this.state.rendition === null;
+		let label = isMultiple ? 'MULTIPLE' : NodeType.getXDLabel(this.props.node);
+		return h(
+			'div',
+			{ 'class': 'preview-container' },
+			h(
+				'div',
+				{ 'class': `preview-canvas${noPreview ? ' multi' : ' '}` },
+				h('img', { 'class': 'preview-img', src: this.state.rendition, alt: 'preview' }),
+				h(
+					'div',
+					{ 'class': 'preview-no label' },
+					'PREVIEW NOT AVAILABLE'
+				)
+			),
+			h(
+				'span',
+				{ 'class': 'label' },
+				'SELECTION: ',
+				h(
+					'b',
+					null,
+					label.toUpperCase()
+				),
+				' '
+			),
+			h('span', { 'class': 'separator' })
+		);
+	}
+}
+
+module.exports = Preview;
+
+/***/ }),
+
+/***/ "./src/ui/render_preview.js":
+/*!**********************************!*\
+  !*** ./src/ui/render_preview.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const app = __webpack_require__(/*! application */ "application");
+const fs = __webpack_require__(/*! uxp */ "uxp").storage;
+const $ = __webpack_require__(/*! ../utils/utils */ "./src/utils/utils.js");
+
+let previewFile;
+
+function initPreview() {
+  fs.localFileSystem.getTemporaryFolder().then(folder => {
+    folder.createFile('XD_Flutter_preview.png', { overwrite: true }).then(f => {
+      previewFile = f;
+    });
+  });
+}
+initPreview();
+
+async function getPreview(node, retryCount = 0) {
+  // return null when something goes wrong, empty string for an empty preview
+  if (!node) {
+    return '';
+  }
+  if (!previewFile) {
+    return null;
+  }
+  let bounds = node.localBounds;
+  let scale = Math.min(20, 200 / bounds.height, 400 / bounds.width) * 3; // for hi-dpi
+  try {
+    await app.createRenditions([{
+      node, scale,
+      outputFile: previewFile,
+      type: app.RenditionType.PNG
+    }]);
+  } catch (e) {
+    if (retryCount > 0) {
+      await $.delay(100);
+      return await getPreview(node, retryCount - 1);
+    } else {
+      return null;
+    }
+  }
+  const data = await previewFile.read({ format: fs.formats.binary });
+  return 'data:image/png;base64,' + base64ArrayBuffer(data);
+}
+exports.getPreview = getPreview;
+
+function base64ArrayBuffer(arrayBuffer) {
+  let base64 = '';
+  const encodings = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+
+  const bytes = new Uint8Array(arrayBuffer);
+  const byteLength = bytes.byteLength;
+  const byteRemainder = byteLength % 3;
+  const mainLength = byteLength - byteRemainder;
+
+  let a, b, c, d;
+  let chunk;
+
+  // Main loop deals with bytes in chunks of 3
+  for (var i = 0; i < mainLength; i = i + 3) {
+    // Combine the three bytes into a single integer
+    chunk = bytes[i] << 16 | bytes[i + 1] << 8 | bytes[i + 2];
+
+    // Use bitmasks to extract 6-bit segments from the triplet
+    a = (chunk & 16515072) >> 18; // 16515072 = (2^6 - 1) << 18
+    b = (chunk & 258048) >> 12; // 258048   = (2^6 - 1) << 12
+    c = (chunk & 4032) >> 6; // 4032     = (2^6 - 1) << 6
+    d = chunk & 63; // 63       = 2^6 - 1
+
+    // Convert the raw binary segments to the appropriate ASCII encoding
+    base64 += encodings[a] + encodings[b] + encodings[c] + encodings[d];
+  }
+
+  // Deal with the remaining bytes and padding
+  if (byteRemainder == 1) {
+    chunk = bytes[mainLength];
+
+    a = (chunk & 252) >> 2; // 252 = (2^6 - 1) << 2
+
+    // Set the 4 least significant bits to zero
+    b = (chunk & 3) << 4; // 3   = 2^2 - 1
+
+    base64 += encodings[a] + encodings[b] + '==';
+  } else if (byteRemainder == 2) {
+    chunk = bytes[mainLength] << 8 | bytes[mainLength + 1];
+
+    a = (chunk & 64512) >> 10; // 64512 = (2^6 - 1) << 10
+    b = (chunk & 1008) >> 4; // 1008  = (2^6 - 1) << 4
+
+    // Set the 2 least significant bits to zero
+    c = (chunk & 15) << 2; // 15    = 2^4 - 1
+
+    base64 += encodings[a] + encodings[b] + encodings[c] + '=';
+  }
+
+  return base64;
+}
+
+/***/ }),
+
+/***/ "./src/ui/results.jsx":
+/*!****************************!*\
+  !*** ./src/ui/results.jsx ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const { h, Component, Fragment } = __webpack_require__(/*! preact */ "./node_modules/preact/dist/preact.module.js");
+const { resultsAlert } = __webpack_require__(/*! ./alert */ "./src/ui/alert.jsx");
+const version = __webpack_require__(/*! ../version */ "./src/version.js");
+const { shell } = __webpack_require__(/*! uxp */ "uxp");
+const { HELP_URL } = __webpack_require__(/*! ../core/constants */ "./src/core/constants.js");
+
+const iconError = __webpack_require__(/*! ./assets/icon-error.png */ "./src/ui/assets/icon-error.png");
+
+class Results extends Component {
+	constructor(props) {
+		super(props);
+	}
+
+	shouldComponentUpdate(nextProps) {
+		if (this.props.node !== nextProps.node) {
+			this.setState({ results: null });
+			return true;
+		}
+		if (this.props.context === nextProps.context) return false;
+		if (nextProps.context && nextProps.context.log) {
+			this.setState({ results: nextProps.context.log.getResults() });
+		}
+	}
+
+	render(props, state) {
+		if (!version.xdVersionOk) {
+			return h(
+				'div',
+				{ 'class': 'results-container' },
+				h(
+					'div',
+					{ 'class': 'version alert' },
+					`Version ${version.xdVersionRequired}+ of Adobe XD is required (v${version.version})`
+				)
+			);
+		}
+		if (!props.context || !state.results) {
+			return h(
+				'div',
+				{ 'class': 'results-container' },
+				h(
+					'span',
+					{ 'class': `version${version.debug ? ' alert' : ''}` },
+					`${version.label} v${version.version}`
+				),
+				h(
+					'a',
+					{ 'class': 'help', href: HELP_URL },
+					'Need help?'
+				)
+			);
+		}
+		if (!props.context.log) {
+			return h(
+				'p',
+				null,
+				'UNEXPECTED RESULT OBJECT!'
+			);
+		}
+
+		let results = state.results,
+		    errorMsg = this.getErrorMsg(results);
+		return h(
+			Fragment,
+			null,
+			results && h(
+				'div',
+				{ 'class': 'results-container' },
+				props.context.resultMessage,
+				errorMsg ? ': ' : '.',
+				errorMsg
+			)
+		);
+	}
+
+	getErrorMsg(results) {
+		if (!results) {
+			return null;
+		}
+		let count = results.errors.length,
+		    hasErrors = count > 0;
+		let noun = count ? 'error' : 'warning';
+		if (!count) {
+			count = results.warnings.length;
+		}
+		let s = count > 1 ? 's' : '';
+		return !count ? null : h(
+			'a',
+			{ onClick: () => resultsAlert(results) },
+			hasErrors ? h('img', { src: iconError.default }) : null,
+			`${count} ${noun}${s}`
+		);
+	}
+}
+
+module.exports = Results;
+
+/***/ }),
+
+/***/ "./src/ui/settings.jsx":
+/*!*****************************!*\
+  !*** ./src/ui/settings.jsx ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const { editDocument } = __webpack_require__(/*! application */ "application");
+const { h, Component, Fragment } = __webpack_require__(/*! preact */ "./node_modules/preact/dist/preact.module.js");
+
+const $ = __webpack_require__(/*! ../utils/utils */ "./src/utils/utils.js");
+const { project } = __webpack_require__(/*! ../core/project */ "./src/core/project.js");
+const NodeUtils = __webpack_require__(/*! ../utils/nodeutils */ "./src/utils/nodeutils.js");
+const { initInputHandlers, TextInputWithLabel, Label, TextInput, TextArea, Checkbox, Select } = __webpack_require__(/*! ./formutils */ "./src/ui/formutils.jsx");
+
+const NodeType = __webpack_require__(/*! ../core/nodetype */ "./src/core/nodetype.js");
+const PropType = __webpack_require__(/*! ../core/proptype */ "./src/core/proptype.js");
+const { DEFAULT_PLUGIN_DATA, DEFAULT_COLORS_CLASS_NAME, DEFAULT_CHAR_STYLES_CLASS_NAME } = __webpack_require__(/*! ../core/constants */ "./src/core/constants.js");
+const { DefaultPath } = __webpack_require__(/*! ../core/project */ "./src/core/project.js");
+const Alert = __webpack_require__(/*! ./alert */ "./src/ui/alert.jsx");
+
+const iconFolder = __webpack_require__(/*! ./assets/icon-folder.png */ "./src/ui/assets/icon-folder.png");
+const iconEdit = __webpack_require__(/*! ./assets/icon-edit.png */ "./src/ui/assets/icon-edit.png");
+const iconWarning = __webpack_require__(/*! ./assets/icon-warning.png */ "./src/ui/assets/icon-warning.png");
+const iconInfo = __webpack_require__(/*! ./assets/icon-info.png */ "./src/ui/assets/icon-info.png");
+
+const { ExportMode, ExportModeOptions, DEFAULT_CUSTOM_CODE } = __webpack_require__(/*! ../core/constants */ "./src/core/constants.js");
+
+function Settings(props) {
+    let type = NodeType.getType(props.node);
+    if (props.multi) {
+        return h(
+            "div",
+            null,
+            "Select a single element to modify settings."
+        );
+    }
+    if (isComponentInstance(props) && !hasImage(props)) {
+        return h(ComponentWarning, _extends({ key: props.node.guid }, props));
+    }
+    switch (type) {
+        case NodeType.TEXT:
+            return h(TextSettings, _extends({ key: props.node.guid }, props));
+        case NodeType.GROUP:
+            return h(GroupSettings, _extends({ key: props.node.guid }, props));
+        case NodeType.GRID:
+            return h(GridSettings, _extends({ key: props.node.guid }, props));
+        case NodeType.WIDGET:
+            return h(WidgetSettings, _extends({ key: props.node.guid }, props));
+        case NodeType.SHAPE:
+            return h(ShapeSettings, _extends({ key: props.node.guid }, props));
+        default:
+            return h(ProjectSettings, props);
+    }
+}
+module.exports = Settings;
+
+function isComponentInstance(props) {
+    return props.component && !props.component.isMaster;
+}
+
+function hasImage(props) {
+    return props.node.fill && props.node.fill instanceof xd.ImageFill;
+}
+
+class ComponentWarning extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render(_, state) {
+        return h(
+            "div",
+            { "class": "settings-container" },
+            getWarning(this.props)
+        );
+    }
+}
+
+function getWarning(props, some = false) {
+    let isComponent = props.node === props.component;
+    let type = isComponent ? 'element' : NodeType.getXDLabel(props.node);
+    return h(
+        "div",
+        { "class": "warning" },
+        some ? h("span", { "class": "separator" }) : null,
+        h(
+            "div",
+            { "class": "warning-row" },
+            h("img", { src: iconWarning.default, alt: "icon", "class": "icon" }),
+            h(
+                "div",
+                null,
+                "EDITING COMPONENT"
+            )
+        ),
+        h(
+            "div",
+            { "class": "warning-text" },
+            h(
+                "p",
+                null,
+                "The selected ",
+                type,
+                " is ",
+                isComponent ? '' : 'part of',
+                " a component instance."
+            ),
+            h(
+                "p",
+                null,
+                "To modify ",
+                some ? 'some ' : '',
+                "settings on this ",
+                type,
+                " you must edit the Master Component."
+            ),
+            h(
+                "p",
+                null,
+                "Press ",
+                h(
+                    "b",
+                    null,
+                    $.getCmdKeyStr(),
+                    "-Shift-K"
+                ),
+                " to locate the Master Component."
+            )
+        )
+    );
+}
+
+class ProjectSettings extends Component {
+    constructor(props) {
+        super(props);
+        initInputHandlers(this);
+        this.state = xd.root.pluginData || DEFAULT_PLUGIN_DATA;
+    }
+
+    setProjectFolder() {
+        editDocument(_ => project.promptForRoot());
+    }
+
+    shouldComponentUpdate() {
+        this.setState(NodeUtils.getState(xd.root));
+    }
+
+    render(_, state) {
+        return h(
+            "div",
+            { "class": "settings-container" },
+            h(Label, { label: "FLUTTER PROJECT" }),
+            h(
+                "div",
+                { "class": "project-row" },
+                h(TextInput, { name: PropType.EXPORT_PATH, placeholder: DefaultPath.ROOT, state: state, handleInput: this.handleInput, readonly: true }),
+                h(
+                    "button",
+                    { "uxp-variant": "action", onClick: this.setProjectFolder },
+                    h("img", { src: iconFolder.default, alt: "icon-folder" })
+                )
+            ),
+            h(TextInputWithLabel, {
+                name: PropType.CODE_PATH,
+                label: "CODE PATH",
+                placeholder: DefaultPath.CODE,
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsCleanPath }),
+            h(TextInputWithLabel, {
+                name: PropType.IMAGE_PATH,
+                label: "IMAGE PATH",
+                placeholder: DefaultPath.IMAGE,
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsCleanPath }),
+            h(TextInputWithLabel, {
+                name: PropType.WIDGET_PREFIX,
+                label: "WIDGET NAME PREFIX",
+                placeholder: "",
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName }),
+            h("span", { "class": "separator" }),
+            h(
+                "label",
+                { "class": "label" },
+                "SETTINGS"
+            ),
+            h(
+                "div",
+                { "class": "wrapping-row" },
+                h(Checkbox, {
+                    name: PropType.ENABLE_PROTOTYPE,
+                    label: "Prototype Interactions",
+                    state: state,
+                    handleInput: this.handleInput }),
+                h(Checkbox, {
+                    name: PropType.RESOLUTION_AWARE,
+                    label: "Resolution Aware Images",
+                    state: state,
+                    handleInput: this.handleInput }),
+                h(Checkbox, {
+                    name: PropType.NULL_SAFE,
+                    label: "Export Null Safe Code",
+                    state: state,
+                    handleInput: this.handleInput }),
+                h(Checkbox, {
+                    name: PropType.NORMALIZE_NAME_CASE,
+                    label: "Normalize Names",
+                    state: state,
+                    handleInput: this.handleInput }),
+                h(Checkbox, {
+                    name: PropType.INCLUDE_NAME_COMMENTS,
+                    label: "Layer Name Comments",
+                    state: state,
+                    handleInput: this.handleInput })
+            ),
+            h("span", { "class": "separator" }),
+            h(
+                "label",
+                { "class": "label" },
+                "EXPORT ASSETS"
+            ),
+            h(Checkbox, {
+                name: PropType.EXPORT_COLORS,
+                label: "Colors",
+                state: state,
+                handleInput: this.handleInput }),
+            !state[PropType.EXPORT_COLORS] ? null : h(TextInput, {
+                name: PropType.COLORS_CLASS_NAME,
+                placeholder: DEFAULT_COLORS_CLASS_NAME,
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName }),
+            h(Checkbox, {
+                name: PropType.EXPORT_CHAR_STYLES,
+                label: "Character Styles",
+                state: state,
+                handleInput: this.handleInput }),
+            !state[PropType.EXPORT_CHAR_STYLES] ? null : h(TextInput, {
+                name: PropType.CHAR_STYLES_CLASS_NAME,
+                placeholder: DEFAULT_CHAR_STYLES_CLASS_NAME,
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName })
+        );
+    }
+}
+
+class TextSettings extends Component {
+    constructor(props) {
+        super(props);
+        initInputHandlers(this);
+        let state = this.props.node.pluginData || {};
+        state.flutterFont = NodeUtils.getFlutterFont(this.props.node.fontFamily);
+        this.state = state;
+    }
+
+    shouldComponentUpdate(nextProps) {
+        let state = nextProps.node.pluginData || {};
+        state[PropType.FLUTTER_FONT] = NodeUtils.getFlutterFont(nextProps.node.fontFamily);
+        this.setState(state);
+    }
+
+    render(_, state) {
+        return h(
+            "div",
+            { "class": "settings-container" },
+            h(TextInputWithLabel, {
+                name: PropType.FLUTTER_FONT,
+                label: "FLUTTER FONT",
+                placeholder: this.props.node.fontFamily,
+                state: state,
+                handleInput: this.handleInput }),
+            h(TextInputWithLabel, {
+                name: PropType.TEXT_PARAM_NAME,
+                label: "TEXT PARAMETER",
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName }),
+            h(TextInputWithLabel, {
+                name: PropType.COLOR_PARAM_NAME,
+                label: "COLOR PARAMETER",
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName })
+        );
+    }
+}
+
+class WidgetSettings extends Component {
+    constructor(props) {
+        super(props);
+        initInputHandlers(this);
+        this.state = props.node.pluginData || { [PropType.INCLUDE_IN_EXPORT_PROJECT]: true };
+    }
+
+    shouldComponentUpdate() {
+        // this is necessary to react to Undo
+        this.setState(NodeUtils.getState(this.props.node));
+    }
+
+    render(_, state) {
+        let isComponent = this.props.node instanceof xd.SymbolInstance;
+        return h(
+            "div",
+            { "class": "settings-container" },
+            h(Checkbox, {
+                name: PropType.INCLUDE_IN_EXPORT_PROJECT,
+                label: "Include in Export All Widgets",
+                state: state,
+                handleInput: this.handleInput }),
+            h(TextInputWithLabel, {
+                name: PropType.WIDGET_NAME,
+                label: "WIDGET NAME",
+                placeholder: NodeUtils.getDefaultWidgetName(this.props.node),
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName }),
+            isComponent && h(TextInputWithLabel, {
+                name: PropType.TAP_CALLBACK_NAME,
+                label: "TAP CALLBACK NAME",
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName })
+        );
+    }
+}
+
+class GridSettings extends Component {
+    constructor(props) {
+        super(props);
+        initInputHandlers(this);
+        this.state = props.node.pluginData || {};
+    }
+
+    shouldComponentUpdate() {
+        // this is necessary to react to Undo
+        this.setState(NodeUtils.getState(this.props.node));
+    }
+
+    render(_, state) {
+        let hasParam = !!state[PropType.DATA_PARAM_NAME];
+        return h(
+            "div",
+            { "class": "settings-container" },
+            h(TextInputWithLabel, {
+                name: PropType.DATA_PARAM_NAME,
+                label: "DATA PARAMETER",
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName }),
+            !hasParam ? null : h(
+                "p",
+                { "class": "note" },
+                h("img", { src: iconInfo.default }),
+                " the data parameter value will default to an empty list."
+            )
+        );
+    }
+}
+
+class ShapeSettings extends Component {
+    constructor(props) {
+        super(props);
+        initInputHandlers(this);
+        let state = props.node.pluginData || {};
+        state[PropType.IMAGE_FILL_NAME] = NodeUtils.getImageName(props.node);
+        this.state = state;
+    }
+
+    shouldComponentUpdate(nextProps) {
+        let state = nextProps.pluginData || {};
+        state[PropType.IMAGE_FILL_NAME] = NodeUtils.getImageName(nextProps.node);
+        this.setState(state);
+        return true;
+    }
+
+    render(_, state) {
+        return !hasImage(this.props) ? null : h(
+            "div",
+            { "class": "settings-container" },
+            h(TextInputWithLabel, {
+                name: PropType.IMAGE_FILL_NAME,
+                label: "IMAGE EXPORT NAME",
+                state: state,
+                handleInput: this.handleInput }),
+            isComponentInstance(this.props) ? getWarning(this.props, true) : h(TextInputWithLabel, {
+                name: PropType.IMAGE_PARAM_NAME,
+                label: "IMAGE PARAMETER",
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName })
+        );
+    }
+}
+
+class GroupSettings extends Component {
+    constructor(props) {
+        super(props);
+        initInputHandlers(this);
+        this.state = props.node.pluginData || {};
+    }
+
+    shouldComponentUpdate() {
+        // this is necessary to react to Undo
+        this.setState(NodeUtils.getState(this.props.node));
+    }
+
+    render(_, state) {
+        return h(
+            "div",
+            { "class": "settings-container" },
+            h(Select, {
+                name: PropType.EXPORT_MODE,
+                options: ExportModeOptions,
+                "default": true,
+                state: state,
+                handleInput: this.handleInput }),
+            this.renderModeOptions(state)
+        );
+    }
+
+    renderModeOptions(state) {
+        let arr = [],
+            mode = state[PropType.EXPORT_MODE];
+        if (mode === ExportMode.CUSTOM) {
+            let code = state[PropType.CUSTOM_CODE] || DEFAULT_CUSTOM_CODE;
+            arr.push(h(
+                "div",
+                { "class": "customcode-row" },
+                h(TextArea, {
+                    name: PropType.CUSTOM_CODE,
+                    state: state,
+                    placeholder: DEFAULT_CUSTOM_CODE,
+                    handleInput: this.handleInput,
+                    onBlur: this.handleBlurAsCustomCode }),
+                h(
+                    "button",
+                    {
+                        "uxp-variant": "action",
+                        onClick: () => this.openCodeEditor(code) },
+                    h("img", { src: iconEdit.default, alt: "icon-edit" })
+                )
+            ));
+        }
+        if (mode === ExportMode.METHOD || mode === ExportMode.BUILDER) {
+            arr.push(h(TextInput, {
+                name: PropType.BUILD_METHOD_NAME,
+                placeholder: NodeUtils.getDefaultBuildMethodName(this.props.node),
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName }));
+        }
+        if (mode === ExportMode.METHOD || mode === ExportMode.INLINE || mode == null) {
+
+            arr.push(h(TextInputWithLabel, {
+                name: PropType.TAP_CALLBACK_NAME,
+                label: "TAP CALLBACK NAME",
+                state: state,
+                handleInput: this.handleInput,
+                onBlur: this.handleBlurAsClassName }));
+
+            arr.push(h(Checkbox, {
+                name: PropType.COMBINE_SHAPES,
+                label: "Combine Shapes",
+                state: state,
+                handleInput: this.handleInput }));
+        }
+
+        return arr;
+    }
+
+    async openCodeEditor(code) {
+        await Alert.codeEditorAlert(code, value => {
+            let name = PropType.CUSTOM_CODE;
+            if (value === DEFAULT_CUSTOM_CODE) {
+                value = null;
+            } else {
+                value = $.cleanCustomCode(value);
+            }
+            editDocument({ editLabel: "Updated Flutter Data" }, _ => {
+                this.state[name] = value;
+                NodeUtils.setState(this.props.node, this.state);
+            });
+            this.setState({ [name]: value });
+        });
+    }
+}
+
+/***/ }),
+
+/***/ "./src/ui/styles.styl":
+/*!****************************!*\
+  !*** ./src/ui/styles.styl ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/stylus-loader!./styles.styl */ "./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader/index.js!./src/ui/styles.styl");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(module.i, content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
+/***/ "./src/utils/debug.js":
+/*!****************************!*\
+  !*** ./src/utils/debug.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const { formatDart } = __webpack_require__(/*! ../lib/dart_style */ "../lib/dart_style");
+const $ = __webpack_require__(/*! ./utils */ "./src/utils/utils.js");
+const version = __webpack_require__(/*! ../version */ "./src/version.js");
+
+function trace(...rest) {
+	version.debug && console.log(...rest);
+}
+exports.trace = trace;
+
+function _printParameters(n, depth) {
+	let d = depth || 0;
+	let t = "";
+	for (let i = 0; i < d; ++i) t += "  ";
+	trace(`${t}node - ${n.constructor.name}`);
+	if (n.parameters) {
+		let values = Object.entries(n.parameters);
+		for (let [key, value] of values) {
+			trace(`    ${t}${key}`);
+		}
+	}
+	if (n.children) {
+		n.children.forEach(child => {
+			printParameters(child, d + 1);
+		});
+	}
+}
+exports._printParameters = _printParameters;
+
+function _printTree(node, t = "") {
+	let str = `\n${t}${node.xdNode.name}(${node.constructor.name}, ${node.xdNode.constructor.name})`;
+	let kids = node.children;
+	for (var i = 0; kids && i < kids.length; i++) {
+		str += _printTree(kids[i], t + "\t");
+	}
+	if (!t) {
+		trace(str);
+	}
+	return str;
+}
+exports._printTree = _printTree;
+
+// Everything below is designed to be used as a menu item:
+
+function _dumpLayoutData(selection, root) {
+	let xdNode = selection.items[0];
+	console.clear();
+	trace(JSON.stringify(xdNode.layout, null, "\t"));
+}
+exports._dumpLayoutData = _dumpLayoutData;
+
+function _imageFlipTest(selection, root) {
+	let items = selection.items,
+	    imgSrc,
+	    target;
+	for (let i = 0; i < items.length; i++) {
+		let o = items[i];
+		if (o.fill instanceof xd.ImageFill) {
+			imgSrc = o;
+		} else if (o instanceof xd.Rectangle) {
+			target = o;
+		}
+	}
+	if (!imgSrc || !target) {
+		trace("select two rectangles, one with an image fill, one without.");return;
+	}
+	target.fill = imgSrc.fill;
+	trace("src matrix:", imgSrc.transform);
+}
+exports._imageFlipTest = _imageFlipTest;
+
+function _dumpTransformData(selection, root) {
+	console.clear();
+	__dumpTransformData(selection.items);
+	trace("***** Calculated values: *****");
+	_calculateTransform(selection, root);
+}
+exports._dumpTransformData = _dumpTransformData;
+
+function __dumpTransformData(items, t = "") {
+	if (!items || !items.length) {
+		return;
+	}
+	items.forEach(o => {
+		trace(`${t}-> ${o.name}`);
+		trace(`${t} • topLeftInParent: ${__pointToString(o.topLeftInParent)}`);
+		trace(`${t} • rotation: ${$.fix(o.rotation)}`);
+		trace(`${t} • localBounds: ${__rectToString(o.localBounds)}`);
+		trace(`${t} • boundsInParent: ${__rectToString(o.boundsInParent)}`);
+		trace(`${t} • matrix: ${o.transform}`);
+		__dumpTransformData(o.children, t + "  ");
+	});
+}
+
+function _calculateTransform(selection, root) {
+	__calculateTransform(selection.items);
+}
+
+function __calculateTransform(items, t = "") {
+	if (!items || !items.length) {
+		return;
+	}
+	items.forEach(o => {
+		// Artboards always return 0,0,w,h for their localBounds, even when content exceeds the canvas edges
+		let lb = o.localBounds,
+		    pb = o.parent.localBounds,
+		    tl = o.topLeftInParent;
+		if (o instanceof xd.Artboard) {
+			tl = pb = { x: 0, y: 0 };
+		}
+		let rect = {
+			x: tl.x - pb.x,
+			y: tl.y - pb.y,
+			width: lb.width,
+			height: lb.height
+		};
+		trace(`${t}-> ${o.name}`);
+		trace(`${t} • rotation: ${$.fix(o.rotation)}`);
+		trace(`${t} • rect: ${__rectToString(rect)}`);
+		__calculateTransform(o.children, t + "  ");
+	});
+}
+
+function __rectToString(o) {
+	return `{x:${$.fix(o.x)}, y:${$.fix(o.y)}, w:${$.fix(o.width)}, h:${$.fix(o.height)}}`;
+}
+
+function __pointToString(o) {
+	return `{x:${$.fix(o.x)}, y:${$.fix(o.y)}}}`;
+}
+
+async function _printdumpNodePluginData(selection, root) {
+	let _dumpPluginData = (pluginData, depth) => {
+		if (!pluginData) return;
+		let t = "";
+		for (let i = 0; i < depth; ++i) t += "  ";
+		for (let [k, v] of Object.entries(pluginData)) {
+			trace(`${t}${k} => ${v}`);
+		}
+	};
+	let _dumpNodePluginData = (xdNode, depth) => {
+		if (!xdNode) return;
+		let d = depth || 0;
+		_dumpPluginData(xdNode.pluginData, d);
+		xdNode.children.forEach(child => {
+			_dumpNodePluginData(child, d + 1);
+		});
+	};
+	for (let i = 0; i < selection.items.length; ++i) {
+		let item = selection.items[i];
+		_dumpNodePluginData(item);
+	}
+}
+exports._printdumpNodePluginData = _printdumpNodePluginData;
+
+/* for performance testing the formatDart method: */
+async function _testDartStyle(selection, root) {
+	let el = selection.items[0];
+	if (!(el instanceof xd.Text)) {
+		trace("select text");return;
+	}
+	let str = el.text,
+	    count = 0,
+	    maxT = 1000,
+	    result;
+	let t = Date.now();
+	while (Date.now() - t < maxT) {
+		result = formatDart(str);
+		count++;
+	}
+	t = Date.now() - t;
+	trace(result);
+	trace("-------------------");
+	trace(str.length + " characters formatted");
+	trace(count + " iterations took " + t + "ms (avg: " + (t / count).toFixed(1) + "ms)");
+}
+exports._testDartStyle = _testDartStyle;
+
+/***/ }),
+
+/***/ "./src/utils/exportutils.js":
+/*!**********************************!*\
+  !*** ./src/utils/exportutils.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const assets = __webpack_require__(/*! assets */ "assets");
+
+const $ = __webpack_require__(/*! ./utils */ "./src/utils/utils.js");
+const { getImagePath } = __webpack_require__(/*! ../core/image_export */ "./src/core/image_export.js");
+
+exports.DartType = Object.freeze({
+	BOOL: "bool",
+	COLOR: "Color",
+	IMAGE: "ImageProvider",
+	STRING: "String",
+	TAP_CB: "VoidCallback",
+	BUILDER: "WidgetBuilder",
+	GRID_DATA: "List<Map<String, dynamic>>"
+});
+
+function getColor(color, opacity = 1.0) {
+	if (color == null || opacity <= 0) {
+		return "Colors.transparent";
+	}
+	return "const Color(0x" + $.getARGBHexWithOpacity(color, opacity) + ")";
+}
+exports.getColor = getColor;
+
+function getAssetImage(xdNode, ctx) {
+	let path = getImagePath(xdNode);
+	if (!path && ctx) {
+		ctx.log.warn('Image does not have a Flutter image name.', xdNode);
+	}
+	return `const AssetImage('${path || ''}')`;
+}
+exports.getAssetImage = getAssetImage;
+
+function getString(str) {
+	return `'${$.escapeString(str)}'`;
+}
+exports.getString = getString;
+
+function getGradientParam(fill, opacity) {
+	let gradient = getGradient(fill, opacity);
+	return gradient ? `gradient: ${gradient}, ` : '';
+}
+exports.getGradientParam = getGradientParam;
+
+function getGradient(fill, opacity) {
+	// Note: XD API docs say this should be called `LinearGradientFill`
+	return fill instanceof xd.LinearGradient ? _getLinearGradient(fill, opacity) : fill instanceof xd.RadialGradient ? _getRadialGradient(fill, opacity) : fill instanceof xd.AngularGradient ? _getSweepGradient(fill, opacity) : '';
+}
+exports.getGradient = getGradient;
+
+function getGradientFromAsset(xdColorAsset) {
+	return `const ${getGradientTypeFromAsset(xdColorAsset)}(` + _getColorsParam(xdColorAsset.colorStops) + ')';
+}
+exports.getGradientFromAsset = getGradientFromAsset;
+
+function getGradientTypeFromAsset(xdColorAsset) {
+	return xdColorAsset.gradientType === assets.RADIAL ? "RadialGradient" : "LinearGradient";
+}
+exports.getGradientTypeFromAsset = getGradientTypeFromAsset;
+
+function getScrollView(childStr, node, ctx) {
+	return 'SingleChildScrollView(' + 'primary: false,' + // avoid vertical scroll views on desktop trying to share PrimaryScrollController.
+	_getScrollDirectionParam(node, ctx) + `child: ${childStr}, ` + ')';
+}
+exports.getScrollView = getScrollView;
+
+function getAlignment(x, y) {
+	// XD uses 0 to 1, Flutter uses -1 to +1.
+	return `Alignment(${$.fix(x * 2 - 1, 3)}, ${$.fix(y * 2 - 1, 3)})`;
+}
+exports.getAlignment = getAlignment;
+
+function _getLinearGradient(fill, opacity = 1) {
+	return 'LinearGradient(' + `begin: ${getAlignment(fill.startX, fill.startY)},` + `end: ${getAlignment(fill.endX, fill.endY)},` + _getColorsParam(fill.colorStops, opacity) + ')';
+}
+
+function _getRadialGradient(fill, opacity = 1) {
+	// Flutter always draws relative to the shortest edge, whereas XD draws the gradient
+	// stretched to the aspect ratio of its container.
+	return 'RadialGradient(' + `center: ${getAlignment(fill.startX, fill.startY)}, ` + (fill.startX === fill.endX && fill.startY === fill.endY ? '' : `focal: ${getAlignment(fill.endX, fill.endY)}, `) + (fill.startR === 0 ? '' : `focalRadius: ${$.fix(fill.startR, 3)}, `) + `radius: ${$.fix(fill.endR, 3)}, ` + _getColorsParam(fill.colorStops, opacity) + _getTransformParam(fill) + ')';
+}
+
+function _getSweepGradient(fill, opacity = 1) {
+	// Flutter's SweepGradient always starts at 0 deg (right). `startAngle` only affects color placement.
+	// Also, `transform` is multiplied against the `center`.
+	// As such, we need to rotate & move the gradient via GradientXDTransform
+
+	return 'SweepGradient(' + `center: ${getAlignment(fill.startX, fill.startY)}, ` + `startAngle: 0.0, endAngle: ${$.fix(Math.PI * 2, 4)}, ` + _getColorsParam(fill.colorStops, opacity) + _getTransformParam(fill, _getRotationMtx(fill.rotation / 180 * Math.PI)) + ')';
+}
+
+function _getColorsParam(arr, opacity) {
+	let l = arr.length,
+	    stops = [],
+	    colors = [];
+	for (let i = 0; i < l; i++) {
+		let s = arr[i];
+		stops.push($.fix(s.stop, 3));
+		colors.push(getColor(s.color, opacity));
+	}
+	return `colors: [${colors.join(", ")}], stops: [${stops.join(", ")}], `;
+}
+
+function _getTransformParam(fill, mtx) {
+	// The GradientXDTransform is needed even if there is no transformation in order to fix the aspect ratio.
+	let o = mtx || fill.gradientTransform;
+	return 'transform: GradientXDTransform(' + `${$.fix(o.a, 3)}, ${$.fix(o.b, 3)}, ${$.fix(o.c, 3)}, ` + `${$.fix(o.d, 3)}, ${$.fix(o.e, 3)}, ${$.fix(o.f, 3)}, ` + `${getAlignment(fill.startX, fill.startY)}), `;
+}
+
+function _getRotationMtx(r) {
+	return {
+		a: Math.cos(r), b: Math.sin(r), e: 0,
+		c: -Math.sin(r), d: Math.cos(r), f: 0
+	};
+}
+
+function _getScrollDirectionParam(node, ctx) {
+	let dir = node.xdNode.scrollingType;
+	if (dir === xd.ScrollableGroup.PANNING) {
+		ctx.log.warn("Panning scroll groups are not supported.", node.xdNode);
+	}
+	return dir === xd.ScrollableGroup.HORIZONTAL ? "scrollDirection: Axis.horizontal, " : "";
+}
+
+/***/ }),
+
+/***/ "./src/utils/layoututils.js":
+/*!**********************************!*\
+  !*** ./src/utils/layoututils.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+/*
+This file comprises a number of helper functions for getting, translating
+or normalizing XD API values related to layout or transformation.
+*/
+
+const $ = __webpack_require__(/*! ./utils */ "./src/utils/utils.js");
+
+function addSizedBox(nodeStr, size, ctx) {
+	return `SizedBox(width: ${$.fix(size.width, 0)}, height: ${$.fix(size.height, 0)}, child: ${nodeStr},)`;
+}
+exports.addSizedBox = addSizedBox;
+
+function getGroupContentBounds(xdNode, ctx) {
+	// adjusts group bounds to account for inner padding.
+	let b = xdNode.localBounds;
+	let pad = normalizePadding(xdNode.layout.padding && xdNode.layout.padding.values);
+
+	return !pad ? b : {
+		x: b.x + pad.left,
+		y: b.y + pad.top,
+		width: b.width - pad.left - pad.right,
+		height: b.height - pad.top - pad.bottom
+	};
+}
+exports.getGroupContentBounds = getGroupContentBounds;
+
+function getAdjustedBounds(xdNode, ctx) {
+	// finds the untransformed bounds within the parent, adjusting for parent padding and scrolling
+
+	// Note: Artboards always return x/y=0 & w/h = specified size for localBounds, even if children exceed edges.
+	let bip = xdNode.boundsInParent,
+	    lb = xdNode.localBounds;
+	let parent = xdNode.parent,
+	    pb = parent.localBounds;
+
+	// calculate the untransformed top left corner, by finding the center
+	// and subtracting half the untransformed w & h:
+	let x = bip.x + bip.width / 2 - lb.width / 2;
+	let y = bip.y + bip.height / 2 - lb.height / 2;
+	let b = {
+		x: x - pb.x,
+		y: y - pb.y,
+		width: lb.width,
+		height: lb.height
+
+		// adjust for parent padding:
+	};let pad = normalizePadding(parent.layout.padding && parent.layout.padding.values);
+	if (pad) {
+		b.x -= pad.left;
+		b.y -= pad.top;
+	}
+
+	// adjust for scrolling:
+	let offset = getScrollOffset(xdNode.parent, ctx);
+	if (offset) {
+		b.x += offset.x;
+		b.y += offset.y;
+	}
+
+	return b;
+}
+exports.getAdjustedBounds = getAdjustedBounds;
+
+function getScrollOffset(xdNode, ctx) {
+	let vp = xdNode.viewport;
+	if (!vp) {
+		return null;
+	}
+	return { x: vp.offsetX || 0, y: vp.offsetY || 0 };
+}
+exports.getScrollOffset = getScrollOffset;
+
+function normalizePadding(pad) {
+	// XD padding can be a rect object or a single value
+	// returns null if no padding, otherwise returns a rect object
+	if (!pad) {
+		return null;
+	}
+	if (isNaN(pad)) {
+		return pad;
+	} // already a rect
+	return { top: pad, right: pad, bottom: pad, left: pad, homogenous: true };
+}
+exports.normalizePadding = normalizePadding;
+
+function mergeBounds(xdNodes) {
+	if (!xdNodes || xdNodes.length === 0) {
+		return null;
+	}
+	let o = { l: null, t: null, b: null, r: null };
+	xdNodes.forEach(node => {
+		let bip = node.boundsInParent;
+		let l = bip.x,
+		    t = bip.y,
+		    r = l + bip.width,
+		    b = t + bip.height;
+		if (o.l === null || l < o.l) {
+			o.l = l;
+		}
+		if (o.t === null || t < o.t) {
+			o.t = t;
+		}
+		if (o.r === null || r > o.r) {
+			o.r = r;
+		}
+		if (o.b === null || b > o.b) {
+			o.b = b;
+		}
+	});
+	return { x: o.l, y: o.t, width: o.r - o.l, height: o.b - o.t };
+}
+exports.mergeBounds = mergeBounds;
+
+function normalizeSpacings(spaces, length) {
+	// XD spacing can be a list or a single value, this method always returns an Array
+	// the value "arrays" XD returns aren't actually of type Array:
+	if (spaces.map) {
+		return spaces.map(o => o);
+	}
+	if (spaces == null) {
+		spaces = 0;
+	}
+	return Array(length).fill(spaces);
+}
+exports.normalizeSpacings = normalizeSpacings;
+
+function hasComplexTransform(node, error, ctx) {
+	let o = node.transform;
+	if (!o.flipY && o.rotation % 360 === 0) {
+		return false;
+	}
+	if (error && ctx) {
+		ctx.log.warn(error, node.xdNode);
+	}
+	return true;
+}
+exports.hasComplexTransform = hasComplexTransform;
+
+/***/ }),
+
+/***/ "./src/utils/nameutils.js":
+/*!********************************!*\
+  !*** ./src/utils/nameutils.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const $ = __webpack_require__(/*! ./utils */ "./src/utils/utils.js");
+
+exports.DART_RESERVED_WORDS = [
+// reserved words:
+"assert", "break", "case", "catch", "class", "const", "continue", "default", "do", "else", "enum", "extends", "false", "final", "finally", "for", "if", "in", "is", "new", "null", "rethrow", "return", "super", "switch", "this", "throw", "true", "try", "var", "void", "while", "with",
+// keywords:
+"async", "hide", "on", "show", "sync",
+// identifiers:
+"abstract", "as", "covariant", "deferred", "export", "factory", "Function", "get", "implements", "import", "interface", "library", "mixin", "operator", "part", "set", "static", "typedef", "await", "yield",
+// types:
+"bool", "double", "dynamic", "int", "List", "Map", "String"];
+
+exports.DART_RESERVED_WORDS_MAP = $.buildMap(exports.DART_RESERVED_WORDS);
+
+// clean a Dart name without consideration for case:
+function cleanDartName(name) {
+   if (!name) {
+      return "";
+   }
+   name = name.replace(/^[\W\d]+|\W/ig, '');
+   if (exports.DART_RESERVED_WORDS_MAP[name]) {
+      name += "_";
+   }
+   return name;
+}
+exports.cleanDartName = cleanDartName;
+
+function cleanClassName(name, fixCase = true) {
+   if (!fixCase) {
+      return cleanDartName(name);
+   }
+   let words = findWords(name),
+       n = "";
+   for (let i = 0; i < words.length; i++) {
+      let word = words[i];
+      if (!word) {
+         continue;
+      }
+      n += word[0].toUpperCase() + word.slice(1);
+   }
+   return cleanDartName(n);
+}
+exports.cleanClassName = cleanClassName;
+
+// just a class name with a lowercase first char:
+function cleanIdentifierName(name, fixCase = true) {
+   if (!(name = cleanClassName(name, fixCase))) {
+      return name;
+   }
+   // TODO: catch things like: ADBTester --> adbTester instead of aDBTester? Less important than for file names
+   return name[0].toLowerCase() + name.slice(1);
+}
+exports.cleanIdentifierName = cleanIdentifierName;
+
+function cleanFileName(name, fixCase = true) {
+   // remove bad chars including /
+   if (!(name = name.replace(/[\/\\:*?"<>|#]]+/ig, '')) || !fixCase) {
+      return name;
+   }
+   let words = findWords(name),
+       n = "",
+       prev;
+   for (let i = 0; i < words.length; i++) {
+      let word = words[i];
+      if (!word) {
+         continue;
+      }
+      // catch things like: ADBTester --> adb_tester instead of a_d_b_tester
+      if (isSingleCap(word) && isSingleCap(prev)) {} else if (i > 0) {
+         n += "_";
+      }
+      prev = word;
+      n += word.toLowerCase();
+   }
+   return n;
+}
+exports.cleanFileName = cleanFileName;
+
+function pushNonEmpty(arr, val) {
+   if (val) {
+      arr.push(val);
+   }
+}
+
+function findWords(str) {
+   if (!str) {
+      return [];
+   }
+   let re = /[-A-Z_ ]/g,
+       arr = [],
+       i = 0,
+       o;
+   while (o = re.exec(str)) {
+      let c = o[0];
+      pushNonEmpty(arr, str.slice(i, re.lastIndex - 1));
+      i = re.lastIndex - 1;
+      if (c === "-" || c === "_" || c === " ") {
+         ++i;
+      }
+   }
+   pushNonEmpty(arr, str.slice(i));
+   return arr;
+}
+
+function isSingleCap(str) {
+   if (!str || str.length !== 1) {
+      return false;
+   }
+   return str.toLowerCase() !== str;
+}
+
+/***/ }),
+
+/***/ "./src/utils/nodeutils.js":
+/*!********************************!*\
+  !*** ./src/utils/nodeutils.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const xd = __webpack_require__(/*! scenegraph */ "scenegraph");
+const $ = __webpack_require__(/*! ./utils */ "./src/utils/utils.js");
+const { cleanClassName, cleanDartName } = __webpack_require__(/*! ../utils/nameutils */ "./src/utils/nameutils.js");
+const PropType = __webpack_require__(/*! ../core/proptype */ "./src/core/proptype.js");
+const { DEFAULT_CLASS_PREFIX } = __webpack_require__(/*! ../core/constants */ "./src/core/constants.js");
+
+function getContainingComponent(xdNode, inclusive = false) {
+	if (!xdNode || xdNode === xd.root) {
+		return null;
+	}
+	if (inclusive && xdNode instanceof xd.SymbolInstance) {
+		return xdNode;
+	}
+	return getContainingComponent(xdNode.parent, true);
+}
+exports.getContainingComponent = getContainingComponent;
+
+function getOpacity(xdNode) {
+	// TODO: CE: Calculate opacity based off of parents compositing mode (whether or not it exports a blend mask widget that has it's own opacity and forces compositing)
+	let o = xdNode,
+	    opacity = 1.0;
+	while (o) {
+		if (o.opacity != null) {
+			opacity *= o.opacity;
+		}
+		o = o.parent;
+	}
+	return opacity;
+}
+exports.getOpacity = getOpacity;
+
+function getProp(xdNode, prop) {
+	let o = xdNode.pluginData;
+	return o && o[prop];
+}
+exports.getProp = getProp;
+
+function setProp(xdNode, prop, value) {
+	let o = xdNode.pluginData || {};
+	o[prop] = value;
+	xdNode.pluginData = o;
+}
+exports.setProp = setProp;
+
+function getInteractionCount(xdNode) {
+	if (!xdNode || !xdNode.triggeredInteractions) {
+		return 0;
+	}
+	let enabled = getProp(xd.root, PropType.ENABLE_PROTOTYPE);
+	return enabled === false ? 0 : xdNode.triggeredInteractions.length;
+}
+exports.getInteractionCount = getInteractionCount;
+
+function getFlutterFont(font) {
+	let o = xd.root.pluginData;
+	return o && o.fontMap && o.fontMap[font] || null;
+}
+exports.getFlutterFont = getFlutterFont;
+
+function setFlutterFont(xdFont, flutterFont) {
+	let o = xd.root.pluginData || {};
+	if (!o.fontMap) {
+		o.fontMap = {};
+	}
+	o.fontMap[xdFont] = flutterFont;
+	xd.root.pluginData = o;
+}
+exports.setFlutterFont = setFlutterFont;
+
+function getWidgetName(xdNode) {
+	if (!isWidget(xdNode)) {
+		return null;
+	}
+	let name = getProp(xdNode, PropType.WIDGET_NAME) || getDefaultWidgetName(xdNode);
+	return cleanDartName(_getWidgetPrefix() + name);
+}
+exports.getWidgetName = getWidgetName;
+
+function getDefaultWidgetName(xdNode) {
+	if (!isWidget(xdNode)) {
+		return null;
+	}
+	return cleanClassName(xdNode.name, _getNormalizeNames());
+}
+exports.getDefaultWidgetName = getDefaultWidgetName;
+
+function getDefaultBuildMethodName(xdNode) {
+	return "build" + cleanClassName(xdNode.name, _getNormalizeNames());
+}
+exports.getDefaultBuildMethodName = getDefaultBuildMethodName;
+
+function _getWidgetPrefix() {
+	let o = xd.root.pluginData;
+	return o ? o[PropType.WIDGET_PREFIX] || '' : DEFAULT_CLASS_PREFIX;
+}
+
+function isWidget(xdNode) {
+	// returns true if the xdNode is an exportable widget.
+	return xdNode instanceof xd.Artboard || xdNode instanceof xd.SymbolInstance && xdNode.isMaster;
+}
+exports.isWidget = isWidget;
+
+function getImageName(xdNode) {
+	if (!xdNode.fill) {
+		return null;
+	}
+	let name,
+	    hash = getImageHash(xdNode),
+	    id = getImageId(xdNode);
+	let o = xd.root.pluginData,
+	    map = o && o.imageMap;
+	if (id) {
+		name = map && map[id];
+	}
+	if (!name && hash) {
+		// for backwards compatibility.
+		name = map && map[hash];
+	}
+	return name || getProp(xdNode, PropType.IMAGE_FILL_NAME) || null;
+}
+exports.getImageName = getImageName;
+
+function setImageName(xdNode, name) {
+	let hash = getImageHash(xdNode);
+	if (hash) {
+		// set in both the global hash, and on the instance
+		// in case a future version of XD breaks the hash again.
+		let o = xd.root.pluginData || {};
+		if (!o.imageMap) {
+			o.imageMap = {};
+		}
+		o.imageMap[getImageId(xdNode)] = name;
+		xd.root.pluginData = o;
+	}
+	setProp(xdNode, PropType.IMAGE_FILL_NAME, name);
+}
+exports.setImageName = setImageName;
+
+function setState(xdNode, value) {
+	xdNode.pluginData = value;
+}
+exports.setState = setState;
+
+function getState(xdNode) {
+	return xdNode.pluginData || {};
+}
+exports.getState = getState;
+
+function getImageId(xdNode) {
+	return xdNode.fill && xdNode.fill.assetId;
+}
+
+function getImageHash(xdNode) {
+	// This only works on images that have been dragged into XD from the file system.
+	let path = _getImageFillName(xdNode.fill);
+	return path ? $.getHash(path) : null;
+}
+exports.getImageHash = getImageHash;
+
+function _getImageFillName(fill) {
+	if (!fill) {
+		return null;
+	}
+	// this is a huge hack, because ImageFill doesn't have a .file property
+	let fillStr = fill.toString().replace(/\\/g, '/');
+	// as of XD29, this returns a file name & dimensions
+	let match = /ImageFill\(([^<][^(]+)\)/.exec(fillStr);
+	return match ? match[1] : null;
+}
+
+function getShapeDataName(shape, ctx) {
+	return '_svg_' + cleanDartName(shape.getSvgId(ctx));
+}
+exports.getShapeDataName = getShapeDataName;
+
+function _getNormalizeNames() {
+	return !!getProp(xd.root, PropType.NORMALIZE_NAME_CASE);
+}
+
+/***/ }),
+
+/***/ "./src/utils/utils.js":
+/*!****************************!*\
+  !*** ./src/utils/utils.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const os = __webpack_require__(/*! os */ "os"); // used by getCmdKeyStr
+
+function fix(num, digits = 1) {
+	let p = Math.pow(10, digits);
+	num = Math.round(num * p) / p;
+	return num + (num === (num | 0) ? '.0' : '');
+}
+exports.fix = fix;
+
+function capitalize(str) {
+	return str[0].toUpperCase() + str.substr(1);
+}
+exports.capitalize = capitalize;
+
+function shorten(str, length) {
+	return str && str.length > length ? str.substr(0, length - 1) + "…" : str;
+}
+exports.shorten = shorten;
+
+function getColorComponent(val) {
+	return (val < 0x10 ? "0" : "") + Math.round(val).toString(16);
+}
+exports.getColorComponent = getColorComponent;
+
+function getARGBHexWithOpacity(color, opacity = 1) {
+	if (color == null) {
+		return "00000000";
+	}
+	return getColorComponent(color.a * opacity) + getColorComponent(color.r) + getColorComponent(color.g) + getColorComponent(color.b);
+}
+exports.getARGBHexWithOpacity = getARGBHexWithOpacity;
+
+function getRGBHex(color) {
+	if (color == null) {
+		return "000000";
+	}
+	return getColorComponent(color.r) + getColorComponent(color.g) + getColorComponent(color.b);
+}
+exports.getRGBHex = getRGBHex;
+
+function delay(t) {
+	return new Promise(f => setTimeout(f, t));
+}
+exports.delay = delay;
+
+function buildMap(arr, value = true) {
+	return arr.reduce((o, s) => (o[s] = value, o), {});
+}
+exports.buildMap = buildMap;
+
+function getRelPath(file, ctx) {
+	if (!file) {
+		return "";
+	}
+	// this expects a url format like: 'blob:/blob-1/filepath/etc/filename.ext
+	let o = /:\/.+?\/(.+)$/.exec(file.url || "");
+	if (!o || !o[1]) {
+		ctx && ctx.log.note(`Unable to parse relative path from URL ('${file.url}')`);
+		return file.name;
+	}
+	return o[1];
+}
+exports.getRelPath = getRelPath;
+
+function cleanPath(path) {
+	// remove bad chars & leading or trailing /
+	return path.replace(/^\/|\/$|[\\:*?"<>|#]+/g, '');
+}
+exports.cleanPath = cleanPath;
+
+function cleanCustomCode(code) {
+	// remove trailing spaces, commas, or semi-colons
+	return code.replace(/[\s,;]+$/g, '');
+}
+exports.cleanCustomCode = cleanCustomCode;
+
+function getParamList(arr) {
+	let str = '';
+	arr.forEach(o => {
+		if (o) {
+			str += o;
+		}
+	});
+	return str;
+}
+exports.getParamList = getParamList;
+
+function getParamDelta(defaultParams, params) {
+	// Compares an array of params to an array of default params,
+	// and returns a new array containing only the entries that differ,
+	// or null if there is no difference.
+	let delta = null;
+	for (let i = 0; i < params.length; i++) {
+		if (defaultParams[i] === params[i]) {
+			continue;
+		}
+		if (delta === null) {
+			delta = [];
+		}
+		delta.push(params[i]);
+	}
+	return delta;
+}
+exports.getParamDelta = getParamDelta;
+
+function escapeString(str) {
+	return str.replace(/(['\\$])/g, '\\$1') // escaped characters
+	.replace(/\n/g, '\\n'); // line breaks
+}
+exports.escapeString = escapeString;
+
+function getSelectedItem(selection) {
+	return selection.items.length === 1 ? selection.items[0] : null;
+}
+exports.getSelectedItem = getSelectedItem;
+
+function enumName(enumeration, value) {
+	for (let [k, v] of Object.entries(enumeration)) {
+		if (v == value) {
+			return k;
+		}
+	}
+	return "";
+}
+exports.enumName = enumName;
+
+function getHash(str) {
+	let hash = 0;
+	for (let i = 0; i < str.length; ++i) {
+		// Original fn: h = c + (h << 6) + (h << 16) - h
+		// Idk if the bit version or multiply version is faster, it probably doesn't matter
+		hash = hash * 65599 + str.charCodeAt(i) | 0; // Prime multiply, add character to hash, convert to int
+	}
+	return hash;
+}
+exports.getHash = getHash;
+
+function getExportAllMessage(count, total, noun) {
+	let s = total === 1 ? '' : 's';
+	if (total === 0) {
+		return `No ${noun}s found to export`;
+	}
+	if (count === total) {
+		return `Exported ${count} ${noun}${s}`;
+	}
+	if (count > 0) {
+		return `Exported ${count} of ${total} ${noun}${s}`;
+	}
+	return `Failed to export ${total} ${noun}${s}`;
+}
+exports.getExportAllMessage = getExportAllMessage;
+
+function getCmdKeyStr() {
+	return os.platform() === "darwin" ? "Cmd" : "Ctrl";
+}
+exports.getCmdKeyStr = getCmdKeyStr;
+
+function almostEqual(v0, v1, d = 0.01) {
+	return Math.abs(v1 - v0) < d;
+}
+exports.almostEqual = almostEqual;
+
+function joinValues(arr, delimiter = ", ") {
+	return arr.filter(n => n != null && n !== "").join(delimiter);
+}
+exports.joinValues = joinValues;
+
+function isIdentityTransform(o) {
+	// unused.
+	return o.a === 1 && o.b === 0 && o.c === 0 && o.d === 1 && o.e === 0 && o.f === 0;
+}
+
+/***/ }),
+
+/***/ "./src/version.js":
+/*!************************!*\
+  !*** ./src/version.js ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+const app = __webpack_require__(/*! application */ "application");
+const { alert } = __webpack_require__(/*! ./ui/alert */ "./src/ui/alert.jsx");
+
+// Update for new builds:
+exports.version = "4.0.0";
+exports.debug = false;
+exports.xdVersionRequired = 42; // the actual minimum XD version required to run the plugin.
+
+// Calculated:
+exports.xdVersion = parseInt(app.version);
+exports.xdVersionOk = exports.xdVersion >= exports.xdVersionRequired;
+exports.label = exports.debug ? 'DEBUG' : 'Release';
+
+// Methods:
+function checkXDVersion() {
+	if (exports.xdVersionOk) {
+		return true;
+	}
+	alert(`XD to Flutter plugin (v${exports.version}) requires Adobe XD version ` + `${exports.xdVersionRequired} or higher.` + `<br><br>Current version is ${app.version}. Please upgrade.`);
+	return false;
+}
+exports.checkXDVersion = checkXDVersion;
+
+/***/ }),
+
+/***/ "application":
+/*!******************************!*\
+  !*** external "application" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("application");
+
+/***/ }),
+
+/***/ "assets":
+/*!*************************!*\
+  !*** external "assets" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("assets");
+
+/***/ }),
+
+/***/ "clipboard":
+/*!****************************!*\
+  !*** external "clipboard" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("clipboard");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("os");
+
+/***/ }),
+
+/***/ "scenegraph":
+/*!*****************************!*\
+  !*** external "scenegraph" ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("scenegraph");
+
+/***/ }),
+
+/***/ "uxp":
+/*!**********************!*\
+  !*** external "uxp" ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("uxp");
+
+/***/ })
+
+/******/ });
+//# sourceMappingURL=main.js.map
