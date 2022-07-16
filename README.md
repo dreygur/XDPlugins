@@ -21,7 +21,6 @@ Plugins were downloaded by [@khanjanny](https://twitter.com/reboot_ex)
 __Reference:__
 * [Packaging XD plugin](https://developer.adobe.com/xd/uxp/distribution/packaging-your-plugin/)
 
-
 ## Here is the list of plugins I currently have:
 
 - [LTR to RTL by Alon Gruss](LTR%20to%20RTL%20by%20Alon%20Gruss)
