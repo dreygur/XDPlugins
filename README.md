@@ -25,7 +25,7 @@ copy-paste the folders of the plugins you want directly to the developer folder(
 Note: just copy-paste the plugins you want. don't need plugin folder.
 Reference:https://www.reddit.com/r/GenP/comments/14slscr/i_think_i_found_a_fix_for_adobe_xd_plugins/
 
-The above fix is suggested by (@brucefuqiming)[https://github.com/brucefuqiming]
+The above fix is suggested by [@brucefuqiming](https://github.com/brucefuqiming)
 
 __Reference:__
 * [Packaging XD plugin](https://developer.adobe.com/xd/uxp/distribution/packaging-your-plugin/)
