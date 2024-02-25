@@ -18,6 +18,15 @@ Plugins were downloaded by [@khanjanny](https://twitter.com/reboot_ex)
 4. Adobe XD opens up, after a little while, asking if you want to install
 5. Install and enjoy
 
+It seems like Adobe patched the latest versions out, preventing "local installations".
+
+Following may solve this problem👇
+copy-paste the folders of the plugins you want directly to the developer folder(in xd you select plugins -> development -> show development folder, something like that). And you're done! No zip and renaming to xdx.
+Note: just copy-paste the plugins you want. don't need plugin folder.
+Reference:https://www.reddit.com/r/GenP/comments/14slscr/i_think_i_found_a_fix_for_adobe_xd_plugins/
+
+The previous fix is suggested by @brucefuqiming
+
 __Reference:__
 * [Packaging XD plugin](https://developer.adobe.com/xd/uxp/distribution/packaging-your-plugin/)
 
